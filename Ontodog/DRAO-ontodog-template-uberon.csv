@@ -1,0 +1,14 @@
+Source ontology term IRI	Source ontology term label	Include in View	User-preferred label	Include all children
+http://purl.obolibrary.org/obo/UBERON_0000062		y	Organ	
+http://purl.obolibrary.org/obo/UBERON_0000104		y	Life cycle	
+http://purl.obolibrary.org/obo/UBERON_0000105		y	Life cycle stage	
+http://purl.obolibrary.org/obo/UBERON_0000178		y	Blood	
+http://purl.obolibrary.org/obo/UBERON_0000479		y	Tissue	
+http://purl.obolibrary.org/obo/UBERON_0000948		y	Heart	
+http://purl.obolibrary.org/obo/UBERON_0000955		y	Brain	
+http://purl.obolibrary.org/obo/UBERON_0001033		y	Gustatory system	
+http://purl.obolibrary.org/obo/UBERON_0001474		y	Bone	
+http://purl.obolibrary.org/obo/UBERON_0001911		y	Mammary gland	
+http://purl.obolibrary.org/obo/UBERON_0002107		y	Liver	
+http://purl.obolibrary.org/obo/UBERON_0002405		y	Immune system	
+http://purl.obolibrary.org/obo/UBERON_0004907		y	Lower digestive tract	

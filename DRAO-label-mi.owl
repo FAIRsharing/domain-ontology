@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+
+xmlns:p_wmo3sm3p="http://www.fairsharing.org/ontology/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:obo="http://purl.obolibrary.org/obo/"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_0000">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Molecular interaction</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_0074">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Mutation analysis</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_0093">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Protein sequence identification</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_0118">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Mutation</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_0208">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Genetic interaction</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_0328">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Small molecule</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_0414">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Enzymatic reaction</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_0914">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Functional association</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_0964">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Infared spectroscopy</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_0966">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Ultraviolet-visible spectroscopy</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_1241">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Sequence variant</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_2025">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Molecular weight</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_2030">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Isoelectric point</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_2190">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Long non-coding ribonucleic acid (lncRNA)</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/MI_2231">
+		<p_wmo3sm3p:DRAO_0000001 xml:lang="en">Co-expression</p_wmo3sm3p:DRAO_0000001>
+	</rdf:Description>
+
+
+	<owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/DRAO-label-mi.owl"/>
+</rdf:RDF>

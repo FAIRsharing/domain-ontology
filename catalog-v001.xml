@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/DRAO-manual.owl" uri="DRAO-manual.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-omp.owl" uri="DRAO-subset-omp.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-ncit.owl" uri="DRAO-subset-ncit.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-mi.owl" uri="DRAO-subset-mi.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-mamo.owl" uri="DRAO-subset-mamo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-sbo.owl" uri="DRAO-subset-sbo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-omp.owl" uri="DRAO-label-omp.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-ncit.owl" uri="DRAO-label-ncit.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-mi.owl" uri="DRAO-label-mi.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-mamo.owl" uri="DRAO-label-mamo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-aero.owl" uri="DRAO-label-aero.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-chebi.owl" uri="DRAO-label-chebi.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-cheminf.owl" uri="DRAO-label-cheminf.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-chmo.owl" uri="DRAO-label-chmo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-clo.owl" uri="DRAO-label-clo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-cl.owl" uri="DRAO-label-cl.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-cmo.owl" uri="DRAO-label-cmo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-doid.owl" uri="DRAO-label-doid.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-dron.owl" uri="DRAO-label-dron.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-edam.owl" uri="DRAO-label-edam.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-efo.owl" uri="DRAO-label-efo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-envo.owl" uri="DRAO-label-envo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-eo.owl" uri="DRAO-label-eo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-ero.owl" uri="DRAO-label-ero.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-fbbi.owl" uri="DRAO-label-fbbi.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-fbcv.owl" uri="DRAO-label-fbcv.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-fma.owl" uri="DRAO-label-fma.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-go.owl" uri="DRAO-label-go.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-hp.owl" uri="DRAO-label-hp.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-iao.owl" uri="DRAO-label-iao.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-idomal.owl" uri="DRAO-label-idomal.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-ido.owl" uri="DRAO-label-ido.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-mfoem.owl" uri="DRAO-label-mfoem.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-mod.owl" uri="DRAO-label-mod.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-mp.owl" uri="DRAO-label-mp.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-ms.owl" uri="DRAO-label-ms.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-ncbitaxon.owl" uri="DRAO-label-ncbitaxon.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-oae.owl" uri="DRAO-label-oae.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-obcs.owl" uri="DRAO-label-obcs.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-obi.owl" uri="DRAO-label-obi.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-ogi.owl" uri="DRAO-label-ogi.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-ogms.owl" uri="DRAO-label-ogms.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-omit.owl" uri="DRAO-label-omit.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-pato.owl" uri="DRAO-label-pato.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-po.owl" uri="DRAO-label-po.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-pr.owl" uri="DRAO-label-pr.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-sio.owl" uri="DRAO-label-sio.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-so.owl" uri="DRAO-label-so.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-stato.owl" uri="DRAO-label-stato.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-swo.owl" uri="DRAO-label-swo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-uberon.owl" uri="DRAO-label-uberon.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-uo.owl" uri="DRAO-label-uo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-vario.owl" uri="DRAO-label-vario.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-label-vo.owl" uri="DRAO-label-vo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-aero.owl" uri="DRAO-subset-aero.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-chebi.owl" uri="DRAO-subset-chebi.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-cheminf.owl" uri="DRAO-subset-cheminf.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-chmo.owl" uri="DRAO-subset-chmo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-clo.owl" uri="DRAO-subset-clo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-cl.owl" uri="DRAO-subset-cl.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-cmo.owl" uri="DRAO-subset-cmo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-doid.owl" uri="DRAO-subset-doid.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-dron.owl" uri="DRAO-subset-dron.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-edam.owl" uri="DRAO-subset-edam.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-efo.owl" uri="DRAO-subset-efo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-envo.owl" uri="DRAO-subset-envo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-eo.owl" uri="DRAO-subset-eo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-ero.owl" uri="DRAO-subset-ero.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-fbbi.owl" uri="DRAO-subset-fbbi.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-fbcv.owl" uri="DRAO-subset-fbcv.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-fma.owl" uri="DRAO-subset-fma.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-go.owl" uri="DRAO-subset-go.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-hp.owl" uri="DRAO-subset-hp.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-iao.owl" uri="DRAO-subset-iao.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-idomal.owl" uri="DRAO-subset-idomal.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-ido.owl" uri="DRAO-subset-ido.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-mfoem.owl" uri="DRAO-subset-mfoem.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-mod.owl" uri="DRAO-subset-mod.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-mp.owl" uri="DRAO-subset-mp.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-ms.owl" uri="DRAO-subset-ms.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-ncbitaxon.owl" uri="DRAO-subset-ncbitaxon.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-oae.owl" uri="DRAO-subset-oae.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-obcs.owl" uri="DRAO-subset-obcs.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-obi.owl" uri="DRAO-subset-obi.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-ogi.owl" uri="DRAO-subset-ogi.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-ogms.owl" uri="DRAO-subset-ogms.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-omit.owl" uri="DRAO-subset-omit.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-pato.owl" uri="DRAO-subset-pato.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-po.owl" uri="DRAO-subset-po.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-pr.owl" uri="DRAO-subset-pr.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-sio.owl" uri="DRAO-subset-sio.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-so.owl" uri="DRAO-subset-so.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-stato.owl" uri="DRAO-subset-stato.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-swo.owl" uri="DRAO-subset-swo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-uberon.owl" uri="DRAO-subset-uberon.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-uo.owl" uri="DRAO-subset-uo.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-vario.owl" uri="DRAO-subset-vario.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.fairsharing.org/ontology/external/DRAO-subset-vo.owl" uri="DRAO-subset-vo.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1519311227104" name="http://www.biosharing.org/biosharingao/biosharingao.owl" uri="DRAO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519311227104" name="http://www.fairsharing.org/ontology/DRAO-inferred.owl" uri="DRAO-inferred.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519311227104" name="http://www.fairsharing.org/ontology/DRAO-manual.owl" uri="DRAO-manual.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1519311227104" name="http://www.fairsharing.org/ontology/external/DRAO-external.owl" uri="DRAO-external.owl"/>
+    </group>
+</catalog>

@@ -1,0 +1,14 @@
+Source ontology term IRI	Source ontology term label	Include in View	User-preferred label	Include all children											Source ontology term IRI	Source ontology term label	Include in View	User-preferred label	Include all children
+http://purl.obolibrary.org/obo/PATO_0000018	fluorescence	y	Fluorescence												http://purl.obolibrary.org/obo/PATO_0000018		y	Fluorescence	
+http://purl.obolibrary.org/obo/PATO_0000043	flavor	y	Flavor												http://purl.obolibrary.org/obo/PATO_0000043		y	Flavor	
+http://purl.obolibrary.org/obo/PATO_0000049	intensity	y	Intensity												http://purl.obolibrary.org/obo/PATO_0000049		y	Intensity	
+http://purl.obolibrary.org/obo/PATO_0000051	morphology	y	Morphology												http://purl.obolibrary.org/obo/PATO_0000051		y	Morphology	
+http://purl.obolibrary.org/obo/PATO_0000052	shape	y	Shape												http://purl.obolibrary.org/obo/PATO_0000052		y	Shape	
+http://purl.obolibrary.org/obo/PATO_0000058	odor	y	Odor												http://purl.obolibrary.org/obo/PATO_0000058		y	Odor	
+http://purl.obolibrary.org/obo/PATO_0000141	structure	y	Structure												http://purl.obolibrary.org/obo/PATO_0000141		y	Structure	
+http://purl.obolibrary.org/obo/PATO_0001415	morbidity	y	Morbidity												http://purl.obolibrary.org/obo/PATO_0001415		y	Morbidity	
+http://purl.obolibrary.org/obo/PATO_0001884	hydrophobicity	y	Hydrophobicity												http://purl.obolibrary.org/obo/PATO_0001884		y	Hydrophobicity	
+http://purl.obolibrary.org/obo/PATO_0001886	hydrophilicity	y	Hydrophilicity												http://purl.obolibrary.org/obo/PATO_0001886		y	Hydrophilicity	
+http://purl.obolibrary.org/obo/PATO_0001993	multicellular	y	Multicellular												http://purl.obolibrary.org/obo/PATO_0001993		y	Multicellular	
+http://purl.obolibrary.org/obo/PATO_0002070	affinity	y	Affinity												http://purl.obolibrary.org/obo/PATO_0002070		y	Affinity	
+http://purl.obolibrary.org/obo/PATO_0002146	virulence	y	Virulence												http://purl.obolibrary.org/obo/PATO_0002146		y	Virulence	
