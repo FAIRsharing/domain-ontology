@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+
+xmlns:p_g9gq8i3v="http://www.fairsharing.org/ontology/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:obo="http://purl.obolibrary.org/obo/"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000101">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Transposable element</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Sequence feature</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000112">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Primer</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000147">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Exon</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000149">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Contig</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000150">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Sequencing read</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000162">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Splice site</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000167">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Promoter</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000178">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Operon</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000180">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Retrotransposon</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000188">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Intron</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000203">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Untranslated region (UTR)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000234">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Messenger RNA (mRNA)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000239">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Flanking region</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000243">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Internal ribosome entry site (IRES)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000253">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Transfer RNA (tRNA)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000276">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Micro RNA (miRNA)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000289">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Microsatellite</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000312">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Experimentally determined</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000316">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Coding sequence (CDS)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000324">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Sequence tag</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000330">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Conserved region</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000336">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Pseudogene</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000371">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Conjugative transposon</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000409">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Binding site</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000418">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Signal peptide</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000436">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Autonomously replicating sequence (ARS)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000591">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Pseudoknot</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000603">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Group II intron</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000646">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Small interfering RNA (siRNA)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000655">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Non-coding RNA (ncRNA)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000667">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Insertion</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Transcript</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000694">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Single nucleotide polymorphism (SNP)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000704">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Gene</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000705">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Tandem repeat</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000737">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Mitochondrial sequence</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000740">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Plastid sequence</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000745">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Chloroplast sequence</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000756">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Complementary DNA (cDNA)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000771">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Quantitative trait loci (QTL)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000772">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Genomic island</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000857">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Homologous</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000858">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Orthologous</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000859">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Paralogous</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000870">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Trans spliced</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000934">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Micro RNA (miRNA) target site</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000973">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Insertion sequence</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001000">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">16S rRNA</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001006">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Prophage</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001007">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Cryptic prophage</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001021">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Chromosome breakpoint</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001023">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Allele</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001026">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Genome</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001037">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Mobile genetic element</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001041">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Viral sequence</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001059">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Sequence alteration</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001067">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Polypeptide motif</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001244">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Pre-miRNA (pre-microRNA)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001505">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Reference genome</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001877">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Long non-coding RNA (lncRNA)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001956">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Protease site</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0002031">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Short Hairpin RNA (shRNA)</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0002096">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Short tandem repeat (STR) variation</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0005836">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Regulatory region</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0005851">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Gene array</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_1000008">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Point mutation</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_1000032">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Indel</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_1000035">
+		<p_g9gq8i3v:DRAO_0000001 xml:lang="en">Nucleotide duplication</p_g9gq8i3v:DRAO_0000001>
+	</rdf:Description>
+
+
+	<owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/DRAO-label-so.owl"/>
+</rdf:RDF>

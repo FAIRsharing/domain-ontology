@@ -1,0 +1,8 @@
+Source ontology term IRI	Source ontology term label	Include in View	User-preferred label	Include all children
+http://semanticscience.org/resource/SIO_000398		y	Nurse	
+http://semanticscience.org/resource/SIO_000983		y	Gene-disease association	
+http://semanticscience.org/resource/SIO_000993		y	Chemical-disease association	
+http://semanticscience.org/resource/SIO_000998		y	Literature curation	
+http://semanticscience.org/resource/SIO_001008		y	Toxicity	
+http://semanticscience.org/resource/SIO_001257		y	Chemical-gene association	
+http://semanticscience.org/resource/SIO_010423		y	Target	

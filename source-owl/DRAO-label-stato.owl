@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+
+xmlns:p_rnit3uzo="http://www.fairsharing.org/ontology/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:obo="http://purl.obolibrary.org/obo/"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/STATO_0000254">
+		<p_rnit3uzo:DRAO_0000001 xml:lang="en">Allele frequency</p_rnit3uzo:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/STATO_0000091">
+		<p_rnit3uzo:DRAO_0000001 xml:lang="en">Genome-wide association study (GWAS)</p_rnit3uzo:DRAO_0000001>
+	</rdf:Description>
+
+
+	<owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/DRAO-label-stato.owl"/>
+</rdf:RDF>

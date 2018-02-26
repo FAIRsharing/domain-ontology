@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY ontology "http://www.fairsharing.org/ontology/" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY fairsharing "http://www.fairsharing.org/fairsharing/" >
+    <!ENTITY fairsharingao "http://www.biosharing.org/fairsharingao/" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.biosharing.org/biosharingao/biosharingao.owl#"
+     xml:base="http://www.biosharing.org/biosharingao/biosharingao.owl"
+     xmlns:fairsharing="http://www.fairsharing.org/fairsharing/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:fairsharingao="http://www.biosharing.org/fairsharingao/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:ontology="http://www.fairsharing.org/ontology/">
+    <owl:Ontology rdf:about="&ontology;DRAO.owl">
+        <rdfs:comment>The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO.
+
+Created by Allyson L. Lister, Peter McQuilton, Alejandra Gonzalez-Beltran, Philippe Rocca-Serra, Milo Thurston, Massimiliano Izzo, Susanna-Assunta Sansone
+
+Originally developed for use within FAIRsharing.org
+
+Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), https://creativecommons.org/licenses/by-sa/4.0/</rdfs:comment>
+        <owl:imports rdf:resource="&ontology;DRAO-manual.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-external.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-aero.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-chebi.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-cheminf.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-chmo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-cl.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-clo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-cmo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-doid.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-dron.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-edam.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-efo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-envo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-eo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-ero.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-fbbi.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-fbcv.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-fma.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-go.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-hp.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-iao.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-ido.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-idomal.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-mamo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-mfoem.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-mi.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-mod.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-mp.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-ms.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-ncbitaxon.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-ncit.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-oae.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-obcs.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-obi.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-ogi.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-ogms.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-omit.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-omp.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-pato.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-po.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-pr.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-sio.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-so.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-stato.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-swo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-uberon.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-uo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-vario.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-vo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-aero.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-chebi.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-cheminf.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-chmo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-cl.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-clo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-cmo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-doid.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-dron.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-edam.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-efo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-envo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-eo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-ero.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-fbbi.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-fbcv.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-fma.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-go.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-hp.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-iao.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-ido.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-idomal.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-mamo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-mfoem.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-mi.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-mod.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-mp.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-ms.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-ncbitaxon.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-ncit.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-oae.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-obcs.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-obi.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-ogi.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-ogms.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-omit.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-omp.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-pato.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-po.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-pr.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-sbo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-sio.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-so.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-stato.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-swo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-uberon.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-uo.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-vario.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-vo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118"/>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/DRAO_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="&ontology;DRAO_0000001">
+        <rdfs:label xml:lang="en">FAIRsharing alternative term</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000118"/>
+    </owl:AnnotationProperty>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

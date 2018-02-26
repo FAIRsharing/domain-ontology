@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+
+xmlns:p_i3uy9c9e="http://www.fairsharing.org/ontology/"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:obo="http://purl.obolibrary.org/obo/"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0080001">
+		<p_i3uy9c9e:DRAO_0000001 xml:lang="en">Bone disease</p_i3uy9c9e:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_12365">
+		<p_i3uy9c9e:DRAO_0000001 xml:lang="en">Malaria</p_i3uy9c9e:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_12849">
+		<p_i3uy9c9e:DRAO_0000001 xml:lang="en">Autistic disorder</p_i3uy9c9e:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_14330">
+		<p_i3uy9c9e:DRAO_0000001 xml:lang="en">Parkinson's disease</p_i3uy9c9e:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_162">
+		<p_i3uy9c9e:DRAO_0000001 xml:lang="en">Cancer</p_i3uy9c9e:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1826">
+		<p_i3uy9c9e:DRAO_0000001 xml:lang="en">Epilepsy</p_i3uy9c9e:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_302">
+		<p_i3uy9c9e:DRAO_0000001 xml:lang="en">Substance abuse</p_i3uy9c9e:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_557">
+		<p_i3uy9c9e:DRAO_0000001 xml:lang="en">Kidney disease</p_i3uy9c9e:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_93">
+		<p_i3uy9c9e:DRAO_0000001 xml:lang="en">Language disorder</p_i3uy9c9e:DRAO_0000001>
+	</rdf:Description>
+
+
+	<owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/DRAO-label-doid.owl"/>
+</rdf:RDF>

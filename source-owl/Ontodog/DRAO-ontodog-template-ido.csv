@@ -1,0 +1,5 @@
+Source ontology term IRI	Source ontology term label	Include in View	User-preferred label	Include all children
+http://purl.obolibrary.org/obo/IDO_0000526		y	Parasite	
+http://purl.obolibrary.org/obo/IDO_0000528		y	Pathogen	
+http://purl.obolibrary.org/obo/IDO_0000550		y	Exotoxin	
+http://purl.obolibrary.org/obo/IDO_0000630		y	Nosocomial infection	

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+
+xmlns:p_cndo5hcf="http://www.geneontology.org/formats/oboInOwl#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:obo="http://purl.obolibrary.org/obo/"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+	<owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000104">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000105">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000178">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000479">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000948">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000955">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001033">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001474">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001911">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002405">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004907">
+		<p_cndo5hcf:inSubset xml:lang="en">FAIRsharing</p_cndo5hcf:inSubset>
+	</rdf:Description>
+
+
+	<owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/DRAO-subset-uberon.owl"/>
+</rdf:RDF>

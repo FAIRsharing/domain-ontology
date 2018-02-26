@@ -1,0 +1,4 @@
+Source ontology term IRI	Source ontology term label	Include in View	User-preferred label	Include all children
+http://semanticscience.org/resource/CHEMINF_000106	systematic name	y	Systematic name	
+http://semanticscience.org/resource/CHEMINF_000123	chemical descriptor	y	Chemical descriptor	
+http://semanticscience.org/resource/CHEMINF_000251	logP descriptor	y	logP	

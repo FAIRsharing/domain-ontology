@@ -1,0 +1,41 @@
+Source ontology term IRI	Source ontology term label	Include In View	User-preferred label	Include all children
+http://purl.obolibrary.org/obo/OMIT_0003072		y	Biotransformation	
+http://purl.obolibrary.org/obo/OMIT_0003303		y	Breeding	
+http://purl.obolibrary.org/obo/OMIT_0005506		y	DNA damage	
+http://purl.obolibrary.org/obo/OMIT_0005718		y	Economics	
+http://purl.obolibrary.org/obo/OMIT_0005842		y	Electrophysiology	
+http://purl.obolibrary.org/obo/OMIT_0006299		y	Biological evolution	
+http://purl.obolibrary.org/obo/OMIT_0006985		y	Gene frequency	
+http://purl.obolibrary.org/obo/OMIT_0006989		y	Patient care	
+http://purl.obolibrary.org/obo/OMIT_0007580		y	Hematopoiesis	
+http://purl.obolibrary.org/obo/OMIT_0008240		y	Immunity	
+http://purl.obolibrary.org/obo/OMIT_0008430		y	Insecticide resistance	
+http://purl.obolibrary.org/obo/OMIT_0008490		y	Interferon	
+http://purl.obolibrary.org/obo/OMIT_0009360		y	Major histocompatibility complex (MHC)	
+http://purl.obolibrary.org/obo/OMIT_0010452		y	Nesting behavior	
+http://purl.obolibrary.org/obo/OMIT_0012031		y	Poly A	
+http://purl.obolibrary.org/obo/OMIT_0012123		y	Population dynamics	
+http://purl.obolibrary.org/obo/OMIT_0012758		y	Radiation	
+http://purl.obolibrary.org/obo/OMIT_0012761		y	Radiation effects	
+http://purl.obolibrary.org/obo/OMIT_0014521		y	Teaching material	
+http://purl.obolibrary.org/obo/OMIT_0014667		y	Thermodynamics	
+http://purl.obolibrary.org/obo/OMIT_0015994		y	Reproducibility of results	
+http://purl.obolibrary.org/obo/OMIT_0018868		y	Founder effect	
+http://purl.obolibrary.org/obo/OMIT_0019288		y	Multimedia	
+http://purl.obolibrary.org/obo/OMIT_0019939		y	Benchmarking	
+http://purl.obolibrary.org/obo/OMIT_0020804		y	Quantitative structure-activity relationship (QSAR)	
+http://purl.obolibrary.org/obo/OMIT_0021245		y	Polyadenylation	
+http://purl.obolibrary.org/obo/OMIT_0022673		y	Nanotechnology	
+http://purl.obolibrary.org/obo/OMIT_0023533		y	Regenerative medicine	
+http://purl.obolibrary.org/obo/OMIT_0025752		y	Killer-cell Immunoglobulin-like Receptors (KIR)	
+http://purl.obolibrary.org/obo/OMIT_0025926		y	Mitochondrial genome	
+http://purl.obolibrary.org/obo/OMIT_0026082		y	Metagenome	
+http://purl.obolibrary.org/obo/OMIT_0026382		y	Genetic Phenomena	
+http://purl.obolibrary.org/obo/OMIT_0026595		y	Diffusion tensor imaging	
+http://purl.obolibrary.org/obo/OMIT_0026885		y	High-throughput screening assay	
+http://purl.obolibrary.org/obo/OMIT_0026906		y	Workflow	
+http://purl.obolibrary.org/obo/OMIT_0026913		y	Laboratory automation	
+http://purl.obolibrary.org/obo/OMIT_0026947		y	Electronic health record	
+http://purl.obolibrary.org/obo/OMIT_0028181		y	Crowdsourcing	
+http://purl.obolibrary.org/obo/OMIT_0028415		y	Intrinsically disordered proteins	
+http://purl.obolibrary.org/obo/OMIT_0028630		y	Non-randomized controlled trials	
