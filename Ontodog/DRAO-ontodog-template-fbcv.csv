@@ -1,8 +1,0 @@
-Source ontology term IRI	Source ontology term label	Include in View	User-preferred label	Include all children
-http://purl.obolibrary.org/obo/FBcv_0000155		y	Single balancer	
-http://purl.obolibrary.org/obo/FBcv_0000623		y	Enhancer	
-http://purl.obolibrary.org/obo/FBcv_0003035		y	Proteome	
-http://purl.obolibrary.org/obo/FBcv_0003036		y	Interactome	
-http://purl.obolibrary.org/obo/FBcv_0003039		y	Chemical screen	
-http://purl.obolibrary.org/obo/FBcv_0003040		y	Gene model annotation	
-http://purl.obolibrary.org/obo/FBcv_0003195		y	Cap Analysis Gene Expression (CAGE)	
