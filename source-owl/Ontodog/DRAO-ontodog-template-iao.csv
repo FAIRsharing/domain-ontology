@@ -1,0 +1,304 @@
+Source ontology term IRI	Source ontology term label	Include in View	User-preferred label	Include all children
+http://purl.obolibrary.org/obo/BFO_0000001	entity			
+http://purl.obolibrary.org/obo/BFO_0000002	continuant			
+http://purl.obolibrary.org/obo/BFO_0000003	occurrent			
+http://purl.obolibrary.org/obo/BFO_0000004	independent continuant			
+http://purl.obolibrary.org/obo/BFO_0000006	spatial region			
+http://purl.obolibrary.org/obo/BFO_0000008	temporal region			
+http://purl.obolibrary.org/obo/BFO_0000009	two-dimensional spatial region			
+http://purl.obolibrary.org/obo/BFO_0000011	spatiotemporal region			
+http://purl.obolibrary.org/obo/BFO_0000015	process			
+http://purl.obolibrary.org/obo/BFO_0000016	disposition			
+http://purl.obolibrary.org/obo/BFO_0000017	realizable entity			
+http://purl.obolibrary.org/obo/BFO_0000018	zero-dimensional spatial region			
+http://purl.obolibrary.org/obo/BFO_0000019	quality			
+http://purl.obolibrary.org/obo/BFO_0000020	specifically dependent continuant			
+http://purl.obolibrary.org/obo/BFO_0000023	role			
+http://purl.obolibrary.org/obo/BFO_0000024	fiat object part			
+http://purl.obolibrary.org/obo/BFO_0000026	one-dimensional spatial region			
+http://purl.obolibrary.org/obo/BFO_0000027	object aggregate			
+http://purl.obolibrary.org/obo/BFO_0000028	three-dimensional spatial region			
+http://purl.obolibrary.org/obo/BFO_0000029	site			
+http://purl.obolibrary.org/obo/BFO_0000030	object			
+http://purl.obolibrary.org/obo/BFO_0000031	generically dependent continuant			
+http://purl.obolibrary.org/obo/BFO_0000034	function			
+http://purl.obolibrary.org/obo/BFO_0000035	process boundary			
+http://purl.obolibrary.org/obo/BFO_0000038	one-dimensional temporal region			
+http://purl.obolibrary.org/obo/BFO_0000040	material entity			
+http://purl.obolibrary.org/obo/BFO_0000050	part of			
+http://purl.obolibrary.org/obo/BFO_0000051	has part			
+http://purl.obolibrary.org/obo/BFO_0000054	realized in			
+http://purl.obolibrary.org/obo/BFO_0000055	realizes			
+http://purl.obolibrary.org/obo/BFO_0000066	occurs in			
+http://purl.obolibrary.org/obo/BFO_0000067	contains process			
+http://purl.obolibrary.org/obo/BFO_0000140	continuant fiat boundary			
+http://purl.obolibrary.org/obo/BFO_0000141	immaterial entity			
+http://purl.obolibrary.org/obo/BFO_0000142	one-dimensional continuant fiat boundary			
+http://purl.obolibrary.org/obo/BFO_0000144	process profile			
+http://purl.obolibrary.org/obo/BFO_0000145	relational quality			
+http://purl.obolibrary.org/obo/BFO_0000146	two-dimensional continuant fiat boundary			
+http://purl.obolibrary.org/obo/BFO_0000147	zero-dimensional continuant fiat boundary			
+http://purl.obolibrary.org/obo/BFO_0000148	zero-dimensional temporal region			
+http://purl.obolibrary.org/obo/BFO_0000179	BFO OWL specification label			
+http://purl.obolibrary.org/obo/BFO_0000180	BFO CLIF specification label			
+http://purl.obolibrary.org/obo/BFO_0000182	history			
+http://purl.obolibrary.org/obo/GAZ_00000448	geographic location			
+http://purl.obolibrary.org/obo/IAO_0000001	conditional specification			
+http://purl.obolibrary.org/obo/IAO_0000003	measurement unit label			
+http://purl.obolibrary.org/obo/IAO_0000004	has measurement value			
+http://purl.obolibrary.org/obo/IAO_0000005	objective specification			
+http://purl.obolibrary.org/obo/IAO_0000006	narrative object			
+http://purl.obolibrary.org/obo/IAO_0000007	action specification			
+http://purl.obolibrary.org/obo/IAO_0000009	datum label			
+http://purl.obolibrary.org/obo/IAO_0000010	software			
+http://purl.obolibrary.org/obo/IAO_0000013	journal article	y	Journal article	
+http://purl.obolibrary.org/obo/IAO_0000015	information carrier			
+http://purl.obolibrary.org/obo/IAO_0000017	model number			
+http://purl.obolibrary.org/obo/IAO_0000025	programming language			
+http://purl.obolibrary.org/obo/IAO_0000027	data item			
+http://purl.obolibrary.org/obo/IAO_0000028	symbol			
+http://purl.obolibrary.org/obo/IAO_0000029	numeral			
+http://purl.obolibrary.org/obo/IAO_0000030	information content entity			
+http://purl.obolibrary.org/obo/IAO_0000031	integer numeral			
+http://purl.obolibrary.org/obo/IAO_0000032	scalar measurement datum			
+http://purl.obolibrary.org/obo/IAO_0000033	directive information entity			
+http://purl.obolibrary.org/obo/IAO_0000034	time trigger			
+http://purl.obolibrary.org/obo/IAO_0000037	dot plot			
+http://purl.obolibrary.org/obo/IAO_0000038	graph	y	Graph	
+http://purl.obolibrary.org/obo/IAO_0000039	has measurement unit label			
+http://purl.obolibrary.org/obo/IAO_0000055	rule			
+http://purl.obolibrary.org/obo/IAO_0000057	contour plot			
+http://purl.obolibrary.org/obo/IAO_0000064	algorithm	y	Algorithm	
+http://purl.obolibrary.org/obo/IAO_0000065	software interpreter			
+http://purl.obolibrary.org/obo/IAO_0000078	curation status specification			
+http://purl.obolibrary.org/obo/IAO_0000079	density plot			
+http://purl.obolibrary.org/obo/IAO_0000088	report			
+http://purl.obolibrary.org/obo/IAO_0000096	source code module			
+http://purl.obolibrary.org/obo/IAO_0000098	data format specification			
+http://purl.obolibrary.org/obo/IAO_0000100	data set			
+http://purl.obolibrary.org/obo/IAO_0000101	image			
+http://purl.obolibrary.org/obo/IAO_0000102	data about an ontology part			
+http://purl.obolibrary.org/obo/IAO_0000104	plan specification			
+http://purl.obolibrary.org/obo/IAO_0000109	measurement datum			
+http://purl.obolibrary.org/obo/IAO_0000111	editor preferred term			
+http://purl.obolibrary.org/obo/IAO_0000112	example of usage			
+http://purl.obolibrary.org/obo/IAO_0000113	in branch			
+http://purl.obolibrary.org/obo/IAO_0000114	has curation status			
+http://purl.obolibrary.org/obo/IAO_0000115	definition			
+http://purl.obolibrary.org/obo/IAO_0000116	editor note			
+http://purl.obolibrary.org/obo/IAO_0000117	term editor			
+http://purl.obolibrary.org/obo/IAO_0000118	alternative term			
+http://purl.obolibrary.org/obo/IAO_0000119	definition source			
+http://purl.obolibrary.org/obo/IAO_0000129	version number			
+http://purl.obolibrary.org/obo/IAO_0000131	serial number			
+http://purl.obolibrary.org/obo/IAO_0000132	lot number			
+http://purl.obolibrary.org/obo/IAO_0000136	is about			
+http://purl.obolibrary.org/obo/IAO_0000140	setting datum			
+http://purl.obolibrary.org/obo/IAO_0000142	mentions			
+http://purl.obolibrary.org/obo/IAO_0000144	conclusion textual entity			
+http://purl.obolibrary.org/obo/IAO_0000178	material information bearer			
+http://purl.obolibrary.org/obo/IAO_0000179	histogram			
+http://purl.obolibrary.org/obo/IAO_0000180	heatmap			
+http://purl.obolibrary.org/obo/IAO_0000181	Venn diagram			
+http://purl.obolibrary.org/obo/IAO_0000183	dendrogram	y	Dendrogram	
+http://purl.obolibrary.org/obo/IAO_0000184	scatter plot			
+http://purl.obolibrary.org/obo/IAO_0000185	photograph			
+http://purl.obolibrary.org/obo/IAO_0000186	photographic print			
+http://purl.obolibrary.org/obo/IAO_0000219	denotes			
+http://purl.obolibrary.org/obo/IAO_0000221	is quality measurement of			
+http://purl.obolibrary.org/obo/IAO_0000225	obsolescence reason specification			
+http://purl.obolibrary.org/obo/IAO_0000231	has obsolescence reason			
+http://purl.obolibrary.org/obo/IAO_0000232	curator note			
+http://purl.obolibrary.org/obo/IAO_0000233	term tracker item			
+http://purl.obolibrary.org/obo/IAO_0000234	ontology term requester			
+http://purl.obolibrary.org/obo/IAO_0000300	textual entity			
+http://purl.obolibrary.org/obo/IAO_0000301	citation			
+http://purl.obolibrary.org/obo/IAO_0000302	author identification			
+http://purl.obolibrary.org/obo/IAO_0000303	institutional identification			
+http://purl.obolibrary.org/obo/IAO_0000304	caption			
+http://purl.obolibrary.org/obo/IAO_0000305	document title			
+http://purl.obolibrary.org/obo/IAO_0000306	table			
+http://purl.obolibrary.org/obo/IAO_0000307	table of abbreviations			
+http://purl.obolibrary.org/obo/IAO_0000308	figure			
+http://purl.obolibrary.org/obo/IAO_0000309	diagram			
+http://purl.obolibrary.org/obo/IAO_0000310	document			
+http://purl.obolibrary.org/obo/IAO_0000311	publication	y	Publication	
+http://purl.obolibrary.org/obo/IAO_0000312	publication about an investigation			
+http://purl.obolibrary.org/obo/IAO_0000313	patent	y	Patent	
+http://purl.obolibrary.org/obo/IAO_0000314	document part			
+http://purl.obolibrary.org/obo/IAO_0000315	abstract			
+http://purl.obolibrary.org/obo/IAO_0000316	introduction to a publication about an investigation			
+http://purl.obolibrary.org/obo/IAO_0000317	methods section			
+http://purl.obolibrary.org/obo/IAO_0000318	results section			
+http://purl.obolibrary.org/obo/IAO_0000319	discussion section of a publication about an investigation			
+http://purl.obolibrary.org/obo/IAO_0000320	references section			
+http://purl.obolibrary.org/obo/IAO_0000321	author list			
+http://purl.obolibrary.org/obo/IAO_0000322	institution list			
+http://purl.obolibrary.org/obo/IAO_0000323	author contributions section			
+http://purl.obolibrary.org/obo/IAO_0000324	acknowledgements section			
+http://purl.obolibrary.org/obo/IAO_0000325	footnote			
+http://purl.obolibrary.org/obo/IAO_0000326	supplementary material to a document			
+http://purl.obolibrary.org/obo/IAO_0000327	table of contents			
+http://purl.obolibrary.org/obo/IAO_0000328	table of figures			
+http://purl.obolibrary.org/obo/IAO_0000329	running title			
+http://purl.obolibrary.org/obo/IAO_0000330	copyright section			
+http://purl.obolibrary.org/obo/IAO_0000400	cartesian spatial coordinate datum			
+http://purl.obolibrary.org/obo/IAO_0000401	one dimensional cartesian spatial coordinate datum			
+http://purl.obolibrary.org/obo/IAO_0000402	two dimensional cartesian spatial coordinate datum			
+http://purl.obolibrary.org/obo/IAO_0000403	three dimensional cartesian spatial coordinate datum			
+http://purl.obolibrary.org/obo/IAO_0000404	has x coordinate value			
+http://purl.obolibrary.org/obo/IAO_0000405	has z coordinate value			
+http://purl.obolibrary.org/obo/IAO_0000406	has y coordinate value			
+http://purl.obolibrary.org/obo/IAO_0000407	has coordinate unit label			
+http://purl.obolibrary.org/obo/IAO_0000408	length measurement datum			
+http://purl.obolibrary.org/obo/IAO_0000409	denotator type			
+http://purl.obolibrary.org/obo/IAO_0000411	is denotator type			
+http://purl.obolibrary.org/obo/IAO_0000412	imported from			
+http://purl.obolibrary.org/obo/IAO_0000413	is duration of			
+http://purl.obolibrary.org/obo/IAO_0000414	mass measurement datum			
+http://purl.obolibrary.org/obo/IAO_0000415	hypothesis textual entity			
+http://purl.obolibrary.org/obo/IAO_0000416	time measurement datum			
+http://purl.obolibrary.org/obo/IAO_0000417	is quality measured as			
+http://purl.obolibrary.org/obo/IAO_0000418	is quality specification of			
+http://purl.obolibrary.org/obo/IAO_0000419	quality is specified as			
+http://purl.obolibrary.org/obo/IAO_0000422	postal address			
+http://purl.obolibrary.org/obo/IAO_0000424	expand expression to			
+http://purl.obolibrary.org/obo/IAO_0000425	expand assertion to			
+http://purl.obolibrary.org/obo/IAO_0000426	first order logic expression			
+http://purl.obolibrary.org/obo/IAO_0000427	antisymmetric property			
+http://purl.obolibrary.org/obo/IAO_0000429	email address			
+http://purl.obolibrary.org/obo/IAO_0000442	author role			
+http://purl.obolibrary.org/obo/IAO_0000443	data item extraction from journal article			
+http://purl.obolibrary.org/obo/IAO_0000572	documenting	y	Documenting	
+http://purl.obolibrary.org/obo/IAO_0000573	line graph			
+http://purl.obolibrary.org/obo/IAO_0000574	assigning a centrally registered identifier			
+http://purl.obolibrary.org/obo/IAO_0000575	associating information with a centrally registered identifier in its registry			
+http://purl.obolibrary.org/obo/IAO_0000577	centrally registered identifier symbol			
+http://purl.obolibrary.org/obo/IAO_0000578	centrally registered identifier	y	Centrally registered identifier	
+http://purl.obolibrary.org/obo/IAO_0000579	centrally registered identifier registry			
+http://purl.obolibrary.org/obo/IAO_0000580	looking up a centrally registered identifier			
+http://purl.obolibrary.org/obo/IAO_0000581	has time stamp			
+http://purl.obolibrary.org/obo/IAO_0000582	time stamped measurement datum			
+http://purl.obolibrary.org/obo/IAO_0000583	has measurement datum			
+http://purl.obolibrary.org/obo/IAO_0000584	time sampled measurement data set			
+http://purl.obolibrary.org/obo/IAO_0000589	OBO foundry unique label			
+http://purl.obolibrary.org/obo/IAO_0000590	written name			
+http://purl.obolibrary.org/obo/IAO_0000591	software method			
+http://purl.obolibrary.org/obo/IAO_0000592	software module			
+http://purl.obolibrary.org/obo/IAO_0000593	software library			
+http://purl.obolibrary.org/obo/IAO_0000594	software application			
+http://purl.obolibrary.org/obo/IAO_0000595	software script			
+http://purl.obolibrary.org/obo/IAO_0000596	has ID digit count			
+http://purl.obolibrary.org/obo/IAO_0000597	has ID range allocated to			
+http://purl.obolibrary.org/obo/IAO_0000598	has ID policy for			
+http://purl.obolibrary.org/obo/IAO_0000599	has ID prefix			
+http://purl.obolibrary.org/obo/IAO_0000600	elucidation			
+http://purl.obolibrary.org/obo/IAO_0000601	has associated axiom(nl)			
+http://purl.obolibrary.org/obo/IAO_0000602	has associated axiom(fol)			
+http://purl.obolibrary.org/obo/IAO_0000603	is allocated id range			
+http://purl.obolibrary.org/obo/IAO_0000604	retired from use as of			
+http://purl.obolibrary.org/obo/IAO_0000605	abbreviation textual entity			
+http://purl.obolibrary.org/obo/IAO_0000606	abbreviations section			
+http://purl.obolibrary.org/obo/IAO_0000607	author information section			
+http://purl.obolibrary.org/obo/IAO_0000608	author information textual entity			
+http://purl.obolibrary.org/obo/IAO_0000609	author summary section			
+http://purl.obolibrary.org/obo/IAO_0000610	author summary textual entity			
+http://purl.obolibrary.org/obo/IAO_0000611	availability section			
+http://purl.obolibrary.org/obo/IAO_0000612	availability textual entity			
+http://purl.obolibrary.org/obo/IAO_0000613	case report section			
+http://purl.obolibrary.org/obo/IAO_0000614	case report textual entity			
+http://purl.obolibrary.org/obo/IAO_0000615	conclusion section			
+http://purl.obolibrary.org/obo/IAO_0000616	conflict of interest section			
+http://purl.obolibrary.org/obo/IAO_0000617	conflict of interest textual entity			
+http://purl.obolibrary.org/obo/IAO_0000618	consent section			
+http://purl.obolibrary.org/obo/IAO_0000619	consent textual entity			
+http://purl.obolibrary.org/obo/IAO_0000620	ethical approval section			
+http://purl.obolibrary.org/obo/IAO_0000621	ethical approval textual entity			
+http://purl.obolibrary.org/obo/IAO_0000622	figures section			
+http://purl.obolibrary.org/obo/IAO_0000623	funding source declaration section			
+http://purl.obolibrary.org/obo/IAO_0000624	funding source declaration textual entity			
+http://purl.obolibrary.org/obo/IAO_0000625	future directions section			
+http://purl.obolibrary.org/obo/IAO_0000626	future directions textual entity			
+http://purl.obolibrary.org/obo/IAO_0000627	genome announcement section			
+http://purl.obolibrary.org/obo/IAO_0000628	genome announcement textual entity			
+http://purl.obolibrary.org/obo/IAO_0000629	keyword textual entity			
+http://purl.obolibrary.org/obo/IAO_0000630	keywords section			
+http://purl.obolibrary.org/obo/IAO_0000631	study limitations section			
+http://purl.obolibrary.org/obo/IAO_0000632	study limitations textual entity			
+http://purl.obolibrary.org/obo/IAO_0000633	materials section			
+http://purl.obolibrary.org/obo/IAO_0000634	notes section			
+http://purl.obolibrary.org/obo/IAO_0000635	patients section			
+http://purl.obolibrary.org/obo/IAO_0000636	patients textual entity			
+http://purl.obolibrary.org/obo/IAO_0000637	pre-publication history section			
+http://purl.obolibrary.org/obo/IAO_0000638	pre-publication history textual entity			
+http://purl.obolibrary.org/obo/IAO_0000639	related work section			
+http://purl.obolibrary.org/obo/IAO_0000640	related work textual entity			
+http://purl.obolibrary.org/obo/IAO_0000641	requirements section			
+http://purl.obolibrary.org/obo/IAO_0000642	requirements textual entity			
+http://purl.obolibrary.org/obo/IAO_0000643	statistical analysis textual entity			
+http://purl.obolibrary.org/obo/IAO_0000644	statistical analysis section			
+http://purl.obolibrary.org/obo/IAO_0000645	tables section			
+http://purl.obolibrary.org/obo/IAO_0000650	database extract, transform, and load process			
+http://purl.obolibrary.org/obo/IAO_0010000	has axiom label			
+http://purl.obolibrary.org/obo/IAO_0100001	term replaced by			
+http://purl.obolibrary.org/obo/OBI_0000011	planned process			
+http://purl.obolibrary.org/obo/OBI_0000066	investigation			
+http://purl.obolibrary.org/obo/OBI_0000293	has_specified_input			
+http://purl.obolibrary.org/obo/OBI_0000295	is_specified_input_of			
+http://purl.obolibrary.org/obo/OBI_0000299	has_specified_output			
+http://purl.obolibrary.org/obo/OBI_0000312	is_specified_output_of			
+http://purl.obolibrary.org/obo/OBI_0000471	study design execution			
+http://purl.obolibrary.org/obo/OBI_0500000	study design			
+http://purl.obolibrary.org/obo/PATO_0000122	length			
+http://purl.obolibrary.org/obo/PATO_0000125	mass			
+http://purl.obolibrary.org/obo/RO_0000052	inheres in			
+http://purl.obolibrary.org/obo/RO_0000053	bearer of			
+http://purl.obolibrary.org/obo/RO_0000056	participates in			
+http://purl.obolibrary.org/obo/RO_0000057	has participant			
+http://purl.obolibrary.org/obo/RO_0000058	is concretized as			
+http://purl.obolibrary.org/obo/RO_0000059	concretizes			
+http://purl.obolibrary.org/obo/RO_0000079	function of			
+http://purl.obolibrary.org/obo/RO_0000080	quality of			
+http://purl.obolibrary.org/obo/RO_0000081	role of			
+http://purl.obolibrary.org/obo/RO_0000085	has function			
+http://purl.obolibrary.org/obo/RO_0000086	has quality			
+http://purl.obolibrary.org/obo/RO_0000087	has role			
+http://purl.obolibrary.org/obo/RO_0000091	has disposition			
+http://purl.obolibrary.org/obo/RO_0000092	disposition of			
+http://purl.obolibrary.org/obo/RO_0001000	derives from			
+http://purl.obolibrary.org/obo/RO_0001001	derives into			
+http://purl.obolibrary.org/obo/RO_0001015	location of			
+http://purl.obolibrary.org/obo/RO_0001025	located in			
+http://purl.obolibrary.org/obo/RO_0001900	temporal interpretation			
+http://purl.obolibrary.org/obo/RO_0002000	2D boundary of			
+http://purl.obolibrary.org/obo/RO_0002002	has 2D boundary			
+http://purl.obolibrary.org/obo/RO_0002350	member of			
+http://purl.obolibrary.org/obo/RO_0002351	has member			
+http://purl.obolibrary.org/obo/UO_0000001	length unit			
+http://purl.obolibrary.org/obo/UO_0000002	mass unit			
+http://purl.obolibrary.org/obo/UO_0000003	time unit			
+http://www.geneontology.org/formats/oboInOwl#ObsoleteClass	Obsolete Class			
+http://www.geneontology.org/formats/oboInOwl#shorthand	shorthand			
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				

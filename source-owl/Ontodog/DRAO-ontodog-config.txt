@@ -1,0 +1,36 @@
+Ontodog Configuration Notes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+http://ontodog.hegroup.org/
+
+Please note that all external ontologies are listed (each in their
+own sheet) in 
+
+DRAO-ontodog-template.xlsx
+
+The xslx file makes use of functions, which aren't
+always interpreted correctly by Ontodog. Also, Ontodog expects a simple,
+single-sheet CSV. Therefore, before you upload to
+Ontodog, you should export the sheet as a CSV file to remove any
+functions. Each external ontology has its own CSV file in the repo 
+named as
+
+DRAO-ontodog-template-xx.csv
+
+Where "xx" is the standard acronym for that ontology.
+
+Ontodog adds two types of annotations to the classes you specify via the input
+file: inSubset annotations and user-specific alternative terms. 
+Details on this step are available in the README.md for this directory.
+
+EXAMPLE INPUT VALUES FOR ONTODOG FORM
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Input term file CSV: DRAO-ontodog-template-edam.csv
+Output File 1 
+	URI: http://www.fairsharing.org/ontology/external/DRAO-subset-edam.owl
+	Annotation Value: FAIRsharing
+Output File 2
+	URI: http://www.fairsharing.org/ontology/external/DRAO-label-edam.owl
+	Annotation Property URI: http://www.fairsharing.org/ontology/DRAO_0000001
+	Language: English
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+
+xmlns:p_vom0yifs="http://www.geneontology.org/formats/oboInOwl#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:obo="http://purl.obolibrary.org/obo/"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+	<owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
+		<p_vom0yifs:inSubset xml:lang="en">FAIRsharing</p_vom0yifs:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000037070">
+		<p_vom0yifs:inSubset xml:lang="en">FAIRsharing</p_vom0yifs:inSubset>
+	</rdf:Description>
+
+
+	<owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/DRAO-subset-pr.owl"/>
+</rdf:RDF>

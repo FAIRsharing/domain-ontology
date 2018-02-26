@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+
+xmlns:p_0brhxke7="http://www.geneontology.org/formats/oboInOwl#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+ xmlns:obo="http://purl.obolibrary.org/obo/"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+	<owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000101">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000112">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000147">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000149">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000150">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000162">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000167">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000178">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000180">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000188">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000203">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000234">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000239">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000243">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000253">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000276">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000289">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000312">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000316">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000324">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000330">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000336">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000371">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000409">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000418">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000436">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000591">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000603">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000646">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000655">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000667">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000673">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000694">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000704">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000705">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000737">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000740">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000745">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000756">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000771">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000772">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000857">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000858">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000859">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000870">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000934">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000973">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001000">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001006">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001007">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001021">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001023">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001026">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001037">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001041">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001059">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001067">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001244">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001459">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001505">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001877">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001956">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0002031">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0002096">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0005836">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0005851">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_1000008">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_1000032">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_1000035">
+		<p_0brhxke7:inSubset xml:lang="en">FAIRsharing</p_0brhxke7:inSubset>
+	</rdf:Description>
+
+
+	<owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/DRAO-subset-so.owl"/>
+</rdf:RDF>

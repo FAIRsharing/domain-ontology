@@ -1,0 +1,29 @@
+Source ontology term IRI	Source ontology term label	Include In View	User-preferred label	Include all children
+http://www.ebi.ac.uk/efo/EFO_0000269		y	Array design	
+http://www.ebi.ac.uk/efo/EFO_0000319		y	Cardiovascular disease	
+http://www.ebi.ac.uk/efo/EFO_0000336		y	Chromosomal aberration	
+http://www.ebi.ac.uk/efo/EFO_0000400		y	Diabetes mellitus	
+http://www.ebi.ac.uk/efo/EFO_0000487		y	Exposure	
+http://www.ebi.ac.uk/efo/EFO_0000508		y	Genetic disorder	
+http://www.ebi.ac.uk/efo/EFO_0000513		y	Genotype	
+http://www.ebi.ac.uk/efo/EFO_0000546		y	Injury	
+http://www.ebi.ac.uk/efo/EFO_0000727		y	Treatment	
+http://www.ebi.ac.uk/efo/EFO_0000749		y	Comparative genomic hybridization (CGH)	
+http://www.ebi.ac.uk/efo/EFO_0001355		y	Infant	
+http://www.ebi.ac.uk/efo/EFO_0001426		y	Study design	
+http://www.ebi.ac.uk/efo/EFO_0001444		y	Measurement	
+http://www.ebi.ac.uk/efo/EFO_0003843		y	Pain	
+http://www.ebi.ac.uk/efo/EFO_0003890		y	Drug dependence	
+http://www.ebi.ac.uk/efo/EFO_0003935		y	Mental health	
+http://www.ebi.ac.uk/efo/EFO_0004014		y	Deletions	
+http://www.ebi.ac.uk/efo/EFO_0004292		y	Vaccination	
+http://www.ebi.ac.uk/efo/EFO_0004327		y	Electrocardiography	
+http://www.ebi.ac.uk/efo/EFO_0004346		y	Brain imaging	
+http://www.ebi.ac.uk/efo/EFO_0004346		y	Neuroimaging	
+http://www.ebi.ac.uk/efo/EFO_0004426		y	Karyotype	
+http://www.ebi.ac.uk/efo/EFO_0004798		y	Copy number variation	
+http://www.ebi.ac.uk/efo/EFO_0004982		y	Microbiome	
+http://www.ebi.ac.uk/efo/EFO_0005135		y	Genetic strain	
+http://www.ebi.ac.uk/efo/EFO_0007059	germplasm	y	Germplasm	
+http://www.ebi.ac.uk/efo/EFO_0007550		y	High-content screen	
+http://www.orpha.net/ORDO/Orphanet_68380		y	Mitochondrial (mt) disease	
