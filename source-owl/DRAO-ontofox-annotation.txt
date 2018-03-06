@@ -82,10 +82,11 @@ IAO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/IAO_0000013 # Journal article
-http://purl.obolibrary.org/obo/IAO_0000027 # Data item **Required for FBCV, UO and MS**
+http://purl.obolibrary.org/obo/IAO_0000027 # Data item **Required for FBCV, UO and MS hierarchies**
 http://purl.obolibrary.org/obo/IAO_0000038 # Graph
 http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
 http://purl.obolibrary.org/obo/IAO_0000183 # Dendrogram
+http://purl.obolibrary.org/obo/IAO_0000310 # Document **Required for NCIT hierarchy only**
 http://purl.obolibrary.org/obo/IAO_0000311 # Publication
 http://purl.obolibrary.org/obo/IAO_0000313 # Patent
 http://purl.obolibrary.org/obo/IAO_0000572 # Documenting
@@ -1075,7 +1076,8 @@ http://purl.obolibrary.org/obo/PATO_0000051 # Morphology
 http://purl.obolibrary.org/obo/PATO_0000052 # Shape
 http://purl.obolibrary.org/obo/PATO_0000058 # Odor
 http://purl.obolibrary.org/obo/PATO_0000141 # Structure
-http://purl.obolibrary.org/obo/PATO_0001018 # physical quality ** Required for SIO**
+http://purl.obolibrary.org/obo/PATO_0001018 # physical quality ** Required for SIO and AgroVoc in DRAO-manual.owl**
+http://purl.obolibrary.org/obo/PATO_0001021 # energy **required for AgroVoc in DRAO-manual.owl**
 http://purl.obolibrary.org/obo/PATO_0001415 # Morbidity
 http://purl.obolibrary.org/obo/PATO_0001884 # Hydrophobicity
 http://purl.obolibrary.org/obo/PATO_0001886 # Hydrophilicity
@@ -1731,11 +1733,15 @@ http://purl.obolibrary.org/obo/NCIT_C54708 # Drug interaction
 http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
 http://purl.obolibrary.org/obo/NCIT_C61256 # Monitoring
 http://purl.obolibrary.org/obo/NCIT_C66892 # Natural product
+http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
 http://purl.obolibrary.org/obo/NCIT_C104154 # Circulating cell-free RNA
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCIT_C4873 # Rare disease - I realize this is a role of a disease, but OK in this location for now
 subClassOf http://www.ebi.ac.uk/efo/EFO_0000408 # disease
+
+http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310 # Document
 
 http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
 subClassOf subClassOf http://purl.obolibrary.org/obo/OBI_0100051 # Specimen
