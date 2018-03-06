@@ -59,6 +59,17 @@
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_16526 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_16526">
+        <rdfs:label>Bioenergy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001021"/>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <obo:IAO_0000115>Bioenergy is renewable energy made available from materials derived from biological sources. [AL 6.3.18, source Wikipedia https://en.wikipedia.org/wiki/Bioenergy].</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://aims.fao.org/aos/agrovoc/c_1971 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1971">
@@ -70,9 +81,69 @@
     
 
 
+    <!-- http://aims.fao.org/aos/agrovoc/c_33560 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_33560">
+        <rdfs:label>Sustainability</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001018"/>
+        <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
+        <obo:IAO_0000115>The ability of a process or human activity to meet present needs but maintain natural resources and leave the environment in good order for future generations.</obo:IAO_0000115>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_36669 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_36669">
+        <rdfs:label>Agroecosystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01001110"/>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
+        <obo:IAO_0000115>A system where communities of plants, microbes and animals inhabiting farmed land, pastures, grasslands or rangelands, interact with each other and their physical environment.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_8678 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8678">
+        <rdfs:label>Agricultural products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C66892"/>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
+        <obo:IAO_0000115>Products in their original state or processed enough to be prepared for marketing.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01001110 -->
+
+    <owl:Class rdf:about="&obo;ENVO_01001110"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C66892 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C66892"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <owl:Class rdf:about="&obo;OBI_0000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001018"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001021 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001021"/>
 </rdf:RDF>
 
 
