@@ -13,8 +13,8 @@
 ]>
 
 
-<rdf:RDF xmlns="&ontology;DRAO-inferred.owl#"
-     xml:base="&ontology;DRAO-inferred.owl"
+<rdf:RDF xmlns="&ontology;DRAO-merged.owl#"
+     xml:base="&ontology;DRAO-merged.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -23,8 +23,10 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ontology="http://www.fairsharing.org/ontology/">
-    <owl:Ontology rdf:about="&ontology;DRAO-inferred.owl">
-        <rdfs:comment>The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO.
+    <owl:Ontology rdf:about="&ontology;DRAO-merged.owl">
+        <rdfs:comment>The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures using Ontofox (PMID: 20569493) and Ontodog (doi: 10.1093/bioinformatics/btu008).
+
+AgroVoc classes were manually added as required.
 
 Created by Allyson L. Lister, Peter McQuilton, Alejandra Gonzalez-Beltran, Philippe Rocca-Serra, Milo Thurston, Massimiliano Izzo, Susanna-Assunta Sansone
 
@@ -132,30 +134,22 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
-
-    <rdf:Description rdf:about="&rdfs;subClassOf">
-        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_16526 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_16526">
+        <rdfs:label>Bioenergy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001021"/>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <obo:IAO_0000115>Bioenergy is renewable energy made available from materials derived from biological sources. [AL 6.3.18, source Wikipedia https://en.wikipedia.org/wiki/Bioenergy].</obo:IAO_0000115>
+    </owl:Class>
     
 
 
@@ -166,6 +160,42 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000115>The pattern of crops grown on a given piece of land, or order in which the crops are cultivated over a fixed period.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_33560 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_33560">
+        <rdfs:label>Sustainability</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001018"/>
+        <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
+        <obo:IAO_0000115>The ability of a process or human activity to meet present needs but maintain natural resources and leave the environment in good order for future generations.</obo:IAO_0000115>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_36669 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_36669">
+        <rdfs:label>Agroecosystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01001110"/>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
+        <obo:IAO_0000115>A system where communities of plants, microbes and animals inhabiting farmed land, pastures, grasslands or rangelands, interact with each other and their physical environment.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://aims.fao.org/aos/agrovoc/c_8678 -->
+
+    <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8678">
+        <rdfs:label>Agricultural products</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;NCIT_C66892"/>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
+        <obo:IAO_0000115>Products in their original state or processed enough to be prepared for marketing.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2241,8 +2271,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0128">
         <rdfs:label>Protein interactions</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MI_0000"/>
-        <obo:IAO_0000118>Protein-protein interactions</obo:IAO_0000118>
         <obo:IAO_0000118>Protein-RNA interaction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-protein interactions</obo:IAO_0000118>
         <obo:IAO_0000118>Protein-ligand interactions</obo:IAO_0000118>
         <obo:IAO_0000115>Protein-protein, protein-DNA/RNA and protein-ligand interactions, including analysis of known interactions and prediction of putative interactions.</obo:IAO_0000115>
         <obo:IAO_0000118>Protein interaction networks</obo:IAO_0000118>
@@ -5229,6 +5259,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&obo;GO_0043231"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell&apos;s chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">cell nucleus</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">horsetail nucleus</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Nucleus</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
@@ -5609,6 +5640,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;GO_0007127">
         <rdfs:label rdf:datatype="&xsd;string">meiosis I</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0140013"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_1903046"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The first meiotic nuclear division in which homologous chromosomes are paired and segregated from each other, producing two haploid daughter nuclei.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">meiosis I nuclear division</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -5623,6 +5655,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;GO_0007135">
         <rdfs:label rdf:datatype="&xsd;string">meiosis II</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0140013"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_1903046"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The second nuclear division of meiosis, in which the two chromatids in each chromosome are separated, resulting in four daughter nuclei from the two nuclei produced in meiosis II.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">meiosis II nuclear division</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -6243,7 +6276,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&obo;GO_0019814">
         <rdfs:label rdf:datatype="&xsd;string">immunoglobulin complex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;GO_0043234"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0032991"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein complex that in its canonical form is composed of two identical immunoglobulin heavy chains and two identical immunoglobulin light chains, held together by disulfide bonds and sometimes complexed with additional proteins. An immunoglobulin complex may be embedded in the plasma membrane or present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">antibody</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -6258,7 +6291,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;GO_0019815">
         <rdfs:label rdf:datatype="&xsd;string">B cell receptor complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0019814"/>
-        <rdfs:subClassOf rdf:resource="&obo;GO_0098797"/>
         <rdfs:subClassOf rdf:resource="&obo;GO_0098802"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An immunoglobulin complex that is present in the plasma membrane of B cells and that in its canonical form is composed of two identical immunoglobulin heavy chains and two identical immunoglobulin light chains and a signaling subunit, a heterodimer of the Ig-alpha and Ig-beta proteins.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">B lymphocyte receptor complex</obo:IAO_0000118>
@@ -6467,11 +6499,14 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
 
     <owl:Class rdf:about="&obo;GO_0032991">
-        <rdfs:label rdf:datatype="&xsd;string">macromolecular complex</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">protein-containing complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0005575"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">macromolecular complex</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">macromolecule complex</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">protein complex</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">protein containing complex</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">protein-protein complex</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </owl:Class>
     
@@ -6725,18 +6760,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&obo;GO_0043229"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane and occurring within the cell. Includes ribosomes, the cytoskeleton and chromosomes.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">intracellular non-membrane-enclosed organelle</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0043234 -->
-
-    <owl:Class rdf:about="&obo;GO_0043234">
-        <rdfs:label rdf:datatype="&xsd;string">protein complex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;GO_0032991"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A stable macromolecular complex composed (only) of two or more polypeptide subunits along with any covalently attached molecules (such as lipid anchors or oligosaccharide) or non-protein prosthetic groups (such as nucleotides or metal ions). Prosthetic group in this context refers to a tightly bound cofactor. The component polypeptide subunits may be identical.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">protein-protein complex</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </owl:Class>
     
@@ -7469,7 +7492,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&obo;GO_0098796">
         <rdfs:label rdf:datatype="&xsd;string">membrane protein complex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;GO_0043234"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0032991"/>
         <rdfs:subClassOf rdf:resource="&obo;GO_0044425"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any protein complex that is part of a membrane.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
@@ -7494,7 +7517,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;GO_0098802">
         <rdfs:label rdf:datatype="&xsd;string">plasma membrane receptor complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0032991"/>
-        <rdfs:subClassOf rdf:resource="&obo;GO_0044459"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0098797"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any protein complex that is part of the plasma membrane and which functions as a receptor.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </owl:Class>
@@ -8664,6 +8687,21 @@ ab (not=) E</obo:IAO_0000115>
         <obo:IAO_0000118>Natural Product</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Natural product</ontology:DRAO_0000001>
+        <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C68821 -->
+
+    <owl:Class rdf:about="&obo;NCIT_C68821">
+        <rdfs:label>Regulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
+        <obo:IAO_0000118>Regulated</obo:IAO_0000118>
+        <obo:IAO_0000115>A rule or order issued by an authority stating what may or may not be done or how something must be done.</obo:IAO_0000115>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <ontology:DRAO_0000001 xml:lang="en">Legal regulation</ontology:DRAO_0000001>
+        <obo:IAO_0000118>Regulation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;ncit.owl"/>
     </owl:Class>
     
@@ -11226,6 +11264,17 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PATO_0001021 -->
+
+    <owl:Class rdf:about="&obo;PATO_0001021">
+        <rdfs:label rdf:datatype="&xsd;string">energy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PATO_0001018"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer&apos;s capacity to do work.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;pato.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001241 -->
 
     <owl:Class rdf:about="&obo;PATO_0001241">
@@ -11463,6 +11512,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">sequence_feature</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any extent of continuous biological sequence.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:misc_feature</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_note:other</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_note:sequence_feature</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">located_sequence_feature</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">sequence feature</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -11507,6 +11559,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">exon</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000833"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A region of the transcript sequence within a gene which is not removed from the primary RNA transcript by RNA splicing.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:exon</obo:IAO_0000118>
         <ontology:DRAO_0000001 xml:lang="en">Exon</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
@@ -11561,6 +11614,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">promoter</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0005836"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the basal transcription machinery.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:promoter</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">promoter sequence</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Promoter</ontology:DRAO_0000001>
@@ -11575,6 +11629,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">operon</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0005855"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A group of contiguous genes transcribed as a single (polycistronic) mRNA from a single regulatory region.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:operon</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Operon</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
@@ -11616,6 +11671,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">intron</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000835"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:intron</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Intron</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
@@ -11654,6 +11710,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;SO_0000234">
         <rdfs:label rdf:datatype="&xsd;string">mRNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000233"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:mRNA</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Messenger RNA is the intermediate molecule between DNA and protein. It includes UTR and coding sequences. It does not contain introns.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">messenger RNA</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">protein_coding_transcript</obo:IAO_0000118>
@@ -11700,6 +11757,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;SO_0000253">
         <rdfs:label rdf:datatype="&xsd;string">tRNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000655"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:tRNA</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3&apos; end, to which the tRNA&apos;s corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and &apos;wobble&apos; base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position.</obo:IAO_0000115>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Transfer RNA (tRNA)</ontology:DRAO_0000001>
@@ -11713,6 +11771,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;SO_0000276">
         <rdfs:label rdf:datatype="&xsd;string">miRNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000370"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:miRNA</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes. Micro RNAs are produced from precursor molecules (SO:0000647) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">micro RNA</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">microRNA</obo:IAO_0000118>
@@ -11731,6 +11790,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">microsatellite</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000705"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A repeat_region containing repeat_units of 2 to 10 bp repeated in tandem.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:microsatellite</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">STR</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">microsatellite locus</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">microsatellite marker</obo:IAO_0000118>
@@ -11762,6 +11822,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">CDS</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000836"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A contiguous sequence which begins with, and includes, a start codon and ends with, and includes, a stop codon.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:CDS</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">coding sequence</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">coding_sequence</obo:IAO_0000118>
         <ontology:DRAO_0000001 xml:lang="en">Coding sequence (CDS)</ontology:DRAO_0000001>
@@ -11789,6 +11850,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;SO_0000330">
         <rdfs:label rdf:datatype="&xsd;string">conserved_region</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0001410"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_note:conserved_region</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Region of sequence similarity by descent from a common ancestor.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">conserved region</obo:IAO_0000118>
         <ontology:DRAO_0000001 xml:lang="en">Conserved region</ontology:DRAO_0000001>
@@ -11804,6 +11866,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">pseudogene</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0001411"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &quot;normal&quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &quot;normal&quot; paralog).</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:pseudo</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:unknown</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Pseudogene</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
@@ -11855,6 +11919,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">binding_site</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0001411"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological_region of sequence that, in the molecule, interacts selectively and non-covalently with other molecules. A region on the surface of a molecule that may interact with another molecule. When applied to polypeptides: Amino acids involved in binding or interactions. It can also apply to an amino acid bond which is represented by the positions of the two flanking amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:misc_binding</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">binding site</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">binding_or_interaction_site</obo:IAO_0000118>
         <ontology:DRAO_0000001 xml:lang="en">Binding site</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -11868,6 +11934,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;SO_0000418">
         <rdfs:label rdf:datatype="&xsd;string">signal_peptide</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000839"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:sig_peptide</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">signal peptide</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">signal peptide coding sequence</obo:IAO_0000118>
@@ -11925,6 +11992,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">siRNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000370"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. SRNAs trigger the cleavage of their target molecules.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:siRNA</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">small interfering RNA</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Small interfering RNA (siRNA)</ontology:DRAO_0000001>
@@ -11954,6 +12022,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">repeat_region</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0001411"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A region of sequence containing one or more repeat units.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:other</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">repeat region</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
     </owl:Class>
@@ -12022,6 +12091,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">gene</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0001411"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:gene</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Gene</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
@@ -12034,6 +12104,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;SO_0000705">
         <rdfs:label rdf:datatype="&xsd;string">tandem_repeat</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000657"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:tandem</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Two or more adjacent copies of a region (of length greater than 1).</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">tandem repeat</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -12337,6 +12408,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;SO_0001021">
         <rdfs:label rdf:datatype="&xsd;string">chromosome_breakpoint</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000110"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A chromosomal region that may sustain a double-strand break, resulting in a recombination event.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:chromosome_breakpoint</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">aberration breakpoint</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">aberration_junction</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">chromosome breakpoint</obo:IAO_0000118>
@@ -12380,6 +12453,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">mobile_genetic_element</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0001411"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A nucleotide region with either intra-genome or intracellular mobility, of varying length, which often carry the information necessary for transfer and recombination with the host genome.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:mobile_element</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">MGE</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">mobile genetic element</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -12423,6 +12497,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">sequence_alteration</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000110"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A sequence_alteration is a sequence_feature whose extent is the deviation from another sequence.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_feature:variation</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_note:sequence_alteration</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">partially characterised change in DNA sequence</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">partially_characterised_change_in_DNA_sequence</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">sequence alteration</obo:IAO_0000118>
@@ -12493,6 +12569,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">biological_region</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000001"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A region defined by its disposition to be involved in a biological process.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_note:biological_region</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">biological region</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
     </owl:Class>
@@ -12544,6 +12621,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">lnc_RNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000655"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A non-coding RNA over 200nucleotides in length.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:lncRNA</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">lncRNA_transcript</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">long non-coding RNA</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -12603,6 +12681,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">regulatory_region</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;SO_0000831"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A region of sequence that is involved in the control of a biological process.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:other</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">regulatory region</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Regulatory region</ontology:DRAO_0000001>
@@ -13768,19 +13847,19 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;ido.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;ogi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -13796,8 +13875,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="file:/data/var/www/html/ontofox/userfiles/hmauco5z.in.owl">
-        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    <rdf:Description rdf:about="&rdfs;subClassOf">
+        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
