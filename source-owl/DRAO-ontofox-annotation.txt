@@ -686,7 +686,6 @@ http://edamontology.org/data_3671 # Free text
 http://edamontology.org/data_3720 # Geographical location
 http://edamontology.org/data_3754 # Gene Ontology (GO) enrichment
 http://edamontology.org/format_1207 # Nucleotide
-http://edamontology.org/format_2332 # XML
 http://edamontology.org/operation_0226 # Annotation
 http://edamontology.org/operation_0269 # Transmembrane protein prediction
 http://edamontology.org/operation_0294 # Structure-based sequence alignment
