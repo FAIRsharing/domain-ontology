@@ -134,6 +134,25 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+    <rdf:Description rdf:about="&rdfs;subClassOf">
+        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -1484,19 +1503,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://edamontology.org/format_2332 -->
-
-    <owl:Class rdf:about="http://edamontology.org/format_2332">
-        <rdfs:label>XML</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/format_1915"/>
-        <obo:IAO_0000118>eXtensible Markup Language</obo:IAO_0000118>
-        <obo:IAO_0000115>eXtensible Markup Language (XML) format.</obo:IAO_0000115>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/operation_0004 -->
 
     <owl:Class rdf:about="http://edamontology.org/operation_0004">
@@ -2271,8 +2277,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0128">
         <rdfs:label>Protein interactions</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MI_0000"/>
-        <obo:IAO_0000118>Protein-RNA interaction</obo:IAO_0000118>
         <obo:IAO_0000118>Protein-protein interactions</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-RNA interaction</obo:IAO_0000118>
         <obo:IAO_0000118>Protein-ligand interactions</obo:IAO_0000118>
         <obo:IAO_0000115>Protein-protein, protein-DNA/RNA and protein-ligand interactions, including analysis of known interactions and prediction of putative interactions.</obo:IAO_0000115>
         <obo:IAO_0000118>Protein interaction networks</obo:IAO_0000118>
@@ -5318,6 +5324,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&obo;GO_0071704"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y. Includes the formation of carbohydrate derivatives by the addition of a carbohydrate residue to another molecule.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">carbohydrate metabolism</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">multicellular organismal carbohydrate metabolic process</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </owl:Class>
     
@@ -5807,6 +5814,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118 rdf:datatype="&xsd;string">metabolic process resulting in cell growth</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">metabolism</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">metabolism resulting in cell growth</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">multicellular organism metabolic process</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </owl:Class>
     
@@ -5833,6 +5841,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of substances; typically the energy-requiring part of metabolism in which simpler substances are transformed into more complex ones.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">anabolism</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">biosynthesis</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">multicellular organismal biosynthetic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">synthesis</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </owl:Class>
@@ -5949,7 +5958,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118 rdf:datatype="&xsd;string">down-regulation of metabolic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">downregulation of metabolic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">inhibition of metabolic process</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">inhibition of organismal metabolic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">negative regulation of metabolism</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">negative regulation of multicellular organismal metabolic process</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">negative regulation of organismal metabolism</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </owl:Class>
     
@@ -6251,6 +6263,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&obo;GO_0050789"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">regulation of metabolism</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">regulation of multicellular organismal metabolic process</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">regulation of organismal metabolic process</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </owl:Class>
     
@@ -6263,7 +6277,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="&obo;GO_0043170"/>
         <rdfs:subClassOf rdf:resource="&obo;GO_0044238"/>
         <rdfs:subClassOf rdf:resource="&obo;GO_1901564"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving a protein.  Includes protein modification.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving a protein. Includes protein modification.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">multicellular organismal protein metabolic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">protein metabolic process and modification</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">protein metabolism</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">protein metabolism and modification</obo:IAO_0000118>
@@ -6685,6 +6700,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">biopolymer metabolic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">macromolecule metabolism</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">multicellular organismal macromolecule metabolic process</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">organismal macromolecule metabolism</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </owl:Class>
     
@@ -13837,6 +13854,18 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://www.fairsharing.org/ontology/DRAO_0000281 -->
+
+    <owl:Class rdf:about="&ontology;DRAO_0000281">
+        <rdfs:label xml:lang="en">FAIR</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <rdfs:comment>AL 16.03.18: Definition modified from https://fairsharing.org/bsg-s001147.</rdfs:comment>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <obo:IAO_0000115>A resource is FAIR if it is compliant with the FAIR principles, a set of guidelines to make data Findable, Accessible, Interoperable, and Re-usable. These guidelines are useful for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://www.orpha.net/ORDO/Orphanet_68380 -->
 
     <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_68380">
@@ -13847,13 +13876,10 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;ido.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;ogi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -13862,21 +13888,10 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ogi.owl"/>
     </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="&rdfs;subClassOf">
-        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
