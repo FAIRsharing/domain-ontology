@@ -1308,18 +1308,6 @@
     
 
 
-    <!-- http://edamontology.org/format_2332 -->
-
-    <owl:Class rdf:about="http://edamontology.org/format_2332">
-        <rdfs:label>XML</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/format_1915"/>
-        <obo:IAO_0000118>eXtensible Markup Language</obo:IAO_0000118>
-        <obo:IAO_0000115>eXtensible Markup Language (XML) format.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/operation_0004 -->
 
     <owl:Class rdf:about="http://edamontology.org/operation_0004">
@@ -4854,6 +4842,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0071704"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving carbohydrates, any of a group of organic compounds based of the general formula Cx(H2O)y. Includes the formation of carbohydrate derivatives by the addition of a carbohydrate residue to another molecule.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbohydrate metabolism</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular organismal carbohydrate metabolic process</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -5301,6 +5290,7 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolic process resulting in cell growth</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolism</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metabolism resulting in cell growth</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular organism metabolic process</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -5325,6 +5315,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of substances; typically the energy-requiring part of metabolism in which simpler substances are transformed into more complex ones.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anabolism</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biosynthesis</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular organismal biosynthetic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synthesis</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -5435,7 +5426,10 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">down-regulation of metabolic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">downregulation of metabolic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhibition of metabolic process</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inhibition of organismal metabolic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negative regulation of metabolism</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negative regulation of multicellular organismal metabolic process</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negative regulation of organismal metabolism</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -5723,6 +5717,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050789"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of metabolism</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of multicellular organismal metabolic process</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of organismal metabolic process</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -5735,7 +5731,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043170"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044238"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_1901564"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving a protein.  Includes protein modification.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving a protein. Includes protein modification.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular organismal protein metabolic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein metabolic process and modification</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein metabolism</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein metabolism and modification</obo:IAO_0000118>
@@ -6135,6 +6132,8 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biopolymer metabolic process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macromolecule metabolism</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multicellular organismal macromolecule metabolic process</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organismal macromolecule metabolism</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -12645,10 +12644,10 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
