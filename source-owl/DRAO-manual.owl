@@ -117,6 +117,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000019"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01001110 -->
 
     <owl:Class rdf:about="&obo;ENVO_01001110"/>
@@ -144,6 +150,18 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0001021 -->
 
     <owl:Class rdf:about="&obo;PATO_0001021"/>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/DRAO_0000281 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/DRAO_0000281">
+        <rdfs:label xml:lang="en">FAIR</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <rdfs:comment>AL 16.03.18: Definition modified from https://fairsharing.org/bsg-s001147.</rdfs:comment>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <obo:IAO_0000115>A resource is FAIR if it is compliant with the FAIR principles, a set of guidelines to make data Findable, Accessible, Interoperable, and Re-usable. These guidelines are useful for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals.</obo:IAO_0000115>
+    </owl:Class>
 </rdf:RDF>
 
 
