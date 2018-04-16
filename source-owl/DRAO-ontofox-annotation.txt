@@ -4,13 +4,11 @@
 ## This file contains the settings for importing subsections of
 ## the following external ontologies:
 ## 
-## aero, chebi, cheminf, chmo, clo, cl, cmo, doid, dron, edam, efo, envo, 
-## eo, ero, fbbi, fbcv, fma, go, hp, iao, idomal, ido, mfoem, mod, mp, ms,  
-## ncbitaxon, oae, obcs, obi, ogi, ogms, omit, pato, po, pr, sio, so, stato,  
-## swo, uberon, uo, vario, vo, aero, chebi, cheminf, chmo, clo, cl, cmo, doid,  
-## dron, edam, efo, envo, eo, ero, fbbi, fbcv, fma, go, hp, iao, idomal, ido,  
-## mamo, mfoem, mi, mod, mp, ms, ncbitaxon, ncit, oae, obcs, obi, ogi, ogms,  
-## omit, omp, pato, po, pr, pw, sbo, sio, so, stato, swo, uberon, uo, vario, vo 
+## AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, 
+## EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, 
+## MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, 
+## OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO, 
+## SWO, UBERON, UO, VariO, VO.
 ##
 ##
 ## General Note:
@@ -155,7 +153,6 @@ http://purl.obolibrary.org/obo/OBI_0001686 # In situ hybridization
 http://purl.obolibrary.org/obo/OBI_0001848 # Chromatin Interaction Analysis by Paired-End Tag (ChIA-PET) sequencing
 http://purl.obolibrary.org/obo/OBI_0001850 # Transcript analysis by paired-end tag sequencing (RNA-PET)
 http://purl.obolibrary.org/obo/OBI_0001876 # Cell culture
-http://purl.obolibrary.org/obo/OBI_0001879 # Reagent
 http://purl.obolibrary.org/obo/OBI_0001958 # Systematic review
 http://purl.obolibrary.org/obo/OBI_0001985 # Microarray experiment
 http://purl.obolibrary.org/obo/OBI_0001986 # Immunohistochemistry
@@ -168,6 +165,7 @@ http://purl.obolibrary.org/obo/OBI_0302900 # Group randomization
 http://purl.obolibrary.org/obo/OBI_0302903 # Nucleic acid hybridization
 http://purl.obolibrary.org/obo/OBI_0302914 # Digital curation
 http://purl.obolibrary.org/obo/OBI_0400148 # DNA microarray
+http://purl.obolibrary.org/obo/OBI_0500000 # Study design
 http://purl.obolibrary.org/obo/OBI_0600002 # Tumor grading
 http://purl.obolibrary.org/obo/OBI_0600014 # Material component separation
 http://purl.obolibrary.org/obo/OBI_0600020 # Histology
@@ -532,7 +530,6 @@ http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
 http://www.ebi.ac.uk/efo/EFO_0000727 # Treatment
 http://www.ebi.ac.uk/efo/EFO_0000749 # Comparative genomic hybridization (CGH)
 http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
-http://www.ebi.ac.uk/efo/EFO_0001426 # Study design
 http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
 http://www.ebi.ac.uk/efo/EFO_0003843 # Pain
 http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
@@ -618,7 +615,6 @@ EDAM
 
 [Low level source term URIs]
 http://edamontology.org/data_0846 # Chemical formula
-http://edamontology.org/data_0863 # Sequence alignment
 http://edamontology.org/data_0880 # RNA secondary structure
 http://edamontology.org/data_0883 # Molecular structure
 http://edamontology.org/data_0912 # GC content
@@ -688,6 +684,7 @@ http://edamontology.org/data_3754 # Gene Ontology (GO) enrichment
 http://edamontology.org/format_1207 # Nucleotide
 http://edamontology.org/operation_0226 # Annotation
 http://edamontology.org/operation_0269 # Transmembrane protein prediction
+http://edamontology.org/operation_0292 # Sequence alignment
 http://edamontology.org/operation_0294 # Structure-based sequence alignment
 http://edamontology.org/operation_0306 # Text mining
 http://edamontology.org/operation_0361 # Sequence annotation
@@ -1308,8 +1305,11 @@ http://purl.obolibrary.org/obo/IDO_0000630 # Nosocomial infection
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
-http://purl.obolibrary.org/obo/CHEBI_23367 # molecular entity **Match how it is asserted within CHEBI itself**
-subClassOf http://purl.obolibrary.org/obo/CHEBI_24431 # chemical entity
+http://purl.obolibrary.org/obo/IDO_0000550 # Exotoxin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_27026 # toxin
+## SubClass statement (below) with molecular entity now obsolete now that exotoxin is placed more precisely within CHEBI
+## http://purl.obolibrary.org/obo/CHEBI_23367 # molecular entity **Match how it is asserted within CHEBI itself**
+## subClassOf http://purl.obolibrary.org/obo/CHEBI_24431 # chemical entity
 
 [Source term retrieval setting]
 includeAllIntermediates
@@ -1317,7 +1317,7 @@ includeAllIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON SWO IMPORT ####
 ##
@@ -1353,7 +1353,7 @@ includeComputedIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON PR IMPORT ####
 ##
@@ -1638,6 +1638,12 @@ http://semanticscience.org/resource/SIO_001008 # Toxicity
 subClassOf http://purl.obolibrary.org/obo/PATO_0001018 # Physical quality
 http://semanticscience.org/resource/SIO_010423 # Target
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 # Molecular entity
+http://semanticscience.org/resource/SIO_000983 # Gene-disease association
+subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
+http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
+subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
+http://semanticscience.org/resource/SIO_001257 # Chemical-gene association
+subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
 
 [Source term retrieval setting]
 includeComputedIntermediates
