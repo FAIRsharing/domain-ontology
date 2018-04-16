@@ -2067,7 +2067,7 @@ http://purl.obolibrary.org/obo/OBI_0001875	cultured immune cell population
 http://purl.obolibrary.org/obo/OBI_0001876	cell culture	y	Cell culture	
 http://purl.obolibrary.org/obo/OBI_0001877	random access memory			
 http://purl.obolibrary.org/obo/OBI_0001878	establishing primary cell culture			
-http://purl.obolibrary.org/obo/OBI_0001879	reagent	y	Reagent	
+http://purl.obolibrary.org/obo/OBI_0001879	reagent			
 http://purl.obolibrary.org/obo/OBI_0001880	organization of specimen provider principal investigator			
 http://purl.obolibrary.org/obo/OBI_0001881	organization of Bioinformatics Resource Center contact person			
 http://purl.obolibrary.org/obo/OBI_0001882	target material in specimen specification			
@@ -2813,7 +2813,7 @@ http://purl.obolibrary.org/obo/OBI_0400168	microtome
 http://purl.obolibrary.org/obo/OBI_0400169	microscope			
 http://purl.obolibrary.org/obo/OBI_0400170	microscope slide			
 http://purl.obolibrary.org/obo/OBI_0400171	animal cage			
-http://purl.obolibrary.org/obo/OBI_0500000	study design			
+http://purl.obolibrary.org/obo/OBI_0500000	study design	y	Study design	
 http://purl.obolibrary.org/obo/OBI_0500001	clinical study design			
 http://purl.obolibrary.org/obo/OBI_0500002	repeated measure design			
 http://purl.obolibrary.org/obo/OBI_0500003	cross over design			
