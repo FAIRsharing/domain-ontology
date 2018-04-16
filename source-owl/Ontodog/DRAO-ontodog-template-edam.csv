@@ -31,7 +31,7 @@ http://edamontology.org/data_0859	Sequence signature model
 http://edamontology.org/data_0860	Sequence signature data			
 http://edamontology.org/data_0861	Sequence alignment (words)			
 http://edamontology.org/data_0862	Dotplot			
-http://edamontology.org/data_0863	Sequence alignment	y		
+http://edamontology.org/data_0863	Sequence alignment			
 http://edamontology.org/data_0864	Sequence alignment parameter			
 http://edamontology.org/data_0865	Sequence similarity score			
 http://edamontology.org/data_0866	Sequence alignment metadata			
@@ -2198,7 +2198,7 @@ http://edamontology.org/operation_0288	Sequence word comparison
 http://edamontology.org/operation_0289	Sequence distance matrix generation			
 http://edamontology.org/operation_0290	Sequence redundancy removal			
 http://edamontology.org/operation_0291	Sequence clustering			
-http://edamontology.org/operation_0292	Sequence alignment			
+http://edamontology.org/operation_0292	Sequence alignment	y		
 http://edamontology.org/operation_0293	Hybrid sequence alignment construction			
 http://edamontology.org/operation_0294	Structure-based sequence alignment	y		
 http://edamontology.org/operation_0295	Structure alignment			
