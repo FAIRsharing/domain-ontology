@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_208kk4ij="http://www.fairsharing.org/ontology/"
+xmlns:p_wvkdkic6="http://www.fairsharing.org/ontology/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,19 +9,19 @@ xmlns:p_208kk4ij="http://www.fairsharing.org/ontology/"
 
 	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000526">
-		<p_208kk4ij:DRAO_0000001 xml:lang="en">Parasite</p_208kk4ij:DRAO_0000001>
+		<p_wvkdkic6:DRAO_0000001 xml:lang="en">Parasite</p_wvkdkic6:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000528">
-		<p_208kk4ij:DRAO_0000001 xml:lang="en">Pathogen</p_208kk4ij:DRAO_0000001>
+		<p_wvkdkic6:DRAO_0000001 xml:lang="en">Pathogen</p_wvkdkic6:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000550">
-		<p_208kk4ij:DRAO_0000001 xml:lang="en">Exotoxin</p_208kk4ij:DRAO_0000001>
+		<p_wvkdkic6:DRAO_0000001 xml:lang="en">Exotoxin</p_wvkdkic6:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000630">
-		<p_208kk4ij:DRAO_0000001 xml:lang="en">Nosocomial infection</p_208kk4ij:DRAO_0000001>
+		<p_wvkdkic6:DRAO_0000001 xml:lang="en">Nosocomial infection</p_wvkdkic6:DRAO_0000001>
 	</rdf:Description>
 
 
