@@ -1946,7 +1946,8 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 ## BFO_0000005.
 ##
 ## STATO also, weirdly, has process down as BFO_0000007 when it is
-## BFO_0000015, so this also needs to be re-mapped.
+## BFO_0000015, so this also needs to be re-mapped. This happened
+## with SWO as well, so perhaps it's a legacy issue.
 ##
 
 [Source ontology]
