@@ -1,6 +1,6 @@
 # Domain Resource Application Ontology
 
-The Domain Resource Application Ontology (DRAO) is an application ontology describing cross-discipline research domains used within [FAIRsharing]((https://www.fairsharing.org)) records by curators and the user community. It is built in conjunction with the Subject Resource Application Ontology (SRAO), which describes higher-level subject areas / disciplines.
+The Domain Resource Application Ontology (DRAO) is an application ontology describing cross-discipline research domains used within [FAIRsharing]((https://www.fairsharing.org)) records by curators and the user community (see also the [DRAO FAIRsharing record](https://fairsharing.org/bsg-s001178)). It is built in conjunction with the Subject Resource Application Ontology (SRAO), which describes higher-level subject areas / disciplines.
 
 All classes within DRAO come from publicly-available ontologies. Currently, the following ontologies are used to build DRAO: AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures using Ontofox and Ontodog (see below for details).
 
