@@ -801,6 +801,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000115
 OMIT
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
 http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
 http://purl.obolibrary.org/obo/OMIT_0003303 # Breeding
 http://purl.obolibrary.org/obo/OMIT_0005506 # DNA damage
@@ -854,13 +855,17 @@ subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
 
 http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex (MHC)
 subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Macromolecular complex
+http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
+subClassOf http://purl.obolibrary.org/obo/GO_0008152 # Metabolic process
+
 http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
 subClassOf http://purl.obolibrary.org/obo/SO_0001026 # genome
 http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
 subClassOf http://purl.obolibrary.org/obo/SO_0001260 # sequence collection
 
-http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
-subClassOf http://purl.obolibrary.org/obo/GO_0008152 # Metabolic process
+
+http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
+subClassOf http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
 
 [Source term retrieval setting]
 includeComputedIntermediates

@@ -24,9 +24,9 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ontology="http://www.fairsharing.org/ontology/">
     <owl:Ontology rdf:about="&ontology;DRAO-merged.owl">
-        <rdfs:comment>The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures using Ontofox (PMID: 20569493) and Ontodog (doi: 10.1093/bioinformatics/btu008).
+        <rdfs:comment>The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures using Ontofox (PMID: 20569493) and Ontodog (doi: 10.1093/bioinformatics/btu008).
 
-AgroVoc classes were manually added as required.
+AgroVoc and PRIDE classes were manually added as required.
 
 Created by Allyson L. Lister, Peter McQuilton, Alejandra Gonzalez-Beltran, Philippe Rocca-Serra, Milo Thurston, Massimiliano Izzo, Susanna-Assunta Sansone
 
@@ -119,6 +119,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <rdf:Description rdf:about="&rdfs;label">
         <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
     </rdf:Description>
     
 
@@ -127,25 +128,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <rdf:Description rdf:about="&skos;prefLabel">
         <obo:IAO_0000115 xml:lang="en">The preferred lexical label for a resource, in a given language.</obo:IAO_0000115>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
-
-    <rdf:Description rdf:about="&rdfs;subClassOf">
-        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
     </rdf:Description>
     
 
@@ -2224,8 +2206,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0128">
         <rdfs:label>Protein interactions</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MI_0000"/>
-        <obo:IAO_0000118>Protein-protein interactions</obo:IAO_0000118>
         <obo:IAO_0000118>Protein-RNA interaction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-protein interactions</obo:IAO_0000118>
         <obo:IAO_0000118>Protein-ligand interactions</obo:IAO_0000118>
         <obo:IAO_0000115>Protein-protein, protein-DNA/RNA and protein-ligand interactions, including analysis of known interactions and prediction of putative interactions.</obo:IAO_0000115>
         <obo:IAO_0000118>Protein interaction networks</obo:IAO_0000118>
@@ -2587,6 +2569,17 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000024 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000024">
+        <rdfs:label xml:lang="en">fiat object</rdfs:label>
+        <rdfs:label xml:lang="en">fiat object part</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
 
     <owl:Class rdf:about="&obo;BFO_0000030">
@@ -2594,6 +2587,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label xml:lang="en">object</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
         <obo:IAO_0000412 rdf:resource="&obo;bfo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;pr.owl"/>
     </owl:Class>
     
@@ -4096,7 +4090,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">malignant neoplasm</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">malignant tumor </obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">malignant tumor</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">primary cancer</obo:IAO_0000118>
         <ontology:DRAO_0000001 xml:lang="en">Cancer</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -4220,9 +4214,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
 
     <owl:Class rdf:about="&obo;ENVO_00000428">
-        <rdfs:label>biome</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ENVO_01000254"/>
         <rdfs:subClassOf rdf:resource="&obo;ENVO_01001110"/>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biome is an environmental system to which resident ecological communities have evolved adaptations.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biome is an ecosystem to which resident ecological communities have evolved adaptations.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">major habitat type</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
     </owl:Class>
@@ -4244,8 +4239,12 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&obo;ENVO_00002004">
         <rdfs:label rdf:datatype="&xsd;string">mesoscopic physical object</rdfs:label>
+        <rdfs:label>physical object of mesoscopic geological size</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000030"/>
         <rdfs:subClassOf rdf:resource="&obo;ENVO_00002297"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An environmental feature that is, or can be, contained and is predominantly composed of one or a few types of stuff.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An object which is large enough to be visible to humans, but small enough that humans can handle the object (i.e. transport it, examine it, etc) in its entirety with little to no technological assistance.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">mesoscopic physical object</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
     </owl:Class>
     
@@ -4289,7 +4288,9 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&obo;ENVO_00010483">
         <rdfs:label rdf:datatype="&xsd;string">environmental material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000024"/>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A portion of environmental material is a fiat object part which forms the medium or part of the medium of an environmental system.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A portion of environmental material is a fiat object which forms the medium or part of the medium of an environmental system.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">portion of environmental material</obo:IAO_0000118>
         <ontology:DRAO_0000001 xml:lang="en">Environmental material</ontology:DRAO_0000001>
@@ -5720,7 +5721,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">biological_process</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">biological process</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">physiological process</obo:IAO_0000118>
         <ontology:DRAO_0000001 xml:lang="en">Biological process</ontology:DRAO_0000001>
@@ -9480,7 +9480,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/OBI_0600020 -->
 
     <owl:Class rdf:about="&obo;OBI_0600020">
-        <rdfs:label xml:lang="en">histology</rdfs:label>
+        <rdfs:label xml:lang="en">histology assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">histopathology</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -9829,6 +9829,20 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;OMIT_0001427">
         <rdfs:label rdf:datatype="&xsd;string">Pharmacological Phenomena</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OMIT_0001007"/>
+        <obo:IAO_0000412 rdf:resource="&obo;omit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0001480 -->
+
+    <owl:Class rdf:about="&obo;OMIT_0001480">
+        <rdfs:label rdf:datatype="&xsd;string">Machine Learning</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000064"/>
+        <rdfs:comment>AL 26.6.18: This class is correctly added and placed by our automated procedures, but there is no definition within OMIT. Therefore we have manually assigned the included definition.</rdfs:comment>
+        <ontology:DRAO_0000001 xml:lang="en">Machine learning</ontology:DRAO_0000001>
+        <obo:IAO_0000115>Machine learning is an algorithm or set of algorithms which allows computers to learn and act like humans do, and improve their learning over time in autonomous fashion, by feeding them data and information in the form of observations and real-world interactions. [Adapted by AL from https://www.techemergence.com/what-is-machine-learning/, 26.6.18]</obo:IAO_0000115>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000412 rdf:resource="&obo;omit.owl"/>
     </owl:Class>
     
@@ -11021,6 +11035,17 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Root</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;po.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRIDE_0000427 -->
+
+    <owl:Class rdf:about="&obo;PRIDE_0000427">
+        <rdfs:label>Top-down proteomics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000470"/>
+        <obo:IAO_0000115>Top-down Proteomics is a method of protein identification that uses an ion trapping mass spectrometer to store an isolated protein ion for mass measurement and tandem mass spectrometry analysis. Top-down proteomics is capable of identifying unique proteoforms (the specific molecular form of the protein resulting from combinations of genetic variation, alternative splicing, and post-translational modifications) through the analysis of intact proteins. Both the intact and fragment ions masses of a protein can be measured. This approach routinely allows for 100% sequence coverage and full characterization of proteoforms. The potential for achieving full protein characterization has made the Top Down mass spectrometry approach extremely useful for analysis of single proteins or simple mixtures of significant biological interest. [Adapted by AL from https://dx.doi.org/10.1016%2Fj.bbrc.2014.02.041 and Wikipedia (https://en.wikipedia.org/wiki/Top-down_proteomics), 5.6.18]</obo:IAO_0000115>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
     </owl:Class>
     
 
@@ -13454,6 +13479,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;ido.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -13466,7 +13494,21 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;ogi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&rdfs;subClassOf">
+        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
