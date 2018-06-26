@@ -1,4 +1,5 @@
 Source ontology term IRI	Source ontology term label	Include In View	User-preferred label	Include all children
+http://purl.obolibrary.org/obo/OMIT_0001480	Machine learning	y	Machine learning	
 http://purl.obolibrary.org/obo/OMIT_0003072		y	Biotransformation	
 http://purl.obolibrary.org/obo/OMIT_0003303		y	Breeding	
 http://purl.obolibrary.org/obo/OMIT_0005506		y	DNA damage	
