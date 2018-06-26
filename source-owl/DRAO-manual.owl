@@ -141,6 +141,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000470 -->
+
+    <owl:Class rdf:about="&obo;OBI_0000470"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0001480 -->
+
+    <owl:Class rdf:about="&obo;OMIT_0001480">
+        <rdfs:comment>AL 26.6.18: This class is correctly added and placed by our automated procedures, but there is no definition within OMIT. Therefore we have manually assigned the included definition.</rdfs:comment>
+        <obo:IAO_0000115>Machine learning is an algorithm or set of algorithms which allows computers to learn and act like humans do, and improve their learning over time in autonomous fashion, by feeding them data and information in the form of observations and real-world interactions. [Adapted by AL from https://www.techemergence.com/what-is-machine-learning/, 26.6.18]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
 
     <owl:Class rdf:about="&obo;PATO_0001018"/>
@@ -150,6 +165,17 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0001021 -->
 
     <owl:Class rdf:about="&obo;PATO_0001021"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PRIDE_0000427 -->
+
+    <owl:Class rdf:about="&obo;PRIDE_0000427">
+        <rdfs:label>Top-down proteomics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000470"/>
+        <obo:IAO_0000115>Top-down Proteomics is a method of protein identification that uses an ion trapping mass spectrometer to store an isolated protein ion for mass measurement and tandem mass spectrometry analysis. Top-down proteomics is capable of identifying unique proteoforms (the specific molecular form of the protein resulting from combinations of genetic variation, alternative splicing, and post-translational modifications) through the analysis of intact proteins. Both the intact and fragment ions masses of a protein can be measured. This approach routinely allows for 100% sequence coverage and full characterization of proteoforms. The potential for achieving full protein characterization has made the Top Down mass spectrometry approach extremely useful for analysis of single proteins or simple mixtures of significant biological interest. [Adapted by AL from https://dx.doi.org/10.1016%2Fj.bbrc.2014.02.041 and Wikipedia (https://en.wikipedia.org/wiki/Top-down_proteomics), 5.6.18]</obo:IAO_0000115>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+    </owl:Class>
     
 
 
