@@ -62,7 +62,7 @@ http://purl.obolibrary.org/obo/MI_0060	ha tag coimmunoprecipitation
 http://purl.obolibrary.org/obo/MI_0061	his pull down			
 http://purl.obolibrary.org/obo/MI_0062	his tag coimmunoprecipitation			
 http://purl.obolibrary.org/obo/MI_0063	interaction prediction			
-http://purl.obolibrary.org/obo/MI_0064	interologs mapping			
+http://purl.obolibrary.org/obo/MI_0064	interologs mapping	y	Interologs mapping	
 http://purl.obolibrary.org/obo/MI_0065	isothermal titration calorimetry			
 http://purl.obolibrary.org/obo/MI_0066	lambda phage display			
 http://purl.obolibrary.org/obo/MI_0067	light scattering			
@@ -1400,7 +1400,7 @@ http://purl.obolibrary.org/obo/MI_2186	alut
 http://purl.obolibrary.org/obo/MI_2187	ri			
 http://purl.obolibrary.org/obo/MI_2188	par-clip			
 http://purl.obolibrary.org/obo/MI_2189	avexis			
-http://purl.obolibrary.org/obo/MI_2190	long non-coding ribonucleic acid	y	Long non-coding ribonucleic acid (lncRNA)	
+http://purl.obolibrary.org/obo/MI_2190	long non-coding ribonucleic acid	y	Long non-coding ribonucleic acid	
 http://purl.obolibrary.org/obo/MI_2191	clip			
 http://purl.obolibrary.org/obo/MI_2192	clip-seq			
 http://purl.obolibrary.org/obo/MI_2193	iclip			

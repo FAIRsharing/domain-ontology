@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_4koy00di="http://www.fairsharing.org/ontology/"
+xmlns:p_mzw7f2k8="http://www.fairsharing.org/ontology/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,19 +9,27 @@ xmlns:p_4koy00di="http://www.fairsharing.org/ontology/"
 
 	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000034">
-		<p_4koy00di:DRAO_0000001 xml:lang="en">Stem cell</p_4koy00di:DRAO_0000001>
+		<p_mzw7f2k8:DRAO_0000001 xml:lang="en">Stem cell</p_mzw7f2k8:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000084">
-		<p_4koy00di:DRAO_0000001 xml:lang="en">T cell</p_4koy00di:DRAO_0000001>
+		<p_mzw7f2k8:DRAO_0000001 xml:lang="en">T cell</p_mzw7f2k8:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000451">
-		<p_4koy00di:DRAO_0000001 xml:lang="en">Dendritic cell</p_4koy00di:DRAO_0000001>
+		<p_mzw7f2k8:DRAO_0000001 xml:lang="en">Dendritic cell</p_mzw7f2k8:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000540">
-		<p_4koy00di:DRAO_0000001 xml:lang="en">Neuron</p_4koy00di:DRAO_0000001>
+		<p_mzw7f2k8:DRAO_0000001 xml:lang="en">Neuron</p_mzw7f2k8:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002248">
+		<p_mzw7f2k8:DRAO_0000001 xml:lang="en">Pluripotent stem cell</p_mzw7f2k8:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0002322">
+		<p_mzw7f2k8:DRAO_0000001 xml:lang="en">Embryonic stem cell</p_mzw7f2k8:DRAO_0000001>
 	</rdf:Description>
 
 

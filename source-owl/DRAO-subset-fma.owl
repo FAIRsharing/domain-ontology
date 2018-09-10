@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_andmmsqs="http://www.geneontology.org/formats/oboInOwl#"
+xmlns:p_kng84q8i="http://www.geneontology.org/formats/oboInOwl#"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,11 +9,11 @@ xmlns:p_andmmsqs="http://www.geneontology.org/formats/oboInOwl#"
 
 	<owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_70631">
-		<p_andmmsqs:inSubset xml:lang="en">FAIRsharing</p_andmmsqs:inSubset>
+		<p_kng84q8i:inSubset xml:lang="en">FAIRsharing</p_kng84q8i:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_84795">
-		<p_andmmsqs:inSubset xml:lang="en">FAIRsharing</p_andmmsqs:inSubset>
+		<p_kng84q8i:inSubset xml:lang="en">FAIRsharing</p_kng84q8i:inSubset>
 	</rdf:Description>
 
 

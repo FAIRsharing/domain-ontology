@@ -99,7 +99,7 @@ http://edamontology.org/data_0935	SBS experimental data
 http://edamontology.org/data_0936	Sequence tag profile (with gene assignment)			
 http://edamontology.org/data_0937	Protein X-ray crystallographic data			
 http://edamontology.org/data_0938	Protein NMR data			
-http://edamontology.org/data_0939	Protein circular dichroism (CD) spectroscopic data	y		
+http://edamontology.org/data_0939	Protein circular dichroism (CD) spectroscopic data	y	Protein circular dichroism spectroscopic data	
 http://edamontology.org/data_0940	Electron microscopy volume map			
 http://edamontology.org/data_0941	Electron microscopy model			
 http://edamontology.org/data_0942	2D PAGE image	y		
@@ -167,7 +167,7 @@ http://edamontology.org/data_1007	Nucleotide code
 http://edamontology.org/data_1008	Polypeptide chain ID			
 http://edamontology.org/data_1009	Protein name	y		
 http://edamontology.org/data_1010	Enzyme identifier			
-http://edamontology.org/data_1011	EC number	y	Enzyme Commission (EC) number	
+http://edamontology.org/data_1011	EC number	y	Enzyme Commission number	
 http://edamontology.org/data_1012	Enzyme name			
 http://edamontology.org/data_1013	Restriction enzyme name			
 http://edamontology.org/data_1014	Sequence position specification			
@@ -357,7 +357,7 @@ http://edamontology.org/data_1236	Psiblast checkpoint file
 http://edamontology.org/data_1237	HMMER synthetic sequences set			
 http://edamontology.org/data_1238	Proteolytic digest	y		
 http://edamontology.org/data_1239	Restriction digest			
-http://edamontology.org/data_1240	PCR primers	y	Polymerase chain reaction (PCR) primers	
+http://edamontology.org/data_1240	PCR primers	y	Polymerase chain reaction primers	
 http://edamontology.org/data_1241	vectorstrip cloning vector definition file			
 http://edamontology.org/data_1242	Primer3 internal oligo mishybridizing library			
 http://edamontology.org/data_1243	Primer3 mispriming library file			
@@ -450,7 +450,7 @@ http://edamontology.org/data_1359	Prosite protein pattern
 http://edamontology.org/data_1361	Position frequency matrix			
 http://edamontology.org/data_1362	Position weight matrix			
 http://edamontology.org/data_1363	Information content matrix			
-http://edamontology.org/data_1364	Hidden Markov model	y	Hidden Markov model (HMM)	
+http://edamontology.org/data_1364	Hidden Markov model	y		
 http://edamontology.org/data_1365	Fingerprint			
 http://edamontology.org/data_1368	Domainatrix signature			
 http://edamontology.org/data_1371	HMMER NULL hidden Markov model			
@@ -1378,7 +1378,7 @@ http://edamontology.org/data_3085	Protein sequence composition
 http://edamontology.org/data_3086	Nucleic acid sequence composition (report)			
 http://edamontology.org/data_3101	Protein domain classification node			
 http://edamontology.org/data_3102	CAS number			
-http://edamontology.org/data_3103	ATC code	y	Anatomical Therapeutic Chemical (ATC) Code	
+http://edamontology.org/data_3103	ATC code	y	Anatomical Therapeutic Chemical Code	
 http://edamontology.org/data_3104	UNII			
 http://edamontology.org/data_3105	Geotemporal metadata			
 http://edamontology.org/data_3106	System metadata			
@@ -1491,7 +1491,7 @@ http://edamontology.org/data_3738	Beta diversity data
 http://edamontology.org/data_3739	Gamma diversity data			
 http://edamontology.org/data_3743	Ordination plot			
 http://edamontology.org/data_3753	Over-representation report			
-http://edamontology.org/data_3754	GO-term enrichment report	y	Gene Ontology (GO) enrichment	
+http://edamontology.org/data_3754	GO-term enrichment report	y	Gene Ontology enrichment	
 http://edamontology.org/data_3756	Localisation score			
 http://edamontology.org/data_3757	Unimod ID			
 http://edamontology.org/data_3759	ProteomeXchange ID			
@@ -2345,7 +2345,7 @@ http://edamontology.org/operation_0441	Transcription regulatory element predicti
 http://edamontology.org/operation_0442	Transcription regulatory element prediction (RNA-cis)			
 http://edamontology.org/operation_0443	Transcription regulatory element prediction (trans)			
 http://edamontology.org/operation_0444	Matrix/scaffold attachment site prediction			
-http://edamontology.org/operation_0445	Transcription factor binding site prediction	y	Transcription factor (TF) binding site prediction	
+http://edamontology.org/operation_0445	Transcription factor binding site prediction	y		
 http://edamontology.org/operation_0446	Exonic splicing enhancer prediction			
 http://edamontology.org/operation_0447	Sequence alignment validation			
 http://edamontology.org/operation_0448	Sequence alignment analysis (conservation)			

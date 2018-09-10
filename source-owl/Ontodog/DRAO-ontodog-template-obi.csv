@@ -734,7 +734,7 @@ http://purl.obolibrary.org/obo/OBI_0000409	nucleic acid template role
 http://purl.obolibrary.org/obo/OBI_0000410	recombinant plasmid			
 http://purl.obolibrary.org/obo/OBI_0000411	cloning vector role			
 http://purl.obolibrary.org/obo/OBI_0000413	cell cycle synchronization			
-http://purl.obolibrary.org/obo/OBI_0000415	polymerase chain reaction	y	Polymerase Chain Reaction (PCR)	
+http://purl.obolibrary.org/obo/OBI_0000415	polymerase chain reaction	y	Polymerase Chain Reaction	
 http://purl.obolibrary.org/obo/OBI_0000416	cloning insert role			
 http://purl.obolibrary.org/obo/OBI_0000417	achieves_planned_objective			
 http://purl.obolibrary.org/obo/OBI_0000418	measuring glucose concentration in blood serum			
@@ -1007,7 +1007,7 @@ http://purl.obolibrary.org/obo/OBI_0000712	pathogen challenge
 http://purl.obolibrary.org/obo/OBI_0000713	GenePattern software			
 http://purl.obolibrary.org/obo/OBI_0000714	graph of vertices			
 http://purl.obolibrary.org/obo/OBI_0000715	animal care protocol			
-http://purl.obolibrary.org/obo/OBI_0000716	ChIP-seq assay	y	Chromatin immunoprecipitation - DNA sequencing (ChIP-seq)	
+http://purl.obolibrary.org/obo/OBI_0000716	ChIP-seq assay	y	Chromatin immunoprecipitation - DNA sequencing	
 http://purl.obolibrary.org/obo/OBI_0000717	HeliScope Single Molecule Sequencer			
 http://purl.obolibrary.org/obo/OBI_0000718	pathogen role			
 http://purl.obolibrary.org/obo/OBI_0000719	vaccine preparation			
@@ -1466,7 +1466,7 @@ http://purl.obolibrary.org/obo/OBI_0001244	ELISA measuring epitope specific inte
 http://purl.obolibrary.org/obo/OBI_0001245	detection of specific nucleic acids with complementary probes assay measuring epitope specific perforin release			
 http://purl.obolibrary.org/obo/OBI_0001246	ELISA measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells			
 http://purl.obolibrary.org/obo/OBI_0001247	genotyping by high throughput sequencing assay			
-http://purl.obolibrary.org/obo/OBI_0001248	ChIP-chip assay	y	Chromatin immunoprecipitation - DNA microarray (ChIP-chip)	
+http://purl.obolibrary.org/obo/OBI_0001248	ChIP-chip assay	y	Chromatin immunoprecipitation - DNA microarray	
 http://purl.obolibrary.org/obo/OBI_0001249	epitope specific T cell tolerance induction			
 http://purl.obolibrary.org/obo/OBI_0001251	biological activity assay measuring epitope specific interleukin-13 production by T cells			
 http://purl.obolibrary.org/obo/OBI_0001252	array platform variation design			
@@ -1488,7 +1488,7 @@ http://purl.obolibrary.org/obo/OBI_0001267	epitope specific transforming growth 
 http://purl.obolibrary.org/obo/OBI_0001268	detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-12 production by T cells			
 http://purl.obolibrary.org/obo/OBI_0001269	biological activity assay measuring epitope specific cytotoxic T cell degranulation			
 http://purl.obolibrary.org/obo/OBI_0001270	cell culture analyte detection bioassay measuring epitope specific transforming growth factor-beta production by T cells			
-http://purl.obolibrary.org/obo/OBI_0001271	RNA-seq assay	y	RNA sequencing (RNA-Seq)	
+http://purl.obolibrary.org/obo/OBI_0001271	RNA-seq assay	y	RNA sequencing	
 http://purl.obolibrary.org/obo/OBI_0001272	ELISPOT assay measuring epitope specific tumor necrosis factor superfamily cytokine production by T cells			
 http://purl.obolibrary.org/obo/OBI_0001273	cell culture analyte detection bioassay measuring epitope specific interleukin-5 production by T cells			
 http://purl.obolibrary.org/obo/OBI_0001274	genotyping by array assay			
@@ -2039,9 +2039,9 @@ http://purl.obolibrary.org/obo/OBI_0001844	ELISPOT assay measuring epitope speci
 http://purl.obolibrary.org/obo/OBI_0001845	intracellular cytokine staining assay measuring epitope specific interleukin-15 production by T cells			
 http://purl.obolibrary.org/obo/OBI_0001846	ELISPOT assay measuring epitope specific interleukin-15 production by T cells			
 http://purl.obolibrary.org/obo/OBI_0001847	ISA alternative term			
-http://purl.obolibrary.org/obo/OBI_0001848	chromatin interaction analysis by paired-end tag sequencing	y	Chromatin Interaction Analysis by Paired-End Tag (ChIA-PET) sequencing	
+http://purl.obolibrary.org/obo/OBI_0001848	chromatin interaction analysis by paired-end tag sequencing	y	Chromatin Interaction Analysis by Paired-End Tag sequencing	
 http://purl.obolibrary.org/obo/OBI_0001849	structural analysis by paired-end tag sequencing			
-http://purl.obolibrary.org/obo/OBI_0001850	transcript analysis by paired-end tag sequencing	y	Transcript analysis by paired-end tag sequencing (RNA-PET)	
+http://purl.obolibrary.org/obo/OBI_0001850	transcript analysis by paired-end tag sequencing	y	Transcript analysis by paired-end tag sequencing	
 http://purl.obolibrary.org/obo/OBI_0001851	transcription start site identification objective			
 http://purl.obolibrary.org/obo/OBI_0001852	paired-end library preparation			
 http://purl.obolibrary.org/obo/OBI_0001853	DNase I hypersensitive sites sequencing assay			
@@ -2304,7 +2304,7 @@ http://purl.obolibrary.org/obo/OBI_0002113	bromouridine labeling and sequencing
 http://purl.obolibrary.org/obo/OBI_0002114	bromouridine pulse-chase and sequencing			
 http://purl.obolibrary.org/obo/OBI_0002115	cytometry time of flight assay			
 http://purl.obolibrary.org/obo/OBI_0002116	high performance liquid chromotography assay			
-http://purl.obolibrary.org/obo/OBI_0002117	whole genome sequencing assay	y	Whole genome sequencing (WGS)	
+http://purl.obolibrary.org/obo/OBI_0002117	whole genome sequencing assay	y	Whole genome sequencing	
 http://purl.obolibrary.org/obo/OBI_0002118	exome sequencing assay			
 http://purl.obolibrary.org/obo/OBI_0002119	microscopy assay			
 http://purl.obolibrary.org/obo/OBI_0002120	mixed lymphocyte reaction assay			

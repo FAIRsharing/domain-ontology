@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_c4y2y8v3="http://www.fairsharing.org/ontology/"
+xmlns:p_prrhwwd5="http://www.fairsharing.org/ontology/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,27 +9,27 @@ xmlns:p_c4y2y8v3="http://www.fairsharing.org/ontology/"
 
 	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0000156">
-		<p_c4y2y8v3:DRAO_0000001 xml:lang="en">X-ray diffraction</p_c4y2y8v3:DRAO_0000001>
+		<p_prrhwwd5:DRAO_0000001 xml:lang="en">X-ray diffraction</p_prrhwwd5:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0000228">
-		<p_c4y2y8v3:DRAO_0000001 xml:lang="en">Spectroscopy</p_c4y2y8v3:DRAO_0000001>
+		<p_prrhwwd5:DRAO_0000001 xml:lang="en">Spectroscopy</p_prrhwwd5:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0000591">
-		<p_c4y2y8v3:DRAO_0000001 xml:lang="en">Nuclear Magnetic Resonance (NMR) spectroscopy</p_c4y2y8v3:DRAO_0000001>
+		<p_prrhwwd5:DRAO_0000001 xml:lang="en">Nuclear Magnetic Resonance (NMR) spectroscopy</p_prrhwwd5:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0000800">
-		<p_c4y2y8v3:DRAO_0000001 xml:lang="en">Spectrum</p_c4y2y8v3:DRAO_0000001>
+		<p_prrhwwd5:DRAO_0000001 xml:lang="en">Spectrum</p_prrhwwd5:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0001000">
-		<p_c4y2y8v3:DRAO_0000001 xml:lang="en">Chromatography</p_c4y2y8v3:DRAO_0000001>
+		<p_prrhwwd5:DRAO_0000001 xml:lang="en">Chromatography</p_prrhwwd5:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0001002">
-		<p_c4y2y8v3:DRAO_0000001 xml:lang="en">Gas chromatography</p_c4y2y8v3:DRAO_0000001>
+		<p_prrhwwd5:DRAO_0000001 xml:lang="en">Gas chromatography</p_prrhwwd5:DRAO_0000001>
 	</rdf:Description>
 
 

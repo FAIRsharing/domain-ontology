@@ -125,7 +125,7 @@ http://purl.obolibrary.org/obo/OBI_0000094 # Bioprocessing
 http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
 http://purl.obolibrary.org/obo/OBI_0000115 # Intervention design
 http://purl.obolibrary.org/obo/OBI_0000272 # Protocol
-http://purl.obolibrary.org/obo/OBI_0000415 # Polymerase Chain Reaction (PCR)
+http://purl.obolibrary.org/obo/OBI_0000415 # Polymerase Chain Reaction
 http://purl.obolibrary.org/obo/OBI_0000423 # Extract
 http://purl.obolibrary.org/obo/OBI_0000427 # Enzyme
 http://purl.obolibrary.org/obo/OBI_0000430 # Plasmid
@@ -133,7 +133,7 @@ http://purl.obolibrary.org/obo/OBI_0000470 # Mass spectrometry assay
 http://purl.obolibrary.org/obo/OBI_0000615 # Protein expression profiling
 http://purl.obolibrary.org/obo/OBI_0000626 # DNA sequencing
 http://purl.obolibrary.org/obo/OBI_0000658 # Data model
-http://purl.obolibrary.org/obo/OBI_0000716 # Chromatin immunoprecipitation - DNA sequencing (ChIP-seq)
+http://purl.obolibrary.org/obo/OBI_0000716 # Chromatin immunoprecipitation - DNA sequencing
 http://purl.obolibrary.org/obo/OBI_0000725 # Host
 http://purl.obolibrary.org/obo/OBI_0000726 # Peak matching
 http://purl.obolibrary.org/obo/OBI_0000729 # Cloning plasmid
@@ -146,17 +146,17 @@ http://purl.obolibrary.org/obo/OBI_0000968 # Device
 http://purl.obolibrary.org/obo/OBI_0001000 # Questionnaire
 http://purl.obolibrary.org/obo/OBI_0001065 # Stereo microscope
 http://purl.obolibrary.org/obo/OBI_0001199 # In vivo design
-http://purl.obolibrary.org/obo/OBI_0001248 # Chromatin immunoprecipitation - DNA microarray (ChIP-chip)
-http://purl.obolibrary.org/obo/OBI_0001271 # RNA sequencing (RNA-Seq)
+http://purl.obolibrary.org/obo/OBI_0001248 # Chromatin immunoprecipitation - DNA microarray
+http://purl.obolibrary.org/obo/OBI_0001271 # RNA sequencing
 http://purl.obolibrary.org/obo/OBI_0001557 # Material storage service
 http://purl.obolibrary.org/obo/OBI_0001686 # In situ hybridization
-http://purl.obolibrary.org/obo/OBI_0001848 # Chromatin Interaction Analysis by Paired-End Tag (ChIA-PET) sequencing
-http://purl.obolibrary.org/obo/OBI_0001850 # Transcript analysis by paired-end tag sequencing (RNA-PET)
+http://purl.obolibrary.org/obo/OBI_0001848 # Chromatin Interaction Analysis by Paired-End Tag sequencing
+http://purl.obolibrary.org/obo/OBI_0001850 # Transcript analysis by paired-end tag sequencing
 http://purl.obolibrary.org/obo/OBI_0001876 # Cell culture
 http://purl.obolibrary.org/obo/OBI_0001958 # Systematic review
 http://purl.obolibrary.org/obo/OBI_0001985 # Microarray experiment
 http://purl.obolibrary.org/obo/OBI_0001986 # Immunohistochemistry
-http://purl.obolibrary.org/obo/OBI_0002117 # Whole genome sequencing (WGS)
+http://purl.obolibrary.org/obo/OBI_0002117 # Whole genome sequencing
 http://purl.obolibrary.org/obo/OBI_0100014 # Chimera
 http://purl.obolibrary.org/obo/OBI_0200000 # Data transformation
 http://purl.obolibrary.org/obo/OBI_0300311 # Observation design
@@ -182,6 +182,8 @@ http://purl.obolibrary.org/obo/OBI_0001479 # specimen from organism
 subClassOf http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
 http://purl.obolibrary.org/obo/OBI_0000680 # whole organism preparation
 subClassOf http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
+http://purl.obolibrary.org/obo/OBI_0302914 # Digital curation
+subClassOf http://purl.obolibrary.org/obo/ERO_0001218 # Data management **please note that this class is not visible to end users of FAIRsharing**
 
 [Source term retrieval setting]
 includeAllIntermediates
@@ -204,11 +206,11 @@ http://purl.obolibrary.org/obo/CHEBI_15339 # Acceptor
 http://purl.obolibrary.org/obo/CHEBI_15358 # Histone
 http://purl.obolibrary.org/obo/CHEBI_16646 # Carbohydrate
 http://purl.obolibrary.org/obo/CHEBI_16670 # Peptide
-http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid (DNA)
+http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid
 http://purl.obolibrary.org/obo/CHEBI_17234 # Glucose
 http://purl.obolibrary.org/obo/CHEBI_17891 # Donor
 http://purl.obolibrary.org/obo/CHEBI_18059 # Lipid
-http://purl.obolibrary.org/obo/CHEBI_18111 # Ribosomal RNA (rRNA)
+http://purl.obolibrary.org/obo/CHEBI_18111 # Ribosomal RNA
 http://purl.obolibrary.org/obo/CHEBI_18154 # Polysaccharide
 http://purl.obolibrary.org/obo/CHEBI_23367 # Molecular entity
 http://purl.obolibrary.org/obo/CHEBI_23888 # Drug
@@ -220,7 +222,7 @@ http://purl.obolibrary.org/obo/CHEBI_33281 # Antimicrobial
 http://purl.obolibrary.org/obo/CHEBI_33284 # Nutrient
 http://purl.obolibrary.org/obo/CHEBI_33290 # Food
 http://purl.obolibrary.org/obo/CHEBI_33696 # Nucleic acid
-http://purl.obolibrary.org/obo/CHEBI_33697 # Ribonucleic acid (RNA)
+http://purl.obolibrary.org/obo/CHEBI_33697 # Ribonucleic acid
 http://purl.obolibrary.org/obo/CHEBI_33711 # C-terminal amino acid residue
 http://purl.obolibrary.org/obo/CHEBI_33712 # N-terminal amino acid residue
 http://purl.obolibrary.org/obo/CHEBI_33893 # Reagent
@@ -315,7 +317,7 @@ http://purl.obolibrary.org/obo/GO_0009451 # RNA modification
 http://purl.obolibrary.org/obo/GO_0009536 # Plastid
 http://purl.obolibrary.org/obo/GO_0010467 # Gene expression
 http://purl.obolibrary.org/obo/GO_0010468 # Regulation of gene expression
-http://purl.obolibrary.org/obo/GO_0016246 # RNA interference (RNAi)
+http://purl.obolibrary.org/obo/GO_0016246 # RNA interference
 http://purl.obolibrary.org/obo/GO_0016310 # Phosphorylation
 http://purl.obolibrary.org/obo/GO_0016477 # Cell migration
 http://purl.obolibrary.org/obo/GO_0017144 # Drug metabolic process
@@ -333,7 +335,7 @@ http://purl.obolibrary.org/obo/GO_0036211 # Protein modification
 http://purl.obolibrary.org/obo/GO_0042101 # T cell receptor complex
 http://purl.obolibrary.org/obo/GO_0042571 # Antibody
 http://purl.obolibrary.org/obo/GO_0043226 # Organelle
-http://purl.obolibrary.org/obo/GO_0043687 # Post-translational protein modification (PTM)
+http://purl.obolibrary.org/obo/GO_0043687 # Post-translational protein modification
 http://purl.obolibrary.org/obo/GO_0044424 # Intracellular part **Required for NCIT Receptor**
 http://purl.obolibrary.org/obo/GO_0046872 # Metal ion binding
 http://purl.obolibrary.org/obo/GO_0047485 # Protein N-terminus binding
@@ -351,7 +353,7 @@ http://purl.obolibrary.org/obo/GO_0070085 # Glycosylation
 http://purl.obolibrary.org/obo/GO_0070893 # Transposon integration
 http://purl.obolibrary.org/obo/GO_0007608 # Sense of smell
 http://purl.obolibrary.org/obo/GO_0098687 # Chromosomal region
-http://purl.obolibrary.org/obo/GO_1901873 # Regulation of post-translational protein modification (PTM)
+http://purl.obolibrary.org/obo/GO_1901873 # Regulation of post-translational protein modification
 http://purl.obolibrary.org/obo/GO_2000628 # Regulation of miRNA metabolic process
 
 [Top level source term URIs and target direct superclass URIs]
@@ -414,36 +416,36 @@ http://purl.obolibrary.org/obo/SO_0000167 # Promoter
 http://purl.obolibrary.org/obo/SO_0000178 # Operon
 http://purl.obolibrary.org/obo/SO_0000180 # Retrotransposon
 http://purl.obolibrary.org/obo/SO_0000188 # Intron
-http://purl.obolibrary.org/obo/SO_0000203 # Untranslated region (UTR)
-http://purl.obolibrary.org/obo/SO_0000234 # Messenger RNA (mRNA)
+http://purl.obolibrary.org/obo/SO_0000203 # Untranslated region
+http://purl.obolibrary.org/obo/SO_0000234 # Messenger RNA
 http://purl.obolibrary.org/obo/SO_0000239 # Flanking region
-http://purl.obolibrary.org/obo/SO_0000243 # Internal ribosome entry site (IRES)
-http://purl.obolibrary.org/obo/SO_0000253 # Transfer RNA (tRNA)
-http://purl.obolibrary.org/obo/SO_0000276 # Micro RNA (miRNA)
+http://purl.obolibrary.org/obo/SO_0000243 # Internal ribosome entry site
+http://purl.obolibrary.org/obo/SO_0000253 # Transfer RNA
+http://purl.obolibrary.org/obo/SO_0000276 # Micro RNA
 http://purl.obolibrary.org/obo/SO_0000289 # Microsatellite
 http://purl.obolibrary.org/obo/SO_0000312 # Experimentally determined
-http://purl.obolibrary.org/obo/SO_0000316 # Coding sequence (CDS)
+http://purl.obolibrary.org/obo/SO_0000316 # Coding sequence
 http://purl.obolibrary.org/obo/SO_0000324 # Sequence tag
 http://purl.obolibrary.org/obo/SO_0000330 # Conserved region
 http://purl.obolibrary.org/obo/SO_0000336 # Pseudogene
 http://purl.obolibrary.org/obo/SO_0000371 # Conjugative transposon
 http://purl.obolibrary.org/obo/SO_0000409 # Binding site
 http://purl.obolibrary.org/obo/SO_0000418 # Signal peptide
-http://purl.obolibrary.org/obo/SO_0000436 # Autonomously replicating sequence (ARS)
+http://purl.obolibrary.org/obo/SO_0000436 # Autonomously replicating sequence
 http://purl.obolibrary.org/obo/SO_0000591 # Pseudoknot
 http://purl.obolibrary.org/obo/SO_0000603 # Group II intron
-http://purl.obolibrary.org/obo/SO_0000646 # Small interfering RNA (siRNA)
-http://purl.obolibrary.org/obo/SO_0000655 # Non-coding RNA (ncRNA)
+http://purl.obolibrary.org/obo/SO_0000646 # Small interfering RNA
+http://purl.obolibrary.org/obo/SO_0000655 # Non-coding RNA
 http://purl.obolibrary.org/obo/SO_0000667 # Insertion
 http://purl.obolibrary.org/obo/SO_0000673 # Transcript
-http://purl.obolibrary.org/obo/SO_0000694 # Single nucleotide polymorphism (SNP)
+http://purl.obolibrary.org/obo/SO_0000694 # Single nucleotide polymorphism
 http://purl.obolibrary.org/obo/SO_0000704 # Gene
 http://purl.obolibrary.org/obo/SO_0000705 # Tandem repeat
 http://purl.obolibrary.org/obo/SO_0000737 # Mitochondrial sequence
 http://purl.obolibrary.org/obo/SO_0000740 # Plastid sequence
 http://purl.obolibrary.org/obo/SO_0000745 # Chloroplast sequence
-http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA (cDNA)
-http://purl.obolibrary.org/obo/SO_0000771 # Quantitative trait loci (QTL)
+http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA
+http://purl.obolibrary.org/obo/SO_0000771 # Quantitative trait loci
 http://purl.obolibrary.org/obo/SO_0000772 # Genomic island
 http://purl.obolibrary.org/obo/SO_0000857 # Homologous
 http://purl.obolibrary.org/obo/SO_0000858 # Orthologous
@@ -465,10 +467,10 @@ http://purl.obolibrary.org/obo/SO_0001244 # Pre-miRNA (pre-microRNA)
 http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection **Required for OMIT, VariO and FBCV**
 http://purl.obolibrary.org/obo/SO_0001459 # CRISPR
 http://purl.obolibrary.org/obo/SO_0001505 # Reference genome
-http://purl.obolibrary.org/obo/SO_0001877 # Long non-coding RNA (lncRNA)
+http://purl.obolibrary.org/obo/SO_0001877 # Long non-coding RNA
 http://purl.obolibrary.org/obo/SO_0001956 # Protease site
-http://purl.obolibrary.org/obo/SO_0002031 # Short Hairpin RNA (shRNA)
-http://purl.obolibrary.org/obo/SO_0002096 # Short tandem repeat (STR) variation
+http://purl.obolibrary.org/obo/SO_0002031 # Short Hairpin RNA
+http://purl.obolibrary.org/obo/SO_0002096 # Short tandem repeat variation
 http://purl.obolibrary.org/obo/SO_0005836 # Regulatory region
 http://purl.obolibrary.org/obo/SO_0005851 # Gene array
 http://purl.obolibrary.org/obo/SO_1000008 # Point mutation
@@ -483,8 +485,8 @@ subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content enti
 http://purl.obolibrary.org/obo/SO_0000110 # sequence_feature
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 
-http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA (cDNA)
-subClassOf http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid (DNA)
+http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -528,7 +530,7 @@ http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
 http://www.ebi.ac.uk/efo/EFO_0000513 # Genotype
 http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
 http://www.ebi.ac.uk/efo/EFO_0000727 # Treatment
-http://www.ebi.ac.uk/efo/EFO_0000749 # Comparative genomic hybridization (CGH)
+http://www.ebi.ac.uk/efo/EFO_0000749 # Comparative genomic hybridization
 http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
 http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
 http://www.ebi.ac.uk/efo/EFO_0003843 # Pain
@@ -545,7 +547,7 @@ http://www.ebi.ac.uk/efo/EFO_0004982 # Microbiome
 http://www.ebi.ac.uk/efo/EFO_0005135 # Genetic strain
 http://www.ebi.ac.uk/efo/EFO_0007059 # Germplasm
 http://www.ebi.ac.uk/efo/EFO_0007550 # High-content screen
-http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial (mt) disease
+http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
@@ -619,25 +621,25 @@ http://edamontology.org/data_0880 # RNA secondary structure
 http://edamontology.org/data_0883 # Molecular structure
 http://edamontology.org/data_0912 # GC content
 http://edamontology.org/data_0916 # Gene report
-http://edamontology.org/data_0939 # Protein circular dichroism (CD) spectroscopic data
+http://edamontology.org/data_0939 # Protein circular dichroism spectroscopic data
 http://edamontology.org/data_0942 # 2D PAGE image
 http://edamontology.org/data_0943 # Mass spectrometry spectra
 http://edamontology.org/data_0945 # Peptide identification
 http://edamontology.org/data_0950 # Mathematical model
 http://edamontology.org/data_0970 # Citation
 http://edamontology.org/data_1009 # Protein name
-http://edamontology.org/data_1011 # Enzyme Commission (EC) number
+http://edamontology.org/data_1011 # Enzyme Commission number
 http://edamontology.org/data_1016 # Sequence position
 http://edamontology.org/data_1235 # Sequence cluster
 http://edamontology.org/data_1238 # Proteolytic digest
-http://edamontology.org/data_1240 # Polymerase chain reaction (PCR) primers
+http://edamontology.org/data_1240 # Polymerase chain reaction primers
 http://edamontology.org/data_1249 # Sequence length
 http://edamontology.org/data_1278 # Genetic map
 http://edamontology.org/data_1280 # Physical map
 http://edamontology.org/data_1283 # Cytogenetic map
 http://edamontology.org/data_1288 # Genome map
 http://edamontology.org/data_1353 # Sequence motif
-http://edamontology.org/data_1364 # Hidden Markov model (HMM)
+http://edamontology.org/data_1364 # Hidden Markov model
 http://edamontology.org/data_1383 # Nucleic acid sequence alignment
 http://edamontology.org/data_1413 # Sequence similarity
 http://edamontology.org/data_1460 # Protein structure
@@ -667,7 +669,7 @@ http://edamontology.org/data_2976 # Protein sequence
 http://edamontology.org/data_2977 # Nucleic acid sequence
 http://edamontology.org/data_2978 # Reaction data
 http://edamontology.org/data_2979 # Peptide property
-http://edamontology.org/data_3103 # Anatomical Therapeutic Chemical (ATC) Code
+http://edamontology.org/data_3103 # Anatomical Therapeutic Chemical Code
 http://edamontology.org/data_3108 # Experimental measurement
 http://edamontology.org/data_3110 # Raw microarray data
 http://edamontology.org/data_3113 # Biological sample annotation
@@ -680,7 +682,7 @@ http://edamontology.org/data_3495 # RNA sequence
 http://edamontology.org/data_3505 # Bibliography
 http://edamontology.org/data_3671 # Free text
 http://edamontology.org/data_3720 # Geographical location
-http://edamontology.org/data_3754 # Gene Ontology (GO) enrichment
+http://edamontology.org/data_3754 # Gene Ontology enrichment
 http://edamontology.org/format_1207 # Nucleotide
 http://edamontology.org/operation_0226 # Annotation
 http://edamontology.org/operation_0269 # Transmembrane protein prediction
@@ -692,7 +694,7 @@ http://edamontology.org/operation_0362 # Genome annotation
 http://edamontology.org/operation_0417 # Protein post-translation modification site prediction
 http://edamontology.org/operation_0422 # Protein cleavage site prediction
 http://edamontology.org/operation_0435 # Operon prediction
-http://edamontology.org/operation_0445 # Transcription factor (TF) binding site prediction
+http://edamontology.org/operation_0445 # Transcription factor binding site prediction
 http://edamontology.org/operation_0450 # Chimeric sequence detection
 http://edamontology.org/operation_0488 # Linkage disequilibrium
 http://edamontology.org/operation_0492 # Multiple sequence alignment
@@ -814,7 +816,7 @@ http://purl.obolibrary.org/obo/OMIT_0007580 # Hematopoiesis
 http://purl.obolibrary.org/obo/OMIT_0008240 # Immunity
 http://purl.obolibrary.org/obo/OMIT_0008430 # Insecticide resistance
 http://purl.obolibrary.org/obo/OMIT_0008490 # Interferon
-http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex (MHC)
+http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
 http://purl.obolibrary.org/obo/OMIT_0010452 # Nesting behavior
 http://purl.obolibrary.org/obo/OMIT_0012031 # Poly A
 http://purl.obolibrary.org/obo/OMIT_0012123 # Population dynamics
@@ -826,11 +828,11 @@ http://purl.obolibrary.org/obo/OMIT_0015994 # Reproducibility of results
 http://purl.obolibrary.org/obo/OMIT_0018868 # Founder effect
 http://purl.obolibrary.org/obo/OMIT_0019288 # Multimedia
 http://purl.obolibrary.org/obo/OMIT_0019939 # Benchmarking
-http://purl.obolibrary.org/obo/OMIT_0020804 # Quantitative structure-activity relationship (QSAR)
+http://purl.obolibrary.org/obo/OMIT_0020804 # Quantitative structure-activity relationship
 http://purl.obolibrary.org/obo/OMIT_0021245 # Polyadenylation
 http://purl.obolibrary.org/obo/OMIT_0022673 # Nanotechnology
 http://purl.obolibrary.org/obo/OMIT_0023533 # Regenerative medicine
-http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors (KIR)
+http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors
 http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
 http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
 http://purl.obolibrary.org/obo/OMIT_0026382 # Genetic Phenomena
@@ -848,12 +850,12 @@ http://purl.obolibrary.org/obo/BFO_0000001 # entity
 
 http://purl.obolibrary.org/obo/OMIT_0008490 # Interferon
 subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
-http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors (KIR)
+http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors
 subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
 http://purl.obolibrary.org/obo/OMIT_0028415 # Intrinsically disordered proteins
 subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
 
-http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex (MHC)
+http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
 subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Macromolecular complex
 http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
 subClassOf http://purl.obolibrary.org/obo/GO_0008152 # Metabolic process
@@ -884,6 +886,7 @@ MI
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/MI_0000 # Molecular interaction
+http://purl.obolibrary.org/obo/MI_0064 # Interologs mapping
 http://purl.obolibrary.org/obo/MI_0074 # Mutation analysis
 http://purl.obolibrary.org/obo/MI_0093 # Protein sequence identification
 http://purl.obolibrary.org/obo/MI_0118 # Mutation
@@ -896,7 +899,7 @@ http://purl.obolibrary.org/obo/MI_0914 # Functional association
 http://purl.obolibrary.org/obo/MI_0964 # Infared spectroscopy
 http://purl.obolibrary.org/obo/MI_0966 # Ultraviolet-visible spectroscopy
 http://purl.obolibrary.org/obo/MI_1241 # Sequence variant
-http://purl.obolibrary.org/obo/MI_2190 # Long non-coding ribonucleic acid (lncRNA)
+http://purl.obolibrary.org/obo/MI_2190 # Long non-coding ribonucleic acid
 http://purl.obolibrary.org/obo/MI_2231 # Co-expression
 
 [Top level source term URIs and target direct superclass URIs]
@@ -908,7 +911,7 @@ http://purl.obolibrary.org/obo/MI_2025 # Molecular weight
 subClassOf http://edamontology.org/data_2087 # Molecular property
 http://purl.obolibrary.org/obo/MI_2030 # Isoelectric point
 subClassOf http://edamontology.org/data_2087 # Molecular property
-http://purl.obolibrary.org/obo/MI_2190 # Long non-coding ribonucleic acid (lncRNA)
+http://purl.obolibrary.org/obo/MI_2190 # Long non-coding ribonucleic acid
 subClassOf http://purl.obolibrary.org/obo/CHEBI_33696 # nucleic acid
 http://purl.obolibrary.org/obo/MI_0328 # Small molecule
 subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 # molecular entity
@@ -1013,18 +1016,19 @@ http://purl.obolibrary.org/obo/ERO_0000401 # Cellular assay
 http://purl.obolibrary.org/obo/ERO_0000478 # Bioactivity
 http://purl.obolibrary.org/obo/ERO_0000833 # Molecular screen **Required for FBCV**
 http://purl.obolibrary.org/obo/ERO_0000911 # Drug combination effect modeling
-http://purl.obolibrary.org/obo/ERO_0001075 # Real time polymerase chain reaction (RT-PCR)
+http://purl.obolibrary.org/obo/ERO_0001075 # Real time polymerase chain reaction
 http://purl.obolibrary.org/obo/ERO_0001183 # Next generation DNA sequencing
+http://purl.obolibrary.org/obo/ERO_0001218 # Data management **Required for biocuration, not visible to end users, not in Ontodog files**
 http://purl.obolibrary.org/obo/ERO_0001944 # Super-resolution microscopy
 http://purl.obolibrary.org/obo/ERO_0001219 # Quality control
-http://purl.obolibrary.org/obo/ERO_0001235 # Magnetic resonance imaging (MRI)
+http://purl.obolibrary.org/obo/ERO_0001235 # Magnetic resonance imaging
 http://purl.obolibrary.org/obo/ERO_0001312 # Imaging
 http://purl.obolibrary.org/obo/ERO_0001677 # Raman spectroscopy
 http://purl.obolibrary.org/obo/ERO_0001688 # RNAi screening
-http://purl.obolibrary.org/obo/ERO_0001728 # MicroRNA (miRNA) expression analysis
+http://purl.obolibrary.org/obo/ERO_0001728 # MicroRNA expression analysis
 http://purl.obolibrary.org/obo/ERO_0001764 # Polysomnography
-http://purl.obolibrary.org/obo/ERO_0001830 # Positron emission tomography (PET)
-http://purl.obolibrary.org/obo/ERO_0002178 # Functional magnetic resonance imaging (fMRI)
+http://purl.obolibrary.org/obo/ERO_0001830 # Positron emission tomography
+http://purl.obolibrary.org/obo/ERO_0002178 # Functional magnetic resonance imaging
 http://purl.obolibrary.org/obo/ERO_0002190 # Resource collection
 http://purl.obolibrary.org/obo/ERO_0100102 # Modeling and simulation
 http://purl.obolibrary.org/obo/ERO_0100106 # Natural language processing
@@ -1033,7 +1037,7 @@ http://purl.obolibrary.org/obo/ERO_0100150 # Omics data analysis
 http://purl.obolibrary.org/obo/ERO_0100295 # Data acquisition
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/ERO_0001075 # Real time polymerase chain reaction (RT-PCR)
+http://purl.obolibrary.org/obo/ERO_0001075 # Real time polymerase chain reaction
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
 http://purl.obolibrary.org/obo/ERO_0001219 # Quality control
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
@@ -1114,15 +1118,16 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 DOID
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/DOID_0080001 # Bone disease
+http://purl.obolibrary.org/obo/DOID_93 # Language disorder
+http://purl.obolibrary.org/obo/DOID_162 # Cancer
+http://purl.obolibrary.org/obo/DOID_302 # Substance abuse
+http://purl.obolibrary.org/obo/DOID_409 # Liver disease
+http://purl.obolibrary.org/obo/DOID_557 # Kidney disease
+http://purl.obolibrary.org/obo/DOID_1826 # Epilepsy
 http://purl.obolibrary.org/obo/DOID_12365 # Malaria
 http://purl.obolibrary.org/obo/DOID_12849 # Autistic disorder
 http://purl.obolibrary.org/obo/DOID_14330 # Parkinson's disease
-http://purl.obolibrary.org/obo/DOID_162 # Cancer
-http://purl.obolibrary.org/obo/DOID_1826 # Epilepsy
-http://purl.obolibrary.org/obo/DOID_302 # Substance abuse
-http://purl.obolibrary.org/obo/DOID_557 # Kidney disease
-http://purl.obolibrary.org/obo/DOID_93 # Language disorder
+http://purl.obolibrary.org/obo/DOID_0080001 # Bone disease
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_162 # Cancer
@@ -1266,6 +1271,8 @@ http://purl.obolibrary.org/obo/CL_0000034 # Stem cell
 http://purl.obolibrary.org/obo/CL_0000084 # T cell
 http://purl.obolibrary.org/obo/CL_0000451 # Dendritic cell
 http://purl.obolibrary.org/obo/CL_0000540 # Neuron
+http://purl.obolibrary.org/obo/CL_0002248 # Pluripotent stem cell
+http://purl.obolibrary.org/obo/CL_0002322 # Embryonic stem cell
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000002 # continuant
@@ -1483,12 +1490,12 @@ FMA
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/FMA_70631 # Cell morphology
-http://purl.obolibrary.org/obo/FMA_84795 # Human leukocyte antigen (HLA) complex
+http://purl.obolibrary.org/obo/FMA_84795 # Human leukocyte antigen complex
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/FMA_70631 # Cell morphology
 subClassOf http://purl.obolibrary.org/obo/PATO_0000051 # morphology
-http://purl.obolibrary.org/obo/FMA_84795 # Human leukocyte antigen (HLA) complex
+http://purl.obolibrary.org/obo/FMA_84795 # Human leukocyte antigen complex
 subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Macromolecular complex
 
 [Source term retrieval setting]
@@ -1519,6 +1526,8 @@ CLO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/CLO_0000031 # Cell line
 http://purl.obolibrary.org/obo/CLO_0036932 # Hybridoma
+http://purl.obolibrary.org/obo/CLO_0037280 # Human embryonic stem cell line cell
+http://purl.obolibrary.org/obo/CLO_0037308 # human induced pluripotent stem cell line cell
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
@@ -1555,7 +1564,7 @@ CHMO
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/CHMO_0000156 # X-ray diffraction
 http://purl.obolibrary.org/obo/CHMO_0000228 # Spectroscopy
-http://purl.obolibrary.org/obo/CHMO_0000591 # Nuclear Magnetic Resonance (NMR) spectroscopy
+http://purl.obolibrary.org/obo/CHMO_0000591 # Nuclear Magnetic Resonance spectroscopy
 http://purl.obolibrary.org/obo/CHMO_0000800 # Spectrum
 http://purl.obolibrary.org/obo/CHMO_0001000 # Chromatography
 http://purl.obolibrary.org/obo/CHMO_0001002 # Gas chromatography

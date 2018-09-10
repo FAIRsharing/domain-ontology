@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_6whw6pyi="http://www.fairsharing.org/ontology/"
+xmlns:p_bh0onkww="http://www.fairsharing.org/ontology/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,11 +9,19 @@ xmlns:p_6whw6pyi="http://www.fairsharing.org/ontology/"
 
 	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0000031">
-		<p_6whw6pyi:DRAO_0000001 xml:lang="en">Cell line</p_6whw6pyi:DRAO_0000001>
+		<p_bh0onkww:DRAO_0000001 xml:lang="en">Cell line</p_bh0onkww:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0036932">
-		<p_6whw6pyi:DRAO_0000001 xml:lang="en">Hybridoma</p_6whw6pyi:DRAO_0000001>
+		<p_bh0onkww:DRAO_0000001 xml:lang="en">Hybridoma</p_bh0onkww:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037280">
+		<p_bh0onkww:DRAO_0000001 xml:lang="en">Human embryonic stem cell line cell</p_bh0onkww:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037308">
+		<p_bh0onkww:DRAO_0000001 xml:lang="en">Human induced pluripotent stem cell line cell</p_bh0onkww:DRAO_0000001>
 	</rdf:Description>
 
 
