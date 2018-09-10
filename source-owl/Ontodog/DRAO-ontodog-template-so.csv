@@ -203,7 +203,7 @@ http://purl.obolibrary.org/obo/SO_0000199	translocation
 http://purl.obolibrary.org/obo/SO_0000200	five_prime_coding_exon			
 http://purl.obolibrary.org/obo/SO_0000201	interior_exon			
 http://purl.obolibrary.org/obo/SO_0000202	three_prime_coding_exon			
-http://purl.obolibrary.org/obo/SO_0000203	UTR	y	Untranslated region (UTR)	
+http://purl.obolibrary.org/obo/SO_0000203	UTR	y	Untranslated region	
 http://purl.obolibrary.org/obo/SO_0000204	five_prime_UTR			
 http://purl.obolibrary.org/obo/SO_0000205	three_prime_UTR			
 http://purl.obolibrary.org/obo/SO_0000206	SINE_element			
@@ -234,7 +234,7 @@ http://purl.obolibrary.org/obo/SO_0000230	valine_tRNA_primary_transcript
 http://purl.obolibrary.org/obo/SO_0000231	snRNA_primary_transcript			
 http://purl.obolibrary.org/obo/SO_0000232	snoRNA_primary_transcript			
 http://purl.obolibrary.org/obo/SO_0000233	mature_transcript			
-http://purl.obolibrary.org/obo/SO_0000234	mRNA	y	Messenger RNA (mRNA)	
+http://purl.obolibrary.org/obo/SO_0000234	mRNA	y	Messenger RNA	
 http://purl.obolibrary.org/obo/SO_0000235	TF_binding_site			
 http://purl.obolibrary.org/obo/SO_0000236	ORF			
 http://purl.obolibrary.org/obo/SO_0000237	transcript_attribute			
@@ -243,7 +243,7 @@ http://purl.obolibrary.org/obo/SO_0000239	flanking_region	y	Flanking region
 http://purl.obolibrary.org/obo/SO_0000240	chromosome_variation			
 http://purl.obolibrary.org/obo/SO_0000241	internal_UTR			
 http://purl.obolibrary.org/obo/SO_0000242	untranslated_region_polycistronic_mRNA			
-http://purl.obolibrary.org/obo/SO_0000243	internal_ribosome_entry_site	y	Internal ribosome entry site (IRES)	
+http://purl.obolibrary.org/obo/SO_0000243	internal_ribosome_entry_site	y	Internal ribosome entry site	
 http://purl.obolibrary.org/obo/SO_0000244	four_cutter_restriction_site			
 http://purl.obolibrary.org/obo/SO_0000245	mRNA_by_polyadenylation_status			
 http://purl.obolibrary.org/obo/SO_0000246	polyadenylated			
@@ -253,7 +253,7 @@ http://purl.obolibrary.org/obo/SO_0000249	six_cutter_restriction_site
 http://purl.obolibrary.org/obo/SO_0000250	modified_RNA_base_feature			
 http://purl.obolibrary.org/obo/SO_0000251	eight_cutter_restriction_site			
 http://purl.obolibrary.org/obo/SO_0000252	rRNA			
-http://purl.obolibrary.org/obo/SO_0000253	tRNA	y	Transfer RNA (tRNA)	
+http://purl.obolibrary.org/obo/SO_0000253	tRNA	y	Transfer RNA	
 http://purl.obolibrary.org/obo/SO_0000254	alanyl_tRNA			
 http://purl.obolibrary.org/obo/SO_0000255	rRNA_small_subunit_primary_transcript			
 http://purl.obolibrary.org/obo/SO_0000256	asparaginyl_tRNA			
@@ -276,7 +276,7 @@ http://purl.obolibrary.org/obo/SO_0000272	tyrosyl_tRNA
 http://purl.obolibrary.org/obo/SO_0000273	valyl_tRNA			
 http://purl.obolibrary.org/obo/SO_0000274	snRNA			
 http://purl.obolibrary.org/obo/SO_0000275	snoRNA			
-http://purl.obolibrary.org/obo/SO_0000276	miRNA	y	Micro RNA (miRNA)	
+http://purl.obolibrary.org/obo/SO_0000276	miRNA	y	Micro RNA	
 http://purl.obolibrary.org/obo/SO_0000277	bound_by_factor			
 http://purl.obolibrary.org/obo/SO_0000278	transcript_bound_by_nucleic_acid			
 http://purl.obolibrary.org/obo/SO_0000279	transcript_bound_by_protein			
@@ -316,7 +316,7 @@ http://purl.obolibrary.org/obo/SO_0000312	experimentally_determined	y	Experiment
 http://purl.obolibrary.org/obo/SO_0000313	stem_loop			
 http://purl.obolibrary.org/obo/SO_0000314	direct_repeat			
 http://purl.obolibrary.org/obo/SO_0000315	TSS			
-http://purl.obolibrary.org/obo/SO_0000316	CDS	y	Coding sequence (CDS)	
+http://purl.obolibrary.org/obo/SO_0000316	CDS	y	Coding sequence	
 http://purl.obolibrary.org/obo/SO_0000317	cDNA_clone			
 http://purl.obolibrary.org/obo/SO_0000318	start_codon			
 http://purl.obolibrary.org/obo/SO_0000319	stop_codon			
@@ -435,7 +435,7 @@ http://purl.obolibrary.org/obo/SO_0000432	U5_three_prime_LTR_region
 http://purl.obolibrary.org/obo/SO_0000433	non_LTR_retrotransposon_polymeric_tract			
 http://purl.obolibrary.org/obo/SO_0000434	target_site_duplication			
 http://purl.obolibrary.org/obo/SO_0000435	RR_tract			
-http://purl.obolibrary.org/obo/SO_0000436	ARS	y	Autonomously replicating sequence (ARS)	
+http://purl.obolibrary.org/obo/SO_0000436	ARS	y	Autonomously replicating sequence	
 http://purl.obolibrary.org/obo/SO_0000437	assortment_derived_duplication			
 http://purl.obolibrary.org/obo/SO_0000438	gene_not_polyadenylated			
 http://purl.obolibrary.org/obo/SO_0000439	inverted_ring_chromosome			
@@ -645,14 +645,14 @@ http://purl.obolibrary.org/obo/SO_0000642	SRP_RNA_encoding
 http://purl.obolibrary.org/obo/SO_0000643	minisatellite			
 http://purl.obolibrary.org/obo/SO_0000644	antisense_RNA			
 http://purl.obolibrary.org/obo/SO_0000645	antisense_primary_transcript			
-http://purl.obolibrary.org/obo/SO_0000646	siRNA	y	Small interfering RNA (siRNA)	
+http://purl.obolibrary.org/obo/SO_0000646	siRNA	y	Small interfering RNA	
 http://purl.obolibrary.org/obo/SO_0000647	miRNA_primary_transcript			
 http://purl.obolibrary.org/obo/SO_0000650	small_subunit_rRNA			
 http://purl.obolibrary.org/obo/SO_0000651	large_subunit_rRNA			
 http://purl.obolibrary.org/obo/SO_0000652	rRNA_5S			
 http://purl.obolibrary.org/obo/SO_0000653	rRNA_28S			
 http://purl.obolibrary.org/obo/SO_0000654	maxicircle_gene			
-http://purl.obolibrary.org/obo/SO_0000655	ncRNA	y	Non-coding RNA (ncRNA)	
+http://purl.obolibrary.org/obo/SO_0000655	ncRNA	y	Non-coding RNA	
 http://purl.obolibrary.org/obo/SO_0000656	stRNA_encoding			
 http://purl.obolibrary.org/obo/SO_0000657	repeat_region			
 http://purl.obolibrary.org/obo/SO_0000658	dispersed_repeat			
@@ -691,7 +691,7 @@ http://purl.obolibrary.org/obo/SO_0000690	gene_with_polycistronic_transcript
 http://purl.obolibrary.org/obo/SO_0000691	cleaved_initiator_methionine			
 http://purl.obolibrary.org/obo/SO_0000692	gene_with_dicistronic_transcript			
 http://purl.obolibrary.org/obo/SO_0000693	gene_with_recoded_mRNA			
-http://purl.obolibrary.org/obo/SO_0000694	SNP	y	Single nucleotide polymorphism (SNP)	
+http://purl.obolibrary.org/obo/SO_0000694	SNP	y	Single nucleotide polymorphism	
 http://purl.obolibrary.org/obo/SO_0000695	reagent			
 http://purl.obolibrary.org/obo/SO_0000696	oligo			
 http://purl.obolibrary.org/obo/SO_0000697	gene_with_stop_codon_read_through			
@@ -753,7 +753,7 @@ http://purl.obolibrary.org/obo/SO_0000752	gene_group_regulatory_region
 http://purl.obolibrary.org/obo/SO_0000753	clone_insert			
 http://purl.obolibrary.org/obo/SO_0000754	lambda_vector			
 http://purl.obolibrary.org/obo/SO_0000755	plasmid_vector			
-http://purl.obolibrary.org/obo/SO_0000756	cDNA	y	Complementary DNA (cDNA)	
+http://purl.obolibrary.org/obo/SO_0000756	cDNA	y	Complementary DNA	
 http://purl.obolibrary.org/obo/SO_0000757	single_stranded_cDNA			
 http://purl.obolibrary.org/obo/SO_0000758	double_stranded_cDNA			
 http://purl.obolibrary.org/obo/SO_0000759	plasmid_clone			
@@ -768,7 +768,7 @@ http://purl.obolibrary.org/obo/SO_0000767	clone_insert_start
 http://purl.obolibrary.org/obo/SO_0000768	episome			
 http://purl.obolibrary.org/obo/SO_0000769	tmRNA_coding_piece			
 http://purl.obolibrary.org/obo/SO_0000770	tmRNA_acceptor_piece			
-http://purl.obolibrary.org/obo/SO_0000771	QTL	y	Quantitative trait loci (QTL)	
+http://purl.obolibrary.org/obo/SO_0000771	QTL	y	Quantitative trait loci	
 http://purl.obolibrary.org/obo/SO_0000772	genomic_island	y	Genomic island	
 http://purl.obolibrary.org/obo/SO_0000773	pathogenic_island			
 http://purl.obolibrary.org/obo/SO_0000774	metabolic_island			
@@ -1859,7 +1859,7 @@ http://purl.obolibrary.org/obo/SO_0001873	interchromosomal_breakpoint
 http://purl.obolibrary.org/obo/SO_0001874	intrachromosomal_breakpoint			
 http://purl.obolibrary.org/obo/SO_0001875	unassigned_supercontig			
 http://purl.obolibrary.org/obo/SO_0001876	partial_genomic_sequence_assembly			
-http://purl.obolibrary.org/obo/SO_0001877	lnc_RNA	y	Long non-coding RNA (lncRNA)	
+http://purl.obolibrary.org/obo/SO_0001877	lnc_RNA	y	Long non-coding RNA	
 http://purl.obolibrary.org/obo/SO_0001878	feature_variant			
 http://purl.obolibrary.org/obo/SO_0001879	feature_ablation			
 http://purl.obolibrary.org/obo/SO_0001880	feature_amplification			
@@ -2012,7 +2012,7 @@ http://purl.obolibrary.org/obo/SO_0002027	uORF
 http://purl.obolibrary.org/obo/SO_0002028	sORF			
 http://purl.obolibrary.org/obo/SO_0002029	tnaORF			
 http://purl.obolibrary.org/obo/SO_0002030	X_region			
-http://purl.obolibrary.org/obo/SO_0002031	shRNA	y	Short Hairpin RNA (shRNA)	
+http://purl.obolibrary.org/obo/SO_0002031	shRNA	y	Short Hairpin RNA	
 http://purl.obolibrary.org/obo/SO_0002032	moR			
 http://purl.obolibrary.org/obo/SO_0002033	loR			
 http://purl.obolibrary.org/obo/SO_0002034	miR_encoding_snoRNA_primary_transcript			
@@ -2077,7 +2077,7 @@ http://purl.obolibrary.org/obo/SO_0002092	5_prime_UTR_exon_variant
 http://purl.obolibrary.org/obo/SO_0002093	structural_interaction_variant			
 http://purl.obolibrary.org/obo/SO_0002094	non_allelic_homologous_recombination_region			
 http://purl.obolibrary.org/obo/SO_0002095	scaRNA			
-http://purl.obolibrary.org/obo/SO_0002096	short_tandem_repeat_variation	y	Short tandem repeat (STR) variation	
+http://purl.obolibrary.org/obo/SO_0002096	short_tandem_repeat_variation	y	Short tandem repeat variation	
 http://purl.obolibrary.org/obo/SO_0002097	vertebrate_immune_system_pseudogene			
 http://purl.obolibrary.org/obo/SO_0002098	immunoglobulin_pseudogene			
 http://purl.obolibrary.org/obo/SO_0002099	T_cell_receptor_pseudogene			

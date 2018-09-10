@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_6zdrhmrv="http://www.geneontology.org/formats/oboInOwl#"
+xmlns:p_qeo7b3gq="http://www.geneontology.org/formats/oboInOwl#"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,27 +9,27 @@ xmlns:p_6zdrhmrv="http://www.geneontology.org/formats/oboInOwl#"
 
 	<owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0000156">
-		<p_6zdrhmrv:inSubset xml:lang="en">FAIRsharing</p_6zdrhmrv:inSubset>
+		<p_qeo7b3gq:inSubset xml:lang="en">FAIRsharing</p_qeo7b3gq:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0000228">
-		<p_6zdrhmrv:inSubset xml:lang="en">FAIRsharing</p_6zdrhmrv:inSubset>
+		<p_qeo7b3gq:inSubset xml:lang="en">FAIRsharing</p_qeo7b3gq:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0000591">
-		<p_6zdrhmrv:inSubset xml:lang="en">FAIRsharing</p_6zdrhmrv:inSubset>
+		<p_qeo7b3gq:inSubset xml:lang="en">FAIRsharing</p_qeo7b3gq:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0000800">
-		<p_6zdrhmrv:inSubset xml:lang="en">FAIRsharing</p_6zdrhmrv:inSubset>
+		<p_qeo7b3gq:inSubset xml:lang="en">FAIRsharing</p_qeo7b3gq:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0001000">
-		<p_6zdrhmrv:inSubset xml:lang="en">FAIRsharing</p_6zdrhmrv:inSubset>
+		<p_qeo7b3gq:inSubset xml:lang="en">FAIRsharing</p_qeo7b3gq:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0001002">
-		<p_6zdrhmrv:inSubset xml:lang="en">FAIRsharing</p_6zdrhmrv:inSubset>
+		<p_qeo7b3gq:inSubset xml:lang="en">FAIRsharing</p_qeo7b3gq:inSubset>
 	</rdf:Description>
 
 

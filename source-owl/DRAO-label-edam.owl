@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_ats8j0e7="http://www.fairsharing.org/ontology/"
+xmlns:p_agz5mz0h="http://www.fairsharing.org/ontology/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,103 +9,99 @@ xmlns:p_ats8j0e7="http://www.fairsharing.org/ontology/"
 
 	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
 	<rdf:Description rdf:about="http://edamontology.org/data_0883">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Molecular structure</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Molecular structure</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_0912">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">GC content</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">GC content</p_agz5mz0h:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://edamontology.org/data_0939">
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Protein circular dichroism spectroscopic data</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_1011">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Enzyme Commission (EC) number</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Enzyme Commission number</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_1240">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Polymerase chain reaction (PCR) primers</p_ats8j0e7:DRAO_0000001>
-	</rdf:Description>
-
-	<rdf:Description rdf:about="http://edamontology.org/data_1364">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Hidden Markov model (HMM)</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Polymerase chain reaction primers</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_1383">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Nucleic acid sequence alignment</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Nucleic acid sequence alignment</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_1712">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Chemical structure</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Chemical structure</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_2531">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Experiment metadata</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Experiment metadata</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_2976">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Amino acid sequence</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Amino acid sequence</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_3103">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Anatomical Therapeutic Chemical (ATC) Code</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Anatomical Therapeutic Chemical Code</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_3113">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Biological sample annotation</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Biological sample annotation</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_3494">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">DNA sequence data</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">DNA sequence data</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_3671">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Free text</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Free text</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_3720">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Geographical location</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Geographical location</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/data_3754">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Gene Ontology (GO) enrichment</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Gene Ontology enrichment</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/format_1207">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Nucleotide</p_ats8j0e7:DRAO_0000001>
-	</rdf:Description>
-
-	<rdf:Description rdf:about="http://edamontology.org/operation_0445">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Transcription factor (TF) binding site prediction</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Nucleotide</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/operation_0488">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Linkage disequilibrium</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Linkage disequilibrium</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/operation_0525">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Genomic assembly</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Genomic assembly</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/operation_2423">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Computational predictions</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Computational predictions</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/operation_3208">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Genome visualization</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Genome visualization</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/topic_0128">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Protein interaction</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Protein interaction</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/topic_0621">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Model organism</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Model organism</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/topic_0821">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Enzyme</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Enzyme</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://edamontology.org/topic_3386">
-		<p_ats8j0e7:DRAO_0000001 xml:lang="en">Animal research</p_ats8j0e7:DRAO_0000001>
+		<p_agz5mz0h:DRAO_0000001 xml:lang="en">Animal research</p_agz5mz0h:DRAO_0000001>
 	</rdf:Description>
 
 

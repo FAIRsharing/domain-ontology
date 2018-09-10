@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_fmr4ni99="http://www.fairsharing.org/ontology/"
+xmlns:p_39yvjcsb="http://www.fairsharing.org/ontology/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,303 +9,303 @@ xmlns:p_fmr4ni99="http://www.fairsharing.org/ontology/"
 
 	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0000380">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Alternative splicing</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Alternative splicing</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0000775">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Centromere</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Centromere</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0003674">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Molecular function</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Molecular function</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0003682">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Chromatin binding</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Chromatin binding</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0003824">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Catalytic activity</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Catalytic activity</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005216">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Ion channel activity</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Ion channel activity</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005488">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Binding</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Binding</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Cellular component</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Cellular component</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005623">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Cell</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Cell</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005634">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Nucleus</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Nucleus</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005694">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Chromosome</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Chromosome</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005739">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Mitochondrion</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Mitochondrion</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005813">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Centrosome</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Centrosome</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006006">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Glucose metabolic process</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Glucose metabolic process</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006306">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">DNA methylation</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">DNA methylation</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006338">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Chromatin remodeling</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Chromatin remodeling</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006412">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Translation</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Translation</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006413">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Translation initiation</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Translation initiation</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006457">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Protein folding</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Protein folding</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006473">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Protein acetylation</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Protein acetylation</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006605">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Protein targeting</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Protein targeting</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006810">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Transport</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Transport</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0006954">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Inflammatory response</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Inflammatory response</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007049">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Cell cycle</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Cell cycle</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007127">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Meiosis I</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Meiosis I</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007135">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Meiosis II</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Meiosis II</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007155">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Cell adhesion</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Cell adhesion</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007568">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Aging</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Aging</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007610">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Behavior</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Behavior</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008022">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Protein C-terminus binding</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Protein C-terminus binding</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008104">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Protein localization</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Protein localization</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008144">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Drug binding</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Drug binding</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Biological process</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Biological process</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008380">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">RNA splicing</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">RNA splicing</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009306">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Protein secretion</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Protein secretion</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009451">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">RNA modification</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">RNA modification</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009536">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Plastid</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Plastid</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0010467">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Gene expression</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Gene expression</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0010468">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Regulation of gene expression</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Regulation of gene expression</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0016246">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">RNA interference (RNAi)</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">RNA interference</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0016310">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Phosphorylation</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Phosphorylation</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0016477">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Cell migration</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Cell migration</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0017144">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Drug metabolic process</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Drug metabolic process</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019015">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Viral genome</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Viral genome</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019814">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Immunoglobulin complex</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Immunoglobulin complex</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019815">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">B cell receptor complex</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">B cell receptor complex</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0023052">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Signaling</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Signaling</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030431">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Sleep</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Sleep</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0031982">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Vesicle</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Vesicle</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0032259">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Methylation</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Methylation</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0035195">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Gene silencing by miRNA (microRNA)</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Gene silencing by miRNA (microRNA)</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0036094">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Small molecule binding</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Small molecule binding</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0036211">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Protein modification</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Protein modification</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042101">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">T cell receptor complex</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">T cell receptor complex</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042571">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Antibody</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Antibody</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043226">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Organelle</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Organelle</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043687">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Post-translational protein modification (PTM)</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Post-translational protein modification</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0046872">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Metal ion binding</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Metal ion binding</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0047485">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Protein N-terminus binding</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Protein N-terminus binding</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0048513">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Animal organ development</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Animal organ development</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050693">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Ligand binding domain binding</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Ligand binding domain binding</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050890">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Cognition</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Cognition</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050909">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Sense of taste</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Sense of taste</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051087">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Chaperone binding</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Chaperone binding</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051301">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Cell division</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Cell division</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0051641">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Cellular localization</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Cellular localization</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0060293">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Germ plasm</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Germ plasm</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0065007">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Biological regulation</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Biological regulation</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070062">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Extracellular exosome</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Extracellular exosome</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070085">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Glycosylation</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Glycosylation</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070893">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Transposon integration</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Transposon integration</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007608">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Sense of smell</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Sense of smell</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0098687">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Chromosomal region</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Chromosomal region</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_1901873">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Regulation of post-translational protein modification (PTM)</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Regulation of post-translational protein modification</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_2000628">
-		<p_fmr4ni99:DRAO_0000001 xml:lang="en">Regulation of miRNA metabolic process</p_fmr4ni99:DRAO_0000001>
+		<p_39yvjcsb:DRAO_0000001 xml:lang="en">Regulation of miRNA metabolic process</p_39yvjcsb:DRAO_0000001>
 	</rdf:Description>
 
 

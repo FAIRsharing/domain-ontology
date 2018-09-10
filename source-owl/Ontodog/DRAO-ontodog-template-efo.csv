@@ -8,7 +8,7 @@ http://www.ebi.ac.uk/efo/EFO_0000508		y	Genetic disorder
 http://www.ebi.ac.uk/efo/EFO_0000513		y	Genotype	
 http://www.ebi.ac.uk/efo/EFO_0000546		y	Injury	
 http://www.ebi.ac.uk/efo/EFO_0000727		y	Treatment	
-http://www.ebi.ac.uk/efo/EFO_0000749		y	Comparative genomic hybridization (CGH)	
+http://www.ebi.ac.uk/efo/EFO_0000749		y	Comparative genomic hybridization	
 http://www.ebi.ac.uk/efo/EFO_0001355		y	Infant	
 http://www.ebi.ac.uk/efo/EFO_0001444		y	Measurement	
 http://www.ebi.ac.uk/efo/EFO_0003843		y	Pain	
@@ -25,4 +25,4 @@ http://www.ebi.ac.uk/efo/EFO_0004982		y	Microbiome
 http://www.ebi.ac.uk/efo/EFO_0005135		y	Genetic strain	
 http://www.ebi.ac.uk/efo/EFO_0007059	germplasm	y	Germplasm	
 http://www.ebi.ac.uk/efo/EFO_0007550		y	High-content screen	
-http://www.orpha.net/ORDO/Orphanet_68380		y	Mitochondrial (mt) disease	
+http://www.orpha.net/ORDO/Orphanet_68380		y	Mitochondrial disease	

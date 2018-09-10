@@ -42,6 +42,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset"/>
@@ -123,6 +131,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16991 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16991">
+        <obo:IAO_0000118>DNA</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18111 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_18111">
+        <obo:IAO_0000118>rRNA</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33697 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33697">
+        <obo:IAO_0000118>RNA</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ENVO_01001110 -->
 
     <owl:Class rdf:about="&obo;ENVO_01001110"/>
@@ -144,6 +176,12 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000470 -->
 
     <owl:Class rdf:about="&obo;OBI_0000470"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0302914 -->
+
+    <owl:Class rdf:about="&obo;OBI_0302914"/>
     
 
 
@@ -187,6 +225,16 @@
         <rdfs:comment>AL 16.03.18: Definition modified from https://fairsharing.org/bsg-s001147.</rdfs:comment>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000115>A resource is FAIR if it is compliant with the FAIR principles, a set of guidelines to make data Findable, Accessible, Interoperable, and Re-usable. These guidelines are useful for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/DRAO_0000289 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/DRAO_0000289">
+        <rdfs:label xml:lang="en">Biocuration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0302914"/>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
     </owl:Class>
 </rdf:RDF>
 

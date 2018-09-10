@@ -38,7 +38,7 @@ http://purl.obolibrary.org/obo/GO_0009451		y	RNA modification
 http://purl.obolibrary.org/obo/GO_0009536		y	Plastid	
 http://purl.obolibrary.org/obo/GO_0010467		y	Gene expression	
 http://purl.obolibrary.org/obo/GO_0010468		y	Regulation of gene expression	
-http://purl.obolibrary.org/obo/GO_0016246		y	RNA interference (RNAi)	
+http://purl.obolibrary.org/obo/GO_0016246		y	RNA interference	
 http://purl.obolibrary.org/obo/GO_0016310		y	Phosphorylation	
 http://purl.obolibrary.org/obo/GO_0016477		y	Cell migration	
 http://purl.obolibrary.org/obo/GO_0017144		y	Drug metabolic process	
@@ -55,7 +55,7 @@ http://purl.obolibrary.org/obo/GO_0036211		y	Protein modification
 http://purl.obolibrary.org/obo/GO_0042101		y	T cell receptor complex	
 http://purl.obolibrary.org/obo/GO_0042571		y	Antibody	
 http://purl.obolibrary.org/obo/GO_0043226		y	Organelle	
-http://purl.obolibrary.org/obo/GO_0043687		y	Post-translational protein modification (PTM)	
+http://purl.obolibrary.org/obo/GO_0043687		y	Post-translational protein modification	
 http://purl.obolibrary.org/obo/GO_0046872		y	Metal ion binding	
 http://purl.obolibrary.org/obo/GO_0047485		y	Protein N-terminus binding	
 http://purl.obolibrary.org/obo/GO_0048513		y	Animal organ development	
@@ -72,5 +72,5 @@ http://purl.obolibrary.org/obo/GO_0070085		y	Glycosylation
 http://purl.obolibrary.org/obo/GO_0070893		y	Transposon integration	
 http://purl.obolibrary.org/obo/GO_0007608		y	Sense of smell	
 http://purl.obolibrary.org/obo/GO_0098687		y	Chromosomal region	
-http://purl.obolibrary.org/obo/GO_1901873		y	Regulation of post-translational protein modification (PTM)	
+http://purl.obolibrary.org/obo/GO_1901873		y	Regulation of post-translational protein modification	
 http://purl.obolibrary.org/obo/GO_2000628		y	Regulation of miRNA metabolic process	
