@@ -24,6 +24,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ontology="http://www.fairsharing.org/ontology/">
     <owl:Ontology rdf:about="&ontology;DRAO-merged.owl">
+        <rdfs:comment>AL 10.9.2018: DRAO-manual contains annotations required for DRAO but which cannot be automatically pulled in via either Ontodog or Ontofox. This happens for various reasons, including the source ontology not being present within Ontobee, or the required annotation not being present within the source ontology.</rdfs:comment>
         <rdfs:comment>The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures using Ontofox (PMID: 20569493) and Ontodog (doi: 10.1093/bioinformatics/btu008).
 
 AgroVoc and PRIDE classes were manually added as required.
@@ -1750,6 +1751,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2454"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000115>Identify or predict transcription factor binding sites in DNA sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>TF binding site prediction</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -5243,7 +5245,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">CAGE</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Material that has been selected using Cap Analysis Gene Expression, in which the 7-methylguanosine cap at 5&apos; transcript ends is biotinylated and affinity purified.</obo:IAO_0000115>
-        <ontology:DRAO_0000001 xml:lang="en">Cap Analysis Gene Expression (CAGE)</ontology:DRAO_0000001>
+        <ontology:DRAO_0000001 xml:lang="en">Cap Analysis Gene Expression</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000412 rdf:resource="&obo;fbcv.owl"/>
     </owl:Class>
@@ -7828,7 +7830,7 @@ clustering algorithm.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">GPI-anchor</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">They are glycolipids with the major function of anchoring proteins to cell membrane surfaces. They are particularly abundant in protozoan parasites, where they serve as the predominant mechanism for integrating glycoproteins and phosphosaccharides into membrane lipid bilayers.</obo:IAO_0000115>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <ontology:DRAO_0000001 xml:lang="en">Glycosylphosphatidylinositol (GPI) anchor</ontology:DRAO_0000001>
+        <ontology:DRAO_0000001 xml:lang="en">Glycosylphosphatidylinositol anchor</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;idomal.owl"/>
     </owl:Class>
     
@@ -7948,22 +7950,11 @@ clustering algorithm.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MI_0001 -->
-
-    <rdf:Description rdf:about="&obo;MI_0001">
-        <rdfs:label rdf:datatype="&xsd;string">interaction detection method</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="&xsd;string">Method to determine the interaction.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="&xsd;string">interaction detect</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="&obo;mi.owl"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MI_0064 -->
 
     <owl:Class rdf:about="&obo;MI_0064">
         <rdfs:label rdf:datatype="&xsd;string">interologs mapping</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;MI_0001"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2492"/>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">Homology based interaction prediction</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Protein interactions, experimentally detected in an organism, are extended to a second organism assuming that homologue proteins, in different organisms, maintain their interaction properties.</obo:IAO_0000115>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -10389,6 +10380,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;OMIT_0009360">
         <rdfs:label rdf:datatype="&xsd;string">Major Histocompatibility Complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0032991"/>
+        <obo:IAO_0000118>MHC</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Major histocompatibility complex</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;omit.owl"/>
@@ -10784,6 +10776,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="&obo;OMIT_0020804">
         <rdfs:label rdf:datatype="&xsd;string">Quantitative Structure-Activity Relationship</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OMIT_0014204"/>
+        <obo:IAO_0000118>QSAR</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Quantitative structure-activity relationship</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;omit.owl"/>
@@ -12526,6 +12519,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">INSDC_qualifier:lncRNA</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">lncRNA_transcript</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">long non-coding RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>lncRNA</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Long non-coding RNA</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;so.owl"/>
@@ -12680,7 +12674,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000118 xml:lang="en">GWAS study</obo:IAO_0000118>
         <obo:IAO_0000115 xml:lang="en">Genome wide association study is a kind of study whose objective is to detect association between genetic markers (SNP or otherwise) accross the genome and a trait which may be a disease or another phenotype (e.g. trait of agronomic relevance in animal or plant studies). Genome wide association study compare the allele frequencies in 2 populations, one free of the trait used as control, the other one showing the trait use as &apos;case&apos;. GWAS studies implement case-control design</obo:IAO_0000115>
-        <ontology:DRAO_0000001 xml:lang="en">Genome-wide association study (GWAS)</ontology:DRAO_0000001>
+        <ontology:DRAO_0000001 xml:lang="en">Genome-wide association study</ontology:DRAO_0000001>
         <obo:IAO_0000118 xml:lang="en">whole genome association study</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;stato.owl"/>
     </owl:Class>
@@ -13452,6 +13446,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">comparative genomic hybridization by array</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002694"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An assay in which changes in DNA sequence copy number are analysed using a microarray. For example the analysis of LOH in tumor cells vs a non diseased sample or the comparison of clinical isolated of disease causing bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000118>CGH</obo:IAO_0000118>
         <ontology:DRAO_0000001 xml:lang="en">Comparative genomic hybridization</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
@@ -13734,6 +13729,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Biocuration</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0302914"/>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <obo:IAO_0000115>Biocuration is the extraction of knowledge from unstructured biological and biomedical data into a standard, structured, computable form. [PMQ 2018.09.10 &amp; International Society for Biocuration. DOI: 10.1371/journal.pbio.2002846]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -13777,31 +13773,31 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;ogi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;ido.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;ogi.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
 </rdf:RDF>
 

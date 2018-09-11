@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_xnjbhg4d="http://www.fairsharing.org/ontology/"
+xmlns:p_h2c0tvev="http://www.fairsharing.org/ontology/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,31 +9,31 @@ xmlns:p_xnjbhg4d="http://www.fairsharing.org/ontology/"
 
 	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBcv_0000155">
-		<p_xnjbhg4d:DRAO_0000001 xml:lang="en">Single balancer</p_xnjbhg4d:DRAO_0000001>
+		<p_h2c0tvev:DRAO_0000001 xml:lang="en">Single balancer</p_h2c0tvev:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBcv_0000623">
-		<p_xnjbhg4d:DRAO_0000001 xml:lang="en">Enhancer</p_xnjbhg4d:DRAO_0000001>
+		<p_h2c0tvev:DRAO_0000001 xml:lang="en">Enhancer</p_h2c0tvev:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBcv_0003035">
-		<p_xnjbhg4d:DRAO_0000001 xml:lang="en">Proteome</p_xnjbhg4d:DRAO_0000001>
+		<p_h2c0tvev:DRAO_0000001 xml:lang="en">Proteome</p_h2c0tvev:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBcv_0003036">
-		<p_xnjbhg4d:DRAO_0000001 xml:lang="en">Interactome</p_xnjbhg4d:DRAO_0000001>
+		<p_h2c0tvev:DRAO_0000001 xml:lang="en">Interactome</p_h2c0tvev:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBcv_0003039">
-		<p_xnjbhg4d:DRAO_0000001 xml:lang="en">Chemical screen</p_xnjbhg4d:DRAO_0000001>
+		<p_h2c0tvev:DRAO_0000001 xml:lang="en">Chemical screen</p_h2c0tvev:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBcv_0003040">
-		<p_xnjbhg4d:DRAO_0000001 xml:lang="en">Gene model annotation</p_xnjbhg4d:DRAO_0000001>
+		<p_h2c0tvev:DRAO_0000001 xml:lang="en">Gene model annotation</p_h2c0tvev:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBcv_0003195">
-		<p_xnjbhg4d:DRAO_0000001 xml:lang="en">Cap Analysis Gene Expression (CAGE)</p_xnjbhg4d:DRAO_0000001>
+		<p_h2c0tvev:DRAO_0000001 xml:lang="en">Cap Analysis Gene Expression</p_h2c0tvev:DRAO_0000001>
 	</rdf:Description>
 
 

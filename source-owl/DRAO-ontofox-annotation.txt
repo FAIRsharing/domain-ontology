@@ -685,6 +685,7 @@ http://edamontology.org/data_3720 # Geographical location
 http://edamontology.org/data_3754 # Gene Ontology enrichment
 http://edamontology.org/format_1207 # Nucleotide
 http://edamontology.org/operation_0226 # Annotation
+http://edamontology.org/operation_2492 # Protein interaction prediction **Only required for MI interologs mapping**
 http://edamontology.org/operation_0269 # Transmembrane protein prediction
 http://edamontology.org/operation_0292 # Sequence alignment
 http://edamontology.org/operation_0294 # Structure-based sequence alignment
@@ -931,6 +932,8 @@ http://purl.obolibrary.org/obo/MI_2231 # Co-expression
 subClassOf http://purl.obolibrary.org/obo/OBI_0200000 # data transformation
 http://purl.obolibrary.org/obo/MI_0074 # Mutation analysis
 subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # assay
+http://purl.obolibrary.org/obo/MI_0064 # Interologs mapping
+subClassOf http://edamontology.org/operation_2492 # Protein interaction prediction
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -1969,7 +1972,7 @@ STATO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/STATO_0000254 # Allele frequency
-http://purl.obolibrary.org/obo/STATO_0000091 # Genome-wide association study (GWAS)
+http://purl.obolibrary.org/obo/STATO_0000091 # Genome-wide association study
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000031 # generically dependent continuant
@@ -2192,10 +2195,10 @@ http://purl.obolibrary.org/obo/IAO_0000118
 IDOMAL
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/IDOMAL_0000786 # Glycosylphosphatidylinositol (GPI) anchor
+http://purl.obolibrary.org/obo/IDOMAL_0000786 # Glycosylphosphatidylinositol anchor
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/IDOMAL_0000786 # Glycosylphosphatidylinositol (GPI) anchor
+http://purl.obolibrary.org/obo/IDOMAL_0000786 # Glycosylphosphatidylinositol anchor
 subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
 
 [Source term retrieval setting]
@@ -2311,7 +2314,7 @@ http://purl.obolibrary.org/obo/FBcv_0003035 # Proteome
 http://purl.obolibrary.org/obo/FBcv_0003036 # Interactome
 http://purl.obolibrary.org/obo/FBcv_0003039 # Chemical screen
 http://purl.obolibrary.org/obo/FBcv_0003040 # Gene model annotation
-http://purl.obolibrary.org/obo/FBcv_0003195 # Cap Analysis Gene Expression (CAGE)
+http://purl.obolibrary.org/obo/FBcv_0003195 # Cap Analysis Gene Expression
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/FBcv_0000155 # Single balancer
