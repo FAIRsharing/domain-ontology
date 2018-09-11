@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_rf5m9mgs="http://www.fairsharing.org/ontology/"
+xmlns:p_npthr4oq="http://www.fairsharing.org/ontology/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,7 +9,7 @@ xmlns:p_rf5m9mgs="http://www.fairsharing.org/ontology/"
 
 	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000786">
-		<p_rf5m9mgs:DRAO_0000001 xml:lang="en">Glycosylphosphatidylinositol (GPI) anchor</p_rf5m9mgs:DRAO_0000001>
+		<p_npthr4oq:DRAO_0000001 xml:lang="en">Glycosylphosphatidylinositol anchor</p_npthr4oq:DRAO_0000001>
 	</rdf:Description>
 
 

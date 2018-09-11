@@ -19,7 +19,9 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/DRAO-manual.owl"/>
+    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/DRAO-manual.owl">
+        <rdfs:comment>AL 10.9.2018: DRAO-manual contains annotations required for DRAO but which cannot be automatically pulled in via either Ontodog or Ontofox. This happens for various reasons, including the source ontology not being present within Ontobee, or the required annotation not being present within the source ontology.</rdfs:comment>
+    </owl:Ontology>
     
 
 
@@ -125,6 +127,14 @@
     
 
 
+    <!-- http://edamontology.org/operation_0445 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0445">
+        <obo:IAO_0000118>TF binding site prediction</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
     <owl:Class rdf:about="&obo;BFO_0000019"/>
@@ -194,6 +204,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0009360 -->
+
+    <owl:Class rdf:about="&obo;OMIT_0009360">
+        <obo:IAO_0000118>MHC</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0020804 -->
+
+    <owl:Class rdf:about="&obo;OMIT_0020804">
+        <obo:IAO_0000118>QSAR</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
 
     <owl:Class rdf:about="&obo;PATO_0001018"/>
@@ -217,6 +243,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0001877 -->
+
+    <owl:Class rdf:about="&obo;SO_0001877">
+        <obo:IAO_0000118>lncRNA</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000749 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000749">
+        <obo:IAO_0000118>CGH</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
     <!-- http://www.fairsharing.org/ontology/DRAO_0000281 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/DRAO_0000281">
@@ -235,6 +277,7 @@
         <rdfs:label xml:lang="en">Biocuration</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0302914"/>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <obo:IAO_0000115>Biocuration is the extraction of knowledge from unstructured biological and biomedical data into a standard, structured, computable form. [PMQ 2018.09.10 &amp; International Society for Biocuration. DOI: 10.1371/journal.pbio.2002846]</obo:IAO_0000115>
     </owl:Class>
 </rdf:RDF>
 
