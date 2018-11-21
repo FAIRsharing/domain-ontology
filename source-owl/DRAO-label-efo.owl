@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_mpv3dox4="http://www.fairsharing.org/ontology/"
+xmlns:p_vu78qqdx="http://www.fairsharing.org/ontology/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,107 +9,111 @@ xmlns:p_mpv3dox4="http://www.fairsharing.org/ontology/"
 
 	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000269">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Array design</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Array design</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000319">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Cardiovascular disease</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Cardiovascular disease</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000336">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Chromosomal aberration</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Chromosomal aberration</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000400">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Diabetes mellitus</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Diabetes mellitus</p_vu78qqdx:DRAO_0000001>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000408">
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Disease</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000487">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Exposure</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Exposure</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000508">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Genetic disorder</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Genetic disorder</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000513">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Genotype</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Genotype</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000546">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Injury</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Injury</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000727">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Treatment</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Treatment</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000749">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Comparative genomic hybridization</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Comparative genomic hybridization</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001355">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Infant</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Infant</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001444">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Measurement</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Measurement</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0003843">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Pain</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Pain</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0003890">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Drug dependence</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Drug dependence</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0003935">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Mental health</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Mental health</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004014">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Deletions</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Deletions</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004292">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Vaccination</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Vaccination</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004327">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Electrocardiography</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Electrocardiography</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004346">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Neuroimaging</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Neuroimaging</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004426">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Karyotype</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Karyotype</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004798">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Copy number variation</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Copy number variation</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004982">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Microbiome</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Microbiome</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0005135">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Genetic strain</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Genetic strain</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0007059">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Germplasm</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Germplasm</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0007550">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">High-content screen</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">High-content screen</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://www.orpha.net/ORDO/Orphanet_68380">
-		<p_mpv3dox4:DRAO_0000001 xml:lang="en">Mitochondrial disease</p_mpv3dox4:DRAO_0000001>
+		<p_vu78qqdx:DRAO_0000001 xml:lang="en">Mitochondrial disease</p_vu78qqdx:DRAO_0000001>
 	</rdf:Description>
 
 
