@@ -1240,7 +1240,6 @@ includeAllIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON CL IMPORT ####
 ##
@@ -2258,7 +2257,6 @@ includeAllIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
