@@ -2500,6 +2500,19 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000005 -->
+
+    <owl:Class rdf:about="&obo;BFO_0000005">
+        <rdfs:label rdf:datatype="&xsd;string">dependent_continuant</rdfs:label>
+        <rdfs:label xml:lang="en">obsolete dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="&oboInOwl;ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A continuant  that is either dependent on one or other independent continuant  bearers or inheres in or is borne by other entities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
 
     <owl:Class rdf:about="&obo;BFO_0000015">
@@ -2614,8 +2627,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:Class rdf:about="&obo;BFO_0000031">
         <rdfs:label rdf:datatype="&xsd;string">generically dependent continuant</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">generically_dependent_continuant</rdfs:label>
         <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000002"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000005"/>
         <obo:IAO_0000115 xml:lang="en">A continuant  that is dependent on one or other independent continuant  bearers. For every instance of A requires some instance of (an independent continuant  type) B but which instance of B serves can change from time to time.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])</obo:IAO_0000115>
@@ -13358,6 +13373,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A disease is a disposition that describes states of disease associated with a particular sample and/or organism.</obo:IAO_0000115>
+        <ontology:DRAO_0000001 xml:lang="en">Disease</ontology:DRAO_0000001>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -13734,6 +13751,16 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
+
+    <owl:Class rdf:about="&oboInOwl;ObsoleteClass">
+        <rdfs:label rdf:datatype="&xsd;string">Obsolete Class</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.orpha.net/ORDO/Orphanet_68380 -->
 
     <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_68380">
@@ -13751,26 +13778,13 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <rdf:Description rdf:about="&owl;DeprecatedClass">
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="&owl;Thing">
+        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;ogi.owl"/>
@@ -13785,16 +13799,37 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;ido.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>

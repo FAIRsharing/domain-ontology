@@ -525,6 +525,7 @@ http://www.ebi.ac.uk/efo/EFO_0000269 # Array design
 http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
 http://www.ebi.ac.uk/efo/EFO_0000336 # Chromosomal aberration
 http://www.ebi.ac.uk/efo/EFO_0000400 # Diabetes mellitus
+http://www.ebi.ac.uk/efo/EFO_0000408 # Disease
 http://www.ebi.ac.uk/efo/EFO_0000487 # Exposure
 http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
 http://www.ebi.ac.uk/efo/EFO_0000513 # Genotype
