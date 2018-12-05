@@ -329,7 +329,7 @@ http://purl.obolibrary.org/obo/GO_0023052 # Signaling
 http://purl.obolibrary.org/obo/GO_0030431 # Sleep
 http://purl.obolibrary.org/obo/GO_0031982 # Vesicle
 http://purl.obolibrary.org/obo/GO_0032259 # Methylation
-http://purl.obolibrary.org/obo/GO_0032991 # Macromolecular complex **Required for SBO Channel class and FMA HLA class**
+http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
 http://purl.obolibrary.org/obo/GO_0035195 # Gene silencing by miRNA (microRNA)
 http://purl.obolibrary.org/obo/GO_0036094 # Small molecule binding
 http://purl.obolibrary.org/obo/GO_0036211 # Protein modification
@@ -859,7 +859,7 @@ http://purl.obolibrary.org/obo/OMIT_0028415 # Intrinsically disordered proteins
 subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
 
 http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
-subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Macromolecular complex
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
 http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
 subClassOf http://purl.obolibrary.org/obo/GO_0008152 # Metabolic process
 
@@ -1202,7 +1202,7 @@ subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content enti
 http://biomodels.net/SBO/SBO_0000414 # Cis element
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 http://biomodels.net/SBO/SBO_0000242 # Channel
-subClassOf http://purl.obolibrary.org/obo/GO_0032991 # macromolecular complex
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
 http://biomodels.net/SBO/SBO_0000493 # Functional domain
 subClassOf http://edamontology.org/data_0883 # Structure
 
@@ -1501,7 +1501,7 @@ http://purl.obolibrary.org/obo/FMA_84795 # Human leukocyte antigen complex
 http://purl.obolibrary.org/obo/FMA_70631 # Cell morphology
 subClassOf http://purl.obolibrary.org/obo/PATO_0000051 # morphology
 http://purl.obolibrary.org/obo/FMA_84795 # Human leukocyte antigen complex
-subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Macromolecular complex
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
 
 [Source term retrieval setting]
 includeComputedIntermediates
