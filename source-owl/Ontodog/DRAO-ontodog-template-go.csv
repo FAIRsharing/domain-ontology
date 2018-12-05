@@ -49,6 +49,7 @@ http://purl.obolibrary.org/obo/GO_0023052		y	Signaling
 http://purl.obolibrary.org/obo/GO_0030431		y	Sleep	
 http://purl.obolibrary.org/obo/GO_0031982		y	Vesicle	
 http://purl.obolibrary.org/obo/GO_0032259		y	Methylation	
+http://purl.obolibrary.org/obo/GO_0032991	protein-containing complex	y	Protein-containing complex	
 http://purl.obolibrary.org/obo/GO_0035195		y	Gene silencing by miRNA (microRNA)	
 http://purl.obolibrary.org/obo/GO_0036094		y	Small molecule binding	
 http://purl.obolibrary.org/obo/GO_0036211		y	Protein modification	
