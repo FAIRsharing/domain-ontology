@@ -157,6 +157,7 @@ http://purl.obolibrary.org/obo/OBI_0001958 # Systematic review
 http://purl.obolibrary.org/obo/OBI_0001985 # Microarray experiment
 http://purl.obolibrary.org/obo/OBI_0001986 # Immunohistochemistry
 http://purl.obolibrary.org/obo/OBI_0002117 # Whole genome sequencing
+http://purl.obolibrary.org/obo/OBI_0002186 # Electroencephalography
 http://purl.obolibrary.org/obo/OBI_0100014 # Chimera
 http://purl.obolibrary.org/obo/OBI_0200000 # Data transformation
 http://purl.obolibrary.org/obo/OBI_0300311 # Observation design
