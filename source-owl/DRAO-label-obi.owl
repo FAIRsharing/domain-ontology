@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_4dwizwbo="http://www.fairsharing.org/ontology/"
+xmlns:p_9nd2kokw="http://www.fairsharing.org/ontology/"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,215 +9,215 @@ xmlns:p_4dwizwbo="http://www.fairsharing.org/ontology/"
 
 	<owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Assay</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Assay</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000073">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Sample preparation for assay</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Sample preparation for assay</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000094">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Bioprocessing</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Material processing</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000115">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Intervention design</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Intervention design</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Protocol</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Protocol</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000415">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Polymerase Chain Reaction</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Polymerase Chain Reaction</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000423">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Extract</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Extract</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000427">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Enzyme</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Enzyme</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000430">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Plasmid</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Plasmid</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000470">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Mass spectrometry assay</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Mass spectrometry assay</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000615">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Protein expression profiling</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Protein expression profiling</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000658">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Data model</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Data model</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000716">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Chromatin immunoprecipitation - DNA sequencing</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Chromatin immunoprecipitation - DNA sequencing</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000725">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Host</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Host</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000726">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Peak matching</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Peak matching</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000729">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Cloning plasmid</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Cloning plasmid</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000750">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Independent variable</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Independent variable</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000800">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Cross linking</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Cross linking</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000844">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Hospital</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Hospital</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000916">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Flow cytometry assay</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Flow cytometry assay</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000968">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Device</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Device</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001000">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Questionnaire</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Questionnaire</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001065">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Stereo microscope</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Stereo microscope</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001199">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">In vivo design</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">In vivo design</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001248">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Chromatin immunoprecipitation - DNA microarray</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Chromatin immunoprecipitation - DNA microarray</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001271">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">RNA sequencing</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">RNA sequencing</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001557">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Material storage service</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Material storage service</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001686">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">In situ hybridization</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">In situ hybridization</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001848">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Chromatin Interaction Analysis by Paired-End Tag sequencing</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Chromatin Interaction Analysis by Paired-End Tag sequencing</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001850">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Transcript analysis by paired-end tag sequencing</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Transcript analysis by paired-end tag sequencing</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001876">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Cell culture</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Cell culture</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001958">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Systematic review</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Systematic review</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001985">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Microarray experiment</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Microarray experiment</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001986">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Immunohistochemistry</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Immunohistochemistry</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002117">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Whole genome sequencing</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Whole genome sequencing</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002186">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Electroencephalography</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Electroencephalography</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100014">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Chimera</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Chimera</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0200000">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Data transformation</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Data transformation</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0300311">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Observation design</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Observation design</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0302840">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Curated information</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Curated information</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0302900">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Group randomization</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Group randomization</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0302903">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Nucleic acid hybridization</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Nucleic acid hybridization</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0302914">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Digital curation</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Digital curation</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0500000">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Study design</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Study design</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0600002">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Tumor grading</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Tumor grading</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0600014">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Material component separation</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Material component separation</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0600020">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Histology</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Histology</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0600047">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Sequencing</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Sequencing</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0600053">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Electrophoresis</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Electrophoresis</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0600056">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Protease cleavage</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Protease cleavage</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1000049">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Whole mount tissue</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Whole mount tissue</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110021">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Infection</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Infection</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_1110201">
-		<p_4dwizwbo:DRAO_0000001 xml:lang="en">Allergen</p_4dwizwbo:DRAO_0000001>
+		<p_9nd2kokw:DRAO_0000001 xml:lang="en">Allergen</p_9nd2kokw:DRAO_0000001>
 	</rdf:Description>
 
 
