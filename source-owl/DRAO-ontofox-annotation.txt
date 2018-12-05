@@ -121,7 +121,6 @@ OBI
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OBI_0000070 # Assay
 http://purl.obolibrary.org/obo/OBI_0000073 # Sample preparation for assay
-http://purl.obolibrary.org/obo/OBI_0000094 # Bioprocessing
 http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
 http://purl.obolibrary.org/obo/OBI_0000115 # Intervention design
 http://purl.obolibrary.org/obo/OBI_0000272 # Protocol
