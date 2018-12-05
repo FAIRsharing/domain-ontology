@@ -2373,7 +2373,7 @@ http://purl.obolibrary.org/obo/OBI_0002182	voltage clamp assay
 http://purl.obolibrary.org/obo/OBI_0002183	two electrode voltage clamp assay			
 http://purl.obolibrary.org/obo/OBI_0002184	cut open oocyte voltage clamp assay			
 http://purl.obolibrary.org/obo/OBI_0002185	current clamp assay			
-http://purl.obolibrary.org/obo/OBI_0002186	electroencephalography			
+http://purl.obolibrary.org/obo/OBI_0002186	electroencephalography	y	Electroencephalography	
 http://purl.obolibrary.org/obo/OBI_0002187	single-unit recording			
 http://purl.obolibrary.org/obo/OBI_0002188	multi-unit recording			
 http://purl.obolibrary.org/obo/OBI_0002189	local field potential recording			
