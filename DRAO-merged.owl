@@ -13,8 +13,8 @@
 ]>
 
 
-<rdf:RDF xmlns="&ontology;DRON-merged.owl#"
-     xml:base="&ontology;DRON-merged.owl"
+<rdf:RDF xmlns="&ontology;DRAO-merged.owl#"
+     xml:base="&ontology;DRAO-merged.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -128,6 +128,25 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <rdf:Description rdf:about="&skos;prefLabel">
         <obo:IAO_0000115 xml:lang="en">The preferred lexical label for a resource, in a given language.</obo:IAO_0000115>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#subClassOf -->
+
+    <rdf:Description rdf:about="&rdfs;subClassOf">
+        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
     </rdf:Description>
     
 
@@ -2206,8 +2225,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="http://edamontology.org/topic_0128">
         <rdfs:label>Protein interactions</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;MI_0000"/>
-        <obo:IAO_0000118>Protein-RNA interaction</obo:IAO_0000118>
         <obo:IAO_0000118>Protein-protein interactions</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-RNA interaction</obo:IAO_0000118>
         <obo:IAO_0000118>Protein-ligand interactions</obo:IAO_0000118>
         <obo:IAO_0000115>Protein-protein, protein-DNA/RNA and protein-ligand interactions, including analysis of known interactions and prediction of putative interactions.</obo:IAO_0000115>
         <obo:IAO_0000118>Protein interaction networks</obo:IAO_0000118>
@@ -4730,6 +4749,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">microscopy</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An imaging assay that uses microscopes to view samples and objects that cannot be seen with the unaided eye (objects that are not within the resolution range of the normal eye).</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Microscopic examination</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Sample microscopy</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Microscopy</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -4743,6 +4764,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">light microscopy</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0000201"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A microscopy technique that uses visible light and a system of lenses to magnify images of small samples.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">LM</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Light microscopy</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -4769,6 +4791,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">electron microscopy</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0000201"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A microscopy technique that produces an electronically-magnified image of a specimen for detailed observation. The electron microscope (EM) uses a particle beam of electrons to illuminate the specimen and create a magnified image of it. The microscope has a greater resolving power than a light-powered optical microscope, because it uses electrons that have wavelengths about 100,000 times shorter than visible light (photons), and can achieve magnifications of up to 2,000,000x, whereas light microscopes are limited to 2000x magnification.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Diagnostic electron microscopy</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">EM</obo:IAO_0000118>
         <ontology:DRAO_0000001 xml:lang="en">Electron microscopy</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -4845,6 +4869,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">real-time PCR</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A PCR technique that allows for detection and quantification of PCR products on a real-time basis.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Quantitative PCR</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Quantitative real time RT-PCR</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">RT-PCR</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Real time PCR</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">qPCR</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Real time polymerase chain reaction</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -4858,6 +4887,16 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">next generation DNA sequencing</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0000833"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A DNA sequencing technique that became commercially available in 2004 and is used by specific commercial platforms that embody a complex interplay of enzymology, chemistry, high-resolution optics, hardware, and software engineering. These instruments allow highly streamlined sample preparation steps prior to DNA sequencing, which provides a significant time savings and a minimal requirement for associated equipment in comparison to the highly automated, multistep pipelines necessary for clone-based high-throughput sequencing. Each technology amplifies single strands of a fragment library and perform sequencing reactions on the amplified strands. The fragment libraries are obtained by annealing platform-specific linkers to blunt-ended fragments generated directly from a genome or DNA source of interest. Because the presence of adapter sequences means that the molecules then can be selectively amplified by PCR, and no bacterial cloning step is required to amplify the genomic fragment in a bacterial intermediate as is done in traditional sequencing approaches.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Genome sequencing</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">High throughput DNA sequencing</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">High throughput nucleotide sequencing</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">NGS</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Next gen</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Next gen sequencing</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Next generation sequencing of target genes</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Nucleotide sequencing, high-throughput</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Second generation sequencing</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Sequencing, high-throughput nucleotide</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Next generation DNA sequencing</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -4882,6 +4921,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">quality control</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A technique used to ensure a certain level of quality in a product or service.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">QC</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Quality control</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -4895,6 +4935,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">magnetic resonance imaging</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0001292"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A physiological assay that uses nuclear magnetic resonance of protons to produce proton density images.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">MRI</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Magnetic resonance imaging</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -4945,6 +4986,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">RNAi screening</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">High throughput sample analysis of RNAi molecules for potential application in gene knockdown or gene silencing of target genes.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">shRNA screening</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">siRNA screening</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">RNAi screening</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -4971,6 +5014,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">polysomnography</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0001292"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">A physiological assay used in the study of sleep and as a diagnostic tool in sleep medicine. </obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">Sleep study</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Polysomnography</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -4984,6 +5028,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">positron emission tomography</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0001312"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An imaging technique that produces a three-dimensional image or picture of functional processes in the body. The system detects pairs of gamma rays emitted indirectly by a positron-emitting radionuclide (tracer), which is introduced into the body on a biologically active molecule. Three-dimensional images of tracer concentration within the body are then constructed by computer analysis.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">PET</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Positron emission tomography</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -5009,9 +5054,11 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;ERO_0002178">
         <rdfs:label xml:lang="en">functional magnetic resonance imaging</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0001235"/>
-        <obo:IAO_0000115>A magnetic resonance imaging technique that measures brain activity by detecting associated changes in blood flow. The procedure is similar to MRI but uses the change in magnetization between oxygen-rich and oxygen-poor blood as its basic measure. </obo:IAO_0000115>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Functional magnetic resonance imaging</ontology:DRAO_0000001>
+        <obo:IAO_0000118>fMRI</obo:IAO_0000118>
+        <obo:IAO_0000118>functional MRI</obo:IAO_0000118>
+        <obo:IAO_0000115>A magnetic resonance imaging technique that measures brain activity by detecting associated changes in blood flow. The procedure is similar to MRI but uses the change in magnetization between oxygen-rich and oxygen-poor blood as its basic measure. </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
     </owl:Class>
     
@@ -5035,6 +5082,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;ERO_0100036">
         <rdfs:label rdf:datatype="&xsd;string">data analysis objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000033"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">analysis objective</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">objective to perform and/or support data analysis, whereby data is input and processed to achieve a better understanding of it.  This will involve generation &quot;new&quot; information through algorithmic processing and/or statistical calculations.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
     </owl:Class>
@@ -5047,6 +5095,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label rdf:datatype="&xsd;string">process-based data analysis objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0100036"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">objective of using a particular type of process/operation to process and analyze data.  This hierarchy classifies software objectives based on the type of operation that is specified to be performed </obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">operation-based data analysis objectives</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
     </owl:Class>
     
@@ -5057,6 +5106,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;ERO_0100102">
         <rdfs:label rdf:datatype="&xsd;string">modeling and simulation objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0100084"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">mathematical modeling objective</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">modeling objective</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Modeling and simulation</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -5082,7 +5133,10 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;ERO_0100125">
         <rdfs:label rdf:datatype="&xsd;string">subject-based data analysis objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0100036"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">biomedical data type-specific analysis objectives</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">data type-specific analysis objectives</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">objective to process and analyze data in order to generate new information about biological and/or medical phenomenon at a certain level of granularity.  This hierarchy classifies software objectives based on the type/granularity of biomedical entity which the data they produce are about.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">topic-based data analysis objectives</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
     </owl:Class>
     
@@ -5093,6 +5147,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;ERO_0100148">
         <rdfs:label rdf:datatype="&xsd;string">disease process modeling objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0100125"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">disease modeling objective</obo:IAO_0000118>
         <ontology:DRAO_0000001 xml:lang="en">Disease process modeling</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000412 rdf:resource="&obo;ero.owl"/>
@@ -5105,6 +5160,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     <owl:Class rdf:about="&obo;ERO_0100150">
         <rdfs:label rdf:datatype="&xsd;string">OMICs data analysis objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;ERO_0100125"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">large-scale molecular data analysis objective</obo:IAO_0000118>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">objective to analyze large scale data sets representing a broad profile of some molecular-level feature of a subject or specimen (e.g. some totality of its genes, proteins, metabolic products, transcripts, etc).  Covers range of objectives related to the analysis of OMICs data (transcriptomics, genomics, proteomics,  metabolomics, etc)</obo:IAO_0000115>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Omics data analysis</ontology:DRAO_0000001>
@@ -6516,6 +6572,8 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000118 rdf:datatype="&xsd;string">protein complex</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">protein containing complex</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">protein-protein complex</obo:IAO_0000118>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <ontology:DRAO_0000001 xml:lang="en">Protein-containing complex</ontology:DRAO_0000001>
         <obo:IAO_0000412 rdf:resource="&obo;go.owl"/>
     </owl:Class>
     
@@ -8774,8 +8832,8 @@ ab (not=) E</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">sample preparation step</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">sample preparative method</obo:IAO_0000118>
         <obo:IAO_0000115 xml:lang="en">A planned process which results in physical changes in a specified input material</obo:IAO_0000115>
-        <ontology:DRAO_0000001 xml:lang="en">Bioprocessing</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <ontology:DRAO_0000001 xml:lang="en">Material processing</ontology:DRAO_0000001>
         <obo:IAO_0000118 xml:lang="en">material transformation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="&obo;chmo.owl"/>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
@@ -8930,6 +8988,17 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="&xsd;string">analyte assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">An assay with the objective to capture information about the presence, concentration, or amount of an analyte in an evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000454 -->
+
+    <owl:Class rdf:about="&obo;OBI_0000454">
+        <rdfs:label rdf:datatype="&xsd;string">extracellular electrophysiology recording assay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An electrophysiology recording assay where the recording location of the electrode is extracellular</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
     
@@ -9481,6 +9550,20 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="&xsd;string">WGS</obo:IAO_0000118>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Whole genome sequencing</ontology:DRAO_0000001>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002186 -->
+
+    <owl:Class rdf:about="&obo;OBI_0002186">
+        <rdfs:label rdf:datatype="&xsd;string">electroencephalography</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000454"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An extracellular electrophysiology assay where electrodes are mounted outside the brain (either on the surface of the scalp on onto the brain surface itself during surgery) to measure the electrical field over the external surface.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">EEG</obo:IAO_0000118>
+        <ontology:DRAO_0000001 xml:lang="en">Electroencephalography</ontology:DRAO_0000001>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </owl:Class>
     
@@ -10904,7 +10987,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="&obo;OMIT_0026595">
         <rdfs:label rdf:datatype="&xsd;string">Diffusion Tensor Imaging</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OMIT_0027688"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004346"/>
         <ontology:DRAO_0000001 xml:lang="en">Diffusion tensor imaging</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000412 rdf:resource="&obo;omit.owl"/>
@@ -10957,17 +11040,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="&obo;OMIT_0016872"/>
         <ontology:DRAO_0000001 xml:lang="en">Electronic health record</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <obo:IAO_0000412 rdf:resource="&obo;omit.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIT_0027688 -->
-
-    <owl:Class rdf:about="&obo;OMIT_0027688">
-        <rdfs:label rdf:datatype="&xsd;string">Neuroimaging</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OMIT_0001005"/>
-        <rdfs:subClassOf rdf:resource="&obo;OMIT_0009969"/>
         <obo:IAO_0000412 rdf:resource="&obo;omit.owl"/>
     </owl:Class>
     
@@ -13765,6 +13837,12 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;ido.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -13777,13 +13855,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;ogi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;envo.owl"/>
@@ -13792,12 +13864,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="&obo;clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -13809,19 +13875,11 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
     </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="&rdfs;subClassOf">
-        <obo:IAO_0000412 rdf:resource="&obo;cheminf.owl"/>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="&obo;ogi.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
