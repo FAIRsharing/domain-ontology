@@ -24,6 +24,10 @@ BUILD_DIR := build
 RELEASE_PREFIX := DRAO-release
 RELEASE_NAME := $(RELEASE_PREFIX)-$(RELNUM).owl
 
+# The standalone OWL file without annotation fixes
+SIMPLE_MERGE_FILE := $(BUILD_DIR)/DRAO-simple-merged.owl
+# Stores the IRIs of those classes whose labels need to be removed.
+FILTER_LABELS_FILE := filter-labels.txt
 # The standalone OWL file
 MERGE_FILE := $(BUILD_DIR)/DRAO-merged.owl
 # The standalone OWL file with release numbers added
@@ -55,9 +59,23 @@ build/robot.jar: | reqd_dirs
 	https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar
 	chmod ug+x build/robot.jar
 
-merge: 
+merge: simple_merge tidy_labels
+
+simple_merge:
 	$(ROBOT) merge --input $(DEV_FILE) \
-	annotate --ontology-iri $(MERGE_IRI) --output $(MERGE_FILE) 
+	annotate --ontology-iri $(MERGE_IRI) --output $(SIMPLE_MERGE_FILE) 
+
+tidy_labels:
+# Remove all rdfs:label annotation from the entire ontology.
+# This preserves a copy of the hierarchy so that the listed IRIs 
+# don't merge back into the ontology as children of owl:Thing.
+# The lost rdfs:labels from all the other classes will get added
+# back in the next step when they're merged with the original ontology
+# minus the listed IRIs.
+	$(ROBOT) remove --input $(SIMPLE_MERGE_FILE) --term 'http://www.w3.org/2000/01/rdf-schema#label' --select "self" -p false --output $(BUILD_DIR)/plain-hierarchy.owl
+# Merge the original file (minus the classes from term-file) with
+# the sub-ontology that has its labels removed.
+	$(ROBOT) remove --input $(SIMPLE_MERGE_FILE) --term-file $(FILTER_LABELS_FILE) --select "self" -p false merge --input $(BUILD_DIR)/plain-hierarchy.owl --output $(MERGE_FILE)
 
 add_version : merge
 	$(ROBOT) annotate --input $(MERGE_FILE) \
