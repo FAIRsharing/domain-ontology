@@ -2,11 +2,15 @@
 ## Top-level targets
 ##
 
-# By default, this Makefile will build the standalone version of the ontology.
+# By default, this Makefile will build the standalone/merged version of the ontology.
 build: build/robot.jar merge
 
 ## the release target should be run with a release number specified, e.g. RELNUM=0.1.0
 release: check_relnum clean build add_version
+
+## Compare two OWL files.
+robot_diff: 
+	$(ROBOT) diff --left $(LEFT) --right $(RIGHT) > $(BUILD_DIR)/diff.txt
 
 ##
 ## Variables
@@ -49,14 +53,14 @@ check_relnum:
 	test $(RELNUM)
 
 # All files, including the release files, are put into build/ in case there are
-# any issues with the run. They can be manually moved up a directory and committed
-# once we're sure they're ok.
+# any issues with the run. They can be manually moved to a release directory
+# and committed once we're sure they're ok.
 reqd_dirs:
 	mkdir -p $(BUILD_DIR)
 
 build/robot.jar: | reqd_dirs
 	curl -L -o build/robot.jar \
-	https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar
+	https://github.com/ontodev/robot/releases/download/v1.2.0/robot.jar
 	chmod ug+x build/robot.jar
 
 merge: simple_merge tidy_labels
@@ -82,4 +86,5 @@ add_version : merge
 	--ontology-iri $(RELEASE_IRI) \
 	--version-iri $(RELEASE_VERSION_IRI) \
 	--output $(RELEASE_FILE)
+
 
