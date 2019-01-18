@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF
 
-xmlns:p_dzhbg7ez="http://www.geneontology.org/formats/oboInOwl#"
+xmlns:p_xmw9576x="http://www.geneontology.org/formats/oboInOwl#"
  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
  xmlns:obo="http://purl.obolibrary.org/obo/"
  xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,27 +9,31 @@ xmlns:p_dzhbg7ez="http://www.geneontology.org/formats/oboInOwl#"
 
 	<owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000023">
-		<p_dzhbg7ez:inSubset xml:lang="en">FAIRsharing</p_dzhbg7ez:inSubset>
+		<p_xmw9576x:inSubset xml:lang="en">FAIRsharing</p_xmw9576x:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000028">
-		<p_dzhbg7ez:inSubset xml:lang="en">FAIRsharing</p_dzhbg7ez:inSubset>
+		<p_xmw9576x:inSubset xml:lang="en">FAIRsharing</p_xmw9576x:inSubset>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000031">
+		<p_xmw9576x:inSubset xml:lang="en">FAIRsharing</p_xmw9576x:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045">
-		<p_dzhbg7ez:inSubset xml:lang="en">FAIRsharing</p_dzhbg7ez:inSubset>
+		<p_xmw9576x:inSubset xml:lang="en">FAIRsharing</p_xmw9576x:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000063">
-		<p_dzhbg7ez:inSubset xml:lang="en">FAIRsharing</p_dzhbg7ez:inSubset>
+		<p_xmw9576x:inSubset xml:lang="en">FAIRsharing</p_xmw9576x:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073">
-		<p_dzhbg7ez:inSubset xml:lang="en">FAIRsharing</p_dzhbg7ez:inSubset>
+		<p_xmw9576x:inSubset xml:lang="en">FAIRsharing</p_xmw9576x:inSubset>
 	</rdf:Description>
 
 	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000093">
-		<p_dzhbg7ez:inSubset xml:lang="en">FAIRsharing</p_dzhbg7ez:inSubset>
+		<p_xmw9576x:inSubset xml:lang="en">FAIRsharing</p_xmw9576x:inSubset>
 	</rdf:Description>
 
 
