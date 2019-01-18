@@ -525,7 +525,6 @@ http://www.ebi.ac.uk/efo/EFO_0000269 # Array design
 http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
 http://www.ebi.ac.uk/efo/EFO_0000336 # Chromosomal aberration
 http://www.ebi.ac.uk/efo/EFO_0000400 # Diabetes mellitus
-http://www.ebi.ac.uk/efo/EFO_0000408 # Disease
 http://www.ebi.ac.uk/efo/EFO_0000487 # Exposure
 http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
 http://www.ebi.ac.uk/efo/EFO_0000513 # Genotype
@@ -554,8 +553,6 @@ http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
 http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 http://purl.obolibrary.org/obo/OBI_0000181 # population
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
-http://www.ebi.ac.uk/efo/EFO_0000408 # disease
-subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
 http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
 subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
 http://www.ebi.ac.uk/efo/EFO_0003935 # Mental health
@@ -1116,7 +1113,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON DOID IMPORT ####
 ##
-## We prefer the usage of the EFO disease class to
+## We prefer the usage of the OGMS disease class to
 ## the DOID disease class, so this must be explicitly
 ## stated.
 ##
@@ -1138,15 +1135,15 @@ http://purl.obolibrary.org/obo/DOID_0080001 # Bone disease
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/DOID_162 # Cancer
-subClassOf http://www.ebi.ac.uk/efo/EFO_0000408 # Disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 http://purl.obolibrary.org/obo/DOID_7 # disease of anatomical entity
-subClassOf http://www.ebi.ac.uk/efo/EFO_0000408 # Disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 http://purl.obolibrary.org/obo/DOID_863 # nervous system disease
-subClassOf http://www.ebi.ac.uk/efo/EFO_0000408 # Disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 http://purl.obolibrary.org/obo/DOID_12365 # Malaria
-subClassOf http://www.ebi.ac.uk/efo/EFO_0000408 # Disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 http://purl.obolibrary.org/obo/DOID_150 # disease of mental health
-subClassOf http://www.ebi.ac.uk/efo/EFO_0000408 # Disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -1229,6 +1226,7 @@ OGMS
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
 http://purl.obolibrary.org/obo/OGMS_0000028 # Disease phenotype
+http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 http://purl.obolibrary.org/obo/OGMS_0000045 # Disorder
 http://purl.obolibrary.org/obo/OGMS_0000063 # Disease course
 http://purl.obolibrary.org/obo/OGMS_0000073 # Diagnosis
@@ -1468,7 +1466,7 @@ http://purl.obolibrary.org/obo/HP_0010984 # Digenic inheritance
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/HP_0001428 # Somatic mutation
-subClassOf http://www.ebi.ac.uk/efo/EFO_0000408 # disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # disease
 http://purl.obolibrary.org/obo/HP_0002664 # Tumor
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
 http://purl.obolibrary.org/obo/HP_0010984 # Digenic inheritance
@@ -1763,7 +1761,7 @@ http://purl.obolibrary.org/obo/NCIT_C104154 # Circulating cell-free RNA
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCIT_C4873 # Rare disease - I realize this is a role of a disease, but OK in this location for now
-subClassOf http://www.ebi.ac.uk/efo/EFO_0000408 # disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # disease
 
 http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
 subClassOf http://purl.obolibrary.org/obo/IAO_0000310 # Document

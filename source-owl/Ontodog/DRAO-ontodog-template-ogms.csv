@@ -1,6 +1,7 @@
 Source ontology term IRI	Source ontology term label	Include in View	User-preferred label	Include all children
 http://purl.obolibrary.org/obo/OGMS_0000023		y	Phenotype	
 http://purl.obolibrary.org/obo/OGMS_0000028		y	Disease phenotype	
+http://purl.obolibrary.org/obo/OGMS_0000031		y	Disease	
 http://purl.obolibrary.org/obo/OGMS_0000045		y	Disorder	
 http://purl.obolibrary.org/obo/OGMS_0000063		y	Disease course	
 http://purl.obolibrary.org/obo/OGMS_0000073		y	Diagnosis	
