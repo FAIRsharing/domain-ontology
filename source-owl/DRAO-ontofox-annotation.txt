@@ -516,6 +516,9 @@ http://purl.obolibrary.org/obo/IAO_0000115
 ## terms. Therefore you will see an Orphanet IRI in the list for
 ## EFO below.
 ##
+## We use OGMS Disease rather than EFO_0000408 (Disease) and so this
+## needs to be explicitly mapped for the correct hierarchy to be retained.
+##
 
 [Source ontology]
 EFO
@@ -567,6 +570,16 @@ http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 # Life cycle stage
 http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+
+## Replacing EFO Disease with OGMS Disease
+http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0000400 # Diabetes mellitus
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 
 [Source term retrieval setting]
 includeComputedIntermediates
