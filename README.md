@@ -8,10 +8,17 @@ All classes within DRAO come from publicly-available ontologies. Currently, the 
 
 # Files
 
-The simplest way to view DRAO is by using [DRAO-merged.owl](https://github.com/FAIRsharing/domain-ontology/blob/master/DRAO-merged.owl). This file was created by merging the development files into a single document for easier loading within the editor of your choice, such as [Protege](http://protege.stanford.edu/). 
+To view the latest release of SRAO please visit our [release directory](https://github.com/FAIRsharing/domain-ontology/tree/master/releases). The release files are created by merging the development files into a single document for easier loading within the editor of your choice, such as [Protege](http://protege.stanford.edu/). 
+
+Within any [releases/](https://github.com/FAIRsharing/domain-ontology/tree/master/releases) subdirectory
+
+- DRAO-release-RELNUM.owl - - The automatically-generated release file. It is a single file (with no imports) for ease of use.
+- refactoredIRIs-DRAO-RELNUM.txt - This is a list of IRI refactorings performed since the last release.
+- README.md - A short description of the changes made since the last release.
 
 Below are short descriptions of a selection of other files found within this repository, all within the [source-owl](https://github.com/FAIRsharing/domain-ontology/tree/master/source-owl) directory:
-- [DRAO.owl](https://github.com/FAIRsharing/domain-ontology/blob/master/source-owl/DRAO.owl) - This is the main development file which imports all required classes and annotations. The only information stored *directly* within this file is metadata about the ontology and the required imports. It is manually edited by our team.
+- [DRAO.owl](https://github.com/FAIRsharing/domain-ontology/blob/master/source-owl/DRAO.owl) - This is the main "bleeding edge" development file, which imports all required classes and annotations. The only information stored *directly* within this file is metadata about the ontology and the required imports.
+- [DRAO-merged.owl](https://github.com/FAIRsharing/domain-ontology/blob/master/source-owl/DRAO-merged.owl) - This is a merged version of the main development file, generated automatically as a single file to be easy to view and use. Please note that it may not always be as up to date as DRAO.owl.
 - [DRAO-ontofox-annotation.txt](https://github.com/FAIRsharing/domain-ontology/blob/master/source-owl/DRAO-ontofox-annotation.txt) - The configuration file required by Ontofox for automatically adding annotation from the external ontologies to DRAO. It is maintained and updated by our team.
 - [DRAO-external.owl](https://github.com/FAIRsharing/domain-ontology/blob/master/source-owl/DRAO-external.owl) - the file created by Ontofox containing only automatically-generated annotation from the external ontologies (no manual modifications are made to this file).
 
@@ -37,7 +44,7 @@ Additional FAIRsharing-specific annotation is added manually and stored within [
 
 # Build
 
-Domains are the largest set of tags available when curating FAIRsharing records. The classes used within DRAO are imported from external ontologies using Ontofox, and then appropriate annotation is added to those classes using Ontodog. DRAO is written in OWL and serialized as RDF/XML.
+Domains are the largest set of tags available when curating FAIRsharing records. The classes used within DRAO are imported from external ontologies using Ontofox, and then appropriate annotation is added to those classes using Ontodog. DRAO is written in OWL and serialized as RDF/XML. Release files are created using [ROBOT](http://robot.obolibrary.org/) via a controlling [Makefile](Makefile).
 
 ## Tools Used
 
@@ -48,6 +55,7 @@ BMC Research Notes. 2010, 3:175. PMID: 20569493
 - [Ontodog](http://ontodog.hegroup.org/) - Zheng J, Xiang Z, Stoeckert Jr. CJ, He Y. Ontodog: a web-based ontology community view generation tool. 
 Bioinformatics. 2014; doi: 10.1093/bioinformatics/btu008. 
 - [Protege](http://protege.stanford.edu/) - Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003.
+- [ROBOT](http://robot.obolibrary.org/)
 
 Further information on the development of DRAO is available from the [Development](https://github.com/FAIRsharing/domain-ontology/blob/master/Development.md) page.
 
