@@ -1,0 +1,3 @@
+qPCR|http://purl.obolibrary.org/obo/ERO_0001075
+Electroencephalography (EEG)|http://purl.obolibrary.org/obo/OBI_0002186
+Protein Complex|http://purl.obolibrary.org/obo/GO_0032991
