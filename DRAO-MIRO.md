@@ -15,7 +15,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The full name of the ontology, including the acronym and the version number referred to in the report. |
 | **Importance:** | MUST |
-| **Value:** | Domain Resource Application Ontology (DRAO), :red_circle: version not implemented |
+| **Value:** | Domain Resource Application Ontology (DRAO), Version 0.1.0 |
 ----
 
 ### A.2 Ontology owner
@@ -42,7 +42,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The web location where the ontology file is available. |
 | **Importance:** | MUST |
-| **Value:** | [https://github.com/FAIRsharing/domain-ontology/blob/master/DRAO-merged.owl](https://github.com/FAIRsharing/domain-ontology/blob/master/DRAO-merged.owl) |
+| **Value:** | [https://github.com/FAIRsharing/domain-ontology/blob/master/releases/0.1.0/DRAO-release-0.1.0.owl](https://github.com/FAIRsharing/domain-ontology/blob/master/releases/0.1.0/DRAO-release-0.1.0.owl) |
 ----
 
 ### A.5 Ontology repository
@@ -167,7 +167,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The tool(s) used in developing the ontology. |
 | **Importance:** | OPTIONAL |
-| **Value:** | [Ontofox](http://ontofox.hegroup.org/) (Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse. BMC Research Notes. 2010, 3:175. PMID: 20569493) and [Ontodog](http://ontodog.hegroup.org/) (Zheng J, Xiang Z, Stoeckert Jr. CJ, He Y. Ontodog: a web-based ontology community view generation tool. Bioinformatics. 2014; doi: 10.1093/bioinformatics/btu008) have been used to build the subset ontology files and associated annotation. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0; Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003) has been used to create the core OWL file and to view, check and merge all development ontology files into a single merged file. |
+| **Value:** | [Ontofox](http://ontofox.hegroup.org/) (Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse. BMC Research Notes. 2010, 3:175. PMID: 20569493) and [Ontodog](http://ontodog.hegroup.org/) (Zheng J, Xiang Z, Stoeckert Jr. CJ, He Y. Ontodog: a web-based ontology community view generation tool. Bioinformatics. 2014; doi: 10.1093/bioinformatics/btu008) have been used to build the subset ontology files and associated annotation. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0; Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003) has been used to create the core OWL file and to view the ontology. [ROBOT](http://robot.obolibrary.org/) was used to merge all development ontology files and build the releases. |
 ----
 
 ### E.3 Ontology metrics
@@ -176,7 +176,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | Number of classes, properties, axioms and types of axioms, rules and individuals in the ontology. |
 | **Importance:** | SHOULD |
-| **Value:** | DRAO includes 1003 classes, 0 object properties, 17 annotation properties, 7298 axioms (1218 SubClassOf axioms), 0 rules, 0 individuals.  |
+| **Value:** | DRAO includes 1030 classes, 0 object properties, 18 annotation properties, 7541 axioms (1253 SubClassOf axioms), 0 rules, 0 individuals.  |
 ----
 
 ### E.4 Incorporation of other ontologies
@@ -203,7 +203,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | What is the scheme used for creating identifiers for entities in the ontology. State whether identifiers are semantic-free or meaningful. |
 | **Importance:** | MUST |
-| **Value:** | Semantic-free identifiers. Incremental class number, using 10 digit number with ontology name as the prefix. |
+| **Value:** | Semantic-free identifiers. Incremental class number, using 10 digit number with ontology name as the prefix.|
 ----
 
 ### E.7 Entity metadata policy
@@ -213,7 +213,6 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 | **Description:** | What metadata for each entity is to be present. This could include, but not be limited to: A natural language definition, editor, edit history, examples, entity label and synonyms, etc. |
 | **Importance:** | MUST |
 | **Value:** | Each class minimally requires a label and an 'imported from' annotation property stating where the class originated. Further information including textual definition, synonyms, and availability to the FAIRsharing community is optionally available. As this is an application ontology, editor and edit history are beyond its scope. |
-|
 ----
 
 ### E.8 Upper ontology
@@ -260,7 +259,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | State whether the ontology will be actively maintained and developed. Describe a plan for how the ontology will be kept up to date. |
 | **Importance:** | MUST |
-| **Value:** | DRAO is maintained by the FAIRsharing Team, and will be actively maintained and developed for the lifetime of this project. Additions to DRAO occur when the FAIRsharing community adds tags to their records in the "Scope and Data Types" section of a FAIRsharing entry. If they create a new tag, FAIRsharing curators assess that tag and, if appropriate, place it within either SRAO or DRAO. Otherwise, it will remain in our manually-curated "User tag" vocabulary. |
+| **Value:** | DRAO is maintained by the FAIRsharing Team, and will be actively maintained and developed for the lifetime of this project. Additions to DRAO occur when the FAIRsharing community adds tags to their records in the "Knowledge Domains" of a FAIRsharing entry. If they create a new tag, FAIRsharing curators assess that tag and, if appropriate, place it within either SRAO or DRAO. Otherwise, it will remain in our manually-curated "User-defined tag" vocabulary. |
 ----
 
 ### F.2 Entity deprecation strategy 
@@ -278,7 +277,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | State or make reference to the policy that governs when new versions of the ontology are created and released. |
 | **Importance:** | MUST |
-| **Value:** | GitHub retains all versions of DRAO. :red_circle: No official versioning policy in place. |
+| **Value:** | GitHub retains all releases of DRAO, which are produced on an as-needed basis.  |
 ----
 
 ## G. Quality Assurance
@@ -298,7 +297,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | A determination of whether the ontology is of value and significance. An evaluation should show that the motivation is justified and that the objectives of the ontology's development are met effectively and satisfactorily. Describe whether or not the ontology meets its stated requirements, competency questions and goals.  |
 | **Importance:** | MUST |
-| **Value:** | DRAO is an application ontology and is therefore built specifically for record curation within FAIRsharing. DRAO is currently running on the FAIRsharing test servers and will be in production after appropriate checks. It will be one of three vocabularies used to describe all resources listed in FAIRsharing records. |
+| **Value:** | DRAO is an application ontology and is therefore built specifically for record curation within FAIRsharing. It is one of three vocabularies used to describe all resources listed in FAIRsharing records. |
 ----
 
 ### G.3 Example of use
