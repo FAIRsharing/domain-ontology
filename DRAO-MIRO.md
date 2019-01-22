@@ -203,7 +203,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | What is the scheme used for creating identifiers for entities in the ontology. State whether identifiers are semantic-free or meaningful. |
 | **Importance:** | MUST |
-| **Value:** | Semantic-free identifiers. Incremental class number, using 10 digit number with ontology name as the prefix.|
+| **Value:** | Semantic-free identifiers. Incremental class number, using 7 digit number with ontology name as the prefix.|
 ----
 
 ### E.7 Entity metadata policy
