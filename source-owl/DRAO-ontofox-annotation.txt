@@ -1551,9 +1551,15 @@ http://purl.obolibrary.org/obo/CLO_0037308 # human induced pluripotent stem cell
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
 
-## This statement ensures that only one cell class is retained in DRAO
+## These statements ensure that only the GO cell class is retained in DRAO
 ## (See note in the CL Import section)
-http://purl.obolibrary.org/obo/CLO_0036932 # Hybridoma
+## http://purl.obolibrary.org/obo/CLO_0036932 # Hybridoma
+## subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+http://purl.obolibrary.org/obo/CL_0001034 # cell in vitro
+subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+http://purl.obolibrary.org/obo/CL_0000578 # experimentally modified cell in vitro
+subClassOf http://purl.obolibrary.org/obo/CL_0001034 # cell (GO)
+http://www.ebi.ac.uk/cellline#UnspecifiedCellType
 subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
 
 [Source term retrieval setting]
