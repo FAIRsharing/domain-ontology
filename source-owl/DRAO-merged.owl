@@ -11388,6 +11388,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathway is a set of inter-connected  reactions and interactions whose delineation and scope are used as a model for exploring and studying, describing and understanding the working of and relationships between biomolecules within a context.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pw.owl"/>
+        <ontology:DRAO_0000001 xml:lang="en">Pathway model</ontology:DRAO_0000001>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathway</rdfs:label>
     </owl:Class>
     

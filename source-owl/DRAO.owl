@@ -75,6 +75,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <owl:imports rdf:resource="&ontology;external/DRAO-label-pato.owl"/>
         <owl:imports rdf:resource="&ontology;external/DRAO-label-po.owl"/>
         <owl:imports rdf:resource="&ontology;external/DRAO-label-pr.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-label-pw.owl"/>
         <owl:imports rdf:resource="&ontology;external/DRAO-label-sio.owl"/>
         <owl:imports rdf:resource="&ontology;external/DRAO-label-so.owl"/>
         <owl:imports rdf:resource="&ontology;external/DRAO-label-stato.owl"/>
@@ -123,6 +124,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <owl:imports rdf:resource="&ontology;external/DRAO-subset-pato.owl"/>
         <owl:imports rdf:resource="&ontology;external/DRAO-subset-po.owl"/>
         <owl:imports rdf:resource="&ontology;external/DRAO-subset-pr.owl"/>
+        <owl:imports rdf:resource="&ontology;external/DRAO-subset-pw.owl"/>
         <owl:imports rdf:resource="&ontology;external/DRAO-subset-sbo.owl"/>
         <owl:imports rdf:resource="&ontology;external/DRAO-subset-sio.owl"/>
         <owl:imports rdf:resource="&ontology;external/DRAO-subset-so.owl"/>
