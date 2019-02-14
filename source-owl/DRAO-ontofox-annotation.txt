@@ -1581,6 +1581,9 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 ## includeAllIntermediates has been enabled
 ## because it uses BFO, and if we just includeComputedIntermediates,
 ## then whole sections of the BFO hierarchy are skipped.
+## 
+## Only part of the BFO hierarchy is used (no 'independent 
+## continuant' in CHMO)
 ##
 
 [Source ontology]
@@ -1617,7 +1620,6 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 ## because it uses BFO, and if we just includeComputedIntermediates,
 ## then whole sections of the BFO hierarchy are skipped.
 ##
-## Some of the BFO used in CHEMINF is the old URIs, causing issues.
 ##
 
 [Source ontology]
@@ -1893,6 +1895,10 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON AERO IMPORT ####
 ##
+## AERO uses an outdated version of BFO. It is also listed as deprecated
+## within the OBO Foundry. Please see 
+## https://github.com/FAIRsharing/domain-ontology/issues/34
+## for more information, as we plan to remove AERO from DRAO.
 ##
 
 [Source ontology]
