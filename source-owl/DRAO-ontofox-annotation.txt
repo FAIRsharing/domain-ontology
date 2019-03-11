@@ -1731,6 +1731,11 @@ http://purl.obolibrary.org/obo/IAO_0000115
 
 #### NOTES ON MP IMPORT ####
 ##
+## The MP ontology imports a number of ontologies as ULOs, including BFO, 
+## however most of its own classes are not within these ontologies but within 
+## its own 'mammalian phenotype' hierarchy and therefore this requires that 
+## the 'mammalian phenotype' class itself be mapped across to other 
+## ontologies, in this case OGMS' 'phenotype' in order to align with DRAO.
 ##
 
 [Source ontology]
@@ -2171,6 +2176,7 @@ http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON MS IMPORT ####
 ##
+## No external ULOs in this ontology
 ##
 
 [Source ontology]
