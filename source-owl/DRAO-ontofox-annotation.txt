@@ -1470,6 +1470,9 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 ## placed as a child of 'Genetic Phenomena', but may need to be
 ## revisited.
 ##
+##
+## Although BFO is used in places, it isn't used for the entire hierarchy, 
+## and the terms DRAO currently uses need to be manually placed.
 
 [Source ontology]
 HP
