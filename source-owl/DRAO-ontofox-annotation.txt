@@ -1324,6 +1324,10 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 ## because it uses BFO, and if we just includeComputedIntermediates,
 ## then whole sections of the BFO hierarchy are skipped.
 ##
+## Exotoxin's placement within IDO overriden to be a child of CHEBI's toxin class
+## rather than IDO developers' placement as a child of its own 'toxin' class,
+## which is itself a child of CHEBI 'molecular entity'.
+##
 
 [Source ontology]
 IDO
