@@ -1197,6 +1197,7 @@ http://purl.obolibrary.org/obo/IAO_0000115
 
 #### NOTES ON SBO IMPORT ####
 ##
+## No external ULOs in this ontology
 ##
 
 [Source ontology]
