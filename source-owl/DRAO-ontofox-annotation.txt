@@ -2446,6 +2446,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON PW IMPORT ####
 ##
+## No external ULOs in this ontology
 ##
 
 [Source ontology]
