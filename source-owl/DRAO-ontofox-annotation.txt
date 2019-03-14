@@ -1546,6 +1546,11 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 ## Ontofox (which draws from Ontobee), the double parentage
 ## is replicated here.
 ##
+## As we have decided on retaining the GO Cell class only (and not
+## the one from CL), we need to override this ontology's usage
+## of http://purl.obolibrary.org/obo/CL_0000000 and place the
+## children within the GO cell hierarchy (see note in CL Import section).
+##
 
 [Source ontology]
 CLO
