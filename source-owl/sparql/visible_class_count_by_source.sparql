@@ -14,5 +14,6 @@ WHERE
  
     { SELECT distinct (STRBEFORE(str(?class),"_") AS ?commonIRI) WHERE { ?class a owl:Class } } 
 
- }
- GROUP BY ?commonIRI
+}
+GROUP BY ?commonIRI
+ORDER BY DESC(?commonIRI)
