@@ -8,7 +8,7 @@ prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT DISTINCT ?class (GROUP_CONCAT(DISTINCT ?synonym; separator="|") as ?synonyms)
 WHERE {
     ?subproperty rdfs:subPropertyOf obo:IAO_0000118.
-    FILTER (!regex(str(?subproperty),"DRAO_0000001$")).#"(?!DRAO_0000001)").
+    FILTER (!regex(str(?subproperty),"DRAO_0000001$")).
     ?class rdf:type owl:Class.
     ?class ?subproperty ?synonym
 }
