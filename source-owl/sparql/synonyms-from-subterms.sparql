@@ -3,8 +3,8 @@ prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 prefix obo: <http://purl.obolibrary.org/obo/>
 prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-# Labels and all alternative terms EXCEPT 'FAIRsharing alternative term' should
-# be marked as synonyms in the FAIRsharing registry.
+# All children of the alternative_term property EXCEPT
+# 'FAIRsharing alternative term' should be added as synonyms
 SELECT DISTINCT ?class (GROUP_CONCAT(DISTINCT ?synonym; separator="|") as ?synonyms)
 WHERE {
     ?subproperty rdfs:subPropertyOf obo:IAO_0000118.
