@@ -14,7 +14,7 @@ build_release: check_relnum clean build add_version
 release: copy_release_files
 
 ## Compare two OWL files, providing LEFT and RIGHT paths and filenames
-robot_diff: 
+robot_diff:
 	$(ROBOT) diff --left $(LEFT) --right $(RIGHT) > $(BUILD_DIR)/diff.txt
 
 # Creates a diff between RELNUM and PREVIOUS_RELNUM
@@ -27,7 +27,7 @@ diff_release: check_relnum
 ##
 
 # ROBOT_REMOTE_LOCATION := https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar
-ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.2.0/robot.jar
+ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.0/robot.jar
 ROBOT := java -jar build/robot.jar
 
 # The development file
@@ -91,14 +91,14 @@ merge: tidy_labels
 
 simple_merge:
 	$(ROBOT) merge --input $(DEV_FILE) \
-	annotate --ontology-iri $(MERGE_IRI) --output $(SIMPLE_MERGE_FILE) 
+	annotate --ontology-iri $(MERGE_IRI) --output $(SIMPLE_MERGE_FILE)
 
 # There are some external labels which we do not wish to include within FAIRsharing.
 # This build target will create a version of the ontology
 # with those labels listed within $(FILTER_LABELS_FILE) removed.
 tidy_labels: simple_merge
 # Remove all rdfs:label annotation from the entire ontology.
-# This preserves a copy of the hierarchy so that the listed IRIs 
+# This preserves a copy of the hierarchy so that the listed IRIs
 # don't merge back into the ontology as children of owl:Thing.
 # The lost rdfs:labels from all the other classes will get added
 # back in the next step when they're merged with the original ontology
