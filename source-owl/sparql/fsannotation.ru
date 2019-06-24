@@ -363,9 +363,8 @@ INSERT {
   obolib:ENVO_01001110 obo:inSubset "FAIRsharing"@en .
   obolib:ENVO_01001110 drao:DRAO_0000001 "Ecosystem"@en .
 
-  ## EO
-  obolib:EO_0007302 obo:inSubset "FAIRsharing"@en .
-  obolib:EO_0007302 drao:DRAO_0000001 "T-DNA Insert"@en .
+  ## PECO
+  obolib:PECO_0007302 obo:inSubset "FAIRsharing"@en .
 
   ## ERO
   obolib:ERO_0000086 obo:inSubset "FAIRsharing"@en .

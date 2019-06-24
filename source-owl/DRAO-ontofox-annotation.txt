@@ -2267,7 +2267,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
-#### NOTES ON EO IMPORT ####
+#### NOTES ON PECO IMPORT ####
 ##
 ##
 
@@ -2275,10 +2275,10 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 EO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/EO_0007302 # T-DNA insert
+http://purl.obolibrary.org/obo/PECO_0007302 # T-DNA insert exposure
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/EO_0007302 # T-DNA insert
+http://purl.obolibrary.org/obo/PECO_0007302 # T-DNA insert
 subClassOf http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
 
 [Source term retrieval setting]
