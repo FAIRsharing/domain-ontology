@@ -3,11 +3,11 @@
 ## Ontofox allows more than one ontology to be queried at once.
 ## This file contains the settings for importing subsections of
 ## the following external ontologies:
-## 
-## AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, 
-## EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, 
-## MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, 
-## OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO, 
+##
+## AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM,
+## EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL,
+## MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI,
+## OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO,
 ## SWO, UBERON, UO, VariO, VO.
 ##
 ##
@@ -21,7 +21,7 @@
 ## EFO and GO imports both choose different parts of the GO hierarchy.
 ## Therefore one import might assert that GO class XXX is a direct child of
 ## GO class ZZZ, while the other import asserts that XXX is a direct
-## child of YYY. This will result in two asserted parents, and will 
+## child of YYY. This will result in two asserted parents, and will
 ## need to be managed.
 ##
 ##
@@ -104,14 +104,14 @@ http://purl.obolibrary.org/obo/IAO_0000115
 ##
 ##
 ## We have enabled includeAllIntermediates as includeComputedIntermediates
-## for these low-level source term URIs will result in hierarchy compression 
+## for these low-level source term URIs will result in hierarchy compression
 ## as follows: from
 ##
-## continuant->generically dependent continuant->ICE 
-## to 
+## continuant->generically dependent continuant->ICE
+## to
 ## continuant->ICE
 ##
-## which results in ICE having two asserted parents in the AO, both 
+## which results in ICE having two asserted parents in the AO, both
 ## GDC and continuant. This is a far from satisfactory situation.
 ##
 
@@ -257,18 +257,18 @@ http://purl.obolibrary.org/obo/IAO_0000115
 
 #### NOTES ON GO IMPORT ####
 ##
-## Placement of GO terms within the BFO hierarchy follows 
+## Placement of GO terms within the BFO hierarchy follows
 ## the justification by EFO here:
 ## http://www.ebi.ac.uk/efo/faq.html#efostructure
-## 
+##
 ## and that of GO itself here:
 ## http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0003674
 ##
 ## While we are basing our GO-to-BFO mapping on EFO, there
-## are some instances where this may be problematic in the 
-## long term, such as Cellular component, which is a child 
+## are some instances where this may be problematic in the
+## long term, such as Cellular component, which is a child
 ## of OBI's specimen class (which itself is a child of
-## BFO's material entity). It may be better in the end 
+## BFO's material entity). It may be better in the end
 to have Cellular component as a direct child of material entity.
 ##
 ##
@@ -379,15 +379,15 @@ http://purl.obolibrary.org/obo/IAO_0000115
 
 #### NOTES ON SO IMPORT ####
 ##
-## The naming convention used within SO does not match that used 
+## The naming convention used within SO does not match that used
 ## within FAIRsharing. As such, the matching *FAIRsharing* label
 ## is shown in the 'Low Level source term URIs'
 ## section below. These labels are applied separately to the FAIRsharing AO via
 ## Ontodog, and will not be visible in the Ontofox output produced from this
 ## configuration file.
-## 
-## Further, the positioning of the SO top-level terms within the BFO 
-## hierarchy follows the 2011 paper by Mungall et al. available at 
+##
+## Further, the positioning of the SO top-level terms within the BFO
+## hierarchy follows the 2011 paper by Mungall et al. available at
 ## https://doi.org/10.1016/j.jbi.2010.03.002
 ## This publication states that all top-level SO terms
 ## (other than sequence attribute)
@@ -398,7 +398,7 @@ http://purl.obolibrary.org/obo/IAO_0000115
 ## Some low-level terms, e.g. the children of nucleic_acid, have been adjusted
 ## so they are placed within the CHEBI hierarchy. Otherwise if we use
 ## the hierarchies in their default configuration, we get
-## multiple classes describing Nucleic Acid (CHEBI, SO, and EDAM). 
+## multiple classes describing Nucleic Acid (CHEBI, SO, and EDAM).
 ##
 
 [Source ontology]
@@ -596,16 +596,16 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000115
 #### NOTES ON EDAM IMPORT ####
 ##
 ## We have overriden the placement of topic_0821 and topic_3534
-## to remove the EDAM protein hierarchy, otherwise we end up 
+## to remove the EDAM protein hierarchy, otherwise we end up
 ## two protein hierarchies, one from PR and one from EDAM.
 ##
-## All topic term placements are overriden to remove the 
+## All topic term placements are overriden to remove the
 ## higher-level topic terms from DRAO (these belong in SRAO).
 ##
 ## Some low-level terms, e.g. the children of nucleic_acid, have been adjusted
 ## so they are placed within the CHEBI hierarchy. Otherwise if we use
 ## the hierarchies in their default configuration, we get
-## multiple classes describing Nucleic Acid (CHEBI, SO, and EDAM). 
+## multiple classes describing Nucleic Acid (CHEBI, SO, and EDAM).
 ##
 ## http://edamontology.org/topic_0602 # Molecular interactions, pathways and networks **
 ## Don't need anymore as have the more precisely placed 'Molecular interaction'
@@ -620,7 +620,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000115
 ## EFO and GO imports both choose different parts of the GO hierarchy.
 ## Therefore one import might assert that GO class XXX is a direct child of
 ## GO class ZZZ, while the other import asserts that XXX is a direct
-## child of YYY. This will result in two asserted parents, and will 
+## child of YYY. This will result in two asserted parents, and will
 ## need to be managed.
 ##
 ##
@@ -800,7 +800,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000115
 
 #### NOTES ON OMIT IMPORT ####
 ##
-## OMIT makes use of the BFO upper-level hierarchy as well as 
+## OMIT makes use of the BFO upper-level hierarchy as well as
 ## the GO biological process hierarchy.
 ##
 ## We have overriden the placement of OMIT_0008490, OMIT_0028415,
@@ -808,7 +808,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000115
 ## (Protein), otherwise we end up with both Protein and Proteins.
 ##
 ## We have overriden the placement of OMIT_0009360,
-## OMIT_0026082 and OMIT_0025926 to restructure the OMIT Genome 
+## OMIT_0026082 and OMIT_0025926 to restructure the OMIT Genome
 ## hierarchy, otherwise we end up with two Genome classes.
 ##
 
@@ -1278,8 +1278,8 @@ http://purl.obolibrary.org/obo/IAO_0000115
 ## 'material entity'
 ##
 ## The 'material anatomical entity' used in CL is from *both*
-## CARO (CARO_0000006) and UBERON (UBERON_0000465). 
-## DRAO uses UBERON (UBERON_0000465). As such, wherever CARO_0000006 
+## CARO (CARO_0000006) and UBERON (UBERON_0000465).
+## DRAO uses UBERON (UBERON_0000465). As such, wherever CARO_0000006
 ## is used within CL, it is overriden by UBERON_0000465.
 ##
 
@@ -1301,7 +1301,7 @@ http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
 http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000061 # anatomical structure
-http://purl.obolibrary.org/obo/CL_0000003 # native cell 
+http://purl.obolibrary.org/obo/CL_0000003 # native cell
 subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
 http://purl.obolibrary.org/obo/CL_0000540 # neural cell
 subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
@@ -1357,7 +1357,7 @@ http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON SWO IMPORT ####
 ##
-## Uses BFO but doesn't contain the full ULO, so 
+## Uses BFO but doesn't contain the full ULO, so
 ## we need to map to ensure they go to the right place.
 ##
 ## There is currently a bug in SWO which incorrectly associates
@@ -1398,8 +1398,8 @@ http://purl.obolibrary.org/obo/IAO_0000118
 ## includeAllIntermediates has been enabled for PR
 ## because it uses BFO, and if we just includeComputedIntermediates,
 ## then whole sections of the BFO hierarchy are skipped.
-## 
-## Uses BFO but doesn't contain the full ULO, so 
+##
+## Uses BFO but doesn't contain the full ULO, so
 ## we need to map to ensure they go to the right place.
 ##
 
@@ -1476,7 +1476,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 ## revisited.
 ##
 ##
-## Although BFO is used in places, it isn't used for the entire hierarchy, 
+## Although BFO is used in places, it isn't used for the entire hierarchy,
 ## and the terms DRAO currently uses need to be manually placed.
 
 [Source ontology]
@@ -1542,7 +1542,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 ##
 ## In OLS, 'cell line' has a single parent, OBI_0001905.
 ## In the version stored in Ontobee, it has two, both
-## OBI_0001905 and OBI_0100060. As we are pulling from 
+## OBI_0001905 and OBI_0100060. As we are pulling from
 ## Ontofox (which draws from Ontobee), the double parentage
 ## is replicated here.
 ##
@@ -1594,8 +1594,8 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 ## includeAllIntermediates has been enabled
 ## because it uses BFO, and if we just includeComputedIntermediates,
 ## then whole sections of the BFO hierarchy are skipped.
-## 
-## Only part of the BFO hierarchy is used (no 'independent 
+##
+## Only part of the BFO hierarchy is used (no 'independent
 ## continuant' in CHMO)
 ##
 
@@ -1737,10 +1737,10 @@ http://purl.obolibrary.org/obo/IAO_0000115
 
 #### NOTES ON MP IMPORT ####
 ##
-## The MP ontology imports a number of ontologies as ULOs, including BFO, 
-## however most of its own classes are not within these ontologies but within 
-## its own 'mammalian phenotype' hierarchy and therefore this requires that 
-## the 'mammalian phenotype' class itself be mapped across to other 
+## The MP ontology imports a number of ontologies as ULOs, including BFO,
+## however most of its own classes are not within these ontologies but within
+## its own 'mammalian phenotype' hierarchy and therefore this requires that
+## the 'mammalian phenotype' class itself be mapped across to other
 ## ontologies, in this case OGMS' 'phenotype' in order to align with DRAO.
 ##
 
@@ -1783,6 +1783,7 @@ http://purl.obolibrary.org/obo/NCIT_C13302 # Secondary protein structure
 http://purl.obolibrary.org/obo/NCIT_C13375 # Chromosome fragile site
 http://purl.obolibrary.org/obo/NCIT_C13426 # Binding motif
 http://purl.obolibrary.org/obo/NCIT_C13445 # Gene feature
+http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
 http://purl.obolibrary.org/obo/NCIT_C15222 # Diet
 http://purl.obolibrary.org/obo/NCIT_C17004 # Genetic polymorphism
 http://purl.obolibrary.org/obo/NCIT_C17207 # Transcription factor
@@ -1804,6 +1805,9 @@ http://purl.obolibrary.org/obo/NCIT_C104154 # Circulating cell-free RNA
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCIT_C4873 # Rare disease - I realize this is a role of a disease, but OK in this location for now
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # disease
+
+http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
 
 http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
 subClassOf http://purl.obolibrary.org/obo/IAO_0000310 # Document
@@ -1916,7 +1920,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 #### NOTES ON AERO IMPORT ####
 ##
 ## AERO uses an outdated version of BFO. It is also listed as deprecated
-## within the OBO Foundry. Please see 
+## within the OBO Foundry. Please see
 ## https://github.com/FAIRsharing/domain-ontology/issues/34
 ## for more information, as we plan to remove AERO from DRAO.
 ##
@@ -1925,12 +1929,9 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 AERO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/AERO_0000009 # Adverse reaction
 http://purl.obolibrary.org/obo/AERO_0000066 # Adverse side effect
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/AERO_0000009 # Adverse reaction
-subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
 http://purl.obolibrary.org/obo/AERO_0000066 # Adverse side effect
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
 
@@ -2400,7 +2401,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 #### NOTES ON VARIO IMPORT ####
 ##
 ## We don’t want to use the VariO hierarchy because it
-## isn’t appropriate for DRAO. Instead, we will place 
+## isn’t appropriate for DRAO. Instead, we will place
 ## it as a child of the SO sequence_collection hierarchy.
 ##
 
