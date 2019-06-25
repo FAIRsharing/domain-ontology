@@ -321,7 +321,6 @@ http://purl.obolibrary.org/obo/GO_0016246 # RNA interference
 http://purl.obolibrary.org/obo/GO_0016310 # Phosphorylation
 http://purl.obolibrary.org/obo/GO_0016477 # Cell migration
 http://purl.obolibrary.org/obo/GO_0017144 # Drug metabolic process
-http://purl.obolibrary.org/obo/GO_0019015 # Viral genome
 http://purl.obolibrary.org/obo/GO_0019814 # Immunoglobulin complex
 http://purl.obolibrary.org/obo/GO_0019815 # B cell receptor complex
 http://purl.obolibrary.org/obo/GO_0023052 # Signaling
@@ -363,8 +362,6 @@ http://purl.obolibrary.org/obo/GO_0005575 # Cellular component
 subClassOf http://purl.obolibrary.org/obo/OBI_0100051 # specimen
 http://purl.obolibrary.org/obo/GO_0003674 # Molecular function
 subClassOf http://purl.obolibrary.org/obo/BFO_0000034 # function
-http://purl.obolibrary.org/obo/GO_0019015 # Viral genome
-subClassOf http://purl.obolibrary.org/obo/SO_0001026 # Genome
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -580,6 +577,8 @@ http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -588,7 +587,7 @@ includeComputedIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000118
 http://purl.obolibrary.org/obo/IAO_0000115
-http://www.ebi.ac.uk/efo/alternative_term
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.ebi.ac.uk/efo/definition
 mapTo http://purl.obolibrary.org/obo/IAO_0000115
@@ -1787,6 +1786,7 @@ http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
 http://purl.obolibrary.org/obo/NCIT_C15222 # Diet
 http://purl.obolibrary.org/obo/NCIT_C17004 # Genetic polymorphism
 http://purl.obolibrary.org/obo/NCIT_C17207 # Transcription factor
+http://purl.obolibrary.org/obo/NCIT_C17253 # Viral Genome
 http://purl.obolibrary.org/obo/NCIT_C17671 # Nuclear receptor
 http://purl.obolibrary.org/obo/NCIT_C18106 # Receptor
 http://purl.obolibrary.org/obo/NCIT_C18143 # Gene knockout
@@ -1813,7 +1813,7 @@ http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
 subClassOf http://purl.obolibrary.org/obo/IAO_0000310 # Document
 
 http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
-subClassOf subClassOf http://purl.obolibrary.org/obo/OBI_0100051 # Specimen
+subClassOf http://purl.obolibrary.org/obo/OBI_0100051 # Specimen
 http://purl.obolibrary.org/obo/NCIT_C18143 # Gene knockout
 subClassOf http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
 http://purl.obolibrary.org/obo/NCIT_C45275 # Animal tracking
@@ -1859,6 +1859,8 @@ http://purl.obolibrary.org/obo/NCIT_C13426 # Binding motif
 subClassOf http://purl.obolibrary.org/obo/SO_0000409 # binding site
 http://purl.obolibrary.org/obo/NCIT_C17004 # Genetic polymorphism
 subClassOf http://purl.obolibrary.org/obo/SO_0001059 # Sequence alteration
+http://purl.obolibrary.org/obo/NCIT_C17253 # Viral Genome
+subClassOf http://purl.obolibrary.org/obo/SO_0001026 # Genome
 
 [Source term retrieval setting]
 includeComputedIntermediates
