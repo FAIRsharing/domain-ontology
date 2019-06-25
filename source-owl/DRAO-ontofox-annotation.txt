@@ -750,7 +750,7 @@ subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # Information content enti
 http://edamontology.org/format_1915 # format
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # Information content entity
 http://edamontology.org/operation_0004 # operation
-subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+subClassOf http://purl.obolibrary.org/obo/OBI_0200000 # data transformation
 http://edamontology.org/data_0883 # Molecular structure
 subClassOf http://purl.obolibrary.org/obo/PATO_0000141 # Structure
 http://edamontology.org/topic_3383 # Biological imaging
