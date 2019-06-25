@@ -1768,17 +1768,6 @@
     
 
 
-    <!-- http://edamontology.org/operation_2502 -->
-
-    <owl:Class rdf:about="http://edamontology.org/operation_2502">
-        <rdfs:label>Protein analysis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#DeprecatedClass"/>
-        <obo:IAO_0000115>Process (read and / or write) protein sequence or structural data.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/operation_2575 -->
 
     <owl:Class rdf:about="http://edamontology.org/operation_2575">
@@ -7730,6 +7719,18 @@ ab (not=) E</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18962">
+        <rdfs:label>Protein Analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <obo:IAO_0000118>Protein Analysis</obo:IAO_0000118>
+        <obo:IAO_0000115>Analysis of protein components in a sample.  The most basic analysis involves determination of the mass or concentration of protein by any of a number of quantitative assays.  Increased level of detail in the analysis requires resolution of a mixture into its component proteins.  The characterization of a pure protein includes the determination of a number of its properties, among these, the molecular weight, isoelectric point, subunit composition, tryptic map, amino acid composition, amino acid sequence, hydrodynamics (s value, frictional coefficient, shape, aggregation state), thermodynamics (melting, folding, protein-protein interactions), and atomic structure (NMR, diffraction).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C18966 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18966">
@@ -12703,26 +12704,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial disease</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#DeprecatedClass -->
-
-    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DeprecatedClass">
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
@@ -12730,7 +12711,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -12748,16 +12729,28 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
