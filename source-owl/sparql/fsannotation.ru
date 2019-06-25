@@ -534,8 +534,6 @@ INSERT {
   obolib:GO_0016477 drao:DRAO_0000001 "Cell migration"@en .
   obolib:GO_0017144 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0017144 drao:DRAO_0000001 "Drug metabolic process"@en .
-  obolib:GO_0019015 obo:inSubset "FAIRsharing"@en .
-  obolib:GO_0019015 drao:DRAO_0000001 "Viral genome"@en .
   obolib:GO_0019814 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0019814 drao:DRAO_0000001 "Immunoglobulin complex"@en .
   obolib:GO_0019815 obo:inSubset "FAIRsharing"@en .
@@ -721,6 +719,8 @@ INSERT {
   obolib:NCIT_C17004 drao:DRAO_0000001 "Genetic polymorphism"@en .
   obolib:NCIT_C17207 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C17207 drao:DRAO_0000001 "Transcription factor"@en .
+  obolib:NCIT_C17253 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C17253 drao:DRAO_0000001 "Viral genome"@en .
   obolib:NCIT_C17671 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C17671 drao:DRAO_0000001 "Nuclear receptor"@en .
   obolib:NCIT_C18106 obo:inSubset "FAIRsharing"@en .
@@ -733,6 +733,7 @@ INSERT {
   obolib:NCIT_C18966 drao:DRAO_0000001 "Protein expression"@en .
   obolib:NCIT_C26549 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C26549 drao:DRAO_0000001 "Untranslated RNA"@en .
+  obolib:NCIT_C41332 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C45275 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C45275 drao:DRAO_0000001 "Animal tracking"@en .
   obolib:NCIT_C49667 obo:inSubset "FAIRsharing"@en .
@@ -748,7 +749,6 @@ INSERT {
   obolib:NCIT_C68821 drao:DRAO_0000001 "Legal regulation"@en .
   obolib:NCIT_C104154 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C104154 drao:DRAO_0000001 "Circulating cell-free RNA"@en .
-  obolib:NCIT_C41332 obo:inSubset "FAIRsharing"@en .
 
   ## OAE
   obolib:OAE_0000235 obo:inSubset "FAIRsharing"@en .

@@ -1,23 +1,22 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.fairsharing.org/ontology/external/DRAO-external.owl#"
      xml:base="http://www.fairsharing.org/ontology/external/DRAO-external.owl"
-     xmlns:edamontology="http://edamontology.org/"
-     xmlns:swo="http://www.ebi.ac.uk/swo/"
-     xmlns:efo="http://www.ebi.ac.uk/efo/"
-     xmlns:resource="http://semanticscience.org/resource/"
-     xmlns:data="http://www.ebi.ac.uk/swo/data/"
-     xmlns:interface="http://www.ebi.ac.uk/swo/interface/"
-     xmlns:ORDO="http://www.orpha.net/ORDO/"
-     xmlns:cellline="http://www.ebi.ac.uk/cellline#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:SBO="http://biomodels.net/SBO/"
+     xmlns:data="http://www.ebi.ac.uk/swo/data/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:mamo="http://identifiers.org/mamo/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:mamo="http://identifiers.org/mamo/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swo="http://www.ebi.ac.uk/swo/"
+     xmlns:ORDO="http://www.orpha.net/ORDO/"
+     xmlns:interface="http://www.ebi.ac.uk/swo/interface/"
+     xmlns:edamontology="http://edamontology.org/"
+     xmlns:cellline="http://www.ebi.ac.uk/cellline#"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/external/DRAO-external.owl"/>
     
 
@@ -30,6 +29,23 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
+        <rdfs:label>alternative term</rdfs:label>
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+        <rdfs:label>替代术语</rdfs:label>
+        <rdfs:label xml:lang="zh">替代术语</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+        <obo:IAO_0000115 xml:lang="en">The preferred lexical label for a resource, in a given language.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
+        <rdfs:label xml:lang="en">ISA alternative term</rdfs:label>
+        <obo:IAO_0000115>An alternative term used by the ISA tools project (http://isa-tools.org).</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
@@ -37,35 +53,21 @@
         <rdfs:label>definition</rdfs:label>
         <rdfs:label xml:lang="en">definition</rdfs:label>
         <obo:IAO_0000118>DEFINITION</obo:IAO_0000118>
-        <obo:IAO_0000115>English language definitions of what NCI means by the concept. These are limited to 1024 characters. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-        <obo:IAO_0000115 xml:lang="en">The preferred lexical label for a resource, in a given language.</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
-        <rdfs:label>alternative term</rdfs:label>
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
-        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>标签</rdfs:label>
         <rdfs:label>label</rdfs:label>
         <rdfs:label xml:lang="en">label</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB alternative term</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alternative term used by the IEDB.</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
-        <rdfs:label xml:lang="en">ISA alternative term</rdfs:label>
-        <obo:IAO_0000115>An alternative term used by the ISA tools project (http://isa-tools.org).</obo:IAO_0000115>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
     
@@ -218,9 +220,9 @@
     <owl:Class rdf:about="http://edamontology.org/data_0006">
         <rdfs:label>Data</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>Information, represented in an information artefact (data record) that is &#39;understandable&#39; by dedicated computational tools that can use the data as input or produce it as output.</obo:IAO_0000115>
         <obo:IAO_0000118>Datum</obo:IAO_0000118>
         <obo:IAO_0000118>Data record</obo:IAO_0000118>
+        <obo:IAO_0000115>Information, represented in an information artefact (data record) that is &#39;understandable&#39; by dedicated computational tools that can use the data as input or produce it as output.</obo:IAO_0000115>
         <obo:IAO_0000118>Data set</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -232,8 +234,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_0842">
         <rdfs:label>Identifier</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>A text token, number or something else which identifies an entity, but which may not be persistent (stable) or unique (the same identifier may identify multiple things).</obo:IAO_0000115>
         <obo:IAO_0000118>ID</obo:IAO_0000118>
+        <obo:IAO_0000115>A text token, number or something else which identifies an entity, but which may not be persistent (stable) or unique (the same identifier may identify multiple things).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -291,8 +293,8 @@
         <rdfs:label>Structure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000141"/>
         <obo:IAO_0000118>Coordinate model</obo:IAO_0000118>
-        <obo:IAO_0000115>3D coordinate and associated data for a macromolecular tertiary (3D) structure or part of a structure.</obo:IAO_0000115>
         <obo:IAO_0000118>Structure data</obo:IAO_0000118>
+        <obo:IAO_0000115>3D coordinate and associated data for a macromolecular tertiary (3D) structure or part of a structure.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -303,9 +305,9 @@
     <owl:Class rdf:about="http://edamontology.org/data_0912">
         <rdfs:label>Nucleic acid property</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2087"/>
-        <obo:IAO_0000118>Nucleic acid physicochemical property</obo:IAO_0000118>
         <obo:IAO_0000118>GC-content</obo:IAO_0000118>
         <obo:IAO_0000115>A report of primarily non-positional data describing intrinsic physical, chemical or other properties of a nucleic acid molecule.</obo:IAO_0000115>
+        <obo:IAO_0000118>Nucleic acid physicochemical property</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -316,13 +318,13 @@
     <owl:Class rdf:about="http://edamontology.org/data_0916">
         <rdfs:label>Gene report</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2048"/>
+        <obo:IAO_0000118>Gene and transcript structure (report)</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene function (report)</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene features report</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene structure (repot)</obo:IAO_0000118>
         <obo:IAO_0000118>Gene annotation</obo:IAO_0000118>
         <obo:IAO_0000115>A report on predicted or actual gene structure, regions which make an RNA product and features such as promoters, coding regions, splice sites etc.</obo:IAO_0000115>
         <obo:IAO_0000118>Nucleic acid features (gene and transcript structure)</obo:IAO_0000118>
-        <obo:IAO_0000118>Gene features report</obo:IAO_0000118>
-        <obo:IAO_0000118>Gene structure (repot)</obo:IAO_0000118>
-        <obo:IAO_0000118>Gene and transcript structure (report)</obo:IAO_0000118>
-        <obo:IAO_0000118>Gene function (report)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -379,8 +381,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_0950">
         <rdfs:label>Mathematical model</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>A biological model represented in mathematical terms.</obo:IAO_0000115>
         <obo:IAO_0000118>Biological model</obo:IAO_0000118>
+        <obo:IAO_0000115>A biological model represented in mathematical terms.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -391,9 +393,9 @@
     <owl:Class rdf:about="http://edamontology.org/data_0970">
         <rdfs:label>Citation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2526"/>
-        <obo:IAO_0000118>Bibliographic reference</obo:IAO_0000118>
         <obo:IAO_0000118>Reference</obo:IAO_0000118>
         <obo:IAO_0000115>Bibliographic data that uniquely identifies a scientific article, book or other published material.</obo:IAO_0000115>
+        <obo:IAO_0000118>Bibliographic reference</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -485,10 +487,10 @@
     <owl:Class rdf:about="http://edamontology.org/data_1011">
         <rdfs:label>EC number</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2321"/>
+        <obo:IAO_0000118>EC</obo:IAO_0000118>
         <obo:IAO_0000118>EC code</obo:IAO_0000118>
         <obo:IAO_0000115>An Enzyme Commission (EC) number of an enzyme.</obo:IAO_0000115>
         <obo:IAO_0000118>Enzyme Commission number</obo:IAO_0000118>
-        <obo:IAO_0000118>EC</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -510,9 +512,9 @@
     <owl:Class rdf:about="http://edamontology.org/data_1086">
         <rdfs:label>Compound identifier</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0982"/>
+        <obo:IAO_0000115>Identifier of an entry from a database of chemicals.</obo:IAO_0000115>
         <obo:IAO_0000118>Small molecule identifier</obo:IAO_0000118>
         <obo:IAO_0000118>Chemical compound identifier</obo:IAO_0000118>
-        <obo:IAO_0000115>Identifier of an entry from a database of chemicals.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -602,10 +604,10 @@
     <owl:Class rdf:about="http://edamontology.org/data_1283">
         <rdfs:label>Cytogenetic map</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1280"/>
-        <obo:IAO_0000118>Cytologic map</obo:IAO_0000118>
         <obo:IAO_0000118>Chromosome map</obo:IAO_0000118>
-        <obo:IAO_0000115>A map showing banding patterns derived from direct observation of a stained chromosome.</obo:IAO_0000115>
         <obo:IAO_0000118>Cytogenic map</obo:IAO_0000118>
+        <obo:IAO_0000118>Cytologic map</obo:IAO_0000118>
+        <obo:IAO_0000115>A map showing banding patterns derived from direct observation of a stained chromosome.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -639,8 +641,8 @@
         <rdfs:label>Hidden Markov model</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0860"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0950"/>
-        <obo:IAO_0000118>HMM</obo:IAO_0000118>
         <obo:IAO_0000115>A statistical Markov model of a system which is assumed to be a Markov process with unobserved (hidden) states.  For example, a hidden Markov model representation of a set or alignment of sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>HMM</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -755,9 +757,9 @@
     <owl:Class rdf:about="http://edamontology.org/data_1872">
         <rdfs:label>Taxonomic classification</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2909"/>
+        <obo:IAO_0000118>Taxonomic name</obo:IAO_0000118>
         <obo:IAO_0000118>Taxonomic information</obo:IAO_0000118>
         <obo:IAO_0000115>The full name for a group of organisms, reflecting their biological classification and (usually) conforming to a standard nomenclature.</obo:IAO_0000115>
-        <obo:IAO_0000118>Taxonomic name</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -814,8 +816,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_2050">
         <rdfs:label>Molecular property (general)</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2087"/>
-        <obo:IAO_0000118>General molecular property</obo:IAO_0000118>
         <obo:IAO_0000115>General data for a molecule.</obo:IAO_0000115>
+        <obo:IAO_0000118>General molecular property</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -873,8 +875,8 @@
         <rdfs:label>Gene name</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0976"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2099"/>
-        <obo:IAO_0000118>Allele name</obo:IAO_0000118>
         <obo:IAO_0000115>The name of a gene, (typically) assigned by a person and/or according to a naming scheme. It may contain white space characters and is typically more intuitive and readable than a gene symbol. It (typically) may be used to identify similar genes in different species and to derive a gene symbol.</obo:IAO_0000115>
+        <obo:IAO_0000118>Allele name</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -898,8 +900,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_2337">
         <rdfs:label>Resource metadata</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2048"/>
-        <obo:IAO_0000118>Provenance metadata</obo:IAO_0000118>
         <obo:IAO_0000115>Data concerning or describing some core computational resource, as distinct from primary data.  This includes metadata on the origin, source, history, ownership or location of some thing.</obo:IAO_0000115>
+        <obo:IAO_0000118>Provenance metadata</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -911,8 +913,8 @@
         <rdfs:label>Text data</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
         <obo:IAO_0000118>Article data</obo:IAO_0000118>
-        <obo:IAO_0000118>Scientific text data</obo:IAO_0000118>
         <obo:IAO_0000115>Data concerning, extracted from, or derived from the analysis of a scientific text (or texts) such as a full text article from a scientific journal.</obo:IAO_0000115>
+        <obo:IAO_0000118>Scientific text data</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -923,8 +925,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_2531">
         <rdfs:label>Experiment report</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2048"/>
-        <obo:IAO_0000118>Experiment metadata</obo:IAO_0000118>
         <obo:IAO_0000115>Annotation on a wet lab experiment, such as experimental conditions.</obo:IAO_0000115>
+        <obo:IAO_0000118>Experiment metadata</obo:IAO_0000118>
         <obo:IAO_0000118>Experiment annotation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -936,8 +938,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_2534">
         <rdfs:label>Sequence attribute</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>An attribute of a molecular sequence, possibly in reference to some other sequence.</obo:IAO_0000115>
         <obo:IAO_0000118>Sequence parameter</obo:IAO_0000118>
+        <obo:IAO_0000115>An attribute of a molecular sequence, possibly in reference to some other sequence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -948,20 +950,20 @@
     <owl:Class rdf:about="http://edamontology.org/data_2603">
         <rdfs:label>Gene expression data</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000118>Gene product profile</obo:IAO_0000118>
-        <obo:IAO_0000118>Gene transcription profile</obo:IAO_0000118>
-        <obo:IAO_0000118>RNA profile</obo:IAO_0000118>
-        <obo:IAO_0000118>Microarray data</obo:IAO_0000118>
-        <obo:IAO_0000118>Non-coding RNA profile</obo:IAO_0000118>
-        <obo:IAO_0000118>RNA quantification data</obo:IAO_0000118>
-        <obo:IAO_0000118>RNA-seq data</obo:IAO_0000118>
-        <obo:IAO_0000118>Non-coding RNA quantification data</obo:IAO_0000118>
-        <obo:IAO_0000118>mRNA quantification data</obo:IAO_0000118>
-        <obo:IAO_0000118>Gene product quantification data</obo:IAO_0000118>
-        <obo:IAO_0000118>Transcriptome profile</obo:IAO_0000118>
         <obo:IAO_0000118>Transcriptome quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene product quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>Non-coding RNA profile</obo:IAO_0000118>
+        <obo:IAO_0000118>Microarray data</obo:IAO_0000118>
+        <obo:IAO_0000118>RNA-seq data</obo:IAO_0000118>
         <obo:IAO_0000115>Image, hybridisation or some other data arising from a study of gene expression, typically profiling or quantification.</obo:IAO_0000115>
+        <obo:IAO_0000118>Non-coding RNA quantification data</obo:IAO_0000118>
         <obo:IAO_0000118>Gene transcription quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>RNA profile</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene transcription profile</obo:IAO_0000118>
+        <obo:IAO_0000118>Transcriptome profile</obo:IAO_0000118>
+        <obo:IAO_0000118>RNA quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>mRNA quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene product profile</obo:IAO_0000118>
         <obo:IAO_0000118>mRNA profile</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -973,8 +975,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_2717">
         <rdfs:label>Oligonucleotide probe annotation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2603"/>
-        <obo:IAO_0000118>Oligonucleotide probe sets annotation</obo:IAO_0000118>
         <obo:IAO_0000115>General annotation on an oligonucleotide probe, or a set of probes.</obo:IAO_0000115>
+        <obo:IAO_0000118>Oligonucleotide probe sets annotation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1080,8 +1082,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_2976">
         <rdfs:label>Protein sequence</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2044"/>
-        <obo:IAO_0000118>Protein sequences</obo:IAO_0000118>
         <obo:IAO_0000115>One or more protein sequences, possibly with associated annotation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Protein sequences</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1092,11 +1094,11 @@
     <owl:Class rdf:about="http://edamontology.org/data_2977">
         <rdfs:label>Nucleic acid sequence</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2044"/>
-        <obo:IAO_0000118>Nucleotide sequence</obo:IAO_0000118>
-        <obo:IAO_0000118>Nucleic acid sequences</obo:IAO_0000118>
-        <obo:IAO_0000118>DNA sequence</obo:IAO_0000118>
         <obo:IAO_0000118>Nucleotide sequences</obo:IAO_0000118>
+        <obo:IAO_0000118>DNA sequence</obo:IAO_0000118>
+        <obo:IAO_0000118>Nucleic acid sequences</obo:IAO_0000118>
         <obo:IAO_0000115>One or more nucleic acid sequences, possibly with associated annotation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Nucleotide sequence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1107,8 +1109,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_2978">
         <rdfs:label>Reaction data</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000118>Enzyme kinetics annotation</obo:IAO_0000118>
         <obo:IAO_0000115>Data concerning a biochemical reaction, typically data and more general annotation on the kinetics of enzyme-catalysed reaction.</obo:IAO_0000115>
+        <obo:IAO_0000118>Enzyme kinetics annotation</obo:IAO_0000118>
         <obo:IAO_0000118>Reaction annotation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1143,14 +1145,14 @@
     <owl:Class rdf:about="http://edamontology.org/data_3108">
         <rdfs:label>Experimental measurement</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <obo:IAO_0000118>Experimentally measured data</obo:IAO_0000118>
         <obo:IAO_0000118>Experimental measurement data</obo:IAO_0000118>
         <obo:IAO_0000118>Measurement</obo:IAO_0000118>
-        <obo:IAO_0000118>Measurement data</obo:IAO_0000118>
-        <obo:IAO_0000118>Experimentally measured data</obo:IAO_0000118>
-        <obo:IAO_0000115>Raw data such as measurements or other results from laboratory experiments, as generated from laboratory hardware.</obo:IAO_0000115>
-        <obo:IAO_0000118>Measurement metadata</obo:IAO_0000118>
         <obo:IAO_0000118>Measured data</obo:IAO_0000118>
+        <obo:IAO_0000118>Measurement metadata</obo:IAO_0000118>
         <obo:IAO_0000118>Raw experimental data</obo:IAO_0000118>
+        <obo:IAO_0000115>Raw data such as measurements or other results from laboratory experiments, as generated from laboratory hardware.</obo:IAO_0000115>
+        <obo:IAO_0000118>Measurement data</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1206,8 +1208,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_3494">
         <rdfs:label>DNA sequence</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2977"/>
-        <obo:IAO_0000115>A DNA sequence.</obo:IAO_0000115>
         <obo:IAO_0000118>DNA sequences</obo:IAO_0000118>
+        <obo:IAO_0000115>A DNA sequence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1218,8 +1220,8 @@
     <owl:Class rdf:about="http://edamontology.org/data_3495">
         <rdfs:label>RNA sequence</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2977"/>
-        <obo:IAO_0000115>An RNA sequence.</obo:IAO_0000115>
         <obo:IAO_0000118>RNA sequences</obo:IAO_0000118>
+        <obo:IAO_0000115>An RNA sequence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1241,10 +1243,10 @@
     <owl:Class rdf:about="http://edamontology.org/data_3671">
         <rdfs:label>Text</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2526"/>
-        <obo:IAO_0000118>Textual search query</obo:IAO_0000118>
-        <obo:IAO_0000115>Any free or plain text, typically for human consumption and in English. Can instantiate also as a textual search query.</obo:IAO_0000115>
         <obo:IAO_0000118>Plain text</obo:IAO_0000118>
         <obo:IAO_0000118>Free text</obo:IAO_0000118>
+        <obo:IAO_0000115>Any free or plain text, typically for human consumption and in English. Can instantiate also as a textual search query.</obo:IAO_0000115>
+        <obo:IAO_0000118>Textual search query</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1266,9 +1268,9 @@
     <owl:Class rdf:about="http://edamontology.org/data_3754">
         <rdfs:label>GO-term enrichment report</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2048"/>
-        <obo:IAO_0000115>An informative report containing a ranked list of Gene Ontology concepts, each associated with a p-value, concerning or derived from the analysis of e.g. a set of genes or proteins.</obo:IAO_0000115>
         <obo:IAO_0000118>Gene ontology enrichment report</obo:IAO_0000118>
         <obo:IAO_0000118>Gene ontology term enrichment report</obo:IAO_0000118>
+        <obo:IAO_0000115>An informative report containing a ranked list of Gene Ontology concepts, each associated with a p-value, concerning or derived from the analysis of e.g. a set of genes or proteins.</obo:IAO_0000115>
         <obo:IAO_0000118>Gene ontology concept over-representation report</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1292,9 +1294,9 @@
         <rdfs:label>Format</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000118>Data format</obo:IAO_0000118>
-        <obo:IAO_0000115>A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.</obo:IAO_0000115>
-        <obo:IAO_0000118>Exchange format</obo:IAO_0000118>
         <obo:IAO_0000118>File format</obo:IAO_0000118>
+        <obo:IAO_0000118>Exchange format</obo:IAO_0000118>
+        <obo:IAO_0000115>A defined way or layout of representing and structuring data in a computer file, blob, string, message, or elsewhere.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1306,14 +1308,14 @@
         <rdfs:label>Operation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000118>Lambda abstraction</obo:IAO_0000118>
-        <obo:IAO_0000115>A function that processes a set of inputs and results in a set of outputs, or associates arguments (inputs) with values (outputs).</obo:IAO_0000115>
         <obo:IAO_0000118>Mathematical function</obo:IAO_0000118>
+        <obo:IAO_0000118>Computational operation</obo:IAO_0000118>
+        <obo:IAO_0000118>Mathematical operation</obo:IAO_0000118>
         <obo:IAO_0000118>Function (programming)</obo:IAO_0000118>
         <obo:IAO_0000118>Computational subroutine</obo:IAO_0000118>
-        <obo:IAO_0000118>Computational operation</obo:IAO_0000118>
-        <obo:IAO_0000118>Computational procedure</obo:IAO_0000118>
-        <obo:IAO_0000118>Mathematical operation</obo:IAO_0000118>
+        <obo:IAO_0000115>A function that processes a set of inputs and results in a set of outputs, or associates arguments (inputs) with values (outputs).</obo:IAO_0000115>
         <obo:IAO_0000118>Computational method</obo:IAO_0000118>
+        <obo:IAO_0000118>Computational procedure</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1364,12 +1366,12 @@
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2451"/>
-        <obo:IAO_0000115>Align (identify equivalent sites within) molecular sequences.</obo:IAO_0000115>
-        <obo:IAO_0000118>Multiple sequence alignment (constrained)</obo:IAO_0000118>
-        <obo:IAO_0000118>Constrained sequence alignment</obo:IAO_0000118>
         <obo:IAO_0000118>Consensus-based sequence alignment</obo:IAO_0000118>
+        <obo:IAO_0000115>Align (identify equivalent sites within) molecular sequences.</obo:IAO_0000115>
         <obo:IAO_0000118>Sequence alignment construction</obo:IAO_0000118>
+        <obo:IAO_0000118>Multiple sequence alignment (constrained)</obo:IAO_0000118>
         <obo:IAO_0000118>Sequence alignment generation</obo:IAO_0000118>
+        <obo:IAO_0000118>Constrained sequence alignment</obo:IAO_0000118>
         <obo:IAO_0000118>Sequence alignment (constrained)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1381,8 +1383,8 @@
     <owl:Class rdf:about="http://edamontology.org/operation_0294">
         <rdfs:label>Structure-based sequence alignment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0292"/>
-        <obo:IAO_0000118>Sequence alignment (structure-based)</obo:IAO_0000118>
         <obo:IAO_0000115>Align molecular sequences using sequence and structural information.</obo:IAO_0000115>
+        <obo:IAO_0000118>Sequence alignment (structure-based)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1394,10 +1396,10 @@
         <rdfs:label>Text mining</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2423"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
-        <obo:IAO_0000118>Text data mining</obo:IAO_0000118>
-        <obo:IAO_0000118>Text analytics</obo:IAO_0000118>
         <obo:IAO_0000118>Literature mining</obo:IAO_0000118>
         <obo:IAO_0000115>Process and analyse text (typically scientific literature) to extract information from it.</obo:IAO_0000115>
+        <obo:IAO_0000118>Text data mining</obo:IAO_0000118>
+        <obo:IAO_0000118>Text analytics</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1409,9 +1411,9 @@
         <rdfs:label>Sequence assembly</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2478"/>
-        <obo:IAO_0000118>Metagenomic assembly</obo:IAO_0000118>
         <obo:IAO_0000115>Combine (align and merge) overlapping fragments of a DNA sequence to reconstruct the original sequence.</obo:IAO_0000115>
         <obo:IAO_0000118>Sequence assembly editing</obo:IAO_0000118>
+        <obo:IAO_0000118>Metagenomic assembly</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1446,13 +1448,13 @@
         <rdfs:label>Nucleic acid feature detection</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2423"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2478"/>
-        <obo:IAO_0000118>Nucleic acid feature prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Sequence feature detection (nucleic acid)</obo:IAO_0000118>
         <obo:IAO_0000118>Nucleic acid site detection</obo:IAO_0000118>
-        <obo:IAO_0000118>Nucleic acid site recognition</obo:IAO_0000118>
         <obo:IAO_0000118>Nucleic acid site prediction</obo:IAO_0000118>
-        <obo:IAO_0000115>Predict, recognise and identify features in nucleotide sequences such as functional sites or regions, typically by scanning for known motifs, patterns and regular expressions.</obo:IAO_0000115>
+        <obo:IAO_0000118>Nucleic acid feature prediction</obo:IAO_0000118>
         <obo:IAO_0000118>Nucleic acid feature recognition</obo:IAO_0000118>
+        <obo:IAO_0000115>Predict, recognise and identify features in nucleotide sequences such as functional sites or regions, typically by scanning for known motifs, patterns and regular expressions.</obo:IAO_0000115>
+        <obo:IAO_0000118>Sequence feature detection (nucleic acid)</obo:IAO_0000118>
+        <obo:IAO_0000118>Nucleic acid site recognition</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1463,56 +1465,56 @@
     <owl:Class rdf:about="http://edamontology.org/operation_0417">
         <rdfs:label>Post-translation modification site prediction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3092"/>
-        <obo:IAO_0000118>PTM site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>N-terminal myristoylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Sumoylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>GPI modification site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>N-terminal myristoylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Protein post-translation modification site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Sulfation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>N-myristoylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Phosphorylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Dephosphorylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Phosphorylation prediction</obo:IAO_0000118>
         <obo:IAO_0000118>Tyrosine nitration site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>GPI modification prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>PTM prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Sumoylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>N-terminal acetylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>S-nitrosylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>GPI anchor site prediction</obo:IAO_0000118>
-        <obo:IAO_0000115>Predict post-translation modification sites in protein sequences.</obo:IAO_0000115>
-        <obo:IAO_0000118>Acetylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Succinylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>S-sulfenylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Tyrosine nitration prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Dephosphorylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Ubiquitination prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Prenylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Glycosylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>S-sulfenylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Prenylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Acetylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>PTM analysis</obo:IAO_0000118>
-        <obo:IAO_0000118>Methylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Methylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Ubiquitination site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Pupylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Phosphoglycerylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Hydroxylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Palmitoylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>N-myristoylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>GPI anchor prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>PTM site analysis</obo:IAO_0000118>
-        <obo:IAO_0000118>Glycosylation prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Succinylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Palmitoylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Phosphoglycerylation site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Hydroxylation prediction</obo:IAO_0000118>
         <obo:IAO_0000118>S-nitrosylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Succinylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Acetylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Hydroxylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Acetylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>PTM prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Phosphoglycerylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>S-nitrosylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Succinylation site prediction</obo:IAO_0000118>
         <obo:IAO_0000118>Pupylation site prediction</obo:IAO_0000118>
         <obo:IAO_0000118>Sulfation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Palmitoylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>GPI anchor prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Phosphorylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Sumoylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Prenylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Dephosphorylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Sulfation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Pupylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Phosphoglycerylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Phosphorylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Ubiquitination site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>N-myristoylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Hydroxylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>GPI modification site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>GPI modification prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Glycosylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Tyrosine nitration prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Ubiquitination prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>S-sulfenylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000115>Predict post-translation modification sites in protein sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>N-terminal myristoylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Dephosphorylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Glycosylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein post-translation modification site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>S-sulfenylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>PTM analysis</obo:IAO_0000118>
         <obo:IAO_0000118>N-terminal acetylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Prenylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>N-terminal acetylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>PTM site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>N-terminal myristoylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Methylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>GPI anchor site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>PTM site analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>N-myristoylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Palmitoylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Methylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Sumoylation prediction</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1579,8 +1581,8 @@
     <owl:Class rdf:about="http://edamontology.org/operation_0492">
         <rdfs:label>Multiple sequence alignment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0292"/>
-        <obo:IAO_0000115>Align more than two molecular sequences.</obo:IAO_0000115>
         <obo:IAO_0000118>Multiple alignment</obo:IAO_0000118>
+        <obo:IAO_0000115>Align more than two molecular sequences.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1591,10 +1593,10 @@
     <owl:Class rdf:about="http://edamontology.org/operation_0525">
         <rdfs:label>Genome assembly</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0310"/>
-        <obo:IAO_0000118>Breakend assembly</obo:IAO_0000118>
+        <obo:IAO_0000115>The process of assembling many short DNA sequences together such thay they represent the original chromosomes from which the DNA originated.</obo:IAO_0000115>
         <obo:IAO_0000118>Genomic assembly</obo:IAO_0000118>
         <obo:IAO_0000118>Sequence assembly (genome assembly)</obo:IAO_0000118>
-        <obo:IAO_0000115>The process of assembling many short DNA sequences together such thay they represent the original chromosomes from which the DNA originated.</obo:IAO_0000115>
+        <obo:IAO_0000118>Breakend assembly</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1606,9 +1608,9 @@
         <rdfs:label>Sequence visualisation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
-        <obo:IAO_0000118>Sequence rendering</obo:IAO_0000118>
-        <obo:IAO_0000115>Visualise, format or render a molecular sequence or sequences such as a sequence alignment, possibly with sequence features or properties shown.</obo:IAO_0000115>
         <obo:IAO_0000118>Sequence alignment visualisation</obo:IAO_0000118>
+        <obo:IAO_0000115>Visualise, format or render a molecular sequence or sequences such as a sequence alignment, possibly with sequence features or properties shown.</obo:IAO_0000115>
+        <obo:IAO_0000118>Sequence rendering</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1631,8 +1633,8 @@
     <owl:Class rdf:about="http://edamontology.org/operation_2403">
         <rdfs:label>Sequence analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
-        <obo:IAO_0000118>Sequence analysis (general)</obo:IAO_0000118>
         <obo:IAO_0000115>Analyse one or more known molecular sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>Sequence analysis (general)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1654,10 +1656,10 @@
     <owl:Class rdf:about="http://edamontology.org/operation_2422">
         <rdfs:label>Data retrieval</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
-        <obo:IAO_0000118>Retrieval</obo:IAO_0000118>
-        <obo:IAO_0000118>Data retrieval (metadata)</obo:IAO_0000118>
         <obo:IAO_0000115>Retrieve an entry (or part of an entry) from a data resource that matches a supplied query. This might include some primary data and annotation. The query is a data identifier or other indexed term. For example, retrieve a sequence record with the specified accession number, or matching supplied keywords.</obo:IAO_0000115>
+        <obo:IAO_0000118>Retrieval</obo:IAO_0000118>
         <obo:IAO_0000118>Metadata retrieval</obo:IAO_0000118>
+        <obo:IAO_0000118>Data retrieval (metadata)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1669,9 +1671,9 @@
         <rdfs:label>Prediction and recognition</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
         <obo:IAO_0000118>Detection</obo:IAO_0000118>
+        <obo:IAO_0000118>Recognition</obo:IAO_0000118>
         <obo:IAO_0000115>Predict, recognise, detect or identify some properties of a biomolecule.</obo:IAO_0000115>
         <obo:IAO_0000118>Prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Recognition</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1717,10 +1719,10 @@
     <owl:Class rdf:about="http://edamontology.org/operation_2454">
         <rdfs:label>Gene prediction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0415"/>
-        <obo:IAO_0000115>Detect, predict and identify genes or components of genes in DNA sequences, including promoters, coding regions, splice sites, etc. </obo:IAO_0000115>
-        <obo:IAO_0000118>Whole gene prediction</obo:IAO_0000118>
         <obo:IAO_0000118>Gene calling</obo:IAO_0000118>
+        <obo:IAO_0000118>Whole gene prediction</obo:IAO_0000118>
         <obo:IAO_0000118>Gene finding</obo:IAO_0000118>
+        <obo:IAO_0000115>Detect, predict and identify genes or components of genes in DNA sequences, including promoters, coding regions, splice sites, etc. </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1733,8 +1735,8 @@
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
         <obo:IAO_0000115>Analyse a nucleic acid sequence (using methods that are only applicable to nucleic acid sequences).</obo:IAO_0000115>
         <obo:IAO_0000118>Nucleic acid sequence alignment analysis</obo:IAO_0000118>
-        <obo:IAO_0000118>Sequence analysis (nucleic acid)</obo:IAO_0000118>
         <obo:IAO_0000118>Sequence alignment analysis (nucleic acid)</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence analysis (nucleic acid)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1746,8 +1748,8 @@
         <rdfs:label>Protein sequence analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
         <obo:IAO_0000118>Sequence analysis (protein)</obo:IAO_0000118>
-        <obo:IAO_0000118>Sequence alignment analysis (protein)</obo:IAO_0000118>
         <obo:IAO_0000118>Protein sequence alignment analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence alignment analysis (protein)</obo:IAO_0000118>
         <obo:IAO_0000115>Analyse a protein sequence (using methods that are only applicable to protein sequences).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1784,10 +1786,10 @@
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2492"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3092"/>
         <obo:IAO_0000118>Protein binding site detection</obo:IAO_0000118>
+        <obo:IAO_0000115>Identify or predict catalytic residues, active sites or other ligand-binding sites in protein sequences or structures.</obo:IAO_0000115>
+        <obo:IAO_0000118>Binding site prediction</obo:IAO_0000118>
         <obo:IAO_0000118>Ligand-binding site prediction</obo:IAO_0000118>
         <obo:IAO_0000118> Active site prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Binding site prediction</obo:IAO_0000118>
-        <obo:IAO_0000115>Identify or predict catalytic residues, active sites or other ligand-binding sites in protein sequences or structures.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1821,15 +1823,15 @@
         <rdfs:label>Protein feature detection</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2423"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2479"/>
-        <obo:IAO_0000118>Protein secondary database search</obo:IAO_0000118>
-        <obo:IAO_0000118>Protein site recognition</obo:IAO_0000118>
         <obo:IAO_0000115>Predict, recognise and identify positional features in proteins from analysing protein sequences or structures.</obo:IAO_0000115>
-        <obo:IAO_0000118>Sequence feature detection (protein)</obo:IAO_0000118>
-        <obo:IAO_0000118>Protein feature recognition</obo:IAO_0000118>
-        <obo:IAO_0000118>Protein site detection</obo:IAO_0000118>
         <obo:IAO_0000118>Sequence profile database search</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence feature detection (protein)</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein site recognition</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein feature recognition</obo:IAO_0000118>
         <obo:IAO_0000118>Protein feature prediction</obo:IAO_0000118>
         <obo:IAO_0000118>Protein site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein secondary database search</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein site detection</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1852,9 +1854,9 @@
     <owl:Class rdf:about="http://edamontology.org/operation_3182">
         <rdfs:label>Genome alignment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0292"/>
-        <obo:IAO_0000115>Align two or more (tpyically huge) molecular sequences that represent genomes.</obo:IAO_0000115>
-        <obo:IAO_0000118>Genome alignment construction</obo:IAO_0000118>
         <obo:IAO_0000118>Whole genome alignment</obo:IAO_0000118>
+        <obo:IAO_0000118>Genome alignment construction</obo:IAO_0000118>
+        <obo:IAO_0000115>Align two or more (tpyically huge) molecular sequences that represent genomes.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1876,11 +1878,11 @@
     <owl:Class rdf:about="http://edamontology.org/operation_3208">
         <rdfs:label>Genome visualisation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0564"/>
-        <obo:IAO_0000118>Genome browser</obo:IAO_0000118>
-        <obo:IAO_0000115>Visualise, format or render a nucleic acid sequence that is part of (and in context of) a complete genome sequence.</obo:IAO_0000115>
-        <obo:IAO_0000118>Genome browsing</obo:IAO_0000118>
         <obo:IAO_0000118>Genome viewing</obo:IAO_0000118>
         <obo:IAO_0000118>Genome rendering</obo:IAO_0000118>
+        <obo:IAO_0000118>Genome browser</obo:IAO_0000118>
+        <obo:IAO_0000118>Genome browsing</obo:IAO_0000118>
+        <obo:IAO_0000115>Visualise, format or render a nucleic acid sequence that is part of (and in context of) a complete genome sequence.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1891,9 +1893,9 @@
     <owl:Class rdf:about="http://edamontology.org/operation_3223">
         <rdfs:label>Differential gene expression analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2424"/>
+        <obo:IAO_0000118>Differentially expressed gene identification</obo:IAO_0000118>
         <obo:IAO_0000118>Differential gene analysis</obo:IAO_0000118>
         <obo:IAO_0000115>Identify from molecular sequence analysis (typically from analysis of microarray or RNA-seq data) genes whose expression levels are significantly different between two sample groups.</obo:IAO_0000115>
-        <obo:IAO_0000118>Differentially expressed gene identification</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1916,11 +1918,11 @@
         <rdfs:label>Pathway or network prediction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2423"/>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
-        <obo:IAO_0000118>Gene regulatory network prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Network prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Protein interaction network prediction</obo:IAO_0000118>
-        <obo:IAO_0000118>Pathway prediction</obo:IAO_0000118>
         <obo:IAO_0000115>Predict a molecular pathway or network.</obo:IAO_0000115>
+        <obo:IAO_0000118>Gene regulatory network prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein interaction network prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Network prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Pathway prediction</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1931,8 +1933,8 @@
     <owl:Class rdf:about="http://edamontology.org/operation_3562">
         <rdfs:label>Network simulation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
-        <obo:IAO_0000115>Simulate the bevaviour of a biological pathway or network.</obo:IAO_0000115>
         <obo:IAO_0000118>Pathway simulation</obo:IAO_0000118>
+        <obo:IAO_0000115>Simulate the bevaviour of a biological pathway or network.</obo:IAO_0000115>
         <obo:IAO_0000118>Network topology simulation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1944,8 +1946,8 @@
     <owl:Class rdf:about="http://edamontology.org/operation_3672">
         <rdfs:label>Gene functional annotation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0361"/>
-        <obo:IAO_0000115>Annotate one or more sequences with functional information, such as cellular processes or metaobolic pathways, by reference to a controlled vocabulary - invariably the Gene Ontology (GO).</obo:IAO_0000115>
         <obo:IAO_0000118>Sequence functional annotation</obo:IAO_0000118>
+        <obo:IAO_0000115>Annotate one or more sequences with functional information, such as cellular processes or metaobolic pathways, by reference to a controlled vocabulary - invariably the Gene Ontology (GO).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1981,8 +1983,8 @@
     <owl:Class rdf:about="http://edamontology.org/operation_3799">
         <rdfs:label>Quantification</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
-        <obo:IAO_0000115>Counting and measuring experimentally determined observations into quantities.</obo:IAO_0000115>
         <obo:IAO_0000118>Quantitation</obo:IAO_0000118>
+        <obo:IAO_0000115>Counting and measuring experimentally determined observations into quantities.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1994,12 +1996,12 @@
         <rdfs:label>Protein interactions</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
         <obo:IAO_0000118>Protein-RNA interaction</obo:IAO_0000118>
-        <obo:IAO_0000118>Protein-DNA interaction</obo:IAO_0000118>
-        <obo:IAO_0000115>Protein-protein, protein-DNA/RNA and protein-ligand interactions, including analysis of known interactions and prediction of putative interactions.</obo:IAO_0000115>
+        <obo:IAO_0000118>Protein-protein interactions</obo:IAO_0000118>
         <obo:IAO_0000118>Protein-ligand interactions</obo:IAO_0000118>
+        <obo:IAO_0000115>Protein-protein, protein-DNA/RNA and protein-ligand interactions, including analysis of known interactions and prediction of putative interactions.</obo:IAO_0000115>
+        <obo:IAO_0000118>Protein-DNA interaction</obo:IAO_0000118>
         <obo:IAO_0000118>Protein-nucleic acid interactions</obo:IAO_0000118>
         <obo:IAO_0000118>Protein interaction networks</obo:IAO_0000118>
-        <obo:IAO_0000118>Protein-protein interactions</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2010,15 +2012,15 @@
     <owl:Class rdf:about="http://edamontology.org/topic_0157">
         <rdfs:label>Sequence composition, complexity and repeats</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
-        <obo:IAO_0000118>Sequence complexity</obo:IAO_0000118>
-        <obo:IAO_0000118>Protein sequence repeats</obo:IAO_0000118>
-        <obo:IAO_0000118>Protein repeats</obo:IAO_0000118>
-        <obo:IAO_0000118>Repeat sequences</obo:IAO_0000118>
-        <obo:IAO_0000118>Sequence composition</obo:IAO_0000118>
         <obo:IAO_0000118>Nucleic acid repeats</obo:IAO_0000118>
-        <obo:IAO_0000118>Sequence repeats</obo:IAO_0000118>
+        <obo:IAO_0000118>Repeat sequences</obo:IAO_0000118>
         <obo:IAO_0000118>Low complexity sequences</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence composition</obo:IAO_0000118>
         <obo:IAO_0000115>The archival, processing and analysis of the basic character composition of molecular sequences, for example character or word frequency, ambiguity, complexity, particularly regions of low complexity, and repeats or the repetitive nature of molecular sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>Protein sequence repeats</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence repeats</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence complexity</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein repeats</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2029,8 +2031,8 @@
     <owl:Class rdf:about="http://edamontology.org/topic_0621">
         <rdfs:label>Model organisms</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000118>Organisms</obo:IAO_0000118>
         <obo:IAO_0000115>A specific organism, or group of organisms, used to study a particular aspect of biology.</obo:IAO_0000115>
+        <obo:IAO_0000118>Organisms</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2041,8 +2043,8 @@
     <owl:Class rdf:about="http://edamontology.org/topic_0821">
         <rdfs:label>Enzymes</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <obo:IAO_0000118>Enzymology</obo:IAO_0000118>
         <obo:IAO_0000115>Proteins that catalyze chemical reaction, the kinetics of enzyme-catalysed reactions, enzyme nomenclature etc.</obo:IAO_0000115>
+        <obo:IAO_0000118>Enzymology</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2054,9 +2056,9 @@
         <rdfs:label>Function analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
         <obo:IAO_0000118>Protein function analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein function prediction</obo:IAO_0000118>
         <obo:IAO_0000118>Functional analysis</obo:IAO_0000118>
         <obo:IAO_0000115>The study of gene and protein function including the prediction of functional properties of a protein.</obo:IAO_0000115>
-        <obo:IAO_0000118>Protein function prediction</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2067,8 +2069,8 @@
     <owl:Class rdf:about="http://edamontology.org/topic_3175">
         <rdfs:label>DNA structural variation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17004"/>
-        <obo:IAO_0000118>Structural variation</obo:IAO_0000118>
         <obo:IAO_0000118>Genomic structural variation</obo:IAO_0000118>
+        <obo:IAO_0000118>Structural variation</obo:IAO_0000118>
         <obo:IAO_0000115>Variation in chromosome structure including microscopic and submicroscopic types of variation such as deletions, duplications, copy-number variants, insertions, inversions and translocations.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -2081,8 +2083,8 @@
         <rdfs:label>Biobank</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0002190"/>
         <obo:IAO_0000115>Repositories of biological samples, typically human, for basic biological and clinical research.</obo:IAO_0000115>
-        <obo:IAO_0000118>Tissue collection</obo:IAO_0000118>
         <obo:IAO_0000118>biobanking</obo:IAO_0000118>
+        <obo:IAO_0000118>Tissue collection</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -2115,8 +2117,8 @@
     <owl:Class rdf:about="http://edamontology.org/topic_3384">
         <rdfs:label>Medical imaging</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001312"/>
-        <obo:IAO_0000115>The use of imaging techniques for clinical purposes for medical research.</obo:IAO_0000115>
         <obo:IAO_0000118>Nuclear medicine</obo:IAO_0000118>
+        <obo:IAO_0000115>The use of imaging techniques for clinical purposes for medical research.</obo:IAO_0000115>
         <obo:IAO_0000118>Radiology</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -2145,17 +2147,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/AERO_0000009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/AERO_0000009">
-        <rdfs:label xml:lang="en">adverse event</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115 xml:lang="en">An adverse event is an undesirable, unfavorable and unintended medical occurrence presenting in a predetermined time frame following administration of a compound or usage of a device</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/aero.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/AERO_0000066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/AERO_0000066">
@@ -2171,7 +2162,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entity</rdfs:label>
+        <rdfs:label>entity</rdfs:label>
         <rdfs:label xml:lang="en">entity</rdfs:label>
+        <rdfs:label xml:lang="zh">实体</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cheminf.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
@@ -2183,6 +2176,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -2192,7 +2186,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continuant</rdfs:label>
+        <rdfs:label>continuant</rdfs:label>
         <rdfs:label xml:lang="en">continuant</rdfs:label>
+        <rdfs:label xml:lang="zh">常体</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">An entity  that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts.</obo:IAO_0000115>
@@ -2207,7 +2203,6 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
     </owl:Class>
     
@@ -2224,7 +2219,6 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
     </owl:Class>
     
 
@@ -2233,6 +2227,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
         <rdfs:label xml:lang="en">independent continuant</rdfs:label>
+        <rdfs:label xml:lang="zh">独立常体</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
@@ -2241,21 +2236,7 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000005">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dependent_continuant</rdfs:label>
-        <rdfs:label xml:lang="en">obsolete dependent continuant</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000115 xml:lang="en">A continuant  that is either dependent on one or other independent continuant  bearers or inheres in or is borne by other entities.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cheminf.owl"/>
     </owl:Class>
     
 
@@ -2301,7 +2282,6 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
     </owl:Class>
     
 
@@ -2329,7 +2309,6 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
     </owl:Class>
     
 
@@ -2377,7 +2356,6 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generically_dependent_continuant</rdfs:label>
         <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000005"/>
         <obo:IAO_0000115 xml:lang="en">A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
@@ -2386,7 +2364,6 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
     </owl:Class>
     
@@ -2408,6 +2385,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
         <rdfs:label xml:lang="en">material entity</rdfs:label>
         <rdfs:label xml:lang="en">material_entity</rdfs:label>
+        <rdfs:label xml:lang="zh">物质实体</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
@@ -3472,6 +3450,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000001">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell line cell</rdfs:label>
+        <rdfs:label xml:lang="en">cell line cell</rdfs:label>
+        <rdfs:label xml:lang="zh">细胞系细胞</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001866"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
@@ -3483,6 +3463,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000031">
         <rdfs:label xml:lang="en">cell line</rdfs:label>
+        <rdfs:label xml:lang="zh">细胞系</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001905"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
@@ -3537,8 +3518,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0037307">
         <rdfs:label xml:lang="en">induced pluripotent stem cell line cell</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0037224"/>
-        <obo:IAO_0000118>iPSC</obo:IAO_0000118>
         <obo:IAO_0000118>iPS cell</obo:IAO_0000118>
+        <obo:IAO_0000118>iPSC</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
     
@@ -3571,6 +3552,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000010">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cultured cell</rdfs:label>
+        <rdfs:label xml:lang="en">cultured cell</rdfs:label>
+        <rdfs:label xml:lang="zh">培养细胞</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000578"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001034"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
@@ -3674,7 +3657,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000578">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimentally modified cell in vitro</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005623"/>
+        <rdfs:label xml:lang="en">experimentally modified cell in vitro</rdfs:label>
+        <rdfs:label xml:lang="zh">体外实验修饰细胞</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0001034"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
     
@@ -3726,6 +3711,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0001034">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell in vitro</rdfs:label>
+        <rdfs:label xml:lang="en">cell in vitro</rdfs:label>
+        <rdfs:label xml:lang="zh">体外细胞</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005623"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
@@ -3859,8 +3846,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12365">
         <rdfs:label>malaria</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
-        <obo:IAO_0000115>A parasitic protozoa infectious disease characterized as a vector-borne infectious disease caused by the presence of protozoan parasites of the genus Plasmodium in the red blood cells, transmitted from an infected to an uninfected individual by the bite of anopheline mosquitoes, and characterized by periodic attacks of chills and fever that coincide with mass destruction of blood cells and the release of toxic substances by the parasite at the end of each reproductive cycle.</obo:IAO_0000115>
         <obo:IAO_0000118>induced malaria</obo:IAO_0000118>
+        <obo:IAO_0000115>A parasitic protozoa infectious disease characterized as a vector-borne infectious disease caused by the presence of protozoan parasites of the genus Plasmodium in the red blood cells, transmitted from an infected to an uninfected individual by the bite of anopheline mosquitoes, and characterized by periodic attacks of chills and fever that coincide with mass destruction of blood cells and the release of toxic substances by the parasite at the end of each reproductive cycle.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -3875,8 +3862,8 @@
         <obo:IAO_0000118>childhood autism</obo:IAO_0000118>
         <obo:IAO_0000118>infantile autism</obo:IAO_0000118>
         <obo:IAO_0000118>Kanner&#39;s syndrome</obo:IAO_0000118>
-        <obo:IAO_0000115>An autism spectrum disorder that is characterized by symptoms across all three symptom domains (communication, social, restricted repetitive interests and behaviors), delayed language development, and symptom onset prior to age 3 years.</obo:IAO_0000115>
         <obo:IAO_0000118>autistic disorder of childhood onset</obo:IAO_0000118>
+        <obo:IAO_0000115>An autism spectrum disorder that is characterized by symptoms across all three symptom domains (communication, social, restricted repetitive interests and behaviors), delayed language development, and symptom onset prior to age 3 years.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -3888,8 +3875,8 @@
         <rdfs:label>Parkinson&#39;s disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_331"/>
         <obo:IAO_0000115>A synucleinopathy that has_material_basis_in degeneration of the central nervous system that often impairs motor skills, speech, and other functions.</obo:IAO_0000115>
-        <obo:IAO_0000118>paralysis agitans</obo:IAO_0000118>
         <obo:IAO_0000118>Parkinson disease</obo:IAO_0000118>
+        <obo:IAO_0000118>paralysis agitans</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -3911,10 +3898,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_162">
         <rdfs:label>cancer</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
-        <obo:IAO_0000118>primary cancer</obo:IAO_0000118>
-        <obo:IAO_0000118>malignant neoplasm</obo:IAO_0000118>
-        <obo:IAO_0000115>A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
         <obo:IAO_0000118>malignant tumor</obo:IAO_0000118>
+        <obo:IAO_0000115>A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
+        <obo:IAO_0000118>malignant neoplasm</obo:IAO_0000118>
+        <obo:IAO_0000118>primary cancer</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -3926,8 +3913,8 @@
         <rdfs:label>epilepsy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_331"/>
         <obo:IAO_0000115>A brain disease that is characterized by the occurrance of at least two unprovoked seizures resulting from a persistent epileptogenic abnormality of the brain that is able to spontaneously generate paroxysmal activity and typically manifested by sudden brief episodes of altered or diminished consciousness, involuntary movements, or convulsions.</obo:IAO_0000115>
-        <obo:IAO_0000118>epilepsy syndrome</obo:IAO_0000118>
         <obo:IAO_0000118>epileptic syndrome</obo:IAO_0000118>
+        <obo:IAO_0000118>epilepsy syndrome</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -3960,8 +3947,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_409">
         <rdfs:label>liver disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_7"/>
-        <obo:IAO_0000118>disorder of liver</obo:IAO_0000118>
         <obo:IAO_0000118>hepatic disorder</obo:IAO_0000118>
+        <obo:IAO_0000118>disorder of liver</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
     </owl:Class>
     
@@ -4052,6 +4039,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000447">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marine biome</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00002030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000320"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An aquatic biome that comprises systems of open-ocean and unprotected coastal habitats, characterized by exposure to wave action, tidal fluctuation, and ocean currents as well as systems that largely resemble these. Water in the marine biome is generally within the salinity range of seawater: 30 to 38 ppt.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
@@ -4078,6 +4066,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002030">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aquatic biome</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+        <obo:IAO_0000118>A biome which has its properties and composition determined by a water body and within which most members of resident ecological communities have adapted to life in or on water.</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -4234,6 +4223,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000840">
         <rdfs:label xml:lang="en">thermolysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_03000043"/>
+        <obo:IAO_0000118>thermal decomposition</obo:IAO_0000118>
+        <obo:IAO_0000115>A chemical decomposition (the separation of a single chemical compound into its two or more elemental parts or to simpler compounds) caused by heat.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </owl:Class>
     
@@ -4279,17 +4270,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_02500000"/>
         <obo:IAO_0000115>A process during which a portion of some environmental material is converted into a different material or a collection of materials.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EO_0007302 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EO_0007302">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-DNA insert</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The treatment involving use of T-DNA in the flanking regions of a DNA insert for mutagenesis process.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/eo.owl"/>
     </owl:Class>
     
 
@@ -4589,9 +4569,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002178">
         <rdfs:label xml:lang="en">functional magnetic resonance imaging</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0001235"/>
-        <obo:IAO_0000115>A magnetic resonance imaging technique that measures brain activity by detecting associated changes in blood flow. The procedure is similar to MRI but uses the change in magnetization between oxygen-rich and oxygen-poor blood as its basic measure. </obo:IAO_0000115>
         <obo:IAO_0000118>fMRI</obo:IAO_0000118>
         <obo:IAO_0000118>functional MRI</obo:IAO_0000118>
+        <obo:IAO_0000115>A magnetic resonance imaging technique that measures brain activity by detecting associated changes in blood flow. The procedure is similar to MRI but uses the change in magnetization between oxygen-rich and oxygen-poor blood as its basic measure. </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ero.owl"/>
     </owl:Class>
     
@@ -5516,6 +5496,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002790"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0015031"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032940"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0035592"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The controlled release of proteins from a cell.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycoprotein secretion</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein secretion during cell fate commitment</obo:IAO_0000118>
@@ -5759,17 +5740,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0019015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019015">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral genome</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001026"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The whole of the genetic information of a virus, contained as either DNA or RNA.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0019219 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019219">
@@ -5945,8 +5915,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032940">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secretion by cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046903"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0140352"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The controlled release of a substance by a cell.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular secretion</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
@@ -6007,7 +5977,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">posttranscriptional gene silencing by RNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016441"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016458"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process of posttranscriptional gene inactivation (silencing) mediated by small RNA molecules that may trigger mRNA degradation or negatively regulate translation.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any process of posttranscriptional gene inactivation (silencing) mediated by small RNA molecules that may trigger RNA (often mRNA) degradation or negatively regulate mRNA translation.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-mediated posttranscriptional gene silencing</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
@@ -6019,10 +5989,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035195">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene silencing by miRNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0035194"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Downregulation of gene expression through the action of microRNAs (miRNAs), endogenous 21-24 nucleotide small RNAs processed from stem-loop RNA precursors (pre-miRNAs). Once incorporated into a RNA-induced silencing complex (RISC), miRNAs can downregulate gene expression by either of two posttranscriptional mechanisms: endolytic cleavage of mRNA cleavage or translational repression, usually accompanied by poly-A tail shortening and subsequent degradation of the mRNA.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Downregulation of gene expression through the action of microRNAs (miRNAs), endogenous 21-24 nucleotide small RNAs processed from stem-loop RNA precursors (pre-miRNAs). Once incorporated into a RNA-induced silencing complex (RISC), miRNAs can downregulate gene expression by either of two posttranscriptional mechanisms: endolytic cleavage of the RNA (often mRNA) or mRNA translational repression, usually accompanied by poly-A tail shortening and subsequent degradation of the mRNA.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene silencing by microRNA</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">miRNA-mediated gene silencing</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microRNA-mediated gene silencing</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0035592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0035592">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">establishment of protein localization to extracellular region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0045184"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of a protein to a specific location within the extracellular region.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">establishment of protein localisation in extracellular region</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">establishment of protein localization in extracellular region</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -6843,6 +6827,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0140352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0140352">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">export from cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006810"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009987"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The directed movement of some substance from a cell, into the extracellular region. This may occur via transport across the plasma membrane or via exocytosis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_1901564 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_1901564">
@@ -7022,9 +7018,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An information entity is an entity that represents information about some other entity.  For example, a measurement, a clustered data set.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">information content entity</obo:IAO_0000118>
-        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
         <obo:IAO_0000115>An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cheminf.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
@@ -7032,7 +7027,6 @@
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
@@ -7285,8 +7279,8 @@ clustering algorithm.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000020">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mental process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115>Valence is a process profile of an emotion, mood, or affective bodily feeling (such as pleasure and pain). Valence can be positive or negative, with different strengths in both directions. For example, pleasure is positively valenced while pain is negatively valenced.  </obo:IAO_0000115>
         <obo:IAO_0000115>A mental process is a bodily process that is of a type such that it can of itself be conscious. Examples include thinking, feeling pain, remembering and emotion as occurrent experiences. </obo:IAO_0000115>
+        <obo:IAO_0000115>Valence is a process profile of an emotion, mood, or affective bodily feeling (such as pleasure and pain). Valence can be positive or negative, with different strengths in both directions. For example, pleasure is positively valenced while pain is negatively valenced.  </obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mfoem.owl"/>
     </owl:Class>
     
@@ -7567,9 +7561,9 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C104154">
         <rdfs:label>Circulating Cell-Free RNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
-        <obo:IAO_0000115>RNA that is found in blood plasma and is not associated with cells in the circulation.</obo:IAO_0000115>
-        <obo:IAO_0000118>Circulating Cell-Free RNA</obo:IAO_0000118>
         <obo:IAO_0000118>Circulating RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>Circulating Cell-Free RNA</obo:IAO_0000118>
+        <obo:IAO_0000115>RNA that is found in blood plasma and is not associated with cells in the circulation.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7580,9 +7574,9 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C13302">
         <rdfs:label>Secondary Protein Structure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1460"/>
-        <obo:IAO_0000118>Secondary Protein Structure</obo:IAO_0000118>
         <obo:IAO_0000118>Secondary Structure</obo:IAO_0000118>
         <obo:IAO_0000115>The specific 3-dimensional folded protein structure that is determined by the hydrogen bonds formed between amino acids in the polypeptide chain.</obo:IAO_0000115>
+        <obo:IAO_0000118>Secondary Protein Structure</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7593,9 +7587,9 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C13375">
         <rdfs:label>Chromosome Fragile Site</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
-        <obo:IAO_0000115>Heritable sensitive regions of chromosomes which show up in vitro as non-staining bands. They are associated with chromosome breakage and other aberrations. No abnormal phenotype has been definitely identified with autosomal fragile sites, but some rare autosomal recessive disorders may be due to homozygosity for fragile sites. A fragile site on the X chromosome is associated with Fragile X Syndrome. Fragile sites are designated by the letters &quot;fra&quot; followed by the designation for the specific chromosome and locus.</obo:IAO_0000115>
         <obo:IAO_0000118>Chromosome Fragile Site</obo:IAO_0000118>
         <obo:IAO_0000118>Fragile Site</obo:IAO_0000118>
+        <obo:IAO_0000115>Heritable sensitive regions of chromosomes which show up in vitro as non-staining bands. They are associated with chromosome breakage and other aberrations. No abnormal phenotype has been definitely identified with autosomal fragile sites, but some rare autosomal recessive disorders may be due to homozygosity for fragile sites. A fragile site on the X chromosome is associated with Fragile X Syndrome. Fragile sites are designated by the letters &quot;fra&quot; followed by the designation for the specific chromosome and locus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7607,9 +7601,9 @@ ab (not=) E</obo:IAO_0000115>
         <rdfs:label>Protein Binding Domain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000409"/>
         <obo:IAO_0000118>Protein-Protein Interaction Domain</obo:IAO_0000118>
-        <obo:IAO_0000118>Protein Binding Domain</obo:IAO_0000118>
         <obo:IAO_0000115>Protein Binding Domains are structural motifs responsible for the peptide/protein binding activity of proteins.</obo:IAO_0000115>
         <obo:IAO_0000118>Protein Binding Motif</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein Binding Domain</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7620,11 +7614,11 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C13445">
         <rdfs:label>Gene Feature</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
-        <obo:IAO_0000118>Gene Feature</obo:IAO_0000118>
-        <obo:IAO_0000118>Seq Feature</obo:IAO_0000118>
         <obo:IAO_0000118>Sequence Feature</obo:IAO_0000118>
+        <obo:IAO_0000118>Seq Feature</obo:IAO_0000118>
         <obo:IAO_0000118>Gene Structure/Organization</obo:IAO_0000118>
         <obo:IAO_0000118>Gene Structure</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene Feature</obo:IAO_0000118>
         <obo:IAO_0000118>Gene Organization</obo:IAO_0000118>
         <obo:IAO_0000115>The structural elements that comprise a gene or transcription unit. Gene structures include the transcription initiation site, the protein coding sequences, intervening sequences, and the transcription termination or polyadenylation sites as well as the regulatory elements (enhancers, silencers, and the promoter) that lie outside the boundaries of the transcribed unit.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -7638,9 +7632,9 @@ ab (not=) E</obo:IAO_0000115>
         <rdfs:label>Diet</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
         <obo:IAO_0000115>The customary allowance of food and drink taken by a person or an animal from day to day, particularly one especially planned to meet specific requirements of the individual, including or excluding certain items of food; a prescribed course of eating and drinking in which the amount and kind of food, as well as the times at which it is to be taken, are regulated for therapeutic purposes or selected with reference to a particular state of health.</obo:IAO_0000115>
+        <obo:IAO_0000118>Diet</obo:IAO_0000118>
         <obo:IAO_0000118>diet</obo:IAO_0000118>
         <obo:IAO_0000118>Dietary</obo:IAO_0000118>
-        <obo:IAO_0000118>Diet</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7651,8 +7645,8 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17004">
         <rdfs:label>Genetic Polymorphism</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001059"/>
-        <obo:IAO_0000118>Genetic Polymorphism</obo:IAO_0000118>
         <obo:IAO_0000118>polymorphism</obo:IAO_0000118>
+        <obo:IAO_0000118>Genetic Polymorphism</obo:IAO_0000118>
         <obo:IAO_0000115>The regular and simultaneous occurrence of alternative nucleotide sequences at equivalent locations of the genetic material among individuals of a single interbreeding population that are not maintained by recurrent mutation. Polymorphisms may range in size from single nucleotide to large nucleotide sequence variation visible at the chromosomal level.</obo:IAO_0000115>
         <obo:IAO_0000118>Polymorphism</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -7672,14 +7666,26 @@ ab (not=) E</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17253">
+        <rdfs:label>Viral Genome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001026"/>
+        <obo:IAO_0000115>The total complement of hereditary material in a virus, which can be composed of either DNA or RNA.</obo:IAO_0000115>
+        <obo:IAO_0000118>Viral Genome</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17671 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17671">
         <rdfs:label>Nuclear Receptor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17207"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18106"/>
-        <obo:IAO_0000118>Nuclear Receptor</obo:IAO_0000118>
         <obo:IAO_0000115>Proteins that regulate transcription via interaction with chromatin and basal transcription machinery at the promoter regions of genes. Nuclear receptors are ligand-dependent transcription factors including steroids, retinoids, vitamin D, unliganded thyroid hormone, and orphan receptors (unknown ligands). Coregulators (coactivators or corepressors) are important in mediating these interactions and thereby modulate positive or negative receptor activity.</obo:IAO_0000115>
+        <obo:IAO_0000118>Nuclear Receptor</obo:IAO_0000118>
         <obo:IAO_0000118>Receptor, Nuclear</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
@@ -7691,10 +7697,10 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18106">
         <rdfs:label>Receptor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044424"/>
+        <obo:IAO_0000118>Receptor</obo:IAO_0000118>
+        <obo:IAO_0000118>Receptor Protein</obo:IAO_0000118>
         <obo:IAO_0000115>A protein located on the cell surface, or in the cytoplasm, that binds to a specific signaling factor, such as a hormone, antigen, or neurotransmitter, causing a conformational and functional change in the receptor molecule.  The ligand-bound receptor then alters its interaction with target molecules, which leads to changes in cellular physiology through modification of the activity of one or more signal transduction pathways.</obo:IAO_0000115>
         <obo:IAO_0000118>receptor</obo:IAO_0000118>
-        <obo:IAO_0000118>Receptor Protein</obo:IAO_0000118>
-        <obo:IAO_0000118>Receptor</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7717,8 +7723,8 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18469">
         <rdfs:label>Protein-Protein Interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0128"/>
-        <obo:IAO_0000115>Temporary, non-covalent binding between protein molecules. Protein-protein interactions occur as a result of intermolecular physical forces and spatial complementation between domains or motifs. This interaction can be either homotypic or heterotypic and effect protein structure, conformation, and function.</obo:IAO_0000115>
         <obo:IAO_0000118>Protein-Protein Interaction</obo:IAO_0000118>
+        <obo:IAO_0000115>Temporary, non-covalent binding between protein molecules. Protein-protein interactions occur as a result of intermolecular physical forces and spatial complementation between domains or motifs. This interaction can be either homotypic or heterotypic and effect protein structure, conformation, and function.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7730,9 +7736,9 @@ ab (not=) E</obo:IAO_0000115>
         <rdfs:label>Protein Expression</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043043"/>
         <obo:IAO_0000118>protein expression</obo:IAO_0000118>
+        <obo:IAO_0000118>Expressed</obo:IAO_0000118>
         <obo:IAO_0000118>Protein Expression</obo:IAO_0000118>
         <obo:IAO_0000115>The biosynthesis of new (often sets of distinct, functionally related) protein products, usually involving new mRNA transcripts, typically in response to an activating stimulus.</obo:IAO_0000115>
-        <obo:IAO_0000118>Expressed</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7744,11 +7750,29 @@ ab (not=) E</obo:IAO_0000115>
         <rdfs:label>Untranslated RNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
         <obo:IAO_0000118>Noncoding RNA</obo:IAO_0000118>
-        <obo:IAO_0000118>Non-Coding RNA</obo:IAO_0000118>
-        <obo:IAO_0000115>The product of so-called RNA genes; a functional RNA represents the final product of a gene rather than a transient molecule that will be translated into protein.</obo:IAO_0000115>
         <obo:IAO_0000118>ncRNA</obo:IAO_0000118>
+        <obo:IAO_0000115>The product of so-called RNA genes; a functional RNA represents the final product of a gene rather than a transient molecule that will be translated into protein.</obo:IAO_0000115>
         <obo:IAO_0000118>Untranslated RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>Non-Coding RNA</obo:IAO_0000118>
         <obo:IAO_0000118>Functional RNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C41332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C41332">
+        <rdfs:label>Adverse Reaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Any noxious and unintended response(s) to a medical product or procedure, for which a causal relationship with this product or procedure is at least a reasonable possibility i.e., the relationship cannot be ruled out.</obo:IAO_0000115>
+        <obo:IAO_0000118>ADR</obo:IAO_0000118>
+        <obo:IAO_0000118>Adverse Effect</obo:IAO_0000118>
+        <obo:IAO_0000118>Adverse Reaction</obo:IAO_0000118>
+        <obo:IAO_0000118>adverse effect</obo:IAO_0000118>
+        <obo:IAO_0000118>adverse reaction</obo:IAO_0000118>
+        <obo:IAO_0000118>AR</obo:IAO_0000118>
+        <obo:IAO_0000118>ADVERSE REACTION</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7771,11 +7795,11 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C453">
         <rdfs:label>Recombinant DNA</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16991"/>
+        <obo:IAO_0000118>Recombinant DNA</obo:IAO_0000118>
+        <obo:IAO_0000118>DNA Construct</obo:IAO_0000118>
         <obo:IAO_0000115>Biologically active DNA which has been formed by the in vitro joining of segments of DNA from different sources usually for the purpose of genetic manipulation.</obo:IAO_0000115>
         <obo:IAO_0000118>Molecular Biology, Recombinant DNA</obo:IAO_0000118>
-        <obo:IAO_0000118>Recombinant DNA</obo:IAO_0000118>
         <obo:IAO_0000118>Construct</obo:IAO_0000118>
-        <obo:IAO_0000118>DNA Construct</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7786,10 +7810,10 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C4873">
         <rdfs:label>Rare Disorder</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
-        <obo:IAO_0000118>Rare Diseases</obo:IAO_0000118>
-        <obo:IAO_0000118>Rare Disorder</obo:IAO_0000118>
         <obo:IAO_0000118>Rare Disease</obo:IAO_0000118>
+        <obo:IAO_0000118>Rare Disorder</obo:IAO_0000118>
         <obo:IAO_0000115>A disease that affects fewer than 200,000 people in the United States.</obo:IAO_0000115>
+        <obo:IAO_0000118>Rare Diseases</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7800,9 +7824,9 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49667">
         <rdfs:label>Safety Study</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000066"/>
+        <obo:IAO_0000118>SAFETY</obo:IAO_0000118>
         <obo:IAO_0000115>A study of the relative safety of treatment of a disease. Usually this is a Phase I or II trial.</obo:IAO_0000115>
         <obo:IAO_0000118>Safety Study</obo:IAO_0000118>
-        <obo:IAO_0000118>SAFETY</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7813,10 +7837,10 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C54708">
         <rdfs:label>Drug Interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
-        <obo:IAO_0000118>drug interaction</obo:IAO_0000118>
         <obo:IAO_0000118>Drug Interaction</obo:IAO_0000118>
         <obo:IAO_0000115>Alteration of the disposition and/or effect of a drug, owing to the presence of another factor such as a second drug, or food.</obo:IAO_0000115>
         <obo:IAO_0000118>INTERACTION</obo:IAO_0000118>
+        <obo:IAO_0000118>drug interaction</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7827,9 +7851,10 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C61256">
         <rdfs:label>Monitoring</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <obo:IAO_0000118>Monitoring</obo:IAO_0000118>
         <obo:IAO_0000118>monitor</obo:IAO_0000118>
         <obo:IAO_0000115>The act of observing something (and sometimes keeping a record of it).</obo:IAO_0000115>
+        <obo:IAO_0000118>Monitoring</obo:IAO_0000118>
+        <obo:IAO_0000118>monitoring</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7840,8 +7865,8 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C66892">
         <rdfs:label>Natural Product</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>Any whole or part of a plant (including plant exudates), animal or microorganism that is unprocessed (raw material), or that has been processed, pulverized or extracted. Many of the natural products have some biological and/or pharmacological activity or are used for a specific purpose, not necessarily medicinal (food, aroma therapy, research and etc.). This class does not include any individual substance derived from plants/animals or other organisms with specific pharmacologic activity (See Drug, Natural Product).</obo:IAO_0000115>
         <obo:IAO_0000118>Natural Products</obo:IAO_0000118>
+        <obo:IAO_0000115>Any whole or part of a plant (including plant exudates), animal or microorganism that is unprocessed (raw material), or that has been processed, pulverized or extracted. Many of the natural products have some biological and/or pharmacological activity or are used for a specific purpose, not necessarily medicinal (food, aroma therapy, research and etc.). This class does not include any individual substance derived from plants/animals or other organisms with specific pharmacologic activity (See Drug, Natural Product).</obo:IAO_0000115>
         <obo:IAO_0000118>Natural Product</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
@@ -7866,16 +7891,16 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C70699">
         <rdfs:label>Biospecimen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <obo:IAO_0000118>Biospecimen</obo:IAO_0000118>
-        <obo:IAO_0000118>Sample</obo:IAO_0000118>
-        <obo:IAO_0000118>BIOSPECIMEN</obo:IAO_0000118>
-        <obo:IAO_0000118>Biological Specimen</obo:IAO_0000118>
         <obo:IAO_0000115>Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.</obo:IAO_0000115>
-        <obo:IAO_0000118>Biological Sample</obo:IAO_0000118>
+        <obo:IAO_0000118>Biospecimen</obo:IAO_0000118>
+        <obo:IAO_0000118>BIOSPECIMEN</obo:IAO_0000118>
         <obo:IAO_0000118>Bio-Specimen</obo:IAO_0000118>
-        <obo:IAO_0000118>BiologicSpecimen</obo:IAO_0000118>
         <obo:IAO_0000118>Specimen</obo:IAO_0000118>
+        <obo:IAO_0000118>Biological Specimen</obo:IAO_0000118>
         <obo:IAO_0000118>biospecimen</obo:IAO_0000118>
+        <obo:IAO_0000118>Sample</obo:IAO_0000118>
+        <obo:IAO_0000118>BiologicSpecimen</obo:IAO_0000118>
+        <obo:IAO_0000118>Biological Sample</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -7942,8 +7967,8 @@ ab (not=) E</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000220">
         <rdfs:label xml:lang="en">derived data from inferential statistical analysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBCS_0000218"/>
-        <obo:IAO_0000118>inferential statistic</obo:IAO_0000118>
         <obo:IAO_0000115>A data item that is derived from an inferential statistical data analysis.</obo:IAO_0000115>
+        <obo:IAO_0000118>inferential statistic</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
     </owl:Class>
     
@@ -7981,6 +8006,7 @@ ab (not=) E</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000047">
         <rdfs:label xml:lang="en">processed material</rdfs:label>
+        <rdfs:label xml:lang="zh">加工物质</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">Is a material entity that is created or changed during material processing.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
@@ -8241,6 +8267,17 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000650">
+        <rdfs:label xml:lang="en">differential expression analysis data transformation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A differential expression analysis data transformation is a data transformation that has an objective of differential expression analysis.  Frequently this data transformation involves summarizing or otherwise aggregating signals from various samples categorized into groups, and calculating measures of group differences from these aggregated signals.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000658 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000658">
@@ -8292,6 +8329,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000726">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peak matching</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000650"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peak matching is a data transformation performed on a dataset of a graph of ordered data points (e.g. a spectrum) with the objective of pattern matching local maxima above a noise threshold</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -8608,6 +8646,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001866">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">secondary cultured cell</rdfs:label>
+        <rdfs:label xml:lang="en">secondary cultured cell</rdfs:label>
+        <rdfs:label xml:lang="zh">二次培养细胞</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
@@ -8629,6 +8669,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001905">
         <rdfs:label>secondary cultured cell population</rdfs:label>
+        <rdfs:label xml:lang="en">secondary cultured cell population</rdfs:label>
+        <rdfs:label xml:lang="zh">二次培养细胞群</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
@@ -8764,6 +8806,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100060">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cultured cell population</rdfs:label>
+        <rdfs:label xml:lang="en">cultured cell population</rdfs:label>
+        <rdfs:label xml:lang="zh">培养细胞群</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </owl:Class>
@@ -9184,7 +9228,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073">
         <rdfs:label>diagnosis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000123"/>
         <obo:IAO_0000115 xml:lang="en">The representation of a conclusion of a diagnostic process.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
     </owl:Class>
@@ -9202,11 +9246,22 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000123">
+        <rdfs:label xml:lang="en">clinical data item</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>a data item that is about a patient and is the specified output of a health care process assay or diagnostic process</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0000110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0000110">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MeSH_term</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
     
@@ -11540,9 +11595,11 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/SO_1000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_1000032">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indel</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delins</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001059"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sequence alteration which included an insertion and a deletion, affecting 2 or more bases.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deletion-insertion</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indel</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
     </owl:Class>
     
@@ -12149,6 +12206,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular disease</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A body system disease which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease involving the cardiovascular system.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-neoplastic or neoplastic disorder affecting the heart or the vessels (arteries, veins and lymph vessels).  Representative examples of non-neoplastic cardiovascular disorders are endocarditis and hypertension.  Representative examples of neoplastic cardiovascular disorders are endocardial myxoma and angiosarcoma. -- 2003</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A non-neoplastic or neoplastic disorder affecting the heart or the vessels (arteries, veins and lymph vessels). Representative examples of non-neoplastic cardiovascular disorders are endocarditis and hypertension. Representative examples of neoplastic cardiovascular disorders are endocardial myxoma and angiosarcoma.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASCVD</obo:IAO_0000118>
@@ -12218,8 +12276,16 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[X]Other ill-defined heart diseases (disorder)</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[X]Other specified diseases of pericardium</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[X]Other specified diseases of pericardium (disorder)</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular disease</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular disease (CVD)</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular disorder</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular system disease</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular system disease or disorder</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circulatory system disease</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of cardiovascular system</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of subdivision of hemolymphoid system</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease or disorder of cardiovascular system</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disorder of cardiovascular system</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12245,11 +12311,15 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heterogeneous group of disorders characterized by HYPERGLYCEMIA and GLUCOSE INTOLERANCE.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A metabolic disorder characterized by abnormally high blood sugar levels due to diminished production of insulin or insulin resistance/desensitization.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DM</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DM - Diabetes mellitus</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes NOS</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes mellitus (disorder)</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diabetes mellitus, NOS</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus (disease)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12273,8 +12343,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A genetic disorder is a disorder in which an abnormality, i.e. mutation, of a gene or gene has occurred resulting in a diseased state. Note, this not imply that the disorder is hereditary since genetic mutations can occur during life time and are not always directly inherited or presented in parents (although they can be).</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic diseases are diseases in which inherited genes predispose to increased risk. The genetic disorders associated with cancer often result from an alteration or mutation in a single gene. The diseases range from rare dominant cancer family syndrome to familial tendencies in which low-penetrance genes may interact with other genes or environmental factors to induce cancer. Research may involve clinical, epidemiologic, and laboratory studies of persons, families, and populations at high risk of these disorders.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic disease</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hereditary disease</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">genetic disease</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12296,7 +12366,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000513">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genotype</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The total sum of the genetic information of an organism that is known and relevant to the experiment being performed, including chromosomal, plasmid, viral or other genetic material which has been introduced into the organism either prior to or during the experiment.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
@@ -12311,6 +12381,10 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Trauma</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wound</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">injury</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trauma</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">traumatic injury</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wound</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12364,8 +12438,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002694">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">experimental process</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process performed as part of an experiment or wider study, i.e. intentionally designed.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experiment</obo:IAO_0000118>
-        <obo:IAO_0000115>A process performed as part of an experiment or wider study, i.e. intentionally designed.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12414,37 +12488,22 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug dependence</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abuse, Drug</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abuse, Substance</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abuses, Substance</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Addiction, Drug</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Addiction, Substance</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRUG USE DIS</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dependence, Drug</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dependence, Substance</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorder, Drug Use</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorder, Substance Use</obo:IAO_0000118>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorders related to substance abuse, the side effects of a medication, or toxin exposure.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disorders related to drug abuse, the side effects of a medication, or toxin exposure.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Abuse</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Addiction</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Habituation</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Usage</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Use Disorder</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug Use Disorders</obo:IAO_0000118>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug dependence - replaced the term &quot;drug addiction&quot; and is defined as a state, psychic and sometimes also physical, resulting from the interaction between a living organism and a drug, characterized by behavioral and other responses that always include a compulsion to take the drug on a continuous or periodic basis in order to experience its psychic effects, and sometimes to avoid the discomfort of its absence. Tolerance may or may not be present. A person may be dependent on more than one drug.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habituation, Drug</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORGANIC MENTAL DIS SUBSTANCE INDUCED</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic Mental Disorders, Substance Induced</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic Mental Disorders, Substance-Induced</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUBSTANCE RELATED DIS</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SUBSTANCE USE DIS</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance Abuse</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance Abuses</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance Addiction</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance Dependence</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance Use Disorder</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance Use Disorders</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Substance-Related Disorders</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Usage, Drug</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">addiction</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical dependence</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug dependence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12515,9 +12574,20 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://www.ebi.ac.uk/efo/EFO_0004426 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004426">
-        <rdfs:label>karyotype</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">karyotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>A karyotype is the number and appearance of chromosomes in the nucleus of a eukaryotic cell.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A karyotype is the number and appearance of chromosomes in the nucleus of a eukaryotic cell.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004554 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004554">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genomic measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is a quantification of some aspect of the genome, e.g. copy number variation at some locus.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12526,9 +12596,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://www.ebi.ac.uk/efo/EFO_0004798 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004798">
-        <rdfs:label>copy number variation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
-        <obo:IAO_0000115>A quantification of a genomic variation that increases or decreases the copy number of a given region.</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copy number variation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004554"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A quantification of a genomic variation that increases or decreases the copy number of a given region.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12537,9 +12607,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://www.ebi.ac.uk/efo/EFO_0004982 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004982">
-        <rdfs:label>microbiome</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microbiome</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
-        <obo:IAO_0000115>A collection or collectivity of microorganisms.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A collection or collectivity of microorganisms.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12548,9 +12618,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://www.ebi.ac.uk/efo/EFO_0005135 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005135">
-        <rdfs:label xml:lang="en">strain</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">strain</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
-        <obo:IAO_0000115>A population of organisms that is geneticaly different from others of the same species and possessing a set of defined characteristics.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A population of organisms that is geneticaly different from others of the same species and possessing a set of defined characteristics.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12559,9 +12629,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://www.ebi.ac.uk/efo/EFO_0007059 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007059">
-        <rdfs:label>germplasm</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">germplasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
-        <obo:IAO_0000115>Germplasm is the living genetic resources such as seeds or tissue that is maintained for the purpose of animal and plant breeding, preservation, and other research uses. These resources may take the form of seed collections stored in seed banks, trees growing in nurseries, animal breeding lines maintained in animal breeding programs or gene banks, etc. Germplasm collections can range from collections of wild species to elite, domesticated breeding lines that have undergone extensive human selection.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Germplasm is the living genetic resources such as seeds or tissue that is maintained for the purpose of animal and plant breeding, preservation, and other research uses. These resources may take the form of seed collections stored in seed banks, trees growing in nurseries, animal breeding lines maintained in animal breeding programs or gene banks, etc. Germplasm collections can range from collections of wild species to elite, domesticated breeding lines that have undergone extensive human selection.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12570,11 +12640,11 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://www.ebi.ac.uk/efo/EFO_0007550 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007550">
-        <rdfs:label>high content screen</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high content screen</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002694"/>
-        <obo:IAO_0000115>An image analysis technique combining automated fluorescence microscopy with multi-parameter quantitative image analysis for the large scale study of cells (cellomics).</obo:IAO_0000115>
-        <obo:IAO_0000118>HCS</obo:IAO_0000118>
-        <obo:IAO_0000118>high content screening</obo:IAO_0000118>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An image analysis technique combining automated fluorescence microscopy with multi-parameter quantitative image analysis for the large scale study of cells (cellomics).</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCS</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high content screening</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12618,19 +12688,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.ebi.ac.uk/swo/interface/SWO_9000051">
         <rdfs:label>web service</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>A web service is a software interface which works as a method of communication between two electronic devices over the World Wide Web and which is provided at a particular network address. There are two major classes of Web services: REST-compliant Web services, and arbitrary (or application-specific) Web services.</obo:IAO_0000115>
         <obo:IAO_0000118>Web Service</obo:IAO_0000118>
+        <obo:IAO_0000115>A web service is a software interface which works as a method of communication between two electronic devices over the World Wide Web and which is provided at a particular network address. There are two major classes of Web services: REST-compliant Web services, and arbitrary (or application-specific) Web services.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#ObsoleteClass -->
-
-    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Obsolete Class</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cheminf.owl"/>
     </owl:Class>
     
 
@@ -12639,7 +12699,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.orpha.net/ORDO/Orphanet_68380">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrial disease</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000508"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitochondrial disease</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
@@ -12650,16 +12711,26 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="http://www.w3.org/2002/07/owl#DeprecatedClass">
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
-    
-
-
-    <!-- http://www.w3.org/2002/07/owl#Thing -->
-
-    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing">
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cheminf.owl"/>
-    </owl:Class>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -12677,38 +12748,20 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
 
