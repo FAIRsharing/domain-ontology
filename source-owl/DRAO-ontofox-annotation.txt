@@ -4,11 +4,11 @@
 ## This file contains the settings for importing subsections of
 ## the following external ontologies:
 ##
-## AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM,
-## EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL,
+## BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM,
+## EFO, ENVO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL,
 ## MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI,
-## OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO,
-## SWO, UBERON, UO, VariO, VO.
+## OGI, OGMS, OMIT, OMP, PATO, PECO, PO, PR, PW, SBO, SIO, SO, STATO
+## SWO, UBERON, UO, VariO, VO
 ##
 ##
 ## General Note:
@@ -64,136 +64,6 @@ includeAllIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-
-#### NOTES ON IAO IMPORT ####
-##
-## The includeAllIntermediates setting has been enabled for this
-## upper-level ontology so that the correct hierarchy can be used for
-## all lower-level ontology imports into the FAIRsharing domain ontology.
-## Upper-level ontologies tend to have fewer classes, while
-## the includeComputedIntermediates setting is used for other
-## imports to reduce bloating of the AO.
-##
-
-[Source ontology]
-IAO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/IAO_0000013 # Journal article
-http://purl.obolibrary.org/obo/IAO_0000027 # Data item **Required for FBCV, UO and MS hierarchies**
-http://purl.obolibrary.org/obo/IAO_0000038 # Graph
-http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
-http://purl.obolibrary.org/obo/IAO_0000183 # Dendrogram
-http://purl.obolibrary.org/obo/IAO_0000310 # Document **Required for NCIT hierarchy only**
-http://purl.obolibrary.org/obo/IAO_0000311 # Publication
-http://purl.obolibrary.org/obo/IAO_0000313 # Patent
-http://purl.obolibrary.org/obo/IAO_0000572 # Documenting
-http://purl.obolibrary.org/obo/IAO_0000578 # Centrally registered identifier
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-#### NOTES ON OBI IMPORT ####
-##
-##
-## We have enabled includeAllIntermediates as includeComputedIntermediates
-## for these low-level source term URIs will result in hierarchy compression
-## as follows: from
-##
-## continuant->generically dependent continuant->ICE
-## to
-## continuant->ICE
-##
-## which results in ICE having two asserted parents in the AO, both
-## GDC and continuant. This is a far from satisfactory situation.
-##
-
-[Source ontology]
-OBI
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/OBI_0000070 # Assay
-http://purl.obolibrary.org/obo/OBI_0000073 # Sample preparation for assay
-http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
-http://purl.obolibrary.org/obo/OBI_0000115 # Intervention design
-http://purl.obolibrary.org/obo/OBI_0000272 # Protocol
-http://purl.obolibrary.org/obo/OBI_0000415 # Polymerase Chain Reaction
-http://purl.obolibrary.org/obo/OBI_0000423 # Extract
-http://purl.obolibrary.org/obo/OBI_0000427 # Enzyme
-http://purl.obolibrary.org/obo/OBI_0000430 # Plasmid
-http://purl.obolibrary.org/obo/OBI_0000470 # Mass spectrometry assay
-http://purl.obolibrary.org/obo/OBI_0000615 # Protein expression profiling
-http://purl.obolibrary.org/obo/OBI_0000626 # DNA sequencing
-http://purl.obolibrary.org/obo/OBI_0000658 # Data model
-http://purl.obolibrary.org/obo/OBI_0000716 # Chromatin immunoprecipitation - DNA sequencing
-http://purl.obolibrary.org/obo/OBI_0000725 # Host
-http://purl.obolibrary.org/obo/OBI_0000726 # Peak matching
-http://purl.obolibrary.org/obo/OBI_0000729 # Cloning plasmid
-http://purl.obolibrary.org/obo/OBI_0000750 # Independent variable
-http://purl.obolibrary.org/obo/OBI_0000800 # Cross linking
-http://purl.obolibrary.org/obo/OBI_0000844 # Hospital
-http://purl.obolibrary.org/obo/OBI_0000912 # X-ray crystallography assay
-http://purl.obolibrary.org/obo/OBI_0000916 # Flow cytometry assay
-http://purl.obolibrary.org/obo/OBI_0000968 # Device
-http://purl.obolibrary.org/obo/OBI_0001000 # Questionnaire
-http://purl.obolibrary.org/obo/OBI_0001065 # Stereo microscope
-http://purl.obolibrary.org/obo/OBI_0001199 # In vivo design
-http://purl.obolibrary.org/obo/OBI_0001248 # Chromatin immunoprecipitation - DNA microarray
-http://purl.obolibrary.org/obo/OBI_0001271 # RNA sequencing
-http://purl.obolibrary.org/obo/OBI_0001557 # Material storage service
-http://purl.obolibrary.org/obo/OBI_0001686 # In situ hybridization
-http://purl.obolibrary.org/obo/OBI_0001848 # Chromatin Interaction Analysis by Paired-End Tag sequencing
-http://purl.obolibrary.org/obo/OBI_0001850 # Transcript analysis by paired-end tag sequencing
-http://purl.obolibrary.org/obo/OBI_0001876 # Cell culture
-http://purl.obolibrary.org/obo/OBI_0001958 # Systematic review
-http://purl.obolibrary.org/obo/OBI_0001985 # Microarray experiment
-http://purl.obolibrary.org/obo/OBI_0001986 # Immunohistochemistry
-http://purl.obolibrary.org/obo/OBI_0002117 # Whole genome sequencing
-http://purl.obolibrary.org/obo/OBI_0002186 # Electroencephalography
-http://purl.obolibrary.org/obo/OBI_0100014 # Chimera
-http://purl.obolibrary.org/obo/OBI_0200000 # Data transformation
-http://purl.obolibrary.org/obo/OBI_0300311 # Observation design
-http://purl.obolibrary.org/obo/OBI_0302840 # Curated information
-http://purl.obolibrary.org/obo/OBI_0302900 # Group randomization
-http://purl.obolibrary.org/obo/OBI_0302903 # Nucleic acid hybridization
-http://purl.obolibrary.org/obo/OBI_0302914 # Digital curation
-http://purl.obolibrary.org/obo/OBI_0400148 # DNA microarray
-http://purl.obolibrary.org/obo/OBI_0500000 # Study design
-http://purl.obolibrary.org/obo/OBI_0600002 # Tumor grading
-http://purl.obolibrary.org/obo/OBI_0600014 # Material component separation
-http://purl.obolibrary.org/obo/OBI_0600020 # Histology
-http://purl.obolibrary.org/obo/OBI_0600047 # Sequencing
-http://purl.obolibrary.org/obo/OBI_0600053 # Electrophoresis
-http://purl.obolibrary.org/obo/OBI_0600056 # Protease cleavage
-http://purl.obolibrary.org/obo/OBI_1000049 # Whole mount tissue
-http://purl.obolibrary.org/obo/OBI_1110021 # Infection
-http://purl.obolibrary.org/obo/OBI_1110201 # Allergen
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-http://purl.obolibrary.org/obo/OBI_0001479 # specimen from organism
-subClassOf http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
-http://purl.obolibrary.org/obo/OBI_0000680 # whole organism preparation
-subClassOf http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
-http://purl.obolibrary.org/obo/OBI_0302914 # Digital curation
-subClassOf http://purl.obolibrary.org/obo/ERO_0001218 # Data management **please note that this class is not visible to end users of FAIRsharing**
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/OBI_0001847
-http://purl.obolibrary.org/obo/OBI_9991118
 
 #### NOTES ON CHEBI IMPORT ####
 ##
@@ -254,343 +124,288 @@ http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000118
 http://purl.obolibrary.org/obo/IAO_0000115
 
-
-#### NOTES ON GO IMPORT ####
+#### NOTES ON CHEMINF IMPORT ####
 ##
-## Placement of GO terms within the BFO hierarchy follows
-## the justification by EFO here:
-## http://www.ebi.ac.uk/efo/faq.html#efostructure
-##
-## and that of GO itself here:
-## http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0003674
-##
-## While we are basing our GO-to-BFO mapping on EFO, there
-## are some instances where this may be problematic in the
-## long term, such as Cellular component, which is a child
-## of OBI's specimen class (which itself is a child of
-## BFO's material entity). It may be better in the end
-to have Cellular component as a direct child of material entity.
+## includeAllIntermediates has been enabled
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
 ##
 ##
 
 [Source ontology]
-GO
+CHEMINF
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/GO_0000380 # Alternative splicing
-http://purl.obolibrary.org/obo/GO_0000775 # Centromere
-http://purl.obolibrary.org/obo/GO_0003674 # Molecular function
-http://purl.obolibrary.org/obo/GO_0003682 # Chromatin binding
-http://purl.obolibrary.org/obo/GO_0003824 # Catalytic activity
-http://purl.obolibrary.org/obo/GO_0005216 # Ion channel activity
-http://purl.obolibrary.org/obo/GO_0005488 # Binding
-http://purl.obolibrary.org/obo/GO_0005575 # Cellular component
-http://purl.obolibrary.org/obo/GO_0005623 # Cell
-http://purl.obolibrary.org/obo/GO_0005634 # Nucleus
-http://purl.obolibrary.org/obo/GO_0005694 # Chromosome
-http://purl.obolibrary.org/obo/GO_0005739 # Mitochondrion
-http://purl.obolibrary.org/obo/GO_0005813 # Centrosome
-http://purl.obolibrary.org/obo/GO_0006006 # Glucose metabolic process
-http://purl.obolibrary.org/obo/GO_0006306 # DNA methylation
-http://purl.obolibrary.org/obo/GO_0006338 # Chromatin remodeling
-http://purl.obolibrary.org/obo/GO_0006412 # Translation
-http://purl.obolibrary.org/obo/GO_0006413 # Translation initiation
-http://purl.obolibrary.org/obo/GO_0006457 # Protein folding
-http://purl.obolibrary.org/obo/GO_0006473 # Protein acetylation
-http://purl.obolibrary.org/obo/GO_0006605 # Protein targeting
-http://purl.obolibrary.org/obo/GO_0006810 # Transport
-http://purl.obolibrary.org/obo/GO_0006954 # Inflammatory response
-http://purl.obolibrary.org/obo/GO_0007049 # Cell cycle
-http://purl.obolibrary.org/obo/GO_0007127 # Meiosis I
-http://purl.obolibrary.org/obo/GO_0007135 # Meiosis II
-http://purl.obolibrary.org/obo/GO_0007155 # Cell adhesion
-http://purl.obolibrary.org/obo/GO_0007568 # Aging
-http://purl.obolibrary.org/obo/GO_0007610 # Behavior
-http://purl.obolibrary.org/obo/GO_0008022 # Protein C-terminus binding
-http://purl.obolibrary.org/obo/GO_0008104 # Protein localization
-http://purl.obolibrary.org/obo/GO_0008144 # Drug binding
-http://purl.obolibrary.org/obo/GO_0008150 # Biological process
-http://purl.obolibrary.org/obo/GO_0008152 # Metabolic process **Required for positioning of OMIT Biotransformation**
-http://purl.obolibrary.org/obo/GO_0008380 # RNA splicing
-http://purl.obolibrary.org/obo/GO_0009306 # Protein secretion
-http://purl.obolibrary.org/obo/GO_0009451 # RNA modification
-http://purl.obolibrary.org/obo/GO_0009536 # Plastid
-http://purl.obolibrary.org/obo/GO_0010467 # Gene expression
-http://purl.obolibrary.org/obo/GO_0010468 # Regulation of gene expression
-http://purl.obolibrary.org/obo/GO_0016246 # RNA interference
-http://purl.obolibrary.org/obo/GO_0016310 # Phosphorylation
-http://purl.obolibrary.org/obo/GO_0016477 # Cell migration
-http://purl.obolibrary.org/obo/GO_0017144 # Drug metabolic process
-http://purl.obolibrary.org/obo/GO_0019814 # Immunoglobulin complex
-http://purl.obolibrary.org/obo/GO_0019815 # B cell receptor complex
-http://purl.obolibrary.org/obo/GO_0023052 # Signaling
-http://purl.obolibrary.org/obo/GO_0030431 # Sleep
-http://purl.obolibrary.org/obo/GO_0031982 # Vesicle
-http://purl.obolibrary.org/obo/GO_0032259 # Methylation
-http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
-http://purl.obolibrary.org/obo/GO_0035195 # Gene silencing by miRNA (microRNA)
-http://purl.obolibrary.org/obo/GO_0036094 # Small molecule binding
-http://purl.obolibrary.org/obo/GO_0036211 # Protein modification
-http://purl.obolibrary.org/obo/GO_0042101 # T cell receptor complex
-http://purl.obolibrary.org/obo/GO_0042571 # Antibody
-http://purl.obolibrary.org/obo/GO_0043226 # Organelle
-http://purl.obolibrary.org/obo/GO_0043687 # Post-translational protein modification
-http://purl.obolibrary.org/obo/GO_0044424 # Intracellular part **Required for NCIT Receptor**
-http://purl.obolibrary.org/obo/GO_0046872 # Metal ion binding
-http://purl.obolibrary.org/obo/GO_0047485 # Protein N-terminus binding
-http://purl.obolibrary.org/obo/GO_0048513 # Animal organ development
-http://purl.obolibrary.org/obo/GO_0050693 # Ligand binding domain binding
-http://purl.obolibrary.org/obo/GO_0050890 # Cognition
-http://purl.obolibrary.org/obo/GO_0050909 # Sense of taste
-http://purl.obolibrary.org/obo/GO_0051087 # Chaperone binding
-http://purl.obolibrary.org/obo/GO_0051301 # Cell division
-http://purl.obolibrary.org/obo/GO_0051641 # Cellular localization
-http://purl.obolibrary.org/obo/GO_0060293 # Germ plasm
-http://purl.obolibrary.org/obo/GO_0065007 # Biological regulation
-http://purl.obolibrary.org/obo/GO_0070062 # Extracellular exosome
-http://purl.obolibrary.org/obo/GO_0070085 # Glycosylation
-http://purl.obolibrary.org/obo/GO_0070893 # Transposon integration
-http://purl.obolibrary.org/obo/GO_0007608 # Sense of smell
-http://purl.obolibrary.org/obo/GO_0098687 # Chromosomal region
-http://purl.obolibrary.org/obo/GO_1901873 # Regulation of post-translational protein modification
-http://purl.obolibrary.org/obo/GO_2000628 # Regulation of miRNA metabolic process
+http://semanticscience.org/resource/CHEMINF_000106 # Systematic name
+http://semanticscience.org/resource/CHEMINF_000123 # Chemical descriptor
+http://semanticscience.org/resource/CHEMINF_000251 # logP
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/GO_0008150 # Biological process
-subClassOf http://purl.obolibrary.org/obo/BFO_0000015 # process
-http://purl.obolibrary.org/obo/GO_0005575 # Cellular component
-subClassOf http://purl.obolibrary.org/obo/OBI_0100051 # specimen
-http://purl.obolibrary.org/obo/GO_0003674 # Molecular function
-subClassOf http://purl.obolibrary.org/obo/BFO_0000034 # function
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
 
 [Source term retrieval setting]
-includeComputedIntermediates
+includeAllIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://purl.obolibrary.org/obo/IAO_0000115
-
-#### NOTES ON SO IMPORT ####
-##
-## The naming convention used within SO does not match that used
-## within FAIRsharing. As such, the matching *FAIRsharing* label
-## is shown in the 'Low Level source term URIs'
-## section below. These labels are applied separately to the FAIRsharing AO via
-## Ontodog, and will not be visible in the Ontofox output produced from this
-## configuration file.
-##
-## Further, the positioning of the SO top-level terms within the BFO
-## hierarchy follows the 2011 paper by Mungall et al. available at
-## https://doi.org/10.1016/j.jbi.2010.03.002
-## This publication states that all top-level SO terms
-## (other than sequence attribute)
-## are GDCs. To further place this at an appropriate level relative to
-## other ontologies used within the AO, we place them into the child of GDC,
-## information content entity.
-##
-## Some low-level terms, e.g. the children of nucleic_acid, have been adjusted
-## so they are placed within the CHEBI hierarchy. Otherwise if we use
-## the hierarchies in their default configuration, we get
-## multiple classes describing Nucleic Acid (CHEBI, SO, and EDAM).
-##
-
-[Source ontology]
-SO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/SO_0000101 # Transposable element
-http://purl.obolibrary.org/obo/SO_0000110 # Sequence feature
-http://purl.obolibrary.org/obo/SO_0000112 # Primer
-http://purl.obolibrary.org/obo/SO_0000147 # Exon
-http://purl.obolibrary.org/obo/SO_0000149 # Contig
-http://purl.obolibrary.org/obo/SO_0000150 # Sequencing read
-http://purl.obolibrary.org/obo/SO_0000162 # Splice site
-http://purl.obolibrary.org/obo/SO_0000167 # Promoter
-http://purl.obolibrary.org/obo/SO_0000178 # Operon
-http://purl.obolibrary.org/obo/SO_0000180 # Retrotransposon
-http://purl.obolibrary.org/obo/SO_0000188 # Intron
-http://purl.obolibrary.org/obo/SO_0000203 # Untranslated region
-http://purl.obolibrary.org/obo/SO_0000234 # Messenger RNA
-http://purl.obolibrary.org/obo/SO_0000239 # Flanking region
-http://purl.obolibrary.org/obo/SO_0000243 # Internal ribosome entry site
-http://purl.obolibrary.org/obo/SO_0000253 # Transfer RNA
-http://purl.obolibrary.org/obo/SO_0000276 # Micro RNA
-http://purl.obolibrary.org/obo/SO_0000289 # Microsatellite
-http://purl.obolibrary.org/obo/SO_0000312 # Experimentally determined
-http://purl.obolibrary.org/obo/SO_0000316 # Coding sequence
-http://purl.obolibrary.org/obo/SO_0000324 # Sequence tag
-http://purl.obolibrary.org/obo/SO_0000330 # Conserved region
-http://purl.obolibrary.org/obo/SO_0000336 # Pseudogene
-http://purl.obolibrary.org/obo/SO_0000371 # Conjugative transposon
-http://purl.obolibrary.org/obo/SO_0000409 # Binding site
-http://purl.obolibrary.org/obo/SO_0000418 # Signal peptide
-http://purl.obolibrary.org/obo/SO_0000436 # Autonomously replicating sequence
-http://purl.obolibrary.org/obo/SO_0000591 # Pseudoknot
-http://purl.obolibrary.org/obo/SO_0000603 # Group II intron
-http://purl.obolibrary.org/obo/SO_0000646 # Small interfering RNA
-http://purl.obolibrary.org/obo/SO_0000655 # Non-coding RNA
-http://purl.obolibrary.org/obo/SO_0000667 # Insertion
-http://purl.obolibrary.org/obo/SO_0000673 # Transcript
-http://purl.obolibrary.org/obo/SO_0000694 # Single nucleotide polymorphism
-http://purl.obolibrary.org/obo/SO_0000704 # Gene
-http://purl.obolibrary.org/obo/SO_0000705 # Tandem repeat
-http://purl.obolibrary.org/obo/SO_0000737 # Mitochondrial sequence
-http://purl.obolibrary.org/obo/SO_0000740 # Plastid sequence
-http://purl.obolibrary.org/obo/SO_0000745 # Chloroplast sequence
-http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA
-http://purl.obolibrary.org/obo/SO_0000771 # Quantitative trait loci
-http://purl.obolibrary.org/obo/SO_0000772 # Genomic island
-http://purl.obolibrary.org/obo/SO_0000857 # Homologous
-http://purl.obolibrary.org/obo/SO_0000858 # Orthologous
-http://purl.obolibrary.org/obo/SO_0000859 # Paralogous
-http://purl.obolibrary.org/obo/SO_0000870 # Trans spliced
-http://purl.obolibrary.org/obo/SO_0000934 # Micro RNA (miRNA) target site
-http://purl.obolibrary.org/obo/SO_0000973 # Insertion sequence
-http://purl.obolibrary.org/obo/SO_0001000 # 16S rRNA
-http://purl.obolibrary.org/obo/SO_0001006 # Prophage
-http://purl.obolibrary.org/obo/SO_0001007 # Cryptic prophage
-http://purl.obolibrary.org/obo/SO_0001021 # Chromosome breakpoint
-http://purl.obolibrary.org/obo/SO_0001023 # Allele
-http://purl.obolibrary.org/obo/SO_0001026 # Genome
-http://purl.obolibrary.org/obo/SO_0001037 # Mobile genetic element
-http://purl.obolibrary.org/obo/SO_0001041 # Viral sequence
-http://purl.obolibrary.org/obo/SO_0001059 # Sequence alteration
-http://purl.obolibrary.org/obo/SO_0001067 # Polypeptide motif
-http://purl.obolibrary.org/obo/SO_0001244 # Pre-miRNA (pre-microRNA)
-http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection **Required for OMIT, VariO and FBCV**
-http://purl.obolibrary.org/obo/SO_0001459 # CRISPR
-http://purl.obolibrary.org/obo/SO_0001505 # Reference genome
-http://purl.obolibrary.org/obo/SO_0001877 # Long non-coding RNA
-http://purl.obolibrary.org/obo/SO_0001956 # Protease site
-http://purl.obolibrary.org/obo/SO_0002031 # Short Hairpin RNA
-http://purl.obolibrary.org/obo/SO_0002096 # Short tandem repeat variation
-http://purl.obolibrary.org/obo/SO_0005836 # Regulatory region
-http://purl.obolibrary.org/obo/SO_0005851 # Gene array
-http://purl.obolibrary.org/obo/SO_1000008 # Point mutation
-http://purl.obolibrary.org/obo/SO_1000032 # Indel
-http://purl.obolibrary.org/obo/SO_1000035 # Nucleotide duplication
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/SO_0000400 # sequence_attribute
-subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
-http://purl.obolibrary.org/obo/SO_0001260 # sequence_collection
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://purl.obolibrary.org/obo/SO_0000110 # sequence_feature
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-
-http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA
-subClassOf http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/IAO_0000115
-
-
-#### NOTES ON EFO IMPORT ####
-##
-## EFO has a top-level class 'environmental factor' which is (deliberately)
-## not from any standard ULO. As such we are not importing
-## 'environmental factor', as it results in a duplicated hierarchy of
-## its child classes, which are all either BFO or IAO terms. Instead,
-## we list as the top-level source terms the classes that are
-## one or more levels below, as appropriate. Because of this more
-## specific mapping, if new terms are pulled into the AO from this
-## ontology which come from other places in the EFO hierarchy,
-## the mapping will need to be closely checked.
-##
-## Orphanet isn't included in Ontobee, but EFO imports the appropriate
-## terms. Therefore you will see an Orphanet IRI in the list for
-## EFO below.
-##
-## We use OGMS Disease rather than EFO_0000408 (Disease) and so this
-## needs to be explicitly mapped for the correct hierarchy to be retained.
-##
-
-[Source ontology]
-EFO
-
-[Low level source term URIs]
-http://www.ebi.ac.uk/efo/EFO_0000269 # Array design
-http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
-http://www.ebi.ac.uk/efo/EFO_0000336 # Chromosomal aberration
-http://www.ebi.ac.uk/efo/EFO_0000400 # Diabetes mellitus
-http://www.ebi.ac.uk/efo/EFO_0000487 # Exposure
-http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
-http://www.ebi.ac.uk/efo/EFO_0000513 # Genotype
-http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
-http://www.ebi.ac.uk/efo/EFO_0000727 # Treatment
-http://www.ebi.ac.uk/efo/EFO_0000749 # Comparative genomic hybridization
-http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
-http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
-http://www.ebi.ac.uk/efo/EFO_0003843 # Pain
-http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
-http://www.ebi.ac.uk/efo/EFO_0003935 # Mental health
-http://www.ebi.ac.uk/efo/EFO_0004014 # Deletions
-http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
-http://www.ebi.ac.uk/efo/EFO_0004327 # Electrocardiography
-http://www.ebi.ac.uk/efo/EFO_0004346 # Brain imaging
-http://www.ebi.ac.uk/efo/EFO_0004346 # Neuroimaging
-http://www.ebi.ac.uk/efo/EFO_0004426 # Karyotype
-http://www.ebi.ac.uk/efo/EFO_0004798 # Copy number variation
-http://www.ebi.ac.uk/efo/EFO_0004982 # Microbiome
-http://www.ebi.ac.uk/efo/EFO_0005135 # Genetic strain
-http://www.ebi.ac.uk/efo/EFO_0007059 # Germplasm
-http://www.ebi.ac.uk/efo/EFO_0007550 # High-content screen
-http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://purl.obolibrary.org/obo/OBI_0000181 # population
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
-http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
-subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
-http://www.ebi.ac.uk/efo/EFO_0003935 # Mental health
-subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
-http://www.ebi.ac.uk/efo/EFO_0003843 # Pain
-subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
-http://www.ebi.ac.uk/efo/EFO_0004426 # Karyotype
-subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
-http://www.ebi.ac.uk/efo/EFO_0002694 # experimental process
-subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
-http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
-subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 # Life cycle stage
-http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
-subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
-
-## Replacing EFO Disease with OGMS Disease
-http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-http://www.ebi.ac.uk/efo/EFO_0000400 # Diabetes mellitus
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.ebi.ac.uk/efo/definition
+http://purl.org/dc/elements/1.1/description
 mapTo http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON CHMO IMPORT ####
+##
+## includeAllIntermediates has been enabled
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+## Only part of the BFO hierarchy is used (no 'independent
+## continuant' in CHMO)
+##
+
+[Source ontology]
+CHMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHMO_0000156 # X-ray diffraction
+http://purl.obolibrary.org/obo/CHMO_0000228 # Spectroscopy
+http://purl.obolibrary.org/obo/CHMO_0000591 # Nuclear Magnetic Resonance spectroscopy
+http://purl.obolibrary.org/obo/CHMO_0000800 # Spectrum
+http://purl.obolibrary.org/obo/CHMO_0001000 # Chromatography
+http://purl.obolibrary.org/obo/CHMO_0001002 # Gas chromatography
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000015 # process
+http://purl.obolibrary.org/obo/BFO_0000002 # continuant
+http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON CL IMPORT ####
+##
+## CL has *two* sibling cell classes:
+## http://purl.obolibrary.org/obo/GO_0005623
+## http://purl.obolibrary.org/obo/CL_0000000
+##
+## Although the two are linked via database cross-references,
+## they also remain distinct in the ontology. While we could use
+## equivalence statements, this wouldn't help our programmers,
+## as they aren't necessarily pulling those particular axioms. It
+## is much easier to just retain one of the parents, and as we
+## have extensive GO hierarchies, we have retained the
+## GO Cell URI only.
+##
+## Although CL does not include all of BFO, it includes enough of
+## the hierarchy that includeAllIntermediates is required to ensure
+## correct creation of the entire BFO hierarchy, especially around
+## 'material entity'
+##
+## The 'material anatomical entity' used in CL is from *both*
+## CARO (CARO_0000006) and UBERON (UBERON_0000465).
+## DRAO uses UBERON (UBERON_0000465). As such, wherever CARO_0000006
+## is used within CL, it is overriden by UBERON_0000465.
+##
+
+[Source ontology]
+CL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000034 # Stem cell
+http://purl.obolibrary.org/obo/CL_0000084 # T cell
+http://purl.obolibrary.org/obo/CL_0000451 # Dendritic cell
+http://purl.obolibrary.org/obo/CL_0000540 # Neuron
+http://purl.obolibrary.org/obo/CL_0002248 # Pluripotent stem cell
+http://purl.obolibrary.org/obo/CL_0002322 # Embryonic stem cell
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000002 # continuant
+subClassOf http://purl.obolibrary.org/obo/BFO_0000001 # entity
+http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000061 # anatomical structure
+http://purl.obolibrary.org/obo/CL_0000003 # native cell
+subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+http://purl.obolibrary.org/obo/CL_0000540 # neural cell
+subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON CLO IMPORT ####
+##
+## includeAllIntermediates has been enabled for CLO
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+## In OLS, 'cell line' has a single parent, OBI_0001905.
+## In the version stored in Ontobee, it has two, both
+## OBI_0001905 and OBI_0100060. As we are pulling from
+## Ontofox (which draws from Ontobee), the double parentage
+## is replicated here.
+##
+## As we have decided on retaining the GO Cell class only (and not
+## the one from CL), we need to override this ontology's usage
+## of http://purl.obolibrary.org/obo/CL_0000000 and place the
+## children within the GO cell hierarchy (see note in CL Import section).
+##
+
+[Source ontology]
+CLO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CLO_0000031 # Cell line
+http://purl.obolibrary.org/obo/CLO_0036932 # Hybridoma
+http://purl.obolibrary.org/obo/CLO_0037280 # Human embryonic stem cell line cell
+http://purl.obolibrary.org/obo/CLO_0037308 # human induced pluripotent stem cell line cell
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+## These statements ensure that only the GO cell class is retained in DRAO
+## (See note in the CL Import section)
+## http://purl.obolibrary.org/obo/CLO_0036932 # Hybridoma
+## subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+http://purl.obolibrary.org/obo/CL_0001034 # cell in vitro
+subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+http://purl.obolibrary.org/obo/CL_0000578 # experimentally modified cell in vitro
+subClassOf http://purl.obolibrary.org/obo/CL_0001034 # cell (GO)
+http://www.ebi.ac.uk/cellline#UnspecifiedCellType
+subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.ebi.ac.uk/cellline#Definitions
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+http://www.ebi.ac.uk/efo/alternative_term
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+
+#### NOTES ON CMO IMPORT ####
+##
+##
+
+[Source ontology]
+CMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CMO_0001108 # Disease onset
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CMO_0000000 # clinical measurement
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON DOID IMPORT ####
+##
+## We prefer the usage of the OGMS disease class to
+## the DOID disease class, so this must be explicitly
+## stated.
+##
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_93 # Language disorder
+http://purl.obolibrary.org/obo/DOID_162 # Cancer
+http://purl.obolibrary.org/obo/DOID_302 # Substance abuse
+http://purl.obolibrary.org/obo/DOID_409 # Liver disease
+http://purl.obolibrary.org/obo/DOID_557 # Kidney disease
+http://purl.obolibrary.org/obo/DOID_1826 # Epilepsy
+http://purl.obolibrary.org/obo/DOID_12365 # Malaria
+http://purl.obolibrary.org/obo/DOID_12849 # Autistic disorder
+http://purl.obolibrary.org/obo/DOID_14330 # Parkinson's disease
+http://purl.obolibrary.org/obo/DOID_0080001 # Bone disease
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DOID_162 # Cancer
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://purl.obolibrary.org/obo/DOID_7 # disease of anatomical entity
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://purl.obolibrary.org/obo/DOID_863 # nervous system disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://purl.obolibrary.org/obo/DOID_12365 # Malaria
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://purl.obolibrary.org/obo/DOID_150 # disease of mental health
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON DRON IMPORT ####
+##
+## includeAllIntermediates has been enabled
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+
+[Source ontology]
+DRON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DRON_00000025 # FDA approved drug
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON EDAM IMPORT ####
 ##
@@ -795,100 +610,629 @@ http://www.geneontology.org/formats/oboInOwl#hasDefinition
 mapTo http://purl.obolibrary.org/obo/IAO_0000115
 ## deliberately not including has_related_synonym as might be too broad
 
-
-#### NOTES ON OMIT IMPORT ####
+#### NOTES ON EFO IMPORT ####
 ##
-## OMIT makes use of the BFO upper-level hierarchy as well as
-## the GO biological process hierarchy.
+## EFO has a top-level class 'environmental factor' which is (deliberately)
+## not from any standard ULO. As such we are not importing
+## 'environmental factor', as it results in a duplicated hierarchy of
+## its child classes, which are all either BFO or IAO terms. Instead,
+## we list as the top-level source terms the classes that are
+## one or more levels below, as appropriate. Because of this more
+## specific mapping, if new terms are pulled into the AO from this
+## ontology which come from other places in the EFO hierarchy,
+## the mapping will need to be closely checked.
 ##
-## We have overriden the placement of OMIT_0008490, OMIT_0028415,
-## and OMIT_0025752 to instead be children of PR_000000001
-## (Protein), otherwise we end up with both Protein and Proteins.
+## Orphanet isn't included in Ontobee, but EFO imports the appropriate
+## terms. Therefore you will see an Orphanet IRI in the list for
+## EFO below.
 ##
-## We have overriden the placement of OMIT_0009360,
-## OMIT_0026082 and OMIT_0025926 to restructure the OMIT Genome
-## hierarchy, otherwise we end up with two Genome classes.
+## We use OGMS Disease rather than EFO_0000408 (Disease) and so this
+## needs to be explicitly mapped for the correct hierarchy to be retained.
 ##
 
 [Source ontology]
-OMIT
+EFO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
-http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
-http://purl.obolibrary.org/obo/OMIT_0003303 # Breeding
-http://purl.obolibrary.org/obo/OMIT_0005506 # DNA damage
-http://purl.obolibrary.org/obo/OMIT_0005718 # Economics
-http://purl.obolibrary.org/obo/OMIT_0005842 # Electrophysiology
-http://purl.obolibrary.org/obo/OMIT_0006299 # Biological evolution
-http://purl.obolibrary.org/obo/OMIT_0006985 # Gene frequency
-http://purl.obolibrary.org/obo/OMIT_0006989 # Patient care
-http://purl.obolibrary.org/obo/OMIT_0007580 # Hematopoiesis
-http://purl.obolibrary.org/obo/OMIT_0008240 # Immunity
-http://purl.obolibrary.org/obo/OMIT_0008430 # Insecticide resistance
-http://purl.obolibrary.org/obo/OMIT_0008490 # Interferon
-http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
-http://purl.obolibrary.org/obo/OMIT_0010452 # Nesting behavior
-http://purl.obolibrary.org/obo/OMIT_0012031 # Poly A
-http://purl.obolibrary.org/obo/OMIT_0012123 # Population dynamics
-http://purl.obolibrary.org/obo/OMIT_0012758 # Radiation
-http://purl.obolibrary.org/obo/OMIT_0012761 # Radiation effects
-http://purl.obolibrary.org/obo/OMIT_0014521 # Teaching material
-http://purl.obolibrary.org/obo/OMIT_0014667 # Thermodynamics
-http://purl.obolibrary.org/obo/OMIT_0015994 # Reproducibility of results
-http://purl.obolibrary.org/obo/OMIT_0018868 # Founder effect
-http://purl.obolibrary.org/obo/OMIT_0019288 # Multimedia
-http://purl.obolibrary.org/obo/OMIT_0019939 # Benchmarking
-http://purl.obolibrary.org/obo/OMIT_0020804 # Quantitative structure-activity relationship
-http://purl.obolibrary.org/obo/OMIT_0021245 # Polyadenylation
-http://purl.obolibrary.org/obo/OMIT_0022673 # Nanotechnology
-http://purl.obolibrary.org/obo/OMIT_0023533 # Regenerative medicine
-http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors
-http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
-http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
-http://purl.obolibrary.org/obo/OMIT_0026382 # Genetic Phenomena
-http://purl.obolibrary.org/obo/OMIT_0026595 # Diffusion tensor imaging
-http://purl.obolibrary.org/obo/OMIT_0026885 # High-throughput screening assay
-http://purl.obolibrary.org/obo/OMIT_0026906 # Workflow
-http://purl.obolibrary.org/obo/OMIT_0026913 # Laboratory automation
-http://purl.obolibrary.org/obo/OMIT_0026947 # Electronic health record
-http://purl.obolibrary.org/obo/OMIT_0028181 # Crowdsourcing
-http://purl.obolibrary.org/obo/OMIT_0028415 # Intrinsically disordered proteins
-http://purl.obolibrary.org/obo/OMIT_0028630 # Non-randomized controlled trials
+http://www.ebi.ac.uk/efo/EFO_0000269 # Array design
+http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
+http://www.ebi.ac.uk/efo/EFO_0000336 # Chromosomal aberration
+http://www.ebi.ac.uk/efo/EFO_0000400 # Diabetes mellitus
+http://www.ebi.ac.uk/efo/EFO_0000487 # Exposure
+http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
+http://www.ebi.ac.uk/efo/EFO_0000513 # Genotype
+http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
+http://www.ebi.ac.uk/efo/EFO_0000727 # Treatment
+http://www.ebi.ac.uk/efo/EFO_0000749 # Comparative genomic hybridization
+http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
+http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
+http://www.ebi.ac.uk/efo/EFO_0003843 # Pain
+http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
+http://www.ebi.ac.uk/efo/EFO_0003935 # Mental health
+http://www.ebi.ac.uk/efo/EFO_0004014 # Deletions
+http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
+http://www.ebi.ac.uk/efo/EFO_0004327 # Electrocardiography
+http://www.ebi.ac.uk/efo/EFO_0004346 # Brain imaging
+http://www.ebi.ac.uk/efo/EFO_0004346 # Neuroimaging
+http://www.ebi.ac.uk/efo/EFO_0004426 # Karyotype
+http://www.ebi.ac.uk/efo/EFO_0004798 # Copy number variation
+http://www.ebi.ac.uk/efo/EFO_0004982 # Microbiome
+http://www.ebi.ac.uk/efo/EFO_0005135 # Genetic strain
+http://www.ebi.ac.uk/efo/EFO_0007059 # Germplasm
+http://www.ebi.ac.uk/efo/EFO_0007550 # High-content screen
+http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/OBI_0000181 # population
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
+http://www.ebi.ac.uk/efo/EFO_0003935 # Mental health
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
+http://www.ebi.ac.uk/efo/EFO_0003843 # Pain
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://www.ebi.ac.uk/efo/EFO_0004426 # Karyotype
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://www.ebi.ac.uk/efo/EFO_0002694 # experimental process
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 # Life cycle stage
+http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
 
-http://purl.obolibrary.org/obo/OMIT_0008490 # Interferon
-subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
-http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors
-subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
-http://purl.obolibrary.org/obo/OMIT_0028415 # Intrinsically disordered proteins
-subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
-
-http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
-subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
-http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
-subClassOf http://purl.obolibrary.org/obo/GO_0008152 # Metabolic process
-
-http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
-subClassOf http://purl.obolibrary.org/obo/SO_0001026 # genome
-http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
-subClassOf http://purl.obolibrary.org/obo/SO_0001260 # sequence collection
-
-## The rule below removes an otherwise duplicated Neuroimaging hierarchy.
-http://purl.obolibrary.org/obo/OMIT_0026595 # Diffusion tensor imaging
-subClassOf http://www.ebi.ac.uk/efo/EFO_0004346 # Neuroimaging
-
-http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
-subClassOf http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
+## Replacing EFO Disease with OGMS Disease
+http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0000400 # Diabetes mellitus
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 
 [Source term retrieval setting]
 includeComputedIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.ebi.ac.uk/efo/definition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
 
+#### NOTES ON ENVO IMPORT ####
+##
+## ENVO uses BFO as an upper-level ontology.
+##
+## includeAllIntermediates has been enabled for ENVO
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+## Please note that ENVO uses the PATO 'quality' class rather
+## than BFO. DRAO has overridden this to use BFO to prevent
+## two 'quality' classes in the hierarchy.
+##
+
+[Source ontology]
+ENVO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ENVO_00002034 # Biofilm
+http://purl.obolibrary.org/obo/ENVO_00010483 # Environmental material
+http://purl.obolibrary.org/obo/ENVO_01000049 # Marine coral reef biome
+http://purl.obolibrary.org/obo/ENVO_01000204 # Tropical
+http://purl.obolibrary.org/obo/ENVO_01000320 # Marine environment
+http://purl.obolibrary.org/obo/ENVO_01000839 # Combustion
+http://purl.obolibrary.org/obo/ENVO_01001082 # Climate
+http://purl.obolibrary.org/obo/ENVO_01001110 # Ecosystem
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+http://purl.obolibrary.org/obo/PATO_0001241 # physical object quality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON ERO IMPORT ####
+##
+## ERO uses the BFO upper-level ontology. It also uses
+## UBERON's 'material anatomical entity', which is added via
+## the parent hierarchies of the UBERON classes above.
+##
+
+[Source ontology]
+ERO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/ERO_0000086 # Electron density map
+http://purl.obolibrary.org/obo/ERO_0000201 # Microscopy
+http://purl.obolibrary.org/obo/ERO_0000215 # Light microscopy
+http://purl.obolibrary.org/obo/ERO_0000292 # Peptide library
+http://purl.obolibrary.org/obo/ERO_0000328 # Electron microscopy
+http://purl.obolibrary.org/obo/ERO_0000333 # Video
+http://purl.obolibrary.org/obo/ERO_0000401 # Cellular assay
+http://purl.obolibrary.org/obo/ERO_0000478 # Bioactivity
+http://purl.obolibrary.org/obo/ERO_0000833 # Molecular screen **Required for FBCV**
+http://purl.obolibrary.org/obo/ERO_0000911 # Drug combination effect modeling
+http://purl.obolibrary.org/obo/ERO_0001075 # Real time polymerase chain reaction
+http://purl.obolibrary.org/obo/ERO_0001183 # Next generation DNA sequencing
+http://purl.obolibrary.org/obo/ERO_0001218 # Data management **Required for biocuration, not visible to end users, not in Ontodog files**
+http://purl.obolibrary.org/obo/ERO_0001944 # Super-resolution microscopy
+http://purl.obolibrary.org/obo/ERO_0001219 # Quality control
+http://purl.obolibrary.org/obo/ERO_0001235 # Magnetic resonance imaging
+http://purl.obolibrary.org/obo/ERO_0001312 # Imaging
+http://purl.obolibrary.org/obo/ERO_0001677 # Raman spectroscopy
+http://purl.obolibrary.org/obo/ERO_0001688 # RNAi screening
+http://purl.obolibrary.org/obo/ERO_0001728 # MicroRNA expression analysis
+http://purl.obolibrary.org/obo/ERO_0001764 # Polysomnography
+http://purl.obolibrary.org/obo/ERO_0001830 # Positron emission tomography
+http://purl.obolibrary.org/obo/ERO_0002178 # Functional magnetic resonance imaging
+http://purl.obolibrary.org/obo/ERO_0002190 # Resource collection
+http://purl.obolibrary.org/obo/ERO_0100102 # Modeling and simulation
+http://purl.obolibrary.org/obo/ERO_0100106 # Natural language processing
+http://purl.obolibrary.org/obo/ERO_0100148 # Disease process modeling
+http://purl.obolibrary.org/obo/ERO_0100150 # Omics data analysis
+http://purl.obolibrary.org/obo/ERO_0100295 # Data acquisition
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/ERO_0001075 # Real time polymerase chain reaction
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+http://purl.obolibrary.org/obo/ERO_0001219 # Quality control
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+http://purl.obolibrary.org/obo/ERO_0000911 # Drug combination effect modeling
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+http://purl.obolibrary.org/obo/OBI_0000070 # assay **Required to ensure appropriate replication of ULO hierarchy**
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+http://purl.obolibrary.org/obo/BFO_0000040 # material entity **Required to ensure appropriate replication of ULO hierarchy**
+subClassOf http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant
+http://purl.obolibrary.org/obo/IAO_0000030 # Information content entity **Required to ensure appropriate replication of ULO hierarchy**
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 # generically dependent continuant
+http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 # process **Required to ensure appropriate replication of BFO hierarchy**
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://www.w3.org/2004/02/skos/core#definition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON FBBI IMPORT ####
+##
+##
+
+[Source ontology]
+FBBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FBbi_00000267 # Animation
+http://purl.obolibrary.org/obo/FBbi_00000364 # Light-sheet illumination
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FBbi_00000267 # Animation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/FBbi_00000364 # Light-sheet illumination
+subClassOf http://purl.obolibrary.org/obo/ERO_0000201 # microscopy
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
+#### NOTES ON FBCV IMPORT ####
+##
+## DRAO does not have an 'Omics' hierarchy right now,
+## instead various '-omes' are collected according to their
+## type (e.g Genome is a 'sequence collection'). This makes things
+## slightly awkward as not all -omes are grouped together. For
+## instance, Interactome is currently placed directly under ICE
+## as it is a collection of interactions, and therefore cannot go
+## as a sibling of Genome (it is not a collection of sequences!).
+##
+## We may chose to have an additional parent class minted within
+## DRAO, named (e.g.) "biological collection" as a child of ICE.
+## This could have various types of biological collections within it
+## such as sequence_collection and Interactome, microbiome etc.
+##
+
+[Source ontology]
+FBCV
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FBcv_0000155 # Single balancer
+http://purl.obolibrary.org/obo/FBcv_0000623 # Enhancer
+http://purl.obolibrary.org/obo/FBcv_0003035 # Proteome
+http://purl.obolibrary.org/obo/FBcv_0003036 # Interactome
+http://purl.obolibrary.org/obo/FBcv_0003039 # Chemical screen
+http://purl.obolibrary.org/obo/FBcv_0003040 # Gene model annotation
+http://purl.obolibrary.org/obo/FBcv_0003195 # Cap Analysis Gene Expression
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FBcv_0000155 # Single balancer
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24432 # biological role
+http://purl.obolibrary.org/obo/FBcv_0000623 # Enhancer
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24432 # biological role
+http://purl.obolibrary.org/obo/FBcv_0003035 # Proteome
+subClassOf http://purl.obolibrary.org/obo/SO_0001260 # sequence collection
+http://purl.obolibrary.org/obo/FBcv_0003036 # Interactome
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/FBcv_0003039 # Chemical screen
+subClassOf http://purl.obolibrary.org/obo/ERO_0000833 # Molecular screen
+http://purl.obolibrary.org/obo/FBcv_0003040 # Gene model annotation
+subClassOf http://purl.obolibrary.org/obo/OBI_0200000 # Data transformation
+http://purl.obolibrary.org/obo/FBcv_0003195 # Cap Analysis Gene Expression (CAGE)
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # assay
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON FMA IMPORT ####
+##
+## Overriden source hierarchy to align with existing (larger) hierarchies
+## within DRAO
+##
+
+[Source ontology]
+FMA
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FMA_70631 # Cell morphology
+http://purl.obolibrary.org/obo/FMA_84795 # Human leukocyte antigen complex
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FMA_70631 # Cell morphology
+subClassOf http://purl.obolibrary.org/obo/PATO_0000051 # morphology
+http://purl.obolibrary.org/obo/FMA_84795 # Human leukocyte antigen complex
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON GO IMPORT ####
+##
+## Placement of GO terms within the BFO hierarchy follows
+## the justification by EFO here:
+## http://www.ebi.ac.uk/efo/faq.html#efostructure
+##
+## and that of GO itself here:
+## http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:0003674
+##
+## While we are basing our GO-to-BFO mapping on EFO, there
+## are some instances where this may be problematic in the
+## long term, such as Cellular component, which is a child
+## of OBI's specimen class (which itself is a child of
+## BFO's material entity). It may be better in the end
+to have Cellular component as a direct child of material entity.
+##
+##
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0000380 # Alternative splicing
+http://purl.obolibrary.org/obo/GO_0000775 # Centromere
+http://purl.obolibrary.org/obo/GO_0003674 # Molecular function
+http://purl.obolibrary.org/obo/GO_0003682 # Chromatin binding
+http://purl.obolibrary.org/obo/GO_0003824 # Catalytic activity
+http://purl.obolibrary.org/obo/GO_0005216 # Ion channel activity
+http://purl.obolibrary.org/obo/GO_0005488 # Binding
+http://purl.obolibrary.org/obo/GO_0005575 # Cellular component
+http://purl.obolibrary.org/obo/GO_0005623 # Cell
+http://purl.obolibrary.org/obo/GO_0005634 # Nucleus
+http://purl.obolibrary.org/obo/GO_0005694 # Chromosome
+http://purl.obolibrary.org/obo/GO_0005739 # Mitochondrion
+http://purl.obolibrary.org/obo/GO_0005813 # Centrosome
+http://purl.obolibrary.org/obo/GO_0006006 # Glucose metabolic process
+http://purl.obolibrary.org/obo/GO_0006306 # DNA methylation
+http://purl.obolibrary.org/obo/GO_0006338 # Chromatin remodeling
+http://purl.obolibrary.org/obo/GO_0006412 # Translation
+http://purl.obolibrary.org/obo/GO_0006413 # Translation initiation
+http://purl.obolibrary.org/obo/GO_0006457 # Protein folding
+http://purl.obolibrary.org/obo/GO_0006473 # Protein acetylation
+http://purl.obolibrary.org/obo/GO_0006605 # Protein targeting
+http://purl.obolibrary.org/obo/GO_0006810 # Transport
+http://purl.obolibrary.org/obo/GO_0006954 # Inflammatory response
+http://purl.obolibrary.org/obo/GO_0007049 # Cell cycle
+http://purl.obolibrary.org/obo/GO_0007127 # Meiosis I
+http://purl.obolibrary.org/obo/GO_0007135 # Meiosis II
+http://purl.obolibrary.org/obo/GO_0007155 # Cell adhesion
+http://purl.obolibrary.org/obo/GO_0007568 # Aging
+http://purl.obolibrary.org/obo/GO_0007610 # Behavior
+http://purl.obolibrary.org/obo/GO_0008022 # Protein C-terminus binding
+http://purl.obolibrary.org/obo/GO_0008104 # Protein localization
+http://purl.obolibrary.org/obo/GO_0008144 # Drug binding
+http://purl.obolibrary.org/obo/GO_0008150 # Biological process
+http://purl.obolibrary.org/obo/GO_0008152 # Metabolic process **Required for positioning of OMIT Biotransformation**
+http://purl.obolibrary.org/obo/GO_0008380 # RNA splicing
+http://purl.obolibrary.org/obo/GO_0009306 # Protein secretion
+http://purl.obolibrary.org/obo/GO_0009451 # RNA modification
+http://purl.obolibrary.org/obo/GO_0009536 # Plastid
+http://purl.obolibrary.org/obo/GO_0010467 # Gene expression
+http://purl.obolibrary.org/obo/GO_0010468 # Regulation of gene expression
+http://purl.obolibrary.org/obo/GO_0016246 # RNA interference
+http://purl.obolibrary.org/obo/GO_0016310 # Phosphorylation
+http://purl.obolibrary.org/obo/GO_0016477 # Cell migration
+http://purl.obolibrary.org/obo/GO_0017144 # Drug metabolic process
+http://purl.obolibrary.org/obo/GO_0019814 # Immunoglobulin complex
+http://purl.obolibrary.org/obo/GO_0019815 # B cell receptor complex
+http://purl.obolibrary.org/obo/GO_0023052 # Signaling
+http://purl.obolibrary.org/obo/GO_0030431 # Sleep
+http://purl.obolibrary.org/obo/GO_0031982 # Vesicle
+http://purl.obolibrary.org/obo/GO_0032259 # Methylation
+http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
+http://purl.obolibrary.org/obo/GO_0035195 # Gene silencing by miRNA (microRNA)
+http://purl.obolibrary.org/obo/GO_0036094 # Small molecule binding
+http://purl.obolibrary.org/obo/GO_0036211 # Protein modification
+http://purl.obolibrary.org/obo/GO_0042101 # T cell receptor complex
+http://purl.obolibrary.org/obo/GO_0042571 # Antibody
+http://purl.obolibrary.org/obo/GO_0043226 # Organelle
+http://purl.obolibrary.org/obo/GO_0043687 # Post-translational protein modification
+http://purl.obolibrary.org/obo/GO_0044424 # Intracellular part **Required for NCIT Receptor**
+http://purl.obolibrary.org/obo/GO_0046872 # Metal ion binding
+http://purl.obolibrary.org/obo/GO_0047485 # Protein N-terminus binding
+http://purl.obolibrary.org/obo/GO_0048513 # Animal organ development
+http://purl.obolibrary.org/obo/GO_0050693 # Ligand binding domain binding
+http://purl.obolibrary.org/obo/GO_0050890 # Cognition
+http://purl.obolibrary.org/obo/GO_0050909 # Sense of taste
+http://purl.obolibrary.org/obo/GO_0051087 # Chaperone binding
+http://purl.obolibrary.org/obo/GO_0051301 # Cell division
+http://purl.obolibrary.org/obo/GO_0051641 # Cellular localization
+http://purl.obolibrary.org/obo/GO_0060293 # Germ plasm
+http://purl.obolibrary.org/obo/GO_0065007 # Biological regulation
+http://purl.obolibrary.org/obo/GO_0070062 # Extracellular exosome
+http://purl.obolibrary.org/obo/GO_0070085 # Glycosylation
+http://purl.obolibrary.org/obo/GO_0070893 # Transposon integration
+http://purl.obolibrary.org/obo/GO_0007608 # Sense of smell
+http://purl.obolibrary.org/obo/GO_0098687 # Chromosomal region
+http://purl.obolibrary.org/obo/GO_1901873 # Regulation of post-translational protein modification
+http://purl.obolibrary.org/obo/GO_2000628 # Regulation of miRNA metabolic process
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0008150 # Biological process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 # process
+http://purl.obolibrary.org/obo/GO_0005575 # Cellular component
+subClassOf http://purl.obolibrary.org/obo/OBI_0100051 # specimen
+http://purl.obolibrary.org/obo/GO_0003674 # Molecular function
+subClassOf http://purl.obolibrary.org/obo/BFO_0000034 # function
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000115
+
+#### NOTES ON HP IMPORT ####
+##
+## In HP, digenic inheritance is a child of 'Mode of Inheritance'.
+## This isn't ideal for our purposes, and so for now it has been
+## placed as a child of 'Genetic Phenomena', but may need to be
+## revisited.
+##
+##
+## Although BFO is used in places, it isn't used for the entire hierarchy,
+## and the terms DRAO currently uses need to be manually placed.
+
+[Source ontology]
+HP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/HP_0001428 # Somatic mutation
+http://purl.obolibrary.org/obo/HP_0002664 # Tumor
+http://purl.obolibrary.org/obo/HP_0010984 # Digenic inheritance
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/HP_0001428 # Somatic mutation
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # disease
+http://purl.obolibrary.org/obo/HP_0002664 # Tumor
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
+http://purl.obolibrary.org/obo/HP_0010984 # Digenic inheritance
+subClassOf http://purl.obolibrary.org/obo/OMIT_0026382 # Genetic Phenomena
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON IAO IMPORT ####
+##
+## The includeAllIntermediates setting has been enabled for this
+## upper-level ontology so that the correct hierarchy can be used for
+## all lower-level ontology imports into the FAIRsharing domain ontology.
+## Upper-level ontologies tend to have fewer classes, while
+## the includeComputedIntermediates setting is used for other
+## imports to reduce bloating of the AO.
+##
+
+[Source ontology]
+IAO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IAO_0000013 # Journal article
+http://purl.obolibrary.org/obo/IAO_0000027 # Data item **Required for FBCV, UO and MS hierarchies**
+http://purl.obolibrary.org/obo/IAO_0000038 # Graph
+http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
+http://purl.obolibrary.org/obo/IAO_0000183 # Dendrogram
+http://purl.obolibrary.org/obo/IAO_0000310 # Document **Required for NCIT hierarchy only**
+http://purl.obolibrary.org/obo/IAO_0000311 # Publication
+http://purl.obolibrary.org/obo/IAO_0000313 # Patent
+http://purl.obolibrary.org/obo/IAO_0000572 # Documenting
+http://purl.obolibrary.org/obo/IAO_0000578 # Centrally registered identifier
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
+#### NOTES ON IDO IMPORT ####
+##
+## IDO uses BFO as an upper-level ontology.
+##
+## includeAllIntermediates has been enabled for IDO
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+## Exotoxin's placement within IDO overriden to be a child of CHEBI's toxin class
+## rather than IDO developers' placement as a child of its own 'toxin' class,
+## which is itself a child of CHEBI 'molecular entity'.
+##
+
+[Source ontology]
+IDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IDO_0000526 # Parasite
+http://purl.obolibrary.org/obo/IDO_0000528 # Pathogen
+http://purl.obolibrary.org/obo/IDO_0000550 # Exotoxin
+http://purl.obolibrary.org/obo/IDO_0000630 # Nosocomial infection
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+http://purl.obolibrary.org/obo/IDO_0000550 # Exotoxin
+subClassOf http://purl.obolibrary.org/obo/CHEBI_27026 # toxin
+## SubClass statement (below) with molecular entity now obsolete now that exotoxin is placed more precisely within CHEBI
+## http://purl.obolibrary.org/obo/CHEBI_23367 # molecular entity **Match how it is asserted within CHEBI itself**
+## subClassOf http://purl.obolibrary.org/obo/CHEBI_24431 # chemical entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON IDOMAL IMPORT ####
+##
+## Although this uses BFO as its ULO, it is making use
+## of the old BFO IRIs. This can cause issues with the hierarchy,
+## so we are mapping our terms directly to DRAO.
+##
+
+[Source ontology]
+IDOMAL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/IDOMAL_0000786 # Glycosylphosphatidylinositol anchor
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IDOMAL_0000786 # Glycosylphosphatidylinositol anchor
+subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON MAMO IMPORT ####
+##
+##
+
+[Source ontology]
+MAMO
+
+[Low level source term URIs]
+http://identifiers.org/mamo/MAMO_0000035 # Network model
+
+[Top level source term URIs and target direct superclass URIs]
+http://identifiers.org/mamo/MAMO_0000035 # Network model
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2004/02/skos/core#prefLabel
+mapTohttp://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2004/02/skos/core#definition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+http://www.w3.org/2004/02/skos/core#altLabel
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON MFOEM IMPORT ####
+##
+## Although MFOEM uses BFO, we are slightly modifying the
+## source hierarchy to remove 'bodily process' and instead
+## use the 'biological_process' hierarchy already present
+## within DRAO.
+##
+
+[Source ontology]
+MFOEM
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MFOEM_000001 # Emotion
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/MF_0000020 # mental process
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON MI IMPORT ####
 ##
@@ -967,151 +1311,20 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
-#### NOTES ON UBERON IMPORT ####
+#### NOTES ON MOD IMPORT ####
 ##
-## UBERON does not make use of any upper-level ontologies,
-## however it does reference BFO occurrent as a parent term
-## of processual entity.
+## MOD does not make use of any upper-level ontologies
 ##
 
 [Source ontology]
-UBERON
+MOD
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/UBERON_0000062 # Organ
-http://purl.obolibrary.org/obo/UBERON_0000104 # Life cycle
-http://purl.obolibrary.org/obo/UBERON_0000105 # Life cycle stage
-http://purl.obolibrary.org/obo/UBERON_0000178 # Blood
-http://purl.obolibrary.org/obo/UBERON_0000479 # Tissue
-http://purl.obolibrary.org/obo/UBERON_0000948 # Heart
-http://purl.obolibrary.org/obo/UBERON_0000955 # Brain
-http://purl.obolibrary.org/obo/UBERON_0001033 # Gustatory system
-http://purl.obolibrary.org/obo/UBERON_0001474 # Bone
-http://purl.obolibrary.org/obo/UBERON_0001911 # Mammary gland
-http://purl.obolibrary.org/obo/UBERON_0002107 # Liver
-http://purl.obolibrary.org/obo/UBERON_0002405 # Immune system
-http://purl.obolibrary.org/obo/UBERON_0004907 # Lower digestive tract
+http://purl.obolibrary.org/obo/MOD_00693 # Glycosylated residue
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
-http://purl.obolibrary.org/obo/UBERON_0000000 # processual entity
-subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/UBPROP_0000001
-mapTo http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON ERO IMPORT ####
-##
-## ERO uses the BFO upper-level ontology. It also uses
-## UBERON's 'material anatomical entity', which is added via
-## the parent hierarchies of the UBERON classes above.
-##
-
-[Source ontology]
-ERO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/ERO_0000086 # Electron density map
-http://purl.obolibrary.org/obo/ERO_0000201 # Microscopy
-http://purl.obolibrary.org/obo/ERO_0000215 # Light microscopy
-http://purl.obolibrary.org/obo/ERO_0000292 # Peptide library
-http://purl.obolibrary.org/obo/ERO_0000328 # Electron microscopy
-http://purl.obolibrary.org/obo/ERO_0000333 # Video
-http://purl.obolibrary.org/obo/ERO_0000401 # Cellular assay
-http://purl.obolibrary.org/obo/ERO_0000478 # Bioactivity
-http://purl.obolibrary.org/obo/ERO_0000833 # Molecular screen **Required for FBCV**
-http://purl.obolibrary.org/obo/ERO_0000911 # Drug combination effect modeling
-http://purl.obolibrary.org/obo/ERO_0001075 # Real time polymerase chain reaction
-http://purl.obolibrary.org/obo/ERO_0001183 # Next generation DNA sequencing
-http://purl.obolibrary.org/obo/ERO_0001218 # Data management **Required for biocuration, not visible to end users, not in Ontodog files**
-http://purl.obolibrary.org/obo/ERO_0001944 # Super-resolution microscopy
-http://purl.obolibrary.org/obo/ERO_0001219 # Quality control
-http://purl.obolibrary.org/obo/ERO_0001235 # Magnetic resonance imaging
-http://purl.obolibrary.org/obo/ERO_0001312 # Imaging
-http://purl.obolibrary.org/obo/ERO_0001677 # Raman spectroscopy
-http://purl.obolibrary.org/obo/ERO_0001688 # RNAi screening
-http://purl.obolibrary.org/obo/ERO_0001728 # MicroRNA expression analysis
-http://purl.obolibrary.org/obo/ERO_0001764 # Polysomnography
-http://purl.obolibrary.org/obo/ERO_0001830 # Positron emission tomography
-http://purl.obolibrary.org/obo/ERO_0002178 # Functional magnetic resonance imaging
-http://purl.obolibrary.org/obo/ERO_0002190 # Resource collection
-http://purl.obolibrary.org/obo/ERO_0100102 # Modeling and simulation
-http://purl.obolibrary.org/obo/ERO_0100106 # Natural language processing
-http://purl.obolibrary.org/obo/ERO_0100148 # Disease process modeling
-http://purl.obolibrary.org/obo/ERO_0100150 # Omics data analysis
-http://purl.obolibrary.org/obo/ERO_0100295 # Data acquisition
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/ERO_0001075 # Real time polymerase chain reaction
-subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
-http://purl.obolibrary.org/obo/ERO_0001219 # Quality control
-subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
-http://purl.obolibrary.org/obo/ERO_0000911 # Drug combination effect modeling
-subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
-http://purl.obolibrary.org/obo/OBI_0000070 # assay **Required to ensure appropriate replication of ULO hierarchy**
-subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
-http://purl.obolibrary.org/obo/BFO_0000040 # material entity **Required to ensure appropriate replication of ULO hierarchy**
-subClassOf http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant
-http://purl.obolibrary.org/obo/IAO_0000030 # Information content entity **Required to ensure appropriate replication of ULO hierarchy**
-subClassOf http://purl.obolibrary.org/obo/BFO_0000031 # generically dependent continuant
-http://purl.obolibrary.org/obo/OBI_0000011 # planned process
-subClassOf http://purl.obolibrary.org/obo/BFO_0000015 # process **Required to ensure appropriate replication of BFO hierarchy**
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000118
-http://www.w3.org/2004/02/skos/core#definition
-mapTo http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON PATO IMPORT ####
-##
-## Please note that PATO uses its own 'quality' class rather
-## than BFO. DRAO has overridden this to use BFO to prevent
-## two 'quality' classes in the hierarchy.
-##
-
-[Source ontology]
-PATO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/PATO_0000018 # Fluorescence
-http://purl.obolibrary.org/obo/PATO_0000043 # Flavor
-http://purl.obolibrary.org/obo/PATO_0000049 # Intensity
-http://purl.obolibrary.org/obo/PATO_0000051 # Morphology
-http://purl.obolibrary.org/obo/PATO_0000052 # Shape
-http://purl.obolibrary.org/obo/PATO_0000058 # Odor
-http://purl.obolibrary.org/obo/PATO_0000141 # Structure
-http://purl.obolibrary.org/obo/PATO_0001018 # physical quality ** Required for SIO and AgroVoc in DRAO-manual.owl**
-http://purl.obolibrary.org/obo/PATO_0001021 # energy **required for AgroVoc in DRAO-manual.owl**
-http://purl.obolibrary.org/obo/PATO_0001415 # Morbidity
-http://purl.obolibrary.org/obo/PATO_0001884 # Hydrophobicity
-http://purl.obolibrary.org/obo/PATO_0001886 # Hydrophilicity
-http://purl.obolibrary.org/obo/PATO_0001993 # Multicellular
-http://purl.obolibrary.org/obo/PATO_0002070 # Affinity
-http://purl.obolibrary.org/obo/PATO_0002146 # Virulence
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/PATO_0001241 # physical object quality
-subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
-http://purl.obolibrary.org/obo/PATO_0000068 # qualitative
-subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://purl.obolibrary.org/obo/MOD_00693 # Glycosylated residue
+subClassOf http://purl.obolibrary.org/obo/GO_0036211 # Protein modification
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -1121,617 +1334,26 @@ http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
 http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+http://purl.obolibrary.org/obo/mod#PSI-MS-label
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON DOID IMPORT ####
-##
-## We prefer the usage of the OGMS disease class to
-## the DOID disease class, so this must be explicitly
-## stated.
-##
-
-[Source ontology]
-DOID
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/DOID_93 # Language disorder
-http://purl.obolibrary.org/obo/DOID_162 # Cancer
-http://purl.obolibrary.org/obo/DOID_302 # Substance abuse
-http://purl.obolibrary.org/obo/DOID_409 # Liver disease
-http://purl.obolibrary.org/obo/DOID_557 # Kidney disease
-http://purl.obolibrary.org/obo/DOID_1826 # Epilepsy
-http://purl.obolibrary.org/obo/DOID_12365 # Malaria
-http://purl.obolibrary.org/obo/DOID_12849 # Autistic disorder
-http://purl.obolibrary.org/obo/DOID_14330 # Parkinson's disease
-http://purl.obolibrary.org/obo/DOID_0080001 # Bone disease
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/DOID_162 # Cancer
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-http://purl.obolibrary.org/obo/DOID_7 # disease of anatomical entity
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-http://purl.obolibrary.org/obo/DOID_863 # nervous system disease
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-http://purl.obolibrary.org/obo/DOID_12365 # Malaria
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-http://purl.obolibrary.org/obo/DOID_150 # disease of mental health
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://purl.obolibrary.org/obo/mod#PSI-MOD-alternate
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+http://purl.obolibrary.org/obo/mod#RESID-alternate
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON FBBI IMPORT ####
-##
-##
-
-[Source ontology]
-FBBI
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/FBbi_00000267 # Animation
-http://purl.obolibrary.org/obo/FBbi_00000364 # Light-sheet illumination
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/FBbi_00000267 # Animation
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://purl.obolibrary.org/obo/FBbi_00000364 # Light-sheet illumination
-subClassOf http://purl.obolibrary.org/obo/ERO_0000201 # microscopy
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-#### NOTES ON SBO IMPORT ####
-##
-## No external ULOs in this ontology
-##
-
-[Source ontology]
-SBO
-
-[Low level source term URIs]
-http://biomodels.net/SBO/SBO_0000027 # Michaelis constant
-http://biomodels.net/SBO/SBO_0000242 # Channel
-http://biomodels.net/SBO/SBO_0000261 # Inhibitory constant
-http://biomodels.net/SBO/SBO_0000414 # Cis element
-http://biomodels.net/SBO/SBO_0000493 # Functional domain
-
-[Top level source term URIs and target direct superclass URIs]
-http://biomodels.net/SBO/SBO_0000545 # systems description parameter
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://biomodels.net/SBO/SBO_0000414 # Cis element
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://biomodels.net/SBO/SBO_0000242 # Channel
-subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
-http://biomodels.net/SBO/SBO_0000493 # Functional domain
-subClassOf http://edamontology.org/data_0883 # Structure
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2000/01/rdf-schema#comment
-mapTo http://purl.obolibrary.org/obo/IAO_0000115
-
-#### NOTES ON OGMS IMPORT ####
-##
-## includeAllIntermediates has been enabled for OGMS
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
-##
-##
-
-[Source ontology]
-OGMS
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
-http://purl.obolibrary.org/obo/OGMS_0000028 # Disease phenotype
-http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
-http://purl.obolibrary.org/obo/OGMS_0000045 # Disorder
-http://purl.obolibrary.org/obo/OGMS_0000063 # Disease course
-http://purl.obolibrary.org/obo/OGMS_0000073 # Diagnosis
-http://purl.obolibrary.org/obo/OGMS_0000093 # Prognosis
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-#### NOTES ON CL IMPORT ####
-##
-## CL has *two* sibling cell classes:
-## http://purl.obolibrary.org/obo/GO_0005623
-## http://purl.obolibrary.org/obo/CL_0000000
-##
-## Although the two are linked via database cross-references,
-## they also remain distinct in the ontology. While we could use
-## equivalence statements, this wouldn't help our programmers,
-## as they aren't necessarily pulling those particular axioms. It
-## is much easier to just retain one of the parents, and as we
-## have extensive GO hierarchies, we have retained the
-## GO Cell URI only.
-##
-## Although CL does not include all of BFO, it includes enough of
-## the hierarchy that includeAllIntermediates is required to ensure
-## correct creation of the entire BFO hierarchy, especially around
-## 'material entity'
-##
-## The 'material anatomical entity' used in CL is from *both*
-## CARO (CARO_0000006) and UBERON (UBERON_0000465).
-## DRAO uses UBERON (UBERON_0000465). As such, wherever CARO_0000006
-## is used within CL, it is overriden by UBERON_0000465.
-##
-
-[Source ontology]
-CL
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/CL_0000034 # Stem cell
-http://purl.obolibrary.org/obo/CL_0000084 # T cell
-http://purl.obolibrary.org/obo/CL_0000451 # Dendritic cell
-http://purl.obolibrary.org/obo/CL_0000540 # Neuron
-http://purl.obolibrary.org/obo/CL_0002248 # Pluripotent stem cell
-http://purl.obolibrary.org/obo/CL_0002322 # Embryonic stem cell
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000002 # continuant
-subClassOf http://purl.obolibrary.org/obo/BFO_0000001 # entity
-http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
-subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
-http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
-subClassOf http://purl.obolibrary.org/obo/UBERON_0000061 # anatomical structure
-http://purl.obolibrary.org/obo/CL_0000003 # native cell
-subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
-http://purl.obolibrary.org/obo/CL_0000540 # neural cell
-subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://purl.obolibrary.org/obo/mod#UniMod-alternate
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+http://purl.obolibrary.org/obo/mod#UniMod-description
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON IDO IMPORT ####
-##
-## IDO uses BFO as an upper-level ontology.
-##
-## includeAllIntermediates has been enabled for IDO
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
-##
-## Exotoxin's placement within IDO overriden to be a child of CHEBI's toxin class
-## rather than IDO developers' placement as a child of its own 'toxin' class,
-## which is itself a child of CHEBI 'molecular entity'.
-##
-
-[Source ontology]
-IDO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/IDO_0000526 # Parasite
-http://purl.obolibrary.org/obo/IDO_0000528 # Pathogen
-http://purl.obolibrary.org/obo/IDO_0000550 # Exotoxin
-http://purl.obolibrary.org/obo/IDO_0000630 # Nosocomial infection
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-http://purl.obolibrary.org/obo/IDO_0000550 # Exotoxin
-subClassOf http://purl.obolibrary.org/obo/CHEBI_27026 # toxin
-## SubClass statement (below) with molecular entity now obsolete now that exotoxin is placed more precisely within CHEBI
-## http://purl.obolibrary.org/obo/CHEBI_23367 # molecular entity **Match how it is asserted within CHEBI itself**
-## subClassOf http://purl.obolibrary.org/obo/CHEBI_24431 # chemical entity
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON SWO IMPORT ####
-##
-## Uses BFO but doesn't contain the full ULO, so
-## we need to map to ensure they go to the right place.
-##
-## There is currently a bug in SWO which incorrectly associates
-## BFO 'process' (BFO_0000015) with the wrong URI (BFO_0000007).
-## Until I get this fixed in SWO, we are directly placing data
-## storage as a child of the correct URI
-##
-
-[Source ontology]
-SWO
-
-[Low level source term URIs]
-http://www.ebi.ac.uk/swo/data/SWO_3000053 # Knowledge representation
-http://www.ebi.ac.uk/swo/interface/SWO_9000051 # Web service
-http://www.ebi.ac.uk/swo/SWO_0000001 # Software
-http://www.ebi.ac.uk/swo/SWO_0000143 # Data storage
-
-[Top level source term URIs and target direct superclass URIs]
-http://www.ebi.ac.uk/swo/data/SWO_3000053 # Knowledge representation
-subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
-http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-subClassOf http://purl.obolibrary.org/obo/BFO_0000031 # generically dependent continuant
-http://www.ebi.ac.uk/swo/SWO_0000143 # Data storage
-subClassOf http://purl.obolibrary.org/obo/BFO_0000015 # process
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON PR IMPORT ####
-##
-## PR uses BFO as an upper-level ontology.
-##
-## includeAllIntermediates has been enabled for PR
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
-##
-## Uses BFO but doesn't contain the full ULO, so
-## we need to map to ensure they go to the right place.
-##
-
-[Source ontology]
-PR
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/PR_000000001 # Protein
-http://purl.obolibrary.org/obo/PR_000037070 # Phosphoprotein
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000040 # material entity
-subClassOf http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://purl.obolibrary.org/obo/mod#DeltaMass-label
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+http://purl.obolibrary.org/obo/mod#RESID-name
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON ENVO IMPORT ####
-##
-## ENVO uses BFO as an upper-level ontology.
-##
-## includeAllIntermediates has been enabled for ENVO
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
-##
-## Please note that ENVO uses the PATO 'quality' class rather
-## than BFO. DRAO has overridden this to use BFO to prevent
-## two 'quality' classes in the hierarchy.
-##
-
-[Source ontology]
-ENVO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/ENVO_00002034 # Biofilm
-http://purl.obolibrary.org/obo/ENVO_00010483 # Environmental material
-http://purl.obolibrary.org/obo/ENVO_01000049 # Marine coral reef biome
-http://purl.obolibrary.org/obo/ENVO_01000204 # Tropical
-http://purl.obolibrary.org/obo/ENVO_01000320 # Marine environment
-http://purl.obolibrary.org/obo/ENVO_01000839 # Combustion
-http://purl.obolibrary.org/obo/ENVO_01001082 # Climate
-http://purl.obolibrary.org/obo/ENVO_01001110 # Ecosystem
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-http://purl.obolibrary.org/obo/PATO_0001241 # physical object quality
-subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://purl.obolibrary.org/obo/mod#PSI-MOD-label
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+http://purl.obolibrary.org/obo/mod#OMSSA-label
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON HP IMPORT ####
-##
-## In HP, digenic inheritance is a child of 'Mode of Inheritance'.
-## This isn't ideal for our purposes, and so for now it has been
-## placed as a child of 'Genetic Phenomena', but may need to be
-## revisited.
-##
-##
-## Although BFO is used in places, it isn't used for the entire hierarchy,
-## and the terms DRAO currently uses need to be manually placed.
-
-[Source ontology]
-HP
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/HP_0001428 # Somatic mutation
-http://purl.obolibrary.org/obo/HP_0002664 # Tumor
-http://purl.obolibrary.org/obo/HP_0010984 # Digenic inheritance
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/HP_0001428 # Somatic mutation
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # disease
-http://purl.obolibrary.org/obo/HP_0002664 # Tumor
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
-http://purl.obolibrary.org/obo/HP_0010984 # Digenic inheritance
-subClassOf http://purl.obolibrary.org/obo/OMIT_0026382 # Genetic Phenomena
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+http://purl.obolibrary.org/obo/mod#RESID-systematic
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON FMA IMPORT ####
-##
-## Overriden source hierarchy to align with existing (larger) hierarchies
-## within DRAO
-##
-
-[Source ontology]
-FMA
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/FMA_70631 # Cell morphology
-http://purl.obolibrary.org/obo/FMA_84795 # Human leukocyte antigen complex
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/FMA_70631 # Cell morphology
-subClassOf http://purl.obolibrary.org/obo/PATO_0000051 # morphology
-http://purl.obolibrary.org/obo/FMA_84795 # Human leukocyte antigen complex
-subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON CLO IMPORT ####
-##
-## includeAllIntermediates has been enabled for CLO
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
-##
-## In OLS, 'cell line' has a single parent, OBI_0001905.
-## In the version stored in Ontobee, it has two, both
-## OBI_0001905 and OBI_0100060. As we are pulling from
-## Ontofox (which draws from Ontobee), the double parentage
-## is replicated here.
-##
-## As we have decided on retaining the GO Cell class only (and not
-## the one from CL), we need to override this ontology's usage
-## of http://purl.obolibrary.org/obo/CL_0000000 and place the
-## children within the GO cell hierarchy (see note in CL Import section).
-##
-
-[Source ontology]
-CLO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/CLO_0000031 # Cell line
-http://purl.obolibrary.org/obo/CLO_0036932 # Hybridoma
-http://purl.obolibrary.org/obo/CLO_0037280 # Human embryonic stem cell line cell
-http://purl.obolibrary.org/obo/CLO_0037308 # human induced pluripotent stem cell line cell
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-
-## These statements ensure that only the GO cell class is retained in DRAO
-## (See note in the CL Import section)
-## http://purl.obolibrary.org/obo/CLO_0036932 # Hybridoma
-## subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
-http://purl.obolibrary.org/obo/CL_0001034 # cell in vitro
-subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
-http://purl.obolibrary.org/obo/CL_0000578 # experimentally modified cell in vitro
-subClassOf http://purl.obolibrary.org/obo/CL_0001034 # cell (GO)
-http://www.ebi.ac.uk/cellline#UnspecifiedCellType
-subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://www.ebi.ac.uk/cellline#Definitions
-mapTo http://purl.obolibrary.org/obo/IAO_0000115
-http://www.ebi.ac.uk/efo/alternative_term
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON CHMO IMPORT ####
-##
-## includeAllIntermediates has been enabled
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
-##
-## Only part of the BFO hierarchy is used (no 'independent
-## continuant' in CHMO)
-##
-
-[Source ontology]
-CHMO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/CHMO_0000156 # X-ray diffraction
-http://purl.obolibrary.org/obo/CHMO_0000228 # Spectroscopy
-http://purl.obolibrary.org/obo/CHMO_0000591 # Nuclear Magnetic Resonance spectroscopy
-http://purl.obolibrary.org/obo/CHMO_0000800 # Spectrum
-http://purl.obolibrary.org/obo/CHMO_0001000 # Chromatography
-http://purl.obolibrary.org/obo/CHMO_0001002 # Gas chromatography
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000015 # process
-http://purl.obolibrary.org/obo/BFO_0000002 # continuant
-http://purl.obolibrary.org/obo/BFO_0000040 # material entity
-subClassOf http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON CHEMINF IMPORT ####
-##
-## includeAllIntermediates has been enabled
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
-##
-##
-
-[Source ontology]
-CHEMINF
-
-[Low level source term URIs]
-http://semanticscience.org/resource/CHEMINF_000106 # Systematic name
-http://semanticscience.org/resource/CHEMINF_000123 # Chemical descriptor
-http://semanticscience.org/resource/CHEMINF_000251 # logP
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.org/dc/elements/1.1/description
-mapTo http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON SIO IMPORT ####
-##
-## While SIO shares a similar hierarchy and naming scheme
-## with various parts of BFO, they use their own SIO IRIs.
-## Therefore we are overriding the top-level SIO and placing
-## our required classes within the BFO and IAO hierarchy to
-## align with the rest of DRAO.
-##
-
-[Source ontology]
-SIO
-
-[Low level source term URIs]
-http://semanticscience.org/resource/SIO_000398 # Nurse
-http://semanticscience.org/resource/SIO_000983 # Gene-disease association
-http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
-http://semanticscience.org/resource/SIO_000998 # Literature curation
-http://semanticscience.org/resource/SIO_001008 # Toxicity
-http://semanticscience.org/resource/SIO_001257 # Chemical-gene association
-http://semanticscience.org/resource/SIO_010423 # Target
-
-[Top level source term URIs and target direct superclass URIs]
-http://semanticscience.org/resource/SIO_000075 # mathematical entity
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://semanticscience.org/resource/SIO_000716 # medical practitioner
-subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
-http://semanticscience.org/resource/SIO_000998 # Literature curation
-subClassOf http://purl.obolibrary.org/obo/IAO_0000572 # Documenting
-http://semanticscience.org/resource/SIO_001008 # Toxicity
-subClassOf http://purl.obolibrary.org/obo/PATO_0001018 # Physical quality
-http://semanticscience.org/resource/SIO_010423 # Target
-subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 # Molecular entity
-http://semanticscience.org/resource/SIO_000983 # Gene-disease association
-subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
-http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
-subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
-http://semanticscience.org/resource/SIO_001257 # Chemical-gene association
-subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.org/dc/elements/1.1/description
-mapTo http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.org/dc/terms/alternativeName
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.org/dc/elements/1.1/alternativeName
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON NCBITaxon IMPORT ####
-##
-## Normally, we wouldn't be adding taxonomy to the domain ontology,
-## but in this case we have made an exception, though this may
-## be revisited in future.
-##
-
-[Source ontology]
-NCBITaxon
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/NCBITaxon_408172 # Marine metagenome
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/NCBITaxon_408172 # Marine metagenome
-subClassOf http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
 
 #### NOTES ON MP IMPORT ####
 ##
@@ -1765,6 +1387,57 @@ http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON MS IMPORT ####
+##
+## No external ULOs in this ontology
+##
+
+[Source ontology]
+MS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MS_1001193 # Confidence score
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/MS_1001193 # Confidence score
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # Data item
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON NCBITaxon IMPORT ####
+##
+## Normally, we wouldn't be adding taxonomy to the domain ontology,
+## but in this case we have made an exception, though this may
+## be revisited in future.
+##
+
+[Source ontology]
+NCBITaxon
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_408172 # Marine metagenome
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCBITaxon_408172 # Marine metagenome
+subClassOf http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
 
 #### NOTES ON NCIT IMPORT ####
 ##
@@ -1876,77 +1549,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
-
-#### NOTES ON MOD IMPORT ####
-##
-## MOD does not make use of any upper-level ontologies
-##
-
-[Source ontology]
-MOD
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/MOD_00693 # Glycosylated residue
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/MOD_00693 # Glycosylated residue
-subClassOf http://purl.obolibrary.org/obo/GO_0036211 # Protein modification
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/mod#PSI-MS-label
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/mod#PSI-MOD-alternate
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/mod#RESID-alternate
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/mod#UniMod-alternate
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/mod#UniMod-description
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/mod#DeltaMass-label
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/mod#RESID-name
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/mod#PSI-MOD-label
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/mod#OMSSA-label
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/mod#RESID-systematic
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON AERO IMPORT ####
-##
-## AERO uses an outdated version of BFO. It is also listed as deprecated
-## within the OBO Foundry. Please see
-## https://github.com/FAIRsharing/domain-ontology/issues/34
-## for more information, as we plan to remove AERO from DRAO.
-##
-
-[Source ontology]
-AERO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/AERO_0000066 # Adverse side effect
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/AERO_0000066 # Adverse side effect
-subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-
-#### NOTES ON VO IMPORT ####
+#### NOTES ON OAE IMPORT ####
 ##
 ## includeAllIntermediates has been enabled
 ## because it uses BFO, and if we just includeComputedIntermediates,
@@ -1954,10 +1557,10 @@ http://purl.obolibrary.org/obo/IAO_0000115
 ##
 
 [Source ontology]
-VO
+OAE
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/VO_0000001 # Vaccine
+http://purl.obolibrary.org/obo/OAE_0000235 # Radiotherapy
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
@@ -1968,30 +1571,397 @@ includeAllIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition
-mapTo http://purl.obolibrary.org/obo/IAO_0000115
 http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#alternative_term
+
+#### NOTES ON OBCS IMPORT ####
+##
+## includeAllIntermediates has been enabled
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+
+[Source ontology]
+OBCS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBCS_0000049 # Accuracy
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/OBI_9991118
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasSynonym
+http://purl.obolibrary.org/obo/OBI_0001847
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
-#### NOTES ON UO IMPORT ####
+
+#### NOTES ON OBI IMPORT ####
+##
+##
+## We have enabled includeAllIntermediates as includeComputedIntermediates
+## for these low-level source term URIs will result in hierarchy compression
+## as follows: from
+##
+## continuant->generically dependent continuant->ICE
+## to
+## continuant->ICE
+##
+## which results in ICE having two asserted parents in the AO, both
+## GDC and continuant. This is a far from satisfactory situation.
+##
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000070 # Assay
+http://purl.obolibrary.org/obo/OBI_0000073 # Sample preparation for assay
+http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
+http://purl.obolibrary.org/obo/OBI_0000115 # Intervention design
+http://purl.obolibrary.org/obo/OBI_0000272 # Protocol
+http://purl.obolibrary.org/obo/OBI_0000415 # Polymerase Chain Reaction
+http://purl.obolibrary.org/obo/OBI_0000423 # Extract
+http://purl.obolibrary.org/obo/OBI_0000427 # Enzyme
+http://purl.obolibrary.org/obo/OBI_0000430 # Plasmid
+http://purl.obolibrary.org/obo/OBI_0000470 # Mass spectrometry assay
+http://purl.obolibrary.org/obo/OBI_0000615 # Protein expression profiling
+http://purl.obolibrary.org/obo/OBI_0000626 # DNA sequencing
+http://purl.obolibrary.org/obo/OBI_0000658 # Data model
+http://purl.obolibrary.org/obo/OBI_0000716 # Chromatin immunoprecipitation - DNA sequencing
+http://purl.obolibrary.org/obo/OBI_0000725 # Host
+http://purl.obolibrary.org/obo/OBI_0000726 # Peak matching
+http://purl.obolibrary.org/obo/OBI_0000729 # Cloning plasmid
+http://purl.obolibrary.org/obo/OBI_0000750 # Independent variable
+http://purl.obolibrary.org/obo/OBI_0000800 # Cross linking
+http://purl.obolibrary.org/obo/OBI_0000844 # Hospital
+http://purl.obolibrary.org/obo/OBI_0000912 # X-ray crystallography assay
+http://purl.obolibrary.org/obo/OBI_0000916 # Flow cytometry assay
+http://purl.obolibrary.org/obo/OBI_0000968 # Device
+http://purl.obolibrary.org/obo/OBI_0001000 # Questionnaire
+http://purl.obolibrary.org/obo/OBI_0001065 # Stereo microscope
+http://purl.obolibrary.org/obo/OBI_0001199 # In vivo design
+http://purl.obolibrary.org/obo/OBI_0001248 # Chromatin immunoprecipitation - DNA microarray
+http://purl.obolibrary.org/obo/OBI_0001271 # RNA sequencing
+http://purl.obolibrary.org/obo/OBI_0001557 # Material storage service
+http://purl.obolibrary.org/obo/OBI_0001686 # In situ hybridization
+http://purl.obolibrary.org/obo/OBI_0001848 # Chromatin Interaction Analysis by Paired-End Tag sequencing
+http://purl.obolibrary.org/obo/OBI_0001850 # Transcript analysis by paired-end tag sequencing
+http://purl.obolibrary.org/obo/OBI_0001876 # Cell culture
+http://purl.obolibrary.org/obo/OBI_0001958 # Systematic review
+http://purl.obolibrary.org/obo/OBI_0001985 # Microarray experiment
+http://purl.obolibrary.org/obo/OBI_0001986 # Immunohistochemistry
+http://purl.obolibrary.org/obo/OBI_0002117 # Whole genome sequencing
+http://purl.obolibrary.org/obo/OBI_0002186 # Electroencephalography
+http://purl.obolibrary.org/obo/OBI_0100014 # Chimera
+http://purl.obolibrary.org/obo/OBI_0200000 # Data transformation
+http://purl.obolibrary.org/obo/OBI_0300311 # Observation design
+http://purl.obolibrary.org/obo/OBI_0302840 # Curated information
+http://purl.obolibrary.org/obo/OBI_0302900 # Group randomization
+http://purl.obolibrary.org/obo/OBI_0302903 # Nucleic acid hybridization
+http://purl.obolibrary.org/obo/OBI_0302914 # Digital curation
+http://purl.obolibrary.org/obo/OBI_0400148 # DNA microarray
+http://purl.obolibrary.org/obo/OBI_0500000 # Study design
+http://purl.obolibrary.org/obo/OBI_0600002 # Tumor grading
+http://purl.obolibrary.org/obo/OBI_0600014 # Material component separation
+http://purl.obolibrary.org/obo/OBI_0600020 # Histology
+http://purl.obolibrary.org/obo/OBI_0600047 # Sequencing
+http://purl.obolibrary.org/obo/OBI_0600053 # Electrophoresis
+http://purl.obolibrary.org/obo/OBI_0600056 # Protease cleavage
+http://purl.obolibrary.org/obo/OBI_1000049 # Whole mount tissue
+http://purl.obolibrary.org/obo/OBI_1110021 # Infection
+http://purl.obolibrary.org/obo/OBI_1110201 # Allergen
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+http://purl.obolibrary.org/obo/OBI_0001479 # specimen from organism
+subClassOf http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
+http://purl.obolibrary.org/obo/OBI_0000680 # whole organism preparation
+subClassOf http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
+http://purl.obolibrary.org/obo/OBI_0302914 # Digital curation
+subClassOf http://purl.obolibrary.org/obo/ERO_0001218 # Data management **please note that this class is not visible to end users of FAIRsharing**
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/OBI_0001847
+http://purl.obolibrary.org/obo/OBI_9991118
+
+
+#### NOTES ON OGI IMPORT ####
+##
+## includeAllIntermediates has been enabled
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+
+[Source ontology]
+OGI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGI_0000042 # Gene regulatory element
+http://purl.obolibrary.org/obo/OGI_0000051 # Genetic marker
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON OGMS IMPORT ####
+##
+## includeAllIntermediates has been enabled for OGMS
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+##
+
+[Source ontology]
+OGMS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
+http://purl.obolibrary.org/obo/OGMS_0000028 # Disease phenotype
+http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://purl.obolibrary.org/obo/OGMS_0000045 # Disorder
+http://purl.obolibrary.org/obo/OGMS_0000063 # Disease course
+http://purl.obolibrary.org/obo/OGMS_0000073 # Diagnosis
+http://purl.obolibrary.org/obo/OGMS_0000093 # Prognosis
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+
+#### NOTES ON OMIT IMPORT ####
+##
+## OMIT makes use of the BFO upper-level hierarchy as well as
+## the GO biological process hierarchy.
+##
+## We have overriden the placement of OMIT_0008490, OMIT_0028415,
+## and OMIT_0025752 to instead be children of PR_000000001
+## (Protein), otherwise we end up with both Protein and Proteins.
+##
+## We have overriden the placement of OMIT_0009360,
+## OMIT_0026082 and OMIT_0025926 to restructure the OMIT Genome
+## hierarchy, otherwise we end up with two Genome classes.
+##
+
+[Source ontology]
+OMIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
+http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
+http://purl.obolibrary.org/obo/OMIT_0003303 # Breeding
+http://purl.obolibrary.org/obo/OMIT_0005506 # DNA damage
+http://purl.obolibrary.org/obo/OMIT_0005718 # Economics
+http://purl.obolibrary.org/obo/OMIT_0005842 # Electrophysiology
+http://purl.obolibrary.org/obo/OMIT_0006299 # Biological evolution
+http://purl.obolibrary.org/obo/OMIT_0006985 # Gene frequency
+http://purl.obolibrary.org/obo/OMIT_0006989 # Patient care
+http://purl.obolibrary.org/obo/OMIT_0007580 # Hematopoiesis
+http://purl.obolibrary.org/obo/OMIT_0008240 # Immunity
+http://purl.obolibrary.org/obo/OMIT_0008430 # Insecticide resistance
+http://purl.obolibrary.org/obo/OMIT_0008490 # Interferon
+http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
+http://purl.obolibrary.org/obo/OMIT_0010452 # Nesting behavior
+http://purl.obolibrary.org/obo/OMIT_0012031 # Poly A
+http://purl.obolibrary.org/obo/OMIT_0012123 # Population dynamics
+http://purl.obolibrary.org/obo/OMIT_0012758 # Radiation
+http://purl.obolibrary.org/obo/OMIT_0012761 # Radiation effects
+http://purl.obolibrary.org/obo/OMIT_0014521 # Teaching material
+http://purl.obolibrary.org/obo/OMIT_0014667 # Thermodynamics
+http://purl.obolibrary.org/obo/OMIT_0015994 # Reproducibility of results
+http://purl.obolibrary.org/obo/OMIT_0018868 # Founder effect
+http://purl.obolibrary.org/obo/OMIT_0019288 # Multimedia
+http://purl.obolibrary.org/obo/OMIT_0019939 # Benchmarking
+http://purl.obolibrary.org/obo/OMIT_0020804 # Quantitative structure-activity relationship
+http://purl.obolibrary.org/obo/OMIT_0021245 # Polyadenylation
+http://purl.obolibrary.org/obo/OMIT_0022673 # Nanotechnology
+http://purl.obolibrary.org/obo/OMIT_0023533 # Regenerative medicine
+http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors
+http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
+http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
+http://purl.obolibrary.org/obo/OMIT_0026382 # Genetic Phenomena
+http://purl.obolibrary.org/obo/OMIT_0026595 # Diffusion tensor imaging
+http://purl.obolibrary.org/obo/OMIT_0026885 # High-throughput screening assay
+http://purl.obolibrary.org/obo/OMIT_0026906 # Workflow
+http://purl.obolibrary.org/obo/OMIT_0026913 # Laboratory automation
+http://purl.obolibrary.org/obo/OMIT_0026947 # Electronic health record
+http://purl.obolibrary.org/obo/OMIT_0028181 # Crowdsourcing
+http://purl.obolibrary.org/obo/OMIT_0028415 # Intrinsically disordered proteins
+http://purl.obolibrary.org/obo/OMIT_0028630 # Non-randomized controlled trials
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+http://purl.obolibrary.org/obo/OMIT_0008490 # Interferon
+subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
+http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors
+subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
+http://purl.obolibrary.org/obo/OMIT_0028415 # Intrinsically disordered proteins
+subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
+
+http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
+http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
+subClassOf http://purl.obolibrary.org/obo/GO_0008152 # Metabolic process
+
+http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
+subClassOf http://purl.obolibrary.org/obo/SO_0001026 # genome
+http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
+subClassOf http://purl.obolibrary.org/obo/SO_0001260 # sequence collection
+
+## The rule below removes an otherwise duplicated Neuroimaging hierarchy.
+http://purl.obolibrary.org/obo/OMIT_0026595 # Diffusion tensor imaging
+subClassOf http://www.ebi.ac.uk/efo/EFO_0004346 # Neuroimaging
+
+http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
+subClassOf http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+
+#### NOTES ON OMP IMPORT ####
+##
+## For the portion of the ontology imported by DRAO, there are no
+## external ULOs used (elsewhere in OMP, both GO and PATO are used).
+## Therefore we need to place our required terms manually.
+##
+
+[Source ontology]
+OMP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMP_0000197 # Microbe-host interaction phenotype
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OMP_0000197 # Microbe-host interaction phenotype
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON PATO IMPORT ####
+##
+## Please note that PATO uses its own 'quality' class rather
+## than BFO. DRAO has overridden this to use BFO to prevent
+## two 'quality' classes in the hierarchy.
+##
+
+[Source ontology]
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0000018 # Fluorescence
+http://purl.obolibrary.org/obo/PATO_0000043 # Flavor
+http://purl.obolibrary.org/obo/PATO_0000049 # Intensity
+http://purl.obolibrary.org/obo/PATO_0000051 # Morphology
+http://purl.obolibrary.org/obo/PATO_0000052 # Shape
+http://purl.obolibrary.org/obo/PATO_0000058 # Odor
+http://purl.obolibrary.org/obo/PATO_0000141 # Structure
+http://purl.obolibrary.org/obo/PATO_0001018 # physical quality ** Required for SIO and AgroVoc in DRAO-manual.owl**
+http://purl.obolibrary.org/obo/PATO_0001021 # energy **required for AgroVoc in DRAO-manual.owl**
+http://purl.obolibrary.org/obo/PATO_0001415 # Morbidity
+http://purl.obolibrary.org/obo/PATO_0001884 # Hydrophobicity
+http://purl.obolibrary.org/obo/PATO_0001886 # Hydrophilicity
+http://purl.obolibrary.org/obo/PATO_0001993 # Multicellular
+http://purl.obolibrary.org/obo/PATO_0002070 # Affinity
+http://purl.obolibrary.org/obo/PATO_0002146 # Virulence
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0001241 # physical object quality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://purl.obolibrary.org/obo/PATO_0000068 # qualitative
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON PECO IMPORT ####
+##
+##
+
+[Source ontology]
+PECO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PECO_0007302 # T-DNA insert exposure
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PECO_0007302 # T-DNA insert
+subClassOf http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON PO IMPORT ####
 ##
 ## No external ULOs in this ontology
 ##
 
 [Source ontology]
-UO
+PO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/UO_0000000 # Unit
+http://purl.obolibrary.org/obo/PO_0007033 # Plant development stage
+http://purl.obolibrary.org/obo/PO_0009005 # Root
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/UO_0000000 # Unit
-subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # Data item
+http://purl.obolibrary.org/obo/PO_0007033 # Plant development stage
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 # life cycle stage
+http://purl.obolibrary.org/obo/PO_0009005 # Root
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000061 # Anatomical structure
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -2004,6 +1974,273 @@ http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON PR IMPORT ####
+##
+## PR uses BFO as an upper-level ontology.
+##
+## includeAllIntermediates has been enabled for PR
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+## Uses BFO but doesn't contain the full ULO, so
+## we need to map to ensure they go to the right place.
+##
+
+[Source ontology]
+PR
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PR_000000001 # Protein
+http://purl.obolibrary.org/obo/PR_000037070 # Phosphoprotein
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+#### NOTES ON PW IMPORT ####
+##
+## No external ULOs in this ontology
+##
+
+[Source ontology]
+PW
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PW_0000001 # Pathway model
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PW_0000001 # Pathway model
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000115
+
+#### NOTES ON SBO IMPORT ####
+##
+## No external ULOs in this ontology
+##
+
+[Source ontology]
+SBO
+
+[Low level source term URIs]
+http://biomodels.net/SBO/SBO_0000027 # Michaelis constant
+http://biomodels.net/SBO/SBO_0000242 # Channel
+http://biomodels.net/SBO/SBO_0000261 # Inhibitory constant
+http://biomodels.net/SBO/SBO_0000414 # Cis element
+http://biomodels.net/SBO/SBO_0000493 # Functional domain
+
+[Top level source term URIs and target direct superclass URIs]
+http://biomodels.net/SBO/SBO_0000545 # systems description parameter
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://biomodels.net/SBO/SBO_0000414 # Cis element
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://biomodels.net/SBO/SBO_0000242 # Channel
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
+http://biomodels.net/SBO/SBO_0000493 # Functional domain
+subClassOf http://edamontology.org/data_0883 # Structure
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+
+#### NOTES ON SIO IMPORT ####
+##
+## While SIO shares a similar hierarchy and naming scheme
+## with various parts of BFO, they use their own SIO IRIs.
+## Therefore we are overriding the top-level SIO and placing
+## our required classes within the BFO and IAO hierarchy to
+## align with the rest of DRAO.
+##
+
+[Source ontology]
+SIO
+
+[Low level source term URIs]
+http://semanticscience.org/resource/SIO_000398 # Nurse
+http://semanticscience.org/resource/SIO_000983 # Gene-disease association
+http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
+http://semanticscience.org/resource/SIO_000998 # Literature curation
+http://semanticscience.org/resource/SIO_001008 # Toxicity
+http://semanticscience.org/resource/SIO_001257 # Chemical-gene association
+http://semanticscience.org/resource/SIO_010423 # Target
+
+[Top level source term URIs and target direct superclass URIs]
+http://semanticscience.org/resource/SIO_000075 # mathematical entity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://semanticscience.org/resource/SIO_000716 # medical practitioner
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
+http://semanticscience.org/resource/SIO_000998 # Literature curation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000572 # Documenting
+http://semanticscience.org/resource/SIO_001008 # Toxicity
+subClassOf http://purl.obolibrary.org/obo/PATO_0001018 # Physical quality
+http://semanticscience.org/resource/SIO_010423 # Target
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 # Molecular entity
+http://semanticscience.org/resource/SIO_000983 # Gene-disease association
+subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
+http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
+subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
+http://semanticscience.org/resource/SIO_001257 # Chemical-gene association
+subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.org/dc/elements/1.1/description
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.org/dc/terms/alternativeName
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.org/dc/elements/1.1/alternativeName
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+
+
+#### NOTES ON SO IMPORT ####
+##
+## The naming convention used within SO does not match that used
+## within FAIRsharing. As such, the matching *FAIRsharing* label
+## is shown in the 'Low Level source term URIs'
+## section below. These labels are applied separately to the FAIRsharing AO via
+## Ontodog, and will not be visible in the Ontofox output produced from this
+## configuration file.
+##
+## Further, the positioning of the SO top-level terms within the BFO
+## hierarchy follows the 2011 paper by Mungall et al. available at
+## https://doi.org/10.1016/j.jbi.2010.03.002
+## This publication states that all top-level SO terms
+## (other than sequence attribute)
+## are GDCs. To further place this at an appropriate level relative to
+## other ontologies used within the AO, we place them into the child of GDC,
+## information content entity.
+##
+## Some low-level terms, e.g. the children of nucleic_acid, have been adjusted
+## so they are placed within the CHEBI hierarchy. Otherwise if we use
+## the hierarchies in their default configuration, we get
+## multiple classes describing Nucleic Acid (CHEBI, SO, and EDAM).
+##
+
+[Source ontology]
+SO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/SO_0000101 # Transposable element
+http://purl.obolibrary.org/obo/SO_0000110 # Sequence feature
+http://purl.obolibrary.org/obo/SO_0000112 # Primer
+http://purl.obolibrary.org/obo/SO_0000147 # Exon
+http://purl.obolibrary.org/obo/SO_0000149 # Contig
+http://purl.obolibrary.org/obo/SO_0000150 # Sequencing read
+http://purl.obolibrary.org/obo/SO_0000162 # Splice site
+http://purl.obolibrary.org/obo/SO_0000167 # Promoter
+http://purl.obolibrary.org/obo/SO_0000178 # Operon
+http://purl.obolibrary.org/obo/SO_0000180 # Retrotransposon
+http://purl.obolibrary.org/obo/SO_0000188 # Intron
+http://purl.obolibrary.org/obo/SO_0000203 # Untranslated region
+http://purl.obolibrary.org/obo/SO_0000234 # Messenger RNA
+http://purl.obolibrary.org/obo/SO_0000239 # Flanking region
+http://purl.obolibrary.org/obo/SO_0000243 # Internal ribosome entry site
+http://purl.obolibrary.org/obo/SO_0000253 # Transfer RNA
+http://purl.obolibrary.org/obo/SO_0000276 # Micro RNA
+http://purl.obolibrary.org/obo/SO_0000289 # Microsatellite
+http://purl.obolibrary.org/obo/SO_0000312 # Experimentally determined
+http://purl.obolibrary.org/obo/SO_0000316 # Coding sequence
+http://purl.obolibrary.org/obo/SO_0000324 # Sequence tag
+http://purl.obolibrary.org/obo/SO_0000330 # Conserved region
+http://purl.obolibrary.org/obo/SO_0000336 # Pseudogene
+http://purl.obolibrary.org/obo/SO_0000371 # Conjugative transposon
+http://purl.obolibrary.org/obo/SO_0000409 # Binding site
+http://purl.obolibrary.org/obo/SO_0000418 # Signal peptide
+http://purl.obolibrary.org/obo/SO_0000436 # Autonomously replicating sequence
+http://purl.obolibrary.org/obo/SO_0000591 # Pseudoknot
+http://purl.obolibrary.org/obo/SO_0000603 # Group II intron
+http://purl.obolibrary.org/obo/SO_0000646 # Small interfering RNA
+http://purl.obolibrary.org/obo/SO_0000655 # Non-coding RNA
+http://purl.obolibrary.org/obo/SO_0000667 # Insertion
+http://purl.obolibrary.org/obo/SO_0000673 # Transcript
+http://purl.obolibrary.org/obo/SO_0000694 # Single nucleotide polymorphism
+http://purl.obolibrary.org/obo/SO_0000704 # Gene
+http://purl.obolibrary.org/obo/SO_0000705 # Tandem repeat
+http://purl.obolibrary.org/obo/SO_0000737 # Mitochondrial sequence
+http://purl.obolibrary.org/obo/SO_0000740 # Plastid sequence
+http://purl.obolibrary.org/obo/SO_0000745 # Chloroplast sequence
+http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA
+http://purl.obolibrary.org/obo/SO_0000771 # Quantitative trait loci
+http://purl.obolibrary.org/obo/SO_0000772 # Genomic island
+http://purl.obolibrary.org/obo/SO_0000857 # Homologous
+http://purl.obolibrary.org/obo/SO_0000858 # Orthologous
+http://purl.obolibrary.org/obo/SO_0000859 # Paralogous
+http://purl.obolibrary.org/obo/SO_0000870 # Trans spliced
+http://purl.obolibrary.org/obo/SO_0000934 # Micro RNA (miRNA) target site
+http://purl.obolibrary.org/obo/SO_0000973 # Insertion sequence
+http://purl.obolibrary.org/obo/SO_0001000 # 16S rRNA
+http://purl.obolibrary.org/obo/SO_0001006 # Prophage
+http://purl.obolibrary.org/obo/SO_0001007 # Cryptic prophage
+http://purl.obolibrary.org/obo/SO_0001021 # Chromosome breakpoint
+http://purl.obolibrary.org/obo/SO_0001023 # Allele
+http://purl.obolibrary.org/obo/SO_0001026 # Genome
+http://purl.obolibrary.org/obo/SO_0001037 # Mobile genetic element
+http://purl.obolibrary.org/obo/SO_0001041 # Viral sequence
+http://purl.obolibrary.org/obo/SO_0001059 # Sequence alteration
+http://purl.obolibrary.org/obo/SO_0001067 # Polypeptide motif
+http://purl.obolibrary.org/obo/SO_0001244 # Pre-miRNA (pre-microRNA)
+http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection **Required for OMIT, VariO and FBCV**
+http://purl.obolibrary.org/obo/SO_0001459 # CRISPR
+http://purl.obolibrary.org/obo/SO_0001505 # Reference genome
+http://purl.obolibrary.org/obo/SO_0001877 # Long non-coding RNA
+http://purl.obolibrary.org/obo/SO_0001956 # Protease site
+http://purl.obolibrary.org/obo/SO_0002031 # Short Hairpin RNA
+http://purl.obolibrary.org/obo/SO_0002096 # Short tandem repeat variation
+http://purl.obolibrary.org/obo/SO_0005836 # Regulatory region
+http://purl.obolibrary.org/obo/SO_0005851 # Gene array
+http://purl.obolibrary.org/obo/SO_1000008 # Point mutation
+http://purl.obolibrary.org/obo/SO_1000032 # Indel
+http://purl.obolibrary.org/obo/SO_1000035 # Nucleotide duplication
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/SO_0000400 # sequence_attribute
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://purl.obolibrary.org/obo/SO_0001260 # sequence_collection
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/SO_0000110 # sequence_feature
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+
+http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000115
 
 #### NOTES ON STATO IMPORT ####
 ##
@@ -2052,23 +2289,33 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://purl.obolibrary.org/obo/STATO_0000032
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
-#### NOTES ON PO IMPORT ####
+#### NOTES ON SWO IMPORT ####
 ##
-## No external ULOs in this ontology
+## Uses BFO but doesn't contain the full ULO, so
+## we need to map to ensure they go to the right place.
+##
+## There is currently a bug in SWO which incorrectly associates
+## BFO 'process' (BFO_0000015) with the wrong URI (BFO_0000007).
+## Until I get this fixed in SWO, we are directly placing data
+## storage as a child of the correct URI
 ##
 
 [Source ontology]
-PO
+SWO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/PO_0007033 # Plant development stage
-http://purl.obolibrary.org/obo/PO_0009005 # Root
+http://www.ebi.ac.uk/swo/data/SWO_3000053 # Knowledge representation
+http://www.ebi.ac.uk/swo/interface/SWO_9000051 # Web service
+http://www.ebi.ac.uk/swo/SWO_0000001 # Software
+http://www.ebi.ac.uk/swo/SWO_0000143 # Data storage
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/PO_0007033 # Plant development stage
-subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 # life cycle stage
-http://purl.obolibrary.org/obo/PO_0009005 # Root
-subClassOf http://purl.obolibrary.org/obo/UBERON_0000061 # Anatomical structure
+http://www.ebi.ac.uk/swo/data/SWO_3000053 # Knowledge representation
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 # generically dependent continuant
+http://www.ebi.ac.uk/swo/SWO_0000143 # Data storage
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 # process
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -2077,162 +2324,37 @@ includeComputedIntermediates
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
 http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
-#### NOTES ON OMP IMPORT ####
+
+#### NOTES ON UBERON IMPORT ####
 ##
-## For the portion of the ontology imported by DRAO, there are no
-## external ULOs used (elsewhere in OMP, both GO and PATO are used).
-## Therefore we need to place our required terms manually.
+## UBERON does not make use of any upper-level ontologies,
+## however it does reference BFO occurrent as a parent term
+## of processual entity.
 ##
 
 [Source ontology]
-OMP
+UBERON
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OMP_0000197 # Microbe-host interaction phenotype
+http://purl.obolibrary.org/obo/UBERON_0000062 # Organ
+http://purl.obolibrary.org/obo/UBERON_0000104 # Life cycle
+http://purl.obolibrary.org/obo/UBERON_0000105 # Life cycle stage
+http://purl.obolibrary.org/obo/UBERON_0000178 # Blood
+http://purl.obolibrary.org/obo/UBERON_0000479 # Tissue
+http://purl.obolibrary.org/obo/UBERON_0000948 # Heart
+http://purl.obolibrary.org/obo/UBERON_0000955 # Brain
+http://purl.obolibrary.org/obo/UBERON_0001033 # Gustatory system
+http://purl.obolibrary.org/obo/UBERON_0001474 # Bone
+http://purl.obolibrary.org/obo/UBERON_0001911 # Mammary gland
+http://purl.obolibrary.org/obo/UBERON_0002107 # Liver
+http://purl.obolibrary.org/obo/UBERON_0002405 # Immune system
+http://purl.obolibrary.org/obo/UBERON_0004907 # Lower digestive tract
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OMP_0000197 # Microbe-host interaction phenotype
-subClassOf http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON OGI IMPORT ####
-##
-## includeAllIntermediates has been enabled
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
-##
-
-[Source ontology]
-OGI
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/OGI_0000042 # Gene regulatory element
-http://purl.obolibrary.org/obo/OGI_0000051 # Genetic marker
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON OBCS IMPORT ####
-##
-## includeAllIntermediates has been enabled
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
-##
-
-[Source ontology]
-OBCS
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/OBCS_0000049 # Accuracy
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/OBI_9991118
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://purl.obolibrary.org/obo/OBI_0001847
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON OAE IMPORT ####
-##
-## includeAllIntermediates has been enabled
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
-##
-
-[Source ontology]
-OAE
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/OAE_0000235 # Radiotherapy
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON MS IMPORT ####
-##
-## No external ULOs in this ontology
-##
-
-[Source ontology]
-MS
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/MS_1001193 # Confidence score
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/MS_1001193 # Confidence score
-subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # Data item
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON MFOEM IMPORT ####
-##
-## Although MFOEM uses BFO, we are slightly modifying the
-## source hierarchy to remove 'bodily process' and instead
-## use the 'biological_process' hierarchy already present
-## within DRAO.
-##
-
-[Source ontology]
-MFOEM
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/MFOEM_000001 # Emotion
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/MF_0000020 # mental process
+http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+http://purl.obolibrary.org/obo/UBERON_0000000 # processual entity
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
 
 [Source term retrieval setting]
@@ -2241,154 +2363,28 @@ includeComputedIntermediates
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
 http://purl.obolibrary.org/obo/IAO_0000115
-http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON IDOMAL IMPORT ####
-##
-## Although this uses BFO as its ULO, it is making use
-## of the old BFO IRIs. This can cause issues with the hierarchy,
-## so we are mapping our terms directly to DRAO.
-##
-
-[Source ontology]
-IDOMAL
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/IDOMAL_0000786 # Glycosylphosphatidylinositol anchor
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/IDOMAL_0000786 # Glycosylphosphatidylinositol anchor
-subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/UBPROP_0000001
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
 http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
-#### NOTES ON PECO IMPORT ####
+
+#### NOTES ON UO IMPORT ####
 ##
-##
-
-[Source ontology]
-EO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/PECO_0007302 # T-DNA insert exposure
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/PECO_0007302 # T-DNA insert
-subClassOf http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON DRON IMPORT ####
-##
-## includeAllIntermediates has been enabled
-## because it uses BFO, and if we just includeComputedIntermediates,
-## then whole sections of the BFO hierarchy are skipped.
+## No external ULOs in this ontology
 ##
 
 [Source ontology]
-DRON
+UO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/DRON_00000025 # FDA approved drug
+http://purl.obolibrary.org/obo/UO_0000000 # Unit
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON CMO IMPORT ####
-##
-##
-
-[Source ontology]
-CMO
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/CMO_0001108 # Disease onset
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/CMO_0000000 # clinical measurement
-subClassOf http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
-
-[Source term retrieval setting]
-includeComputedIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2000/01/rdf-schema#label
-http://purl.obolibrary.org/obo/IAO_0000115
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON FBCV IMPORT ####
-##
-## DRAO does not have an 'Omics' hierarchy right now,
-## instead various '-omes' are collected according to their
-## type (e.g Genome is a 'sequence collection'). This makes things
-## slightly awkward as not all -omes are grouped together. For
-## instance, Interactome is currently placed directly under ICE
-## as it is a collection of interactions, and therefore cannot go
-## as a sibling of Genome (it is not a collection of sequences!).
-##
-## We may chose to have an additional parent class minted within
-## DRAO, named (e.g.) "biological collection" as a child of ICE.
-## This could have various types of biological collections within it
-## such as sequence_collection and Interactome, microbiome etc.
-##
-
-[Source ontology]
-FBCV
-
-[Low level source term URIs]
-http://purl.obolibrary.org/obo/FBcv_0000155 # Single balancer
-http://purl.obolibrary.org/obo/FBcv_0000623 # Enhancer
-http://purl.obolibrary.org/obo/FBcv_0003035 # Proteome
-http://purl.obolibrary.org/obo/FBcv_0003036 # Interactome
-http://purl.obolibrary.org/obo/FBcv_0003039 # Chemical screen
-http://purl.obolibrary.org/obo/FBcv_0003040 # Gene model annotation
-http://purl.obolibrary.org/obo/FBcv_0003195 # Cap Analysis Gene Expression
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/FBcv_0000155 # Single balancer
-subClassOf http://purl.obolibrary.org/obo/CHEBI_24432 # biological role
-http://purl.obolibrary.org/obo/FBcv_0000623 # Enhancer
-subClassOf http://purl.obolibrary.org/obo/CHEBI_24432 # biological role
-http://purl.obolibrary.org/obo/FBcv_0003035 # Proteome
-subClassOf http://purl.obolibrary.org/obo/SO_0001260 # sequence collection
-http://purl.obolibrary.org/obo/FBcv_0003036 # Interactome
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-http://purl.obolibrary.org/obo/FBcv_0003039 # Chemical screen
-subClassOf http://purl.obolibrary.org/obo/ERO_0000833 # Molecular screen
-http://purl.obolibrary.org/obo/FBcv_0003040 # Gene model annotation
-subClassOf http://purl.obolibrary.org/obo/OBI_0200000 # Data transformation
-http://purl.obolibrary.org/obo/FBcv_0003195 # Cap Analysis Gene Expression (CAGE)
-subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # assay
+http://purl.obolibrary.org/obo/UO_0000000 # Unit
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # Data item
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -2431,53 +2427,34 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
-#### NOTES ON MAMO IMPORT ####
+#### NOTES ON VO IMPORT ####
 ##
-##
-
-[Source ontology]
-MAMO
-
-[Low level source term URIs]
-http://identifiers.org/mamo/MAMO_0000035 # Network model
-
-[Top level source term URIs and target direct superclass URIs]
-http://identifiers.org/mamo/MAMO_0000035 # Network model
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
-
-[Source term retrieval setting]
-includeNoIntermediates
-
-[Source annotation URIs]
-http://www.w3.org/2004/02/skos/core#prefLabel
-mapTohttp://www.w3.org/2000/01/rdf-schema#label
-http://www.w3.org/2004/02/skos/core#definition
-mapTo http://purl.obolibrary.org/obo/IAO_0000115
-http://www.w3.org/2004/02/skos/core#altLabel
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-
-#### NOTES ON PW IMPORT ####
-##
-## No external ULOs in this ontology
+## includeAllIntermediates has been enabled
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
 ##
 
 [Source ontology]
-PW
+VO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/PW_0000001 # Pathway model
+http://purl.obolibrary.org/obo/VO_0000001 # Vaccine
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/PW_0000001 # Pathway model
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
 
 [Source term retrieval setting]
-includeComputedIntermediates
+includeAllIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2000/01/rdf-schema#label
-http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
-http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
-mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#definition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/vo/external/external_byhand.owl#alternative_term
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
