@@ -3,7 +3,7 @@
 ##
 
 # By default, this Makefile will build the standalone/merged version of the ontology.
-build: build/robot.jar merge
+build: build/robot.jar add_fs_annotation merge
 
 # The build_release target should be run with a current release number specified
 # with RELNUM, e.g. RELNUM=0.1.0
@@ -31,7 +31,8 @@ ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4
 ROBOT := java -jar build/robot.jar
 
 # The development file
-DEV_FILE := source-owl/DRAO.owl
+SOURCE_DIR := source-owl
+DEV_FILE := $(SOURCE_DIR)/DRAO.owl
 
 # Where all the files created by this makefile should go
 BUILD_DIR := build
@@ -42,6 +43,11 @@ RELEASE_NAME := $(RELEASE_PREFIX)-$(RELNUM).owl
 # The release directory
 RELEASE_TOP_DIR := releases
 RELEASE_DIR := $(RELEASE_TOP_DIR)/$(RELNUM)
+
+# The skeleton OWL file which is used to build the FAIRsharing-specific annotation file
+FSANNOT_SKEL := $(SOURCE_DIR)/DRAO-fsskeleton.owl
+FSANNOT_BUILD := $(BUILD_DIR)/DRAO-fsannotation.owl
+FSANNOT_FINAL := $(SOURCE_DIR)/DRAO-fsannotation.owl
 
 # The standalone OWL file without annotation fixes
 SIMPLE_MERGE_FILE := $(BUILD_DIR)/DRAO-simple-merged.owl
@@ -87,9 +93,15 @@ build/robot.jar: | reqd_build_dirs
 	curl -L -o build/robot.jar $(ROBOT_REMOTE_LOCATION)
 	chmod ug+x build/robot.jar
 
+# Add FAIRsharing-specific annotation to $(FSANNOT)
+add_fs_annotation:
+	$(ROBOT) query --input $(FSANNOT_SKEL) --update $(SOURCE_DIR)/sparql/fsannotation.ru --output $(FSANNOT_BUILD)
+
 merge: tidy_labels
 
 simple_merge:
+	test -f $(FSANNOT_BUILD)
+	cp $(FSANNOT_BUILD) $(FSANNOT_FINAL)
 	$(ROBOT) merge --input $(DEV_FILE) \
 	annotate --ontology-iri $(MERGE_IRI) --output $(SIMPLE_MERGE_FILE)
 
