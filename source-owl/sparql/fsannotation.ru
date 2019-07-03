@@ -65,6 +65,8 @@ INSERT {
   obolib:CHEBI_33712 drao:DRAO_0000001 "N-terminal amino acid residue"@en .
   obolib:CHEBI_33893 obo:inSubset "FAIRsharing"@en .
   obolib:CHEBI_33893 drao:DRAO_0000001 "Reagent"@en .
+  obolib:CHEBI_36976 obo:inSubset "FAIRsharing"@en .
+  obolib:CHEBI_36976 drao:DRAO_0000001 "Nucleotide"@en .
   obolib:CHEBI_50406 obo:inSubset "FAIRsharing"@en .
   obolib:CHEBI_50406 drao:DRAO_0000001 "Probe"@en .
   obolib:CHEBI_50803 obo:inSubset "FAIRsharing"@en .
@@ -235,8 +237,6 @@ INSERT {
   edam:data_3720 drao:DRAO_0000001 "Geographical location"@en .
   edam:data_3754 obo:inSubset "FAIRsharing"@en .
   edam:data_3754 drao:DRAO_0000001 "Gene Ontology enrichment"@en .
-  edam:format_1207 obo:inSubset "FAIRsharing"@en .
-  edam:format_1207 drao:DRAO_0000001 "Nucleotide"@en .
   edam:operation_0226 obo:inSubset "FAIRsharing"@en .
   edam:operation_0269 obo:inSubset "FAIRsharing"@en .
   edam:operation_0292 obo:inSubset "FAIRsharing"@en .
@@ -287,7 +287,6 @@ INSERT {
   edam:topic_3337 obo:inSubset "FAIRsharing"@en .
   edam:topic_3341 obo:inSubset "FAIRsharing"@en .
   edam:topic_3345 obo:inSubset "FAIRsharing"@en .
-  edam:topic_3345 drao:DRAO_0000001 "data identity and mapping"@en .
   edam:topic_3383 obo:inSubset "FAIRsharing"@en .
   edam:topic_3384 obo:inSubset "FAIRsharing"@en .
   edam:topic_3386 obo:inSubset "FAIRsharing"@en .

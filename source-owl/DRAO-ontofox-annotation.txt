@@ -96,6 +96,7 @@ http://purl.obolibrary.org/obo/CHEBI_33697 # Ribonucleic acid
 http://purl.obolibrary.org/obo/CHEBI_33711 # C-terminal amino acid residue
 http://purl.obolibrary.org/obo/CHEBI_33712 # N-terminal amino acid residue
 http://purl.obolibrary.org/obo/CHEBI_33893 # Reagent
+http://purl.obolibrary.org/obo/CHEBI_36976 # Nucleotide
 http://purl.obolibrary.org/obo/CHEBI_50406 # Probe
 http://purl.obolibrary.org/obo/CHEBI_50803 # Nanoparticle
 http://purl.obolibrary.org/obo/CHEBI_51087 # Protecting group
@@ -509,7 +510,6 @@ http://edamontology.org/data_3505 # Bibliography
 http://edamontology.org/data_3671 # Free text
 http://edamontology.org/data_3720 # Geographical location
 http://edamontology.org/data_3754 # Gene Ontology enrichment
-http://edamontology.org/format_1207 # Nucleotide
 http://edamontology.org/operation_0226 # Annotation
 http://edamontology.org/operation_2492 # Protein interaction prediction **Only required for MI interologs mapping**
 http://edamontology.org/operation_0269 # Transmembrane protein prediction
@@ -561,8 +561,6 @@ http://edamontology.org/topic_3386 # Animal research
 
 [Top level source term URIs and target direct superclass URIs]
 http://edamontology.org/data_0006 # data
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # Information content entity
-http://edamontology.org/format_1915 # format
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # Information content entity
 http://edamontology.org/operation_0004 # operation
 subClassOf http://purl.obolibrary.org/obo/OBI_0200000 # data transformation
