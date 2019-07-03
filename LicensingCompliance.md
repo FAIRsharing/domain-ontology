@@ -1,5 +1,6 @@
 External Ontology|DOI / homepage if no DOI|License|FAIRsharing URL
 -----------------|------------------------|-------|---------------
+AgroVoc|http://agrovoc.uniroma2.it/agrovoc/agrovoc/en/, http://www.semantic-web-journal.net/content/agrovoc-linked-dataset|https://creativecommons.org/licenses/by/3.0/igo/|https://doi.org/10.25504/FAIRsharing.anpj91
 BFO|http://basic-formal-ontology.org/ or perhaps Robert Arp, Barry Smith and Andrew Spear: Building Ontologies With Basic Formal Ontology, MIT Press, 2015|http://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.wcpd6f
 CHEBI|https://doi.org/10.1093/nar/gks1146 https://doi.org/10.1093/nar/gkv1031|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.62qk8w
 CHEMINF|https://doi.org/10.1371/journal.pone.0025513|http://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.sjhvyy
