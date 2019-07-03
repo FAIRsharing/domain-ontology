@@ -743,6 +743,8 @@ INSERT {
   obolib:NCIT_C70699 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C70699 drao:DRAO_0000001 "Biological sample"@en .
   obolib:NCIT_C61256 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C64862 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C64862 drao:DRAO_0000001 "Diffusion tensor imaging"@en .
   obolib:NCIT_C66892 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C66892 drao:DRAO_0000001 "Natural product"@en .
   obolib:NCIT_C68821 obo:inSubset "FAIRsharing"@en .
@@ -958,8 +960,6 @@ INSERT {
   obolib:OMIT_0026082 drao:DRAO_0000001 "Metagenome"@en .
   obolib:OMIT_0026382 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0026382 drao:DRAO_0000001 "Genetic Phenomena"@en .
-  obolib:OMIT_0026595 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0026595 drao:DRAO_0000001 "Diffusion tensor imaging"@en .
   obolib:OMIT_0026885 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0026885 drao:DRAO_0000001 "High-throughput screening assay"@en .
   obolib:OMIT_0026906 obo:inSubset "FAIRsharing"@en .
