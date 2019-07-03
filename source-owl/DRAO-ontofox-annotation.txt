@@ -1471,6 +1471,7 @@ http://purl.obolibrary.org/obo/NCIT_C49667 # Safety study
 http://purl.obolibrary.org/obo/NCIT_C54708 # Drug interaction
 http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
 http://purl.obolibrary.org/obo/NCIT_C61256 # Monitoring
+http://purl.obolibrary.org/obo/NCIT_C64862 # Diffusion tensor imaging
 http://purl.obolibrary.org/obo/NCIT_C66892 # Natural product
 http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
 http://purl.obolibrary.org/obo/NCIT_C104154 # Circulating cell-free RNA
@@ -1484,6 +1485,12 @@ subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
 
 http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
 subClassOf http://purl.obolibrary.org/obo/IAO_0000310 # Document
+
+## Diffusion tensor imaging should have two parents, but Ontofox only takes one
+## http://purl.obolibrary.org/obo/NCIT_C64862 # Diffusion tensor imaging
+## subClassOf http://www.ebi.ac.uk/efo/EFO_0004346 # Neuroimaging
+http://purl.obolibrary.org/obo/NCIT_C64862 # Diffusion tensor imaging
+subClassOf http://purl.obolibrary.org/obo/ERO_0001235 # Magnetic resonance imaging
 
 http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
 subClassOf http://purl.obolibrary.org/obo/OBI_0100051 # Specimen
@@ -1808,7 +1815,6 @@ http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Re
 http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
 http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
 http://purl.obolibrary.org/obo/OMIT_0026382 # Genetic Phenomena
-http://purl.obolibrary.org/obo/OMIT_0026595 # Diffusion tensor imaging
 http://purl.obolibrary.org/obo/OMIT_0026885 # High-throughput screening assay
 http://purl.obolibrary.org/obo/OMIT_0026906 # Workflow
 http://purl.obolibrary.org/obo/OMIT_0026913 # Laboratory automation
@@ -1836,10 +1842,6 @@ http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
 subClassOf http://purl.obolibrary.org/obo/SO_0001026 # genome
 http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
 subClassOf http://purl.obolibrary.org/obo/SO_0001260 # sequence collection
-
-## The rule below removes an otherwise duplicated Neuroimaging hierarchy.
-http://purl.obolibrary.org/obo/OMIT_0026595 # Diffusion tensor imaging
-subClassOf http://www.ebi.ac.uk/efo/EFO_0004346 # Neuroimaging
 
 http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
 subClassOf http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
