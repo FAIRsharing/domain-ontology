@@ -554,6 +554,7 @@ http://edamontology.org/topic_1775 # Function analysis
 http://edamontology.org/topic_3175 # DNA structural variation
 http://edamontology.org/topic_3337 # Biobank
 http://edamontology.org/topic_3341 # Clone library
+http://edamontology.org/topic_3345 # Data identity and mapping
 http://edamontology.org/topic_3383 # Biological imaging
 http://edamontology.org/topic_3384 # Medical imaging
 http://edamontology.org/topic_3386 # Animal research
@@ -571,6 +572,8 @@ http://edamontology.org/topic_3383 # Biological imaging
 subClassOf http://purl.obolibrary.org/obo/ERO_0001312 # Imaging
 http://edamontology.org/topic_3384 # Medical imaging
 subClassOf http://purl.obolibrary.org/obo/ERO_0001312 # Imaging
+http://edamontology.org/topic_3345 # Data identity and mapping
+subClassOf http://purl.obolibrary.org/obo/ERO_0001218 # Data management
 
 ##
 ## Moving Topics out of the Topic hierarchy for cleaner hierarchies
@@ -771,7 +774,7 @@ http://purl.obolibrary.org/obo/ERO_0000833 # Molecular screen **Required for FBC
 http://purl.obolibrary.org/obo/ERO_0000911 # Drug combination effect modeling
 http://purl.obolibrary.org/obo/ERO_0001075 # Real time polymerase chain reaction
 http://purl.obolibrary.org/obo/ERO_0001183 # Next generation DNA sequencing
-http://purl.obolibrary.org/obo/ERO_0001218 # Data management **Required for biocuration, not visible to end users, not in Ontodog files**
+http://purl.obolibrary.org/obo/ERO_0001218 # Data management **Required for biocuration and 'data identity and mapping', not visible to end users, not in Ontodog files**
 http://purl.obolibrary.org/obo/ERO_0001944 # Super-resolution microscopy
 http://purl.obolibrary.org/obo/ERO_0001219 # Quality control
 http://purl.obolibrary.org/obo/ERO_0001235 # Magnetic resonance imaging

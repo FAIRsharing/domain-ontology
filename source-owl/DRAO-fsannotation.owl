@@ -404,6 +404,10 @@
     <rdf:Description rdf:about="http://edamontology.org/topic_3341">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/topic_3345">
+        <ontology:DRAO_0000001 xml:lang="en">data identity and mapping</ontology:DRAO_0000001>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/topic_3383">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>

@@ -286,6 +286,8 @@ INSERT {
   edam:topic_3175 obo:inSubset "FAIRsharing"@en .
   edam:topic_3337 obo:inSubset "FAIRsharing"@en .
   edam:topic_3341 obo:inSubset "FAIRsharing"@en .
+  edam:topic_3345 obo:inSubset "FAIRsharing"@en .
+  edam:topic_3345 drao:DRAO_0000001 "data identity and mapping"@en .
   edam:topic_3383 obo:inSubset "FAIRsharing"@en .
   edam:topic_3384 obo:inSubset "FAIRsharing"@en .
   edam:topic_3386 obo:inSubset "FAIRsharing"@en .
