@@ -267,10 +267,6 @@
         <ontology:DRAO_0000001 xml:lang="en">Gene Ontology enrichment</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
-    <rdf:Description rdf:about="http://edamontology.org/format_1207">
-        <ontology:DRAO_0000001 xml:lang="en">Nucleotide</ontology:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/operation_0226">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
@@ -405,7 +401,6 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/topic_3345">
-        <ontology:DRAO_0000001 xml:lang="en">data identity and mapping</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/topic_3383">
@@ -517,6 +512,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33893">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Reagent</ontology:DRAO_0000001>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36976">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <ontology:DRAO_0000001 xml:lang="en">Nucleotide</ontology:DRAO_0000001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50406">
         <ontology:DRAO_0000001 xml:lang="en">Probe</ontology:DRAO_0000001>
