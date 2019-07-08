@@ -716,6 +716,9 @@ INSERT {
   obolib:NCIT_C13445 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C13445 drao:DRAO_0000001 "Gene feature"@en .
   obolib:NCIT_C15222 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C15239 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C15239 drao:DRAO_0000001 "Patient care"@en .
+  obolib:NCIT_C15318 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C17004 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C17004 drao:DRAO_0000001 "Genetic polymorphism"@en .
   obolib:NCIT_C17207 obo:inSubset "FAIRsharing"@en .
@@ -730,6 +733,8 @@ INSERT {
   obolib:NCIT_C18143 drao:DRAO_0000001 "Gene knockout"@en .
   obolib:NCIT_C18469 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C18469 drao:DRAO_0000001 "Protein-protein interaction"@en .
+  obolib:NCIT_C18472 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C18469 drao:DRAO_0000001 "High-throughput screening"@en .
   obolib:NCIT_C18966 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C18966 drao:DRAO_0000001 "Protein expression"@en .
   obolib:NCIT_C26549 obo:inSubset "FAIRsharing"@en .
@@ -752,6 +757,8 @@ INSERT {
   obolib:NCIT_C68821 drao:DRAO_0000001 "Legal regulation"@en .
   obolib:NCIT_C104154 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C104154 drao:DRAO_0000001 "Circulating cell-free RNA"@en .
+  obolib:NCIT_C142529 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C142529 drao:DRAO_0000001 "Electronic health record"@en .
 
   ## OAE
   obolib:OAE_0000235 obo:inSubset "FAIRsharing"@en .
@@ -899,8 +906,6 @@ INSERT {
   obolib:OMIT_0001480 drao:DRAO_0000001 "Machine learning"@en .
   obolib:OMIT_0003072 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0003072 drao:DRAO_0000001 "Biotransformation"@en .
-  obolib:OMIT_0003303 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0003303 drao:DRAO_0000001 "Breeding"@en .
   obolib:OMIT_0005506 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0005506 drao:DRAO_0000001 "DNA damage"@en .
   obolib:OMIT_0005718 obo:inSubset "FAIRsharing"@en .
@@ -911,8 +916,6 @@ INSERT {
   obolib:OMIT_0006299 drao:DRAO_0000001 "Biological evolution"@en .
   obolib:OMIT_0006985 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0006985 drao:DRAO_0000001 "Gene frequency"@en .
-  obolib:OMIT_0006989 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0006989 drao:DRAO_0000001 "Patient care"@en .
   obolib:OMIT_0007580 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0007580 drao:DRAO_0000001 "Hematopoiesis"@en .
   obolib:OMIT_0008240 obo:inSubset "FAIRsharing"@en .
@@ -937,8 +940,6 @@ INSERT {
   obolib:OMIT_0014521 drao:DRAO_0000001 "Teaching material"@en .
   obolib:OMIT_0014667 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0014667 drao:DRAO_0000001 "Thermodynamics"@en .
-  obolib:OMIT_0015994 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0015994 drao:DRAO_0000001 "Reproducibility of results"@en .
   obolib:OMIT_0018868 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0018868 drao:DRAO_0000001 "Founder effect"@en .
   obolib:OMIT_0019288 obo:inSubset "FAIRsharing"@en .
@@ -961,14 +962,10 @@ INSERT {
   obolib:OMIT_0026082 drao:DRAO_0000001 "Metagenome"@en .
   obolib:OMIT_0026382 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0026382 drao:DRAO_0000001 "Genetic Phenomena"@en .
-  obolib:OMIT_0026885 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0026885 drao:DRAO_0000001 "High-throughput screening assay"@en .
   obolib:OMIT_0026906 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0026906 drao:DRAO_0000001 "Workflow"@en .
   obolib:OMIT_0026913 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0026913 drao:DRAO_0000001 "Laboratory automation"@en .
-  obolib:OMIT_0026947 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0026947 drao:DRAO_0000001 "Electronic health record"@en .
   obolib:OMIT_0028181 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0028181 drao:DRAO_0000001 "Crowdsourcing"@en .
   obolib:OMIT_0028415 obo:inSubset "FAIRsharing"@en .
