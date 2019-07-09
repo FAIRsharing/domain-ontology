@@ -1029,6 +1029,10 @@
         <ontology:DRAO_0000001 xml:lang="en">Signaling</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030097">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <ontology:DRAO_0000001 xml:lang="en">Hematopoiesis</ontology:DRAO_0000001>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030431">
         <ontology:DRAO_0000001 xml:lang="en">Sleep</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -1068,6 +1072,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043226">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Organelle</ontology:DRAO_0000001>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043631">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043687">
         <ontology:DRAO_0000001 xml:lang="en">Post-translational protein modification</ontology:DRAO_0000001>
@@ -1329,6 +1336,16 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C15318">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C16507">
+        <ontology:DRAO_0000001 xml:lang="en">DNA damage</ontology:DRAO_0000001>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C16565">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C16710">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C17004">
@@ -1686,10 +1703,6 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Biotransformation</ontology:DRAO_0000001>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0005506">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <ontology:DRAO_0000001 xml:lang="en">DNA damage</ontology:DRAO_0000001>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0005718">
         <ontology:DRAO_0000001 xml:lang="en">Economics</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -1698,21 +1711,9 @@
         <ontology:DRAO_0000001 xml:lang="en">Electrophysiology</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0006299">
-        <ontology:DRAO_0000001 xml:lang="en">Biological evolution</ontology:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0006985">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Gene frequency</ontology:DRAO_0000001>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0007580">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <ontology:DRAO_0000001 xml:lang="en">Hematopoiesis</ontology:DRAO_0000001>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0008240">
-        <ontology:DRAO_0000001 xml:lang="en">Immunity</ontology:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0008430">
         <ontology:DRAO_0000001 xml:lang="en">Insecticide resistance</ontology:DRAO_0000001>
@@ -1769,10 +1770,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0020804">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Quantitative structure-activity relationship</ontology:DRAO_0000001>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0021245">
-        <ontology:DRAO_0000001 xml:lang="en">Polyadenylation</ontology:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0022673">
         <ontology:DRAO_0000001 xml:lang="en">Nanotechnology</ontology:DRAO_0000001>

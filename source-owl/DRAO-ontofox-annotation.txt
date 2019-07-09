@@ -995,6 +995,7 @@ http://purl.obolibrary.org/obo/GO_0017144 # Drug metabolic process
 http://purl.obolibrary.org/obo/GO_0019814 # Immunoglobulin complex
 http://purl.obolibrary.org/obo/GO_0019815 # B cell receptor complex
 http://purl.obolibrary.org/obo/GO_0023052 # Signaling
+http://purl.obolibrary.org/obo/GO_0030097 # Hematopoiesis
 http://purl.obolibrary.org/obo/GO_0030431 # Sleep
 http://purl.obolibrary.org/obo/GO_0031982 # Vesicle
 http://purl.obolibrary.org/obo/GO_0032259 # Methylation
@@ -1005,6 +1006,7 @@ http://purl.obolibrary.org/obo/GO_0036211 # Protein modification
 http://purl.obolibrary.org/obo/GO_0042101 # T cell receptor complex
 http://purl.obolibrary.org/obo/GO_0042571 # Antibody
 http://purl.obolibrary.org/obo/GO_0043226 # Organelle
+http://purl.obolibrary.org/obo/GO_0043631 # RNA polyadenylation
 http://purl.obolibrary.org/obo/GO_0043687 # Post-translational protein modification
 http://purl.obolibrary.org/obo/GO_0044424 # Intracellular part **Required for NCIT Receptor**
 http://purl.obolibrary.org/obo/GO_0046872 # Metal ion binding
@@ -1048,9 +1050,8 @@ http://purl.obolibrary.org/obo/IAO_0000115
 #### NOTES ON HP IMPORT ####
 ##
 ## In HP, digenic inheritance is a child of 'Mode of Inheritance'.
-## This isn't ideal for our purposes, and so for now it has been
-## placed as a child of 'Genetic Phenomena', but may need to be
-## revisited.
+## This isn't ideal for our purposes, and so we have modified its placement
+## to align with the GENO hierarchy, which treats it as a BFO disposition.
 ##
 ##
 ## Although BFO is used in places, it isn't used for the entire hierarchy,
@@ -1070,7 +1071,7 @@ subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # disease
 http://purl.obolibrary.org/obo/HP_0002664 # Tumor
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
 http://purl.obolibrary.org/obo/HP_0010984 # Digenic inheritance
-subClassOf http://purl.obolibrary.org/obo/OMIT_0026382 # Genetic Phenomena
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -1457,7 +1458,11 @@ http://purl.obolibrary.org/obo/NCIT_C13426 # Binding motif
 http://purl.obolibrary.org/obo/NCIT_C13445 # Gene feature
 http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
 http://purl.obolibrary.org/obo/NCIT_C15222 # Diet
+http://purl.obolibrary.org/obo/NCIT_C15239 # Patient care
 http://purl.obolibrary.org/obo/NCIT_C15318 # Reproducibility
+http://purl.obolibrary.org/obo/NCIT_C16507 # DNA damage
+http://purl.obolibrary.org/obo/NCIT_C16565 # Evolution
+http://purl.obolibrary.org/obo/NCIT_C16710 # Immunity
 http://purl.obolibrary.org/obo/NCIT_C17004 # Genetic polymorphism
 http://purl.obolibrary.org/obo/NCIT_C17207 # Transcription factor
 http://purl.obolibrary.org/obo/NCIT_C17253 # Viral Genome
@@ -1509,6 +1514,8 @@ http://purl.obolibrary.org/obo/NCIT_C49667 # Safety study
 subClassOf http://purl.obolibrary.org/obo/OBI_0000066 # Investigation
 http://purl.obolibrary.org/obo/NCIT_C15222 # Diet **I am unhappy with this placement, but following this EFO placement for now. Reason: diet is not always a specification for an experiment, but will be present even under non-experimental conditions.
 subClassOf http://purl.obolibrary.org/obo/OBI_0000272 # Protocol
+http://purl.obolibrary.org/obo/NCIT_C16507 # DNA damage
+subClassOf http://purl.obolibrary.org/obo/OBI_1110122 # Pathological process
 
 http://purl.obolibrary.org/obo/NCIT_C66892 # Natural product
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
@@ -1521,6 +1528,8 @@ http://purl.obolibrary.org/obo/NCIT_C18966 # Protein expression
 subClassOf http://purl.obolibrary.org/obo/GO_0043043 # Peptide biosynthetic process
 http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
 subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
+http://purl.obolibrary.org/obo/NCIT_C16710 # Immunity
+subClassOf http://purl.obolibrary.org/obo/GO_0032501 # multicellular organismal process - hierarchy only, not in FAIRsharing
 
 http://purl.obolibrary.org/obo/NCIT_C18469 # Protein-protein interaction
 subClassOf http://edamontology.org/topic_0128 # Protein interaction
@@ -1553,6 +1562,12 @@ subClassOf http://purl.obolibrary.org/obo/SO_0001026 # Genome
 
 http://purl.obolibrary.org/obo/NCIT_C15318 # Reproducibility
 subClassOf http://purl.obolibrary.org/obo/PATO_0000068 # qualitative
+
+http://purl.obolibrary.org/obo/NCIT_C16565 # Evolution
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000000 # processual entity
+
+http://purl.obolibrary.org/obo/NCIT_C15239 # Patient care
+subClassOf http://purl.obolibrary.org/obo/OAE_0000094 # Therapeutic intervention - just hierarchy, not in FAIRsharing
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -1794,14 +1809,9 @@ OMIT
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
 http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
-http://purl.obolibrary.org/obo/OMIT_0005506 # DNA damage
 http://purl.obolibrary.org/obo/OMIT_0005718 # Economics
 http://purl.obolibrary.org/obo/OMIT_0005842 # Electrophysiology
-http://purl.obolibrary.org/obo/OMIT_0006299 # Biological evolution
 http://purl.obolibrary.org/obo/OMIT_0006985 # Gene frequency
-http://purl.obolibrary.org/obo/OMIT_0006989 # Patient care
-http://purl.obolibrary.org/obo/OMIT_0007580 # Hematopoiesis
-http://purl.obolibrary.org/obo/OMIT_0008240 # Immunity
 http://purl.obolibrary.org/obo/OMIT_0008430 # Insecticide resistance
 http://purl.obolibrary.org/obo/OMIT_0008490 # Interferon
 http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
@@ -1816,7 +1826,6 @@ http://purl.obolibrary.org/obo/OMIT_0018868 # Founder effect
 http://purl.obolibrary.org/obo/OMIT_0019288 # Multimedia
 http://purl.obolibrary.org/obo/OMIT_0019939 # Benchmarking
 http://purl.obolibrary.org/obo/OMIT_0020804 # Quantitative structure-activity relationship
-http://purl.obolibrary.org/obo/OMIT_0021245 # Polyadenylation
 http://purl.obolibrary.org/obo/OMIT_0022673 # Nanotechnology
 http://purl.obolibrary.org/obo/OMIT_0023533 # Regenerative medicine
 http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors
@@ -1848,6 +1857,8 @@ http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
 subClassOf http://purl.obolibrary.org/obo/SO_0001026 # genome
 http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
 subClassOf http://purl.obolibrary.org/obo/SO_0001260 # sequence collection
+http://purl.obolibrary.org/obo/OMIT_0018868 # Founder effect
+subClassOf http://purl.obolibrary.org/obo/SO_0001059 # Sequence alteration
 
 http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
 subClassOf http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
@@ -1864,8 +1875,8 @@ subClassOf http://edamontology.org/operation_2945 # Analysis
 http://purl.obolibrary.org/obo/OMIT_0028630 # Non-randomized controlled trials
 subClassOf http://purl.obolibrary.org/obo/OBI_0000066 # Investigation - hierarchy only, not in FAIRsharing
 
-http://purl.obolibrary.org/obo/OMIT_0006989 # Patient care
-subClassOf http://purl.obolibrary.org/obo/OAE_0000094 # Therapeutic intervention - just hierarchy, not in FAIRsharing
+http://purl.obolibrary.org/obo/OMIT_0012761 # Radiation effects
+subClassOf http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
 
 [Source term retrieval setting]
 includeComputedIntermediates

@@ -443,11 +443,13 @@ INSERT {
   obolib:FBcv_0003040 drao:DRAO_0000001 "Gene model annotation"@en .
   obolib:FBcv_0003195 obo:inSubset "FAIRsharing"@en .
   obolib:FBcv_0003195 drao:DRAO_0000001 "Cap Analysis Gene Expression"@en .
+
   ## FMA
   obolib:FMA_70631 obo:inSubset "FAIRsharing"@en .
   obolib:FMA_70631 drao:DRAO_0000001 "Cell morphology"@en .
   obolib:FMA_84795 obo:inSubset "FAIRsharing"@en .
   obolib:FMA_84795 drao:DRAO_0000001 "Human leukocyte antigen complex"@en .
+
   ## GO
   obolib:GO_0000380 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0000380 drao:DRAO_0000001 "Alternative splicing"@en .
@@ -541,6 +543,8 @@ INSERT {
   obolib:GO_0019815 drao:DRAO_0000001 "B cell receptor complex"@en .
   obolib:GO_0023052 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0023052 drao:DRAO_0000001 "Signaling"@en .
+  obolib:GO_0030097 obo:inSubset "FAIRsharing"@en .
+  obolib:GO_0030097 drao:DRAO_0000001 "Hematopoiesis"@en .
   obolib:GO_0030431 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0030431 drao:DRAO_0000001 "Sleep"@en .
   obolib:GO_0031982 obo:inSubset "FAIRsharing"@en .
@@ -561,6 +565,7 @@ INSERT {
   obolib:GO_0042571 drao:DRAO_0000001 "Antibody"@en .
   obolib:GO_0043226 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0043226 drao:DRAO_0000001 "Organelle"@en .
+  obolib:GO_0043631 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0043687 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0043687 drao:DRAO_0000001 "Post-translational protein modification"@en .
   obolib:GO_0046872 obo:inSubset "FAIRsharing"@en .
@@ -606,7 +611,6 @@ INSERT {
   obolib:HP_0002664 obo:inSubset "FAIRsharing"@en .
   obolib:HP_0002664 drao:DRAO_0000001 "Tumor"@en .
   obolib:HP_0010984 obo:inSubset "FAIRsharing"@en .
-  obolib:HP_0010984 drao:DRAO_0000001 "Digenic inheritance"@en .
 
   ## IAO
   obolib:IAO_0000013 obo:inSubset "FAIRsharing"@en .
@@ -719,6 +723,10 @@ INSERT {
   obolib:NCIT_C15239 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C15239 drao:DRAO_0000001 "Patient care"@en .
   obolib:NCIT_C15318 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C16507 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C16507 drao:DRAO_0000001 "DNA damage"@en .
+  obolib:NCIT_C16565 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C16710 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C17004 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C17004 drao:DRAO_0000001 "Genetic polymorphism"@en .
   obolib:NCIT_C17207 obo:inSubset "FAIRsharing"@en .
@@ -906,20 +914,12 @@ INSERT {
   obolib:OMIT_0001480 drao:DRAO_0000001 "Machine learning"@en .
   obolib:OMIT_0003072 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0003072 drao:DRAO_0000001 "Biotransformation"@en .
-  obolib:OMIT_0005506 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0005506 drao:DRAO_0000001 "DNA damage"@en .
   obolib:OMIT_0005718 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0005718 drao:DRAO_0000001 "Economics"@en .
   obolib:OMIT_0005842 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0005842 drao:DRAO_0000001 "Electrophysiology"@en .
-  obolib:OMIT_0006299 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0006299 drao:DRAO_0000001 "Biological evolution"@en .
   obolib:OMIT_0006985 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0006985 drao:DRAO_0000001 "Gene frequency"@en .
-  obolib:OMIT_0007580 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0007580 drao:DRAO_0000001 "Hematopoiesis"@en .
-  obolib:OMIT_0008240 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0008240 drao:DRAO_0000001 "Immunity"@en .
   obolib:OMIT_0008430 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0008430 drao:DRAO_0000001 "Insecticide resistance"@en .
   obolib:OMIT_0008490 obo:inSubset "FAIRsharing"@en .
@@ -948,8 +948,6 @@ INSERT {
   obolib:OMIT_0019939 drao:DRAO_0000001 "Benchmarking"@en .
   obolib:OMIT_0020804 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0020804 drao:DRAO_0000001 "Quantitative structure-activity relationship"@en .
-  obolib:OMIT_0021245 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0021245 drao:DRAO_0000001 "Polyadenylation"@en .
   obolib:OMIT_0022673 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0022673 drao:DRAO_0000001 "Nanotechnology"@en .
   obolib:OMIT_0023533 obo:inSubset "FAIRsharing"@en .

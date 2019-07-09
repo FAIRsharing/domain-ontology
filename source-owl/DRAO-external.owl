@@ -29,7 +29,6 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <rdfs:label>alternative term</rdfs:label>
         <rdfs:label xml:lang="en">alternative term</rdfs:label>
@@ -37,14 +36,15 @@
         <rdfs:label xml:lang="zh">替代术语</rdfs:label>
         <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which means the same thing as the preferred name (semantically equivalent)</obo:IAO_0000115>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+        <obo:IAO_0000115 xml:lang="en">The preferred lexical label for a resource, in a given language.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
         <rdfs:label xml:lang="en">ISA alternative term</rdfs:label>
         <obo:IAO_0000115>An alternative term used by the ISA tools project (http://isa-tools.org).</obo:IAO_0000115>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-        <obo:IAO_0000115 xml:lang="en">The preferred lexical label for a resource, in a given language.</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
         <rdfs:label xml:lang="en">imported from</rdfs:label>
@@ -5892,6 +5892,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0030097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030097">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hemopoiesis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048513"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The process whose specific outcome is the progression of the myeloid and lymphoid derived organ/tissue systems of the blood and other parts of the body over time, from formation to the mature structure. The site of hemopoiesis is variable during development, but occurs primarily in bone marrow or kidney in many adult vertebrates.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood cell biosynthesis</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">blood cell formation</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemopoiesis</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hematopoiesis</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0030431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030431">
@@ -6276,6 +6291,17 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043603"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044271"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The chemical reactions and pathways resulting in the formation of an amide, any derivative of an oxoacid in which an acidic hydroxy group has been replaced by an amino or substituted amino group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043631">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA polyadenylation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0016070"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The enzymatic addition of a sequence of adenylyl residues at the 3&#39; end of an RNA molecule.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
     </owl:Class>
     
@@ -7036,7 +7062,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010984">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digenic inheritance</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026382"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A type of multifactorial inheritance governed by the simultaneous action of two gene loci.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/hp.owl"/>
     </owl:Class>
@@ -7717,6 +7743,19 @@ ab (not=) E</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15239">
+        <rdfs:label>Patient Care</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000094"/>
+        <obo:IAO_0000118>Patient Care Delivery</obo:IAO_0000118>
+        <obo:IAO_0000115>Any of the services rendered for the benefit of a patient.</obo:IAO_0000115>
+        <obo:IAO_0000118>Patient Care</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C15318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15318">
@@ -7724,6 +7763,43 @@ ab (not=) E</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000068"/>
         <obo:IAO_0000118>Reproducibility</obo:IAO_0000118>
         <obo:IAO_0000115>The ability to yield similar results given a set of constraints.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16507">
+        <rdfs:label>DNA Damage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110122"/>
+        <obo:IAO_0000115>Drug-, radiation-induced, or spontaneous injuries to DNA that introduce deviations from its normal double-helical conformation. These changes include structural distortions that interfere with replication and transcription, as well as point mutations that disrupt base pairs and exert damaging effects on future generations through changes in DNA sequence. If the damage is minor, it can often be repaired (DNA repair); extensive damage can induce apoptosis.</obo:IAO_0000115>
+        <obo:IAO_0000118>DNA Damage</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16565 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16565">
+        <rdfs:label>Evolution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000000"/>
+        <obo:IAO_0000118>Evolution</obo:IAO_0000118>
+        <obo:IAO_0000115>The process by which organism populations change over successive generations that is influenced by gene mutation and natural selection.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16710 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16710">
+        <rdfs:label>Immunity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
+        <obo:IAO_0000115>The protection against infectious disease conferred by the immune response. It encompasses the capacity to distinguish foreign material from self, and to neutralize, eliminate, or metabolize that which is foreign.</obo:IAO_0000115>
+        <obo:IAO_0000118>Immunity</obo:IAO_0000118>
+        <obo:IAO_0000118>immunity</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -9467,16 +9543,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIT_0003033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0003033">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical Phenomena</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026369"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIT_0003051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0003051">
@@ -9520,16 +9586,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIT_0005506 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0005506">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA Damage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0022911"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIT_0005718 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0005718">
@@ -9552,52 +9608,11 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIT_0006299 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0006299">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Evolution</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0022911"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIT_0006985 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0006985">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene Frequency</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026382"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIT_0006989 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0006989">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient Care</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OAE_0000094"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIT_0007580 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0007580">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hematopoiesis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001007"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIT_0008240 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0008240">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001007"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
     
@@ -9729,20 +9744,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0012761">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radiation Effects</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012573"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0012758"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIT_0013231 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0013231">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA Processing, Post-Transcriptional</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001007"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0022911"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026291"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C41332"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
     
@@ -9763,8 +9765,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0014204">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Structure-Activity Relationship</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001007"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001427"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0003033"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
     
@@ -9804,7 +9806,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0018868">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Founder Effect</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026382"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001059"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
     
@@ -9840,32 +9842,12 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIT_0021245 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0021245">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polyadenylation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0013231"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIT_0022673 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0022673">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nanotechnology</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0011790"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0014529"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIT_0022911 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0022911">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic Processes</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026382"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
     
@@ -9911,31 +9893,10 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMIT_0026291 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026291">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biochemical Processes</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0003033"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0026369"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OMIT_0026357 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026357">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical Phenomena</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001007"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMIT_0026369 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026369">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical Phenomena</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001007"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
@@ -12564,22 +12525,19 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -12597,13 +12555,16 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
