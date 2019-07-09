@@ -1483,6 +1483,8 @@ http://purl.obolibrary.org/obo/NCIT_C142529 # Electronic health record
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/NCIT_C4873 # Rare disease - I realize this is a role of a disease, but OK in this location for now
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # disease
+http://purl.obolibrary.org/obo/NCIT_C142529 # Electronic health record
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000123 # clinical data item - hierarchy only, not in FAIRsharing
 
 http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
 subClassOf http://purl.obolibrary.org/obo/IAO_0000310 # Document
@@ -1858,8 +1860,9 @@ subClassOf http://www.ebi.ac.uk/efo/EFO_0002694 # experimental process
 
 http://purl.obolibrary.org/obo/OMIT_0019939 # Benchmarking
 subClassOf http://edamontology.org/operation_2945 # Analysis
+
 http://purl.obolibrary.org/obo/OMIT_0028630 # Non-randomized controlled trials
-subClassOf http://edamontology.org/operation_2945 # Analysis
+subClassOf http://purl.obolibrary.org/obo/OBI_0000066 # Investigation - hierarchy only, not in FAIRsharing
 
 http://purl.obolibrary.org/obo/OMIT_0006989 # Patient care
 subClassOf http://purl.obolibrary.org/obo/OAE_0000094 # Therapeutic intervention - just hierarchy, not in FAIRsharing

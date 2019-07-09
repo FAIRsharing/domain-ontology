@@ -967,7 +967,6 @@ INSERT {
   obolib:OMIT_0026913 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0026913 drao:DRAO_0000001 "Laboratory automation"@en .
   obolib:OMIT_0028181 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0028181 drao:DRAO_0000001 "Crowdsourcing"@en .
   obolib:OMIT_0028415 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0028415 drao:DRAO_0000001 "Intrinsically disordered proteins"@en .
   obolib:OMIT_0028630 obo:inSubset "FAIRsharing"@en .
