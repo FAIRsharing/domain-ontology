@@ -643,6 +643,8 @@ INSERT {
   ## IDOMAL
   obolib:IDOMAL_0000786 obo:inSubset "FAIRsharing"@en .
   obolib:IDOMAL_0000786 drao:DRAO_0000001 "Glycosylphosphatidylinositol anchor"@en .
+  obolib:IDOMAL_0000349 obo:inSubset "FAIRsharing"@en .
+  obolib:IDOMAL_0000349 drao:DRAO_0000001 "Insecticide resistance"@en .
 
   ## MAMO
   mamo:MAMO_0000035 obo:inSubset "FAIRsharing"@en .
@@ -735,8 +737,8 @@ INSERT {
   obolib:NCIT_C17253 drao:DRAO_0000001 "Viral genome"@en .
   obolib:NCIT_C17671 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C17671 drao:DRAO_0000001 "Nuclear receptor"@en .
+  obolib:NCIT_C17962 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C18106 obo:inSubset "FAIRsharing"@en .
-  obolib:NCIT_C18106 drao:DRAO_0000001 "Receptor"@en .
   obolib:NCIT_C18143 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C18143 drao:DRAO_0000001 "Gene knockout"@en .
   obolib:NCIT_C18469 obo:inSubset "FAIRsharing"@en .
@@ -914,22 +916,14 @@ INSERT {
   obolib:OMIT_0001480 drao:DRAO_0000001 "Machine learning"@en .
   obolib:OMIT_0003072 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0003072 drao:DRAO_0000001 "Biotransformation"@en .
-  obolib:OMIT_0005718 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0005718 drao:DRAO_0000001 "Economics"@en .
   obolib:OMIT_0005842 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0005842 drao:DRAO_0000001 "Electrophysiology"@en .
   obolib:OMIT_0006985 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0006985 drao:DRAO_0000001 "Gene frequency"@en .
-  obolib:OMIT_0008430 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0008430 drao:DRAO_0000001 "Insecticide resistance"@en .
   obolib:OMIT_0008490 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0008490 drao:DRAO_0000001 "Interferon"@en .
   obolib:OMIT_0009360 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0009360 drao:DRAO_0000001 "Major histocompatibility complex"@en .
-  obolib:OMIT_0010452 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0010452 drao:DRAO_0000001 "Nesting behavior"@en .
-  obolib:OMIT_0012031 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0012031 drao:DRAO_0000001 "Poly A"@en .
   obolib:OMIT_0012123 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0012123 drao:DRAO_0000001 "Population dynamics"@en .
   obolib:OMIT_0012758 obo:inSubset "FAIRsharing"@en .
@@ -942,14 +936,10 @@ INSERT {
   obolib:OMIT_0014667 drao:DRAO_0000001 "Thermodynamics"@en .
   obolib:OMIT_0018868 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0018868 drao:DRAO_0000001 "Founder effect"@en .
-  obolib:OMIT_0019288 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0019288 drao:DRAO_0000001 "Multimedia"@en .
   obolib:OMIT_0019939 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0019939 drao:DRAO_0000001 "Benchmarking"@en .
   obolib:OMIT_0020804 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0020804 drao:DRAO_0000001 "Quantitative structure-activity relationship"@en .
-  obolib:OMIT_0022673 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0022673 drao:DRAO_0000001 "Nanotechnology"@en .
   obolib:OMIT_0023533 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0023533 drao:DRAO_0000001 "Regenerative medicine"@en .
   obolib:OMIT_0025752 obo:inSubset "FAIRsharing"@en .
@@ -962,8 +952,6 @@ INSERT {
   obolib:OMIT_0026382 drao:DRAO_0000001 "Genetic Phenomena"@en .
   obolib:OMIT_0026906 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0026906 drao:DRAO_0000001 "Workflow"@en .
-  obolib:OMIT_0026913 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0026913 drao:DRAO_0000001 "Laboratory automation"@en .
   obolib:OMIT_0028181 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0028415 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0028415 drao:DRAO_0000001 "Intrinsically disordered proteins"@en .
