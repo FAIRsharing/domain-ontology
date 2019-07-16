@@ -550,6 +550,7 @@ http://edamontology.org/topic_0128 # Protein interaction
 http://edamontology.org/topic_0157 # Sequence composition, complexity and repeats
 http://edamontology.org/topic_0621 # Model organism
 http://edamontology.org/topic_1775 # Function analysis
+http://edamontology.org/topic_3077 # Data acquisition
 http://edamontology.org/topic_3175 # DNA structural variation
 http://edamontology.org/topic_3337 # Biobank
 http://edamontology.org/topic_3341 # Clone library
@@ -593,6 +594,8 @@ http://edamontology.org/topic_1775 # Function analysis
 subClassOf http://edamontology.org/operation_2945 # Analysis
 http://edamontology.org/topic_0157 # Sequence composition, complexity and repeats
 subClassOf http://purl.obolibrary.org/obo/SO_0000400 # sequence_attribute
+http://edamontology.org/topic_3077 # Data acquisition
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
 
 [Source term retrieval setting]
 includeComputedIntermediates
@@ -785,7 +788,6 @@ http://purl.obolibrary.org/obo/ERO_0100102 # Modeling and simulation
 http://purl.obolibrary.org/obo/ERO_0100106 # Natural language processing
 http://purl.obolibrary.org/obo/ERO_0100148 # Disease process modeling
 http://purl.obolibrary.org/obo/ERO_0100150 # Omics data analysis
-http://purl.obolibrary.org/obo/ERO_0100295 # Data acquisition
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/ERO_0001075 # Real time polymerase chain reaction

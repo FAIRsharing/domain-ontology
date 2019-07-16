@@ -281,6 +281,7 @@ INSERT {
   edam:topic_0621 obo:inSubset "FAIRsharing"@en .
   edam:topic_0621 drao:DRAO_0000001 "Model organism"@en .
   edam:topic_1775 obo:inSubset "FAIRsharing"@en .
+  edam:topic_3077 obo:inSubset "FAIRsharing"@en .
   edam:topic_3175 obo:inSubset "FAIRsharing"@en .
   edam:topic_3337 obo:inSubset "FAIRsharing"@en .
   edam:topic_3341 obo:inSubset "FAIRsharing"@en .
@@ -418,8 +419,6 @@ INSERT {
   obolib:ERO_0100148 drao:DRAO_0000001 "Disease process modeling"@en .
   obolib:ERO_0100150 obo:inSubset "FAIRsharing"@en .
   obolib:ERO_0100150 drao:DRAO_0000001 "Omics data analysis"@en .
-  obolib:ERO_0100295 obo:inSubset "FAIRsharing"@en .
-  obolib:ERO_0100295 drao:DRAO_0000001 "Data acquisition"@en .
 
   ## FBBI
   obolib:FBbi_00000267 obo:inSubset "FAIRsharing"@en .

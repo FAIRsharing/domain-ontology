@@ -387,6 +387,9 @@
     <rdf:Description rdf:about="http://edamontology.org/topic_1775">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/topic_3077">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/topic_3175">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
@@ -788,10 +791,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0100150">
         <ontology:DRAO_0000001 xml:lang="en">Omics data analysis</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0100295">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <ontology:DRAO_0000001 xml:lang="en">Data acquisition</ontology:DRAO_0000001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FBbi_00000267">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
