@@ -1822,7 +1822,6 @@ OMIT
 http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
 http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
 http://purl.obolibrary.org/obo/OMIT_0005842 # Electrophysiology
-http://purl.obolibrary.org/obo/OMIT_0006985 # Gene frequency
 http://purl.obolibrary.org/obo/OMIT_0008490 # Interferon
 http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
 http://purl.obolibrary.org/obo/OMIT_0012123 # Population dynamics
