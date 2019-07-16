@@ -280,8 +280,6 @@ INSERT {
   edam:topic_0157 obo:inSubset "FAIRsharing"@en .
   edam:topic_0621 obo:inSubset "FAIRsharing"@en .
   edam:topic_0621 drao:DRAO_0000001 "Model organism"@en .
-  edam:topic_0821 obo:inSubset "FAIRsharing"@en .
-  edam:topic_0821 drao:DRAO_0000001 "Enzyme"@en .
   edam:topic_1775 obo:inSubset "FAIRsharing"@en .
   edam:topic_3175 obo:inSubset "FAIRsharing"@en .
   edam:topic_3337 obo:inSubset "FAIRsharing"@en .

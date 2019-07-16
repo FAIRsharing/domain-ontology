@@ -384,10 +384,6 @@
         <ontology:DRAO_0000001 xml:lang="en">Model organism</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
-    <rdf:Description rdf:about="http://edamontology.org/topic_0821">
-        <ontology:DRAO_0000001 xml:lang="en">Enzyme</ontology:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/topic_1775">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>

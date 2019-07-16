@@ -410,7 +410,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON EDAM IMPORT ####
 ##
-## We have overriden the placement of topic_0821 and topic_3534
+## We have overriden the placement of topic_3534
 ## to remove the EDAM protein hierarchy, otherwise we end up
 ## two protein hierarchies, one from PR and one from EDAM.
 ##
@@ -549,7 +549,6 @@ http://edamontology.org/operation_3799 # Quantification
 http://edamontology.org/topic_0128 # Protein interaction
 http://edamontology.org/topic_0157 # Sequence composition, complexity and repeats
 http://edamontology.org/topic_0621 # Model organism
-http://edamontology.org/topic_0821 # Enzyme
 http://edamontology.org/topic_1775 # Function analysis
 http://edamontology.org/topic_3175 # DNA structural variation
 http://edamontology.org/topic_3337 # Biobank
@@ -576,8 +575,6 @@ subClassOf http://purl.obolibrary.org/obo/ERO_0001218 # Data management
 ##
 ## Moving Topics out of the Topic hierarchy for cleaner hierarchies
 ##
-http://edamontology.org/topic_0821 # Enzymes
-subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
 http://edamontology.org/topic_0128 # Protein interaction
 subClassOf http://purl.obolibrary.org/obo/MI_0000 # Molecular interaction
 http://edamontology.org/data_0916 # Gene report
