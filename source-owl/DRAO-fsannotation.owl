@@ -1708,10 +1708,6 @@
         <ontology:DRAO_0000001 xml:lang="en">Electrophysiology</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0006985">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <ontology:DRAO_0000001 xml:lang="en">Gene frequency</ontology:DRAO_0000001>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0008490">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Interferon</ontology:DRAO_0000001>

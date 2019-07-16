@@ -916,8 +916,6 @@ INSERT {
   obolib:OMIT_0003072 drao:DRAO_0000001 "Biotransformation"@en .
   obolib:OMIT_0005842 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0005842 drao:DRAO_0000001 "Electrophysiology"@en .
-  obolib:OMIT_0006985 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0006985 drao:DRAO_0000001 "Gene frequency"@en .
   obolib:OMIT_0008490 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0008490 drao:DRAO_0000001 "Interferon"@en .
   obolib:OMIT_0009360 obo:inSubset "FAIRsharing"@en .
