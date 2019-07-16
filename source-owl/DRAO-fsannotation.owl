@@ -209,9 +209,6 @@
     <rdf:Description rdf:about="http://edamontology.org/data_2899">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
-    <rdf:Description rdf:about="http://edamontology.org/data_2968">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/data_2976">
         <ontology:DRAO_0000001 xml:lang="en">Amino acid sequence</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -1165,6 +1162,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000064">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Algorithm</ontology:DRAO_0000001>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000101">
+        <ontology:DRAO_0000001 xml:lang="en">Image</ontology:DRAO_0000001>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000183">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
