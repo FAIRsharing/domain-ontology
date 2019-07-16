@@ -213,7 +213,6 @@ INSERT {
   edam:data_2849 obo:inSubset "FAIRsharing"@en .
   edam:data_2851 obo:inSubset "FAIRsharing"@en .
   edam:data_2899 obo:inSubset "FAIRsharing"@en .
-  edam:data_2968 obo:inSubset "FAIRsharing"@en .
   edam:data_2976 obo:inSubset "FAIRsharing"@en .
   edam:data_2976 drao:DRAO_0000001 "Amino acid sequence"@en .
   edam:data_2977 obo:inSubset "FAIRsharing"@en .
@@ -616,6 +615,8 @@ INSERT {
   obolib:IAO_0000038 drao:DRAO_0000001 "Graph"@en .
   obolib:IAO_0000064 obo:inSubset "FAIRsharing"@en .
   obolib:IAO_0000064 drao:DRAO_0000001 "Algorithm"@en .
+  obolib:IAO_0000101 obo:inSubset "FAIRsharing"@en .
+  obolib:IAO_0000101 drao:DRAO_0000001 "Image"@en .
   obolib:IAO_0000183 obo:inSubset "FAIRsharing"@en .
   obolib:IAO_0000183 drao:DRAO_0000001 "Dendrogram"@en .
   obolib:IAO_0000311 obo:inSubset "FAIRsharing"@en .

@@ -491,7 +491,6 @@ http://edamontology.org/data_2717 # Oligonucleotide probe annotation
 http://edamontology.org/data_2849 # Abstract
 http://edamontology.org/data_2851 # Drug structure
 http://edamontology.org/data_2899 # Drug name
-http://edamontology.org/data_2968 # Image
 http://edamontology.org/data_2976 # Amino acid sequence
 http://edamontology.org/data_2976 # Protein sequence
 http://edamontology.org/data_2977 # Nucleic acid sequence
@@ -572,6 +571,12 @@ http://edamontology.org/topic_3384 # Medical imaging
 subClassOf http://purl.obolibrary.org/obo/ERO_0001312 # Imaging
 http://edamontology.org/topic_3345 # Data identity and mapping
 subClassOf http://purl.obolibrary.org/obo/ERO_0001218 # Data management
+http://edamontology.org/data_0942 # 2D PAGE image
+subClassOf http://purl.obolibrary.org/obo/IAO_0000101 # Image
+http://edamontology.org/data_1712 # Chemical structure image
+subClassOf http://purl.obolibrary.org/obo/IAO_0000101 # Image
+http://edamontology.org/data_3153 # Protein image
+subClassOf http://purl.obolibrary.org/obo/IAO_0000101 # Image
 
 ##
 ## Moving Topics out of the Topic hierarchy for cleaner hierarchies
@@ -1101,6 +1106,7 @@ http://purl.obolibrary.org/obo/IAO_0000013 # Journal article
 http://purl.obolibrary.org/obo/IAO_0000027 # Data item **Required for FBCV, UO and MS hierarchies**
 http://purl.obolibrary.org/obo/IAO_0000038 # Graph
 http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
+http://purl.obolibrary.org/obo/IAO_0000101 # Image
 http://purl.obolibrary.org/obo/IAO_0000183 # Dendrogram
 http://purl.obolibrary.org/obo/IAO_0000310 # Document **Required for NCIT hierarchy only**
 http://purl.obolibrary.org/obo/IAO_0000311 # Publication
