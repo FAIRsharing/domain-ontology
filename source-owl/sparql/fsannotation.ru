@@ -357,6 +357,8 @@ INSERT {
   obolib:ENVO_01000320 drao:DRAO_0000001 "Marine environment"@en .
   obolib:ENVO_01000839 obo:inSubset "FAIRsharing"@en .
   obolib:ENVO_01000839 drao:DRAO_0000001 "Combustion"@en .
+  obolib:ENVO_01001023 obo:inSubset "FAIRsharing"@en .
+  obolib:ENVO_01001023 drao:DRAO_0000001 "Radiation"@en .
   obolib:ENVO_01001082 obo:inSubset "FAIRsharing"@en .
   obolib:ENVO_01001082 drao:DRAO_0000001 "Climate"@en .
   obolib:ENVO_01001110 obo:inSubset "FAIRsharing"@en .
@@ -748,6 +750,7 @@ INSERT {
   obolib:NCIT_C26549 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C26549 drao:DRAO_0000001 "Untranslated RNA"@en .
   obolib:NCIT_C41332 obo:inSubset "FAIRsharing"@en .
+  obolib:NCIT_C42753 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C45275 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C45275 drao:DRAO_0000001 "Animal tracking"@en .
   obolib:NCIT_C49667 obo:inSubset "FAIRsharing"@en .
@@ -914,14 +917,10 @@ INSERT {
   obolib:OMIT_0001480 drao:DRAO_0000001 "Machine learning"@en .
   obolib:OMIT_0003072 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0003072 drao:DRAO_0000001 "Biotransformation"@en .
-  obolib:OMIT_0005842 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0005842 drao:DRAO_0000001 "Electrophysiology"@en .
   obolib:OMIT_0008490 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0008490 drao:DRAO_0000001 "Interferon"@en .
   obolib:OMIT_0009360 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0009360 drao:DRAO_0000001 "Major histocompatibility complex"@en .
-  obolib:OMIT_0012758 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0012758 drao:DRAO_0000001 "Radiation"@en .
   obolib:OMIT_0012761 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0012761 drao:DRAO_0000001 "Radiation effects"@en .
   obolib:OMIT_0014521 obo:inSubset "FAIRsharing"@en .
@@ -932,18 +931,12 @@ INSERT {
   obolib:OMIT_0019939 drao:DRAO_0000001 "Benchmarking"@en .
   obolib:OMIT_0020804 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0020804 drao:DRAO_0000001 "Quantitative structure-activity relationship"@en .
-  obolib:OMIT_0023533 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0023533 drao:DRAO_0000001 "Regenerative medicine"@en .
   obolib:OMIT_0025752 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0025752 drao:DRAO_0000001 "Killer-cell Immunoglobulin-like Receptors"@en .
   obolib:OMIT_0025926 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0025926 drao:DRAO_0000001 "Mitochondrial genome"@en .
   obolib:OMIT_0026082 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0026082 drao:DRAO_0000001 "Metagenome"@en .
-  obolib:OMIT_0026382 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0026382 drao:DRAO_0000001 "Genetic Phenomena"@en .
-  obolib:OMIT_0026906 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0026906 drao:DRAO_0000001 "Workflow"@en .
   obolib:OMIT_0028181 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0028415 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0028415 drao:DRAO_0000001 "Intrinsically disordered proteins"@en .

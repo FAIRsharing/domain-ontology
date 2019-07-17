@@ -734,6 +734,7 @@ http://purl.obolibrary.org/obo/ENVO_01000049 # Marine coral reef biome
 http://purl.obolibrary.org/obo/ENVO_01000204 # Tropical
 http://purl.obolibrary.org/obo/ENVO_01000320 # Marine environment
 http://purl.obolibrary.org/obo/ENVO_01000839 # Combustion
+http://purl.obolibrary.org/obo/ENVO_01001023 # Radiation
 http://purl.obolibrary.org/obo/ENVO_01001082 # Climate
 http://purl.obolibrary.org/obo/ENVO_01001110 # Ecosystem
 
@@ -1484,6 +1485,7 @@ http://purl.obolibrary.org/obo/NCIT_C18472 # High-throughput screening
 http://purl.obolibrary.org/obo/NCIT_C18962 # Protein Analysis
 http://purl.obolibrary.org/obo/NCIT_C18966 # Protein expression ** We may wish to merge this with Translation?
 http://purl.obolibrary.org/obo/NCIT_C26549 # Untranslated RNA
+http://purl.obolibrary.org/obo/NCIT_C42753 # Workflow
 http://purl.obolibrary.org/obo/NCIT_C45275 # Animal tracking
 http://purl.obolibrary.org/obo/NCIT_C49667 # Safety study
 http://purl.obolibrary.org/obo/NCIT_C54708 # Drug interaction
@@ -1505,6 +1507,8 @@ http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
 subClassOf http://purl.obolibrary.org/obo/IAO_0000310 # Document
 http://purl.obolibrary.org/obo/NCIT_C17962 # Multimedia
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/NCIT_C42753 # Workflow
+subClassOf http://purl.obolibrary.org/obo/IAO_0000104 # plan specification
 
 ## Diffusion tensor imaging should have two parents, but Ontofox only takes one
 ## http://purl.obolibrary.org/obo/NCIT_C64862 # Diffusion tensor imaging
@@ -1821,21 +1825,16 @@ OMIT
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
 http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
-http://purl.obolibrary.org/obo/OMIT_0005842 # Electrophysiology
 http://purl.obolibrary.org/obo/OMIT_0008490 # Interferon
 http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
-http://purl.obolibrary.org/obo/OMIT_0012758 # Radiation
 http://purl.obolibrary.org/obo/OMIT_0012761 # Radiation effects
 http://purl.obolibrary.org/obo/OMIT_0014521 # Teaching material
 http://purl.obolibrary.org/obo/OMIT_0018868 # Founder effect
 http://purl.obolibrary.org/obo/OMIT_0019939 # Benchmarking
 http://purl.obolibrary.org/obo/OMIT_0020804 # Quantitative structure-activity relationship
-http://purl.obolibrary.org/obo/OMIT_0023533 # Regenerative medicine
 http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors
 http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
 http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
-http://purl.obolibrary.org/obo/OMIT_0026382 # Genetic Phenomena
-http://purl.obolibrary.org/obo/OMIT_0026906 # Workflow
 http://purl.obolibrary.org/obo/OMIT_0028181 # Crowdsourcing
 http://purl.obolibrary.org/obo/OMIT_0028415 # Intrinsically disordered proteins
 http://purl.obolibrary.org/obo/OMIT_0028630 # Non-randomized controlled trials
@@ -1864,6 +1863,11 @@ subClassOf http://purl.obolibrary.org/obo/SO_0001059 # Sequence alteration
 
 http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
 subClassOf http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
+## The parent class below (ICE) isn't ideal, but users may struggle to find it
+## as a child of role, for example.
+## See https://github.com/FAIRsharing/domain-ontology/issues/33 for further info
+http://purl.obolibrary.org/obo/OMIT_0014521 # Teaching material
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 
 http://purl.obolibrary.org/obo/OMIT_0028181 # Crowdsourcing
 subClassOf http://www.ebi.ac.uk/efo/EFO_0002694 # experimental process
