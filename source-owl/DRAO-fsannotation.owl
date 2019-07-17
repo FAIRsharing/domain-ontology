@@ -677,6 +677,10 @@
         <ontology:DRAO_0000001 xml:lang="en">Combustion</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01001023">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <ontology:DRAO_0000001 xml:lang="en">Radiation</ontology:DRAO_0000001>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_01001082">
         <ontology:DRAO_0000001 xml:lang="en">Climate</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -1392,6 +1396,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C41332">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C42753">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C45275">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Animal tracking</ontology:DRAO_0000001>
@@ -1704,10 +1711,6 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Biotransformation</ontology:DRAO_0000001>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0005842">
-        <ontology:DRAO_0000001 xml:lang="en">Electrophysiology</ontology:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0008490">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Interferon</ontology:DRAO_0000001>
@@ -1715,10 +1718,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0009360">
         <ontology:DRAO_0000001 xml:lang="en">Major histocompatibility complex</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0012758">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <ontology:DRAO_0000001 xml:lang="en">Radiation</ontology:DRAO_0000001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0012761">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -1740,10 +1739,6 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Quantitative structure-activity relationship</ontology:DRAO_0000001>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0023533">
-        <ontology:DRAO_0000001 xml:lang="en">Regenerative medicine</ontology:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0025752">
         <ontology:DRAO_0000001 xml:lang="en">Killer-cell Immunoglobulin-like Receptors</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -1755,14 +1750,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0026082">
         <ontology:DRAO_0000001 xml:lang="en">Metagenome</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0026382">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <ontology:DRAO_0000001 xml:lang="en">Genetic Phenomena</ontology:DRAO_0000001>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0026906">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <ontology:DRAO_0000001 xml:lang="en">Workflow</ontology:DRAO_0000001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0028181">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
