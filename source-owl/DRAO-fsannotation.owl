@@ -1716,10 +1716,6 @@
         <ontology:DRAO_0000001 xml:lang="en">Major histocompatibility complex</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0012123">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <ontology:DRAO_0000001 xml:lang="en">Population dynamics</ontology:DRAO_0000001>
-    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0012758">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Radiation</ontology:DRAO_0000001>
@@ -1731,10 +1727,6 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0014521">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <ontology:DRAO_0000001 xml:lang="en">Teaching material</ontology:DRAO_0000001>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0014667">
-        <ontology:DRAO_0000001 xml:lang="en">Thermodynamics</ontology:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0018868">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>

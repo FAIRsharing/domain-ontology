@@ -920,16 +920,12 @@ INSERT {
   obolib:OMIT_0008490 drao:DRAO_0000001 "Interferon"@en .
   obolib:OMIT_0009360 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0009360 drao:DRAO_0000001 "Major histocompatibility complex"@en .
-  obolib:OMIT_0012123 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0012123 drao:DRAO_0000001 "Population dynamics"@en .
   obolib:OMIT_0012758 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0012758 drao:DRAO_0000001 "Radiation"@en .
   obolib:OMIT_0012761 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0012761 drao:DRAO_0000001 "Radiation effects"@en .
   obolib:OMIT_0014521 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0014521 drao:DRAO_0000001 "Teaching material"@en .
-  obolib:OMIT_0014667 obo:inSubset "FAIRsharing"@en .
-  obolib:OMIT_0014667 drao:DRAO_0000001 "Thermodynamics"@en .
   obolib:OMIT_0018868 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0018868 drao:DRAO_0000001 "Founder effect"@en .
   obolib:OMIT_0019939 obo:inSubset "FAIRsharing"@en .
