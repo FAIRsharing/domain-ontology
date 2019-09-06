@@ -5,7 +5,6 @@ http://purl.obolibrary.org/obo/GO_0019015|http://purl.obolibrary.org/obo/NCIT_C1
 http://edamontology.org/operation_2502|http://purl.obolibrary.org/obo/NCIT_C18962
 http://purl.obolibrary.org/obo/AERO_0000066|
 http://purl.obolibrary.org/obo/OMIT_0026595|http://purl.obolibrary.org/obo/NCIT_C64862
-from SRAO|http://edamontology.org/topic_3345
 http://purl.obolibrary.org/obo/OMIT_0026947|http://purl.obolibrary.org/obo/NCIT_C142529
 http://purl.obolibrary.org/obo/OMIT_0015994|http://purl.obolibrary.org/obo/NCIT_C15318
 http://purl.obolibrary.org/obo/OMIT_0026885|http://purl.obolibrary.org/obo/NCIT_C18472
@@ -25,9 +24,3 @@ http://purl.obolibrary.org/obo/OMIT_0026913|
 http://purl.obolibrary.org/obo/OMIT_0026906|http://purl.obolibrary.org/obo/NCIT_C42753
 http://purl.obolibrary.org/obo/OMIT_0026382|
 http://purl.obolibrary.org/obo/OMIT_0012758|http://purl.obolibrary.org/obo/ENVO_01001023
-http://purl.obolibrary.org/obo/OMIT_0022673|TO SRAO, and a refactor to a new IRI (http://purl.obolibrary.org/obo/NCIT_C18478)
-http://purl.obolibrary.org/obo/ERO_0100295|http://edamontology.org/topic_3077|Moved, with IRI intact, from SRAO to DRAO (this line also included in that file). A duplicate ERO IRI then also needs to be refactored to this EDAM IRI.
-http://purl.obolibrary.org/obo/OMIT_0012123|to SRAO|Moved, with IRI intact, from DRAO to SRAO (this line also included in that file).
-http://purl.obolibrary.org/obo/OMIT_0014667|to SRAO|Moved (with a *refactored* IRI) to SRAO. The new IRI will be http://purl.obolibrary.org/obo/NCIT_C17193
-http://purl.obolibrary.org/obo/OMIT_0023533|to SRAO|Moved (with a *refactored* IRI) to SRAO. The new IRI will be http://purl.obolibrary.org/obo/NCIT_C93254
-http://purl.obolibrary.org/obo/OMIT_0005842|to SRAO|Moved (with a *refactored* IRI) to SRAO. The new IRI will be http://purl.obolibrary.org/obo/NCIT_C16540
