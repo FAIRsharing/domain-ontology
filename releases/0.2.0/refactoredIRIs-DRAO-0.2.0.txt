@@ -26,7 +26,7 @@ http://purl.obolibrary.org/obo/OMIT_0026906|http://purl.obolibrary.org/obo/NCIT_
 http://purl.obolibrary.org/obo/OMIT_0026382|
 http://purl.obolibrary.org/obo/OMIT_0012758|http://purl.obolibrary.org/obo/ENVO_01001023
 http://purl.obolibrary.org/obo/OMIT_0022673|TO SRAO, and a refactor to a new IRI (http://purl.obolibrary.org/obo/NCIT_C18478)
-http://purl.obolibrary.org/obo/ERO_0100295|http://edamontology.org/topic_3077|Moved, with IRI intact, from SRAO to DRAO (this line also included in that file). A duplicate ERO IRI then also needs to be refactored to this EDAM IRI.
+http://purl.obolibrary.org/obo/ERO_0100295|http://edamontology.org/topic_3077|http://edamontology.org/topic_3077 has been moved, with IRI intact, from SRAO to DRAO (there is a line to that effect in the SRAO release text file), and has replaced http://purl.obolibrary.org/obo/ERO_0100295
 http://purl.obolibrary.org/obo/OMIT_0012123|to SRAO|Moved, with IRI intact, from DRAO to SRAO (this line also included in that file).
 http://purl.obolibrary.org/obo/OMIT_0014667|to SRAO|Moved (with a *refactored* IRI) to SRAO. The new IRI will be http://purl.obolibrary.org/obo/NCIT_C17193
 http://purl.obolibrary.org/obo/OMIT_0023533|to SRAO|Moved (with a *refactored* IRI) to SRAO. The new IRI will be http://purl.obolibrary.org/obo/NCIT_C93254
