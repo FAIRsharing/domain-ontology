@@ -28,3 +28,6 @@ These two files are present within the release directories of both SRAO and DRAO
 * Additional deletions or refactorings that occur as a result of the movement of IRIs between the two ontologies
 
 The first three columns in these files contain IRIs whose changes are outlined in the fourth column. Their refactoring is covered in the issues listed in the milestone above.
+
+
+Please contact us at contact@fairsharing.org if you have any questions.
