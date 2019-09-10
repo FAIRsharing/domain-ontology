@@ -42,7 +42,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The web location where the ontology file is available. |
 | **Importance:** | MUST |
-| **Value:** | [https://github.com/FAIRsharing/domain-ontology/blob/master/releases/0.1.0/DRAO-release-0.1.0.owl](https://github.com/FAIRsharing/domain-ontology/blob/master/releases/0.1.0/DRAO-release-0.1.0.owl) |
+| **Value:** | [https://github.com/FAIRsharing/domain-ontology/blob/master/releases/0.2.0/DRAO-release-0.2.0.owl](https://github.com/FAIRsharing/domain-ontology/blob/master/releases/0.2.0/DRAO-release-0.2.0.owl) |
 ----
 
 ### A.5 Ontology repository
