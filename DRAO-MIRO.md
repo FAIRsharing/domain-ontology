@@ -1,4 +1,4 @@
-# Summary 
+# Summary
 This document contains conformance details of DRAO with the Minimum Information for Reporting of an Ontology (MIRO) guidelines. Please see [https://github.com/owlcs/miro](https://github.com/owlcs/miro) for full details of the MIRO guidelines.
 
 This is a work in progress. Incomplete sections are marked with a :red_circle: red circle.
@@ -15,7 +15,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The full name of the ontology, including the acronym and the version number referred to in the report. |
 | **Importance:** | MUST |
-| **Value:** | Domain Resource Application Ontology (DRAO), Version 0.1.0 |
+| **Value:** | Domain Resource Application Ontology (DRAO), Version 0.2.0 |
 ----
 
 ### A.2 Ontology owner
@@ -80,7 +80,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The names and citations for other ontology or ontologies in the same general area as the one being reported upon, together with a description on why the one being reported is needed instead or in addition to the others. |
 | **Importance:** | MUST |
-| **Value:** | DRAO is an application ontology and, as such, does not create its own classes. Instead, it pulls all required classes from over 50 publicly-available ontologies. Currently, the following ontologies are used to build DRAO: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. |
+| **Value:** | DRAO is an application ontology and, as such, does not create its own classes. Instead, it pulls all required classes from over 50 publicly-available ontologies. Currently, the following ontologies are used to build DRAO: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. |
 ----
 
 ### B.3 Target audience
@@ -100,7 +100,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The domain or field of interest for the ontology and the boundaries, granularity of representation and coverage of the ontology. State the requirements of the ontology, such as the competency questions it should satisfy. A visualisation or tabular representation is optional, but often helpful to illustrate the scope. |
 | **Importance:** | MUST |
-| **Value:** | DRAO' scope is to describe the defining features of research databases, data standards and data policies. It covers all areas of research in the Natural, Engineering, and Social Sciences.|
+| **Value:** | DRAO's scope is to describe the defining features of research databases, data standards and data policies. It covers all areas of research in the Natural, Engineering, and Social Sciences.|
 ----
 
 ### C.2 Development community
@@ -129,7 +129,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | How the knowledge in the ontology was gathered, sorted, verified, etc. |
 | **Importance:** | MUST |
-| **Value:** | DRAO is an application ontology and, as such, does not create its own classes. Instead, it pulls all required classes from over 50 publicly-available ontologies. Currently, the following ontologies are used to build DRAO: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. Issues with the hierarchy (e.g. duplicate labels from different ontologies, and mistakes due to different versions of the same ontology being imported) were manually resolved. Full details of the knowledge aquisition methodology, and issues arising from it, are available at the [DRAO Development](https://github.com/FAIRsharing/domain-ontology/blob/master/Development.md) page. |
+| **Value:** | DRAO is an application ontology and, as such, does not create its own classes. Instead, it pulls all required classes from over 50 publicly-available ontologies. Currently, the following ontologies are used to build DRAO: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. Issues with the hierarchy (e.g. duplicate labels from different ontologies, and mistakes due to different versions of the same ontology being imported) were manually resolved. Full details of the knowledge acquisition methodology, and issues arising from it, are available at the [DRAO Development](https://github.com/FAIRsharing/domain-ontology/blob/master/Development.md) page. |
 ----
 
 ### D.2 Source knowledge location
@@ -167,7 +167,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The tool(s) used in developing the ontology. |
 | **Importance:** | OPTIONAL |
-| **Value:** | [Ontofox](http://ontofox.hegroup.org/) (Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse. BMC Research Notes. 2010, 3:175. PMID: 20569493) and [Ontodog](http://ontodog.hegroup.org/) (Zheng J, Xiang Z, Stoeckert Jr. CJ, He Y. Ontodog: a web-based ontology community view generation tool. Bioinformatics. 2014; doi: 10.1093/bioinformatics/btu008) have been used to build the subset ontology files and associated annotation. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0; Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003) has been used to create the core OWL file and to view the ontology. [ROBOT](http://robot.obolibrary.org/) was used to merge all development ontology files and build the releases. |
+| **Value:** | [Ontofox](http://ontofox.hegroup.org/) (Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse. BMC Research Notes. 2010, 3:175. PMID: 20569493) has been used to build the subset ontology files and associated annotation. [Ontodog](http://ontodog.hegroup.org/) (Zheng J, Xiang Z, Stoeckert Jr. CJ, He Y. Ontodog: a web-based ontology community view generation tool. Bioinformatics. 2014; doi: 10.1093/bioinformatics/btu008) was used for the 0.1.0 release. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0; Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003) has been used to create the core OWL file and to view the ontology. [ROBOT](http://robot.obolibrary.org/) ([publication](https://doi.org/10.1186/s12859-019-3002-3))was used to add FAIRsharing-specific annotation, to merge all development ontology files and to build the releases. |
 ----
 
 ### E.3 Ontology metrics
@@ -176,7 +176,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | Number of classes, properties, axioms and types of axioms, rules and individuals in the ontology. |
 | **Importance:** | SHOULD |
-| **Value:** | DRAO includes 1030 classes, 0 object properties, 18 annotation properties, 7541 axioms (1253 SubClassOf axioms), 0 rules, 0 individuals.  |
+| **Value:** | DRAO includes 978 classes, 1 object properties, 11 annotation properties, 7489 axioms (1168 SubClassOf axioms), 0 rules, 0 individuals.  |
 ----
 
 ### E.4 Incorporation of other ontologies
@@ -185,7 +185,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The names, versions and citations of external ontologies imported into the ontology and where they are placed in the host ontology. |
 | **Importance:** | MUST |
-| **Value:** | DRAO is an application ontology and, as such, does not create its own classes. Instead, it pulls all required classes from over 50 publicly-available ontologies. Currently, the following ontologies are used to build DRAO: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. (This was already listed in B2 and D1, for slightly different reasons.) All versions were as listed in Ontobee on the days they were retrieved (see last modification dates in the GitHub repository). Placement within DRAO will primarily follow the external ontologies' own hierarchy, except where that causes direct issues with other classes within DRAO. In such cases, the default hierarchy is manually overriden within the Ontofox configuration file. More information is available in the [DRAO Development](https://github.com/FAIRsharing/domain-ontology/blob/master/Development.md) page. :red_circle: Versions and citations not added. |
+| **Value:** | DRAO is an application ontology and, as such, does not create its own classes. Instead, it pulls all required classes from over 50 publicly-available ontologies. Currently, the following ontologies are used to build DRAO: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. (This was already listed in B2 and D1, for slightly different reasons.) All versions were as listed in Ontobee on the days they were retrieved (see last modification dates in the GitHub repository). Placement within DRAO will primarily follow the external ontologies' own hierarchy, except where that causes direct issues with other classes within DRAO. In such cases, the default hierarchy is manually overriden within the Ontofox configuration file. More information is available in the [DRAO Development](https://github.com/FAIRsharing/domain-ontology/blob/master/Development.md) page. A full list of citations are available in the [Licensing Compliance](LicensingCompliance.md) document. :red_circle: Versions not added. |
 ----
 
 ### E.5 Entity naming convention
@@ -233,7 +233,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 | **Value:** | DRAO requires only simple subclass relationships in order to provide hierarchical tagging for FAIRsharing records. Therefore currently no other relationships are used. |
 ----
 
-### E.10 Axiom patterns 
+### E.10 Axiom patterns
 
 |  | Specification |
 |---|---|
@@ -242,7 +242,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 | **Value:** | As an application ontology, DRAO does not create its own classes. As such it does not have a defined axiom pattern.|
 ----
 
-### E.11 Dereferenceable IRIs 
+### E.11 Dereferenceable IRIs
 
 |  | Specification |
 |---|---|
@@ -253,7 +253,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 
 ## F. Managing Change
 
-### F.1 Sustainability plan 
+### F.1 Sustainability plan
 
 |  | Specification |
 |---|---|
@@ -262,7 +262,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 | **Value:** | DRAO is maintained by the FAIRsharing Team, and will be actively maintained and developed for the lifetime of this project. Additions to DRAO occur when the FAIRsharing community adds tags to their records in the "Knowledge Domains" of a FAIRsharing entry. If they create a new tag, FAIRsharing curators assess that tag and, if appropriate, place it within either SRAO or DRAO. Otherwise, it will remain in our manually-curated "User-defined tag" vocabulary. |
 ----
 
-### F.2 Entity deprecation strategy 
+### F.2 Entity deprecation strategy
 
 |  | Specification |
 |---|---|
@@ -327,5 +327,3 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 | **Importance:** | MUST |
 | **Value:** | DRAO is used to tag and link FAIRsharing records. |
 ----
-
-
