@@ -16,7 +16,7 @@
         <owl:imports rdf:resource="http://www.fairsharing.org/ontology/DRAO-manual.owl"/>
         <owl:imports rdf:resource="http://www.fairsharing.org/ontology/external/DRAO-external.owl"/>
         <owl:imports rdf:resource="http://www.fairsharing.org/ontology/external/DRAO-fsannotation.owl"/>
-        <rdfs:comment>The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures using Ontofox (PMID: 20569493) and Ontodog (doi: 10.1093/bioinformatics/btu008).
+        <rdfs:comment xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures using Ontofox (PMID: 20569493) and ROBOT (https://doi.org/10.1186/s12859-019-3002-3).
 
 AgroVoc and PRIDE classes were manually added as required.
 
