@@ -30,8 +30,8 @@ diff_release: check_relnum
 ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.1/robot.jar
 ROBOT := java -jar build/robot.jar
 
-# The development file
-SOURCE_DIR := source-owl
+# The development directory and file
+SOURCE_DIR := development
 DEV_FILE := $(SOURCE_DIR)/DRAO.owl
 
 # Where all the files created by this makefile should go
