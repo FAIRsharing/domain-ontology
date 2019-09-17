@@ -3,7 +3,7 @@ Required Annotation Properties
 
 Allyson Lister (AL)
 Created June 20 2017
-Last Updated 10 September 2019
+Last Updated 17 September 2019
 
 Description
 ^^^^^^^^^^^
@@ -49,7 +49,8 @@ We would like FAIRsharing to be aware of synonyms within the disciplines and dom
 
 Any time there is a 'FAIRsharing alternative term' for any class,
 this alternative term should be used by the FAIRsharing code in
-preference to the rdfs:label. 'FAIRsharing alternative term' is used
+preference to the rdfs:label. The rdfs:label should then be displayed
+as part of the synonyms list. 'FAIRsharing alternative term' is used
 when we wish to *override* the original label and use our own.
 
 Within SRAO, you can see the namespaces are declared as follows:
