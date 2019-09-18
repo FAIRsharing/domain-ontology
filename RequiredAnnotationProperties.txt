@@ -42,10 +42,16 @@ Example:
 We would like FAIRsharing to be aware of synonyms within the disciplines and domain OWL files. These are marked with the following annotation properties (the annotation property hierarchy is shown via indentation in the list below):
 
 'alternative term' IAO_0000118
+    'AgroPortal alternative term' fairsharing:SRAO_0000279
+    'AgroVoc alternative term' fairsharing:SRAO_0000278
     'EDAM alternative term' fairsharing:SRAO_0000269
     'FAIRsharing alternative term'  fairsharing:DRAO_0000001
-    're3data alternative term' fairsharing:SRAO_0000268
+    'NCIT alternative term' fairsharing:SRAO_0000276
+    'OBI alternative term' fairsharing:SRAO_0000317
     'OMIT alternative term' fairsharing:SRAO_0000272
+    'PO alternative term' fairsharing:SRAO_0000292
+    're3data alternative term' fairsharing:SRAO_0000268
+    
 
 Any time there is a 'FAIRsharing alternative term' for any class,
 this alternative term should be used by the FAIRsharing code in
