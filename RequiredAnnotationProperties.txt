@@ -24,8 +24,16 @@ rdfs:label
 Required: If any AO object does not have an rdfs:label, it should be
 flagged by the system
 
-Please note: Some external ontologies used in DRAO have multiple rdfs:labels. (e.g. http://purl.obolibrary.org/obo/CL_0000540). This should not happen, but if it does there isn't anything the DRAO import procedures can easily do with it. Equally, as some classes (e.g. BFO's generically dependent continuant) are imported via multiple external ontologies (lots of ontologies use BFO as their upper-level ontology), the nature of the automated import procedure means that multiple identical rdfs:labels may be included. For all instances like this, as long as the multiple rdfs:label values are identical, you only need to take one. If the values in rdfs:label are different, the loading/parsing program for FAIRsharing should report a possible issue. 
+**Note on multiple rdfs:labels in a single class**
 
+Please note: Some classes used in DRAO have multiple rdfs:labels. (e.g. http://purl.obolibrary.org/obo/CL_0000540). There are three main reasons for this (though there may be others):
+1. The external ontology simply has multiple rdfs:labels that may or may not be identical.
+2. Multiple rdfs:labels are present to allow for multiple languages. In these cases, generally each rdfs:label will have the the language attribute set appropriately. This could potentially be an issue, as 1) we have no idea what languages external ontologies might employ, and 2) not all ontologies will even make use of the language attribute (it is optional).
+3. Equally, as some classes (e.g. BFO's generically dependent continuant) are imported via multiple external ontologies (lots of ontologies use BFO as their upper-level ontology), the nature of the automated import procedure means that multiple identical rdfs:labels may be included.
+For all instances like this, as long as the multiple rdfs:label values are identical, you only need to take one. If the values in rdfs:label are different, the loading/parsing program for FAIRsharing should report a possible issue. 
+
+
+**Specification for rdfs:label**
 Namespace = xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 In OWL file as = rdfs:label
 
@@ -57,9 +65,9 @@ We would like FAIRsharing to be aware of synonyms within the disciplines and dom
 
 Any time there is a 'FAIRsharing alternative term' for any class,
 this alternative term should be used by the FAIRsharing code in
-preference to the rdfs:label. The rdfs:label should then be displayed
-as part of the synonyms list. 'FAIRsharing alternative term' is used
-when we wish to *override* the original label and use our own.
+preference to the rdfs:label. 'FAIRsharing alternative term' is used
+when we wish to *override* the original label and use our own. When it has been overridden, the rdfs:label should instead be displayed
+as part of the synonyms list, UNLESS the rdfs:label is a case-insensitive match to the 'FAIRsharing alternative term'.
 
 Within SRAO, you can see the namespaces are declared as follows:
 
