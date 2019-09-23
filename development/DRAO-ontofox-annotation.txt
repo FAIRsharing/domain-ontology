@@ -241,7 +241,7 @@ http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000061 # anatomical structure
 http://purl.obolibrary.org/obo/CL_0000003 # native cell
 subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
-http://purl.obolibrary.org/obo/CL_0000540 # neural cell
+http://purl.obolibrary.org/obo/CL_0000540 # neuron
 subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
 
 [Source term retrieval setting]
