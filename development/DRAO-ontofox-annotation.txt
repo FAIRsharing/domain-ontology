@@ -1214,7 +1214,7 @@ includeNoIntermediates
 
 [Source annotation URIs]
 http://www.w3.org/2004/02/skos/core#prefLabel
-mapTohttp://www.w3.org/2000/01/rdf-schema#label
+mapTo http://www.w3.org/2000/01/rdf-schema#label
 http://www.w3.org/2004/02/skos/core#definition
 mapTo http://purl.obolibrary.org/obo/IAO_0000115
 http://www.w3.org/2004/02/skos/core#altLabel
