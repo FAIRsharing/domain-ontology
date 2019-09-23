@@ -3,12 +3,12 @@ Required Annotation Properties
 
 Allyson Lister (AL)
 Created June 20 2017
-Last Updated 17 September 2019
+Last Updated 23 September 2019
 
 Description
 ^^^^^^^^^^^
 Each class within the DRAO and SRAO contains a
-number of annotation properties. Not all of these are (currently)
+number of annotation properties. Not all of these are
 relevant to the new FAIRsharing code. This file contains the complete
 list of annotation properties that the FAIRsharing code should be able
 to parse.
@@ -23,6 +23,8 @@ rdfs:label
 
 Required: If any AO object does not have an rdfs:label, it should be
 flagged by the system
+
+Please note: Some external ontologies used in DRAO have multiple rdfs:labels. (e.g. http://purl.obolibrary.org/obo/CL_0000540). This should not happen, but if it does there isn't anything the DRAO import procedures can easily do with it. Equally, as some classes (e.g. BFO's generically dependent continuant) are imported via multiple external ontologies (lots of ontologies use BFO as their upper-level ontology), the nature of the automated import procedure means that multiple identical rdfs:labels may be included. For all instances like this, as long as the multiple rdfs:label values are identical, you only need to take one. If the values in rdfs:label are different, the loading/parsing program for FAIRsharing should report a possible issue. 
 
 Namespace = xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 In OWL file as = rdfs:label
@@ -51,7 +53,7 @@ We would like FAIRsharing to be aware of synonyms within the disciplines and dom
     'OMIT alternative term' fairsharing:SRAO_0000272
     'PO alternative term' fairsharing:SRAO_0000292
     're3data alternative term' fairsharing:SRAO_0000268
-    
+
 
 Any time there is a 'FAIRsharing alternative term' for any class,
 this alternative term should be used by the FAIRsharing code in
