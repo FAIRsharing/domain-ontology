@@ -7,12 +7,11 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ontology="http://www.fairsharing.org/ontology/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/DRAO-release.owl">
         <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/DRAO-release-0.2.0.owl"/>
-        <rdfs:comment>The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures using Ontofox (PMID: 20569493) and Ontodog (doi: 10.1093/bioinformatics/btu008).
+        <rdfs:comment xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures using Ontofox (PMID: 20569493) and ROBOT (https://doi.org/10.1186/s12859-019-3002-3).
 
 AgroVoc and PRIDE classes were manually added as required.
 
@@ -84,7 +83,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An alternative term used by the IEDB.</obo:IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IEDB alternative term</rdfs:label>
+        <rdfs:label>IEDB alternative term</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>
     
@@ -117,15 +116,6 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <rdfs:label>label</rdfs:label>
         <rdfs:label xml:lang="en">label</rdfs:label>
         <rdfs:label>标签</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
-        <obo:IAO_0000115 xml:lang="en">The preferred lexical label for a resource, in a given language.</obo:IAO_0000115>
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
     </owl:AnnotationProperty>
     
 
@@ -2349,7 +2339,7 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mamo.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Network model</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <skos:prefLabel xml:lang="en">network model</skos:prefLabel>
+        <rdfs:label xml:lang="en">network model</rdfs:label>
     </owl:Class>
     
 
@@ -9189,7 +9179,7 @@ ab (not=) E</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene expression profiling</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription profiling</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription profiling assay</rdfs:label>
+        <rdfs:label>transcription profiling assay</rdfs:label>
     </owl:Class>
     
 
@@ -9228,7 +9218,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay with the objective to capture information about the presence, concentration, or amount of an analyte in an evaluant.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analyte assay</rdfs:label>
+        <rdfs:label>analyte assay</rdfs:label>
     </owl:Class>
     
 
@@ -9239,7 +9229,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An electrophysiology recording assay where the recording location of the electrode is extracellular</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">extracellular electrophysiology recording assay</rdfs:label>
+        <rdfs:label>extracellular electrophysiology recording assay</rdfs:label>
     </owl:Class>
     
 
@@ -9252,7 +9242,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Mass spectrometry assay</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass spectrometry assay</rdfs:label>
+        <rdfs:label>mass spectrometry assay</rdfs:label>
     </owl:Class>
     
 
@@ -9266,7 +9256,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Protein expression profiling</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein expression profiling assay</rdfs:label>
+        <rdfs:label>protein expression profiling assay</rdfs:label>
     </owl:Class>
     
 
@@ -9279,18 +9269,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleotide sequencing</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA sequencing assay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000650 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000650">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A differential expression analysis data transformation is a data transformation that has an objective of differential expression analysis.  Frequently this data transformation involves summarizing or otherwise aggregating signals from various samples categorized into groups, and calculating measures of group differences from these aggregated signals.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label xml:lang="en">differential expression analysis data transformation</rdfs:label>
+        <rdfs:label>DNA sequencing assay</rdfs:label>
     </owl:Class>
     
 
@@ -9330,7 +9309,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Chromatin immunoprecipitation - DNA sequencing</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChIP-seq assay</rdfs:label>
+        <rdfs:label>ChIP-seq assay</rdfs:label>
     </owl:Class>
     
 
@@ -9351,7 +9330,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/OBI_0000726 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000726">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000650"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peak matching is a data transformation performed on a dataset of a graph of ordered data points (e.g. a spectrum) with the objective of pattern matching local maxima above a noise threshold</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -9448,7 +9426,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A 3D structure determination assay in which the diffraction of pattern of X-ray beams in a crystal of purified material entities is used to resolve the 3-dimensional structure of the material entity of interest.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-ray crystallography assay</rdfs:label>
+        <rdfs:label>X-ray crystallography assay</rdfs:label>
     </owl:Class>
     
 
@@ -9461,7 +9439,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Flow cytometry assay</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flow cytometry assay</rdfs:label>
+        <rdfs:label>flow cytometry assay</rdfs:label>
     </owl:Class>
     
 
@@ -9562,7 +9540,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Chromatin immunoprecipitation - DNA microarray</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChIP-chip assay</rdfs:label>
+        <rdfs:label>ChIP-chip assay</rdfs:label>
     </owl:Class>
     
 
@@ -9577,7 +9555,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">RNA sequencing</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-seq assay</rdfs:label>
+        <rdfs:label>RNA-seq assay</rdfs:label>
     </owl:Class>
     
 
@@ -9635,7 +9613,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0600017"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A assay detecting a molecular label assay in which the label is attached to an antibody so that substances are marked based on the antibody&apos;s binding specificity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immuno staining assay</rdfs:label>
+        <rdfs:label>immuno staining assay</rdfs:label>
     </owl:Class>
     
 
@@ -9650,7 +9628,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">In situ hybridization</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in-situ hybridization assay</rdfs:label>
+        <rdfs:label>in-situ hybridization assay</rdfs:label>
     </owl:Class>
     
 
@@ -9666,7 +9644,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Chromatin Interaction Analysis by Paired-End Tag sequencing</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromatin interaction analysis by paired-end tag sequencing assay</rdfs:label>
+        <rdfs:label>chromatin interaction analysis by paired-end tag sequencing assay</rdfs:label>
     </owl:Class>
     
 
@@ -9682,7 +9660,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Transcript analysis by paired-end tag sequencing</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcript analysis by paired-end tag sequencing assay</rdfs:label>
+        <rdfs:label>transcript analysis by paired-end tag sequencing assay</rdfs:label>
     </owl:Class>
     
 
@@ -9742,7 +9720,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay in which portions of chromatin, the ordered and organized complex of DNA and its interaction partners that make up a chormosome, is extracted and purified by immunoprecipitation with antibodies or tags, and subsequently analyzed</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromatin immunoprecipitation assay</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChIP assay</rdfs:label>
+        <rdfs:label>ChIP assay</rdfs:label>
     </owl:Class>
     
 
@@ -9766,7 +9744,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay that measures properties of cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytometry assay</rdfs:label>
+        <rdfs:label>cytometry assay</rdfs:label>
     </owl:Class>
     
 
@@ -9779,7 +9757,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Microarray experiment</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microarray assay</rdfs:label>
+        <rdfs:label>microarray assay</rdfs:label>
     </owl:Class>
     
 
@@ -9792,7 +9770,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Immunohistochemistry</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunohistochemistry</rdfs:label>
+        <rdfs:label>immunohistochemistry</rdfs:label>
     </owl:Class>
     
 
@@ -9806,7 +9784,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Whole genome sequencing</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole genome sequencing assay</rdfs:label>
+        <rdfs:label>whole genome sequencing assay</rdfs:label>
     </owl:Class>
     
 
@@ -9820,7 +9798,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Electroencephalography</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">electroencephalography</rdfs:label>
+        <rdfs:label>electroencephalography</rdfs:label>
     </owl:Class>
     
 
@@ -9831,7 +9809,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay that detects the proximity of chromosomal DNA through the use of a ligation reaction in isolated nuclei.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear ligation assay</rdfs:label>
+        <rdfs:label>nuclear ligation assay</rdfs:label>
     </owl:Class>
     
 
@@ -10024,7 +10002,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Tumor grading</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tumor grading</rdfs:label>
+        <rdfs:label>tumor grading</rdfs:label>
     </owl:Class>
     
 
@@ -10061,7 +10039,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay that detects the presence or a quality of a molecular label which is a proxy for the detection of the molecular target to which the label is attached</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">assay detecting a molecular label</rdfs:label>
+        <rdfs:label>assay detecting a molecular label</rdfs:label>
     </owl:Class>
     
 
@@ -10076,7 +10054,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Histology</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histological assay</rdfs:label>
+        <rdfs:label>histological assay</rdfs:label>
     </owl:Class>
     
 
@@ -10087,7 +10065,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An assay that determines the 3-dimensional configuration of an input material.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3D structure determination assay</rdfs:label>
+        <rdfs:label>3D structure determination assay</rdfs:label>
     </owl:Class>
     
 
@@ -10100,7 +10078,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Sequencing</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequencing assay</rdfs:label>
+        <rdfs:label>sequencing assay</rdfs:label>
     </owl:Class>
     
 
@@ -13012,10 +12990,18 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000508">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that is caused by genetic modifications where those modifications are inherited from a parent&apos;s genome.</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A genetic disorder is a disorder in which an abnormality, i.e. mutation, of a gene or gene has occurred resulting in a diseased state. Note, this not imply that the disorder is hereditary since genetic mutations can occur during life time and are not always directly inherited or presented in parents (although they can be).</obo:IAO_0000115>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic diseases are diseases in which inherited genes predispose to increased risk. The genetic disorders associated with cancer often result from an alteration or mutation in a single gene. The diseases range from rare dominant cancer family syndrome to familial tendencies in which low-penetrance genes may interact with other genes or environmental factors to induce cancer. Research may involve clinical, epidemiologic, and laboratory studies of persons, families, and populations at high risk of these disorders.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic condition</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic disease</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic disorder</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hereditary disease</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hereditary disease or disorder</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hereditary diseases</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inherited disease</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inherited genetic disease</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular disease</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
         <ontology:DRAO_0000001 xml:lang="en">Genetic disorder</ontology:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -13462,6 +13448,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -13471,12 +13460,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -13484,12 +13467,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -13507,6 +13484,18 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -13516,10 +13505,10 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -13534,16 +13523,13 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     
 

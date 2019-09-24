@@ -2,6 +2,9 @@
 ## Top-level targets
 ##
 
+# By default, the Makefile presumes that is is run in the directory in which
+# it is present (specifically, the development/ directory).
+
 # By default, this Makefile will build the standalone/merged version of the ontology.
 build: build/robot.jar add_fs_annotation merge
 
@@ -30,8 +33,9 @@ diff_release: check_relnum
 ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.1/robot.jar
 ROBOT := java -jar build/robot.jar
 
-# The development directory and file
-SOURCE_DIR := development
+# The development directory is the same directory the Makefile is stored
+#SOURCE_DIR := development
+SOURCE_DIR := .
 DEV_FILE := $(SOURCE_DIR)/DRAO.owl
 
 # Where all the files created by this makefile should go
