@@ -3,7 +3,7 @@ Required Annotation Properties
 
 Allyson Lister (AL)
 Created June 20 2017
-Last Updated 23 September 2019
+Last Updated 24 September 2019
 
 Description
 ^^^^^^^^^^^
@@ -22,7 +22,7 @@ Required Annotation Properties
 rdfs:label
 
 Required: If any AO object does not have an rdfs:label, it should be
-flagged by the system
+flagged by the system unless it is listed in https://github.com/FAIRsharing/domain-ontology/blob/master/development/filter-labels.txt
 
 **Note on multiple rdfs:labels in a single class**
 
@@ -30,7 +30,7 @@ Please note: Some classes used in DRAO have multiple rdfs:labels. (e.g. http://p
 1. The external ontology simply has multiple rdfs:labels that may or may not be identical.
 2. Multiple rdfs:labels are present to allow for multiple languages. In these cases, generally each rdfs:label will have the the language attribute set appropriately. This could potentially be an issue, as 1) we have no idea what languages external ontologies might employ, and 2) not all ontologies will even make use of the language attribute (it is optional).
 3. Equally, as some classes (e.g. BFO's generically dependent continuant) are imported via multiple external ontologies (lots of ontologies use BFO as their upper-level ontology), the nature of the automated import procedure means that multiple identical rdfs:labels may be included.
-For all instances like this, as long as the multiple rdfs:label values are identical, you only need to take one. If the values in rdfs:label are different, the loading/parsing program for FAIRsharing should report a possible issue. 
+For all instances like this, as long as the multiple rdfs:label values are identical, you only need to take one. If the values in rdfs:label are different, the loading/parsing program for FAIRsharing should report a possible issue.
 
 
 **Specification for rdfs:label**
