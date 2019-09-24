@@ -92,10 +92,10 @@ For both SRAO and DRAO it is important to build a list of synonyms from the foll
 
 #### Usage in DRAO
 
-DRAO almost exclusively uses 'alternative term' (obo:IAO_0000118) and 'FAIRsharing alternative term' (fairsharing:DRAO_0000001). The 'alternative term' property provides simple synonyms for use in FAIRsharing. However, do note that a small number of the other child properties of 'alternative term' (obo:IAO_0000118) may be present; as of 0.2.0 DRAO contained 5 synonyms stored within the child properties of obo:IAO_0000118 that are not FAIRsharing alternative terms.
+DRAO almost exclusively uses 'alternative term' (obo:IAO_0000118) and 'FAIRsharing alternative term' (fairsharing:DRAO_0000001). However, a small number of child properties of 'alternative term' (obo:IAO_0000118) may be present; as of 0.2.0, DRAO contained 5 synonyms stored via various non-'FAIRsharing alternative terms' child properties of obo:IAO_0000118.
 
 #### Usage in SRAO
-SSRAO almost exclusively uses the subproperties of obo:IAO_0000118. However, SRAO currently contains 42 synonyms stored via obo:IAO_0000118 itself, and one usage of 'FAIRsharing alternative term'.
+SRAO almost exclusively uses the subproperties of obo:IAO_0000118. However, SRAO currently contains 42 synonyms stored via obo:IAO_0000118 itself, and one usage of 'FAIRsharing alternative term'.
 
 #### Special Usage: FAIRsharing alternative term
 
@@ -168,11 +168,11 @@ Definitions should be used within FAIRsharing and displayed within the results t
 
 This section lists those properties which are not currently in FAIRsharing.
 
-1. Imported From
+### Imported From
 
 'imported from' allows the FAIRsharing ontologist to list which external ontologies we have imported the term from. These are added
 automatically within DRAO and both manually and automatically for SRAO. They should not be visible within the UI at this stage.
 
-2. Comments
+### Comments
 
 Currently, comments provide curator information with regards to placement within the hierarchy and other design decisions. They should not be visible within the UI at this stage.
