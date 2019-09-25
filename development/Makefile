@@ -111,18 +111,24 @@ simple_merge:
 
 # There are some external labels which we do not wish to include within FAIRsharing.
 # This build target will create a version of the ontology
-# with those labels listed within $(FILTER_LABELS_FILE) removed.
+# 1. With the labels listed within $(FILTER_LABELS_FILE) removed.
+# 2. With the labels having a language set to 'zh' removed.
 tidy_labels: simple_merge
-# Remove all rdfs:label annotation from the entire ontology.
+
+# Step 1: Remove labels listed within $(FILTER_LABELS_FILE)
+# This takes two sub-steps: first, remove all rdfs:label annotation from the entire ontology.
 # This preserves a copy of the hierarchy so that the listed IRIs
 # don't merge back into the ontology as children of owl:Thing.
-# The lost rdfs:labels from all the other classes will get added
+# Second, the lost rdfs:labels from all the other classes will get added
 # back in the next step when they're merged with the original ontology
 # minus the listed IRIs.
 	$(ROBOT) remove --input $(SIMPLE_MERGE_FILE) --term 'http://www.w3.org/2000/01/rdf-schema#label' --select "self" -p false --output $(BUILD_DIR)/plain-hierarchy.owl
 # Merge the original file (minus the classes from term-file) with
 # the sub-ontology that has its labels removed.
-	$(ROBOT) remove --input $(SIMPLE_MERGE_FILE) --term-file $(FILTER_LABELS_FILE) --select "self" -p false merge --input $(BUILD_DIR)/plain-hierarchy.owl --output $(MERGE_FILE)
+	$(ROBOT) remove --input $(SIMPLE_MERGE_FILE) --term-file $(FILTER_LABELS_FILE) --select "self" -p false merge --input $(BUILD_DIR)/plain-hierarchy.owl --output $(BUILD_DIR)/DRAO-interim-merged.owl
+
+# Step 2: remove labels that have language set to 'zh'
+	$(ROBOT) query --input $(BUILD_DIR)/DRAO-interim-merged.owl --update $(SOURCE_DIR)/sparql/delete-non-en.ru  --output $(MERGE_FILE)
 
 add_version : merge
 	$(ROBOT) annotate --input $(MERGE_FILE) \
