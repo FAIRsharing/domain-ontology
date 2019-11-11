@@ -6,11 +6,11 @@ prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
 
 SELECT ?commonIRI (count(?class) as ?class_count)
 WHERE
-{ 
+{
     ?class a owl:Class .
     FILTER regex( str(?class), str(?commonIRI))
- 
-    { SELECT distinct (STRBEFORE(str(?class),"_") AS ?commonIRI) WHERE { ?class a owl:Class } } 
+
+    { SELECT distinct (REPLACE( str(?class) , '_[^/]*$', '' ) AS ?commonIRI) WHERE { ?class a owl:Class } } 
 
 }
 GROUP BY ?commonIRI
