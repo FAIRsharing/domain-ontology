@@ -27,7 +27,7 @@
 ##
 
 [URI of the OWL(RDF/XML) output file]
-http://www.fairsharing.org/ontology/external/DRAO-external.owl
+http://www.fairsharing.org/ontology/domain/external/DRAO-external.owl
 
 #### NOTES ON BFO IMPORT ####
 ##
@@ -1539,7 +1539,7 @@ subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
 http://purl.obolibrary.org/obo/NCIT_C13375 # Chromosome fragile site
 subClassOf http://purl.obolibrary.org/obo/GO_0098687 # Chromosomal region
 http://purl.obolibrary.org/obo/NCIT_C18106 # Receptor
-subClassOf http://purl.obolibrary.org/obo/GO_0044424 # Intracellular part
+subClassOf http://purl.obolibrary.org/obo/GO_0005622 # Intracellular
 http://purl.obolibrary.org/obo/NCIT_C18966 # Protein expression
 subClassOf http://purl.obolibrary.org/obo/GO_0043043 # Peptide biosynthetic process
 http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
