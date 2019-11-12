@@ -961,6 +961,7 @@ http://purl.obolibrary.org/obo/GO_0003824 # Catalytic activity
 http://purl.obolibrary.org/obo/GO_0005216 # Ion channel activity
 http://purl.obolibrary.org/obo/GO_0005488 # Binding
 http://purl.obolibrary.org/obo/GO_0005575 # Cellular component
+http://purl.obolibrary.org/obo/GO_0005622 # Intracellular **Required for NCIT Receptor**
 http://purl.obolibrary.org/obo/GO_0005623 # Cell
 http://purl.obolibrary.org/obo/GO_0005634 # Nucleus
 http://purl.obolibrary.org/obo/GO_0005694 # Chromosome
@@ -1013,7 +1014,6 @@ http://purl.obolibrary.org/obo/GO_0042571 # Antibody
 http://purl.obolibrary.org/obo/GO_0043226 # Organelle
 http://purl.obolibrary.org/obo/GO_0043631 # RNA polyadenylation
 http://purl.obolibrary.org/obo/GO_0043687 # Post-translational protein modification
-http://purl.obolibrary.org/obo/GO_0044424 # Intracellular part **Required for NCIT Receptor**
 http://purl.obolibrary.org/obo/GO_0046872 # Metal ion binding
 http://purl.obolibrary.org/obo/GO_0047485 # Protein N-terminus binding
 http://purl.obolibrary.org/obo/GO_0048513 # Animal organ development

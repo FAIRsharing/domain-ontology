@@ -20,10 +20,6 @@ release: copy_release_files
 robot_diff:
 	$(ROBOT) diff --left $(LEFT) --right $(RIGHT) > $(BUILD_DIR)/diff.txt
 
-# Creates a diff between RELNUM and PREVIOUS_RELNUM
-diff_release: check_relnum
-	test $(PREVIOUS_RELNUM)
-	robot_diff LEFT=$(RELEASE_TOP_DIR)/$(PREVIOUS_RELNUM)/SRAO-release-$(PREVIOUS_RELNUM).owl RIGHT=$(BUILD_RELFILE)
 
 ##
 ## Variables
@@ -36,16 +32,13 @@ ROBOT := java -jar build/robot.jar
 # The development directory is the same directory the Makefile is stored
 #SOURCE_DIR := development
 SOURCE_DIR := .
-DEV_FILE := $(SOURCE_DIR)/DRAO.owl
+BASE_FILE := $(SOURCE_DIR)/DRAO.owl
 
 # Where all the files created by this makefile should go
 BUILD_DIR := build
 
-# The release name
-RELEASE_PREFIX := DRAO-release
-RELEASE_NAME := $(RELEASE_PREFIX)-$(RELNUM).owl
 # The release directory
-RELEASE_TOP_DIR := releases
+RELEASE_TOP_DIR := ../releases
 RELEASE_DIR := $(RELEASE_TOP_DIR)/$(RELNUM)
 
 # The skeleton OWL file which is used to build the FAIRsharing-specific annotation file
@@ -60,14 +53,12 @@ FILTER_LABELS_FILE := filter-labels.txt
 # The standalone OWL file
 MERGE_FILE := $(BUILD_DIR)/DRAO-merged.owl
 # The standalone OWL file with release numbers added
-BUILD_RELFILE := $(BUILD_DIR)/$(RELEASE_NAME)
+BUILD_RELFILE := $(BUILD_DIR)/$(BASE_FILE)
 # The release file in the release directory
-RELEASE_FILE := $(RELEASE_DIR)/$(RELEASE_NAME)
+RELEASE_FILE := $(RELEASE_DIR)/$(BASE_FILE)
 
-# Various IRIs for the OWL files created within this Makefile
-MERGE_IRI := "http://www.fairsharing.org/ontology/DRAO-merged.owl"
-RELEASE_IRI := "http://www.fairsharing.org/ontology/$(RELEASE_PREFIX).owl"
-RELEASE_VERSION_IRI := "http://www.fairsharing.org/ontology/$(RELEASE_NAME)"
+# Release IRI
+VERSION_IRI := "http://www.fairsharing.org/ontology/domain/DRAO.owl/$(RELNUM)"
 
 ##
 ## Targets
@@ -106,8 +97,7 @@ merge: tidy_labels
 simple_merge:
 	test -f $(FSANNOT_BUILD)
 	cp $(FSANNOT_BUILD) $(FSANNOT_FINAL)
-	$(ROBOT) merge --input $(DEV_FILE) \
-	annotate --ontology-iri $(MERGE_IRI) --output $(SIMPLE_MERGE_FILE)
+	$(ROBOT) merge --input $(BASE_FILE) --output $(SIMPLE_MERGE_FILE)
 
 # There are some external labels which we do not wish to include within FAIRsharing.
 # This build target will create a version of the ontology
@@ -132,9 +122,9 @@ tidy_labels: simple_merge
 
 add_version : merge
 	$(ROBOT) annotate --input $(MERGE_FILE) \
-	--ontology-iri $(RELEASE_IRI) \
-	--version-iri $(RELEASE_VERSION_IRI) \
+	--version-iri $(VERSION_IRI) \
 	--output $(BUILD_RELFILE)
 
-copy_release_files: | reqd_release_dirs check_relfiles
+copy_release_files: check_relfiles | reqd_release_dirs
 	cp $(BUILD_RELFILE) $(RELEASE_DIR)
+	cp $(BUILD_RELFILE) $(RELEASE_TOP_DIR)
