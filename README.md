@@ -12,7 +12,7 @@ To view the latest release of DRAO please visit our [release directory](https://
 
 Within any [releases/](https://github.com/FAIRsharing/domain-ontology/tree/master/releases) subdirectory
 
-- DRAO-release-RELNUM.owl - - The automatically-generated release file. It is a single file (with no imports) for ease of use.
+- DRAO.owl - - The automatically-generated release file. It is a single file (with no imports) for ease of use.
 - refactoredIRIs-DRAO-RELNUM.txt - This is a list of IRI refactorings performed since the last release.
 - README.md - A short description of the changes made since the last release.
 
@@ -51,23 +51,20 @@ Domains are the largest set of tags available when curating FAIRsharing records.
 
 ## Tools Used
 
-[Ontofox](http://ontofox.hegroup.org/) has been used to build the subset ontology files and associated annotation. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0) has been used to create the core OWL file and to view, check and merge all development ontology files into a single merged file.
+[Ontofox](http://ontofox.hegroup.org/) has been used to build the subset ontology files and associated annotation. [Protege](https://protege.stanford.edu/) (including versions 4.3.0 and 5.2.0) has been used to check the core OWL file and its imports. [ROBOT](http://robot.obolibrary.org/) has been used to add FAIRsharing-specific annotation and to compare, check and merge all development ontology files into a single merged release file.
 
 - [Ontofox](http://ontofox.hegroup.org/) - Xiang Z, Courtot M, Brinkman RR, Ruttenberg A, He Y. OntoFox: web-based support for ontology reuse.
 BMC Research Notes. 2010, 3:175. PMID: 20569493
-- [Ontodog](http://ontodog.hegroup.org/) - Zheng J, Xiang Z, Stoeckert Jr. CJ, He Y. Ontodog: a web-based ontology community view generation tool.
-Bioinformatics. 2014; doi: 10.1093/bioinformatics/btu008.
 - [Protege](http://protege.stanford.edu/) - Musen, M.A. [The Protégé project: A look back and a look forward.](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4883684/) AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003.
-
-[ROBOT](http://robot.obolibrary.org/) has been used to add FAIRsharing-specific annotation and is also used to build the release files.
+- [ROBOT](http://robot.obolibrary.org/) - R.C. Jackson, J.P. Balhoff, E. Douglass, N.L. Harris, C.J. Mungall, and J.A. Overton. [ROBOT: A tool for automating ontology workflows.](https://doi.org/10.1186/s12859-019-3002-3) BMC Bioinformatics, vol. 20, July 2019.
 
 Further information on the development of DRAO is available from the [Development](https://github.com/FAIRsharing/domain-ontology/blob/master/Development.md) page.
 
-# Usage and License
+# Usage and licence
 
-Within FAIRsharing, DRAO and its associated user tags are used by both curators and our user community to annotation FAIRsharing records. DRAO itself is also available for general use from this repository under a [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+Within FAIRsharing, DRAO and its associated user tags are used by both curators and our user community to annotation FAIRsharing records. DRAO itself is also available for general use from this repository under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) licence.
 
-For license information for the external ontologies used to create DRAO, please see our [Licensing Compliance](https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md) page.
+For licence information for the external ontologies used to create DRAO, please see our [Licensing Compliance](https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md) page.
 
 # Contact Us
 

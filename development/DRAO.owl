@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.biosharing.org/biosharingao/biosharingao.owl#"
      xml:base="http://www.biosharing.org/biosharingao/biosharingao.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -8,15 +9,21 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:domain="http://www.fairsharing.org/ontology/domain/"
+     xmlns:domains="http://www.fairsharing.org/ontology/domains/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ontology="http://www.fairsharing.org/ontology/"
      xmlns:fairsharing="http://www.fairsharing.org/fairsharing/"
      xmlns:fairsharingao="http://www.biosharing.org/fairsharingao/">
-    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/DRAO.owl">
-        <owl:imports rdf:resource="http://www.fairsharing.org/ontology/DRAO-manual.owl"/>
-        <owl:imports rdf:resource="http://www.fairsharing.org/ontology/external/DRAO-external.owl"/>
-        <owl:imports rdf:resource="http://www.fairsharing.org/ontology/external/DRAO-fsannotation.owl"/>
-        <rdfs:comment xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures using Ontofox (PMID: 20569493) and ROBOT (https://doi.org/10.1186/s12859-019-3002-3).
+    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/DRAO.owl">
+        <owl:imports rdf:resource="http://www.fairsharing.org/ontology/domain/DRAO-manual.owl"/>
+        <owl:imports rdf:resource="http://www.fairsharing.org/ontology/domain/external/DRAO-external.owl"/>
+        <owl:imports rdf:resource="http://www.fairsharing.org/ontology/domain/external/DRAO-fsannotation.owl"/>
+        <dc:creator xml:lang="en">The FAIRsharing Team, contact@fairsharing.org</dc:creator>
+        <dc:title xml:lang="en">FAIRsharing Domain Ontology (DRAO)</dc:title>
+        <rdfs:comment xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from the following ontologies: AgroVoc, AERO, BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, EO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PO, PR, PRIDE, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. 
+
+These ontologies were added to DRAO through semi-automated procedures using Ontofox (PMID: 20569493) and ROBOT (https://doi.org/10.1186/s12859-019-3002-3). Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md
 
 AgroVoc and PRIDE classes were manually added as required.
 
@@ -24,7 +31,7 @@ Created by Allyson L. Lister, Peter McQuilton, Alejandra Gonzalez-Beltran, Phili
 
 Originally developed for use within FAIRsharing.org
 
-Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), https://creativecommons.org/licenses/by-sa/4.0/</rdfs:comment>
+Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/</rdfs:comment>
     </owl:Ontology>
     
 
@@ -46,9 +53,21 @@ Licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC
     
 
 
-    <!-- http://www.fairsharing.org/ontology/DRAO_0000001 -->
+    <!-- http://purl.org/dc/elements/1.1/creator -->
 
-    <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/DRAO_0000001">
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/domain/DRAO_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.fairsharing.org/ontology/domain/DRAO_0000001">
         <rdfs:label xml:lang="en">FAIRsharing alternative term</rdfs:label>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000118"/>
     </owl:AnnotationProperty>

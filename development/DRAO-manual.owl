@@ -1,31 +1,20 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
-]>
-
-
-<rdf:RDF xmlns="http://www.fairsharing.org/ontology/DRAO-manual.owl#"
-     xml:base="http://www.fairsharing.org/ontology/DRAO-manual.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+<rdf:RDF xmlns="http://www.fairsharing.org/ontology/domain/DRAO-manual.owl#"
+     xml:base="http://www.fairsharing.org/ontology/domain/DRAO-manual.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/DRAO-manual.owl">
-        <rdfs:comment>AL 10.9.2018: DRAO-manual contains annotations required for DRAO but which cannot be automatically pulled in via either Ontodog or Ontofox. This happens for various reasons, including the source ontology not being present within Ontobee, or the required annotation not being present within the source ontology.</rdfs:comment>
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/DRAO-manual.owl">
+        <rdfs:comment>AL 10.9.2018: DRAO-manual contains annotations required for DRAO but which cannot be automatically pulled in via Ontofox. This happens for various reasons, including the source ontology not being present within Ontobee, or the required annotation not being present within the source ontology.</rdfs:comment>
     </owl:Ontology>
-    
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -33,32 +22,32 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000118">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <rdfs:label>alternative term</rdfs:label>
     </owl:AnnotationProperty>
-    
+
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset"/>
-    
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
 
 
-    <!-- 
+
+    <!--
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -66,65 +55,65 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
+
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_16526 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_16526">
-        <rdfs:label>Bioenergy</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001021"/>
-        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001021"/>
         <obo:IAO_0000115>Bioenergy is renewable energy made available from materials derived from biological sources. [AL 6.3.18, source Wikipedia https://en.wikipedia.org/wiki/Bioenergy].</obo:IAO_0000115>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:label>Bioenergy</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_1971 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1971">
-        <rdfs:label>Cropping systems</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
-        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115>The pattern of crops grown on a given piece of land, or order in which the crops are cultivated over a fixed period.</obo:IAO_0000115>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:label>Cropping systems</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_33560 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_33560">
-        <rdfs:label>Sustainability</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;PATO_0001018"/>
-        <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
         <obo:IAO_0000115>The ability of a process or human activity to meet present needs but maintain natural resources and leave the environment in good order for future generations.</obo:IAO_0000115>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
+        <rdfs:label>Sustainability</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_36669 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_36669">
-        <rdfs:label>Agroecosystem</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;ENVO_01001110"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001110"/>
+        <obo:IAO_0000115>A system where communities of plants, microbes and animals inhabiting farmed land, pastures, grasslands or rangelands, interact with each other and their physical environment.</obo:IAO_0000115>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
-        <obo:IAO_0000115>A system where communities of plants, microbes and animals inhabiting farmed land, pastures, grasslands or rangelands, interact with each other and their physical environment.</obo:IAO_0000115>
+        <rdfs:label>Agroecosystem</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_8678 -->
 
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8678">
-        <rdfs:label>Agricultural products</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NCIT_C66892"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66892"/>
+        <obo:IAO_0000115>Products in their original state or processed enough to be prepared for marketing.</obo:IAO_0000115>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
-        <obo:IAO_0000115>Products in their original state or processed enough to be prepared for marketing.</obo:IAO_0000115>
+        <rdfs:label>Agricultural products</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://edamontology.org/operation_0445 -->
@@ -132,123 +121,123 @@
     <owl:Class rdf:about="http://edamontology.org/operation_0445">
         <obo:IAO_0000118>TF binding site prediction</obo:IAO_0000118>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
-    <owl:Class rdf:about="&obo;BFO_0000019"/>
-    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_16991 -->
 
-    <owl:Class rdf:about="&obo;CHEBI_16991">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16991">
         <obo:IAO_0000118>DNA</obo:IAO_0000118>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_18111 -->
 
-    <owl:Class rdf:about="&obo;CHEBI_18111">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18111">
         <obo:IAO_0000118>rRNA</obo:IAO_0000118>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33697 -->
 
-    <owl:Class rdf:about="&obo;CHEBI_33697">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697">
         <obo:IAO_0000118>RNA</obo:IAO_0000118>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/ENVO_01001110 -->
 
-    <owl:Class rdf:about="&obo;ENVO_01001110"/>
-    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001110"/>
+
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C66892 -->
 
-    <owl:Class rdf:about="&obo;NCIT_C66892"/>
-    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C66892"/>
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
-    <owl:Class rdf:about="&obo;OBI_0000011"/>
-    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000470 -->
 
-    <owl:Class rdf:about="&obo;OBI_0000470"/>
-    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000470"/>
+
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0302914 -->
 
-    <owl:Class rdf:about="&obo;OBI_0302914"/>
-    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0302914"/>
+
 
 
     <!-- http://purl.obolibrary.org/obo/OMIT_0001480 -->
 
-    <owl:Class rdf:about="&obo;OMIT_0001480">
-        <rdfs:comment>AL 26.6.18: This class is correctly added and placed by our automated procedures, but there is no definition within OMIT. Therefore we have manually assigned the included definition.</rdfs:comment>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0001480">
         <obo:IAO_0000115>Machine learning is an algorithm or set of algorithms which allows computers to learn and act like humans do, and improve their learning over time in autonomous fashion, by feeding them data and information in the form of observations and real-world interactions. [Adapted by AL from https://www.techemergence.com/what-is-machine-learning/, 26.6.18]</obo:IAO_0000115>
+        <rdfs:comment>AL 26.6.18: This class is correctly added and placed by our automated procedures, but there is no definition within OMIT. Therefore we have manually assigned the included definition.</rdfs:comment>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OMIT_0009360 -->
 
-    <owl:Class rdf:about="&obo;OMIT_0009360">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0009360">
         <obo:IAO_0000118>MHC</obo:IAO_0000118>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/OMIT_0020804 -->
 
-    <owl:Class rdf:about="&obo;OMIT_0020804">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0020804">
         <obo:IAO_0000118>QSAR</obo:IAO_0000118>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001018"/>
-    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018"/>
+
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001021 -->
 
-    <owl:Class rdf:about="&obo;PATO_0001021"/>
-    
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001021"/>
+
 
 
     <!-- http://purl.obolibrary.org/obo/PRIDE_0000427 -->
 
-    <owl:Class rdf:about="&obo;PRIDE_0000427">
-        <rdfs:label>Top-down proteomics</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000470"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRIDE_0000427">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000470"/>
         <obo:IAO_0000115>Top-down Proteomics is a method of protein identification that uses an ion trapping mass spectrometer to store an isolated protein ion for mass measurement and tandem mass spectrometry analysis. Top-down proteomics is capable of identifying unique proteoforms (the specific molecular form of the protein resulting from combinations of genetic variation, alternative splicing, and post-translational modifications) through the analysis of intact proteins. Both the intact and fragment ions masses of a protein can be measured. This approach routinely allows for 100% sequence coverage and full characterization of proteoforms. The potential for achieving full protein characterization has made the Top Down mass spectrometry approach extremely useful for analysis of single proteins or simple mixtures of significant biological interest. [Adapted by AL from https://dx.doi.org/10.1016%2Fj.bbrc.2014.02.041 and Wikipedia (https://en.wikipedia.org/wiki/Top-down_proteomics), 5.6.18]</obo:IAO_0000115>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:label>Top-down proteomics</rdfs:label>
     </owl:Class>
-    
+
 
 
     <!-- http://purl.obolibrary.org/obo/SO_0001877 -->
 
-    <owl:Class rdf:about="&obo;SO_0001877">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001877">
         <obo:IAO_0000118>lncRNA</obo:IAO_0000118>
     </owl:Class>
-    
+
 
 
     <!-- http://www.ebi.ac.uk/efo/EFO_0000749 -->
@@ -256,32 +245,31 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000749">
         <obo:IAO_0000118>CGH</obo:IAO_0000118>
     </owl:Class>
-    
 
 
-    <!-- http://www.fairsharing.org/ontology/DRAO_0000281 -->
 
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/DRAO_0000281">
-        <rdfs:label xml:lang="en">FAIR</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
-        <rdfs:comment>AL 16.03.18: Definition modified from https://fairsharing.org/bsg-s001147.</rdfs:comment>
-        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+    <!-- http://www.fairsharing.org/ontology/domain/DRAO_0000281 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/domain/DRAO_0000281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
         <obo:IAO_0000115>A resource is FAIR if it is compliant with the FAIR principles, a set of guidelines to make data Findable, Accessible, Interoperable, and Re-usable. These guidelines are useful for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals.</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://www.fairsharing.org/ontology/DRAO_0000289 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/DRAO_0000289">
-        <rdfs:label xml:lang="en">Biocuration</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0302914"/>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:comment>AL 16.03.18: Definition modified from https://fairsharing.org/bsg-s001147.</rdfs:comment>
+        <rdfs:label xml:lang="en">FAIR</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.fairsharing.org/ontology/domain/DRAO_0000289 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/domain/DRAO_0000289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0302914"/>
         <obo:IAO_0000115>Biocuration is the extraction of knowledge from unstructured biological and biomedical data into a standard, structured, computable form. [PMQ 2018.09.10 &amp; International Society for Biocuration. DOI: 10.1371/journal.pbio.2002846]</obo:IAO_0000115>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">Biocuration</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
-
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->

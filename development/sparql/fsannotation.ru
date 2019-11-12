@@ -1,6 +1,6 @@
 prefix obo: <http://www.geneontology.org/formats/oboInOwl#>
-prefix drao: <http://www.fairsharing.org/ontology/>
-prefix draoannot: <http://www.fairsharing.org/ontology/external/>
+prefix drao: <http://www.fairsharing.org/ontology/domain/>
+prefix draoannot: <http://www.fairsharing.org/ontology/domain/external/>
 prefix obolib: <http://purl.obolibrary.org/obo/>
 prefix semsci: <http://semanticscience.org/resource/>
 prefix edam: <http://edamontology.org/>
