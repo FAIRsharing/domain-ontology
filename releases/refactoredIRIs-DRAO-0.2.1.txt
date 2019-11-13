@@ -1,2 +1,5 @@
 Old IRI|New IRI
 http://purl.obolibrary.org/obo/GO_0044424|http://purl.obolibrary.org/obo/GO_0005622
+http://www.fairsharing.org/ontology/DRAO_0000001|http://www.fairsharing.org/ontology/domain/DRAO_0000001
+http://www.fairsharing.org/ontology/DRAO_0000289|http://www.fairsharing.org/ontology/domain/DRAO_0000289
+http://www.fairsharing.org/ontology/DRAO_0000281|http://www.fairsharing.org/ontology/domain/DRAO_0000281
