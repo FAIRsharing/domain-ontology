@@ -392,10 +392,14 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 DRON
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/DRON_00000001 # clinical drug role (not in FAIRsharing subset)
 http://purl.obolibrary.org/obo/DRON_00000025 # FDA approved drug
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000001 # entity
+http://purl.obolibrary.org/obo/DRON_00000001 # clinical drug role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
+http://purl.obolibrary.org/obo/DRON_00000025 # FDA approved drug
+subClassOf http://www.fairsharing.org/ontology/DRAO_0000322 # Approved drug
 
 [Source term retrieval setting]
 includeAllIntermediates
