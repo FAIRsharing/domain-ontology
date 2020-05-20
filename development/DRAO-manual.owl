@@ -11,10 +11,10 @@
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/DRAO-manual.owl">
         <rdfs:comment>AL 10.9.2018: DRAO-manual contains annotations required for DRAO but which cannot be automatically pulled in via Ontofox. This happens for various reasons, including the source ontology not being present within Ontobee, or the required annotation not being present within the source ontology.</rdfs:comment>
     </owl:Ontology>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -22,7 +22,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
@@ -30,7 +30,7 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
@@ -38,16 +38,16 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <rdfs:label>alternative term</rdfs:label>
     </owl:AnnotationProperty>
-
+    
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -55,7 +55,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_16526 -->
@@ -66,7 +66,7 @@
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:label>Bioenergy</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_1971 -->
@@ -77,7 +77,7 @@
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:label>Cropping systems</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_33560 -->
@@ -89,7 +89,7 @@
         <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
         <rdfs:label>Sustainability</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_36669 -->
@@ -101,7 +101,7 @@
         <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
         <rdfs:label>Agroecosystem</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://aims.fao.org/aos/agrovoc/c_8678 -->
@@ -113,7 +113,7 @@
         <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
         <rdfs:label>Agricultural products</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://edamontology.org/operation_0445 -->
@@ -121,13 +121,13 @@
     <owl:Class rdf:about="http://edamontology.org/operation_0445">
         <obo:IAO_0000118>TF binding site prediction</obo:IAO_0000118>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_16991 -->
@@ -135,7 +135,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16991">
         <obo:IAO_0000118>DNA</obo:IAO_0000118>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_18111 -->
@@ -143,7 +143,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18111">
         <obo:IAO_0000118>rRNA</obo:IAO_0000118>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33697 -->
@@ -151,37 +151,43 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697">
         <obo:IAO_0000118>RNA</obo:IAO_0000118>
     </owl:Class>
+    
 
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000001"/>
+    
 
 
     <!-- http://purl.obolibrary.org/obo/ENVO_01001110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01001110"/>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C66892 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C66892"/>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000470 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000470"/>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0302914 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0302914"/>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OMIT_0001480 -->
@@ -190,7 +196,7 @@
         <obo:IAO_0000115>Machine learning is an algorithm or set of algorithms which allows computers to learn and act like humans do, and improve their learning over time in autonomous fashion, by feeding them data and information in the form of observations and real-world interactions. [Adapted by AL from https://www.techemergence.com/what-is-machine-learning/, 26.6.18]</obo:IAO_0000115>
         <rdfs:comment>AL 26.6.18: This class is correctly added and placed by our automated procedures, but there is no definition within OMIT. Therefore we have manually assigned the included definition.</rdfs:comment>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OMIT_0009360 -->
@@ -198,7 +204,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0009360">
         <obo:IAO_0000118>MHC</obo:IAO_0000118>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/OMIT_0020804 -->
@@ -206,19 +212,19 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0020804">
         <obo:IAO_0000118>QSAR</obo:IAO_0000118>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001018"/>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0001021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001021"/>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/PRIDE_0000427 -->
@@ -229,7 +235,7 @@
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:label>Top-down proteomics</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.obolibrary.org/obo/SO_0001877 -->
@@ -237,7 +243,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001877">
         <obo:IAO_0000118>lncRNA</obo:IAO_0000118>
     </owl:Class>
-
+    
 
 
     <!-- http://www.ebi.ac.uk/efo/EFO_0000749 -->
@@ -245,7 +251,18 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000749">
         <obo:IAO_0000118>CGH</obo:IAO_0000118>
     </owl:Class>
+    
 
+
+    <!-- http://www.fairsharing.org/ontology/SRAO_0000322 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">An approved drug is a preparation that has been validated for a therapeutic use by a ruling authority of a government. [Wikipedia https://en.wikipedia.org/wiki/Approved_drug, accessed 20.5.20]</obo:IAO_0000115>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">Approved drug</rdfs:label>
+    </owl:Class>
+    
 
 
     <!-- http://www.fairsharing.org/ontology/domain/DRAO_0000281 -->
@@ -257,7 +274,7 @@
         <rdfs:comment>AL 16.03.18: Definition modified from https://fairsharing.org/bsg-s001147.</rdfs:comment>
         <rdfs:label xml:lang="en">FAIR</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://www.fairsharing.org/ontology/domain/DRAO_0000289 -->
@@ -273,3 +290,4 @@
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
