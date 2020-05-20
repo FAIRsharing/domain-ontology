@@ -254,9 +254,9 @@
     
 
 
-    <!-- http://www.fairsharing.org/ontology/SRAO_0000322 -->
+    <!-- http://www.fairsharing.org/ontology/DRAO_0000322 -->
 
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/SRAO_0000322">
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/DRAO_0000322">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000001"/>
         <obo:IAO_0000115 xml:lang="en">An approved drug is a preparation that has been validated for a therapeutic use by a ruling authority of a government. [Wikipedia https://en.wikipedia.org/wiki/Approved_drug, accessed 20.5.20]</obo:IAO_0000115>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
