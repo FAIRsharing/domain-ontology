@@ -12,8 +12,8 @@ WHERE
     FILTER regex( str(?class), str(?commonIRI))
     FILTER regex( str(?subset), "FAIRsharing")
 
-    { SELECT distinct (REPLACE( str(?class) , '_[^/]*$', '' ) AS ?commonIRI) WHERE { ?class a owl:Class } } 
+    { SELECT distinct (REPLACE( str(?class) , '_[^/]*$', '' ) AS ?commonIRI) WHERE { ?class a owl:Class } }
 
 }
 GROUP BY ?commonIRI
-ORDER BY DESC(?commonIRI)
+ORDER BY ASC(?commonIRI)
