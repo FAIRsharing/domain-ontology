@@ -26,7 +26,9 @@ robot_diff:
 ##
 
 # ROBOT_REMOTE_LOCATION := https://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar
-ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/download/v1.4.3/robot.jar
+# https://github.com/ontodev/robot/releases/download/v1.4.3/robot.jar
+
+ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/latest/download/robot.jar
 ROBOT := java -jar build/robot.jar
 
 # The development directory is the same directory the Makefile is stored
@@ -89,7 +91,7 @@ build/robot.jar: | reqd_build_dirs
 	chmod ug+x build/robot.jar
 
 # Add FAIRsharing-specific annotation to $(FSANNOT)
-add_fs_annotation:
+add_fs_annotation: build/robot.jar
 	$(ROBOT) query --input $(FSANNOT_SKEL) --update $(SOURCE_DIR)/sparql/fsannotation.ru --output $(FSANNOT_BUILD)
 
 merge: tidy_labels
