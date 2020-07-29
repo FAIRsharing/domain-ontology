@@ -337,6 +337,8 @@ INSERT {
   efo:EFO_0004982 drao:DRAO_0000001 "Microbiome"@en .
   efo:EFO_0005135 obo:inSubset "FAIRsharing"@en .
   efo:EFO_0005135 drao:DRAO_0000001 "Genetic strain"@en .
+  efo:EFO_0005741 obo:inSubset "FAIRsharing"@en .
+  efo:EFO_0005741 drao:DRAO_0000001 "Infectious disease"@en .
   efo:EFO_0007059	obo:inSubset "FAIRsharing"@en .
   efo:EFO_0007059	drao:DRAO_0000001 "Germplasm"@en .
   efo:EFO_0007550 obo:inSubset "FAIRsharing"@en .
