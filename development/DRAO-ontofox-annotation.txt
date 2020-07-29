@@ -668,6 +668,7 @@ http://www.ebi.ac.uk/efo/EFO_0004426 # Karyotype
 http://www.ebi.ac.uk/efo/EFO_0004798 # Copy number variation
 http://www.ebi.ac.uk/efo/EFO_0004982 # Microbiome
 http://www.ebi.ac.uk/efo/EFO_0005135 # Genetic strain
+http://www.ebi.ac.uk/efo/EFO_0005741 # Infectious disease
 http://www.ebi.ac.uk/efo/EFO_0007059 # Germplasm
 http://www.ebi.ac.uk/efo/EFO_0007550 # High-content screen
 http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
@@ -699,6 +700,8 @@ subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0005741 # Infectious disease
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
 http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
 subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
