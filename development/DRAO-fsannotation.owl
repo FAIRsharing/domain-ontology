@@ -2324,6 +2324,10 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <domain:DRAO_0000001 xml:lang="en">Genetic strain</domain:DRAO_0000001>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0005741">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <domain:DRAO_0000001 xml:lang="en">Infectious disease</domain:DRAO_0000001>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0007059">
         <domain:DRAO_0000001 xml:lang="en">Germplasm</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
