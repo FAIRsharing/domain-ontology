@@ -18,7 +18,7 @@ release: copy_release_files
 
 ## Compare two OWL files, providing LEFT and RIGHT paths and filenames
 robot_diff:
-	$(ROBOT) diff --left $(LEFT) --right $(RIGHT) > $(BUILD_DIR)/diff.txt
+	$(ROBOT) diff --labels=true --format=markdown --left $(LEFT) --right $(RIGHT) --output $(BUILD_DIR)/diff.md
 
 
 ##
