@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.fairsharing.org/ontology/domain/external/DRAO-external.owl#"
-     xml:base="http://www.fairsharing.org/ontology/domain/external/DRAO-external.owl"
+<rdf:RDF xmlns="http://www.fairsharing.org/ontology/domain/external/DRAO-annotation.owl#"
+     xml:base="http://www.fairsharing.org/ontology/domain/external/DRAO-annotation.owl"
      xmlns:SBO="http://biomodels.net/SBO/"
      xmlns:data="http://www.ebi.ac.uk/swo/data/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -17,7 +17,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:ontology="http://www.fairsharing.org/ontology/">
-    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/external/DRAO-external.owl"/>
+    <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/external/DRAO-annotation.owl"/>
     
 
 
@@ -12253,10 +12253,17 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
+<<<<<<< HEAD:development/DRAO-external.owl
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+=======
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+>>>>>>> master:development/DRAO-annotation.owl
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -12277,7 +12284,10 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
