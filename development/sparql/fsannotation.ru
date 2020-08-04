@@ -201,7 +201,6 @@ INSERT {
   edam:data_1743 obo:inSubset "FAIRsharing"@en .
   edam:data_1872 obo:inSubset "FAIRsharing"@en .
   edam:data_2042 obo:inSubset "FAIRsharing"@en .
-  edam:data_2044 obo:inSubset "FAIRsharing"@en .
   edam:data_2048 obo:inSubset "FAIRsharing"@en .
   edam:data_2140 obo:inSubset "FAIRsharing"@en .
   edam:data_2299 obo:inSubset "FAIRsharing"@en .
@@ -213,8 +212,6 @@ INSERT {
   edam:data_2849 obo:inSubset "FAIRsharing"@en .
   edam:data_2851 obo:inSubset "FAIRsharing"@en .
   edam:data_2899 obo:inSubset "FAIRsharing"@en .
-  edam:data_2976 obo:inSubset "FAIRsharing"@en .
-  edam:data_2976 drao:DRAO_0000001 "Amino acid sequence"@en .
   edam:data_2977 obo:inSubset "FAIRsharing"@en .
   edam:data_2978 obo:inSubset "FAIRsharing"@en .
   edam:data_2979 obo:inSubset "FAIRsharing"@en .
@@ -1022,6 +1019,8 @@ INSERT {
   semsci:SIO_010423 drao:DRAO_0000001 "Target"@en .
 
   ## SO
+  obolib:SO_0000001	obo:inSubset "FAIRsharing"@en .
+  obolib:SO_0000001	drao:DRAO_0000001 "Sequence"@en .
   obolib:SO_0000101	obo:inSubset "FAIRsharing"@en .
   obolib:SO_0000101	drao:DRAO_0000001 "Transposable element"@en .
   obolib:SO_0000110	obo:inSubset "FAIRsharing"@en .
@@ -1106,6 +1105,8 @@ INSERT {
   obolib:SO_0000771 drao:DRAO_0000001 "Quantitative trait loci"@en .
   obolib:SO_0000772 obo:inSubset "FAIRsharing"@en .
   obolib:SO_0000772 drao:DRAO_0000001 "Genomic island"@en .
+  obolib:SO_0000839 obo:inSubset "FAIRsharing"@en .
+  obolib:SO_0000839 drao:DRAO_0000001 "Amino acid sequence"@en .
   obolib:SO_0000857 obo:inSubset "FAIRsharing"@en .
   obolib:SO_0000857 drao:DRAO_0000001 "Homologous"@en .
   obolib:SO_0000858 obo:inSubset "FAIRsharing"@en .
