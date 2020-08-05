@@ -258,7 +258,6 @@ INSERT {
   edam:operation_2502 obo:inSubset "FAIRsharing"@en .
   edam:operation_2575 obo:inSubset "FAIRsharing"@en .
   edam:operation_2945 obo:inSubset "FAIRsharing"@en .
-  edam:operation_2990 obo:inSubset "FAIRsharing"@en .
   edam:operation_3095 obo:inSubset "FAIRsharing"@en .
   edam:operation_3182 obo:inSubset "FAIRsharing"@en .
   edam:operation_3196 obo:inSubset "FAIRsharing"@en .
@@ -941,6 +940,7 @@ INSERT {
   obolib:OMIT_0028415 drao:DRAO_0000001 "Intrinsically disordered proteins"@en .
   obolib:OMIT_0028630 obo:inSubset "FAIRsharing"@en .
   obolib:OMIT_0028630 drao:DRAO_0000001 "Non-randomized controlled trials"@en .
+  obolib:OMIT_0004280 obo:inSubset "FAIRsharing"@en .
 
   ## OMP
   obolib:OMP_0000197 obo:inSubset "FAIRsharing"@en .
