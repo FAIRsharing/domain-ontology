@@ -199,6 +199,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0004280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0004280">
+        <obo:IAO_0000115 xml:lang="en">The systematic arrangement of entities in any field into categories classes based on common characteristics such as properties, morphology, or subject matter. [Adapted from https://meshb.nlm.nih.gov/record/ui?ui=D002965, AL 5.8.2020]</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0009360 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0009360">

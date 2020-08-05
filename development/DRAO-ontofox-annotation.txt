@@ -532,7 +532,6 @@ http://edamontology.org/operation_2428 # Validation
 http://edamontology.org/operation_2454 # Gene prediction
 http://edamontology.org/operation_2575 # Protein binding site prediction
 http://edamontology.org/operation_2945 # Analysis
-http://edamontology.org/operation_2990 # Classification
 http://edamontology.org/operation_3095 # Nucleic acid design
 http://edamontology.org/operation_3182 # Genome alignment
 http://edamontology.org/operation_3196 # Genotyping
@@ -1843,6 +1842,7 @@ http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
 http://purl.obolibrary.org/obo/OMIT_0028181 # Crowdsourcing
 http://purl.obolibrary.org/obo/OMIT_0028415 # Intrinsically disordered proteins
 http://purl.obolibrary.org/obo/OMIT_0028630 # Non-randomized controlled trials
+http://purl.obolibrary.org/obo/OMIT_0004280 # Classification
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
@@ -1884,6 +1884,8 @@ subClassOf http://edamontology.org/operation_2945 # Analysis
 
 http://purl.obolibrary.org/obo/OMIT_0028630 # Non-randomized controlled trials
 subClassOf http://purl.obolibrary.org/obo/OBI_0000066 # Investigation - hierarchy only, not in FAIRsharing
+http://purl.obolibrary.org/obo/OMIT_0004280 # Classification
+subClassOf http://purl.obolibrary.org/obo/OBI_0200000 # data transformation
 
 http://purl.obolibrary.org/obo/OMIT_0012761 # Radiation effects
 subClassOf http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
