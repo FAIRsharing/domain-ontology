@@ -3,6 +3,7 @@
 Old IRI|New IRI
 http://edamontology.org/data_2044|http://purl.obolibrary.org/obo/SO_0000001|Note: we are changing Sequence from EDAM to SO
 http://edamontology.org/data_2976|http://purl.obolibrary.org/obo/SO_0000839|Note: we are changing Amino acid sequence from EDAM to SO
+http://edamontology.org/operation_2990|http://purl.obolibrary.org/obo/OMIT_0004280|Note: we are changing Classification from EDAM to OMIT.
 
 # List of promotions from user-defined tags to DRAO
 Old Label|New IRI
