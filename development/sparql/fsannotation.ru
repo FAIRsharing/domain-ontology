@@ -675,8 +675,6 @@ INSERT {
   obolib:MI_0964 drao:DRAO_0000001 "Infared spectroscopy"@en .
   obolib:MI_0966 obo:inSubset "FAIRsharing"@en .
   obolib:MI_0966 drao:DRAO_0000001 "Ultraviolet-visible spectroscopy"@en .
-  obolib:MI_1241 obo:inSubset "FAIRsharing"@en .
-  obolib:MI_1241 drao:DRAO_0000001 "Sequence variant"@en .
   obolib:MI_2025 obo:inSubset "FAIRsharing"@en .
   obolib:MI_2025 drao:DRAO_0000001 "Molecular weight"@en .
   obolib:MI_2030 obo:inSubset "FAIRsharing"@en .
@@ -1137,6 +1135,8 @@ INSERT {
   obolib:SO_0001041 drao:DRAO_0000001 "Viral sequence"@en .
   obolib:SO_0001059 obo:inSubset "FAIRsharing"@en .
   obolib:SO_0001059 drao:DRAO_0000001 "Sequence alteration"@en .
+  obolib:SO_0001060 obo:inSubset "FAIRsharing"@en .
+  obolib:SO_0001060 drao:DRAO_0000001 "Sequence variant"@en .
   obolib:SO_0001067 obo:inSubset "FAIRsharing"@en .
   obolib:SO_0001067 drao:DRAO_0000001 "Polypeptide motif"@en .
   obolib:SO_0001244 obo:inSubset "FAIRsharing"@en .

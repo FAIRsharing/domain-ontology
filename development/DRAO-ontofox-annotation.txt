@@ -1272,7 +1272,6 @@ http://purl.obolibrary.org/obo/MI_0414 # Enzymatic reaction
 http://purl.obolibrary.org/obo/MI_0914 # Functional association
 http://purl.obolibrary.org/obo/MI_0964 # Infared spectroscopy
 http://purl.obolibrary.org/obo/MI_0966 # Ultraviolet-visible spectroscopy
-http://purl.obolibrary.org/obo/MI_1241 # Sequence variant
 http://purl.obolibrary.org/obo/MI_2190 # Long non-coding ribonucleic acid
 http://purl.obolibrary.org/obo/MI_2231 # Co-expression
 
@@ -1297,8 +1296,6 @@ http://purl.obolibrary.org/obo/MI_0964 # Infared spectroscopy
 subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # assay
 http://purl.obolibrary.org/obo/MI_0966 # Ultraviolet-visible spectroscopy
 subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # assay
-http://purl.obolibrary.org/obo/MI_1241 # Sequence variant
-subClassOf http://purl.obolibrary.org/obo/SO_0001059 # Sequence alteration
 http://purl.obolibrary.org/obo/MI_0118 # Mutation
 subClassOf http://purl.obolibrary.org/obo/SO_0001059 # Sequence alteration
 http://purl.obolibrary.org/obo/MI_2231 # Co-expression
@@ -2252,6 +2249,7 @@ http://purl.obolibrary.org/obo/SO_0001026 # Genome
 http://purl.obolibrary.org/obo/SO_0001037 # Mobile genetic element
 http://purl.obolibrary.org/obo/SO_0001041 # Viral sequence
 http://purl.obolibrary.org/obo/SO_0001059 # Sequence alteration
+http://purl.obolibrary.org/obo/SO_0001060 # Sequence variant
 http://purl.obolibrary.org/obo/SO_0001067 # Polypeptide motif
 http://purl.obolibrary.org/obo/SO_0001244 # Pre-miRNA (pre-microRNA)
 http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection **Required for OMIT, VariO and FBCV**
@@ -2274,6 +2272,9 @@ http://purl.obolibrary.org/obo/SO_0001260 # sequence_collection
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 http://purl.obolibrary.org/obo/SO_0000110 # sequence_feature
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+
+http://purl.obolibrary.org/obo/SO_0001060 # sequence_variant **Not its native location in SO**
+subClassOf http://purl.obolibrary.org/obo/SO_0000110 # sequence_feature
 
 http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA
 subClassOf http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid
