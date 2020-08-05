@@ -238,6 +238,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000839 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000839">
+        <obo:IAO_0000118 xml:lang="en">Protein sequence</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SO_0001877 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001877">
