@@ -1,6 +1,8 @@
 # List of refactored IRIs that have remained in DRAO.
 
 Old IRI|New IRI
+http://edamontology.org/data_2044|http://purl.obolibrary.org/obo/SO_0000001|Note: we are changing Sequence from EDAM to SO
+http://edamontology.org/data_2976|http://purl.obolibrary.org/obo/SO_0000839|Note: we are changing Amino acid sequence from EDAM to SO
 
 # List of promotions from user-defined tags to DRAO
 Old Label|New IRI
