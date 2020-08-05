@@ -1,14 +1,8 @@
 # List of refactored IRIs that have remained in DRAO.
-
-Old IRI|New IRI
-http://edamontology.org/data_2044|http://purl.obolibrary.org/obo/SO_0000001|Note: we are changing Sequence from EDAM to SO
-http://edamontology.org/data_2976|http://purl.obolibrary.org/obo/SO_0000839|Note: we are changing Amino acid sequence from EDAM to SO
-http://edamontology.org/operation_2990|http://purl.obolibrary.org/obo/OMIT_0004280|Note: we are changing Classification from EDAM to OMIT.
-http://purl.obolibrary.org/obo/MI_1241|http://purl.obolibrary.org/obo/SO_0001060: Note: we are changing sequence variant from MI to SO.
+Old IRI|New IRI|Note
 
 # List of promotions from user-defined tags to DRAO
 Old Label|New IRI
-Approved drug|http://www.fairsharing.org/ontology/DRAO_0000322
 
 # List of IRIs that have moved from DRAO to SRAO in the current milestone
 # There are spaces for three IRIs, but you may only need one or two of them.
