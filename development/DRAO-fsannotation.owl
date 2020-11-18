@@ -360,6 +360,9 @@
     <rdf:Description rdf:about="http://edamontology.org/operation_3767">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/operation_3799">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/topic_0128">
         <domain:DRAO_0000001 xml:lang="en">Protein interaction</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -1369,6 +1372,9 @@
         <domain:DRAO_0000001 xml:lang="en">Protein-protein interaction</domain:DRAO_0000001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C18472">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C18962">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C18966">
