@@ -742,6 +742,7 @@ INSERT {
   obolib:NCIT_C18469 drao:DRAO_0000001 "Protein-protein interaction"@en .
   obolib:NCIT_C18472 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C18469 drao:DRAO_0000001 "High-throughput screening"@en .
+  obolib:NCIT_C18962 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C18966 obo:inSubset "FAIRsharing"@en .
   obolib:NCIT_C18966 drao:DRAO_0000001 "Protein expression"@en .
   obolib:NCIT_C26549 obo:inSubset "FAIRsharing"@en .
