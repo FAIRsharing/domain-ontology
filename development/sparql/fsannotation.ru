@@ -270,6 +270,7 @@ INSERT {
   edam:operation_3672 obo:inSubset "FAIRsharing"@en .
   edam:operation_3741 obo:inSubset "FAIRsharing"@en .
   edam:operation_3767 obo:inSubset "FAIRsharing"@en .
+  edam:operation_3799 obo:inSubset "FAIRsharing"@en .
   edam:topic_0128 obo:inSubset "FAIRsharing"@en .
   edam:topic_0128 drao:DRAO_0000001 "Protein interaction"@en .
   edam:topic_0157 obo:inSubset "FAIRsharing"@en .
