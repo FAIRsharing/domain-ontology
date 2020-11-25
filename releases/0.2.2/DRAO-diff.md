@@ -15,6 +15,44 @@
 
 
 ### Ontology annotations
+
+### Approved drug `http://www.fairsharing.org/ontology/DRAO_0000322`
+#### Removed
+- [Approved drug](http://www.fairsharing.org/ontology/DRAO_0000322) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) "FAIRsharing"
+
+- [Approved drug](http://www.fairsharing.org/ontology/DRAO_0000322) [label](http://www.w3.org/2000/01/rdf-schema#label) "Approved drug"@en
+
+- [Approved drug](http://www.fairsharing.org/ontology/DRAO_0000322) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An approved drug is a preparation that has been validated for a therapeutic use by a ruling authority of a government. [Wikipedia https://en.wikipedia.org/wiki/Approved_drug, accessed 20.5.20]"@en
+
+- Class: [Approved drug](http://www.fairsharing.org/ontology/DRAO_0000322)
+
+- [Approved drug](http://www.fairsharing.org/ontology/DRAO_0000322) SubClassOf [clinical drug role](http://purl.obolibrary.org/obo/DRON_00000001)
+
+
+
+### DRAO_0000322 `http://www.fairsharing.org/ontology/domain/DRAO_0000322`
+
+#### Added
+- [DRAO_0000322](http://www.fairsharing.org/ontology/domain/DRAO_0000322) [definition](http://purl.obolibrary.org/obo/IAO_0000115) "An approved drug is a preparation that has been validated for a therapeutic use by a ruling authority of a government. [Wikipedia https://en.wikipedia.org/wiki/Approved_drug, accessed 20.5.20]"@en
+
+- [DRAO_0000322](http://www.fairsharing.org/ontology/domain/DRAO_0000322) [inSubset](http://www.geneontology.org/formats/oboInOwl#inSubset) "FAIRsharing"
+
+- [DRAO_0000322](http://www.fairsharing.org/ontology/domain/DRAO_0000322) [label](http://www.w3.org/2000/01/rdf-schema#label) "Approved drug"@en
+
+- Class: [DRAO_0000322](http://www.fairsharing.org/ontology/domain/DRAO_0000322)
+
+- [DRAO_0000322](http://www.fairsharing.org/ontology/domain/DRAO_0000322) SubClassOf [clinical drug role](http://purl.obolibrary.org/obo/DRON_00000001)
+
+
+### FDA approved drug role `http://purl.obolibrary.org/obo/DRON_00000025`
+#### Removed
+- [FDA approved drug role](http://purl.obolibrary.org/obo/DRON_00000025) SubClassOf [Approved drug](http://www.fairsharing.org/ontology/DRAO_0000322)
+
+#### Added
+- [FDA approved drug role](http://purl.obolibrary.org/obo/DRON_00000025) SubClassOf [DRAO_0000322](http://www.fairsharing.org/ontology/domain/DRAO_0000322)
+
+
+
 ### Protein Analysis `http://purl.obolibrary.org/obo/NCIT_C18962`
 Added in https://github.com/FAIRsharing/domain-ontology/issues/68
 #### Added

@@ -270,17 +270,6 @@
     
 
 
-    <!-- http://www.fairsharing.org/ontology/DRAO_0000322 -->
-
-    <owl:Class rdf:about="http://www.fairsharing.org/ontology/DRAO_0000322">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000001"/>
-        <obo:IAO_0000115 xml:lang="en">An approved drug is a preparation that has been validated for a therapeutic use by a ruling authority of a government. [Wikipedia https://en.wikipedia.org/wiki/Approved_drug, accessed 20.5.20]</obo:IAO_0000115>
-        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label xml:lang="en">Approved drug</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.fairsharing.org/ontology/domain/DRAO_0000281 -->
 
     <owl:Class rdf:about="http://www.fairsharing.org/ontology/domain/DRAO_0000281">
@@ -300,6 +289,17 @@
         <obo:IAO_0000115>Biocuration is the extraction of knowledge from unstructured biological and biomedical data into a standard, structured, computable form. [PMQ 2018.09.10 &amp; International Society for Biocuration. DOI: 10.1371/journal.pbio.2002846]</obo:IAO_0000115>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">Biocuration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fairsharing.org/ontology/domain/DRAO_0000322 -->
+
+    <owl:Class rdf:about="http://www.fairsharing.org/ontology/domain/DRAO_0000322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000001"/>
+        <obo:IAO_0000115 xml:lang="en">An approved drug is a preparation that has been validated for a therapeutic use by a ruling authority of a government. [Wikipedia https://en.wikipedia.org/wiki/Approved_drug, accessed 20.5.20]</obo:IAO_0000115>
+        <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">Approved drug</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
