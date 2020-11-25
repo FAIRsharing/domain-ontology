@@ -399,7 +399,7 @@ http://purl.obolibrary.org/obo/DRON_00000025 # FDA approved drug
 http://purl.obolibrary.org/obo/DRON_00000001 # clinical drug role
 subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
 http://purl.obolibrary.org/obo/DRON_00000025 # FDA approved drug
-subClassOf http://www.fairsharing.org/ontology/DRAO_0000322 # Approved drug
+subClassOf http://www.fairsharing.org/ontology/domain/DRAO_0000322 # Approved drug
 
 [Source term retrieval setting]
 includeAllIntermediates
