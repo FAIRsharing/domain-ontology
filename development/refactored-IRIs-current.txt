@@ -1,5 +1,6 @@
 # List of refactored IRIs that have remained in DRAO.
 Old IRI|New IRI|Note
+http://purl.obolibrary.org/obo/GO_0005623|http://purl.obolibrary.org/obo/CL_0000000|https://github.com/FAIRsharing/domain-ontology/issues/76
 
 # List of promotions from user-defined tags to DRAO
 Old Label|New IRI

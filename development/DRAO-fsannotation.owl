@@ -574,6 +574,10 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <domain:DRAO_0000001 xml:lang="en">Human induced pluripotent stem cell line cell</domain:DRAO_0000001>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <domain:DRAO_0000001 xml:lang="en">Cell</domain:DRAO_0000001>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000034">
         <domain:DRAO_0000001 xml:lang="en">Stem cell</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -860,10 +864,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
         <domain:DRAO_0000001 xml:lang="en">Cellular component</domain:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005623">
-        <domain:DRAO_0000001 xml:lang="en">Cell</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005634">

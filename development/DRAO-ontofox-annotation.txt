@@ -198,18 +198,6 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 
 #### NOTES ON CL IMPORT ####
 ##
-## CL has *two* sibling cell classes:
-## http://purl.obolibrary.org/obo/GO_0005623
-## http://purl.obolibrary.org/obo/CL_0000000
-##
-## Although the two are linked via database cross-references,
-## they also remain distinct in the ontology. While we could use
-## equivalence statements, this wouldn't help our programmers,
-## as they aren't necessarily pulling those particular axioms. It
-## is much easier to just retain one of the parents, and as we
-## have extensive GO hierarchies, we have retained the
-## GO Cell URI only.
-##
 ## Although CL does not include all of BFO, it includes enough of
 ## the hierarchy that includeAllIntermediates is required to ensure
 ## correct creation of the entire BFO hierarchy, especially around
@@ -225,6 +213,7 @@ mapTo http://purl.obolibrary.org/obo/IAO_0000118
 CL
 
 [Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000000 # Cell
 http://purl.obolibrary.org/obo/CL_0000034 # Stem cell
 http://purl.obolibrary.org/obo/CL_0000084 # T cell
 http://purl.obolibrary.org/obo/CL_0000451 # Dendritic cell
@@ -237,12 +226,8 @@ http://purl.obolibrary.org/obo/BFO_0000002 # continuant
 subClassOf http://purl.obolibrary.org/obo/BFO_0000001 # entity
 http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
-http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+http://purl.obolibrary.org/obo/CL_0000000 # cell (CL)
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000061 # anatomical structure
-http://purl.obolibrary.org/obo/CL_0000003 # native cell
-subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
-http://purl.obolibrary.org/obo/CL_0000540 # neuron
-subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
 
 [Source term retrieval setting]
 includeAllIntermediates
@@ -285,16 +270,12 @@ http://purl.obolibrary.org/obo/CLO_0037308 # human induced pluripotent stem cell
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
 
-## These statements ensure that only the GO cell class is retained in DRAO
-## (See note in the CL Import section)
-## http://purl.obolibrary.org/obo/CLO_0036932 # Hybridoma
-## subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
 http://purl.obolibrary.org/obo/CL_0001034 # cell in vitro
-subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 # cell
 http://purl.obolibrary.org/obo/CL_0000578 # experimentally modified cell in vitro
-subClassOf http://purl.obolibrary.org/obo/CL_0001034 # cell (GO)
+subClassOf http://purl.obolibrary.org/obo/CL_0001034 # cell in vitro
 http://www.ebi.ac.uk/cellline#UnspecifiedCellType
-subClassOf http://purl.obolibrary.org/obo/GO_0005623 # cell (GO)
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 # cell
 
 [Source term retrieval setting]
 includeAllIntermediates
@@ -966,7 +947,6 @@ http://purl.obolibrary.org/obo/GO_0005216 # Ion channel activity
 http://purl.obolibrary.org/obo/GO_0005488 # Binding
 http://purl.obolibrary.org/obo/GO_0005575 # Cellular component
 http://purl.obolibrary.org/obo/GO_0005622 # Intracellular **Required for NCIT Receptor**
-http://purl.obolibrary.org/obo/GO_0005623 # Cell
 http://purl.obolibrary.org/obo/GO_0005634 # Nucleus
 http://purl.obolibrary.org/obo/GO_0005694 # Chromosome
 http://purl.obolibrary.org/obo/GO_0005739 # Mitochondrion

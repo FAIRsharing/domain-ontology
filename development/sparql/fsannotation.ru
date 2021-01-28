@@ -105,6 +105,8 @@ INSERT {
   obolib:CHMO_0001002 drao:DRAO_0000001 "Gas chromatography"@en .
 
   ## CL
+  obolib:CL_0000000 obo:inSubset "FAIRsharing"@en .
+  obolib:CL_0000000 drao:DRAO_0000001 "Cell"@en .
   obolib:CL_0000034 obo:inSubset "FAIRsharing"@en .
   obolib:CL_0000034 drao:DRAO_0000001 "Stem cell"@en .
   obolib:CL_0000084 obo:inSubset "FAIRsharing"@en .
@@ -464,8 +466,6 @@ INSERT {
   obolib:GO_0005488 drao:DRAO_0000001 "Binding"@en .
   obolib:GO_0005575 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0005575 drao:DRAO_0000001 "Cellular component"@en .
-  obolib:GO_0005623 obo:inSubset "FAIRsharing"@en .
-  obolib:GO_0005623 drao:DRAO_0000001 "Cell"@en .
   obolib:GO_0005634 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0005634 drao:DRAO_0000001 "Nucleus"@en .
   obolib:GO_0005694 obo:inSubset "FAIRsharing"@en .
@@ -636,6 +636,8 @@ INSERT {
   obolib:IDO_0000528 drao:DRAO_0000001 "Pathogen"@en .
   obolib:IDO_0000550 obo:inSubset "FAIRsharing"@en .
   obolib:IDO_0000550 drao:DRAO_0000001 "Exotoxin"@en .
+  #obolib:IDO_0000586 obo:inSubset "FAIRsharing"@en .
+  #obolib:IDO_0000586 drao:DRAO_0000001 "Infection"@en .
   obolib:IDO_0000630 obo:inSubset "FAIRsharing"@en .
   obolib:IDO_0000630 drao:DRAO_0000001 "Nosocomial infection"@en .
 
