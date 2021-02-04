@@ -308,7 +308,7 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/operation_2423">
-        <domain:DRAO_0000001 xml:lang="en">Computational predictions</domain:DRAO_0000001>
+        <domain:DRAO_0000001 xml:lang="en">Computational biological predictions</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/operation_2428">
@@ -343,9 +343,6 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/operation_3432">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://edamontology.org/operation_3439">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/operation_3562">
