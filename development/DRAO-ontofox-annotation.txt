@@ -518,11 +518,11 @@ http://edamontology.org/operation_3196 # Genotyping
 http://edamontology.org/operation_3208 # Genome visualization
 http://edamontology.org/operation_3223 # Differential gene expression analysis
 http://edamontology.org/operation_3432 # Clustering
-http://edamontology.org/operation_3562 # Network simulation
 http://edamontology.org/operation_3672 # Gene functional annotation
 http://edamontology.org/operation_3741 # Differential protein expression analysis
 http://edamontology.org/operation_3767 # Protein identification
 http://edamontology.org/operation_3799 # Quantification
+http://edamontology.org/operation_3927 # Network analysis
 http://edamontology.org/topic_0128 # Protein interaction
 http://edamontology.org/topic_0157 # Sequence composition, complexity and repeats
 http://edamontology.org/topic_0621 # Model organism
