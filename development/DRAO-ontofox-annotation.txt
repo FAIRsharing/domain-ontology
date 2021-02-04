@@ -465,7 +465,6 @@ http://edamontology.org/data_1712 # Chemical structure image
 http://edamontology.org/data_1743 # Atomic coordinate
 http://edamontology.org/data_1872 # Taxonomic classification
 http://edamontology.org/data_2042 # Evidence
-http://edamontology.org/data_2048 # Report
 http://edamontology.org/data_2140 # Concentration
 http://edamontology.org/data_2299 # Gene name
 http://edamontology.org/data_2337 # Resource metadata
@@ -551,6 +550,18 @@ http://edamontology.org/data_3153 # Protein image
 subClassOf http://purl.obolibrary.org/obo/IAO_0000101 # Image
 http://edamontology.org/data_2977 # Nucleic acid sequence
 subClassOf http://purl.obolibrary.org/obo/SO_0001411 # biological_region
+
+## Children of EDAM Report should sit under IAO's report class
+http://edamontology.org/data_1696 # Drug report
+subClassOf http://purl.obolibrary.org/obo/IAO_0000088 # report
+http://edamontology.org/data_0916 # Gene report
+subClassOf http://purl.obolibrary.org/obo/IAO_0000088 # report
+http://edamontology.org/data_3720 # Geographic location
+subClassOf http://purl.obolibrary.org/obo/IAO_0000088 # report
+http://edamontology.org/data_2531 # Protocol
+subClassOf http://purl.obolibrary.org/obo/IAO_0000088 # report
+http://edamontology.org/data_2337 # Resource metadata
+subClassOf http://purl.obolibrary.org/obo/IAO_0000088 # report
 
 ##
 ## Moving Topics out of the Topic hierarchy for cleaner hierarchies
@@ -1089,6 +1100,7 @@ http://purl.obolibrary.org/obo/IAO_0000013 # Journal article
 http://purl.obolibrary.org/obo/IAO_0000027 # Data item **Required for FBCV, UO and MS hierarchies**
 http://purl.obolibrary.org/obo/IAO_0000038 # Graph
 http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
+http://purl.obolibrary.org/obo/IAO_0000088 # Report
 http://purl.obolibrary.org/obo/IAO_0000101 # Image
 http://purl.obolibrary.org/obo/IAO_0000183 # Dendrogram
 http://purl.obolibrary.org/obo/IAO_0000310 # Document **Required for NCIT hierarchy only**

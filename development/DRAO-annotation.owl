@@ -717,7 +717,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_1696">
         <rdfs:label>Drug report</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
         <obo:IAO_0000118>Drug structure relationship map</obo:IAO_0000118>
         <obo:IAO_0000115>A human-readable collection of information about a specific drug.</obo:IAO_0000115>
         <obo:IAO_0000118>Drug annotation</obo:IAO_0000118>
@@ -789,14 +789,7 @@
 
     <!-- http://edamontology.org/data_2048 -->
 
-    <owl:Class rdf:about="http://edamontology.org/data_2048">
-        <rdfs:label>Report</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000118>Document</obo:IAO_0000118>
-        <obo:IAO_0000118>Record</obo:IAO_0000118>
-        <obo:IAO_0000115>A human-readable collection of information including annotation on a biological entity or phenomena, computer-generated reports of analysis of primary data (e.g. sequence or structural), and metadata (data about primary data) or any other free (essentially unformatted) text, as distinct from the primary data itself.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://edamontology.org/data_2048"/>
     
 
 
@@ -888,7 +881,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_2337">
         <rdfs:label>Resource metadata</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
         <obo:IAO_0000115>Data concerning or describing some core computational resource, as distinct from primary data.  This includes metadata on the origin, source, history, ownership or location of some thing.</obo:IAO_0000115>
         <obo:IAO_0000118>Provenance metadata</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -913,7 +906,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_2531">
         <rdfs:label>Protocol</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
         <obo:IAO_0000118>Experiment metadata</obo:IAO_0000118>
         <obo:IAO_0000118>Experiment annotation</obo:IAO_0000118>
         <obo:IAO_0000115>A human-readable collection of information about about how a scientific experiment or analysis was carried out that results in a specific set of data or results used for further analysis or to test a specific hypothesis.</obo:IAO_0000115>
@@ -1202,7 +1195,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_3720">
         <rdfs:label>Geographic location</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2048"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
         <obo:IAO_0000115>A report about localisation of the isolaton of biological material e.g. country or coordinates.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -12258,7 +12251,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/idomal.owl"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -12273,10 +12266,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
@@ -12286,6 +12276,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
