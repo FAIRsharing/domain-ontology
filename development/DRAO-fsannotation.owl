@@ -1202,6 +1202,10 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <domain:DRAO_0000001 xml:lang="en">Exotoxin</domain:DRAO_0000001>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000586">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <domain:DRAO_0000001 xml:lang="en">Infection</domain:DRAO_0000001>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000630">
         <domain:DRAO_0000001 xml:lang="en">Nosocomial infection</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
