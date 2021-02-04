@@ -267,11 +267,12 @@ INSERT {
   edam:operation_3208 drao:DRAO_0000001 "Genome visualization"@en .
   edam:operation_3223 obo:inSubset "FAIRsharing"@en .
   edam:operation_3432 obo:inSubset "FAIRsharing"@en .
-  edam:operation_3562 obo:inSubset "FAIRsharing"@en .
   edam:operation_3672 obo:inSubset "FAIRsharing"@en .
   edam:operation_3741 obo:inSubset "FAIRsharing"@en .
   edam:operation_3767 obo:inSubset "FAIRsharing"@en .
   edam:operation_3799 obo:inSubset "FAIRsharing"@en .
+  edam:operation_3927 obo:inSubset "FAIRsharing"@en .
+  edam:operation_3927 drao:DRAO_0000001 "Biological network analysis"@en .
   edam:topic_0128 obo:inSubset "FAIRsharing"@en .
   edam:topic_0128 drao:DRAO_0000001 "Protein interaction"@en .
   edam:topic_0157 obo:inSubset "FAIRsharing"@en .
