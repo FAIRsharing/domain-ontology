@@ -254,7 +254,7 @@ INSERT {
   edam:operation_0525 drao:DRAO_0000001 "Genomic assembly"@en .
   edam:operation_2422 obo:inSubset "FAIRsharing"@en .
   edam:operation_2423 obo:inSubset "FAIRsharing"@en .
-  edam:operation_2423 drao:DRAO_0000001 "Computational predictions"@en .
+  edam:operation_2423 drao:DRAO_0000001 "Computational biological predictions"@en .
   edam:operation_2428 obo:inSubset "FAIRsharing"@en .
   edam:operation_2454 obo:inSubset "FAIRsharing"@en .
   edam:operation_2502 obo:inSubset "FAIRsharing"@en .
@@ -267,7 +267,6 @@ INSERT {
   edam:operation_3208 drao:DRAO_0000001 "Genome visualization"@en .
   edam:operation_3223 obo:inSubset "FAIRsharing"@en .
   edam:operation_3432 obo:inSubset "FAIRsharing"@en .
-  edam:operation_3439 obo:inSubset "FAIRsharing"@en .
   edam:operation_3562 obo:inSubset "FAIRsharing"@en .
   edam:operation_3672 obo:inSubset "FAIRsharing"@en .
   edam:operation_3741 obo:inSubset "FAIRsharing"@en .
