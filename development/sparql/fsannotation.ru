@@ -206,8 +206,6 @@ INSERT {
   edam:data_2140 obo:inSubset "FAIRsharing"@en .
   edam:data_2299 obo:inSubset "FAIRsharing"@en .
   edam:data_2337 obo:inSubset "FAIRsharing"@en .
-  edam:data_2531 obo:inSubset "FAIRsharing"@en .
-  edam:data_2531 drao:DRAO_0000001 "Experiment metadata"@en .
   edam:data_2603 obo:inSubset "FAIRsharing"@en .
   edam:data_2717 obo:inSubset "FAIRsharing"@en .
   edam:data_2849 obo:inSubset "FAIRsharing"@en .

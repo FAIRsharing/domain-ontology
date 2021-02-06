@@ -184,10 +184,6 @@
     <rdf:Description rdf:about="http://edamontology.org/data_2337">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
-    <rdf:Description rdf:about="http://edamontology.org/data_2531">
-        <domain:DRAO_0000001 xml:lang="en">Experiment metadata</domain:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/data_2603">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
