@@ -635,8 +635,6 @@ INSERT {
   obolib:IDO_0000528 drao:DRAO_0000001 "Pathogen"@en .
   obolib:IDO_0000550 obo:inSubset "FAIRsharing"@en .
   obolib:IDO_0000550 drao:DRAO_0000001 "Exotoxin"@en .
-  obolib:IDO_0000586 obo:inSubset "FAIRsharing"@en .
-  obolib:IDO_0000586 drao:DRAO_0000001 "Infection"@en .
   obolib:IDO_0000630 obo:inSubset "FAIRsharing"@en .
   obolib:IDO_0000630 drao:DRAO_0000001 "Nosocomial infection"@en .
 

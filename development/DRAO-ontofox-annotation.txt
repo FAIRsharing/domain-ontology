@@ -1134,11 +1134,12 @@ IDO
 http://purl.obolibrary.org/obo/IDO_0000526 # Parasite
 http://purl.obolibrary.org/obo/IDO_0000528 # Pathogen
 http://purl.obolibrary.org/obo/IDO_0000550 # Exotoxin
-http://purl.obolibrary.org/obo/IDO_0000586 # Infection
 http://purl.obolibrary.org/obo/IDO_0000630 # Nosocomial infection
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
+http://purl.obolibrary.org/obo/IDO_0000630 # Nosocomial infection
+subClassOf http://purl.obolibrary.org/obo/OBI_1110021 # Infection
 http://purl.obolibrary.org/obo/IDO_0000550 # Exotoxin
 subClassOf http://purl.obolibrary.org/obo/CHEBI_27026 # toxin
 ## SubClass statement (below) with molecular entity now obsolete now that exotoxin is placed more precisely within CHEBI
