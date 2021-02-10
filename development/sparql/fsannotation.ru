@@ -105,6 +105,8 @@ INSERT {
   obolib:CHMO_0001002 drao:DRAO_0000001 "Gas chromatography"@en .
 
   ## CL
+  obolib:CL_0000000 obo:inSubset "FAIRsharing"@en .
+  obolib:CL_0000000 drao:DRAO_0000001 "Cell"@en .
   obolib:CL_0000034 obo:inSubset "FAIRsharing"@en .
   obolib:CL_0000034 drao:DRAO_0000001 "Stem cell"@en .
   obolib:CL_0000084 obo:inSubset "FAIRsharing"@en .
@@ -201,12 +203,9 @@ INSERT {
   edam:data_1743 obo:inSubset "FAIRsharing"@en .
   edam:data_1872 obo:inSubset "FAIRsharing"@en .
   edam:data_2042 obo:inSubset "FAIRsharing"@en .
-  edam:data_2048 obo:inSubset "FAIRsharing"@en .
   edam:data_2140 obo:inSubset "FAIRsharing"@en .
   edam:data_2299 obo:inSubset "FAIRsharing"@en .
   edam:data_2337 obo:inSubset "FAIRsharing"@en .
-  edam:data_2531 obo:inSubset "FAIRsharing"@en .
-  edam:data_2531 drao:DRAO_0000001 "Experiment metadata"@en .
   edam:data_2603 obo:inSubset "FAIRsharing"@en .
   edam:data_2717 obo:inSubset "FAIRsharing"@en .
   edam:data_2849 obo:inSubset "FAIRsharing"@en .
@@ -252,7 +251,7 @@ INSERT {
   edam:operation_0525 drao:DRAO_0000001 "Genomic assembly"@en .
   edam:operation_2422 obo:inSubset "FAIRsharing"@en .
   edam:operation_2423 obo:inSubset "FAIRsharing"@en .
-  edam:operation_2423 drao:DRAO_0000001 "Computational predictions"@en .
+  edam:operation_2423 drao:DRAO_0000001 "Computational biological predictions"@en .
   edam:operation_2428 obo:inSubset "FAIRsharing"@en .
   edam:operation_2454 obo:inSubset "FAIRsharing"@en .
   edam:operation_2502 obo:inSubset "FAIRsharing"@en .
@@ -265,12 +264,12 @@ INSERT {
   edam:operation_3208 drao:DRAO_0000001 "Genome visualization"@en .
   edam:operation_3223 obo:inSubset "FAIRsharing"@en .
   edam:operation_3432 obo:inSubset "FAIRsharing"@en .
-  edam:operation_3439 obo:inSubset "FAIRsharing"@en .
-  edam:operation_3562 obo:inSubset "FAIRsharing"@en .
   edam:operation_3672 obo:inSubset "FAIRsharing"@en .
   edam:operation_3741 obo:inSubset "FAIRsharing"@en .
   edam:operation_3767 obo:inSubset "FAIRsharing"@en .
   edam:operation_3799 obo:inSubset "FAIRsharing"@en .
+  edam:operation_3927 obo:inSubset "FAIRsharing"@en .
+  edam:operation_3927 drao:DRAO_0000001 "Biological network analysis"@en .
   edam:topic_0128 obo:inSubset "FAIRsharing"@en .
   edam:topic_0128 drao:DRAO_0000001 "Protein interaction"@en .
   edam:topic_0157 obo:inSubset "FAIRsharing"@en .
@@ -464,8 +463,6 @@ INSERT {
   obolib:GO_0005488 drao:DRAO_0000001 "Binding"@en .
   obolib:GO_0005575 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0005575 drao:DRAO_0000001 "Cellular component"@en .
-  obolib:GO_0005623 obo:inSubset "FAIRsharing"@en .
-  obolib:GO_0005623 drao:DRAO_0000001 "Cell"@en .
   obolib:GO_0005634 obo:inSubset "FAIRsharing"@en .
   obolib:GO_0005634 drao:DRAO_0000001 "Nucleus"@en .
   obolib:GO_0005694 obo:inSubset "FAIRsharing"@en .
@@ -616,6 +613,8 @@ INSERT {
   obolib:IAO_0000038 drao:DRAO_0000001 "Graph"@en .
   obolib:IAO_0000064 obo:inSubset "FAIRsharing"@en .
   obolib:IAO_0000064 drao:DRAO_0000001 "Algorithm"@en .
+  obolib:IAO_0000088 obo:inSubset "FAIRsharing"@en .
+  obolib:IAO_0000088 drao:DRAO_0000001 "Report"@en .
   obolib:IAO_0000101 obo:inSubset "FAIRsharing"@en .
   obolib:IAO_0000101 drao:DRAO_0000001 "Image"@en .
   obolib:IAO_0000183 obo:inSubset "FAIRsharing"@en .
