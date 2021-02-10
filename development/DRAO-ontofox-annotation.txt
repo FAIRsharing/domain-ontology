@@ -181,7 +181,7 @@ http://purl.obolibrary.org/obo/CHMO_0001002 # Gas chromatography
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000015 # process
-http://purl.obolibrary.org/obo/BFO_0000002 # continuant
+subClassOf http://purl.obolibrary.org/obo/BFO_0000003 # occurrent **required for proper BFO hierarchy**
 http://purl.obolibrary.org/obo/BFO_0000040 # material entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant
 
@@ -602,6 +602,7 @@ http://www.geneontology.org/formats/oboInOwl#hasDefinition
 mapTo http://purl.obolibrary.org/obo/IAO_0000115
 ## deliberately not including has_related_synonym as might be too broad
 
+
 #### NOTES ON EFO IMPORT ####
 ##
 ## EFO has a top-level class 'environmental factor' which is (deliberately)
@@ -657,22 +658,32 @@ http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/BFO_0000015 # process
+
+## Planned process in EFO is *not* the OBI planned process that we use.
+## Therefore all children must be reassigned.
+http://www.ebi.ac.uk/efo/EFO_0002694 # Experimental process
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # Planned process
+http://www.ebi.ac.uk/efo/EFO_0000727 # Treatment
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # Planned process
+http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # Planned process
+
 http://purl.obolibrary.org/obo/OBI_0000181 # population
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+
 http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
 subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
 http://www.ebi.ac.uk/efo/EFO_0003935 # Mental health
 subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
+
 http://www.ebi.ac.uk/efo/EFO_0003843 # Pain
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
 http://www.ebi.ac.uk/efo/EFO_0004426 # Karyotype
 subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
-http://www.ebi.ac.uk/efo/EFO_0002694 # experimental process
-subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+
 http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
 subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 # Life cycle stage
-http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
-subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # planned process
 
 ## Replacing EFO Disease with OGMS Disease
 http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
@@ -699,6 +710,7 @@ http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 mapTo http://purl.obolibrary.org/obo/IAO_0000118
 http://www.ebi.ac.uk/efo/definition
 mapTo http://purl.obolibrary.org/obo/IAO_0000115
+
 
 #### NOTES ON ENVO IMPORT ####
 ##
