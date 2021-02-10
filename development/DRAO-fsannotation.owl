@@ -175,9 +175,6 @@
     <rdf:Description rdf:about="http://edamontology.org/data_2042">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
-    <rdf:Description rdf:about="http://edamontology.org/data_2048">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/data_2140">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
@@ -185,10 +182,6 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/data_2337">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://edamontology.org/data_2531">
-        <domain:DRAO_0000001 xml:lang="en">Experiment metadata</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/data_2603">
@@ -308,7 +301,7 @@
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/operation_2423">
-        <domain:DRAO_0000001 xml:lang="en">Computational predictions</domain:DRAO_0000001>
+        <domain:DRAO_0000001 xml:lang="en">Computational biological predictions</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/operation_2428">
@@ -345,12 +338,6 @@
     <rdf:Description rdf:about="http://edamontology.org/operation_3432">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
-    <rdf:Description rdf:about="http://edamontology.org/operation_3439">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://edamontology.org/operation_3562">
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/operation_3672">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
@@ -362,6 +349,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/operation_3799">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/operation_3927">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <domain:DRAO_0000001 xml:lang="en">Biological network analysis</domain:DRAO_0000001>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/topic_0128">
         <domain:DRAO_0000001 xml:lang="en">Protein interaction</domain:DRAO_0000001>
@@ -573,6 +564,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037308">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <domain:DRAO_0000001 xml:lang="en">Human induced pluripotent stem cell line cell</domain:DRAO_0000001>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <domain:DRAO_0000001 xml:lang="en">Cell</domain:DRAO_0000001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000034">
         <domain:DRAO_0000001 xml:lang="en">Stem cell</domain:DRAO_0000001>
@@ -860,10 +855,6 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
         <domain:DRAO_0000001 xml:lang="en">Cellular component</domain:DRAO_0000001>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005623">
-        <domain:DRAO_0000001 xml:lang="en">Cell</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0005634">
@@ -1159,6 +1150,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000064">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <domain:DRAO_0000001 xml:lang="en">Algorithm</domain:DRAO_0000001>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000088">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <domain:DRAO_0000001 xml:lang="en">Report</domain:DRAO_0000001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000101">
         <domain:DRAO_0000001 xml:lang="en">Image</domain:DRAO_0000001>
