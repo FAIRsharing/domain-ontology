@@ -10,6 +10,9 @@
 ## OGI, OGMS, OMIT, OMP, PATO, PECO, PO, PR, PW, SBO, SIO, SO, STATO
 ## SWO, UBERON, UO, VariO, VO
 ##
+## Terms from ontologies that are not accessible from Ontofox are 
+## imported manually into DRAO-manual.owl
+##
 ##
 ## General Note:
 ## Please note that the use of includeComputedIntermediates means
