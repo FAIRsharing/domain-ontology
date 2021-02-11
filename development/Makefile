@@ -1,4 +1,13 @@
 ##
+## Variables required for Top-level targets
+##
+
+# Where all the files created by this makefile should go
+BUILD_DIR := build
+# Where ROBOT lives during makes
+ROBOT_LOCAL := $(BUILD_DIR)/robot.jar
+
+##
 ## Top-level targets
 ##
 
@@ -6,7 +15,7 @@
 # it is present (specifically, the development/ directory).
 
 # By default, this Makefile will build the standalone/merged version of the ontology.
-build: build/robot.jar add_fs_annotation merge
+build: $(ROBOT_LOCAL) add_fs_annotation merge
 
 # The build_release target should be run with a current release number specified
 # with RELNUM, e.g. RELNUM=0.1.0
@@ -16,11 +25,6 @@ build_release: check_relnum clean build add_version
 # other than the refactored IRIs file, which still need to be made manually
 release: copy_release_files
 
-## Compare two OWL files, providing LEFT and RIGHT paths and filenames
-robot_diff:
-	$(ROBOT) diff --labels=true --format=markdown --left $(LEFT) --right $(RIGHT) --output $(BUILD_DIR)/diff.md
-
-
 ##
 ## Variables
 ##
@@ -29,15 +33,13 @@ robot_diff:
 # https://github.com/ontodev/robot/releases/download/v1.4.3/robot.jar
 
 ROBOT_REMOTE_LOCATION := https://github.com/ontodev/robot/releases/latest/download/robot.jar
-ROBOT := java -jar build/robot.jar
+ROBOT := java -jar $(ROBOT_LOCAL)
 
 # The development directory is the same directory the Makefile is stored
 #SOURCE_DIR := development
 SOURCE_DIR := .
 BASE_FILE := $(SOURCE_DIR)/DRAO.owl
 
-# Where all the files created by this makefile should go
-BUILD_DIR := build
 
 # The release directory
 RELEASE_TOP_DIR := ../releases
@@ -63,6 +65,18 @@ RELEASE_FILE := $(RELEASE_DIR)/$(BASE_FILE)
 VERSION_IRI := "http://www.fairsharing.org/ontology/domain/DRAO.owl/$(RELNUM)"
 
 ##
+## Standalone Targets
+##
+
+## Compare two OWL files, providing LEFT and RIGHT paths and filenames
+robot_diff: $(ROBOT_LOCAL)
+	$(ROBOT) diff --labels=true --format=markdown --left $(LEFT) --right $(RIGHT) --output $(BUILD_DIR)/diff.md
+
+## Produce a table of statistics about the ontology
+robot_measure: $(ROBOT_LOCAL)
+		$(ROBOT) measure --metrics extended --input $(INPUT) --output $(BUILD_DIR)/metrics.html
+
+##
 ## Targets
 ##
 
@@ -86,12 +100,12 @@ reqd_release_dirs:
 	test -d $(BUILD_DIR)
 	mkdir $(RELEASE_DIR)
 
-build/robot.jar: | reqd_build_dirs
+$(ROBOT_LOCAL): | reqd_build_dirs
 	curl -L -o build/robot.jar $(ROBOT_REMOTE_LOCATION)
 	chmod ug+x build/robot.jar
 
 # Add FAIRsharing-specific annotation to $(FSANNOT)
-add_fs_annotation: build/robot.jar
+add_fs_annotation: $(ROBOT_LOCAL)
 	$(ROBOT) query --input $(FSANNOT_SKEL) --update $(SOURCE_DIR)/sparql/fsannotation.ru --output $(FSANNOT_BUILD)
 
 merge: tidy_labels
