@@ -611,6 +611,11 @@ subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # ICE
 http://edamontology.org/data_0950 # Mathematical model
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # ICE
 
+http://edamontology.org/data_1249 # Sequence length
+subClassOf http://purl.obolibrary.org/obo/SO_0000400 # Sequence attribute
+http://edamontology.org/data_1016 # Sequence position
+subClassOf http://purl.obolibrary.org/obo/SO_0000400 # Sequence attribute
+
 ##
 ## Moving Topics out of the Topic hierarchy for cleaner hierarchies
 ##
