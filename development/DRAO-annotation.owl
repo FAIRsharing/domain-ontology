@@ -360,7 +360,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_0970">
         <rdfs:label>Citation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000118>Reference</obo:IAO_0000118>
         <obo:IAO_0000115>Bibliographic data that uniquely identifies a scientific article, book or other published material.</obo:IAO_0000115>
         <obo:IAO_0000118>Bibliographic reference</obo:IAO_0000118>
@@ -837,19 +837,6 @@
     
 
 
-    <!-- http://edamontology.org/data_2526 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_2526">
-        <rdfs:label>Text data</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000118>Article data</obo:IAO_0000118>
-        <obo:IAO_0000115>Data concerning, extracted from, or derived from the analysis of a scientific text (or texts) such as a full text article from a scientific journal.</obo:IAO_0000115>
-        <obo:IAO_0000118>Scientific text data</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_2603 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_2603">
@@ -894,7 +881,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_2849">
         <rdfs:label>Abstract</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000115>An abstract of a scientific article.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1092,7 +1079,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_3505">
         <rdfs:label>Bibliography</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000115>A list of publications such as scientic papers or books.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -1103,7 +1090,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_3671">
         <rdfs:label>Text</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000118>Plain text</obo:IAO_0000118>
         <obo:IAO_0000118>Free text</obo:IAO_0000118>
         <obo:IAO_0000115>Any free or plain text, typically for human consumption and in English. Can instantiate also as a textual search query.</obo:IAO_0000115>
@@ -7082,6 +7069,17 @@ clustering algorithm.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000314">
+        <rdfs:label xml:lang="en">document part</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a document.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000572">
@@ -12163,30 +12161,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/idomal.owl"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
@@ -12197,6 +12171,30 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
 </rdf:RDF>
 
