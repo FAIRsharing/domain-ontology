@@ -592,6 +592,8 @@ http://edamontology.org/data_2978 # Reaction data
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # data item
 http://edamontology.org/data_1274 # Map
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # data item
+http://edamontology.org/data_2087 # Molecular property
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # data item
 
 http://edamontology.org/data_2603 # Expression data
 subClassOf http://purl.obolibrary.org/obo/CHMO_0000793 # assay output
