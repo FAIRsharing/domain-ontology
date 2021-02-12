@@ -311,7 +311,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_0939">
         <rdfs:label>CD spectra</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000800"/>
         <obo:IAO_0000115>Protein secondary structure from protein coordinate or circular dichroism (CD) spectroscopic data.</obo:IAO_0000115>
         <obo:IAO_0000118>Protein circular dichroism (CD) spectroscopic data</obo:IAO_0000118>
         <obo:IAO_0000118>CD spectrum</obo:IAO_0000118>
@@ -335,7 +335,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_0943">
         <rdfs:label>Mass spectrum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000800"/>
         <obo:IAO_0000115>Spectra from mass spectrometry.</obo:IAO_0000115>
         <obo:IAO_0000118>Mass spectrometry spectra</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1029,7 +1029,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_3108">
         <rdfs:label>Experimental measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
         <obo:IAO_0000118>Experimentally measured data</obo:IAO_0000118>
         <obo:IAO_0000118>Experimental measurement data</obo:IAO_0000118>
         <obo:IAO_0000118>Measurement</obo:IAO_0000118>
@@ -11857,7 +11857,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001444">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">measurement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement is an information entity that is a recording of the output of a measurement such as produced by an instrument.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
@@ -12199,10 +12199,10 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
