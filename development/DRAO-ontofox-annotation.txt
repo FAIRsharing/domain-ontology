@@ -10,7 +10,7 @@
 ## OGI, OGMS, OMIT, OMP, PATO, PECO, PO, PR, PW, SBO, SIO, SO, STATO
 ## SWO, UBERON, UO, VariO, VO
 ##
-## Terms from ontologies that are not accessible from Ontofox are 
+## Terms from ontologies that are not accessible from Ontofox are
 ## imported manually into DRAO-manual.owl
 ##
 ##
@@ -562,6 +562,17 @@ http://edamontology.org/data_3720 # Geographic location
 subClassOf http://purl.obolibrary.org/obo/IAO_0000088 # report
 http://edamontology.org/data_2337 # Resource metadata
 subClassOf http://purl.obolibrary.org/obo/IAO_0000088 # report
+
+##
+## Moving Data classes out for cleaner hierarchies
+##
+http://edamontology.org/data_2091 # Accession (hidden in FAIRsharing)
+subClassOf http://purl.obolibrary.org/obo/IAO_0020000 # Identifier (hidden in FAIRsharing)
+http://edamontology.org/data_0976 # Identifier (by type of data)
+subClassOf http://purl.obolibrary.org/obo/IAO_0020000 # Identifier
+http://edamontology.org/data_2099 # Name (hidden in FAIRsharing)
+subClassOf http://purl.obolibrary.org/obo/IAO_0020000 # Identifier
+
 
 ##
 ## Moving Topics out of the Topic hierarchy for cleaner hierarchies
