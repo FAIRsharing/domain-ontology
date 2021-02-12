@@ -454,7 +454,6 @@ http://edamontology.org/data_1278 # Genetic map
 http://edamontology.org/data_1280 # Physical map
 http://edamontology.org/data_1283 # Cytogenetic map
 http://edamontology.org/data_1288 # Genome map
-http://edamontology.org/data_1353 # Sequence motif
 http://edamontology.org/data_1364 # Hidden Markov model
 http://edamontology.org/data_1383 # Nucleic acid sequence alignment
 http://edamontology.org/data_1413 # Sequence similarity
@@ -582,6 +581,18 @@ http://edamontology.org/operation_0492 # Multiple sequence alignment
 subClassOf http://purl.obolibrary.org/obo/OBI_0002567 # Sequence alignment
 http://edamontology.org/operation_0294 # Structure-based sequence alignment
 subClassOf http://purl.obolibrary.org/obo/OBI_0002567 # Sequence alignment
+
+http://edamontology.org/data_1597 # Codon usage table
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # data item
+http://edamontology.org/data_3754 # GO-term enrichment data
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # data item
+http://edamontology.org/data_1413 # Sequence similarity
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # data item
+http://edamontology.org/data_2978 # Reaction data
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # data item
+
+http://edamontology.org/data_2042 # Evidence
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # ICE
 
 ##
 ## Moving Topics out of the Topic hierarchy for cleaner hierarchies
@@ -2278,6 +2289,7 @@ http://purl.obolibrary.org/obo/SO_0001244 # Pre-miRNA (pre-microRNA)
 http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection **Required for OMIT, VariO and FBCV**
 http://purl.obolibrary.org/obo/SO_0001459 # CRISPR
 http://purl.obolibrary.org/obo/SO_0001505 # Reference genome
+http://purl.obolibrary.org/obo/SO_0001683 # Sequence motif
 http://purl.obolibrary.org/obo/SO_0001877 # Long non-coding RNA
 http://purl.obolibrary.org/obo/SO_0001956 # Protease site
 http://purl.obolibrary.org/obo/SO_0002031 # Short Hairpin RNA

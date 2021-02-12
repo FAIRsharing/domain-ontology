@@ -1145,6 +1145,8 @@ INSERT {
   obolib:SO_0001459	obo:inSubset "FAIRsharing"@en .
   obolib:SO_0001505 obo:inSubset "FAIRsharing"@en .
   obolib:SO_0001505 drao:DRAO_0000001 "Reference genome"@en .
+  obolib:SO_0001683 obo:inSubset "FAIRsharing"@en .
+  obolib:SO_0001683 drao:DRAO_0000001 "Sequence motif"@en .
   obolib:SO_0001877 obo:inSubset "FAIRsharing"@en .
   obolib:SO_0001877 drao:DRAO_0000001 "Long non-coding RNA"@en .
   obolib:SO_0001956 obo:inSubset "FAIRsharing"@en .
