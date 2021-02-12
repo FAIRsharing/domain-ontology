@@ -623,6 +623,15 @@ subClassOf http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection
 http://edamontology.org/data_1235 # Sequence cluster
 subClassOf http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection
 
+http://edamontology.org/data_2849 # Abstract
+subClassOf http://purl.obolibrary.org/obo/IAO_0000314 # Document part
+http://edamontology.org/data_3505 # Bibliography
+subClassOf http://purl.obolibrary.org/obo/IAO_0000314 # Document part
+http://edamontology.org/data_0970 # Citation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000314 # Document part
+http://edamontology.org/data_3671 # Text
+subClassOf http://purl.obolibrary.org/obo/IAO_0000314 # Document part
+
 ##
 ## Moving Topics out of the Topic hierarchy for cleaner hierarchies
 ##
@@ -1172,7 +1181,7 @@ IAO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/IAO_0000013 # Journal article
-http://purl.obolibrary.org/obo/IAO_0000027 # Data item **Required for FBCV, UO and MS hierarchies**
+http://purl.obolibrary.org/obo/IAO_0000027 # Data item **Required for FBCV, UO and MS and parts of EDAM hierarchies**
 http://purl.obolibrary.org/obo/IAO_0000038 # Graph
 http://purl.obolibrary.org/obo/IAO_0000064 # Algorithm
 http://purl.obolibrary.org/obo/IAO_0000088 # Report
@@ -1181,6 +1190,7 @@ http://purl.obolibrary.org/obo/IAO_0000183 # Dendrogram
 http://purl.obolibrary.org/obo/IAO_0000310 # Document **Required for NCIT hierarchy only**
 http://purl.obolibrary.org/obo/IAO_0000311 # Publication
 http://purl.obolibrary.org/obo/IAO_0000313 # Patent
+http://purl.obolibrary.org/obo/IAO_0000314 # Document part **Required for its hierarchy only**
 http://purl.obolibrary.org/obo/IAO_0000572 # Documenting
 http://purl.obolibrary.org/obo/IAO_0000578 # Centrally registered identifier
 

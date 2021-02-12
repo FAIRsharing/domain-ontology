@@ -10,3 +10,4 @@ http://edamontology.org/operation_0292|http://purl.obolibrary.org/obo/OBI_000256
 http://edamontology.org/data_1353|http://purl.obolibrary.org/obo/SO_0001683|Replaced with SO term and hierarchy.
 http://edamontology.org/data_2534|http://purl.obolibrary.org/obo/SO_0000400|Not visible in FAIRsharing.
 http://edamontology.org/data_0850|http://purl.obolibrary.org/obo/SO_0001260|Not visible in FAIRsharing.
+http://edamontology.org/data_2526|http://purl.obolibrary.org/obo/IAO_0000314|EDAM not visible in FAIRsharing, IAO is new term that also won't be visible.
