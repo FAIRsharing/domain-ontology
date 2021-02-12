@@ -592,6 +592,9 @@ http://edamontology.org/data_2978 # Reaction data
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # data item
 
 
+http://edamontology.org/data_2603 # Expression data
+subClassOf http://purl.obolibrary.org/obo/CHMO_0000793 # assay output
+
 http://edamontology.org/data_3108 # Experimental measurement
 subClassOf http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
 
