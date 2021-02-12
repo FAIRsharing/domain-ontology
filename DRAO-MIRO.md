@@ -15,7 +15,7 @@ A note on terminology: We often use the term "FAIRsharing community maintainers"
 |---|---|
 | **Description:** | The full name of the ontology, including the acronym and the version number referred to in the report. |
 | **Importance:** | MUST |
-| **Value:** | Domain Resource Application Ontology (DRAO), Version 0.2.2 |
+| **Value:** | Domain Resource Application Ontology (DRAO), Version 0.2.3 |
 ----
 
 ### A.2 Ontology owner

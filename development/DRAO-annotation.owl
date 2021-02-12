@@ -634,7 +634,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_1383">
         <rdfs:label>Nucleic acid sequence alignment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1916"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
         <obo:IAO_0000118>RNA sequence alignment</obo:IAO_0000118>
         <obo:IAO_0000118>DNA sequence alignment</obo:IAO_0000118>
         <obo:IAO_0000115>Alignment of multiple nucleotide sequences.</obo:IAO_0000115>
@@ -682,7 +682,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_1479">
         <rdfs:label>Structure alignment (pair)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1916"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
         <obo:IAO_0000118>Pair structure alignment</obo:IAO_0000118>
         <obo:IAO_0000115>Alignment (superimposition) of exactly two molecular tertiary (3D) structures.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -748,17 +748,6 @@
         <obo:IAO_0000118>Taxonomic name</obo:IAO_0000118>
         <obo:IAO_0000118>Taxonomic information</obo:IAO_0000118>
         <obo:IAO_0000115>The full name for a group of organisms, reflecting their biological classification and (usually) conforming to a standard nomenclature.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/data_1916 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_1916">
-        <rdfs:label>Alignment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>An alignment of molecular sequences, structures or profiles derived from them.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1242,30 +1231,11 @@
     
 
 
-    <!-- http://edamontology.org/operation_0292 -->
-
-    <owl:Class rdf:about="http://edamontology.org/operation_0292">
-        <rdfs:label>Sequence alignment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2451"/>
-        <obo:IAO_0000118>Consensus-based sequence alignment</obo:IAO_0000118>
-        <obo:IAO_0000115>Align (identify equivalent sites within) molecular sequences.</obo:IAO_0000115>
-        <obo:IAO_0000118>Sequence alignment construction</obo:IAO_0000118>
-        <obo:IAO_0000118>Multiple sequence alignment (constrained)</obo:IAO_0000118>
-        <obo:IAO_0000118>Sequence alignment generation</obo:IAO_0000118>
-        <obo:IAO_0000118>Constrained sequence alignment</obo:IAO_0000118>
-        <obo:IAO_0000118>Sequence alignment (constrained)</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/operation_0294 -->
 
     <owl:Class rdf:about="http://edamontology.org/operation_0294">
         <rdfs:label>Structure-based sequence alignment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0292"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
         <obo:IAO_0000115>Align molecular sequences using sequence and structural information.</obo:IAO_0000115>
         <obo:IAO_0000118>Sequence alignment (structure-based)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1436,7 +1406,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/operation_0492">
         <rdfs:label>Multiple sequence alignment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0292"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
         <obo:IAO_0000118>Multiple alignment</obo:IAO_0000118>
         <obo:IAO_0000115>Align more than two molecular sequences.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1547,18 +1517,6 @@
         <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
         <obo:IAO_0000115>Validate some data.</obo:IAO_0000115>
         <obo:IAO_0000118>Quality control</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/operation_2451 -->
-
-    <owl:Class rdf:about="http://edamontology.org/operation_2451">
-        <rdfs:label>Sequence comparison</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2424"/>
-        <obo:IAO_0000115>Compare two or more molecular sequences.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1682,8 +1640,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/operation_3182">
         <rdfs:label>Genome alignment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0292"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3918"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
         <obo:IAO_0000118>Whole genome alignment</obo:IAO_0000118>
         <obo:IAO_0000118>Genome alignment construction</obo:IAO_0000118>
         <obo:IAO_0000115>Align two or more (tpyically huge) molecular sequences that represent genomes.</obo:IAO_0000115>
@@ -8904,6 +8861,17 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002567">
+        <rdfs:label>sequence alignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200187"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A data transformation in which one or more sequences (reads) are positioned on a reference sequence template (often a reference set of genes), according to the genetic base-pairing paradigm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0100014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100014">
@@ -8958,6 +8926,17 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A planned process that produces output data from input data.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">data analysis</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">data processing</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200187">
+        <rdfs:label xml:lang="en">sequence analysis data transformation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <obo:IAO_0000115 xml:lang="en">A sequence analysis data transformation is a data transformation that has objective sequence analysis and has the aim of analysing ordered biological data for sequential patterns.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </owl:Class>
     
@@ -12211,13 +12190,13 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
