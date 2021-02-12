@@ -437,7 +437,7 @@ http://edamontology.org/data_0880 # RNA secondary structure
 http://edamontology.org/data_0883 # Molecular structure
 http://edamontology.org/data_0912 # GC content
 http://edamontology.org/data_0916 # Gene report
-http://edamontology.org/data_0939 # Protein circular dichroism spectroscopic data
+http://edamontology.org/data_0939 # CD spectra
 http://edamontology.org/data_0942 # 2D PAGE image
 http://edamontology.org/data_0943 # Mass spectrometry spectra
 http://edamontology.org/data_0945 # Peptide identification
@@ -591,6 +591,15 @@ subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # data item
 http://edamontology.org/data_2978 # Reaction data
 subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # data item
 
+
+http://edamontology.org/data_3108 # Experimental measurement
+subClassOf http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
+
+http://edamontology.org/data_0939 # CD spectra
+subClassOf http://purl.obolibrary.org/obo/CHMO_0000800 # spectrum
+http://edamontology.org/data_0943 # Mass spectrum
+subClassOf http://purl.obolibrary.org/obo/CHMO_0000800 # spectrum
+
 http://edamontology.org/data_2042 # Evidence
 subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # ICE
 
@@ -702,6 +711,11 @@ http://www.ebi.ac.uk/efo/EFO_0000727 # Treatment
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # Planned process
 http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
 subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # Planned process
+
+## Overriding EFO placement of measurement to be a child of IAO Data item
+## rather than ICE
+http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # Data item
 
 http://purl.obolibrary.org/obo/OBI_0000181 # population
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
