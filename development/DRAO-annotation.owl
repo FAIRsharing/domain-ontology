@@ -212,20 +212,6 @@
     
 
 
-    <!-- http://edamontology.org/data_0006 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_0006">
-        <rdfs:label>Data</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000118>Datum</obo:IAO_0000118>
-        <obo:IAO_0000118>Data record</obo:IAO_0000118>
-        <obo:IAO_0000115>Information, represented in an information artefact (data record) that is &#39;understandable&#39; by dedicated computational tools that can use the data as input or produce it as output.</obo:IAO_0000115>
-        <obo:IAO_0000118>Data set</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_0846 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_0846">
@@ -12164,13 +12150,13 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
