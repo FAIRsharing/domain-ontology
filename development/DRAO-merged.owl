@@ -334,32 +334,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://edamontology.org/data_0006 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_0006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>Information, represented in an information artefact (data record) that is &apos;understandable&apos; by dedicated computational tools that can use the data as input or produce it as output.</obo:IAO_0000115>
-        <obo:IAO_0000118>Data record</obo:IAO_0000118>
-        <obo:IAO_0000118>Data set</obo:IAO_0000118>
-        <obo:IAO_0000118>Datum</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <rdfs:label>Data</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/data_0842 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_0842">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>A text token, number or something else which identifies an entity, but which may not be persistent (stable) or unique (the same identifier may identify multiple things).</obo:IAO_0000115>
-        <obo:IAO_0000118>ID</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <rdfs:label>Identifier</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_0846 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_0846">
@@ -369,18 +343,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <rdfs:label>Chemical formula</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/data_0850 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_0850">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>A collection of one or typically multiple molecular sequences (which can include derived data or metadata) that do not (typically) correspond to molecular sequence database records or entries and which (typically) are derived from some analytical method.</obo:IAO_0000115>
-        <obo:IAO_0000118>Alignment reference</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <rdfs:label>Sequence set</rdfs:label>
     </owl:Class>
     
 
@@ -451,7 +413,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_0939 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_0939">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000800"/>
         <obo:IAO_0000115>Protein secondary structure from protein coordinate or circular dichroism (CD) spectroscopic data.</obo:IAO_0000115>
         <obo:IAO_0000118>CD spectrum</obo:IAO_0000118>
         <obo:IAO_0000118>Protein circular dichroism (CD) spectroscopic data</obo:IAO_0000118>
@@ -478,7 +440,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_0943 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_0943">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3108"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000800"/>
         <obo:IAO_0000115>Spectra from mass spectrometry.</obo:IAO_0000115>
         <obo:IAO_0000118>Mass spectrometry spectra</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -505,7 +467,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_0950 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_0950">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>A biological model represented in mathematical terms.</obo:IAO_0000115>
         <obo:IAO_0000118>Biological model</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -518,7 +480,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_0970 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_0970">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000115>Bibliographic data that uniquely identifies a scientific article, book or other published material.</obo:IAO_0000115>
         <obo:IAO_0000118>Bibliographic reference</obo:IAO_0000118>
         <obo:IAO_0000118>Reference</obo:IAO_0000118>
@@ -532,7 +494,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_0976 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_0976">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0842"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
         <obo:IAO_0000115>An identifier that identifies a particular type of data.</obo:IAO_0000115>
         <obo:IAO_0000118>Identifier (typed)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -632,7 +594,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_1016 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1016">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
         <obo:IAO_0000115>A position of one or more points (base or residue) in a sequence, or part of such a specification.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -658,7 +620,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_1235 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1235">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0850"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
         <obo:IAO_0000115>A set of sequences that have been clustered or otherwise classified as belonging to a group including (typically) sequence cluster information.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -670,7 +632,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_1238 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1238">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0850"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
         <obo:IAO_0000115>A protein sequence cleaved into peptide fragments (by enzymatic or chemical cleavage) with fragment masses.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -682,7 +644,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_1240 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1240">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0850"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
         <obo:IAO_0000115>Oligonucleotide primer(s) for PCR and DNA amplification, for example a minimal primer set.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <domain:DRAO_0000001 xml:lang="en">Polymerase chain reaction primers</domain:DRAO_0000001>
@@ -695,7 +657,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_1249 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1249">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2534"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
         <obo:IAO_0000115>The size (length) of a sequence, subsequence or region in a sequence, or range(s) of lengths.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -707,7 +669,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_1274 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1274">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A map of (typically one) DNA sequence annotated with positional or non-positional features.</obo:IAO_0000115>
         <obo:IAO_0000118>DNA map</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -768,18 +730,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://edamontology.org/data_1353 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_1353">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>Any specific or conserved pattern (typically expressed as a regular expression) in a molecular sequence.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label>Sequence motif</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_1364 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1364">
@@ -796,7 +746,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_1383 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1383">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1916"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
         <obo:IAO_0000115>Alignment of multiple nucleotide sequences.</obo:IAO_0000115>
         <obo:IAO_0000118>DNA sequence alignment</obo:IAO_0000118>
         <obo:IAO_0000118>RNA sequence alignment</obo:IAO_0000118>
@@ -812,7 +762,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_1413 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1413">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>Sequence similarity is the similarity (expressed as a percentage) of two molecular sequences calculated from their alignment, a scoring matrix for scoring characters substitutions and penalties for gap insertion and extension.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -849,7 +799,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_1479 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1479">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1916"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
         <obo:IAO_0000115>Alignment (superimposition) of exactly two molecular tertiary (3D) structures.</obo:IAO_0000115>
         <obo:IAO_0000118>Pair structure alignment</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -862,7 +812,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_1597 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1597">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>Table of codon usage data calculated from one or more nucleic acid sequences.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -928,21 +878,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://edamontology.org/data_1916 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_1916">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>An alignment of molecular sequences, structures or profiles derived from them.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <rdfs:label>Alignment</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_2042 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_2042">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>Typically a human-readable summary of body of facts or information indicating why a statement is true or valid. This may include a computational prediction, laboratory experiment, literature reference etc.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -966,7 +905,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_2087 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_2087">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A report on the physical (e.g. structural) or chemical properties of molecules, or parts of a molecule.</obo:IAO_0000115>
         <obo:IAO_0000118>Physicochemical property</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -978,7 +917,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_2091 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_2091">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0842"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
         <obo:IAO_0000115>A persistent (stable) and unique identifier, typically identifying an object (entry) from a database.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <rdfs:label>Accession</rdfs:label>
@@ -989,7 +928,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_2099 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_2099">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0842"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
         <obo:IAO_0000115>A name of a thing, which need not necessarily uniquely identify it.</obo:IAO_0000115>
         <obo:IAO_0000118>Symbolic name</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1050,35 +989,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://edamontology.org/data_2526 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_2526">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>Data concerning, extracted from, or derived from the analysis of a scientific text (or texts) such as a full text article from a scientific journal.</obo:IAO_0000115>
-        <obo:IAO_0000118>Article data</obo:IAO_0000118>
-        <obo:IAO_0000118>Scientific text data</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <rdfs:label>Text data</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/data_2534 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_2534">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>An attribute of a molecular sequence, possibly in reference to some other sequence.</obo:IAO_0000115>
-        <obo:IAO_0000118>Sequence parameter</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <rdfs:label>Sequence attribute</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_2603 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_2603">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000793"/>
         <obo:IAO_0000115>Image, hybridisation or some other data arising from a study of feature/molecule expression, typically profiling or quantification.</obo:IAO_0000115>
         <obo:IAO_0000118>Gene expression data</obo:IAO_0000118>
         <obo:IAO_0000118>Gene product profile</obo:IAO_0000118>
@@ -1120,7 +1034,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_2849 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_2849">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000115>An abstract of a scientific article.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -1198,7 +1112,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_2978 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_2978">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>Data concerning a biochemical reaction, typically data and more general annotation on the kinetics of enzyme-catalysed reaction.</obo:IAO_0000115>
         <obo:IAO_0000118>Enzyme kinetics annotation</obo:IAO_0000118>
         <obo:IAO_0000118>Reaction annotation</obo:IAO_0000118>
@@ -1239,7 +1153,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_3108 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_3108">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
         <obo:IAO_0000115>Raw data such as measurements or other results from laboratory experiments, as generated from laboratory hardware.</obo:IAO_0000115>
         <obo:IAO_0000118>Experimental measurement data</obo:IAO_0000118>
         <obo:IAO_0000118>Experimentally measured data</obo:IAO_0000118>
@@ -1334,7 +1248,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_3505 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_3505">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000115>A list of publications such as scientic papers or books.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
@@ -1346,7 +1260,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_3671 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_3671">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2526"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <obo:IAO_0000115>Any free or plain text, typically for human consumption and in English. Can instantiate also as a textual search query.</obo:IAO_0000115>
         <obo:IAO_0000118>Free text</obo:IAO_0000118>
         <obo:IAO_0000118>Plain text</obo:IAO_0000118>
@@ -1375,7 +1289,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/data_3754 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_3754">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A ranked list of Gene Ontology concepts, each associated with a p-value, concerning or derived from the analysis of e.g. a set of genes or proteins.</obo:IAO_0000115>
         <obo:IAO_0000118>GO-term enrichment report</obo:IAO_0000118>
         <obo:IAO_0000118>Gene ontology concept over-representation report</obo:IAO_0000118>
@@ -1448,30 +1362,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://edamontology.org/operation_0292 -->
-
-    <owl:Class rdf:about="http://edamontology.org/operation_0292">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2451"/>
-        <obo:IAO_0000115>Align (identify equivalent sites within) molecular sequences.</obo:IAO_0000115>
-        <obo:IAO_0000118>Consensus-based sequence alignment</obo:IAO_0000118>
-        <obo:IAO_0000118>Constrained sequence alignment</obo:IAO_0000118>
-        <obo:IAO_0000118>Multiple sequence alignment (constrained)</obo:IAO_0000118>
-        <obo:IAO_0000118>Sequence alignment (constrained)</obo:IAO_0000118>
-        <obo:IAO_0000118>Sequence alignment construction</obo:IAO_0000118>
-        <obo:IAO_0000118>Sequence alignment generation</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
-        <rdfs:label>Sequence alignment</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/operation_0294 -->
 
     <owl:Class rdf:about="http://edamontology.org/operation_0294">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0292"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
         <obo:IAO_0000115>Align molecular sequences using sequence and structural information.</obo:IAO_0000115>
         <obo:IAO_0000118>Sequence alignment (structure-based)</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1654,7 +1548,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/operation_0492 -->
 
     <owl:Class rdf:about="http://edamontology.org/operation_0492">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0292"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
         <obo:IAO_0000115>Align more than two molecular sequences.</obo:IAO_0000115>
         <obo:IAO_0000118>Multiple alignment</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
@@ -1774,18 +1668,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <rdfs:label>Validation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/operation_2451 -->
-
-    <owl:Class rdf:about="http://edamontology.org/operation_2451">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2424"/>
-        <obo:IAO_0000115>Compare two or more molecular sequences.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <rdfs:label>Sequence comparison</rdfs:label>
     </owl:Class>
     
 
@@ -1911,8 +1793,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://edamontology.org/operation_3182 -->
 
     <owl:Class rdf:about="http://edamontology.org/operation_3182">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0292"/>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3918"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
         <obo:IAO_0000115>Align two or more (tpyically huge) molecular sequences that represent genomes.</obo:IAO_0000115>
         <obo:IAO_0000118>Genome alignment construction</obo:IAO_0000118>
         <obo:IAO_0000118>Whole genome alignment</obo:IAO_0000118>
@@ -7796,6 +7677,17 @@ clustering algorithm.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a document.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">document part</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000572">
@@ -9730,6 +9622,19 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0002567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200187"/>
+        <obo:IAO_0000115>A data transformation in which one or more sequences (reads) are positioned on a reference sequence template (often a reference set of genes), according to the genetic base-pairing paradigm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <domain:DRAO_0000001 xml:lang="en">Sequence alignment</domain:DRAO_0000001>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <rdfs:label>sequence alignment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0100014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100014">
@@ -9788,6 +9693,17 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <domain:DRAO_0000001 xml:lang="en">Data transformation</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <rdfs:label xml:lang="en">data transformation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <obo:IAO_0000115 xml:lang="en">A sequence analysis data transformation is a data transformation that has objective sequence analysis and has the aim of analysing ordered biological data for sequential patterns.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <rdfs:label xml:lang="en">sequence analysis data transformation</rdfs:label>
     </owl:Class>
     
 
@@ -10971,6 +10887,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/SO_0000167 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005836"/>
         <obo:IAO_0000115>A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the core transcription machinery. A region (DNA) to which RNA polymerase binds, to begin transcription.</obo:IAO_0000115>
         <obo:IAO_0000118>INSDC_qualifier:promoter</obo:IAO_0000118>
@@ -11994,6 +11911,19 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <domain:DRAO_0000001 xml:lang="en">Reference genome</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <rdfs:label>reference_genome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001683">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A sequence motif is a nucleotide or amino-acid sequence pattern that may have biological significance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <domain:DRAO_0000001 xml:lang="en">Sequence motif</domain:DRAO_0000001>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <rdfs:label>sequence_motif</rdfs:label>
     </owl:Class>
     
 
@@ -13062,7 +12992,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- http://www.ebi.ac.uk/efo/EFO_0001444 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001444">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000115>A measurement is an information entity that is a recording of the output of a measurement such as produced by an instrument.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
         <domain:DRAO_0000001 xml:lang="en">Measurement</domain:DRAO_0000001>
@@ -13455,34 +13385,28 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000786"/>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -13509,19 +13433,25 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogi.owl"/>
     </rdf:Description>
     <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </rdf:Description>
+    <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-    </rdf:Description>
-    <rdf:Description>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
     </rdf:Description>
     <rdf:Description>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -13537,6 +13467,12 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://edamontology.org/data_1353">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/operation_0292">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/operation_2502">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
@@ -13544,8 +13480,8 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>GPI anchor</obo:IAO_0000118>
         <domain:DRAO_0000001 xml:lang="en">Glycosylphosphatidylinositol anchor</domain:DRAO_0000001>
         <obo:IAO_0000118>GPI-anchor</obo:IAO_0000118>
-        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <rdfs:label>glycosylphosphatidylinositol anchor</rdfs:label>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/idomal.owl"/>
         <obo:IAO_0000115>They are glycolipids with the major function of anchoring proteins to cell membrane surfaces. They are particularly abundant in protozoan parasites, where they serve as the predominant mechanism for integrating glycoproteins and phosphosaccharides into membrane lipid bilayers.</obo:IAO_0000115>
     </rdf:Description>
