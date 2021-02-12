@@ -851,6 +851,8 @@ INSERT {
   obolib:OBI_0002117 drao:DRAO_0000001 "Whole genome sequencing"@en .
   obolib:OBI_0002186 obo:inSubset "FAIRsharing"@en .
   obolib:OBI_0002186 drao:DRAO_0000001 "Electroencephalography"@en .
+  obolib:OBI_0002567 obo:inSubset "FAIRsharing"@en .
+  obolib:OBI_0002567 drao:DRAO_0000001 "Sequence alignment"@en .
   obolib:OBI_0100014 obo:inSubset "FAIRsharing"@en .
   obolib:OBI_0100014 drao:DRAO_0000001 "Chimera"@en .
   obolib:OBI_0200000 obo:inSubset "FAIRsharing"@en .

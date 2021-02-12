@@ -1583,6 +1583,10 @@
         <domain:DRAO_0000001 xml:lang="en">Electroencephalography</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0002567">
+        <domain:DRAO_0000001 xml:lang="en">Sequence alignment</domain:DRAO_0000001>
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100014">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
         <domain:DRAO_0000001 xml:lang="en">Chimera</domain:DRAO_0000001>
@@ -2085,6 +2089,10 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001505">
         <domain:DRAO_0000001 xml:lang="en">Reference genome</domain:DRAO_0000001>
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001683">
+        <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
+        <domain:DRAO_0000001 xml:lang="en">Sequence motif</domain:DRAO_0000001>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001877">
         <oboInOwl:inSubset xml:lang="en">FAIRsharing</oboInOwl:inSubset>
