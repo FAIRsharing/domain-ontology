@@ -616,6 +616,13 @@ subClassOf http://purl.obolibrary.org/obo/SO_0000400 # Sequence attribute
 http://edamontology.org/data_1016 # Sequence position
 subClassOf http://purl.obolibrary.org/obo/SO_0000400 # Sequence attribute
 
+http://edamontology.org/data_1240 # PCR primers
+subClassOf http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection
+http://edamontology.org/data_1238 # Proteolytic digest
+subClassOf http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection
+http://edamontology.org/data_1235 # Sequence cluster
+subClassOf http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection
+
 ##
 ## Moving Topics out of the Topic hierarchy for cleaner hierarchies
 ##

@@ -238,18 +238,6 @@
     
 
 
-    <!-- http://edamontology.org/data_0850 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_0850">
-        <rdfs:label>Sequence set</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0006"/>
-        <obo:IAO_0000115>A collection of one or typically multiple molecular sequences (which can include derived data or metadata) that do not (typically) correspond to molecular sequence database records or entries and which (typically) are derived from some analytical method.</obo:IAO_0000115>
-        <obo:IAO_0000118>Alignment reference</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_0880 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_0880">
@@ -507,7 +495,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_1235">
         <rdfs:label>Sequence cluster</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0850"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
         <obo:IAO_0000115>A set of sequences that have been clustered or otherwise classified as belonging to a group including (typically) sequence cluster information.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -518,7 +506,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_1238">
         <rdfs:label>Proteolytic digest</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0850"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
         <obo:IAO_0000115>A protein sequence cleaved into peptide fragments (by enzymatic or chemical cleavage) with fragment masses.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
@@ -529,7 +517,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/data_1240">
         <rdfs:label>PCR primers</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0850"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
         <obo:IAO_0000115>Oligonucleotide primer(s) for PCR and DNA amplification, for example a minimal primer set.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
