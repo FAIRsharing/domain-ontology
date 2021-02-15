@@ -72,6 +72,11 @@ VERSION_IRI := "http://www.fairsharing.org/ontology/domain/DRAO.owl/$(RELNUM)"
 robot_diff: $(ROBOT_LOCAL)
 	$(ROBOT) diff --labels=true --format=markdown --left $(LEFT) --right $(RIGHT) --output $(BUILD_DIR)/diff.md
 
+## Creates a diff between RELNUM and PREVIOUS_RELNUM
+diff_release: check_relnum $(ROBOT_LOCAL)
+	test $(PREVIOUS_RELNUM)
+	$(ROBOT) diff --labels=true --format=markdown --left $(RELEASE_TOP_DIR)/$(PREVIOUS_RELNUM)/DRAO.owl --right $(RELEASE_FILE) --output $(BUILD_DIR)/diff.md
+
 ## Produce a table of statistics about the ontology
 robot_measure: $(ROBOT_LOCAL)
 		$(ROBOT) measure --metrics extended --input $(INPUT) --output $(BUILD_DIR)/metrics.html
