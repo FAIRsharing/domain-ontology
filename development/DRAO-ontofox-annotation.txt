@@ -1,4 +1,4 @@
-#### NOTES ON BULK IMPORT ####
+#### ONTOFOX IMPORT CONFIGURATION ####
 ##
 ## Ontofox allows more than one ontology to be queried at once.
 ## This file contains the settings for importing subsections of
