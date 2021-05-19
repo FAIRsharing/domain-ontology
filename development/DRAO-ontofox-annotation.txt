@@ -4,11 +4,13 @@
 ## This file contains the settings for importing subsections of
 ## the following external ontologies:
 ##
-## BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM,
-## EFO, ENVO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL,
-## MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI,
-## OGI, OGMS, OMIT, OMP, PATO, PECO, PO, PR, PW, SBO, SIO, SO, STATO
-## SWO, UBERON, UO, VariO, VO
+## BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO,
+## ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD,
+## MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PECO,
+## PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VARIO, VO
+##
+## To update the above list of currently-imported ontologies:
+## grep '#### NOTES ON ' DRAO-ontofox-annotation.txt | awk '{print $4}' | sort -u | perl -pe 's/\n/, /'
 ##
 ## Terms from ontologies that are not accessible from Ontofox are
 ## imported manually into DRAO-manual.owl
