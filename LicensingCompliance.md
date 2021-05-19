@@ -41,6 +41,7 @@ PATO|https://github.com/pato-ontology/pato/|https://opensource.org/licenses/BSD-
 PECO|https://doi.org/10.1093/nar/gkx1152 / https://github.com/Planteome/plant-experimental-conditions-ontology | https://creativecommons.org/licenses/by/4.0/|https://fairsharing.org/bsg-s001359/
 PO|http://www.plantontology.org/|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.3ngg40
 PR|http://dx.doi.org/10.1093/nar/gkw1075|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.4ndncv
+PRIDE|https://github.com/PRIDE-Utilities/pride-ontology|https://www.apache.org/licenses/LICENSE-2.0.html|
 PW|http://dx.doi.org/10.1186/2041-1480-5-7|http://creativecommons.org/licenses/by/3.0/ and https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.f73xhd
 SBO|http://dx.doi.org/10.1038/msb.2011.77|http://opensource.org/licenses/Artistic-2.0|https://doi.org/10.25504/FAIRsharing.s19src
 SIO|http://dx.doi.org/10.1186/2041-1480-5-14|??|https://doi.org/10.25504/FAIRsharing.dpkb5f

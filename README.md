@@ -2,9 +2,9 @@
 
 The Domain Resource Application Ontology (DRAO) is an application ontology describing cross-discipline research domains used within [FAIRsharing]((https://www.fairsharing.org)) records by curators and the user community (see also the [DRAO FAIRsharing record](https://fairsharing.org/bsg-s001178)). It is built in conjunction with the Subject Resource Application Ontology (SRAO), which describes higher-level subject areas / disciplines.
 
-All classes within DRAO come from publicly-available ontologies. Currently, the following ontologies are used to build DRAO: BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PECO, PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VariO, VO. These ontologies were added to DRAO through semi-automated procedures (see below for details).
+All classes within DRAO come from publicly-available ontologies. Currently, the following ontologies are used to build DRAO: BFO, CHEBI, CHEMINF, CHMO, CL, CLO, CMO, DOID, DRON, EDAM, EFO, ENVO, ERO, FBBI, FBCV, FMA, GO, HP, IAO, IDO, IDOMAL, MAMO, MFOEM, MI, MOD, MP, MS, NCBITaxon, NCIT, OAE, OBCS, OBI, OGI, OGMS, OMIT, OMP, PATO, PECO, PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VARIO, VO. These ontologies were added to DRAO through semi-automated procedures (see below for details).
 
-[AgroVoc](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/) classes were manually added as required.
+[AgroVoc](http://artemide.art.uniroma2.it:8081/agrovoc/agrovoc/en/) and [PRIDE](https://github.com/PRIDE-Utilities/pride-ontology) classes were manually added as required.
 
 # Files
 
@@ -15,6 +15,7 @@ Within any [releases/](https://github.com/FAIRsharing/domain-ontology/tree/maste
 - DRAO.owl - - The automatically-generated release file. It is a single file (with no imports) for ease of use.
 - refactoredIRIs-DRAO-RELNUM.txt - This is a list of IRI refactorings performed since the last release.
 - README.md - A short description of the changes made since the last release.
+- DRAO-diff.md - the output of the Robot diff command to list the differences since the previous release.
 
 Below are short descriptions of a selection of other files found within this repository, all within the [development](https://github.com/FAIRsharing/domain-ontology/tree/master/development) directory:
 - [DRAO.owl](https://github.com/FAIRsharing/domain-ontology/blob/master/development/DRAO.owl) - This is the main "bleeding edge" development file, which imports all required classes and annotations. The only information stored *directly* within this file is metadata about the ontology and the required imports.
@@ -39,7 +40,7 @@ As FAIRsharing has grown, over 1000 domain tags across all areas of research hav
 
 # DRAO Curation
 
-FAIRsharing users can add any tags to their records in the "Scope and Data Types" section of a FAIRsharing entry. They can select from any of the pre-existing tags or make their own. If they create a new tag, then FAIRsharing curators assess that tag and, if appropriate, place it within either SRAO or DRAO. Otherwise, it will remain in our manually-curated "User tag" vocabulary.
+FAIRsharing users can add any knowledge domain tags to their records. They can select from any of the pre-existing tags or make their own. If they create a new tag, then FAIRsharing curators assess that tag and, if appropriate, place it within either SRAO or DRAO. Otherwise, it will remain in our manually-curated "User tag" vocabulary.
 
 All classes within DRAO come from publicly-available ontologies. These terms are added to DRAO by editing the [Ontofox configuration file](https://github.com/FAIRsharing/domain-ontology/blob/master/development/DRAO-ontofox-annotation.txt). When Ontofox is run (see the "Build" section below), the resulting output will include the new classes. New FAIRsharing-specific annotation is then added via ROBOT using the SPARQL update query available at [fsannotation.ru](https://github.com/FAIRsharing/domain-ontology/blob/master/development/sparql/fsannotation.ru).
 
