@@ -10,7 +10,7 @@
 ## PO, PR, PW, SBO, SIO, SO, STATO, SWO, UBERON, UO, VARIO, VO
 ##
 ## To update the above list of currently-imported ontologies:
-## grep '#### NOTES ON ' DRAO-ontofox-annotation.txt | awk '{print $4}' | sort -u | perl -pe 's/\n/, /'
+## grep '^#### NOTES ON ' DRAO-ontofox-annotation.txt | awk '{print $4}' | sort -u | perl -pe 's/\n/, /'
 ##
 ## Terms from ontologies that are not accessible from Ontofox are
 ## imported manually into DRAO-manual.owl
