@@ -14,4 +14,4 @@ WHERE
 
 }
 GROUP BY ?commonIRI
-ORDER BY ASC(?commonIRI)
+ORDER BY DESC(?class_count)
