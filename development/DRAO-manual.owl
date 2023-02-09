@@ -41,6 +41,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label>imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
@@ -63,6 +71,7 @@
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_16526">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001021"/>
         <obo:IAO_0000115>Bioenergy is renewable energy made available from materials derived from biological sources. [AL 6.3.18, source Wikipedia https://en.wikipedia.org/wiki/Bioenergy].</obo:IAO_0000115>
+        <obo:IAO_0000412>https://agrovoc.fao.org/</obo:IAO_0000412>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:label>Bioenergy</rdfs:label>
     </owl:Class>
@@ -74,6 +83,7 @@
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_1971">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115>The pattern of crops grown on a given piece of land, or order in which the crops are cultivated over a fixed period.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="https://agrovoc.fao.org/"/>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:label>Cropping systems</rdfs:label>
     </owl:Class>
@@ -85,6 +95,7 @@
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_33560">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
         <obo:IAO_0000115>The ability of a process or human activity to meet present needs but maintain natural resources and leave the environment in good order for future generations.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="https://agrovoc.fao.org/"/>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
         <rdfs:label>Sustainability</rdfs:label>
@@ -97,6 +108,7 @@
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_36669">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001110"/>
         <obo:IAO_0000115>A system where communities of plants, microbes and animals inhabiting farmed land, pastures, grasslands or rangelands, interact with each other and their physical environment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="https://agrovoc.fao.org/"/>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
         <rdfs:label>Agroecosystem</rdfs:label>
@@ -109,6 +121,7 @@
     <owl:Class rdf:about="http://aims.fao.org/aos/agrovoc/c_8678">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66892"/>
         <obo:IAO_0000115>Products in their original state or processed enough to be prepared for marketing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="https://agrovoc.fao.org/"/>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:comment>AL 6.3.18: Definition from AgroVoc</rdfs:comment>
         <rdfs:label>Agricultural products</rdfs:label>
@@ -120,6 +133,7 @@
 
     <owl:Class rdf:about="http://edamontology.org/operation_0445">
         <obo:IAO_0000118>TF binding site prediction</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
 
@@ -134,6 +148,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16991">
         <obo:IAO_0000118>DNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
 
@@ -142,6 +157,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18111">
         <obo:IAO_0000118>rRNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
 
@@ -150,6 +166,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697">
         <obo:IAO_0000118>RNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
 
@@ -194,6 +211,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0001480">
         <obo:IAO_0000115>Machine learning is an algorithm or set of algorithms which allows computers to learn and act like humans do, and improve their learning over time in autonomous fashion, by feeding them data and information in the form of observations and real-world interactions. [Adapted by AL from https://www.techemergence.com/what-is-machine-learning/, 26.6.18]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
         <rdfs:comment>AL 26.6.18: This class is correctly added and placed by our automated procedures, but there is no definition within OMIT. Therefore we have manually assigned the included definition.</rdfs:comment>
     </owl:Class>
     
@@ -203,6 +221,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0004280">
         <obo:IAO_0000115 xml:lang="en">The systematic arrangement of entities in any field into categories classes based on common characteristics such as properties, morphology, or subject matter. [Adapted from https://meshb.nlm.nih.gov/record/ui?ui=D002965, AL 5.8.2020]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
     
 
@@ -211,6 +230,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0009360">
         <obo:IAO_0000118>MHC</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
     
 
@@ -219,6 +239,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0020804">
         <obo:IAO_0000118>QSAR</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
     
 
@@ -240,6 +261,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PRIDE_0000427">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000470"/>
         <obo:IAO_0000115>Top-down Proteomics is a method of protein identification that uses an ion trapping mass spectrometer to store an isolated protein ion for mass measurement and tandem mass spectrometry analysis. Top-down proteomics is capable of identifying unique proteoforms (the specific molecular form of the protein resulting from combinations of genetic variation, alternative splicing, and post-translational modifications) through the analysis of intact proteins. Both the intact and fragment ions masses of a protein can be measured. This approach routinely allows for 100% sequence coverage and full characterization of proteoforms. The potential for achieving full protein characterization has made the Top Down mass spectrometry approach extremely useful for analysis of single proteins or simple mixtures of significant biological interest. [Adapted by AL from https://dx.doi.org/10.1016%2Fj.bbrc.2014.02.041 and Wikipedia (https://en.wikipedia.org/wiki/Top-down_proteomics), 5.6.18]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pride_cv.obo"/>
         <oboInOwl:inSubset>FAIRsharing</oboInOwl:inSubset>
         <rdfs:label>Top-down proteomics</rdfs:label>
     </owl:Class>
@@ -250,6 +272,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000839">
         <obo:IAO_0000118 xml:lang="en">Protein sequence</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
     </owl:Class>
     
 
@@ -258,6 +281,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001877">
         <obo:IAO_0000118>lncRNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
     </owl:Class>
     
 
@@ -266,6 +290,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000749">
         <obo:IAO_0000118>CGH</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Class>
     
 
@@ -305,5 +330,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.22.2022-05-07T21:32:11Z) https://github.com/owlcs/owlapi -->
 
