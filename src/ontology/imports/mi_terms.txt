@@ -1,0 +1,16 @@
+http://purl.obolibrary.org/obo/MI_0000 # Molecular interaction
+http://purl.obolibrary.org/obo/MI_0064 # Interologs mapping
+http://purl.obolibrary.org/obo/MI_0074 # Mutation analysis
+http://purl.obolibrary.org/obo/MI_0093 # Protein sequence identification
+http://purl.obolibrary.org/obo/MI_0118 # Mutation
+http://purl.obolibrary.org/obo/MI_0208 # Genetic interaction
+http://purl.obolibrary.org/obo/MI_2025 # Molecular weight
+http://purl.obolibrary.org/obo/MI_2030 # Isoelectric point
+http://purl.obolibrary.org/obo/MI_0328 # Small molecule
+http://purl.obolibrary.org/obo/MI_0414 # Enzymatic reaction
+http://purl.obolibrary.org/obo/MI_0914 # Functional association
+http://purl.obolibrary.org/obo/MI_0964 # Infared spectroscopy
+http://purl.obolibrary.org/obo/MI_0966 # Ultraviolet-visible spectroscopy
+http://purl.obolibrary.org/obo/MI_1100 # Bioactive entity
+http://purl.obolibrary.org/obo/MI_2190 # Long non-coding ribonucleic acid
+http://purl.obolibrary.org/obo/MI_2231 # Co-expression

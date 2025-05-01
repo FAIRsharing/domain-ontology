@@ -1,0 +1,35 @@
+#### NOTES ON BFO IMPORT ####
+##
+## BFO is indirectly imported by other external ontologies used in
+## the AO as well as directly through this configuration file.
+## This means that duplicate annotation properties are also introduced.
+## We need to solve this issue so the resulting AO looks cleaner, though
+## this is not an issue which breaks things.
+##
+## The includeAllIntermediates setting has been enabled for this
+## upper-level ontology so that the correct hierarchy can be used for
+## all lower-level ontology imports into the FAIRsharing AO.
+## Upper-level ontologies tend to have fewer classes, while
+## the includeComputedIntermediates setting is used for other
+## imports to reduce bloating of the AO.
+##
+
+[Source ontology]
+BFO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/BFO_0000015 # process **Required for correct hierarchy**
+http://purl.obolibrary.org/obo/BFO_0000019 # quality **Required for correct hierarchy**
+http://purl.obolibrary.org/obo/BFO_0000031 # generically dependendent continuant **Required for correct hierarchy**
+http://purl.obolibrary.org/obo/BFO_0000034 # function **Required for correct hierarchy**
+http://purl.obolibrary.org/obo/BFO_0000030 # object **Required for correct hierarchy**
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115

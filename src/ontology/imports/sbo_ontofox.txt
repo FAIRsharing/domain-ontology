@@ -1,0 +1,32 @@
+#### NOTES ON SBO IMPORT ####
+##
+## No external ULOs in this ontology
+##
+
+[Source ontology]
+SBO
+
+[Low level source term URIs]
+http://biomodels.net/SBO/SBO_0000027 # Michaelis constant
+http://biomodels.net/SBO/SBO_0000242 # Channel
+http://biomodels.net/SBO/SBO_0000261 # Inhibitory constant
+http://biomodels.net/SBO/SBO_0000414 # Cis element
+http://biomodels.net/SBO/SBO_0000493 # Functional domain
+
+[Top level source term URIs and target direct superclass URIs]
+http://biomodels.net/SBO/SBO_0000545 # systems description parameter
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://biomodels.net/SBO/SBO_0000414 # Cis element
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://biomodels.net/SBO/SBO_0000242 # Channel
+subClassOf http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
+http://biomodels.net/SBO/SBO_0000493 # Functional domain
+subClassOf http://edamontology.org/data_0883 # Structure
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#comment
+mapTo http://purl.obolibrary.org/obo/IAO_0000115

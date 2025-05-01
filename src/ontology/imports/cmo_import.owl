@@ -1,0 +1,52 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/cmo_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/cmo_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/cmo_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/CMO_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CMO_0001108>))
+Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_0001444>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/CMO_0000000> (clinical measurement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CMO_0000000> "A quantitative or qualitative value which is the result of an act of assessing a morphological or physiological state or property in a single individual or sample or a group of individuals or samples, based on direct observation or experimental manipulation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CMO_0000000> <http://purl.obolibrary.org/obo/cmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CMO_0000000> "clinical measurement")
+SubClassOf(<http://purl.obolibrary.org/obo/CMO_0000000> <http://www.ebi.ac.uk/efo/EFO_0001444>)
+
+# Class: <http://purl.obolibrary.org/obo/CMO_0001108> (disease onset/diagnosis measurement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CMO_0001108> "Any measurement which expresses a quantity related to the beginning, early stages or development of a disease, or to the official determination of a disease as the cause of the observed symptom(s).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CMO_0001108> <http://purl.obolibrary.org/obo/cmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CMO_0001108> "disease onset/diagnosis measurement")
+SubClassOf(<http://purl.obolibrary.org/obo/CMO_0001108> <http://purl.obolibrary.org/obo/CMO_0000000>)
+
+
+)

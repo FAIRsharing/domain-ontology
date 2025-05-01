@@ -1,0 +1,43 @@
+http://purl.obolibrary.org/obo/NCIT_C453 # Recombinant DNA
+http://purl.obolibrary.org/obo/NCIT_C4873 # Rare disease
+http://purl.obolibrary.org/obo/NCIT_C13302 # Secondary protein structure
+http://purl.obolibrary.org/obo/NCIT_C13375 # Chromosome fragile site
+http://purl.obolibrary.org/obo/NCIT_C13426 # Binding motif
+http://purl.obolibrary.org/obo/NCIT_C13445 # Gene feature
+http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
+http://purl.obolibrary.org/obo/NCIT_C15222 # Diet
+http://purl.obolibrary.org/obo/NCIT_C15239 # Patient care
+http://purl.obolibrary.org/obo/NCIT_C15311 # Quality control
+http://purl.obolibrary.org/obo/NCIT_C15318 # Reproducibility
+http://purl.obolibrary.org/obo/NCIT_C15959 # Cellular assay
+http://purl.obolibrary.org/obo/NCIT_C16507 # DNA damage
+http://purl.obolibrary.org/obo/NCIT_C16565 # Evolution
+http://purl.obolibrary.org/obo/NCIT_C16622 # Genetic marker
+http://purl.obolibrary.org/obo/NCIT_C16710 # Immunity
+http://purl.obolibrary.org/obo/NCIT_C16809 # Magnetic resonance imaging
+http://purl.obolibrary.org/obo/NCIT_C17004 # Genetic polymorphism
+http://purl.obolibrary.org/obo/NCIT_C17007 # Positron Emission Tomography
+http://purl.obolibrary.org/obo/NCIT_C17207 # Transcription factor
+http://purl.obolibrary.org/obo/NCIT_C17253 # Viral Genome
+http://purl.obolibrary.org/obo/NCIT_C17671 # Nuclear receptor
+http://purl.obolibrary.org/obo/NCIT_C17958 # Functional magnetic resonance imaging
+http://purl.obolibrary.org/obo/NCIT_C17962 # Multimedia
+http://purl.obolibrary.org/obo/NCIT_C18106 # Receptor
+http://purl.obolibrary.org/obo/NCIT_C18143 # Gene knockout
+http://purl.obolibrary.org/obo/NCIT_C18469 # Protein-protein interaction
+http://purl.obolibrary.org/obo/NCIT_C18472 # High-throughput screening
+http://purl.obolibrary.org/obo/NCIT_C18962 # Protein Analysis
+http://purl.obolibrary.org/obo/NCIT_C18966 # Protein expression ** We may wish to merge this with Translation?
+http://purl.obolibrary.org/obo/NCIT_C26549 # Untranslated RNA
+http://purl.obolibrary.org/obo/NCIT_C42753 # Workflow
+http://purl.obolibrary.org/obo/NCIT_C45275 # Animal tracking
+http://purl.obolibrary.org/obo/NCIT_C49667 # Safety study
+http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
+http://purl.obolibrary.org/obo/NCIT_C61256 # Monitoring
+http://purl.obolibrary.org/obo/NCIT_C64862 # Diffusion tensor imaging
+http://purl.obolibrary.org/obo/NCIT_C66892 # Natural product
+http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
+http://purl.obolibrary.org/obo/NCIT_C101293 # Next Generation Sequencing
+http://purl.obolibrary.org/obo/NCIT_C104154 # Circulating cell-free RNA
+http://purl.obolibrary.org/obo/NCIT_C114185 # Polysomnography
+http://purl.obolibrary.org/obo/NCIT_C142529 # Electronic health record

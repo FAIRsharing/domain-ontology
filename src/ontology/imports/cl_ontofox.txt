@@ -1,0 +1,43 @@
+#### NOTES ON CL IMPORT ####
+##
+## Although CL does not include all of BFO, it includes enough of
+## the hierarchy that includeAllIntermediates is required to ensure
+## correct creation of the entire BFO hierarchy, especially around
+## 'material entity'
+##
+## The 'material anatomical entity' used in CL is from *both*
+## CARO (CARO_0000006) and UBERON (UBERON_0000465).
+## DRAO uses UBERON (UBERON_0000465). As such, wherever CARO_0000006
+## is used within CL, it is overriden by UBERON_0000465.
+##
+
+[Source ontology]
+CL
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CL_0000000 # Cell
+http://purl.obolibrary.org/obo/CL_0000034 # Stem cell
+http://purl.obolibrary.org/obo/CL_0000084 # T cell
+http://purl.obolibrary.org/obo/CL_0000451 # Dendritic cell
+http://purl.obolibrary.org/obo/CL_0000540 # Neuron
+http://purl.obolibrary.org/obo/CL_0002248 # Pluripotent stem cell
+http://purl.obolibrary.org/obo/CL_0002322 # Embryonic stem cell
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000002 # continuant
+subClassOf http://purl.obolibrary.org/obo/BFO_0000001 # entity
+http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+http://purl.obolibrary.org/obo/CL_0000000 # cell (CL)
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000061 # anatomical structure
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

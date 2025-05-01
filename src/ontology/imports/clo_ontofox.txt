@@ -1,0 +1,50 @@
+#### NOTES ON CLO IMPORT ####
+##
+## includeAllIntermediates has been enabled for CLO
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+## In OLS, 'cell line' has a single parent, OBI_0001905.
+## In the version stored in Ontobee, it has two, both
+## OBI_0001905 and OBI_0100060. As we are pulling from
+## Ontofox (which draws from Ontobee), the double parentage
+## is replicated here.
+##
+## As we have decided on retaining the GO Cell class only (and not
+## the one from CL), we need to override this ontology's usage
+## of http://purl.obolibrary.org/obo/CL_0000000 and place the
+## children within the GO cell hierarchy (see note in CL Import section).
+##
+
+[Source ontology]
+CLO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CLO_0000031 # Cell line
+http://purl.obolibrary.org/obo/CLO_0036932 # Hybridoma
+http://purl.obolibrary.org/obo/CLO_0037280 # Human embryonic stem cell line cell
+http://purl.obolibrary.org/obo/CLO_0037308 # human induced pluripotent stem cell line cell
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+
+http://purl.obolibrary.org/obo/CL_0001034 # cell in vitro
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 # cell
+http://purl.obolibrary.org/obo/CL_0000578 # experimentally modified cell in vitro
+subClassOf http://purl.obolibrary.org/obo/CL_0001034 # cell in vitro
+http://www.ebi.ac.uk/cellline#UnspecifiedCellType
+subClassOf http://purl.obolibrary.org/obo/CL_0000000 # cell
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.ebi.ac.uk/cellline#Definitions
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+http://www.ebi.ac.uk/efo/alternative_term
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

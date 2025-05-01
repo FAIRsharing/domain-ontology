@@ -1,0 +1,13 @@
+http://purl.obolibrary.org/obo/UBERON_0000062 # Organ
+http://purl.obolibrary.org/obo/UBERON_0000104 # Life cycle
+http://purl.obolibrary.org/obo/UBERON_0000105 # Life cycle stage
+http://purl.obolibrary.org/obo/UBERON_0000178 # Blood
+http://purl.obolibrary.org/obo/UBERON_0000479 # Tissue
+http://purl.obolibrary.org/obo/UBERON_0000948 # Heart
+http://purl.obolibrary.org/obo/UBERON_0000955 # Brain
+http://purl.obolibrary.org/obo/UBERON_0001033 # Gustatory system
+http://purl.obolibrary.org/obo/UBERON_0001474 # Bone
+http://purl.obolibrary.org/obo/UBERON_0001911 # Mammary gland
+http://purl.obolibrary.org/obo/UBERON_0002107 # Liver
+http://purl.obolibrary.org/obo/UBERON_0002405 # Immune system
+http://purl.obolibrary.org/obo/UBERON_0004907 # Lower digestive tract

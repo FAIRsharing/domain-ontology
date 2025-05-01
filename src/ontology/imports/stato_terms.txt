@@ -1,0 +1,2 @@
+http://purl.obolibrary.org/obo/STATO_0000254 # Allele frequency
+http://purl.obolibrary.org/obo/STATO_0000091 # Genome-wide association study

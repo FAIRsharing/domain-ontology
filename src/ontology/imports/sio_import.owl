@@ -1,0 +1,100 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/sio_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/sio_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/sio_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23367>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000572>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0914>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001018>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_000398>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_000510>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_000716>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_000983>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_000993>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_000998>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_001008>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_001257>))
+Declaration(Class(<http://semanticscience.org/resource/SIO_010423>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://semanticscience.org/resource/SIO_000398> (nurse)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://semanticscience.org/resource/SIO_000398> <http://semanticscience.org/ontology/sio.owl>)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000398> "nurse"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_000398> <http://semanticscience.org/resource/SIO_000716>)
+
+# Class: <http://semanticscience.org/resource/SIO_000510> (model)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://semanticscience.org/resource/SIO_000510> <http://semanticscience.org/ontology/sio.owl>)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000510> "model"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_000510> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://semanticscience.org/resource/SIO_000716> (medical practitioner)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://semanticscience.org/resource/SIO_000716> <http://semanticscience.org/ontology/sio.owl>)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000716> "medical practitioner"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_000716> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://semanticscience.org/resource/SIO_000983> (gene-disease association)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://semanticscience.org/resource/SIO_000983> <http://semanticscience.org/ontology/sio.owl>)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000983> "gene-disease association"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_000983> <http://purl.obolibrary.org/obo/MI_0914>)
+
+# Class: <http://semanticscience.org/resource/SIO_000993> (chemical-disease association)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://semanticscience.org/resource/SIO_000993> <http://semanticscience.org/ontology/sio.owl>)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000993> "chemical-disease association"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_000993> <http://purl.obolibrary.org/obo/MI_0914>)
+
+# Class: <http://semanticscience.org/resource/SIO_000998> (literature curation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://semanticscience.org/resource/SIO_000998> <http://semanticscience.org/ontology/sio.owl>)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_000998> "literature curation"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_000998> <http://purl.obolibrary.org/obo/IAO_0000572>)
+
+# Class: <http://semanticscience.org/resource/SIO_001008> (toxicity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://semanticscience.org/resource/SIO_001008> <http://semanticscience.org/ontology/sio.owl>)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_001008> "toxicity"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_001008> <http://purl.obolibrary.org/obo/PATO_0001018>)
+
+# Class: <http://semanticscience.org/resource/SIO_001257> (chemical-gene association)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://semanticscience.org/resource/SIO_001257> <http://semanticscience.org/ontology/sio.owl>)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_001257> "chemical-gene association"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_001257> <http://purl.obolibrary.org/obo/MI_0914>)
+
+# Class: <http://semanticscience.org/resource/SIO_010423> (target)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://semanticscience.org/resource/SIO_010423> <http://semanticscience.org/ontology/sio.owl>)
+AnnotationAssertion(rdfs:label <http://semanticscience.org/resource/SIO_010423> "target"@en)
+SubClassOf(<http://semanticscience.org/resource/SIO_010423> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
+
+)

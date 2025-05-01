@@ -1,0 +1,107 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/sbo_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/sbo_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/sbo_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://biomodels.net/SBO/SBO_0000027>))
+Declaration(Class(<http://biomodels.net/SBO/SBO_0000193>))
+Declaration(Class(<http://biomodels.net/SBO/SBO_0000242>))
+Declaration(Class(<http://biomodels.net/SBO/SBO_0000261>))
+Declaration(Class(<http://biomodels.net/SBO/SBO_0000282>))
+Declaration(Class(<http://biomodels.net/SBO/SBO_0000308>))
+Declaration(Class(<http://biomodels.net/SBO/SBO_0000414>))
+Declaration(Class(<http://biomodels.net/SBO/SBO_0000493>))
+Declaration(Class(<http://biomodels.net/SBO/SBO_0000545>))
+Declaration(Class(<http://edamontology.org/data_0883>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032991>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://biomodels.net/SBO/SBO_0000027> (Michaelis constant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://biomodels.net/SBO/SBO_0000027> "Synonym: Michaelis-Menten constant ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://biomodels.net/SBO/SBO_0000027> <http://purl.obolibrary.org/obo/sbo.owl>)
+AnnotationAssertion(rdfs:label <http://biomodels.net/SBO/SBO_0000027> "Michaelis constant")
+SubClassOf(<http://biomodels.net/SBO/SBO_0000027> <http://biomodels.net/SBO/SBO_0000193>)
+
+# Class: <http://biomodels.net/SBO/SBO_0000193> (equilibrium or steady-state constant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://biomodels.net/SBO/SBO_0000193> "Constant with the dimension of a powered concentration. It is determined at half-saturation, half-activity etc. ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://biomodels.net/SBO/SBO_0000193> <http://purl.obolibrary.org/obo/sbo.owl>)
+AnnotationAssertion(rdfs:label <http://biomodels.net/SBO/SBO_0000193> "equilibrium or steady-state constant")
+SubClassOf(<http://biomodels.net/SBO/SBO_0000193> <http://biomodels.net/SBO/SBO_0000308>)
+
+# Class: <http://biomodels.net/SBO/SBO_0000242> (channel)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://biomodels.net/SBO/SBO_0000242> "A component that allows another component to pass through itself, possibly connecting different compartments.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://biomodels.net/SBO/SBO_0000242> <http://purl.obolibrary.org/obo/sbo.owl>)
+AnnotationAssertion(rdfs:label <http://biomodels.net/SBO/SBO_0000242> "channel")
+SubClassOf(<http://biomodels.net/SBO/SBO_0000242> <http://purl.obolibrary.org/obo/GO_0032991>)
+
+# Class: <http://biomodels.net/SBO/SBO_0000261> (inhibitory constant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://biomodels.net/SBO/SBO_0000261> "Synonym: Ki ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://biomodels.net/SBO/SBO_0000261> <http://purl.obolibrary.org/obo/sbo.owl>)
+AnnotationAssertion(rdfs:label <http://biomodels.net/SBO/SBO_0000261> "inhibitory constant")
+SubClassOf(<http://biomodels.net/SBO/SBO_0000261> <http://biomodels.net/SBO/SBO_0000282>)
+
+# Class: <http://biomodels.net/SBO/SBO_0000282> (dissociation constant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://biomodels.net/SBO/SBO_0000282> "Synonym: Kd ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://biomodels.net/SBO/SBO_0000282> <http://purl.obolibrary.org/obo/sbo.owl>)
+AnnotationAssertion(rdfs:label <http://biomodels.net/SBO/SBO_0000282> "dissociation constant")
+SubClassOf(<http://biomodels.net/SBO/SBO_0000282> <http://biomodels.net/SBO/SBO_0000193>)
+SubClassOf(<http://biomodels.net/SBO/SBO_0000282> <http://biomodels.net/SBO/SBO_0000308>)
+
+# Class: <http://biomodels.net/SBO/SBO_0000308> (equilibrium or steady-state characteristic)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://biomodels.net/SBO/SBO_0000308> "Quantitative parameter that characterises a biochemical equilibrium. ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://biomodels.net/SBO/SBO_0000308> <http://purl.obolibrary.org/obo/sbo.owl>)
+AnnotationAssertion(rdfs:label <http://biomodels.net/SBO/SBO_0000308> "equilibrium or steady-state characteristic")
+SubClassOf(<http://biomodels.net/SBO/SBO_0000308> <http://biomodels.net/SBO/SBO_0000545>)
+
+# Class: <http://biomodels.net/SBO/SBO_0000414> (cis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://biomodels.net/SBO/SBO_0000414> "Positional relationship between entities on the same strand (e.g. in DNA), or on the same side.
+")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://biomodels.net/SBO/SBO_0000414> <http://purl.obolibrary.org/obo/sbo.owl>)
+AnnotationAssertion(rdfs:label <http://biomodels.net/SBO/SBO_0000414> "cis")
+SubClassOf(<http://biomodels.net/SBO/SBO_0000414> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://biomodels.net/SBO/SBO_0000493> (functional domain)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://biomodels.net/SBO/SBO_0000493> "A spatial region of an entity that confers a function")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://biomodels.net/SBO/SBO_0000493> <http://purl.obolibrary.org/obo/sbo.owl>)
+AnnotationAssertion(rdfs:label <http://biomodels.net/SBO/SBO_0000493> "functional domain")
+SubClassOf(<http://biomodels.net/SBO/SBO_0000493> <http://edamontology.org/data_0883>)
+
+# Class: <http://biomodels.net/SBO/SBO_0000545> (systems description parameter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://biomodels.net/SBO/SBO_0000545> "A value, numerical or symbolic, that defines certain characteristics of systems or system functions, or is necessary in their derivation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://biomodels.net/SBO/SBO_0000545> <http://purl.obolibrary.org/obo/sbo.owl>)
+AnnotationAssertion(rdfs:label <http://biomodels.net/SBO/SBO_0000545> "systems description parameter")
+SubClassOf(<http://biomodels.net/SBO/SBO_0000545> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+
+)

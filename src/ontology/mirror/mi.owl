@@ -1,0 +1,319 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/92b7qc4a.owl#"
+     xml:base="http://ontofox.hegroup.org/92b7qc4a.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:edamontology="http://edamontology.org/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/92b7qc4a.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://edamontology.org/data_2087 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2087"/>
+    
+
+
+    <!-- http://edamontology.org/operation_2492 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2492"/>
+    
+
+
+    <!-- http://edamontology.org/operation_3767 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3767"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33696"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0000">
+        <rdfs:label>molecular interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000118>mi</obo:IAO_0000118>
+        <obo:IAO_0000115>Controlled vocabularies originally created for protein protein interactions, extended to other molecules interactions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0064">
+        <rdfs:label>interologs mapping</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2492"/>
+        <obo:IAO_0000118>Homology based interaction prediction</obo:IAO_0000118>
+        <obo:IAO_0000115>Protein interactions, experimentally detected in an organism, are extended to a second organism assuming that homologue proteins, in different organisms, maintain their interaction properties.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0074">
+        <rdfs:label>mutation analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115>Mutant molecules are produced by random or directed techniques and assayed for their ability to support binding.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0093">
+        <rdfs:label>protein sequence identification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3767"/>
+        <obo:IAO_0000118>protein sequence</obo:IAO_0000118>
+        <obo:IAO_0000115>Single amino acid identification along a protein sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0118">
+        <rdfs:label>mutation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001059"/>
+        <obo:IAO_0000115>A change in a sequence or structure in comparison to a reference entity due to a  insertion, deletion or substitution event.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0208">
+        <rdfs:label>genetic interaction (sensu unexpected)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
+        <obo:IAO_0000118>Fisher epistasis</obo:IAO_0000118>
+        <obo:IAO_0000115>An effect in which two genetic perturbations, when combined, result in a phenotype that does not appear to be merely explained by the superimposition or addition of effects of the original perturbations.
+ab (not=) E</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0328">
+        <rdfs:label>small molecule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>Molecule not part of or directly encoded by the genome, encompasses any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0414">
+        <rdfs:label>enzymatic reaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0914"/>
+        <obo:IAO_0000118>Biochemical reaction</obo:IAO_0000118>
+        <obo:IAO_0000115>terms aiming to represent biochemical reactions referring to their resulting product modifications.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0914 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0914">
+        <rdfs:label>association</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
+        <obo:IAO_0000115>Interaction between molecules that may participate in formation of one, but possibly more, physical complexes. Often describes a set of molecules that are co-purified in a single pull-down or coimmunoprecipitation but might participate in formation of distinct physical complexes sharing a common bait.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0964 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0964">
+        <rdfs:label>infrared spectroscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000118>ir spectrometry</obo:IAO_0000118>
+        <obo:IAO_0000115>Subset of spectroscopy that deals with the infrared region of the electromagnetic spectrum.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0966">
+        <rdfs:label>ultraviolet-visible spectroscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115>Ultraviolet-visible spectroscopy or ultraviolet-visible spectrophotometry (UV-Vis or UV/Vis) involves the spectroscopy of photons in the UV-visible region. This means it uses light in the visible and adjacent (near ultraviolet (UV) and near infrared (NIR)) ranges.</obo:IAO_0000115>
+        <obo:IAO_0000118>uv-vis</obo:IAO_0000118>
+        <obo:IAO_0000118>UV/Vis</obo:IAO_0000118>
+        <obo:IAO_0000118>ultraviolet-visible spectrophotometry</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_1100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_1100">
+        <rdfs:label>bioactive entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
+        <obo:IAO_0000115>Molecules showing activity in a living system but not encoded by a genomic sequence.</obo:IAO_0000115>
+        <obo:IAO_0000118>bioactive entity</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_2025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2025">
+        <rdfs:label>molecular weight</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2087"/>
+        <obo:IAO_0000115>Molecular weight in g/mol, determined from molecular formula or sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_2030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2030">
+        <rdfs:label>isoelectric point</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2087"/>
+        <obo:IAO_0000115>The isoelectric point (pI) is the pH at which a particular molecule or surface carries no net electrical charge. For an amino acid with only one amine and one carboxyl group, the pI can be calculated from the pKas of this molecule.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_2190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2190">
+        <rdfs:label>long non-coding ribonucleic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
+        <obo:IAO_0000118>long non coding RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>lncRNA</obo:IAO_0000118>
+        <obo:IAO_0000118>long non-coding RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>lncrna</obo:IAO_0000118>
+        <obo:IAO_0000118>long non coding ribonucleic acid</obo:IAO_0000118>
+        <obo:IAO_0000115>Non-protein coding transcripts longer than 200 nucleotides and that can be involved in a number of functions, like transcription, post-translational and epigenetic regulation. Most lncRNAs do not have a known function so far.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_2231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_2231">
+        <rdfs:label>coexpression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <obo:IAO_0000118>co-expression</obo:IAO_0000118>
+        <obo:IAO_0000118>coexpression prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>coexpression</obo:IAO_0000118>
+        <obo:IAO_0000115>This approach infers interacting pairs of proteins looking at expression data coming from transcript expression datasets. Co-expressed pairs of genes are ranked and predicted to be interacting proteins as well.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001059"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
+<!--
+Notice: All the OBO ontologies have changed the term URI format from http://purl.org/obo/owl/ontology#ontology_nnnnnnn to http://purl.obolibrary.org/obo/ontology_nnnnnnn. Please make sure your input files are updated.
+The following terms do not have any related axioms in the source ontology:
+http://purl.obolibrary.org/obo/GO_0008150
+http://edamontology.org/operation_3767
+http://edamontology.org/data_2087
+http://purl.obolibrary.org/obo/CHEBI_33696
+http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/OBI_0000070
+http://purl.obolibrary.org/obo/SO_0001059
+http://purl.obolibrary.org/obo/OBI_0200000
+http://edamontology.org/operation_2492
+-->

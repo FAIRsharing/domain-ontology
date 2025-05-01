@@ -1,0 +1,5 @@
+http://www.ebi.ac.uk/swo/data/SWO_3000053 # Knowledge representation
+http://www.ebi.ac.uk/swo/interface/SWO_9000051 # Web service
+http://www.ebi.ac.uk/swo/SWO_0000001 # Software
+http://www.ebi.ac.uk/swo/SWO_0000143 # Data storage
+

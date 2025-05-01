@@ -1,0 +1,25 @@
+#### NOTES ON MFOEM IMPORT ####
+##
+## Although MFOEM uses BFO, we are slightly modifying the
+## source hierarchy to remove 'bodily process' and instead
+## use the 'biological_process' hierarchy already present
+## within DRAO.
+##
+
+[Source ontology]
+MFOEM
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MFOEM_000001 # Emotion
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/MF_0000020 # mental process
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118

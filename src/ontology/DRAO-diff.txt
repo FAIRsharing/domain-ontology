@@ -1,0 +1,113 @@
+21d20
+< http://edamontology.org/data_0950
+105d103
+< http://edamontology.org/topic_3175
+112d109
+< http://identifiers.org/mamo/MAMO_0000035
+144a142,144
+> http://purl.obolibrary.org/obo/CHMO_0000067
+> http://purl.obolibrary.org/obo/CHMO_0000068
+> http://purl.obolibrary.org/obo/CHMO_0000102
+147a148
+> http://purl.obolibrary.org/obo/CHMO_0000656
+150a152
+> http://purl.obolibrary.org/obo/CHMO_0001112
+183,208d184
+< http://purl.obolibrary.org/obo/ERO_0000086
+< http://purl.obolibrary.org/obo/ERO_0000201
+< http://purl.obolibrary.org/obo/ERO_0000215
+< http://purl.obolibrary.org/obo/ERO_0000292
+< http://purl.obolibrary.org/obo/ERO_0000328
+< http://purl.obolibrary.org/obo/ERO_0000333
+< http://purl.obolibrary.org/obo/ERO_0000401
+< http://purl.obolibrary.org/obo/ERO_0000478
+< http://purl.obolibrary.org/obo/ERO_0000911
+< http://purl.obolibrary.org/obo/ERO_0001075
+< http://purl.obolibrary.org/obo/ERO_0001183
+< http://purl.obolibrary.org/obo/ERO_0001219
+< http://purl.obolibrary.org/obo/ERO_0001235
+< http://purl.obolibrary.org/obo/ERO_0001312
+< http://purl.obolibrary.org/obo/ERO_0001677
+< http://purl.obolibrary.org/obo/ERO_0001688
+< http://purl.obolibrary.org/obo/ERO_0001728
+< http://purl.obolibrary.org/obo/ERO_0001764
+< http://purl.obolibrary.org/obo/ERO_0001830
+< http://purl.obolibrary.org/obo/ERO_0001944
+< http://purl.obolibrary.org/obo/ERO_0002178
+< http://purl.obolibrary.org/obo/ERO_0002190
+< http://purl.obolibrary.org/obo/ERO_0100102
+< http://purl.obolibrary.org/obo/ERO_0100106
+< http://purl.obolibrary.org/obo/ERO_0100148
+< http://purl.obolibrary.org/obo/ERO_0100150
+216a193
+> http://purl.obolibrary.org/obo/FBcv_0003077
+233d209
+< http://purl.obolibrary.org/obo/GO_0006306
+239a216
+> http://purl.obolibrary.org/obo/GO_0006805
+246d222
+< http://purl.obolibrary.org/obo/GO_0007568
+249d224
+< http://purl.obolibrary.org/obo/GO_0008022
+251d225
+< http://purl.obolibrary.org/obo/GO_0008144
+259d232
+< http://purl.obolibrary.org/obo/GO_0016246
+262d234
+< http://purl.obolibrary.org/obo/GO_0017144
+270a243
+> http://purl.obolibrary.org/obo/GO_0035194
+277d249
+< http://purl.obolibrary.org/obo/GO_0043631
+280d251
+< http://purl.obolibrary.org/obo/GO_0047485
+292d262
+< http://purl.obolibrary.org/obo/GO_0070893
+326a297
+> http://purl.obolibrary.org/obo/MI_1100
+336a308
+> http://purl.obolibrary.org/obo/NCIT_C101293
+337a310
+> http://purl.obolibrary.org/obo/NCIT_C114185
+344a318
+> http://purl.obolibrary.org/obo/NCIT_C15311
+345a320
+> http://purl.obolibrary.org/obo/NCIT_C15959
+347a323
+> http://purl.obolibrary.org/obo/NCIT_C16622
+348a325
+> http://purl.obolibrary.org/obo/NCIT_C16809
+349a327
+> http://purl.obolibrary.org/obo/NCIT_C17007
+352a331
+> http://purl.obolibrary.org/obo/NCIT_C17958
+367d345
+< http://purl.obolibrary.org/obo/NCIT_C54708
+387d364
+< http://purl.obolibrary.org/obo/OBI_0000658
+394c371
+< http://purl.obolibrary.org/obo/OBI_0000844
+---
+> http://purl.obolibrary.org/obo/OBI_0000893
+432,433d408
+< http://purl.obolibrary.org/obo/OGI_0000042
+< http://purl.obolibrary.org/obo/OGI_0000051
+445a421
+> http://purl.obolibrary.org/obo/OMIT_0010354
+471d446
+< http://purl.obolibrary.org/obo/PECO_0007302
+551a527
+> http://purl.obolibrary.org/obo/SO_1000183
+553a530
+> http://purl.obolibrary.org/obo/T4FS_0000141
+569,572d545
+< http://purl.obolibrary.org/obo/VariO_0226
+< http://semanticscience.org/resource/CHEMINF_000106
+< http://semanticscience.org/resource/CHEMINF_000123
+< http://semanticscience.org/resource/CHEMINF_000251
+573a547
+> http://semanticscience.org/resource/SIO_000510
+605a580,582
+> http://www.ebi.ac.uk/efo/EFO_0009878
+> http://www.ebi.ac.uk/efo/EFO_0022597
+> http://www.ebi.ac.uk/efo/EFO_0022599

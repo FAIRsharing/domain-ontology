@@ -1,0 +1,112 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/FBcv_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/FBcv_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/FBcv_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24432>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0000155>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0000623>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0003035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0003036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0003039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0003040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0003077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0003195>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0200000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001260>))
+Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_0007550>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/FBcv_0000000> (FlyBase CV)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0000000> "FlyBase miscellaneous controlled vocabulary term.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0000000> <http://purl.obolibrary.org/obo/dpo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0000000> "FlyBase CV")
+
+# Class: <http://purl.obolibrary.org/obo/FBcv_0000155> (single balancer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0000155> "Chromosome that carries inversions and visible mutations, and which can be used to identify the genotype of an individual.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0000155> <http://purl.obolibrary.org/obo/dpo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0000155> "single balancer")
+SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0000155> <http://purl.obolibrary.org/obo/CHEBI_24432>)
+
+# Class: <http://purl.obolibrary.org/obo/FBcv_0000623> (enhancer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0000623> "Genotype g1 is enhancer of genotype g2 if (and only if) the phenotype due to the genotype g1g2 is more severe than the sum of phenotypes due to g1 and g2, where all comparisons are under identical environmental conditions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0000623> <http://purl.obolibrary.org/obo/dpo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0000623> "enhancer")
+SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0000623> <http://purl.obolibrary.org/obo/CHEBI_24432>)
+
+# Class: <http://purl.obolibrary.org/obo/FBcv_0003035> (proteome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0003035> "A project that characterizes the set of proteins expressed in an organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0003035> <http://purl.obolibrary.org/obo/dpo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0003035> "proteome")
+SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0003035> <http://purl.obolibrary.org/obo/SO_0001260>)
+
+# Class: <http://purl.obolibrary.org/obo/FBcv_0003036> (interactome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0003036> "A project that characterizes the set of inter-molecular interactions in an organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0003036> <http://purl.obolibrary.org/obo/dpo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0003036> "interactome")
+SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0003036> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/FBcv_0003039> (chemical screen)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0003039> "A project that searches for chemicals, natural or synthetic, that elicit some biological effect.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0003039> <http://purl.obolibrary.org/obo/dpo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0003039> "chemical screen")
+SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0003039> <http://www.ebi.ac.uk/efo/EFO_0007550>)
+
+# Class: <http://purl.obolibrary.org/obo/FBcv_0003040> (gene model annotation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0003040> "A project that constructs models describing the set of transcripts and polypeptides encoded by some group of genes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0003040> <http://purl.obolibrary.org/obo/dpo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0003040> "gene model annotation")
+SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0003040> <http://purl.obolibrary.org/obo/OBI_0200000>)
+
+# Class: <http://purl.obolibrary.org/obo/FBcv_0003077> (RNAi screen)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0003077> "An assay that uses a panel of RNA interference (RNAi) reagents to systematically knockdown a large set of genes, one at a time, to identify those that are involved in some biological process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0003077> <http://purl.obolibrary.org/obo/dpo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0003077> "RNAi screen")
+SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0003077> <http://purl.obolibrary.org/obo/FBcv_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/FBcv_0003195> (CAGE)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0003195> "Material that has been selected using Cap Analysis Gene Expression, in which the 7-methylguanosine cap at 5' transcript ends is biotinylated and affinity purified.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0003195> <http://purl.obolibrary.org/obo/dpo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0003195> "CAGE")
+SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0003195> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+
+)

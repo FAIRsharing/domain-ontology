@@ -9,7 +9,7 @@ WHERE
 {
     ?class a owl:Class .
     ?class oboInOwl:inSubset ?subset
-    FILTER regex( str(?subset), "FAIRsharing")
+    FILTER regex( str(?subset), "https://www.fairsharing.org")
 
 
 }

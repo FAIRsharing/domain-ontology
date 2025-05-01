@@ -1,0 +1,72 @@
+http://purl.obolibrary.org/obo/GO_0000380 # Alternative splicing
+http://purl.obolibrary.org/obo/GO_0000775 # Centromere
+http://purl.obolibrary.org/obo/GO_0003674 # Molecular function
+http://purl.obolibrary.org/obo/GO_0003682 # Chromatin binding
+http://purl.obolibrary.org/obo/GO_0003824 # Catalytic activity
+http://purl.obolibrary.org/obo/GO_0005216 # Ion channel activity
+http://purl.obolibrary.org/obo/GO_0005488 # Binding
+http://purl.obolibrary.org/obo/GO_0005575 # Cellular component
+http://purl.obolibrary.org/obo/GO_0005622 # Intracellular **Required for NCIT Receptor**
+http://purl.obolibrary.org/obo/GO_0005634 # Nucleus
+http://purl.obolibrary.org/obo/GO_0005694 # Chromosome
+http://purl.obolibrary.org/obo/GO_0005739 # Mitochondrion
+http://purl.obolibrary.org/obo/GO_0005813 # Centrosome
+http://purl.obolibrary.org/obo/GO_0006006 # Glucose metabolic process
+http://purl.obolibrary.org/obo/GO_0006338 # Chromatin remodeling
+http://purl.obolibrary.org/obo/GO_0006412 # Translation
+http://purl.obolibrary.org/obo/GO_0006413 # Translation initiation
+http://purl.obolibrary.org/obo/GO_0006457 # Protein folding
+http://purl.obolibrary.org/obo/GO_0006473 # Protein acetylation
+http://purl.obolibrary.org/obo/GO_0006605 # Protein targeting
+http://purl.obolibrary.org/obo/GO_0006805 # xenobiotic metabolic process
+http://purl.obolibrary.org/obo/GO_0006810 # Transport
+http://purl.obolibrary.org/obo/GO_0006954 # Inflammatory response
+http://purl.obolibrary.org/obo/GO_0007049 # Cell cycle
+http://purl.obolibrary.org/obo/GO_0007127 # Meiosis I
+http://purl.obolibrary.org/obo/GO_0007135 # Meiosis II
+http://purl.obolibrary.org/obo/GO_0007155 # Cell adhesion
+http://purl.obolibrary.org/obo/GO_0007610 # Behavior
+http://purl.obolibrary.org/obo/GO_0008104 # Protein localization
+http://purl.obolibrary.org/obo/GO_0008150 # Biological process
+http://purl.obolibrary.org/obo/GO_0008152 # Metabolic process **Required for positioning of OMIT Biotransformation**
+http://purl.obolibrary.org/obo/GO_0008380 # RNA splicing
+http://purl.obolibrary.org/obo/GO_0009306 # Protein secretion
+http://purl.obolibrary.org/obo/GO_0009451 # RNA modification
+http://purl.obolibrary.org/obo/GO_0009536 # Plastid
+http://purl.obolibrary.org/obo/GO_0010467 # Gene expression
+http://purl.obolibrary.org/obo/GO_0010468 # Regulation of gene expression
+http://purl.obolibrary.org/obo/GO_0016310 # Phosphorylation
+http://purl.obolibrary.org/obo/GO_0016477 # Cell migration
+http://purl.obolibrary.org/obo/GO_0019814 # Immunoglobulin complex
+http://purl.obolibrary.org/obo/GO_0019815 # B cell receptor complex
+http://purl.obolibrary.org/obo/GO_0023052 # Signaling
+http://purl.obolibrary.org/obo/GO_0030097 # Hematopoiesis
+http://purl.obolibrary.org/obo/GO_0030431 # Sleep
+http://purl.obolibrary.org/obo/GO_0031982 # Vesicle
+http://purl.obolibrary.org/obo/GO_0032259 # Methylation
+http://purl.obolibrary.org/obo/GO_0032991 # Protein-containing complex
+http://purl.obolibrary.org/obo/GO_0035194 # regulatory ncRNA-mediated post-transcriptional gene silencing
+http://purl.obolibrary.org/obo/GO_0035195 # Gene silencing by miRNA (microRNA)
+http://purl.obolibrary.org/obo/GO_0036094 # Small molecule binding
+http://purl.obolibrary.org/obo/GO_0036211 # Protein modification
+http://purl.obolibrary.org/obo/GO_0042101 # T cell receptor complex
+http://purl.obolibrary.org/obo/GO_0042571 # Antibody
+http://purl.obolibrary.org/obo/GO_0043043 # Peptide biosynthetic process (needed by NCIT protein expression)
+http://purl.obolibrary.org/obo/GO_0043226 # Organelle
+http://purl.obolibrary.org/obo/GO_0043687 # Post-translational protein modification
+http://purl.obolibrary.org/obo/GO_0046872 # Metal ion binding
+http://purl.obolibrary.org/obo/GO_0048513 # Animal organ development
+http://purl.obolibrary.org/obo/GO_0050693 # Ligand binding domain binding
+http://purl.obolibrary.org/obo/GO_0050890 # Cognition
+http://purl.obolibrary.org/obo/GO_0050909 # Sense of taste
+http://purl.obolibrary.org/obo/GO_0051087 # Chaperone binding
+http://purl.obolibrary.org/obo/GO_0051301 # Cell division
+http://purl.obolibrary.org/obo/GO_0051641 # Cellular localization
+http://purl.obolibrary.org/obo/GO_0060293 # Germ plasm
+http://purl.obolibrary.org/obo/GO_0065007 # Biological regulation
+http://purl.obolibrary.org/obo/GO_0070062 # Extracellular exosome
+http://purl.obolibrary.org/obo/GO_0070085 # Glycosylation
+http://purl.obolibrary.org/obo/GO_0007608 # Sense of smell
+http://purl.obolibrary.org/obo/GO_0098687 # Chromosomal region
+http://purl.obolibrary.org/obo/GO_1901873 # Regulation of post-translational protein modification
+http://purl.obolibrary.org/obo/GO_2000628 # Regulation of miRNA metabolic process

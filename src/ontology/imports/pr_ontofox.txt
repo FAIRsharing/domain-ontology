@@ -1,0 +1,33 @@
+#### NOTES ON PR IMPORT ####
+##
+## PR uses BFO as an upper-level ontology.
+##
+## includeAllIntermediates has been enabled for PR
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+## Uses BFO but doesn't contain the full ULO, so
+## we need to map to ensure they go to the right place.
+##
+
+[Source ontology]
+PR
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PR_000000001 # Protein
+http://purl.obolibrary.org/obo/PR_000037070 # Phosphoprotein
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PR_000000001 # Protein
+subClassOf http://purl.obolibrary.org/obo/CHEBI_25367 # CHEBI molecule instead of PR's COB Molecule
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

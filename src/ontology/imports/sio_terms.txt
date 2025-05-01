@@ -1,0 +1,8 @@
+http://semanticscience.org/resource/SIO_000398 # Nurse
+http://semanticscience.org/resource/SIO_000510 # Model
+http://semanticscience.org/resource/SIO_000983 # Gene-disease association
+http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
+http://semanticscience.org/resource/SIO_000998 # Literature curation
+http://semanticscience.org/resource/SIO_001008 # Toxicity
+http://semanticscience.org/resource/SIO_001257 # Chemical-gene association
+http://semanticscience.org/resource/SIO_010423 # Target

@@ -1,0 +1,959 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/so_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/so_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/so_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16991>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C17004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000110>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000112>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000143>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000147>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000149>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000162>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000167>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000178>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000180>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000182>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000188>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000203>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000233>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000239>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000243>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000253>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000276>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000289>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000312>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000316>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000324>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000330>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000336>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000370>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000371>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000400>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000409>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000418>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000436>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000591>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000603>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000646>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000655>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000657>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000667>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000673>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000694>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000696>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000704>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000705>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000733>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000736>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000737>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000740>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000745>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000756>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000771>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000772>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000831>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000833>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000835>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000836>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000839>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000857>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000858>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000859>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000870>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000934>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0000973>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001244>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001260>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001410>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001411>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001459>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001483>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001505>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001683>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001877>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001956>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0002031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0002096>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0002247>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0005836>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0005851>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0005855>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_1000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_1000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_1000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_1000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_1000183>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000001> (region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000001> "A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000001> "sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000001> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000001> "region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000001> <http://purl.obolibrary.org/obo/SO_0000110>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000101> (transposable_element)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000101> "A transposon or insertion sequence. An element that can insert in a variety of DNA sequences.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000101> "transposable element")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000101> "transposon")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000101> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000101> "transposable_element")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000101> <http://purl.obolibrary.org/obo/SO_0001039>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000110> (sequence_feature)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000110> "Any extent of continuous biological sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000110> "INSDC_feature:misc_feature")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000110> "INSDC_note:other")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000110> "INSDC_note:sequence_feature")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000110> "located_sequence_feature")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000110> "sequence feature")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000110> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000110> "sequence_feature")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000110> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000112> (primer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000112> "An oligo to which new deoxyribonucleotides can be added by DNA polymerase.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000112> "DNA primer")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000112> "primer oligonucleotide")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000112> "primer polynucleotide")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000112> "primer sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000112> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000112> "primer")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000112> <http://purl.obolibrary.org/obo/SO_0000696>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000143> (assembly_component)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000143> "A region of known length which may be used to manufacture a longer region.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000143> "assembly component")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000143> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000143> "assembly_component")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000143> <http://purl.obolibrary.org/obo/SO_0001410>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000147> (exon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000147> "A region of the transcript sequence within a gene which is not removed from the primary RNA transcript by RNA splicing.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000147> "INSDC_feature:exon")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000147> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000147> "exon")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000147> <http://purl.obolibrary.org/obo/SO_0000833>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000149> (contig)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000149> "A contiguous sequence derived from sequence assembly. Has no gaps, but may contain N's from unavailable bases.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000149> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000149> "contig")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000149> <http://purl.obolibrary.org/obo/SO_0000143>)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000149> <http://purl.obolibrary.org/obo/SO_0001410>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000150> (read)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000150> "A sequence obtained from a single sequencing experiment. Typically a read is produced when a base calling program interprets information from a chromatogram trace file produced from a sequencing machine.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000150> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000150> "read")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000150> <http://purl.obolibrary.org/obo/SO_0000143>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000162> (splice_site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000162> "Consensus region of primary transcript bordering junction of splicing. A region that overlaps exactly 2 base and adjacent_to splice_junction.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000162> "splice site")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000162> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000162> "splice_site")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000162> <http://purl.obolibrary.org/obo/SO_0000835>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000167> (promoter)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000167> "A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the core transcription machinery. A region (DNA) to which RNA polymerase binds, to begin transcription.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000167> "INSDC_qualifier:promoter")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000167> "promoter sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000167> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000167> "promoter")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000167> <http://purl.obolibrary.org/obo/SO_0001411>)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000167> <http://purl.obolibrary.org/obo/SO_0005836>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000178> (operon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000178> "The DNA region of a group of adjacent genes whose transcription is coordinated on one or several mutually overlapping transcription units transcribed in the same direction and sharing at least one gene.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000178> "INSDC_feature:operon")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000178> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000178> "operon")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000178> <http://purl.obolibrary.org/obo/SO_0005855>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000180> (retrotransposon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000180> "A transposable element that is incorporated into a chromosome by a mechanism that requires reverse transcriptase.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000180> "class I transposon")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000180> "retrotransposon element")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000180> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000180> "retrotransposon")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000180> <http://purl.obolibrary.org/obo/SO_0000101>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000182> (DNA_transposon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000182> "A transposon where the mechanism of transposition is via a DNA intermediate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000182> "DNA transposon")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000182> "class II transposon")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000182> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000182> "DNA_transposon")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000182> <http://purl.obolibrary.org/obo/SO_0000101>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000188> (intron)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000188> "A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000188> "INSDC_feature:intron")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000188> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000188> "intron")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000188> <http://purl.obolibrary.org/obo/SO_0000835>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000203> (UTR)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000203> "Messenger RNA sequences that are untranslated and lie five prime or three prime to sequences which are translated.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000203> "untranslated region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000203> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000203> "UTR")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000203> <http://purl.obolibrary.org/obo/SO_0000836>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000233> (mature_transcript)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000233> "A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5' and/or the 3' ends, other than addition of bases. In bacteria functional mRNAs are usually not modified.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000233> "mature transcript")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000233> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000233> "mature_transcript")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000233> <http://purl.obolibrary.org/obo/SO_0000673>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000234> (mRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000234> "Messenger RNA is the intermediate molecule between DNA and protein. It includes UTR and coding sequences. It does not contain introns.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000234> "INSDC_feature:mRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000234> "messenger RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000234> "protein_coding_transcript")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000234> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000234> "mRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000234> <http://purl.obolibrary.org/obo/SO_0000233>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000239> (flanking_region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000239> "The sequences extending on either side of a specific region.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000239> "flanking region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000239> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000239> "flanking_region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000239> <http://purl.obolibrary.org/obo/SO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000243> (internal_ribosome_entry_site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000243> "Sequence element that recruits a ribosomal subunit to internal mRNA for translation initiation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000243> "IRES")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000243> "internal ribosomal entry sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000243> "internal ribosomal entry site")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000243> "internal ribosome entry site")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000243> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000243> "internal_ribosome_entry_site")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000243> <http://purl.obolibrary.org/obo/SO_0000836>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000253> (tRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000253> "Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3' end, to which the tRNA's corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and 'wobble' base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000253> "INSDC_feature:tRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000253> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000253> "tRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000253> <http://purl.obolibrary.org/obo/SO_0002247>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000276> (miRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000276> "Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes). Micro RNAs are produced from precursor molecules (SO:0001244) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000276> "INSDC_qualifier:miRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000276> "micro RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000276> "microRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000276> "small temporal RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000276> "stRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000276> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000276> "miRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000276> <http://purl.obolibrary.org/obo/SO_0000370>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000289> (microsatellite)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000289> "A repeat_region containing repeat_units of 2 to 10 bp repeated in tandem.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000289> "INSDC_qualifier:microsatellite")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000289> "STR")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000289> "microsatellite locus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000289> "microsatellite marker")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000289> "short tandem repeat")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000289> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000289> "microsatellite")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000289> <http://purl.obolibrary.org/obo/SO_0000705>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000312> (experimentally_determined)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000312> "Attribute to describe a feature that has been experimentally verified.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000312> "experimentally determined")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000312> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000312> "experimentally_determined")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000312> <http://purl.obolibrary.org/obo/SO_0000733>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000316> (CDS)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000316> "A contiguous sequence which begins with, and includes, a start codon and ends with, and includes, a stop codon.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000316> "INSDC_feature:CDS")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000316> "coding sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000316> "coding_sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000316> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000316> "CDS")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000316> <http://purl.obolibrary.org/obo/SO_0000836>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000324> (tag)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000324> "A nucleotide sequence that may be used to identify a larger sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000324> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000324> "tag")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000324> <http://purl.obolibrary.org/obo/SO_0000696>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000330> (conserved_region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000330> "Region of sequence similarity by descent from a common ancestor.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000330> "INSDC_note:conserved_region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000330> "conserved region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000330> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000330> "conserved_region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000330> <http://purl.obolibrary.org/obo/SO_0001410>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000336> (pseudogene)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000336> "A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their \"normal\" paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its \"normal\" paralog).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000336> "INSDC_qualifier:pseudo")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000336> "INSDC_qualifier:unknown")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000336> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000336> "pseudogene")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000336> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000370> (small_regulatory_ncRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000370> "A non-coding RNA less than 200 nucleotides long, usually with a specific secondary structure, that acts to regulate gene expression. These include short ncRNAs such as piRNA, miRNA and siRNAs (among others).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000370> "small regulatory ncRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000370> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000370> "small_regulatory_ncRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000370> <http://purl.obolibrary.org/obo/SO_0002247>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000371> (conjugative_transposon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000371> "A transposon that encodes function required for conjugation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000371> "conjugative transposon")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000371> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000371> "conjugative_transposon")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000371> <http://purl.obolibrary.org/obo/SO_0000182>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000400> (sequence_attribute)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000400> "An attribute describes a quality of sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000400> "sequence attribute")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000400> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000400> "sequence_attribute")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000400> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000409> (binding_site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000409> "A biological_region of sequence that, in the molecule, interacts selectively and non-covalently with other molecules. A region on the surface of a molecule that may interact with another molecule. When applied to polypeptides: Amino acids involved in binding or interactions. It can also apply to an amino acid bond which is represented by the positions of the two flanking amino acids.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000409> "INSDC_feature:misc_binding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000409> "binding site")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000409> "binding_or_interaction_site")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000409> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000409> "binding_site")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000409> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000418> (signal_peptide)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000418> "The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000418> "INSDC_feature:sig_peptide")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000418> "signal peptide")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000418> "signal peptide coding sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000418> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000418> "signal_peptide")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000418> <http://purl.obolibrary.org/obo/SO_0000839>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000436> (ARS)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000436> "A sequence that can autonomously replicate, as a plasmid, when transformed into a bacterial host.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000436> "autonomously replicating sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000436> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000436> "ARS")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000436> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000591> (pseudoknot)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000591> "A tertiary structure in RNA where nucleotides in a loop form base pairs with a region of RNA downstream of the loop.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000591> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000591> "pseudoknot")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000591> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000603> (group_II_intron)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000603> "Group II introns are found in rRNA, tRNA and mRNA of organelles in fungi, plants and protists, and also in mRNA in bacteria. They are large self-splicing ribozymes and have 6 structural domains (usually designated dI to dVI). A subset of group II introns also encode essential splicing proteins in intronic ORFs. The length of these introns can therefore be up to 3kb. Splicing occurs in almost identical fashion to nuclear pre-mRNA splicing with two transesterification steps. The 2' hydroxyl of a bulged adenosine in domain VI attacks the 5' splice site, followed by nucleophilic attack on the 3' splice site by the 3' OH of the upstream exon. Protein machinery is required for splicing in vivo, and long range intron to intron and intron-exon interactions are important for splice site positioning. Group II introns are further sub-classified into groups IIA and IIB which differ in splice site consensus, distance of bulged A from 3' splice site, some tertiary interactions, and intronic ORF phylogeny.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000603> "group II intron")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000603> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000603> "group_II_intron")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000603> <http://purl.obolibrary.org/obo/SO_0000188>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000646> (siRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000646> "A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. siRNAs trigger the cleavage of their target molecules.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000646> "INSDC_qualifier:siRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000646> "small interfering RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000646> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000646> "siRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000646> <http://purl.obolibrary.org/obo/SO_0000370>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000655> (ncRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000655> "An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000655> "known_ncrna")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000655> "noncoding RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000655> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000655> "ncRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000655> <http://purl.obolibrary.org/obo/SO_0000233>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000657> (repeat_region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000657> "A region of sequence containing one or more repeat units.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000657> "INSDC_qualifier:other")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000657> "repeat region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000657> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000657> "repeat_region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000657> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000667> (insertion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000667> "The sequence of one or more nucleotides added between two adjacent nucleotides in the sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000667> "insertion")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000667> "nucleotide insertion")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000667> "nucleotide_insertion")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000667> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000667> "insertion")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000667> <http://purl.obolibrary.org/obo/SO_0001059>)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000667> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000673> (transcript)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000673> "An RNA synthesized on a DNA or RNA template by an RNA polymerase.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000673> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000673> "transcript")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000673> <http://purl.obolibrary.org/obo/SO_0000831>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000694> (SNP)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000694> "SNPs are single base pair positions in genomic DNA at which different sequence alternatives exist in normal individuals in some population(s), wherein the least frequent variant has an abundance of 1% or greater.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000694> "single nucleotide polymorphism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000694> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000694> "SNP")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000694> <http://purl.obolibrary.org/obo/SO_0001483>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000696> (oligo)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000696> "A short oligonucleotide sequence, of length on the order of 10's of bases; either single or double stranded.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000696> "oligonucleotide")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000696> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000696> "oligo")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000696> <http://purl.obolibrary.org/obo/SO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000704> (gene)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000704> "A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000704> "INSDC_feature:gene")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000704> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000704> "gene")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000704> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000705> (tandem_repeat)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000705> "Two or more adjacent copies of a region (of length greater than 1).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000705> "INSDC_qualifier:tandem")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000705> "tandem repeat")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000705> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000705> "tandem_repeat")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000705> <http://purl.obolibrary.org/obo/SO_0000657>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000733> (feature_attribute)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000733> "An attribute describing a located_sequence_feature.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000733> "feature attribute")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000733> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000733> "feature_attribute")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000733> <http://purl.obolibrary.org/obo/SO_0000400>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000736> (organelle_sequence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000736> "A sequence of DNA that originates from a an organelle.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000736> "organelle sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000736> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000736> "organelle_sequence")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000736> <http://purl.obolibrary.org/obo/SO_0000400>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000737> (mitochondrial_sequence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000737> "DNA belonging to the genome of a mitochondria.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000737> "mitochondrial sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000737> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000737> "mitochondrial_sequence")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000737> <http://purl.obolibrary.org/obo/SO_0000736>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000740> (plastid_sequence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000740> "DNA belonging to the genome of a plastid such as a chloroplast.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000740> "plastid sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000740> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000740> "plastid_sequence")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000740> <http://purl.obolibrary.org/obo/SO_0000736>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000745> (chloroplast_sequence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000745> "DNA belonging to the genome of a chloroplast, a green plastid for photosynthesis.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000745> "chloroplast sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000745> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000745> "chloroplast_sequence")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000745> <http://purl.obolibrary.org/obo/SO_0000740>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000756> (cDNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000756> "DNA synthesized by reverse transcriptase using RNA as a template.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000756> "complementary DNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000756> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000756> "cDNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000756> <http://purl.obolibrary.org/obo/CHEBI_16991>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000771> (QTL)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000771> "A quantitative trait locus (QTL) is a polymorphic locus which contains alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually it is a marker described by statistical association to quantitative variation in the particular phenotypic trait that is thought to be controlled by the cumulative action of alleles at multiple loci.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000771> "quantitative trait locus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000771> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000771> "QTL")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000771> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000772> (genomic_island)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000772> "A genomic island is an integrated mobile genetic element, characterized by size (over 10 Kb). It that has features that suggest a foreign origin. These can include nucleotide distribution (oligonucleotides signature, CG content etc.) that differs from the bulk of the chromosome and/or genes suggesting DNA mobility.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000772> "genomic island")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000772> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000772> "genomic_island")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000772> <http://purl.obolibrary.org/obo/SO_0001039>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000831> (gene_member_region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000831> "A region of a gene.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000831> "gene member region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000831> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000831> "gene_member_region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000831> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000833> (transcript_region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000833> "A region of a transcript.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000833> "transcript region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000833> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000833> "transcript_region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000833> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000835> (primary_transcript_region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000835> "A part of a primary transcript.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000835> "primary transcript region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000835> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000835> "primary_transcript_region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000835> <http://purl.obolibrary.org/obo/SO_0000833>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000836> (mRNA_region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000836> "A region of an mRNA.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000836> "mRNA region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000836> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000836> "mRNA_region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000836> <http://purl.obolibrary.org/obo/SO_0000833>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000839> (polypeptide_region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000839> "Biological sequence region that can be assigned to a specific subsequence of a polypeptide.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000839> "region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000839> "site")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000839> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000839> "polypeptide_region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000839> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000857> (homologous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000857> "Similarity due to common ancestry.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000857> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000857> "homologous")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000857> <http://purl.obolibrary.org/obo/SO_0000733>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000858> (orthologous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000858> "An attribute describing a kind of homology where divergence occurred after a speciation event.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000858> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000858> "orthologous")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000858> <http://purl.obolibrary.org/obo/SO_0000857>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000859> (paralogous)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000859> "An attribute describing a kind of homology where divergence occurred after a duplication event.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000859> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000859> "paralogous")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000859> <http://purl.obolibrary.org/obo/SO_0000857>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000870> (trans_spliced)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000870> "An attribute describing transcript sequence that is created by splicing exons from diferent genes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000870> "trans-spliced")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000870> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000870> "trans_spliced")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000870> <http://purl.obolibrary.org/obo/SO_0000733>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000934> (miRNA_target_site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000934> "A miRNA target site is a binding site where the molecule is a micro RNA.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000934> "miRNA target site")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000934> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000934> "miRNA_target_site")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000934> <http://purl.obolibrary.org/obo/SO_0000409>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0000973> (insertion_sequence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0000973> "A terminal_inverted_repeat_element that is bacterial and only encodes the functions required for its transposition between these inverted repeats.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0000973> "insertion sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0000973> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0000973> "insertion_sequence")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0000973> <http://purl.obolibrary.org/obo/SO_0000182>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001000> (cytosolic_16S_rRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001000> "Cytosolic 16S rRNA is an RNA component of the small subunit of cytosolic ribosomes in prokaryotes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001000> "cytosolic 16S SSU RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001000> "cytosolic 16S ribosomal RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001000> "cytosolic rRNA 16S")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001000> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001000> "cytosolic_16S_rRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001000> <http://purl.obolibrary.org/obo/SO_0000655>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001006> (prophage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001006> "A phage genome after it has established in the host genome in a latent/immune state either as a plasmid or as an integrated \"island\".")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001006> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001006> "prophage")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001006> <http://purl.obolibrary.org/obo/SO_0001039>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001007> (cryptic_prophage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001007> "A remnant of an integrated prophage in the host genome or an \"island\" in the host genome that includes phage like-genes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001007> "cryptic prophage")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001007> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001007> "cryptic_prophage")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001007> <http://purl.obolibrary.org/obo/SO_0000772>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001021> (chromosome_breakpoint)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001021> "A chromosomal region that may sustain a double-strand break, resulting in a recombination event.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001021> "INSDC_qualifier:chromosome_breakpoint")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001021> "aberration breakpoint")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001021> "aberration_junction")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001021> "chromosome breakpoint")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001021> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001021> "chromosome_breakpoint")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001021> <http://purl.obolibrary.org/obo/SO_0000110>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001023> (allele)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001023> "An allele is one of a set of coexisting sequence variants of a gene.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001023> "allelomorph")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001023> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001023> "allele")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001023> <http://purl.obolibrary.org/obo/SO_0001260>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001026> (genome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001026> "A genome is the sum of genetic material within a cell or virion.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001026> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001026> "genome")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001026> <http://purl.obolibrary.org/obo/SO_0001260>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001037> (mobile_genetic_element)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001037> "A nucleotide region with either intra-genome or intracellular mobility, of varying length, which often carry the information necessary for transfer and recombination with the host genome.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001037> "INSDC_feature:mobile_element")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001037> "MGE")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001037> "mobile genetic element")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001037> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001037> "mobile_genetic_element")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001037> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001039> (integrated_mobile_genetic_element)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001039> "An MGE that is integrated into the host chromosome.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001039> "integrated mobile genetic element")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001039> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001039> "integrated_mobile_genetic_element")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001039> <http://purl.obolibrary.org/obo/SO_0001037>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001041> (viral_sequence)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001041> "The region of nucleotide sequence of a virus, a submicroscopic particle that replicates by infecting a host cell.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001041> "viral sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001041> "virus sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001041> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001041> "viral_sequence")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001041> <http://purl.obolibrary.org/obo/SO_0001037>)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001041> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001059> (sequence_alteration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001059> "A sequence_alteration is a sequence_feature whose extent is the deviation from another sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001059> "INSDC_feature:variation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001059> "INSDC_note:sequence_alteration")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001059> "partially characterised change in DNA sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001059> "partially_characterised_change_in_DNA_sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001059> "sequence alteration")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001059> "uncharacterised_change_in_nucleotide_sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001059> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001059> "sequence_alteration")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001059> <http://purl.obolibrary.org/obo/SO_0000110>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001060> (sequence_variant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001060> "A sequence_variant is a non exact copy of a sequence_feature or genome exhibiting one or more sequence_alteration.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001060> "Jannovar:sequence_variant")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001060> "VAAST:sequence_variant")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001060> "sequence variant")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001060> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001060> "sequence_variant")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001060> <http://purl.obolibrary.org/obo/SO_0000110>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001067> (polypeptide_motif)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001067> "A sequence motif is a short (up to 20 amino acids) region of biological interest. Such motifs, although they are too short to constitute functional domains, share sequence similarities and are conserved in different proteins. They display a common function (protein-binding, subcellular location etc.).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001067> "polypeptide motif")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001067> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001067> "polypeptide_motif")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001067> <http://purl.obolibrary.org/obo/SO_0000839>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001244> (pre_miRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001244> "The 60-70 nucleotide region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001244> "pre-miRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001244> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001244> "pre_miRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001244> <http://purl.obolibrary.org/obo/SO_0000835>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001260> (sequence_collection)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001260> "A collection of discontinuous sequences.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001260> "sequence collection")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001260> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001260> "sequence_collection")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001260> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001410> (experimental_feature)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001410> "A region which is the result of some arbitrary experimental procedure. The procedure may be carried out with biological material or inside a computer.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001410> "experimental output artefact")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001410> "experimental_output_artefact")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001410> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001410> "experimental_feature")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001410> <http://purl.obolibrary.org/obo/SO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001411> (biological_region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001411> "A region defined by its disposition to be involved in a biological process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001411> "INSDC_note:biological_region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001411> "biological region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001411> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001411> "biological_region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001411> <http://purl.obolibrary.org/obo/SO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001459> (CRISPR)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001459> "Clustered Palindromic Repeats interspersed with bacteriophage derived spacer sequences.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001459> "CRISPR element")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001459> "Clustered_Regularly_Interspaced_Short_Palindromic_Repeat")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001459> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001459> "CRISPR")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001459> <http://purl.obolibrary.org/obo/SO_0000657>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001483> (SNV)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001483> "SNVs are single nucleotide positions in genomic DNA at which different sequence alternatives exist.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001483> "single nucleotide variant")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001483> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001483> "SNV")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001483> <http://purl.obolibrary.org/obo/SO_1000002>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001505> (reference_genome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001505> "A collection of sequences (often chromosomes) taken as the standard for a given organism and genome assembly.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001505> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001505> "reference_genome")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001505> <http://purl.obolibrary.org/obo/SO_0001026>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001683> (sequence_motif)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001683> "A sequence motif is a nucleotide or amino-acid sequence pattern that may have biological significance.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001683> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001683> "sequence_motif")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001683> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001877> (lncRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001877> "A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5' ends, polyadenylated at their 3' ends and may be spliced.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001877> "INSDC_qualifier:lncRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001877> "lncRNA_transcript")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001877> "long non-coding RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001877> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001877> "lncRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001877> <http://purl.obolibrary.org/obo/SO_0000655>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0001956> (protease_site)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0001956> "A polypeptide_region that codes for a protease cleavage site.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0001956> "protease site")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0001956> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0001956> "protease_site")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0001956> <http://purl.obolibrary.org/obo/SO_0000839>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0002031> (shRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0002031> "A short hairpin RNA (shRNA) is an RNA transcript that makes a tight hairpin turn that can be used to silence target gene expression via RNA interference.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0002031> "short hairpin RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0002031> "small hairpin RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0002031> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0002031> "shRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0002031> <http://purl.obolibrary.org/obo/SO_0000655>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0002096> (short_tandem_repeat_variation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0002096> "A variation that expands or contracts a tandem repeat with regard to a reference.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0002096> "short tandem repeat variation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0002096> "str variation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0002096> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0002096> "short_tandem_repeat_variation")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0002096> <http://purl.obolibrary.org/obo/SO_0001059>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0002247> (sncRNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0002247> "A non-coding RNA less than 200 nucleotides in length.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0002247> "Small noncoding RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0002247> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0002247> "sncRNA")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0002247> <http://purl.obolibrary.org/obo/SO_0000655>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0005836> (regulatory_region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0005836> "A region of sequence that is involved in the control of a biological process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0005836> "INSDC_qualifier:other")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0005836> "regulatory region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0005836> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0005836> "regulatory_region")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0005836> <http://purl.obolibrary.org/obo/SO_0000831>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0005851> (gene_array)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0005851> "An array includes two or more genes, or two or more gene subarrays, contiguously arranged where the individual genes, or subarrays, are either identical in sequence, or essentially so.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0005851> "gene array")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0005851> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0005851> "gene_array")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0005851> <http://purl.obolibrary.org/obo/SO_0005855>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_0005855> (gene_group)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_0005855> "A collection of related genes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_0005855> "gene group")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_0005855> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_0005855> "gene_group")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_0005855> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_1000002> (substitution)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_1000002> "A sequence alteration where the length of the change in the variant is the same as that of the reference.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_1000002> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_1000002> "substitution")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_1000002> <http://purl.obolibrary.org/obo/SO_0001059>)
+SubClassOf(<http://purl.obolibrary.org/obo/SO_1000002> <http://purl.obolibrary.org/obo/SO_0001411>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_1000008> (point_mutation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_1000008> "A single nucleotide change which has occurred at the same position of a corresponding nucleotide in a reference sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_1000008> "point mutation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_1000008> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_1000008> "point_mutation")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_1000008> <http://purl.obolibrary.org/obo/SO_0001483>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_1000032> (delins)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_1000032> "A sequence alteration which included an insertion and a deletion, affecting 2 or more bases.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_1000032> "deletion-insertion")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_1000032> "indel")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_1000032> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_1000032> "delins")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_1000032> <http://purl.obolibrary.org/obo/SO_0001059>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_1000035> (duplication)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_1000035> "An insertion which derives from, or is identical in sequence to, nucleotides present at a known location in the genome.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_1000035> "nucleotide duplication")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_1000035> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_1000035> "duplication")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_1000035> <http://purl.obolibrary.org/obo/SO_0000667>)
+
+# Class: <http://purl.obolibrary.org/obo/SO_1000183> (chromosome_structure_variation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/SO_1000183> "An alteration of the genome that leads to a change in the structure or number of one or more chromosomes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_1000183> "chromosome structure variation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/SO_1000183> "snpEff:CHROMOSOME_LARGE_DELETION")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/SO_1000183> <http://purl.obolibrary.org/obo/so.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/SO_1000183> "chromosome_structure_variation")
+SubClassOf(<http://purl.obolibrary.org/obo/SO_1000183> <http://purl.obolibrary.org/obo/NCIT_C17004>)
+
+
+)

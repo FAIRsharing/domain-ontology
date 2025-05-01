@@ -1,0 +1,27 @@
+#### NOTES ON OMP IMPORT ####
+##
+## For the portion of the ontology imported by DRAO, there are no
+## external ULOs used (elsewhere in OMP, both GO and PATO are used).
+## Therefore we need to place our required terms manually.
+##
+
+[Source ontology]
+OMP
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMP_0000197 # Microbe-host interaction phenotype
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OMP_0000197 # Microbe-host interaction phenotype
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

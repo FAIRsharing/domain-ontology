@@ -1,0 +1,191 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/mi_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/mi_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/mi_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://edamontology.org/data_2087>))
+Declaration(Class(<http://edamontology.org/operation_2492>))
+Declaration(Class(<http://edamontology.org/operation_3767>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23367>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33696>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0118>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0208>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0328>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0414>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0914>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0964>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_0966>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_1100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_2025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_2030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_2190>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MI_2231>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0200000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001059>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/MI_0000> (molecular interaction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0000> "Controlled vocabularies originally created for protein protein interactions, extended to other molecules interactions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_0000> "mi")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0000> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0000> "molecular interaction")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0000> <http://purl.obolibrary.org/obo/GO_0008150>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_0064> (interologs mapping)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0064> "Protein interactions, experimentally detected in an organism, are extended to a second organism assuming that homologue proteins, in different organisms, maintain their interaction properties.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_0064> "Homology based interaction prediction")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0064> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0064> "interologs mapping")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0064> <http://edamontology.org/operation_2492>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_0074> (mutation analysis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0074> "Mutant molecules are produced by random or directed techniques and assayed for their ability to support binding.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0074> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0074> "mutation analysis")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0074> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_0093> (protein sequence identification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0093> "Single amino acid identification along a protein sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_0093> "protein sequence")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0093> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0093> "protein sequence identification")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0093> <http://edamontology.org/operation_3767>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_0118> (mutation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0118> "A change in a sequence or structure in comparison to a reference entity due to a  insertion, deletion or substitution event.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0118> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0118> "mutation")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0118> <http://purl.obolibrary.org/obo/SO_0001059>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_0208> (genetic interaction (sensu unexpected))
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0208> "An effect in which two genetic perturbations, when combined, result in a phenotype that does not appear to be merely explained by the superimposition or addition of effects of the original perturbations.
+ab (not=) E")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_0208> "Fisher epistasis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0208> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0208> "genetic interaction (sensu unexpected)")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0208> <http://purl.obolibrary.org/obo/MI_0000>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_0328> (small molecule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0328> "Molecule not part of or directly encoded by the genome, encompasses any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0328> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0328> "small molecule")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0328> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_0414> (enzymatic reaction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0414> "terms aiming to represent biochemical reactions referring to their resulting product modifications.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_0414> "Biochemical reaction")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0414> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0414> "enzymatic reaction")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0414> <http://purl.obolibrary.org/obo/MI_0914>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_0914> (association)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0914> "Interaction between molecules that may participate in formation of one, but possibly more, physical complexes. Often describes a set of molecules that are co-purified in a single pull-down or coimmunoprecipitation but might participate in formation of distinct physical complexes sharing a common bait.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0914> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0914> "association")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0914> <http://purl.obolibrary.org/obo/MI_0000>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_0964> (infrared spectroscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0964> "Subset of spectroscopy that deals with the infrared region of the electromagnetic spectrum.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_0964> "ir spectrometry")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0964> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0964> "infrared spectroscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0964> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_0966> (ultraviolet-visible spectroscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_0966> "Ultraviolet-visible spectroscopy or ultraviolet-visible spectrophotometry (UV-Vis or UV/Vis) involves the spectroscopy of photons in the UV-visible region. This means it uses light in the visible and adjacent (near ultraviolet (UV) and near infrared (NIR)) ranges.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_0966> "UV/Vis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_0966> "ultraviolet-visible spectrophotometry")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_0966> "uv-vis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_0966> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_0966> "ultraviolet-visible spectroscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_0966> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_1100> (bioactive entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_1100> "Molecules showing activity in a living system but not encoded by a genomic sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_1100> "bioactive entity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_1100> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_1100> "bioactive entity")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_1100> <http://purl.obolibrary.org/obo/MI_0000>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_2025> (molecular weight)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_2025> "Molecular weight in g/mol, determined from molecular formula or sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_2025> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_2025> "molecular weight")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_2025> <http://edamontology.org/data_2087>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_2030> (isoelectric point)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_2030> "The isoelectric point (pI) is the pH at which a particular molecule or surface carries no net electrical charge. For an amino acid with only one amine and one carboxyl group, the pI can be calculated from the pKas of this molecule.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_2030> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_2030> "isoelectric point")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_2030> <http://edamontology.org/data_2087>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_2190> (long non-coding ribonucleic acid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_2190> "Non-protein coding transcripts longer than 200 nucleotides and that can be involved in a number of functions, like transcription, post-translational and epigenetic regulation. Most lncRNAs do not have a known function so far.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_2190> "lncRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_2190> "lncrna")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_2190> "long non coding RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_2190> "long non coding ribonucleic acid")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_2190> "long non-coding RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_2190> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_2190> "long non-coding ribonucleic acid")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_2190> <http://purl.obolibrary.org/obo/CHEBI_33696>)
+
+# Class: <http://purl.obolibrary.org/obo/MI_2231> (coexpression)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MI_2231> "This approach infers interacting pairs of proteins looking at expression data coming from transcript expression datasets. Co-expressed pairs of genes are ranked and predicted to be interacting proteins as well.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_2231> "co-expression")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_2231> "coexpression")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/MI_2231> "coexpression prediction")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MI_2231> <http://purl.obolibrary.org/obo/mi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MI_2231> "coexpression")
+SubClassOf(<http://purl.obolibrary.org/obo/MI_2231> <http://purl.obolibrary.org/obo/OBI_0200000>)
+
+
+)

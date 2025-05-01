@@ -1,0 +1,173 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/doid_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/doid_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/doid_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_0060037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_0080001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_12365>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_12849>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_14330>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_162>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_1826>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_302>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_331>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_409>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_557>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_7>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_863>))
+Declaration(Class(<http://purl.obolibrary.org/obo/DOID_93>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000031>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/DOID_0060037> (developmental disorder of mental health)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_0060037> "A disease of mental health that occur during a child's developmental period between birth and age 18 resulting in retarding of the child's psychological or physical development."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_0060037> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_0060037> "developmental disorder of mental health"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_0060037> <http://purl.obolibrary.org/obo/DOID_150>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_0080001> (bone disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_0080001> "A connective tissue disease that affects the structure or development of bone or causes an impairment of normal bone function."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_0080001> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_0080001> "bone disease"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_0080001> <http://purl.obolibrary.org/obo/DOID_7>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_12365> (malaria)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_12365> "A parasitic protozoa infectious disease characterized as a vector-borne infectious disease caused by the presence of protozoan parasites of the genus Plasmodium in the red blood cells, transmitted from an infected to an uninfected individual by the bite of anopheline mosquitoes, and characterized by periodic attacks of chills and fever that coincide with mass destruction of blood cells and the release of toxic substances by the parasite at the end of each reproductive cycle."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_12365> "induced malaria"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_12365> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_12365> "malaria"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_12365> <http://purl.obolibrary.org/obo/OGMS_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_12849> (autistic disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_12849> "An autism spectrum disorder that is characterized by symptoms across all three symptom domains (communication, social, restricted repetitive interests and behaviors), delayed language development, and symptom onset prior to age 3 years."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_12849> "Kanner's syndrome"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_12849> "autism"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_12849> "autistic disorder of childhood onset"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_12849> "childhood autism"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_12849> "infantile autism"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_12849> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_12849> "autistic disorder"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_12849> <http://purl.obolibrary.org/obo/DOID_0060037>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_14330> (Parkinson's disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_14330> "A synucleinopathy that has_material_basis_in degeneration of the central nervous system that often impairs motor skills, speech, and other functions."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_14330> "Parkinson disease"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_14330> "paralysis agitans"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_14330> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_14330> "Parkinson's disease"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_14330> <http://purl.obolibrary.org/obo/DOID_331>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_150> (disease of mental health)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_150> "A disease that involves a psychological or behavioral pattern generally associated with subjective distress or disability that occurs in an individual, and which are not a part of normal development or culture."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_150> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_150> "disease of mental health"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_150> <http://purl.obolibrary.org/obo/OGMS_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_162> (cancer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_162> "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_162> "malignant neoplasm"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_162> "malignant tumor"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_162> "primary cancer"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_162> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_162> "cancer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_162> <http://purl.obolibrary.org/obo/OGMS_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_1826> (epilepsy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_1826> "A brain disease that is characterized by the occurrance of at least two unprovoked seizures resulting from a persistent epileptogenic abnormality of the brain that is able to spontaneously generate paroxysmal activity and typically manifested by sudden brief episodes of altered or diminished consciousness, involuntary movements, or convulsions."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_1826> "epilepsy syndrome"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_1826> "epileptic syndrome"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_1826> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_1826> "epilepsy"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_1826> <http://purl.obolibrary.org/obo/DOID_331>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_302> (substance abuse)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_302> "A substance-related disorder that involves a maladaptive pattern of substance use leading to significant impairment in functioning."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_302> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_302> "substance abuse"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_302> <http://purl.obolibrary.org/obo/DOID_150>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_331> (central nervous system disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_331> "A nervous system disease that affects either the spinal cord (myelopathy) or brain (encephalopathy) of the central nervous system."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_331> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_331> "central nervous system disease"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_331> <http://purl.obolibrary.org/obo/DOID_863>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_409> (liver disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_409> "disorder of liver"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_409> "hepatic disorder"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_409> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_409> "liver disease"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_409> <http://purl.obolibrary.org/obo/DOID_7>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_557> (kidney disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_557> "A urinary system disease that is located_in the kidney."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_557> "impaired renal function disease"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/DOID_557> "nephropathy"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_557> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_557> "kidney disease"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_557> <http://purl.obolibrary.org/obo/DOID_7>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_7> (disease of anatomical entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_7> "A disease that manifests in a defined anatomical structure."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_7> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_7> "disease of anatomical entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_7> <http://purl.obolibrary.org/obo/OGMS_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_863> (nervous system disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_863> "A disease of anatomical entity that is located_in the central nervous system or located_in the peripheral nervous system."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_863> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_863> "nervous system disease"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_863> <http://purl.obolibrary.org/obo/OGMS_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/DOID_93> (language disorder)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/DOID_93> "A communication disorder that involves the processing of linguistic information."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/DOID_93> <http://purl.obolibrary.org/obo/doid.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/DOID_93> "language disorder"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/DOID_93> <http://purl.obolibrary.org/obo/DOID_0060037>)
+
+
+)

@@ -1,0 +1,19 @@
+http://purl.obolibrary.org/obo/OMIT_0001480 # Machine learning
+http://purl.obolibrary.org/obo/OMIT_0003072 # Biotransformation
+http://purl.obolibrary.org/obo/OMIT_0005594 # Drug combinations
+http://purl.obolibrary.org/obo/OMIT_0008490 # Interferon
+http://purl.obolibrary.org/obo/OMIT_0009360 # Major histocompatibility complex
+http://purl.obolibrary.org/obo/OMIT_0010354 # Natural language processing
+http://purl.obolibrary.org/obo/OMIT_0012761 # Radiation effects
+http://purl.obolibrary.org/obo/OMIT_0014521 # Teaching material
+http://purl.obolibrary.org/obo/OMIT_0018868 # Founder effect
+http://purl.obolibrary.org/obo/OMIT_0019234 # Peptide library
+http://purl.obolibrary.org/obo/OMIT_0019939 # Benchmarking
+http://purl.obolibrary.org/obo/OMIT_0020804 # Quantitative structure-activity relationship
+http://purl.obolibrary.org/obo/OMIT_0025752 # Killer-cell Immunoglobulin-like Receptors
+http://purl.obolibrary.org/obo/OMIT_0025926 # Mitochondrial genome
+http://purl.obolibrary.org/obo/OMIT_0026082 # Metagenome
+http://purl.obolibrary.org/obo/OMIT_0028181 # Crowdsourcing
+http://purl.obolibrary.org/obo/OMIT_0028415 # Intrinsically disordered proteins
+http://purl.obolibrary.org/obo/OMIT_0028630 # Non-randomized controlled trials
+http://purl.obolibrary.org/obo/OMIT_0004280 # Classification

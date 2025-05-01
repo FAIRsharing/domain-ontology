@@ -1,0 +1,7 @@
+http://purl.obolibrary.org/obo/CL_0000000 # Cell
+http://purl.obolibrary.org/obo/CL_0000034 # Stem cell
+http://purl.obolibrary.org/obo/CL_0000084 # T cell
+http://purl.obolibrary.org/obo/CL_0000451 # Dendritic cell
+http://purl.obolibrary.org/obo/CL_0000540 # Neuron
+http://purl.obolibrary.org/obo/CL_0002248 # Pluripotent stem cell
+http://purl.obolibrary.org/obo/CL_0002322 # Embryonic stem cell

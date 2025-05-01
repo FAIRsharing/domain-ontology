@@ -1,0 +1,2 @@
+http://purl.obolibrary.org/obo/DRON_00000001 # clinical drug role (not in FAIRsharing subset)
+http://purl.obolibrary.org/obo/DRON_00000025 # FDA approved drug

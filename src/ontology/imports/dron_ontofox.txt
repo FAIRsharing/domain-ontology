@@ -1,0 +1,30 @@
+#### NOTES ON DRON IMPORT ####
+##
+## includeAllIntermediates has been enabled
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+
+[Source ontology]
+DRON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DRON_00000001 # clinical drug role (not in FAIRsharing subset)
+http://purl.obolibrary.org/obo/DRON_00000025 # FDA approved drug
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/DRON_00000001 # clinical drug role
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
+http://purl.obolibrary.org/obo/DRON_00000025 # FDA approved drug
+subClassOf http://www.fairsharing.org/ontology/domain/DRAO_0000322 # Approved drug
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

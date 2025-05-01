@@ -1,0 +1,164 @@
+#### NOTES ON NCIT IMPORT ####
+##
+## No external ULOs in this ontology
+##
+
+[Source ontology]
+NCIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/NCIT_C453 # Recombinant DNA
+http://purl.obolibrary.org/obo/NCIT_C4873 # Rare disease
+http://purl.obolibrary.org/obo/NCIT_C13302 # Secondary protein structure
+http://purl.obolibrary.org/obo/NCIT_C13375 # Chromosome fragile site
+http://purl.obolibrary.org/obo/NCIT_C13426 # Binding motif
+http://purl.obolibrary.org/obo/NCIT_C13445 # Gene feature
+http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
+http://purl.obolibrary.org/obo/NCIT_C15222 # Diet
+http://purl.obolibrary.org/obo/NCIT_C15239 # Patient care
+http://purl.obolibrary.org/obo/NCIT_C15311 # Quality control
+http://purl.obolibrary.org/obo/NCIT_C15318 # Reproducibility
+http://purl.obolibrary.org/obo/NCIT_C15959 # Cellular assay
+http://purl.obolibrary.org/obo/NCIT_C16507 # DNA damage
+http://purl.obolibrary.org/obo/NCIT_C16565 # Evolution
+http://purl.obolibrary.org/obo/NCIT_C16622 # Genetic marker
+http://purl.obolibrary.org/obo/NCIT_C16710 # Immunity
+http://purl.obolibrary.org/obo/NCIT_C16809 # Magnetic resonance imaging
+http://purl.obolibrary.org/obo/NCIT_C17004 # Genetic polymorphism
+http://purl.obolibrary.org/obo/NCIT_C17007 # Positron Emission Tomography
+http://purl.obolibrary.org/obo/NCIT_C17207 # Transcription factor
+http://purl.obolibrary.org/obo/NCIT_C17253 # Viral Genome
+http://purl.obolibrary.org/obo/NCIT_C17671 # Nuclear receptor
+http://purl.obolibrary.org/obo/NCIT_C17958 # Functional magnetic resonance imaging
+http://purl.obolibrary.org/obo/NCIT_C17962 # Multimedia
+http://purl.obolibrary.org/obo/NCIT_C18106 # Receptor
+http://purl.obolibrary.org/obo/NCIT_C18143 # Gene knockout
+http://purl.obolibrary.org/obo/NCIT_C18469 # Protein-protein interaction
+http://purl.obolibrary.org/obo/NCIT_C18472 # High-throughput screening
+http://purl.obolibrary.org/obo/NCIT_C18962 # Protein Analysis
+http://purl.obolibrary.org/obo/NCIT_C18966 # Protein expression ** We may wish to merge this with Translation?
+http://purl.obolibrary.org/obo/NCIT_C26549 # Untranslated RNA
+http://purl.obolibrary.org/obo/NCIT_C42753 # Workflow
+http://purl.obolibrary.org/obo/NCIT_C45275 # Animal tracking
+http://purl.obolibrary.org/obo/NCIT_C49667 # Safety study
+http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
+http://purl.obolibrary.org/obo/NCIT_C61256 # Monitoring
+http://purl.obolibrary.org/obo/NCIT_C64862 # Diffusion tensor imaging
+http://purl.obolibrary.org/obo/NCIT_C66892 # Natural product
+http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
+http://purl.obolibrary.org/obo/NCIT_C101293 # Next Generation Sequencing
+http://purl.obolibrary.org/obo/NCIT_C104154 # Circulating cell-free RNA
+http://purl.obolibrary.org/obo/NCIT_C114185 # Polysomnography
+http://purl.obolibrary.org/obo/NCIT_C142529 # Electronic health record
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/NCIT_C4873 # Rare disease - I realize this is a role of a disease, but OK in this location for now
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # disease
+http://purl.obolibrary.org/obo/NCIT_C142529 # Electronic health record
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000123 # clinical data item - hierarchy only, not in FAIRsharing
+
+http://purl.obolibrary.org/obo/NCIT_C16622 # Genetic marker
+subClassOf http://purl.obolibrary.org/obo/CHEBI_59163 # biomarker
+
+http://purl.obolibrary.org/obo/NCIT_C114185 # Polysomnography
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # Assay
+
+http://purl.obolibrary.org/obo/NCIT_C16809 # Magnetic resonance imaging
+subClassOf http://edamontology.org/topic_3382 # Imaging
+http://purl.obolibrary.org/obo/NCIT_C17007 # Positron Emission Tomography
+subClassOf http://edamontology.org/topic_3382 # Imaging
+http://purl.obolibrary.org/obo/NCIT_C17958 # Functional magnetic resonance imaging
+subClassOf http://purl.obolibrary.org/obo/NCIT_C16809 # Magnetic resonance imaging
+
+http://purl.obolibrary.org/obo/NCIT_C15959 # Cellular assay
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # Assay
+http://purl.obolibrary.org/obo/NCIT_C101293 # Next Generation Sequencing
+subClassOf http://purl.obolibrary.org/obo/OBI_0600047 # Sequencing assay
+
+http://purl.obolibrary.org/obo/NCIT_C15311 # Quality control
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # Planned process
+
+http://purl.obolibrary.org/obo/NCIT_C68821 # Legal regulation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000310 # Document
+http://purl.obolibrary.org/obo/NCIT_C17962 # Multimedia
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/NCIT_C42753 # Workflow
+subClassOf http://purl.obolibrary.org/obo/IAO_0000104 # plan specification
+
+http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
+subClassOf http://purl.obolibrary.org/obo/OBI_0100051 # Specimen
+http://purl.obolibrary.org/obo/NCIT_C18143 # Gene knockout
+subClassOf http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
+http://purl.obolibrary.org/obo/NCIT_C45275 # Animal tracking
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # Planned process
+http://purl.obolibrary.org/obo/NCIT_C18472 # High-throughput screening
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # Assay
+http://purl.obolibrary.org/obo/NCIT_C61256 # Monitoring
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # Assay
+http://purl.obolibrary.org/obo/NCIT_C49667 # Safety study
+subClassOf http://purl.obolibrary.org/obo/OBI_0000066 # Investigation
+http://purl.obolibrary.org/obo/NCIT_C15222 # Diet **I am unhappy with this placement, but following this EFO placement for now. Reason: diet is not always a specification for an experiment, but will be present even under non-experimental conditions.
+subClassOf http://purl.obolibrary.org/obo/OBI_0000272 # Protocol
+http://purl.obolibrary.org/obo/NCIT_C16507 # DNA damage
+subClassOf http://purl.obolibrary.org/obo/OBI_1110122 # Pathological process
+
+http://purl.obolibrary.org/obo/NCIT_C66892 # Natural product
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+
+http://purl.obolibrary.org/obo/NCIT_C13375 # Chromosome fragile site
+subClassOf http://purl.obolibrary.org/obo/GO_0098687 # Chromosomal region
+http://purl.obolibrary.org/obo/NCIT_C18106 # Receptor
+subClassOf http://purl.obolibrary.org/obo/GO_0005622 # Intracellular
+http://purl.obolibrary.org/obo/NCIT_C18966 # Protein expression
+subClassOf http://purl.obolibrary.org/obo/GO_0043043 # Peptide biosynthetic process
+http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
+http://purl.obolibrary.org/obo/NCIT_C16710 # Immunity
+subClassOf http://purl.obolibrary.org/obo/GO_0032501 # multicellular organismal process - hierarchy only, not in FAIRsharing
+
+http://purl.obolibrary.org/obo/NCIT_C18469 # Protein-protein interaction
+subClassOf http://edamontology.org/topic_0128 # Protein interaction
+http://purl.obolibrary.org/obo/NCIT_C13302 # Secondary protein structure
+subClassOf http://edamontology.org/data_1460 # Protein structure
+http://purl.obolibrary.org/obo/NCIT_C18962 # Protein Analysis
+subClassOf http://edamontology.org/operation_2945 # Analysis
+
+http://purl.obolibrary.org/obo/NCIT_C17207 # Transcription factor
+subClassOf http://purl.obolibrary.org/obo/PR_000000001 # Protein
+
+http://purl.obolibrary.org/obo/NCIT_C453 # Recombinant DNA
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid (DNA)
+http://purl.obolibrary.org/obo/NCIT_C104154 # Circulating cell-free RNA
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33697 # Ribonucleic acid (RNA)
+http://purl.obolibrary.org/obo/NCIT_C26549 # Untranslated RNA
+subClassOf http://purl.obolibrary.org/obo/CHEBI_33697 # Ribonucleic acid (RNA)
+
+http://purl.obolibrary.org/obo/NCIT_C13445 # Gene feature
+subClassOf http://purl.obolibrary.org/obo/SO_0001411 # biological_region
+http://purl.obolibrary.org/obo/NCIT_C13426 # Binding motif
+subClassOf http://purl.obolibrary.org/obo/SO_0000409 # binding site
+http://purl.obolibrary.org/obo/NCIT_C17004 # Genetic polymorphism
+subClassOf http://purl.obolibrary.org/obo/SO_0001059 # Sequence alteration
+http://purl.obolibrary.org/obo/NCIT_C17253 # Viral Genome
+subClassOf http://purl.obolibrary.org/obo/SO_0001026 # Genome
+
+http://purl.obolibrary.org/obo/NCIT_C15318 # Reproducibility
+subClassOf http://purl.obolibrary.org/obo/PATO_0000068 # qualitative
+
+http://purl.obolibrary.org/obo/NCIT_C16565 # Evolution
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000000 # processual entity
+
+http://purl.obolibrary.org/obo/NCIT_C15239 # Patient care
+subClassOf http://purl.obolibrary.org/obo/OAE_0000094 # Therapeutic intervention - just hierarchy, not in FAIRsharing
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

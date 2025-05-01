@@ -1,0 +1,94 @@
+#### NOTES ON OBI IMPORT ####
+##
+##
+## We have enabled includeAllIntermediates as includeComputedIntermediates
+## for these low-level source term URIs will result in hierarchy compression
+## as follows: from
+##
+## continuant->generically dependent continuant->ICE
+## to
+## continuant->ICE
+##
+## which results in ICE having two asserted parents in the AO, both
+## GDC and continuant. This is a far from satisfactory situation.
+##
+
+[Source ontology]
+OBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBI_0000070 # Assay
+http://purl.obolibrary.org/obo/OBI_0000073 # Sample preparation for assay
+http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
+http://purl.obolibrary.org/obo/OBI_0000115 # Intervention design
+http://purl.obolibrary.org/obo/OBI_0000272 # Protocol
+http://purl.obolibrary.org/obo/OBI_0000415 # Polymerase Chain Reaction
+http://purl.obolibrary.org/obo/OBI_0000423 # Extract
+http://purl.obolibrary.org/obo/OBI_0000427 # Enzyme
+http://purl.obolibrary.org/obo/OBI_0000430 # Plasmid
+http://purl.obolibrary.org/obo/OBI_0000470 # Mass spectrometry assay
+http://purl.obolibrary.org/obo/OBI_0000615 # Protein expression profiling
+http://purl.obolibrary.org/obo/OBI_0000626 # DNA sequencing
+http://purl.obolibrary.org/obo/OBI_0000716 # Chromatin immunoprecipitation - DNA sequencing
+http://purl.obolibrary.org/obo/OBI_0000725 # Host
+http://purl.obolibrary.org/obo/OBI_0000726 # Peak matching
+http://purl.obolibrary.org/obo/OBI_0000729 # Cloning plasmid
+http://purl.obolibrary.org/obo/OBI_0000750 # Independent variable
+http://purl.obolibrary.org/obo/OBI_0000800 # Cross linking
+http://purl.obolibrary.org/obo/OBI_0000893 # Real time polymerase chain reaction assay
+http://purl.obolibrary.org/obo/OBI_0000912 # X-ray crystallography assay
+http://purl.obolibrary.org/obo/OBI_0000916 # Flow cytometry assay
+http://purl.obolibrary.org/obo/OBI_0000968 # Device
+http://purl.obolibrary.org/obo/OBI_0001000 # Questionnaire
+http://purl.obolibrary.org/obo/OBI_0001065 # Stereo microscope
+http://purl.obolibrary.org/obo/OBI_0001199 # In vivo design
+http://purl.obolibrary.org/obo/OBI_0001248 # Chromatin immunoprecipitation - DNA microarray
+http://purl.obolibrary.org/obo/OBI_0001271 # RNA sequencing
+http://purl.obolibrary.org/obo/OBI_0001557 # Material storage service
+http://purl.obolibrary.org/obo/OBI_0001686 # In situ hybridization
+http://purl.obolibrary.org/obo/OBI_0001848 # Chromatin Interaction Analysis by Paired-End Tag sequencing
+http://purl.obolibrary.org/obo/OBI_0001850 # Transcript analysis by paired-end tag sequencing
+http://purl.obolibrary.org/obo/OBI_0001876 # Cell culture
+http://purl.obolibrary.org/obo/OBI_0001958 # Systematic review
+http://purl.obolibrary.org/obo/OBI_0001985 # Microarray experiment
+http://purl.obolibrary.org/obo/OBI_0001986 # Immunohistochemistry
+http://purl.obolibrary.org/obo/OBI_0002117 # Whole genome sequencing
+http://purl.obolibrary.org/obo/OBI_0002186 # Electroencephalography
+http://purl.obolibrary.org/obo/OBI_0002567 # Sequence alignment
+http://purl.obolibrary.org/obo/OBI_0100014 # Chimera
+http://purl.obolibrary.org/obo/OBI_0200000 # Data transformation
+http://purl.obolibrary.org/obo/OBI_0300311 # Observation design
+http://purl.obolibrary.org/obo/OBI_0302840 # Curated information
+http://purl.obolibrary.org/obo/OBI_0302900 # Group randomization
+http://purl.obolibrary.org/obo/OBI_0302903 # Nucleic acid hybridization
+http://purl.obolibrary.org/obo/OBI_0302914 # Digital curation
+http://purl.obolibrary.org/obo/OBI_0400148 # DNA microarray
+http://purl.obolibrary.org/obo/OBI_0500000 # Study design
+http://purl.obolibrary.org/obo/OBI_0600002 # Tumor grading
+http://purl.obolibrary.org/obo/OBI_0600014 # Material component separation
+http://purl.obolibrary.org/obo/OBI_0600020 # Histology
+http://purl.obolibrary.org/obo/OBI_0600047 # Sequencing
+http://purl.obolibrary.org/obo/OBI_0600053 # Electrophoresis
+http://purl.obolibrary.org/obo/OBI_0600056 # Protease cleavage
+http://purl.obolibrary.org/obo/OBI_1000049 # Whole mount tissue
+http://purl.obolibrary.org/obo/OBI_1110021 # Infection
+http://purl.obolibrary.org/obo/OBI_1110201 # Allergen
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 # entity
+http://purl.obolibrary.org/obo/OBI_0001479 # specimen from organism
+subClassOf http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
+http://purl.obolibrary.org/obo/OBI_0000680 # whole organism preparation
+subClassOf http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample
+http://purl.obolibrary.org/obo/OBI_0302914 # Digital curation
+subClassOf http://purl.obolibrary.org/obo/T4FS_0000141 # Data management **please note that this class is not visible to end users of FAIRsharing**
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/OBI_0001847
+http://purl.obolibrary.org/obo/OBI_9991118

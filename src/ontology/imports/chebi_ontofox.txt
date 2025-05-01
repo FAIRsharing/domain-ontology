@@ -1,0 +1,59 @@
+#### NOTES ON CHEBI IMPORT ####
+##
+
+[Source ontology]
+CHEBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_15339 # Acceptor
+http://purl.obolibrary.org/obo/CHEBI_15358 # Histone
+http://purl.obolibrary.org/obo/CHEBI_16646 # Carbohydrate
+http://purl.obolibrary.org/obo/CHEBI_16670 # Peptide
+http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid
+http://purl.obolibrary.org/obo/CHEBI_17234 # Glucose
+http://purl.obolibrary.org/obo/CHEBI_17891 # Donor
+http://purl.obolibrary.org/obo/CHEBI_18059 # Lipid
+http://purl.obolibrary.org/obo/CHEBI_18111 # Ribosomal RNA
+http://purl.obolibrary.org/obo/CHEBI_18154 # Polysaccharide
+http://purl.obolibrary.org/obo/CHEBI_23367 # Molecular entity
+http://purl.obolibrary.org/obo/CHEBI_23888 # Drug
+http://purl.obolibrary.org/obo/CHEBI_24431 # Chemical entity
+http://purl.obolibrary.org/obo/CHEBI_24636 # Proton
+http://purl.obolibrary.org/obo/CHEBI_25212 # Metabolite
+http://purl.obolibrary.org/obo/CHEBI_25442 # Mycotoxin
+http://purl.obolibrary.org/obo/CHEBI_33281 # Antimicrobial
+http://purl.obolibrary.org/obo/CHEBI_33284 # Nutrient
+http://purl.obolibrary.org/obo/CHEBI_33290 # Food
+http://purl.obolibrary.org/obo/CHEBI_33696 # Nucleic acid
+http://purl.obolibrary.org/obo/CHEBI_33697 # Ribonucleic acid
+http://purl.obolibrary.org/obo/CHEBI_33711 # C-terminal amino acid residue
+http://purl.obolibrary.org/obo/CHEBI_33712 # N-terminal amino acid residue
+http://purl.obolibrary.org/obo/CHEBI_33893 # Reagent
+http://purl.obolibrary.org/obo/CHEBI_36976 # Nucleotide
+http://purl.obolibrary.org/obo/CHEBI_50406 # Probe
+http://purl.obolibrary.org/obo/CHEBI_50803 # Nanoparticle
+http://purl.obolibrary.org/obo/CHEBI_51087 # Protecting group
+http://purl.obolibrary.org/obo/CHEBI_52214 # Ligand
+http://purl.obolibrary.org/obo/CHEBI_59132 # Antigen
+http://purl.obolibrary.org/obo/CHEBI_59163 # Biomarker
+http://purl.obolibrary.org/obo/CHEBI_78298 # Environmental contaminant
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/CHEBI_24431 # chemical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000030 # object **Object was chosen to align with placement of 'chemical entity' within PR**
+http://purl.obolibrary.org/obo/CHEBI_36342 # subatomic particle
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+http://purl.obolibrary.org/obo/CHEBI_33232 # application (child of CHEBI role)
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # switch to child of BFO role
+http://purl.obolibrary.org/obo/CHEBI_24432 # biological role (child of CHEBI role)
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # switch to child of BFO role
+http://purl.obolibrary.org/obo/CHEBI_51086 # chemical role (child of CHEBI role)
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # switch to child of BFO role
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000115

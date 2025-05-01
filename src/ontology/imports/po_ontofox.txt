@@ -1,0 +1,29 @@
+#### NOTES ON PO IMPORT ####
+##
+## No external ULOs in this ontology
+##
+
+[Source ontology]
+PO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PO_0007033 # Plant development stage
+http://purl.obolibrary.org/obo/PO_0009005 # Root
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PO_0007033 # Plant development stage
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 # life cycle stage
+http://purl.obolibrary.org/obo/PO_0009005 # Root
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000061 # Anatomical structure
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/CLO_0000031 # Cell line
+http://purl.obolibrary.org/obo/CLO_0036932 # Hybridoma
+http://purl.obolibrary.org/obo/CLO_0037280 # Human embryonic stem cell line cell
+http://purl.obolibrary.org/obo/CLO_0037308 # human induced pluripotent stem cell line cell

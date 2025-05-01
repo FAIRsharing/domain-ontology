@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/m2xzasru.owl#"
+     xml:base="http://ontofox.hegroup.org/m2xzasru.owl"
+     xmlns:SBO="http://biomodels.net/SBO/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:edamontology="http://edamontology.org/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/m2xzasru.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000027 -->
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000027">
+        <rdfs:label>Michaelis constant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000193"/>
+        <obo:IAO_0000115>Synonym: Michaelis-Menten constant </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/sbo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000193 -->
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000193">
+        <rdfs:label>equilibrium or steady-state constant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000308"/>
+        <obo:IAO_0000115>Constant with the dimension of a powered concentration. It is determined at half-saturation, half-activity etc. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/sbo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000242 -->
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000242">
+        <rdfs:label>channel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
+        <obo:IAO_0000115>A component that allows another component to pass through itself, possibly connecting different compartments.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/sbo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000261 -->
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000261">
+        <rdfs:label>inhibitory constant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000282"/>
+        <obo:IAO_0000115>Synonym: Ki </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/sbo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000282 -->
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000282">
+        <rdfs:label>dissociation constant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000193"/>
+        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000308"/>
+        <obo:IAO_0000115>Synonym: Kd </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/sbo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000308 -->
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000308">
+        <rdfs:label>equilibrium or steady-state characteristic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000545"/>
+        <obo:IAO_0000115>Quantitative parameter that characterises a biochemical equilibrium. </obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/sbo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000414 -->
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000414">
+        <rdfs:label>cis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>Positional relationship between entities on the same strand (e.g. in DNA), or on the same side.
+</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/sbo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000493 -->
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000493">
+        <rdfs:label>functional domain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0883"/>
+        <obo:IAO_0000115>A spatial region of an entity that confers a function</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/sbo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000545 -->
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000545">
+        <rdfs:label>systems description parameter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>A value, numerical or symbolic, that defines certain characteristics of systems or system functions, or is necessary in their derivation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/sbo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0883 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0883"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032991"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
+<!--
+Notice: All the OBO ontologies have changed the term URI format from http://purl.org/obo/owl/ontology#ontology_nnnnnnn to http://purl.obolibrary.org/obo/ontology_nnnnnnn. Please make sure your input files are updated.
+The following terms do not have any related axioms in the source ontology:
+http://purl.obolibrary.org/obo/IAO_0000030
+http://purl.obolibrary.org/obo/GO_0032991
+http://edamontology.org/data_0883
+-->

@@ -1,0 +1,5 @@
+http://purl.obolibrary.org/obo/BFO_0000015 # process **Required for correct hierarchy**
+http://purl.obolibrary.org/obo/BFO_0000019 # quality **Required for correct hierarchy**
+http://purl.obolibrary.org/obo/BFO_0000031 # generically dependendent continuant **Required for correct hierarchy**
+http://purl.obolibrary.org/obo/BFO_0000034 # function **Required for correct hierarchy**
+http://purl.obolibrary.org/obo/BFO_0000030 # object **Required for correct hierarchy**

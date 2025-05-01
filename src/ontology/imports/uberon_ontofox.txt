@@ -1,0 +1,45 @@
+#### NOTES ON UBERON IMPORT ####
+##
+## UBERON does not make use of any upper-level ontologies,
+## however it does reference BFO occurrent as a parent term
+## of processual entity.
+##
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0000062 # Organ
+http://purl.obolibrary.org/obo/UBERON_0000104 # Life cycle
+http://purl.obolibrary.org/obo/UBERON_0000105 # Life cycle stage
+http://purl.obolibrary.org/obo/UBERON_0000178 # Blood
+http://purl.obolibrary.org/obo/UBERON_0000479 # Tissue
+http://purl.obolibrary.org/obo/UBERON_0000948 # Heart
+http://purl.obolibrary.org/obo/UBERON_0000955 # Brain
+http://purl.obolibrary.org/obo/UBERON_0001033 # Gustatory system
+http://purl.obolibrary.org/obo/UBERON_0001474 # Bone
+http://purl.obolibrary.org/obo/UBERON_0001911 # Mammary gland
+http://purl.obolibrary.org/obo/UBERON_0002107 # Liver
+http://purl.obolibrary.org/obo/UBERON_0002405 # Immune system
+http://purl.obolibrary.org/obo/UBERON_0004907 # Lower digestive tract
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+http://purl.obolibrary.org/obo/UBERON_0000000 # processual entity
+subClassOf http://purl.obolibrary.org/obo/GO_0008150 # Biological process
+http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant - this subclassing is because Uberon has a mistake.
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/UBPROP_0000001
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

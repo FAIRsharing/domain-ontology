@@ -1,0 +1,175 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/clo_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/clo_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/clo_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLO_0036932>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLO_0037224>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLO_0037279>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLO_0037280>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLO_0037307>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CLO_0037308>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000578>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0001034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001866>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001905>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100060>))
+Declaration(Class(<http://www.ebi.ac.uk/cellline#UnspecifiedCellType>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000001> (entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000001> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000001> "entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000002> "continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000004> "independent continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity")
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/CLO_0000001> (cell line cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CLO_0000001> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLO_0000001> "cell line cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CLO_0000001> <http://purl.obolibrary.org/obo/CL_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLO_0000001> <http://purl.obolibrary.org/obo/OBI_0001866>)
+
+# Class: <http://purl.obolibrary.org/obo/CLO_0000031> (cell line)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CLO_0000031> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLO_0000031> "cell line"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/CLO_0000031> <http://purl.obolibrary.org/obo/OBI_0001905>)
+SubClassOf(<http://purl.obolibrary.org/obo/CLO_0000031> <http://purl.obolibrary.org/obo/OBI_0100060>)
+
+# Class: <http://purl.obolibrary.org/obo/CLO_0036932> (Hybridoma)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CLO_0036932> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLO_0036932> "Hybridoma")
+SubClassOf(<http://purl.obolibrary.org/obo/CLO_0036932> <http://www.ebi.ac.uk/cellline#UnspecifiedCellType>)
+
+# Class: <http://purl.obolibrary.org/obo/CLO_0037224> (stem cell line cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CLO_0037224> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLO_0037224> "stem cell line cell"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/CLO_0037224> <http://purl.obolibrary.org/obo/CLO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/CLO_0037279> (embryonic stem cell line cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CLO_0037279> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLO_0037279> "embryonic stem cell line cell"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/CLO_0037279> <http://purl.obolibrary.org/obo/CLO_0037224>)
+
+# Class: <http://purl.obolibrary.org/obo/CLO_0037280> (human embryonic stem cell line cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CLO_0037280> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLO_0037280> "human embryonic stem cell line cell"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/CLO_0037280> <http://purl.obolibrary.org/obo/CLO_0037279>)
+
+# Class: <http://purl.obolibrary.org/obo/CLO_0037307> (induced pluripotent stem cell line cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CLO_0037307> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLO_0037307> "induced pluripotent stem cell line cell"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/CLO_0037307> <http://purl.obolibrary.org/obo/CLO_0037224>)
+
+# Class: <http://purl.obolibrary.org/obo/CLO_0037308> (human induced pluripotent stem cell line cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CLO_0037308> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CLO_0037308> "human induced pluripotent stem cell line cell"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/CLO_0037308> <http://purl.obolibrary.org/obo/CLO_0037307>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000010> (cultured cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000010> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000010> "cultured cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000010> <http://purl.obolibrary.org/obo/CL_0000578>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000010> <http://purl.obolibrary.org/obo/CL_0001034>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000578> (experimentally modified cell in vitro)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000578> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000578> "experimentally modified cell in vitro")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000578> <http://purl.obolibrary.org/obo/CL_0001034>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0001034> (cell in vitro)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0001034> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0001034> "cell in vitro")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0001034> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000047> (processed material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000047> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000047> "processed material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000047> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001866> (secondary cultured cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0001866> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001866> "secondary cultured cell")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001866> <http://purl.obolibrary.org/obo/CL_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0001905> (secondary cultured cell population)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0001905> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001905> "secondary cultured cell population")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001905> <http://purl.obolibrary.org/obo/OBI_0100060>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0100060> (cultured cell population)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0100060> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0100060> "cultured cell population")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0100060> <http://purl.obolibrary.org/obo/OBI_0000047>)
+
+# Class: <http://www.ebi.ac.uk/cellline#UnspecifiedCellType> (unspecified cell type)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://www.ebi.ac.uk/cellline#UnspecifiedCellType> <http://purl.obolibrary.org/obo/clo.owl>)
+AnnotationAssertion(rdfs:label <http://www.ebi.ac.uk/cellline#UnspecifiedCellType> "unspecified cell type")
+SubClassOf(<http://www.ebi.ac.uk/cellline#UnspecifiedCellType> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+
+)

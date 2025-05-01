@@ -1,0 +1,5 @@
+http://biomodels.net/SBO/SBO_0000027 # Michaelis constant
+http://biomodels.net/SBO/SBO_0000242 # Channel
+http://biomodels.net/SBO/SBO_0000261 # Inhibitory constant
+http://biomodels.net/SBO/SBO_0000414 # Cis element
+http://biomodels.net/SBO/SBO_0000493 # Functional domain

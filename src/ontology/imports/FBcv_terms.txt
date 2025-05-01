@@ -1,0 +1,8 @@
+http://purl.obolibrary.org/obo/FBcv_0000155 # Single balancer
+http://purl.obolibrary.org/obo/FBcv_0000623 # Enhancer
+http://purl.obolibrary.org/obo/FBcv_0003035 # Proteome
+http://purl.obolibrary.org/obo/FBcv_0003036 # Interactome
+http://purl.obolibrary.org/obo/FBcv_0003039 # Chemical screen
+http://purl.obolibrary.org/obo/FBcv_0003040 # Gene model annotation
+http://purl.obolibrary.org/obo/FBcv_0003077 # RNAi screen
+http://purl.obolibrary.org/obo/FBcv_0003195 # Cap Analysis Gene Expression

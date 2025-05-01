@@ -1,0 +1,1332 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/go_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/go_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/go_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000380>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000398>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0000775>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003674>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003682>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0003824>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005216>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005488>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005515>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005575>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005622>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005634>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005694>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005739>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005813>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0005996>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006338>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006396>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006397>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006412>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006413>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006457>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006473>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006605>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006805>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006810>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0006954>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007127>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007135>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007155>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007606>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007608>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0007610>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008380>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009306>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009451>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009536>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009889>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009890>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009892>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0009987>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010467>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010468>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010556>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010558>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010605>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0010629>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0015031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016310>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016441>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0016477>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019222>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019538>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019814>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0019815>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0023052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030097>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0030431>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0031982>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032259>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032501>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032502>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032940>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032991>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035194>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035195>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0035592>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0036211>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0042101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0042571>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043170>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043226>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043227>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043229>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043231>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043232>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043412>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043687>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0044238>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0045184>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0046872>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048468>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048513>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048523>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048856>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0048869>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050693>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050789>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050794>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050877>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050890>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050909>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051087>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051179>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051246>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051252>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051301>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051641>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0060255>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0060293>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0065007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0065010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070085>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0070727>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0080090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0090304>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098687>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098802>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0110165>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0140352>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_1901873>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_1903561>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_2000628>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100051>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/GO_0000380> (alternative mRNA splicing, via spliceosome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0000380> "The process of generating multiple mRNA molecules from a given set of exons by differential use of exons from the primary transcript(s) to form multiple mature mRNAs that vary in their exon composition.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0000380> "alternative nuclear mRNA splicing, via spliceosome")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0000380> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0000380> "alternative mRNA splicing, via spliceosome")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0000380> <http://purl.obolibrary.org/obo/GO_0000398>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0000398> (mRNA splicing, via spliceosome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0000398> "The joining together of exons from one or more primary transcripts of messenger RNA (mRNA) and the excision of intron sequences, via a spliceosomal mechanism, so that mRNA consisting only of the joined exons is produced.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0000398> "nuclear mRNA splicing via U12-type spliceosome")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0000398> "nuclear mRNA splicing via U2-type spliceosome")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0000398> "nuclear mRNA splicing, via spliceosome")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0000398> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0000398> "mRNA splicing, via spliceosome")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0000398> <http://purl.obolibrary.org/obo/GO_0006397>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0000398> <http://purl.obolibrary.org/obo/GO_0008380>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0000775> (chromosome, centromeric region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0000775> "The region of a chromosome that includes the centromeric DNA and associated proteins. In monocentric chromosomes, this region corresponds to a single area of the chromosome, whereas in holocentric chromosomes, it is evenly distributed along the chromosome.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0000775> "centromere complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0000775> "chromosome, centric region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0000775> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0000775> "chromosome, centromeric region")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0000775> <http://purl.obolibrary.org/obo/GO_0098687>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0003674> (molecular_function)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003674> "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0003674> "molecular function")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0003674> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003674> "molecular_function")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0003674> <http://purl.obolibrary.org/obo/BFO_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0003682> (chromatin binding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003682> "Binding to chromatin, the network of fibers of DNA, protein, and sometimes RNA, that make up the chromosomes of the eukaryotic nucleus during interphase.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0003682> "lamin/chromatin binding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0003682> "microtubule/chromatin interaction")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0003682> "nuclear membrane vesicle binding to chromatin")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0003682> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003682> "chromatin binding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0003682> <http://purl.obolibrary.org/obo/GO_0005488>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0003824> (catalytic activity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0003824> "Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0003824> "enzyme activity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0003824> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0003824> "catalytic activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0003824> <http://purl.obolibrary.org/obo/GO_0003674>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005216> (monoatomic ion channel activity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005216> "Enables the facilitated diffusion of a monoatomic ion (by an energy-independent process) by passage through a transmembrane aqueous pore or channel without evidence for a carrier-mediated mechanism. May be either selective (it enables passage of a specific ion only) or non-selective (it enables passage of two or more ions of same charge but different size).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005216> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005216> "monoatomic ion channel activity")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005216> <http://purl.obolibrary.org/obo/GO_0003674>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005488> (binding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005488> "The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005488> "ligand")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005488> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005488> "binding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005488> <http://purl.obolibrary.org/obo/GO_0003674>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005515> (protein binding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005515> "Binding to a protein.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005515> "glycoprotein binding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005515> "protein amino acid binding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005515> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005515> "protein binding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005515> <http://purl.obolibrary.org/obo/GO_0005488>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005575> (cellular_component)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005575> "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005575> "cell or subcellular entity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005575> "cellular component")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005575> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005575> "cellular_component")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005575> <http://purl.obolibrary.org/obo/OBI_0100051>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005622> (intracellular anatomical structure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005622> "A component of a cell contained within (but not including) the plasma membrane. In eukaryotes it includes the nucleus and cytoplasm.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005622> "internal to cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005622> "intracellular")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005622> "protoplasm")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005622> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005622> "intracellular anatomical structure")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005622> <http://purl.obolibrary.org/obo/GO_0110165>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005634> (nucleus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005634> "A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005634> "cell nucleus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005634> "horsetail nucleus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005634> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005634> "nucleus")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005634> <http://purl.obolibrary.org/obo/GO_0043231>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005694> (chromosome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005694> "A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005694> "interphase chromosome")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005694> "prophase chromosome")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005694> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005694> "chromosome")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005694> <http://purl.obolibrary.org/obo/GO_0043232>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005739> (mitochondrion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005739> "A semiautonomous, self replicating organelle that occurs in varying numbers, shapes, and sizes in the cytoplasm of virtually all eukaryotic cells. It is notably the site of tissue respiration.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005739> "mitochondria")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005739> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005739> "mitochondrion")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005739> <http://purl.obolibrary.org/obo/GO_0043231>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005813> (centrosome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005813> "A structure comprised of a core structure (in most organisms, a pair of centrioles) and peripheral material from which a microtubule-based structure, such as a spindle apparatus, is organized. Centrosomes occur close to the nucleus during interphase in many eukaryotic cells, though in animal cells it changes continually during the cell-division cycle.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005813> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005813> "centrosome")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005813> <http://purl.obolibrary.org/obo/GO_0110165>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0005996> (monosaccharide metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0005996> "The chemical reactions and pathways involving monosaccharides, the simplest carbohydrates. They are polyhydric alcohols containing either an aldehyde or a keto group and between three to ten or more carbon atoms. They form the constitutional repeating units of oligo- and polysaccharides.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0005996> "monosaccharide metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0005996> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0005996> "monosaccharide metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005996> <http://purl.obolibrary.org/obo/GO_0008152>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0005996> <http://purl.obolibrary.org/obo/GO_0044238>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006006> (glucose metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006006> "The chemical reactions and pathways involving glucose, the aldohexose gluco-hexose. D-glucose is dextrorotatory and is sometimes known as dextrose; it is an important source of energy for living organisms and is found free as well as combined in homo- and hetero-oligosaccharides and polysaccharides.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006006> "cellular glucose metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006006> "glucose metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006006> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006006> "glucose metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006006> <http://purl.obolibrary.org/obo/GO_0005996>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006338> (chromatin remodeling)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006338> "A dynamic process of chromatin reorganization resulting in changes to chromatin structure. These changes allow DNA metabolic processes such as transcriptional regulation, DNA recombination, DNA repair, and DNA replication.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006338> "ATP-dependent chromatin remodeling")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006338> "ATP-dependent chromatin remodelling")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006338> "chromatin modeling")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006338> "chromatin modelling")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006338> "chromatin remodelling")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006338> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006338> "chromatin remodeling")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006338> <http://purl.obolibrary.org/obo/GO_0016043>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006396> (RNA processing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006396> "Any process involved in the conversion of one or more primary RNA transcripts into one or more mature RNA molecules.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006396> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006396> "RNA processing")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006396> <http://purl.obolibrary.org/obo/GO_0044238>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006397> (mRNA processing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006397> "Any process involved in the conversion of a primary mRNA transcript into one or more mature mRNA(s) prior to translation into polypeptide.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006397> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006397> "mRNA processing")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006397> <http://purl.obolibrary.org/obo/GO_0006396>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006397> <http://purl.obolibrary.org/obo/GO_0016070>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006412> (translation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006412> "The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA or circRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA or circRNA. Translation ends with the release of a polypeptide chain from the ribosome.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006412> "protein anabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006412> "protein biosynthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006412> "protein biosynthetic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006412> "protein formation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006412> "protein synthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006412> "protein translation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006412> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006412> "translation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006412> <http://purl.obolibrary.org/obo/GO_0009059>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006412> <http://purl.obolibrary.org/obo/GO_0019538>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006413> (translational initiation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006413> "The process preceding formation of the peptide bond between the first two amino acids of a protein. This includes the formation of a complex of the ribosome, mRNA or circRNA, and an initiation complex that contains the first aminoacyl-tRNA.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006413> "translation initiation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006413> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006413> "translational initiation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006413> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006457> (protein folding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006457> "The process of assisting in the covalent and noncovalent assembly of single chain polypeptides or multisubunit complexes into the correct tertiary structure.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006457> "alpha-tubulin folding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006457> "beta-tubulin folding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006457> "chaperonin-mediated tubulin folding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006457> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006457> "protein folding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006457> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006473> (protein acetylation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006473> "The addition of an acetyl group to a protein amino acid. An acetyl group is CH3CO-, derived from acetic [ethanoic] acid.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006473> "protein amino acid acetylation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006473> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006473> "protein acetylation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006473> <http://purl.obolibrary.org/obo/GO_0036211>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006605> (protein targeting)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006605> "The process of targeting specific proteins to particular regions of the cell, typically membrane-bounded subcellular organelles. Usually requires an organelle specific protein sequence motif.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006605> "protein sorting along secretory pathway")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006605> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006605> "protein targeting")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006605> <http://purl.obolibrary.org/obo/GO_0045184>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006805> (xenobiotic metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006805> "The chemical reactions and pathways involving a xenobiotic compound, a compound foreign to the organism exposed to it. It may be synthesized by another organism (like ampicilin) or it can be a synthetic chemical.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0006805> "xenobiotic metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006805> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006805> "xenobiotic metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006805> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006810> (transport)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006810> "The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006810> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006810> "transport")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006810> <http://purl.obolibrary.org/obo/GO_0051234>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0006954> (inflammatory response)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0006954> "The immediate defensive reaction (by vertebrate tissue) to infection or injury caused by chemical or physical agents. The process is characterized by local vasodilation, extravasation of plasma into intercellular spaces and accumulation of white blood cells and macrophages.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0006954> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0006954> "inflammatory response")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0006954> <http://purl.obolibrary.org/obo/GO_0008150>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0007049> (cell cycle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0007049> "The progression of biochemical and morphological phases and events that occur in a cell during successive cell replication or nuclear replication events. Canonically, the cell cycle comprises the replication and segregation of genetic material followed by the division of the cell, but in endocycles or syncytial cells nuclear replication or nuclear division may not be followed by cell division.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007049> "cell-division cycle")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0007049> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007049> "cell cycle")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007049> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0007127> (meiosis I)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0007127> "The first meiotic nuclear division in which homologous chromosomes are paired and segregated from each other, producing two haploid daughter nuclei.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007127> "meiosis I nuclear division")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0007127> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007127> "meiosis I")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007127> <http://purl.obolibrary.org/obo/GO_0140013>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007127> <http://purl.obolibrary.org/obo/GO_1903046>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0007135> (meiosis II)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0007135> "The second nuclear division of meiosis, in which the two chromatids in each chromosome are separated, resulting in four daughter nuclei from the two nuclei produced in meiosis II.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007135> "meiosis II nuclear division")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0007135> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007135> "meiosis II")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007135> <http://purl.obolibrary.org/obo/GO_0140013>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007135> <http://purl.obolibrary.org/obo/GO_1903046>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0007155> (cell adhesion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0007155> "The attachment of a cell, either to another cell or to an underlying substrate such as the extracellular matrix, via cell adhesion molecules.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0007155> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007155> "cell adhesion")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007155> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0007606> (sensory perception of chemical stimulus)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0007606> "The series of events required for an organism to receive a sensory chemical stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007606> "chemosensory perception")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0007606> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007606> "sensory perception of chemical stimulus")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007606> <http://purl.obolibrary.org/obo/GO_0050877>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0007608> (sensory perception of smell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0007608> "The series of events required for an organism to receive an olfactory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Olfaction involves the detection of chemical composition of an organism's ambient medium by chemoreceptors. This is a neurological process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007608> "olfaction")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007608> "scent perception")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007608> "sense of smell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007608> "smell perception")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0007608> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007608> "sensory perception of smell")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007608> <http://purl.obolibrary.org/obo/GO_0007606>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0007610> (behavior)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0007610> "The internally coordinated responses (actions or inactions) of animals (individuals or groups) to internal or external stimuli, via a mechanism that involves nervous system activity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007610> "behavioral response to stimulus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007610> "behaviour")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0007610> "behavioural response to stimulus")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0007610> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0007610> "behavior")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0007610> <http://purl.obolibrary.org/obo/GO_0032501>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0008104> (protein localization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008104> "Any process in which a protein is transported to, or maintained in, a specific location.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0008104> "cellular protein localisation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0008104> "cellular protein localization")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0008104> "channel localizer activity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0008104> "protein localisation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0008104> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008104> "protein localization")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008104> <http://purl.obolibrary.org/obo/GO_0070727>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0008150> (biological_process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008150> "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0008150> "biological process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0008150> "physiological process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008150> "biological_process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008150> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0008152> (metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008152> "A cellular process consisting of the biochemical pathways by which a living organism transforms chemical substances. This includes including anabolism (biosynthetic process) and catabolism (catabolic process). Metabolic processes includes the transformation of small molecules, as well  macromolecular processes such as DNA repair and replication, protein synthesis and degradation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0008152> "metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0008152> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008152> "metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008152> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0008380> (RNA splicing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0008380> "The process of removing sections of the primary RNA transcript to remove sequences not present in the mature form of the RNA and joining the remaining sections to form the mature form of the RNA.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0008380> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0008380> "RNA splicing")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0008380> <http://purl.obolibrary.org/obo/GO_0006396>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009058> (biosynthetic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009058> "A cellular process consisting of the biochemical pathways by which a living organism synthesizes chemical substances. This typically represents the energy-requiring part of metabolism in which simpler substances are transformed into more complex ones.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009058> "anabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009058> "biosynthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009058> "multicellular organismal biosynthetic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009058> "synthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0009058> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009058> "biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009058> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009059> (macromolecule biosynthetic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009059> "The chemical reactions and pathways resulting in the formation of a macromolecule, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009059> "biopolymer biosynthetic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009059> "macromolecule anabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009059> "macromolecule biosynthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009059> "macromolecule formation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009059> "macromolecule synthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0009059> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009059> "macromolecule biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009059> <http://purl.obolibrary.org/obo/GO_0009058>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009059> <http://purl.obolibrary.org/obo/GO_0043170>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009306> (protein secretion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009306> "The controlled release of proteins from a cell.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009306> "glycoprotein secretion")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009306> "protein secretion during cell fate commitment")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009306> "protein secretion resulting in cell fate commitment")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0009306> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009306> "protein secretion")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009306> <http://purl.obolibrary.org/obo/GO_0015031>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009306> <http://purl.obolibrary.org/obo/GO_0032940>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009306> <http://purl.obolibrary.org/obo/GO_0035592>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009451> (RNA modification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009451> "The covalent alteration of one or more nucleotides within an RNA molecule to produce an RNA molecule with a sequence that differs from that coded genetically.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009451> "RNA editing")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0009451> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009451> "RNA modification")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009451> <http://purl.obolibrary.org/obo/GO_0016070>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009451> <http://purl.obolibrary.org/obo/GO_0043412>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009536> (plastid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009536> "Any member of a family of organelles found in the cytoplasm of plants and some protists, which are membrane-bounded and contain DNA. Plant plastids develop from a common type, the proplastid.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0009536> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009536> "plastid")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009536> <http://purl.obolibrary.org/obo/GO_0043231>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009889> (regulation of biosynthetic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009889> "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways resulting in the formation of substances.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009889> "regulation of anabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009889> "regulation of biosynthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009889> "regulation of formation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009889> "regulation of synthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0009889> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009889> "regulation of biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009889> <http://purl.obolibrary.org/obo/GO_0019222>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009890> (negative regulation of biosynthetic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009890> "Any process that stops, prevents, or reduces the rate of the chemical reactions and pathways resulting in the formation of substances.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009890> "down regulation of biosynthetic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009890> "down-regulation of biosynthetic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009890> "downregulation of biosynthetic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009890> "inhibition of biosynthetic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009890> "negative regulation of anabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009890> "negative regulation of biosynthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009890> "negative regulation of formation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009890> "negative regulation of synthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0009890> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009890> "negative regulation of biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009890> <http://purl.obolibrary.org/obo/GO_0009889>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009890> <http://purl.obolibrary.org/obo/GO_0009892>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009892> (negative regulation of metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009892> "Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009892> "down regulation of metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009892> "down-regulation of metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009892> "downregulation of metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009892> "inhibition of metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009892> "inhibition of organismal metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009892> "negative regulation of metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009892> "negative regulation of multicellular organismal metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009892> "negative regulation of organismal metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0009892> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009892> "negative regulation of metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009892> <http://purl.obolibrary.org/obo/GO_0019222>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009892> <http://purl.obolibrary.org/obo/GO_0048523>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0009987> (cellular process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0009987> "Any process that is carried out at the cellular level, but not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009987> "cell growth and/or maintenance")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009987> "cell physiology")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0009987> "cellular physiological process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0009987> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0009987> "cellular process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0009987> <http://purl.obolibrary.org/obo/GO_0008150>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0010467> (gene expression)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0010467> "The process in which a gene's sequence is converted into a mature gene product (protein or RNA). This includes the production of an RNA transcript and its processing, as well as translation and maturation for protein-coding genes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0010467> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010467> "gene expression")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010467> <http://purl.obolibrary.org/obo/GO_0009059>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0010468> (regulation of gene expression)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0010468> "Any process that modulates the frequency, rate or extent of gene expression. Gene expression is the process in which a gene's coding sequence is converted into a mature gene product (protein or RNA).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0010468> "regulation of protein expression")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0010468> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010468> "regulation of gene expression")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010468> <http://purl.obolibrary.org/obo/GO_0010556>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0010556> (regulation of macromolecule biosynthetic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0010556> "Any process that modulates the rate, frequency or extent of the chemical reactions and pathways resulting in the formation of a macromolecule, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0010556> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010556> "regulation of macromolecule biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010556> <http://purl.obolibrary.org/obo/GO_0009889>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010556> <http://purl.obolibrary.org/obo/GO_0060255>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0010558> (negative regulation of macromolecule biosynthetic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0010558> "Any process that decreases the rate, frequency or extent of the chemical reactions and pathways resulting in the formation of a macromolecule, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0010558> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010558> "negative regulation of macromolecule biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010558> <http://purl.obolibrary.org/obo/GO_0009890>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010558> <http://purl.obolibrary.org/obo/GO_0010556>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010558> <http://purl.obolibrary.org/obo/GO_0010605>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0010605> (negative regulation of macromolecule metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0010605> "Any process that decreases the frequency, rate or extent of the chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0010605> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010605> "negative regulation of macromolecule metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010605> <http://purl.obolibrary.org/obo/GO_0009892>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010605> <http://purl.obolibrary.org/obo/GO_0060255>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0010629> (negative regulation of gene expression)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0010629> "Any process that decreases the frequency, rate or extent of gene expression. Gene expression is the process in which a gene's coding sequence is converted into a mature gene product (protein or RNA).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0010629> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0010629> "negative regulation of gene expression")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010629> <http://purl.obolibrary.org/obo/GO_0010468>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0010629> <http://purl.obolibrary.org/obo/GO_0010558>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0015031> (protein transport)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0015031> "The directed movement of proteins into, out of or within a cell, or between cells, by means of some agent such as a transporter or pore.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0015031> "enzyme transport")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0015031> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0015031> "protein transport")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0015031> <http://purl.obolibrary.org/obo/GO_0006810>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0015031> <http://purl.obolibrary.org/obo/GO_0045184>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0016043> (cellular component organization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0016043> "A process that results in the assembly, arrangement of constituent parts, or disassembly of a cellular component.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0016043> "cell organisation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0016043> "cellular component organisation at cellular level")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0016043> "cellular component organisation in other organism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0016043> "cellular component organization at cellular level")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0016043> "cellular component organization in other organism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0016043> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0016043> "cellular component organization")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0016043> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0016070> (RNA metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0016070> "The cellular chemical reactions and pathways involving RNA, ribonucleic acid, one of the two main type of nucleic acid, consisting of a long, unbranched macromolecule formed from ribonucleotides joined in 3',5'-phosphodiester linkage.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0016070> "RNA metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0016070> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0016070> "RNA metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0016070> <http://purl.obolibrary.org/obo/GO_0090304>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0016310> (phosphorylation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0016310> "The process of introducing a phosphate group into a molecule, usually with the formation of a phosphoric ester, a phosphoric anhydride or a phosphoric amide.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0016310> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0016310> "phosphorylation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0016310> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0016441> (post-transcriptional gene silencing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0016441> "The inactivation of gene expression that occurs after transcription.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0016441> "PTGS")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0016441> "posttranscriptional gene silencing")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0016441> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0016441> "post-transcriptional gene silencing")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0016441> <http://purl.obolibrary.org/obo/GO_0010468>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0016441> <http://purl.obolibrary.org/obo/GO_0010629>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0016477> (cell migration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0016477> "The controlled self-propelled movement of a cell from one site to a destination guided by molecular cues.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0016477> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0016477> "cell migration")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0016477> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0019222> (regulation of metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0019222> "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019222> "regulation of metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019222> "regulation of multicellular organismal metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019222> "regulation of organismal metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0019222> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0019222> "regulation of metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019222> <http://purl.obolibrary.org/obo/GO_0050794>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0019538> (protein metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0019538> "The chemical reactions and pathways involving a protein. Includes protein modification.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019538> "cellular protein metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019538> "cellular protein metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019538> "multicellular organismal protein metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019538> "protein metabolic process and modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019538> "protein metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019538> "protein metabolism and modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0019538> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0019538> "protein metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019538> <http://purl.obolibrary.org/obo/GO_0043170>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019538> <http://purl.obolibrary.org/obo/GO_0044238>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0019814> (immunoglobulin complex)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0019814> "A protein complex that in its canonical form is composed of two identical immunoglobulin heavy chains and two identical immunoglobulin light chains, held together by disulfide bonds and sometimes complexed with additional proteins. An immunoglobulin complex may be embedded in the plasma membrane or present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019814> "antibody")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0019814> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0019814> "immunoglobulin complex")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019814> <http://purl.obolibrary.org/obo/GO_0032991>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0019815> (B cell receptor complex)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0019815> "An immunoglobulin complex that is present in the plasma membrane of B cells and that in its canonical form is composed of two identical immunoglobulin heavy chains and two identical immunoglobulin light chains and a signaling subunit, a heterodimer of the Ig-alpha and Ig-beta proteins.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019815> "B lymphocyte receptor complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019815> "B-cell receptor complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019815> "B-lymphocyte receptor complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019815> "BCR complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0019815> "immunoglobulin complex, membrane bound")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0019815> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0019815> "B cell receptor complex")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019815> <http://purl.obolibrary.org/obo/GO_0019814>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0019815> <http://purl.obolibrary.org/obo/GO_0098802>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0023052> (signaling)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0023052> "The entirety of a process in which information is transmitted within a biological system. This process begins with an active signal and ends when a cellular response has been triggered.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0023052> "biological signaling")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0023052> "signaling process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0023052> "signalling")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0023052> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0023052> "signaling")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0023052> <http://purl.obolibrary.org/obo/GO_0050789>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030097> (hemopoiesis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030097> "The process whose specific outcome is the progression of the myeloid and lymphoid derived organ/tissue systems of the blood and other parts of the body over time, from formation to the mature structure. The site of hemopoiesis is variable during development, but occurs primarily in bone marrow or kidney in many adult vertebrates.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0030097> "blood cell biosynthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0030097> "blood cell formation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0030097> "haemopoiesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0030097> "hematopoiesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0030097> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030097> "hemopoiesis")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030097> <http://purl.obolibrary.org/obo/GO_0048468>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0030431> (sleep)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0030431> "Any process in which an organism enters and maintains a periodic, readily reversible state of reduced awareness and metabolic activity. Usually accompanied by physical relaxation, the onset of sleep in humans and other mammals is marked by a change in the electrical activity of the brain.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0030431> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0030431> "sleep")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0030431> <http://purl.obolibrary.org/obo/GO_0032501>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0031982> (vesicle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0031982> "Any small, fluid-filled, spherical organelle enclosed by membrane.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0031982> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0031982> "vesicle")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0031982> <http://purl.obolibrary.org/obo/GO_0043227>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0032259> (methylation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0032259> "The process in which a methyl group is covalently attached to a molecule.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0032259> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032259> "methylation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0032259> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0032501> (multicellular organismal process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0032501> "Any biological process, occurring at the level of a multicellular organism, pertinent to its function.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0032501> "organismal physiological process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0032501> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032501> "multicellular organismal process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0032501> <http://purl.obolibrary.org/obo/GO_0008150>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0032502> (developmental process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0032502> "A biological process whose specific outcome is the progression of an integrated living unit: an anatomical structure (which may be a subcellular structure, cell, tissue, or organ), or organism over time from an initial condition to a later condition.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0032502> "development")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0032502> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032502> "developmental process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0032502> <http://purl.obolibrary.org/obo/GO_0008150>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0032940> (secretion by cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0032940> "The controlled release of a substance by a cell.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0032940> "cellular secretion")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0032940> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032940> "secretion by cell")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0032940> <http://purl.obolibrary.org/obo/GO_0006810>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0032940> <http://purl.obolibrary.org/obo/GO_0140352>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0032991> (protein-containing complex)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0032991> "A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0032991> "macromolecular complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0032991> "macromolecule complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0032991> "protein complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0032991> "protein containing complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0032991> "protein-protein complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0032991> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0032991> "protein-containing complex")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0032991> <http://purl.obolibrary.org/obo/GO_0005575>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0035194> (regulatory ncRNA-mediated post-transcriptional gene silencing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0035194> "A posttranscriptional gene silencing pathway in which regulatory RNAs elicit silencing of specific target genes, either by mRNA destabilization or inhibition of translation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0035194> "RNA-dependent post-transcriptional gene silencing")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0035194> "RNA-mediated post-transcriptional gene silencing")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0035194> "RNA-mediated posttranscriptional gene silencing")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0035194> "ncRNA-mediated post-transcriptional gene silencing")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0035194> "posttranscriptional gene silencing by RNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0035194> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0035194> "regulatory ncRNA-mediated post-transcriptional gene silencing")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0035194> <http://purl.obolibrary.org/obo/GO_0010629>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0035194> <http://purl.obolibrary.org/obo/GO_0016441>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0035195> (miRNA-mediated post-transcriptional gene silencing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0035195> "A post-transcriptional gene silencing pathway in which regulatory microRNAs (miRNAs) elicit silencing of specific target genes. miRNAs are endogenous 21-24 nucleotide small RNAs processed from stem-loop RNA precursors (pre-miRNAs). Once incorporated into a RNA-induced silencing complex (RISC), miRNAs can downregulate protein production by either of two posttranscriptional mechanisms: endonucleolytic cleavage of the RNA (often mRNA) or mRNA translational repression, usually accompanied by poly-A tail shortening and subsequent degradation of the mRNA. miRNAs are present in all the animals and in plants, whereas siRNAs are present in lower animals and in plants.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0035195> "gene silencing by miRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0035195> "gene silencing by microRNA")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0035195> "microRNA-mediated gene silencing")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0035195> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0035195> "miRNA-mediated post-transcriptional gene silencing")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0035195> <http://purl.obolibrary.org/obo/GO_0035194>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0035592> (establishment of protein localization to extracellular region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0035592> "The directed movement of a protein to a specific location within the extracellular region.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0035592> "establishment of protein localisation in extracellular region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0035592> "establishment of protein localization in extracellular region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0035592> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0035592> "establishment of protein localization to extracellular region")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0035592> <http://purl.obolibrary.org/obo/GO_0008104>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0035592> <http://purl.obolibrary.org/obo/GO_0045184>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0036094> (small molecule binding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0036094> "Binding to a small molecule, any low molecular weight, monomeric, non-encoded molecule.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0036094> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0036094> "small molecule binding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0036094> <http://purl.obolibrary.org/obo/GO_0005488>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0036211> (protein modification process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0036211> "The covalent alteration of one or more amino acids occurring in proteins, peptides and nascent polypeptides (co-translational, post-translational modifications). Includes the modification of charged tRNAs that are destined to occur in a protein (pre-translation modification).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0036211> "cellular protein modification process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0036211> "process resulting in protein modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0036211> "protein modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0036211> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0036211> "protein modification process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0036211> <http://purl.obolibrary.org/obo/GO_0019538>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0036211> <http://purl.obolibrary.org/obo/GO_0043412>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0042101> (T cell receptor complex)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0042101> "A protein complex that contains a disulfide-linked heterodimer of T cell receptor (TCR) chains, which are members of the immunoglobulin superfamily, and mediates antigen recognition, ultimately resulting in T cell activation. The TCR heterodimer is associated with the CD3 complex, which consists of the nonpolymorphic polypeptides gamma, delta, epsilon, zeta, and, in some cases, eta (an RNA splice variant of zeta) or Fc epsilon chains.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0042101> "T lymphocyte receptor complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0042101> "T-cell receptor complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0042101> "T-lymphocyte receptor complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0042101> "TCR complex")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0042101> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0042101> "T cell receptor complex")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0042101> <http://purl.obolibrary.org/obo/GO_0098802>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0042571> (immunoglobulin complex, circulating)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0042571> "An immunoglobulin complex that is secreted into extracellular space and found in mucosal areas or other tissues or circulating in the blood or lymph. In its canonical form, a circulating immunoglobulin complex is composed of two identical heavy chains and two identical light chains, held together by disulfide bonds. Some forms of are polymers of the basic structure and contain additional components such as J-chain and the secretory component.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0042571> "antibody")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0042571> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0042571> "immunoglobulin complex, circulating")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0042571> <http://purl.obolibrary.org/obo/GO_0019814>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0043043> (peptide biosynthetic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043043> "The chemical reactions and pathways resulting in the formation of peptides, compounds of 2 or more (but usually less than 100) amino acids where the alpha carboxyl group of one is bound to the alpha amino group of another. This may include the translation of a precursor protein and its subsequent processing into a functional peptide.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043043> "peptide anabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043043> "peptide biosynthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043043> "peptide formation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043043> "peptide synthesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0043043> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043043> "peptide biosynthetic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043043> <http://purl.obolibrary.org/obo/GO_0008152>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043043> <http://purl.obolibrary.org/obo/GO_0009058>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0043170> (macromolecule metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043170> "The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043170> "biopolymer metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043170> "macromolecule metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043170> "multicellular organismal macromolecule metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043170> "organismal macromolecule metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0043170> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043170> "macromolecule metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043170> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0043226> (organelle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043226> "Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0043226> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043226> "organelle")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043226> <http://purl.obolibrary.org/obo/GO_0110165>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0043227> (membrane-bounded organelle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043227> "Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043227> "membrane-enclosed organelle")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0043227> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043227> "membrane-bounded organelle")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043227> <http://purl.obolibrary.org/obo/GO_0043226>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0043229> (intracellular organelle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043229> "Organized structure of distinctive morphology and function, occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0043229> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043229> "intracellular organelle")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043229> <http://purl.obolibrary.org/obo/GO_0043226>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0043231> (intracellular membrane-bounded organelle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043231> "Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane and occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043231> "intracellular membrane-enclosed organelle")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0043231> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043231> "intracellular membrane-bounded organelle")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043231> <http://purl.obolibrary.org/obo/GO_0043227>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043231> <http://purl.obolibrary.org/obo/GO_0043229>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0043232> (intracellular membraneless organelle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043232> "Organized structure of distinctive morphology and function, not bounded by a lipid bilayer membrane and occurring within the cell. Includes ribosomes, the cytoskeleton and chromosomes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043232> "intracellular non-membrane-bounded organelle")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043232> "intracellular non-membrane-enclosed organelle")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0043232> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043232> "intracellular membraneless organelle")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043232> <http://purl.obolibrary.org/obo/GO_0043226>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043232> <http://purl.obolibrary.org/obo/GO_0043229>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0043412> (macromolecule modification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043412> "The covalent alteration of one or more monomeric units in a polypeptide, polynucleotide, polysaccharide, or other biological macromolecule, resulting in a change in its properties.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0043412> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043412> "macromolecule modification")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043412> <http://purl.obolibrary.org/obo/GO_0043170>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0043687> (post-translational protein modification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0043687> "The process of covalently altering one or more amino acids in a protein after the protein has been completely translated and released from the ribosome.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043687> "PTM")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043687> "post-translational amino acid modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043687> "post-translational modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043687> "posttranslational amino acid modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043687> "posttranslational modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0043687> "posttranslational protein modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0043687> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0043687> "post-translational protein modification")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0043687> <http://purl.obolibrary.org/obo/GO_0036211>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0044238> (primary metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0044238> "The chemical reactions and pathways involving those compounds which are formed as a part of the normal anabolic and catabolic processes. These processes take place in most, if not all, cells of the organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0044238> "primary metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0044238> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0044238> "primary metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0044238> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0045184> (establishment of protein localization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0045184> "The directed movement of a protein to a specific location.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0045184> "establishment of protein localisation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0045184> "protein positioning")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0045184> "protein recruitment")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0045184> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0045184> "establishment of protein localization")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0045184> <http://purl.obolibrary.org/obo/GO_0008104>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0045184> <http://purl.obolibrary.org/obo/GO_0051234>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0046872> (metal ion binding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0046872> "Binding to a metal ion.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0046872> "heavy metal binding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0046872> "metal binding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0046872> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0046872> "metal ion binding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0046872> <http://purl.obolibrary.org/obo/GO_0036094>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0048468> (cell development)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0048468> "The cellular developmental process in which a specific cell progresses from an immature to a mature state. Cell development start once cell commitment has taken place.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0048468> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048468> "cell development")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048468> <http://purl.obolibrary.org/obo/GO_0048856>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048468> <http://purl.obolibrary.org/obo/GO_0048869>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0048513> (animal organ development)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0048513> "Development of a tissue or tissues that work together to perform a specific function or functions. Development pertains to the process whose specific outcome is the progression of a structure over time, from its formation to the mature structure. Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0048513> "development of an organ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0048513> "organogenesis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0048513> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048513> "animal organ development")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048513> <http://purl.obolibrary.org/obo/GO_0048856>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0048523> (negative regulation of cellular process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0048523> "Any process that stops, prevents, or reduces the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0048523> "down regulation of cellular process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0048523> "down-regulation of cellular process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0048523> "downregulation of cellular process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0048523> "inhibition of cellular process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0048523> "negative regulation of cellular physiological process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0048523> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048523> "negative regulation of cellular process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048523> <http://purl.obolibrary.org/obo/GO_0050789>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048523> <http://purl.obolibrary.org/obo/GO_0050794>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0048856> (anatomical structure development)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0048856> "The biological process whose specific outcome is the progression of an anatomical structure from an initial condition to its mature state. This process begins with the formation of the structure and ends with the mature structure, whatever form that may be including its natural destruction. An anatomical structure is any biological entity that occupies space and is distinguished from its surroundings. Anatomical structures can be macroscopic such as a carpel, or microscopic such as an acrosome.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0048856> "development of an anatomical structure")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0048856> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048856> "anatomical structure development")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048856> <http://purl.obolibrary.org/obo/GO_0032502>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0048869> (cellular developmental process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0048869> "A biological process whose specific outcome is the progression of a cell over time from an initial condition to a later condition.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0048869> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0048869> "cellular developmental process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048869> <http://purl.obolibrary.org/obo/GO_0009987>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0048869> <http://purl.obolibrary.org/obo/GO_0032502>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0050693> (LBD domain binding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0050693> "Binding to a protein's ligand binding domain (LBD) domain, found in nuclear receptors. In general, the LBDs consist of three layers comprised of twelve alpha-helices and several beta-strands that are organized around a lipophilic ligand-binding pocket.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0050693> "ligand binding domain binding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0050693> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0050693> "LBD domain binding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0050693> <http://purl.obolibrary.org/obo/GO_0005515>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0050789> (regulation of biological process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0050789> "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0050789> "regulation of physiological process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0050789> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0050789> "regulation of biological process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0050789> <http://purl.obolibrary.org/obo/GO_0065007>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0050794> (regulation of cellular process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0050794> "Any process that modulates the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0050794> "regulation of cellular physiological process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0050794> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0050794> "regulation of cellular process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0050794> <http://purl.obolibrary.org/obo/GO_0050789>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0050877> (nervous system process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0050877> "An organ system process carried out by any of the organs or tissues of the neurological system.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0050877> "neurological system process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0050877> "neurophysiological process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0050877> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0050877> "nervous system process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0050877> <http://purl.obolibrary.org/obo/GO_0032501>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0050890> (cognition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0050890> "The operation of the mind by which an organism becomes aware of objects of thought or perception; it includes the mental activities associated with thinking, learning, and memory.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0050890> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0050890> "cognition")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0050890> <http://purl.obolibrary.org/obo/GO_0050877>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0050909> (sensory perception of taste)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0050909> "The series of events required for an organism to receive a gustatory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Gustation involves the direct detection of chemical composition, usually through contact with chemoreceptor cells. This is a neurological process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0050909> "gustation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0050909> "sense of taste")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0050909> "taste")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0050909> "taste perception")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0050909> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0050909> "sensory perception of taste")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0050909> <http://purl.obolibrary.org/obo/GO_0007606>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0051087> (protein-folding chaperone binding)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0051087> "Binding to a chaperone protein, a class of proteins that bind to nascent or unfolded polypeptides and ensure correct folding or transport.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051087> "chaperone protein binding")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0051087> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051087> "protein-folding chaperone binding")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051087> <http://purl.obolibrary.org/obo/GO_0005515>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0051179> (localization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0051179> "Any process in which a cell, a substance, or a cellular entity, such as a protein complex or organelle, is transported, tethered to or otherwise maintained in a specific location. In the case of substances, localization may also be achieved via selective degradation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051179> "establishment and maintenance of cellular component location")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051179> "establishment and maintenance of localization")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051179> "establishment and maintenance of position")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051179> "establishment and maintenance of substance location")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051179> "establishment and maintenance of substrate location")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051179> "localisation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0051179> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051179> "localization")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051179> <http://purl.obolibrary.org/obo/GO_0008150>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0051234> (establishment of localization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0051234> "Any process that localizes a substance or cellular component. This may occur via movement, tethering or selective degradation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051234> "establishment of localisation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0051234> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051234> "establishment of localization")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051234> <http://purl.obolibrary.org/obo/GO_0051179>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0051246> (regulation of protein metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0051246> "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving a protein.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051246> "regulation of protein metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0051246> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051246> "regulation of protein metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051246> <http://purl.obolibrary.org/obo/GO_0060255>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051246> <http://purl.obolibrary.org/obo/GO_0080090>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0051252> (regulation of RNA metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0051252> "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving RNA.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051252> "regulation of RNA metabolism")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0051252> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051252> "regulation of RNA metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051252> <http://purl.obolibrary.org/obo/GO_0060255>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051252> <http://purl.obolibrary.org/obo/GO_0080090>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0051301> (cell division)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0051301> "The process resulting in division and partitioning of components of a cell to form more cells; may or may not be accompanied by the physical separation of a cell into distinct, individually membrane-bounded daughter cells.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0051301> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051301> "cell division")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051301> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0051641> (cellular localization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0051641> "A cellular localization process whereby a substance or cellular entity, such as a protein complex or organelle, is transported to, and/or maintained in, a specific location within a cell including the localization of substances or cellular entities to the cell membrane.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051641> "cellular localisation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051641> "establishment and maintenance of cellular localization")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051641> "establishment and maintenance of localization in cell or cell membrane")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051641> "intracellular localization")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051641> "localization within cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0051641> "single organism cellular localization")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0051641> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051641> "cellular localization")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051641> <http://purl.obolibrary.org/obo/GO_0009987>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0051641> <http://purl.obolibrary.org/obo/GO_0051179>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0060255> (regulation of macromolecule metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0060255> "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0060255> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0060255> "regulation of macromolecule metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0060255> <http://purl.obolibrary.org/obo/GO_0019222>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0060293> (germ plasm)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0060293> "Differentiated cytoplasm associated with a pole of an oocyte, egg or early embryo that will be inherited by the cells that will give rise to the germ line.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0060293> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0060293> "germ plasm")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0060293> <http://purl.obolibrary.org/obo/GO_0110165>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0065007> (biological regulation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0065007> "Any process that modulates a measurable attribute of any biological process, quality or function.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0065007> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0065007> "biological regulation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0065007> <http://purl.obolibrary.org/obo/GO_0008150>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0065010> (extracellular membrane-bounded organelle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0065010> "Organized structure of distinctive morphology and function, bounded by a lipid bilayer membrane and occurring outside the cell.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0065010> "extracellular membrane-enclosed organelle")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0065010> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0065010> "extracellular membrane-bounded organelle")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0065010> <http://purl.obolibrary.org/obo/GO_0043226>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0065010> <http://purl.obolibrary.org/obo/GO_0043227>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0070062> (extracellular exosome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0070062> "A vesicle that is released into the extracellular region by fusion of the limiting endosomal membrane of a multivesicular body with the plasma membrane. Extracellular exosomes, also simply called exosomes, have a diameter of about 40-100 nm.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0070062> "exosome")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0070062> "extracellular vesicular exosome")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0070062> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0070062> "extracellular exosome")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0070062> <http://purl.obolibrary.org/obo/GO_1903561>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0070085> (glycosylation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0070085> "The covalent attachment and further modification of carbohydrate residues to a substrate molecule.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0070085> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0070085> "glycosylation")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0070085> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0070727> (cellular macromolecule localization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0070727> "Any process in which a macromolecule is transported to, and/or maintained in, a specific location at the level of a cell. Localization at the cellular level encompasses movement within the cell, from within the cell to the cell surface, or from one location to another at the surface of a cell.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0070727> "cellular macromolecule localisation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0070727> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0070727> "cellular macromolecule localization")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0070727> <http://purl.obolibrary.org/obo/GO_0051179>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0070727> <http://purl.obolibrary.org/obo/GO_0051641>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0080090> (regulation of primary metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0080090> "Any process that modulates the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism involving those compounds formed as a part of the normal anabolic and catabolic processes. These processes take place in most, if not all, cells of the organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0080090> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0080090> "regulation of primary metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0080090> <http://purl.obolibrary.org/obo/GO_0019222>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0090304> (nucleic acid metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0090304> "Any cellular metabolic process involving nucleic acids.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0090304> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0090304> "nucleic acid metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0090304> <http://purl.obolibrary.org/obo/GO_0043170>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0090304> <http://purl.obolibrary.org/obo/GO_0044238>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0098687> (chromosomal region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0098687> "Any subdivision of a chromosome along its length.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0098687> "chromosome region")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0098687> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0098687> "chromosomal region")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0098687> <http://purl.obolibrary.org/obo/GO_0110165>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0098802> (plasma membrane signaling receptor complex)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0098802> "Any protein complex that is part of the plasma membrane and which functions as a signaling receptor.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0098802> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0098802> "plasma membrane signaling receptor complex")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0098802> <http://purl.obolibrary.org/obo/GO_0032991>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0110165> (cellular anatomical structure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0110165> "A part of a cellular organism consisting of a material entity with granularity above the level of a protein complex but below that of an anatomical system. Note that cellular organisms exclude viruses.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0110165> "cellular anatomical entity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0110165> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0110165> "cellular anatomical structure")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0110165> <http://purl.obolibrary.org/obo/GO_0005575>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0140013> (meiotic nuclear division)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0140013> "One of the two nuclear divisions that occur as part of the meiotic cell cycle.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_0140013> "meiosis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0140013> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0140013> "meiotic nuclear division")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140013> <http://purl.obolibrary.org/obo/GO_0016043>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140013> <http://purl.obolibrary.org/obo/GO_1903046>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0140352> (export from cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0140352> "The directed movement of some substance from a cell, into the extracellular region. This may occur via transport across the plasma membrane or via exocytosis.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_0140352> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0140352> "export from cell")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140352> <http://purl.obolibrary.org/obo/GO_0006810>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0140352> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_1901873> (regulation of post-translational protein modification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_1901873> "Any process that modulates the frequency, rate or extent of post-translational protein modification.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_1901873> "regulation of PTM")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_1901873> "regulation of post-translational amino acid modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_1901873> "regulation of post-translational modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_1901873> "regulation of posttranslational amino acid modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_1901873> "regulation of posttranslational modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_1901873> "regulation of posttranslational protein modification")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_1901873> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1901873> "regulation of post-translational protein modification")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_1901873> <http://purl.obolibrary.org/obo/GO_0051246>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_1903046> (meiotic cell cycle process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_1903046> "A process that is part of the meiotic cell cycle.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_1903046> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1903046> "meiotic cell cycle process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_1903046> <http://purl.obolibrary.org/obo/GO_0008150>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_1903046> <http://purl.obolibrary.org/obo/GO_0009987>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_1903561> (extracellular vesicle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_1903561> "Any vesicle that is part of the extracellular region.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_1903561> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_1903561> "extracellular vesicle")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_1903561> <http://purl.obolibrary.org/obo/GO_0031982>)
+SubClassOf(<http://purl.obolibrary.org/obo/GO_1903561> <http://purl.obolibrary.org/obo/GO_0065010>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_2000628> (regulation of miRNA metabolic process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_2000628> "Any process that modulates the frequency, rate or extent of miRNA metabolic process.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/GO_2000628> "regulation of microRNA metabolic process")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/GO_2000628> <http://purl.obolibrary.org/obo/go.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_2000628> "regulation of miRNA metabolic process")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_2000628> <http://purl.obolibrary.org/obo/GO_0051252>)
+
+
+)

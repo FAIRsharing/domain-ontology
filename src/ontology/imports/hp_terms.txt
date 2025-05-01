@@ -1,0 +1,3 @@
+http://purl.obolibrary.org/obo/HP_0001428 # Somatic mutation
+http://purl.obolibrary.org/obo/HP_0002664 # Tumor
+http://purl.obolibrary.org/obo/HP_0010984 # Digenic inheritance

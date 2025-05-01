@@ -1,0 +1,3 @@
+http://purl.obolibrary.org/obo/MP_0002555 # Addiction
+http://purl.obolibrary.org/obo/MP_0003935 # Abnormal craniofacial development
+http://purl.obolibrary.org/obo/MP_0005382 # Craniofacial phenotype

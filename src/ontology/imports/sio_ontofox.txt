@@ -1,0 +1,51 @@
+#### NOTES ON SIO IMPORT ####
+##
+## While SIO shares a similar hierarchy and naming scheme
+## with various parts of BFO, they use their own SIO IRIs.
+## Therefore we are overriding the top-level SIO and placing
+## our required classes within the BFO and IAO hierarchy to
+## align with the rest of DRAO.
+##
+
+[Source ontology]
+SIO
+
+[Low level source term URIs]
+http://semanticscience.org/resource/SIO_000398 # Nurse
+http://semanticscience.org/resource/SIO_000510 # Model
+http://semanticscience.org/resource/SIO_000983 # Gene-disease association
+http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
+http://semanticscience.org/resource/SIO_000998 # Literature curation
+http://semanticscience.org/resource/SIO_001008 # Toxicity
+http://semanticscience.org/resource/SIO_001257 # Chemical-gene association
+http://semanticscience.org/resource/SIO_010423 # Target
+
+[Top level source term URIs and target direct superclass URIs]
+http://semanticscience.org/resource/SIO_000716 # medical practitioner
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
+http://semanticscience.org/resource/SIO_000998 # Literature curation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000572 # Documenting
+http://semanticscience.org/resource/SIO_001008 # Toxicity
+subClassOf http://purl.obolibrary.org/obo/PATO_0001018 # Physical quality
+http://semanticscience.org/resource/SIO_010423 # Target
+subClassOf http://purl.obolibrary.org/obo/CHEBI_23367 # Molecular entity
+http://semanticscience.org/resource/SIO_000983 # Gene-disease association
+subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
+http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
+subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
+http://semanticscience.org/resource/SIO_001257 # Chemical-gene association
+subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
+http://semanticscience.org/resource/SIO_000510 # Model
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.org/dc/elements/1.1/description
+mapTo http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.org/dc/terms/alternativeName
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.org/dc/elements/1.1/alternativeName
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

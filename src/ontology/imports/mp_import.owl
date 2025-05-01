@@ -1,0 +1,70 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/mp_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/mp_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/mp_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0002555>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0003935>))
+Declaration(Class(<http://purl.obolibrary.org/obo/MP_0005382>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OGMS_0000023>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/MP_0000001> (mammalian phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0000001> "the observable morphological, physiological, behavioral and other characteristics of mammalian organisms that are manifested through development and lifespan")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MP_0000001> <http://purl.obolibrary.org/obo/mp.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0000001> "mammalian phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0000001> <http://purl.obolibrary.org/obo/OGMS_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0002555> (addiction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0002555> "strong dependence on an addictive compound such as alcohol or narcotics that results in uncontrollable cravings for such compounds")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MP_0002555> <http://purl.obolibrary.org/obo/mp.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0002555> "addiction")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0002555> <http://purl.obolibrary.org/obo/MP_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0003935> (abnormal craniofacial development)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0003935> "anomaly in the process of forming the face and/or cranium")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MP_0003935> <http://purl.obolibrary.org/obo/mp.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0003935> "abnormal craniofacial development")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0003935> <http://purl.obolibrary.org/obo/MP_0005382>)
+
+# Class: <http://purl.obolibrary.org/obo/MP_0005382> (craniofacial phenotype)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/MP_0005382> "the observable morphological and physiological characteristics of the face or head of a mammalian organism that are manifested through development and lifespan")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/MP_0005382> <http://purl.obolibrary.org/obo/mp.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/MP_0005382> "craniofacial phenotype")
+SubClassOf(<http://purl.obolibrary.org/obo/MP_0005382> <http://purl.obolibrary.org/obo/MP_0000001>)
+
+
+)

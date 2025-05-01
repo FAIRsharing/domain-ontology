@@ -1,0 +1,42 @@
+### NOTES ON CHMO IMPORT ####
+##
+## includeAllIntermediates has been enabled
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+## Only part of the BFO hierarchy is used (no 'independent
+## continuant' in CHMO)
+##
+
+[Source ontology]
+CHMO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHMO_0000067 # Microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068 # Electron microscopy
+http://purl.obolibrary.org/obo/CHMO_0000102 # Optical microscopy
+http://purl.obolibrary.org/obo/CHMO_0000156 # X-ray diffraction
+http://purl.obolibrary.org/obo/CHMO_0000228 # Spectroscopy
+http://purl.obolibrary.org/obo/CHMO_0000591 # Nuclear Magnetic Resonance spectroscopy
+http://purl.obolibrary.org/obo/CHMO_0000656 # Raman spectroscopy
+http://purl.obolibrary.org/obo/CHMO_0000800 # Spectrum
+http://purl.obolibrary.org/obo/CHMO_0001000 # Chromatography
+http://purl.obolibrary.org/obo/CHMO_0001002 # Gas chromatography
+http://purl.obolibrary.org/obo/CHMO_0001112 # Super-resolution bright-field microscopy
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000015 # process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000003 # occurrent **required for proper BFO hierarchy**
+http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000004 # independent continuant
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

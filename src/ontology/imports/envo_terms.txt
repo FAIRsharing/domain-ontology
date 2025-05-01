@@ -1,0 +1,9 @@
+http://purl.obolibrary.org/obo/ENVO_00002034 # Biofilm
+http://purl.obolibrary.org/obo/ENVO_00010483 # Environmental material
+http://purl.obolibrary.org/obo/ENVO_01000049 # Marine coral reef biome
+http://purl.obolibrary.org/obo/ENVO_01000204 # Tropical
+http://purl.obolibrary.org/obo/ENVO_01000320 # Marine environment
+http://purl.obolibrary.org/obo/ENVO_01000839 # Combustion
+http://purl.obolibrary.org/obo/ENVO_01001023 # Radiation
+http://purl.obolibrary.org/obo/ENVO_01001082 # Climate
+http://purl.obolibrary.org/obo/ENVO_01001110 # Ecosystem

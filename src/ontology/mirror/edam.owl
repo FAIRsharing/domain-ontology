@@ -1,0 +1,1896 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/kve35mco.owl#"
+     xml:base="http://ontofox.hegroup.org/kve35mco.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:resource="http://semanticscience.org/resource/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:edamontology="http://edamontology.org/"
+     xmlns:efo="http://www.ebi.ac.uk/efo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/kve35mco.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://edamontology.org/data_0846 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0846">
+        <rdfs:label>Chemical formula</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2050"/>
+        <obo:IAO_0000115>A specification of a chemical structure.</obo:IAO_0000115>
+        <obo:IAO_0000118>Chemical structure specification</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0880 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0880">
+        <rdfs:label>RNA secondary structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0883"/>
+        <obo:IAO_0000118>Secondary structure (RNA)</obo:IAO_0000118>
+        <obo:IAO_0000115>An informative report of secondary structure (predicted or real) of an RNA molecule.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0883 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0883">
+        <rdfs:label>Structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000141"/>
+        <obo:IAO_0000118>Coordinate model</obo:IAO_0000118>
+        <obo:IAO_0000118>Structure data</obo:IAO_0000118>
+        <obo:IAO_0000115>3D coordinate and associated data for a macromolecular tertiary (3D) structure or part of a structure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0912 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0912">
+        <rdfs:label>Nucleic acid property</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2087"/>
+        <obo:IAO_0000118>Nucleic acid property (structural)</obo:IAO_0000118>
+        <obo:IAO_0000118>GC-content</obo:IAO_0000118>
+        <obo:IAO_0000118>Nucleic acid structural property</obo:IAO_0000118>
+        <obo:IAO_0000115>A report of primarily non-positional data describing intrinsic physical, chemical or other properties of a nucleic acid molecule.</obo:IAO_0000115>
+        <obo:IAO_0000118>Nucleic acid physicochemical property</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0916 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0916">
+        <rdfs:label>Gene report</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
+        <obo:IAO_0000118>Gene and transcript structure (report)</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene function (report)</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene features report</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene structure (repot)</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene annotation</obo:IAO_0000118>
+        <obo:IAO_0000115>A report on predicted or actual gene structure, regions which make an RNA product and features such as promoters, coding regions, splice sites etc.</obo:IAO_0000115>
+        <obo:IAO_0000118>Nucleic acid features (gene and transcript structure)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0939 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0939">
+        <rdfs:label>CD spectra</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000800"/>
+        <obo:IAO_0000115>Protein secondary structure from protein coordinate or circular dichroism (CD) spectroscopic data.</obo:IAO_0000115>
+        <obo:IAO_0000118>Protein circular dichroism (CD) spectroscopic data</obo:IAO_0000118>
+        <obo:IAO_0000118>CD spectrum</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0942 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0942">
+        <rdfs:label>2D PAGE image</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000101"/>
+        <obo:IAO_0000115>Two-dimensional gel electrophoresis image.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0943 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0943">
+        <rdfs:label>Mass spectrum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000800"/>
+        <obo:IAO_0000115>Spectra from mass spectrometry.</obo:IAO_0000115>
+        <obo:IAO_0000118>Mass spectrometry spectra</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0945 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0945">
+        <rdfs:label>Peptide identification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2087"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2979"/>
+        <obo:IAO_0000118>&#39;Protein identification&#39;</obo:IAO_0000118>
+        <obo:IAO_0000115>Protein or peptide identifications with evidence supporting the identifications, for example from comparing a peptide mass fingerprint (from mass spectrometry) to a sequence database, or the set of typical spectra one obtains when running a protein through a mass spectrometer.</obo:IAO_0000115>
+        <obo:IAO_0000118>Peptide spectrum match</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0970 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0970">
+        <rdfs:label>Citation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+        <obo:IAO_0000118>Reference</obo:IAO_0000118>
+        <obo:IAO_0000115>Bibliographic data that uniquely identifies a scientific article, book or other published material.</obo:IAO_0000115>
+        <obo:IAO_0000118>Bibliographic reference</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0976 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0976">
+        <rdfs:label>Identifier (by type of entity)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000115>An identifier that identifies a particular type of data.</obo:IAO_0000115>
+        <obo:IAO_0000118>Identifier (typed)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0982 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0982">
+        <rdfs:label>Molecule identifier</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0976"/>
+        <obo:IAO_0000115>Name or other identifier of a molecule.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0984 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0984">
+        <rdfs:label>Molecule name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0982"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2099"/>
+        <obo:IAO_0000115>Name of a specific molecule.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0989 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0989">
+        <rdfs:label>Protein identifier</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0982"/>
+        <obo:IAO_0000115>Identifier of a protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0990 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0990">
+        <rdfs:label>Compound name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0984"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1086"/>
+        <obo:IAO_0000115>Unique name of a chemical compound.</obo:IAO_0000115>
+        <obo:IAO_0000118>Chemical name</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_0993 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_0993">
+        <rdfs:label>Drug identifier</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1086"/>
+        <obo:IAO_0000115>Identifier of a drug.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1009 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1009">
+        <rdfs:label>Protein name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0984"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0989"/>
+        <obo:IAO_0000115>Name of a protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1011 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1011">
+        <rdfs:label>EC number</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2091"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2321"/>
+        <obo:IAO_0000118>EC</obo:IAO_0000118>
+        <obo:IAO_0000118>EC code</obo:IAO_0000118>
+        <obo:IAO_0000115>An Enzyme Commission (EC) number of an enzyme.</obo:IAO_0000115>
+        <obo:IAO_0000118>Enzyme Commission number</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1016 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1016">
+        <rdfs:label>Sequence position</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
+        <obo:IAO_0000115>A position of one or more points (base or residue) in a sequence, or part of such a specification.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1086 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1086">
+        <rdfs:label>Compound identifier</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0982"/>
+        <obo:IAO_0000115>Identifier of an entry from a database of chemicals.</obo:IAO_0000115>
+        <obo:IAO_0000118>Small molecule identifier</obo:IAO_0000118>
+        <obo:IAO_0000118>Compound ID</obo:IAO_0000118>
+        <obo:IAO_0000118>Chemical compound identifier</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1235 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1235">
+        <rdfs:label>Sequence cluster</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <obo:IAO_0000115>A set of sequences that have been clustered or otherwise classified as belonging to a group including (typically) sequence cluster information.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1238 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1238">
+        <rdfs:label>Proteolytic digest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <obo:IAO_0000115>A protein sequence cleaved into peptide fragments (by enzymatic or chemical cleavage) with fragment masses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1240 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1240">
+        <rdfs:label>PCR primers</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <obo:IAO_0000115>Oligonucleotide primer(s) for PCR and DNA amplification, for example a minimal primer set.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1249 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1249">
+        <rdfs:label>Sequence length</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
+        <obo:IAO_0000115>The size (length) of a sequence, subsequence or region in a sequence, or range(s) of lengths.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1274 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1274">
+        <rdfs:label>Map</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000118>DNA map</obo:IAO_0000118>
+        <obo:IAO_0000115>A map of (typically one) DNA sequence annotated with positional or non-positional features.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1278 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1278">
+        <rdfs:label>Genetic map</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1274"/>
+        <obo:IAO_0000115>A map showing the relative positions of genetic markers in a nucleic acid sequence, based on estimation of non-physical distance such as recombination frequencies.</obo:IAO_0000115>
+        <obo:IAO_0000118>Linkage map</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1280 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1280">
+        <rdfs:label>Physical map</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1274"/>
+        <obo:IAO_0000115>A map of DNA (linear or circular) annotated with physical features or landmarks such as restriction sites, cloned DNA fragments, genes or genetic markers, along with the physical distances between them.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1283 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1283">
+        <rdfs:label>Cytogenetic map</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1280"/>
+        <obo:IAO_0000118>Chromosome map</obo:IAO_0000118>
+        <obo:IAO_0000118>Cytogenic map</obo:IAO_0000118>
+        <obo:IAO_0000118>Cytologic map</obo:IAO_0000118>
+        <obo:IAO_0000115>A map showing banding patterns derived from direct observation of a stained chromosome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1288 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1288">
+        <rdfs:label>Genome map</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1280"/>
+        <obo:IAO_0000115>Sequence map of a whole genome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1364 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1364">
+        <rdfs:label>Hidden Markov model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000510"/>
+        <obo:IAO_0000115>A statistical Markov model of a system which is assumed to be a Markov process with unobserved (hidden) states. For example, a hidden Markov model representation of a set or alignment of sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>HMM</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1383 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1383">
+        <rdfs:label>Nucleic acid sequence alignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
+        <obo:IAO_0000118>RNA sequence alignment</obo:IAO_0000118>
+        <obo:IAO_0000118>DNA sequence alignment</obo:IAO_0000118>
+        <obo:IAO_0000115>Alignment of multiple nucleotide sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>Sequence alignment (nucleic acid)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1413 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1413">
+        <rdfs:label>Sequence similarity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>Sequence similarity is the similarity (expressed as a percentage) of two molecular sequences calculated from their alignment, a scoring matrix for scoring characters substitutions and penalties for gap insertion and extension.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1460 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1460">
+        <rdfs:label>Protein structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0883"/>
+        <obo:IAO_0000118>Protein structures</obo:IAO_0000118>
+        <obo:IAO_0000115>3D coordinate and associated data for a protein tertiary (3D) structure, or part of a structure, possibly in complex with other molecules.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1468 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1468">
+        <rdfs:label>Protein domain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_1460"/>
+        <obo:IAO_0000115>3D coordinate and associated data for the tertiary (3D) structure of a protein domain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1479 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1479">
+        <rdfs:label>Structure alignment (pair)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
+        <obo:IAO_0000118>Pair structure alignment</obo:IAO_0000118>
+        <obo:IAO_0000115>Alignment (superimposition) of exactly two molecular tertiary (3D) structures.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1597 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1597">
+        <rdfs:label>Codon usage table</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>Table of codon usage data calculated from one or more nucleic acid sequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1696 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1696">
+        <rdfs:label>Drug report</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
+        <obo:IAO_0000118>Drug structure relationship map</obo:IAO_0000118>
+        <obo:IAO_0000115>A human-readable collection of information about a specific drug.</obo:IAO_0000115>
+        <obo:IAO_0000118>Drug annotation</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1712 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1712">
+        <rdfs:label>Chemical structure image</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000101"/>
+        <obo:IAO_0000118>Small molecule structure image</obo:IAO_0000118>
+        <obo:IAO_0000118>Chemical structure sketch</obo:IAO_0000118>
+        <obo:IAO_0000118>Small molecule sketch</obo:IAO_0000118>
+        <obo:IAO_0000115>An image of the structure of a small chemical compound.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1743 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1743">
+        <rdfs:label>Atomic coordinate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2087"/>
+        <obo:IAO_0000115>Cartesian coordinate of an atom (in a molecular structure).</obo:IAO_0000115>
+        <obo:IAO_0000118>Cartesian coordinate</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_1872 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_1872">
+        <rdfs:label>Taxonomic classification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2909"/>
+        <obo:IAO_0000118>Taxonomic name</obo:IAO_0000118>
+        <obo:IAO_0000118>Taxonomic information</obo:IAO_0000118>
+        <obo:IAO_0000115>The full name for a group of organisms, reflecting their biological classification and (usually) conforming to a standard nomenclature.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2042 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2042">
+        <rdfs:label>Evidence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>Typically a human-readable summary of body of facts or information indicating why a statement is true or valid. This may include a computational prediction, laboratory experiment, literature reference etc.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2050 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2050">
+        <rdfs:label>Molecular property (general)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2087"/>
+        <obo:IAO_0000115>General data for a molecule.</obo:IAO_0000115>
+        <obo:IAO_0000118>General molecular property</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2087 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2087">
+        <rdfs:label>Molecular property</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>A report on the physical (e.g. structural) or chemical properties of molecules, or parts of a molecule.</obo:IAO_0000115>
+        <obo:IAO_0000118>Physicochemical property</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2091 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2091">
+        <rdfs:label>Accession</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000115>A persistent (stable) and unique identifier, typically identifying an object (entry) from a database.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2099 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2099">
+        <rdfs:label>Name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000118>Symbolic name</obo:IAO_0000118>
+        <obo:IAO_0000115>A name of a thing, which need not necessarily uniquely identify it.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2140 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2140">
+        <rdfs:label>Concentration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2050"/>
+        <obo:IAO_0000115>The concentration of a chemical compound.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2299 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2299">
+        <rdfs:label>Gene name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0976"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2099"/>
+        <obo:IAO_0000115>The name of a gene, (typically) assigned by a person and/or according to a naming scheme. It may contain white space characters and is typically more intuitive and readable than a gene symbol. It (typically) may be used to identify similar genes in different species and to derive a gene symbol.</obo:IAO_0000115>
+        <obo:IAO_0000118>Allele name</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2321 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2321">
+        <rdfs:label>Enzyme ID</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0989"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2907"/>
+        <obo:IAO_0000118>Enzyme accession</obo:IAO_0000118>
+        <obo:IAO_0000115>A unique, persistent identifier of an enzyme.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2337 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2337">
+        <rdfs:label>Resource metadata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
+        <obo:IAO_0000118>Provenance metadata</obo:IAO_0000118>
+        <obo:IAO_0000115>Data concerning or describing some core computational resource, as distinct from primary data. This includes metadata on the origin, source, history, ownership or location of some thing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2603 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2603">
+        <rdfs:label>Expression data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000793"/>
+        <obo:IAO_0000118>Transcriptome quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene product quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>Non-coding RNA profile</obo:IAO_0000118>
+        <obo:IAO_0000118>Microarray data</obo:IAO_0000118>
+        <obo:IAO_0000118>RNA-seq data</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene expression data</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein expression data</obo:IAO_0000118>
+        <obo:IAO_0000118>Metabolite expression data</obo:IAO_0000118>
+        <obo:IAO_0000118>Non-coding RNA quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene transcription quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>RNA profile</obo:IAO_0000118>
+        <obo:IAO_0000115>Image, hybridisation or some other data arising from a study of feature/molecule expression, typically profiling or quantification.</obo:IAO_0000115>
+        <obo:IAO_0000118>Gene transcription profile</obo:IAO_0000118>
+        <obo:IAO_0000118>Transcriptome profile</obo:IAO_0000118>
+        <obo:IAO_0000118>RNA quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>mRNA quantification data</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene product profile</obo:IAO_0000118>
+        <obo:IAO_0000118>mRNA profile</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2717 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2717">
+        <rdfs:label>Oligonucleotide probe annotation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2603"/>
+        <obo:IAO_0000115>General annotation on an oligonucleotide probe, or a set of probes.</obo:IAO_0000115>
+        <obo:IAO_0000118>Oligonucleotide probe sets annotation</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2849 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2849">
+        <rdfs:label>Abstract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+        <obo:IAO_0000115>An abstract of a scientific article.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2851 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2851">
+        <rdfs:label>Drug structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0883"/>
+        <obo:IAO_0000115>3D coordinate and associated data for the (3D) structure of a drug.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2899 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2899">
+        <rdfs:label>Drug name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0990"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0993"/>
+        <obo:IAO_0000115>Common name of a drug.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2907 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2907">
+        <rdfs:label>Protein accession</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0982"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0989"/>
+        <obo:IAO_0000115>Accession of a protein deposited in a database.</obo:IAO_0000115>
+        <obo:IAO_0000118>Protein accessions</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2909 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2909">
+        <rdfs:label>Organism name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0976"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2099"/>
+        <obo:IAO_0000115>The name of an organism (or group of organisms).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2977 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2977">
+        <rdfs:label>Nucleic acid sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000118>Nucleotide sequences</obo:IAO_0000118>
+        <obo:IAO_0000118>DNA sequence</obo:IAO_0000118>
+        <obo:IAO_0000118>Nucleic acid sequences</obo:IAO_0000118>
+        <obo:IAO_0000115>One or more nucleic acid sequences, possibly with associated annotation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Nucleotide sequence</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2978 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2978">
+        <rdfs:label>Reaction data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>Data concerning a biochemical reaction, typically data and more general annotation on the kinetics of enzyme-catalysed reaction.</obo:IAO_0000115>
+        <obo:IAO_0000118>Enzyme kinetics annotation</obo:IAO_0000118>
+        <obo:IAO_0000118>Reaction annotation</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2979 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2979">
+        <rdfs:label>Peptide property</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2087"/>
+        <obo:IAO_0000115>Data concerning small peptides.</obo:IAO_0000115>
+        <obo:IAO_0000118>Peptide data</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3103 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3103">
+        <rdfs:label>ATC code</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0993"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2091"/>
+        <obo:IAO_0000115>Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3108 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3108">
+        <rdfs:label>Experimental measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <obo:IAO_0000118>Experimentally measured data</obo:IAO_0000118>
+        <obo:IAO_0000118>Experimental measurement data</obo:IAO_0000118>
+        <obo:IAO_0000118>Measurement</obo:IAO_0000118>
+        <obo:IAO_0000118>Measured data</obo:IAO_0000118>
+        <obo:IAO_0000118>Measurement metadata</obo:IAO_0000118>
+        <obo:IAO_0000118>Raw experimental data</obo:IAO_0000118>
+        <obo:IAO_0000115>Raw data such as measurements or other results from laboratory experiments, as generated from laboratory hardware.</obo:IAO_0000115>
+        <obo:IAO_0000118>Measurement data</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3110 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3110">
+        <rdfs:label>Raw microarray data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2603"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3108"/>
+        <obo:IAO_0000115>Raw data (typically MIAME-compliant) for hybridisations from a microarray experiment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3113 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3113">
+        <rdfs:label>Sample annotation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2337"/>
+        <obo:IAO_0000115>Annotation on a biological sample, for example experimental factors and their values.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3153 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3153">
+        <rdfs:label>Protein image</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000101"/>
+        <obo:IAO_0000115>An image of a protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3241 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3241">
+        <rdfs:label>Kinetic model</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000510"/>
+        <obo:IAO_0000115>Mathematical model of a network, that contains biochemical kinetics.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3494 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3494">
+        <rdfs:label>DNA sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2977"/>
+        <obo:IAO_0000118>DNA sequences</obo:IAO_0000118>
+        <obo:IAO_0000115>A DNA sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3495 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3495">
+        <rdfs:label>RNA sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_2977"/>
+        <obo:IAO_0000118>RNA sequences</obo:IAO_0000118>
+        <obo:IAO_0000115>An RNA sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3505 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3505">
+        <rdfs:label>Bibliography</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+        <obo:IAO_0000115>A list of publications such as scientic papers or books.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3671 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3671">
+        <rdfs:label>Text</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+        <obo:IAO_0000118>Plain text</obo:IAO_0000118>
+        <obo:IAO_0000118>Free text</obo:IAO_0000118>
+        <obo:IAO_0000115>Any free or plain text, typically for human consumption and in English. Can instantiate also as a textual search query.</obo:IAO_0000115>
+        <obo:IAO_0000118>Textual search query</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3720 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3720">
+        <rdfs:label>Geographic location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
+        <obo:IAO_0000115>A report about localisation of the isolaton of biological material e.g. country or coordinates.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_3754 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3754">
+        <rdfs:label>GO-term enrichment data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000118>GO-term enrichment report</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene ontology enrichment report</obo:IAO_0000118>
+        <obo:IAO_0000115>A ranked list of Gene Ontology concepts, each associated with a p-value, concerning or derived from the analysis of e.g. a set of genes or proteins.</obo:IAO_0000115>
+        <obo:IAO_0000118>Gene ontology term enrichment report</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene ontology concept over-representation report</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0004 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0004">
+        <rdfs:label>Operation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <obo:IAO_0000118>Lambda abstraction</obo:IAO_0000118>
+        <obo:IAO_0000118>Mathematical function</obo:IAO_0000118>
+        <obo:IAO_0000118>Computational operation</obo:IAO_0000118>
+        <obo:IAO_0000118>Mathematical operation</obo:IAO_0000118>
+        <obo:IAO_0000118>Function (programming)</obo:IAO_0000118>
+        <obo:IAO_0000118>Computational subroutine</obo:IAO_0000118>
+        <obo:IAO_0000115>A function that processes a set of inputs and results in a set of outputs, or associates arguments (inputs) with values (outputs).</obo:IAO_0000115>
+        <obo:IAO_0000118>Computational method</obo:IAO_0000118>
+        <obo:IAO_0000118>Computational procedure</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0226 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0226">
+        <rdfs:label>Annotation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <obo:IAO_0000115>Annotate an entity (typically a biological or biomedical database entity) with terms from a controlled vocabulary.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0267 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0267">
+        <rdfs:label>Protein secondary structure prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2423"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2479"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3092"/>
+        <obo:IAO_0000118>Secondary structure prediction (protein)</obo:IAO_0000118>
+        <obo:IAO_0000115>Predict secondary structure of protein sequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0269 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0269">
+        <rdfs:label>Transmembrane protein prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0267"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <obo:IAO_0000115>Predict and/or classify transmembrane proteins or transmembrane (helical) domains or regions in protein sequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0294 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0294">
+        <rdfs:label>Structure-based sequence alignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
+        <obo:IAO_0000115>Align molecular sequences using sequence and structural information.</obo:IAO_0000115>
+        <obo:IAO_0000118>Sequence alignment (structure-based)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0306 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0306">
+        <rdfs:label>Text mining</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2423"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <obo:IAO_0000118>Literature mining</obo:IAO_0000118>
+        <obo:IAO_0000115>Process and analyse text (typically scientific literature) to extract information from it.</obo:IAO_0000115>
+        <obo:IAO_0000118>Text data mining</obo:IAO_0000118>
+        <obo:IAO_0000118>Text analytics</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0314 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0314">
+        <rdfs:label>Gene expression profiling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <obo:IAO_0000118>Functional profiling</obo:IAO_0000118>
+        <obo:IAO_0000118>Non-coding RNA profiling</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene expression profile construction</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene expression quantification</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein profiling</obo:IAO_0000118>
+        <obo:IAO_0000118>RNA profiling</obo:IAO_0000118>
+        <obo:IAO_0000118>Feature expression analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>mRNA profiling</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene expression profile generation</obo:IAO_0000118>
+        <obo:IAO_0000115>The measurement of the activity (expression) of multiple genes in a cell, tissue, sample etc., in order to get an impression of biological function.</obo:IAO_0000115>
+        <obo:IAO_0000118>Gene transcription profiling</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0361 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0361">
+        <rdfs:label>Sequence annotation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0226"/>
+        <obo:IAO_0000115>Annotate a molecular sequence record with terms from a controlled vocabulary.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0362 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0362">
+        <rdfs:label>Genome annotation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0361"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3918"/>
+        <obo:IAO_0000118>Functional genome annotation</obo:IAO_0000118>
+        <obo:IAO_0000115>Annotate a genome sequence with terms from a controlled vocabulary.</obo:IAO_0000115>
+        <obo:IAO_0000118>Structural genome annotation</obo:IAO_0000118>
+        <obo:IAO_0000118>Metagenome annotation</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0417 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0417">
+        <rdfs:label>Post-translational modification site prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3092"/>
+        <obo:IAO_0000118>Tyrosine nitration site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>S-nitrosylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Succinylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Acetylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Hydroxylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Acetylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>PTM prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Phosphoglycerylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>S-nitrosylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Succinylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Pupylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Sulfation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Palmitoylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>GPI anchor prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Phosphorylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Sumoylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Prenylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Dephosphorylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Sulfation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Pupylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Phosphoglycerylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Phosphorylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Ubiquitination site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>N-myristoylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Hydroxylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>GPI modification site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>GPI modification prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Glycosylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Tyrosine nitration prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Ubiquitination prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>S-sulfenylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000115>Predict post-translation modification sites in protein sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>N-terminal myristoylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Dephosphorylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Glycosylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein post-translation modification site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>S-sulfenylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>PTM analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Post-translation modification site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>N-terminal acetylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Prenylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>N-terminal acetylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>PTM site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>N-terminal myristoylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Methylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>GPI anchor site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>PTM site analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Phosphosite localization</obo:IAO_0000118>
+        <obo:IAO_0000118>N-myristoylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Palmitoylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Post-translational modification analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Methylation site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Sumoylation prediction</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0422 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0422">
+        <rdfs:label>Protein cleavage site prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3092"/>
+        <obo:IAO_0000115>Detect or predict cleavage sites (enzymatic or chemical) in protein sequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0435 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0435">
+        <rdfs:label>Operon prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2454"/>
+        <obo:IAO_0000115>Find operons (operators, promoters and genes) in bacteria genes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0445 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0445">
+        <rdfs:label>Transcription factor binding site prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2454"/>
+        <obo:IAO_0000115>Identify or predict transcription factor binding sites in DNA sequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0450 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0450">
+        <rdfs:label>Chimera detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2478"/>
+        <obo:IAO_0000115>Detects chimeric sequences (chimeras) from a sequence alignment.</obo:IAO_0000115>
+        <obo:IAO_0000118>Chimeric sequence detection</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0488 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0488">
+        <rdfs:label>Linkage disequilibrium calculation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2478"/>
+        <obo:IAO_0000115>Calculate linkage disequilibrium; the non-random association of alleles or polymorphisms at two or more loci (not necessarily on the same chromosome).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0492 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0492">
+        <rdfs:label>Multiple sequence alignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
+        <obo:IAO_0000118>Multiple alignment</obo:IAO_0000118>
+        <obo:IAO_0000115>Align more than two molecular sequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0525 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0525">
+        <rdfs:label>Genome assembly</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2478"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3918"/>
+        <obo:IAO_0000115>The process of assembling many short DNA sequences together such that they represent the original chromosomes from which the DNA originated.</obo:IAO_0000115>
+        <obo:IAO_0000118>Genomic assembly</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence assembly (genome assembly)</obo:IAO_0000118>
+        <obo:IAO_0000118>Breakend assembly</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0564 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0564">
+        <rdfs:label>Sequence visualisation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
+        <obo:IAO_0000118>Sequence alignment visualisation</obo:IAO_0000118>
+        <obo:IAO_0000115>Visualise, format or render a molecular sequence or sequences such as a sequence alignment, possibly with sequence features or properties shown.</obo:IAO_0000115>
+        <obo:IAO_0000118>Sequence rendering</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_1777 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_1777">
+        <rdfs:label>Protein function prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2423"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <obo:IAO_0000118>Protein functional analysis</obo:IAO_0000118>
+        <obo:IAO_0000115>Predict the biological or biochemical role of a protein, or other aspects of a protein function.</obo:IAO_0000115>
+        <obo:IAO_0000118>Protein function analysis</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_2403 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2403">
+        <rdfs:label>Sequence analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <obo:IAO_0000115>Analyse one or more known molecular sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>Sequence analysis (general)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_2422 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2422">
+        <rdfs:label>Data retrieval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0306"/>
+        <obo:IAO_0000115>Retrieve an entry (or part of an entry) from a data resource that matches a supplied query. This might include some primary data and annotation. The query is a data identifier or other indexed term. For example, retrieve a sequence record with the specified accession number, or matching supplied keywords.</obo:IAO_0000115>
+        <obo:IAO_0000118>Retrieval</obo:IAO_0000118>
+        <obo:IAO_0000118>Data extraction</obo:IAO_0000118>
+        <obo:IAO_0000118>Metadata retrieval</obo:IAO_0000118>
+        <obo:IAO_0000118>Data retrieval (metadata)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_2423 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2423">
+        <rdfs:label>Prediction and recognition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <obo:IAO_0000118>Detection</obo:IAO_0000118>
+        <obo:IAO_0000118>Recognition</obo:IAO_0000118>
+        <obo:IAO_0000115>Predict, recognise, detect or identify some properties of a biomolecule.</obo:IAO_0000115>
+        <obo:IAO_0000118>Prediction</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_2428 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2428">
+        <rdfs:label>Validation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <obo:IAO_0000115>Validate some data.</obo:IAO_0000115>
+        <obo:IAO_0000118>Quality control</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_2454 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2454">
+        <rdfs:label>Gene prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2478"/>
+        <obo:IAO_0000115>Detect, predict and identify genes or components of genes in DNA sequences, including promoters, coding regions, splice sites, etc.</obo:IAO_0000115>
+        <obo:IAO_0000118>Gene calling</obo:IAO_0000118>
+        <obo:IAO_0000118>Whole gene prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Gene finding</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_2478 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2478">
+        <rdfs:label>Nucleic acid sequence analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
+        <obo:IAO_0000115>Analyse a nucleic acid sequence (using methods that are only applicable to nucleic acid sequences).</obo:IAO_0000115>
+        <obo:IAO_0000118>Nucleic acid sequence alignment analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence alignment analysis (nucleic acid)</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence analysis (nucleic acid)</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_2479 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2479">
+        <rdfs:label>Protein sequence analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2403"/>
+        <obo:IAO_0000118>Sequence analysis (protein)</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein sequence alignment analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence alignment analysis (protein)</obo:IAO_0000118>
+        <obo:IAO_0000115>Analyse a protein sequence (using methods that are only applicable to protein sequences).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_2492 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2492">
+        <rdfs:label>Protein interaction prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_1777"/>
+        <obo:IAO_0000118>Protein-protein binding prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-protein interaction detection</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-protein interaction prediction</obo:IAO_0000118>
+        <obo:IAO_0000115>Predict the interactions of proteins with other proteins.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_2575 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2575">
+        <rdfs:label>Binding site prediction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_1777"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3092"/>
+        <obo:IAO_0000118>Protein binding site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein binding site detection</obo:IAO_0000118>
+        <obo:IAO_0000115>Identify or predict catalytic residues, active sites or other ligand-binding sites in protein sequences or structures.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_2945 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_2945">
+        <rdfs:label>Data analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <obo:IAO_0000115>Apply analytical methods to existing data of a specific type.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3092 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3092">
+        <rdfs:label>Protein feature detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2423"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2479"/>
+        <obo:IAO_0000115>Predict, recognise and identify positional features in proteins from analysing protein sequences or structures.</obo:IAO_0000115>
+        <obo:IAO_0000118>Sequence profile database search</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence feature detection (protein)</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein site recognition</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein feature recognition</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein feature prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein site prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein secondary database search</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein site detection</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3095 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3095">
+        <rdfs:label>Nucleic acid design</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2478"/>
+        <obo:IAO_0000115>Design (or predict) nucleic acid sequences with specific chemical or physical properties.</obo:IAO_0000115>
+        <obo:IAO_0000118>Gene design</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3182 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3182">
+        <rdfs:label>Genome alignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0002567"/>
+        <obo:IAO_0000118>Whole genome alignment</obo:IAO_0000118>
+        <obo:IAO_0000118>Genome alignment construction</obo:IAO_0000118>
+        <obo:IAO_0000115>Align two or more (tpyically huge) molecular sequences that represent genomes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3196 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3196">
+        <rdfs:label>Genotyping</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <obo:IAO_0000115>Analyse DNA sequence data to identify differences between the genetic composition (genotype) of an individual compared to other individual&#39;s or a reference sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3208 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3208">
+        <rdfs:label>Genome visualisation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0564"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_3918"/>
+        <obo:IAO_0000118>Genome viewing</obo:IAO_0000118>
+        <obo:IAO_0000118>Genome rendering</obo:IAO_0000118>
+        <obo:IAO_0000118>Genome browser</obo:IAO_0000118>
+        <obo:IAO_0000118>Genome browsing</obo:IAO_0000118>
+        <obo:IAO_0000115>Visualise, format or render a nucleic acid sequence that is part of (and in context of) a complete genome sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3223 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3223">
+        <rdfs:label>Differential gene expression profiling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0314"/>
+        <obo:IAO_0000118>Differential gene expression analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Differentially expressed gene identification</obo:IAO_0000118>
+        <obo:IAO_0000118>Differential expression analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Differential gene analysis</obo:IAO_0000118>
+        <obo:IAO_0000115>Identify from molecular sequence analysis (typically from analysis of microarray or RNA-seq data) genes whose expression levels are significantly different between two sample groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3432 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3432">
+        <rdfs:label>Clustering</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <obo:IAO_0000115>Group together some data entities on the basis of similarities such that entities in the same group (cluster) are more similar to each other than to those in other groups (clusters).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3672 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3672">
+        <rdfs:label>Gene functional annotation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0361"/>
+        <obo:IAO_0000118>Sequence functional annotation</obo:IAO_0000118>
+        <obo:IAO_0000115>Annotate one or more sequences with functional information, such as cellular processes or metaobolic pathways, by reference to a controlled vocabulary - invariably the Gene Ontology (GO).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3741 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3741">
+        <rdfs:label>Differential protein expression profiling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0314"/>
+        <obo:IAO_0000115>The analysis, using proteomics techniques, to identify proteins whose encoding genes are differentially expressed under a given experimental setup.</obo:IAO_0000115>
+        <obo:IAO_0000118>Differential protein expression analysis</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3767 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3767">
+        <rdfs:label>Protein identification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2423"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <obo:IAO_0000118>Protein inference</obo:IAO_0000118>
+        <obo:IAO_0000115>Identification of protein, for example from one or more peptide identifications by tandem mass spectrometry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3799 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3799">
+        <rdfs:label>Quantification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_0004"/>
+        <obo:IAO_0000118>Quantitation</obo:IAO_0000118>
+        <obo:IAO_0000115>Counting and measuring experimentally determined observations into quantities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3918 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3918">
+        <rdfs:label>Genome analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2478"/>
+        <obo:IAO_0000115>Study of genomic feature structure, variation, function and evolution at a genomic scale.</obo:IAO_0000115>
+        <obo:IAO_0000118>Genomic analysis</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_3927 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_3927">
+        <rdfs:label>Network analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <obo:IAO_0000118>Network simulation</obo:IAO_0000118>
+        <obo:IAO_0000118>Network modelling</obo:IAO_0000118>
+        <obo:IAO_0000118>Biological network analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Biological network prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Network topology simulation</obo:IAO_0000118>
+        <obo:IAO_0000118>Biological network modelling</obo:IAO_0000118>
+        <obo:IAO_0000115>Generate, process or analyse a biological network.</obo:IAO_0000115>
+        <obo:IAO_0000118>Network comparison</obo:IAO_0000118>
+        <obo:IAO_0000118>Network prediction</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_0128 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_0128">
+        <rdfs:label>Protein interactions</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MI_0000"/>
+        <obo:IAO_0000118>Protein-RNA interaction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-protein interactions</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-ligand interactions</obo:IAO_0000118>
+        <obo:IAO_0000115>Protein-protein, protein-DNA/RNA and protein-ligand interactions, including analysis of known interactions and prediction of putative interactions.</obo:IAO_0000115>
+        <obo:IAO_0000118>Protein interaction map</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-DNA interactions</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein interaction networks</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-RNA interactions</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein interactome</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-DNA interaction</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein-nucleic acid interactions</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_0157 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_0157">
+        <rdfs:label>Sequence composition, complexity and repeats</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
+        <obo:IAO_0000118>Nucleic acid repeats</obo:IAO_0000118>
+        <obo:IAO_0000118>Repeat sequences</obo:IAO_0000118>
+        <obo:IAO_0000118>Low complexity sequences</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence composition</obo:IAO_0000118>
+        <obo:IAO_0000115>The archival, processing and analysis of the basic character composition of molecular sequences, for example character or word frequency, ambiguity, complexity, particularly regions of low complexity, and repeats or the repetitive nature of molecular sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>Protein sequence repeats</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence repeats</obo:IAO_0000118>
+        <obo:IAO_0000118>Sequence complexity</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein repeats</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_0621 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_0621">
+        <rdfs:label>Model organisms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115>A specific organism, or group of organisms, used to study a particular aspect of biology.</obo:IAO_0000115>
+        <obo:IAO_0000118>Organisms</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_1775 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_1775">
+        <rdfs:label>Function analysis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/operation_2945"/>
+        <obo:IAO_0000118>Protein function analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>Protein function prediction</obo:IAO_0000118>
+        <obo:IAO_0000118>Functional analysis</obo:IAO_0000118>
+        <obo:IAO_0000115>The study of gene and protein function including the prediction of functional properties of a protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3077 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3077">
+        <rdfs:label>Data acquisition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000118>Lab method</obo:IAO_0000118>
+        <obo:IAO_0000115>The acquisition of data, typically measurements of physical systems using any type of sampling system, or by another other means.</obo:IAO_0000115>
+        <obo:IAO_0000118>Experimental techniques</obo:IAO_0000118>
+        <obo:IAO_0000118>Experiments</obo:IAO_0000118>
+        <obo:IAO_0000118>Laboratory techniques</obo:IAO_0000118>
+        <obo:IAO_0000118>Data collection</obo:IAO_0000118>
+        <obo:IAO_0000118>Laboratory method</obo:IAO_0000118>
+        <obo:IAO_0000118>Lab techniques</obo:IAO_0000118>
+        <obo:IAO_0000118>Data collecting</obo:IAO_0000118>
+        <obo:IAO_0000118>Laboratory experiments</obo:IAO_0000118>
+        <obo:IAO_0000118>Data gathering</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3337 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3337">
+        <rdfs:label>Biobank</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>Repositories of biological samples, typically human, for basic biological and clinical research.</obo:IAO_0000115>
+        <obo:IAO_0000118>biobanking</obo:IAO_0000118>
+        <obo:IAO_0000118>Tissue collection</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3341 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3341">
+        <rdfs:label>Clone library</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>Collections of DNA, including both collections of cloned molecules, and populations of micro-organisms that store and propagate cloned DNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3345 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3345">
+        <rdfs:label>Data identity and mapping</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/T4FS_0000141"/>
+        <obo:IAO_0000115>Topic concerning the identity of biological entities, or reports on such entities, and the mapping of entities and records in different databases.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3382 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3382">
+        <rdfs:label>Imaging</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3077"/>
+        <obo:IAO_0000118>Microscopy imaging</obo:IAO_0000118>
+        <obo:IAO_0000118>Diffraction experiment</obo:IAO_0000118>
+        <obo:IAO_0000118>Microscopy</obo:IAO_0000118>
+        <obo:IAO_0000118>Photonic microscopy</obo:IAO_0000118>
+        <obo:IAO_0000118>Optical super resolution microscopy</obo:IAO_0000118>
+        <obo:IAO_0000115>The visual representation of an object.</obo:IAO_0000115>
+        <obo:IAO_0000118>Photonic force microscopy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3383 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3383">
+        <rdfs:label>Bioimaging</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3382"/>
+        <obo:IAO_0000115>The use of imaging techniques to understand biology.</obo:IAO_0000115>
+        <obo:IAO_0000118>Biological imaging</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3384 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3384">
+        <rdfs:label>Medical imaging</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_3382"/>
+        <obo:IAO_0000118>Nuclear medicine</obo:IAO_0000118>
+        <obo:IAO_0000115>The use of imaging techniques for clinical purposes for medical research.</obo:IAO_0000115>
+        <obo:IAO_0000118>Neuroimaging</obo:IAO_0000118>
+        <obo:IAO_0000118>Radiology</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3386 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3386">
+        <rdfs:label>Laboratory animal science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000118>Animal research</obo:IAO_0000118>
+        <obo:IAO_0000118>In vivo testing</obo:IAO_0000118>
+        <obo:IAO_0000115>The use of animals and alternatives in experimental research.</obo:IAO_0000115>
+        <obo:IAO_0000118>Animal testing</obo:IAO_0000118>
+        <obo:IAO_0000118>Animal experimentation</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000793"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000800"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000088"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000101"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0020000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MI_0000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0002567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0002567"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0200000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000141"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000400"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001260"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001411"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/T4FS_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/T4FS_0000141"/>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_000510 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000510"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001444 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
+<!--
+Notice: All the OBO ontologies have changed the term URI format from http://purl.org/obo/owl/ontology#ontology_nnnnnnn to http://purl.obolibrary.org/obo/ontology_nnnnnnn. Please make sure your input files are updated.
+The following terms do not have any related axioms in the source ontology:
+http://purl.obolibrary.org/obo/OBI_0200000
+http://purl.obolibrary.org/obo/PATO_0000141
+http://purl.obolibrary.org/obo/IAO_0000101
+http://purl.obolibrary.org/obo/SO_0001411
+http://semanticscience.org/resource/SIO_000510
+http://purl.obolibrary.org/obo/IAO_0000088
+http://purl.obolibrary.org/obo/IAO_0020000
+http://purl.obolibrary.org/obo/OBI_0002567
+http://purl.obolibrary.org/obo/IAO_0000027
+http://purl.obolibrary.org/obo/CHMO_0000793
+http://www.ebi.ac.uk/efo/EFO_0001444
+http://purl.obolibrary.org/obo/CHMO_0000800
+http://purl.obolibrary.org/obo/IAO_0000030
+http://purl.obolibrary.org/obo/SO_0000400
+http://purl.obolibrary.org/obo/SO_0001260
+http://purl.obolibrary.org/obo/IAO_0000314
+http://purl.obolibrary.org/obo/MI_0000
+http://purl.obolibrary.org/obo/BFO_0000023
+http://purl.obolibrary.org/obo/OBI_0000011
+http://purl.obolibrary.org/obo/T4FS_0000141
+http://purl.obolibrary.org/obo/BFO_0000040
+-->

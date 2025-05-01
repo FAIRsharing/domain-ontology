@@ -1,0 +1,297 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/uberon_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/uberon_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/uberon_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000105>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000178>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000465>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000479>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000948>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000955>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001474>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0001911>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002107>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002365>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002405>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0002530>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004121>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0004907>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0005177>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0006925>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0010000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0019319>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000000> (processual entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000000> "An occurrent [span:Occurrent] that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000000> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000000> "processual entity")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000000> <http://purl.obolibrary.org/obo/GO_0008150>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000061> (anatomical structure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000061> "Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism's own genome.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000061> "biological structure")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000061> "connected biological structure")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000061> "anatomical structure")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000061> <http://purl.obolibrary.org/obo/UBERON_0000465>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000062> (organ)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000062> "Anatomical structure that performs a specific function or group of functions [WP].")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000062> "Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000062> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000062> "organ")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000062> <http://purl.obolibrary.org/obo/UBERON_0010000>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000104> (life cycle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000104> "An entire span of an organism's life. In metazoans, commences with the zygote stage and ends with the death of the organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000104> "entire life cycle")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000104> "entire lifespan")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000104> "life")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000104> "lifespan")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000104> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000104> "life cycle")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000104> <http://purl.obolibrary.org/obo/UBERON_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000105> (life cycle stage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000105> "A spatiotemporal region encompassing some part of the life cycle of an organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000105> "developmental stage")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000105> "stage")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000105> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000105> "life cycle stage")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000105> <http://purl.obolibrary.org/obo/UBERON_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000178> (blood)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000178> "A complex mixture of cells suspended in a liquid matrix that delivers nutrients to cells and removes wastes. (Source: BioGlossary, www.Biology-Text.com)[TAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000178> "A fluid that is composed of blood plasma and erythrocytes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000178> "Highly specialized circulating tissue consisting of several types of cells suspended in a fluid medium known as plasma.[AAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000178> "portion of blood")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000178> "vertebrate blood")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000178> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000178> "blood")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000178> <http://purl.obolibrary.org/obo/UBERON_0000465>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000465> (material anatomical entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000465> "Anatomical entity that has mass.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000465> "material anatomical entity")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/BFO_0000040>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000465> <http://purl.obolibrary.org/obo/UBERON_0001062>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000479> (tissue)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000479> "Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000479> "portion of tissue")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000479> "simple tissue")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000479> "tissue portion")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000479> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000479> "tissue")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000479> <http://purl.obolibrary.org/obo/UBERON_0010000>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000948> (heart)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000948> "A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000948> "Blood pumping organ composed of four chambers: sinus venosus, atrium, cardiac ventricle and bulbus arteriosus.[TAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000948> "Part of the circulatory system responsible for pumping blood; composed of three chambers--two atria and one ventricle.[AAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000948> "branchial heart")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000948> "chambered heart")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0000948> "vertebrate heart")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000948> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000948> "heart")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000948> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000948> <http://purl.obolibrary.org/obo/UBERON_0000062>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000948> <http://purl.obolibrary.org/obo/UBERON_0005177>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0000955> (brain)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000955> "Cavitated compound organ which is comprised of gray and white matter and surrounds the cerebral ventricular system.[TAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000955> "Part of the central nervous system situated within the cranium and composed of both nerve cell bodies and nerve fibers.[AAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000955> "The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP].")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0000955> "The part of the central nervous system contained within the cranium, comprising the forebrain, midbrain, hindbrain, and metencephalon. It is derived from the anterior part of the embryonic neural tube (or the encephalon). Does not include retina. (CUMBO)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0000955> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0000955> "brain")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000955> <http://purl.obolibrary.org/obo/UBERON_0000062>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0000955> <http://purl.obolibrary.org/obo/UBERON_0004121>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001033> (gustatory system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001033> "The sensory system for the sense of taste.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001033> "The sensory system for the sense of taste[NLXANAT:090803].")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001033> "The sensory system used for the sense of taste.[AAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0001033> "gustatory organ system")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0001033> "taste system")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0001033> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001033> "gustatory system")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001033> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001062> (anatomical entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001062> "Biological entity that is either an individual member of a biological species or constitutes the structural organization of an individual member of a biological species.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001062> "anatomical entity")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001062> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001474> (bone element)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001474> "Also called osseous tissue, (Latin: os). Is a type of hard endoskeletal connective tissue found in many vertebrate animals. Bone is the main tissue of body organs that support body structures, protect internal organs, (in conjunction with muscles) facilitate movement; and are involved with cell formation, calcium metabolism, and mineral storage.[AAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001474> "Portion of tissue which is calcified connective tissue making up the structural elements of the skeletal system.[TAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001474> "Skeletal element that is composed of bone tissue.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001474> "Skeletal element that is composed of bone tissue.[VSAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0001474> "bone organ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0001474> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001474> "bone element")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001474> <http://purl.obolibrary.org/obo/UBERON_0000062>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0001911> (mammary gland)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001911> "A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0001911> "Any of the milk-producing apocrine glands typically occurring in pairs in female mammals and consisting of lobes containing clusters of alveoli with a system of ducts to convey the milk to an external nipple or teat. [TFD][VHOG]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0001911> "glandula mammaria")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0001911> "lactiferous gland")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0001911> "lobe of breast")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0001911> "milk patch")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0001911> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0001911> "mammary gland")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001911> <http://purl.obolibrary.org/obo/UBERON_0002365>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001911> <http://purl.obolibrary.org/obo/UBERON_0004121>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0001911> <http://purl.obolibrary.org/obo/UBERON_0019319>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0002107> (liver)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0002107> "An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO].")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0002107> "Organ which secretes bile and participates in formation of certain blood proteins.[AAO]")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0002107> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0002107> "liver")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002107> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002107> <http://purl.obolibrary.org/obo/UBERON_0002365>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002107> <http://purl.obolibrary.org/obo/UBERON_0005177>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002107> <http://purl.obolibrary.org/obo/UBERON_0006925>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0002365> (exocrine gland)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0002365> "A gland that secretes products (excluding hormones and other chemical messengers) into ducts (duct glands) which lead directly into the external environment[WP]. Typical exocrine glands include sweat glands, salivary glands, mammary glands, stomach, liver, pancreas.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0002365> "ducted gland")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0002365> "glandula exocrina")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0002365> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0002365> "exocrine gland")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002365> <http://purl.obolibrary.org/obo/UBERON_0002530>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0002405> (immune system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0002405> "Anatomical system that protects the body from foreign substances, cells, and tissues by producing the immune response and that includes especially the thymus, spleen, lymphoid tissue, lymphocytes including the B cells and T cells, and antibodies.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0002405> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0002405> "immune system")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002405> <http://purl.obolibrary.org/obo/UBERON_0000465>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0002530> (gland)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0002530> "An organ that functions as a secretory or excretory organ.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0002530> "glandular organ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0002530> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0002530> "gland")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0002530> <http://purl.obolibrary.org/obo/UBERON_0000062>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0004121> (ectoderm-derived structure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0004121> "An anatomical structure that develops (entirely or partially) from the ectoderm.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0004121> "ectodermal deriviative")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0004121> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0004121> "ectoderm-derived structure")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004121> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0004907> (lower digestive tract)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0004907> "The region of the digestive tract extending from the beginning of the intestines to the anus[GO - gut definition].")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0004907> "lower GI tract")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0004907> "lower gastrointestinal tract")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0004907> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0004907> "lower digestive tract")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0004907> <http://purl.obolibrary.org/obo/UBERON_0010000>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0005177> (trunk region element)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0005177> "An organ or element that part of the trunk region. The trunk region can be further subdividied into thoracic (including chest and thoracic cavity) and abdominal (including abdomen and pelbis) regions.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0005177> "trunk organ")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0005177> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0005177> "trunk region element")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0005177> <http://purl.obolibrary.org/obo/UBERON_0000062>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0006925> (digestive system gland)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0006925> "Any gland that is part of the digestive system.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0006925> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0006925> "digestive system gland")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006925> <http://purl.obolibrary.org/obo/UBERON_0000062>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0006925> <http://purl.obolibrary.org/obo/UBERON_0002530>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0010000> (multicellular anatomical structure)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0010000> "An anatomical structure that has more than one cell as a part.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0010000> "multicellular structure")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0010000> "multicellular anatomical structure")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0010000> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/UBERON_0019319> (exocrine gland of integumental system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/UBERON_0019319> "An exocrine gland that is part of a integumental system.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0019319> "integumental exocrine gland")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/UBERON_0019319> "integumental system exocrine gland")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/UBERON_0019319> <http://purl.obolibrary.org/obo/uberon.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/UBERON_0019319> "exocrine gland of integumental system")
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0019319> <http://purl.obolibrary.org/obo/UBERON_0002365>)
+SubClassOf(<http://purl.obolibrary.org/obo/UBERON_0019319> <http://purl.obolibrary.org/obo/UBERON_0002530>)
+
+
+)

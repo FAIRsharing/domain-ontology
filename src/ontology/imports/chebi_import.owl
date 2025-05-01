@@ -1,0 +1,739 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/chebi_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/chebi_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/chebi_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_15339>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_15358>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_15378>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_15986>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16646>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16670>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_16991>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_17234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_17891>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_18059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_18111>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_18154>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23367>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23888>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_23906>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24431>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24432>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24532>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24636>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24835>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24867>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24870>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25212>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25367>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25442>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25608>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25703>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_25710>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_26079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_26082>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_27026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33232>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33238>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33251>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33253>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33259>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33260>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33281>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33284>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33285>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33290>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33302>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33304>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33579>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33595>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33659>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33675>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33694>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33695>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33696>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33697>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33708>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33711>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33712>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33832>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33833>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_33893>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_35352>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36342>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36347>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36357>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36359>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36914>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36915>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36916>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36962>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36963>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_36976>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37622>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_37734>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50406>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50803>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_50860>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51086>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51087>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_51143>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_52211>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_52214>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59132>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_59163>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_61120>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_72695>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_78298>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_78616>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_15339> (acceptor)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_15339> "A molecular entity that can accept an electron, a pair of electrons, an atom or a group from another molecular entity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_15339> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_15339> "acceptor")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15339> <http://purl.obolibrary.org/obo/CHEBI_51086>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_15358> (histone)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_15358> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_15358> "histone")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15358> <http://purl.obolibrary.org/obo/CHEBI_33695>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_15378> (hydron)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_15378> "The general name for the hydrogen nucleus, to be used without regard to the hydrogen nuclear mass (either for hydrogen in its natural abundance or where it is not desired to distinguish between the isotopes).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_15378> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_15378> "hydron")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15378> <http://purl.obolibrary.org/obo/CHEBI_23906>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15378> <http://purl.obolibrary.org/obo/CHEBI_33251>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15378> <http://purl.obolibrary.org/obo/CHEBI_36347>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15378> <http://purl.obolibrary.org/obo/CHEBI_36915>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_15986> (polynucleotide)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_15986> "A nucleobase-containing molecular entity with a polymeric structure comprised of a linear sequence of 13 or more nucleotide residues.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_15986> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_15986> "polynucleotide")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15986> <http://purl.obolibrary.org/obo/CHEBI_33695>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_15986> <http://purl.obolibrary.org/obo/CHEBI_61120>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_16646> (carbohydrate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_16646> "Any member of the class of organooxygen compounds that is a polyhydroxy-aldehyde or -ketone or a lactol resulting from their intramolecular condensation (monosaccharides); substances derived from these by reduction of the carbonyl group (alditols), by oxidation of one or more hydroxy groups to afford the corresponding aldehydes, ketones, or carboxylic acids, or by replacement of one or more hydroxy group(s) by a hydrogen atom; and polymeric products arising by intermolecular acetal formation between two or more such molecules (disaccharides, polysaccharides and oligosaccharides). Carbohydrates contain only carbon, hydrogen and oxygen atoms; prior to any oxidation or reduction, most have the empirical formula Cm(H2O)n. Compounds obtained from carbohydrates by substitution, etc., are known as carbohydrate derivatives and may contain other elements. Cyclitols are generally not regarded as carbohydrates.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_16646> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_16646> "carbohydrate")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16646> <http://purl.obolibrary.org/obo/CHEBI_78616>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_16670> (peptide)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_16670> "Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from alpha-amino acids, but it includes those derived from any amino carboxylic acid. X = OH, OR, NH2, NHR, etc.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_16670> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_16670> "peptide")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16670> <http://purl.obolibrary.org/obo/CHEBI_37622>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16670> <http://purl.obolibrary.org/obo/CHEBI_50047>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_16991> (deoxyribonucleic acid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_16991> "High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_16991> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_16991> "deoxyribonucleic acid")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_16991> <http://purl.obolibrary.org/obo/CHEBI_33696>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_17234> (glucose)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_17234> "An aldohexose used as a source of energy and metabolic intermediate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_17234> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_17234> "glucose")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_17234> <http://purl.obolibrary.org/obo/CHEBI_16646>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_17891> (donor)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_17891> "A molecular entity that can transfer (\"donate\") an electron, a pair of electrons, an atom or a group to another molecular entity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_17891> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_17891> "donor")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_17891> <http://purl.obolibrary.org/obo/CHEBI_51086>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_18059> (lipid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_18059> "'Lipids' is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_18059> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_18059> "lipid")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_18059> <http://purl.obolibrary.org/obo/CHEBI_50860>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_18111> (ribosomal RNA)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_18111> "RNA molecules which are essential structural and functional components of ribosomes, the subcellular units responsible for protein synthesis.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_18111> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_18111> "ribosomal RNA")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_18111> <http://purl.obolibrary.org/obo/CHEBI_33697>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_18154> (polysaccharide)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_18154> "A biomacromolecule consisting of large numbers of monosaccharide residues linked glycosidically. This term is commonly used only for those containing more than ten monosaccharide residues.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_18154> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_18154> "polysaccharide")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_18154> <http://purl.obolibrary.org/obo/CHEBI_16646>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_18154> <http://purl.obolibrary.org/obo/CHEBI_33694>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_18154> <http://purl.obolibrary.org/obo/CHEBI_78616>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_23367> (molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_23367> "Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_23367> "molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23367> <http://purl.obolibrary.org/obo/CHEBI_24431>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_23888> (drug)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_23888> "Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_23888> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_23888> "drug")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23888> <http://purl.obolibrary.org/obo/CHEBI_33232>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_23906> (monoatomic cation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_23906> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_23906> "monoatomic cation")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23906> <http://purl.obolibrary.org/obo/CHEBI_24867>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_23906> <http://purl.obolibrary.org/obo/CHEBI_36916>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24431> (chemical entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_24431> "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_24431> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24431> "chemical entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24431> <http://purl.obolibrary.org/obo/BFO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24432> (biological role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_24432> "A role played by the molecular entity or part thereof within a biological context.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_24432> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24432> "biological role")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24432> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24532> (organic heterocyclic compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_24532> "A cyclic compound having as ring members atoms of carbon and at least of one other element.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_24532> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24532> "organic heterocyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24532> <http://purl.obolibrary.org/obo/CHEBI_33285>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24532> <http://purl.obolibrary.org/obo/CHEBI_33595>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24532> <http://purl.obolibrary.org/obo/CHEBI_33832>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24636> (proton)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_24636> "Nuclear particle of charge number +1, spin 1/2 and rest mass of 1.007276470(12) u.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_24636> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24636> "proton")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24636> <http://purl.obolibrary.org/obo/CHEBI_15378>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24636> <http://purl.obolibrary.org/obo/CHEBI_33253>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24835> (inorganic molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_24835> "A molecular entity that contains no carbon.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_24835> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24835> "inorganic molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24835> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24867> (monoatomic ion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_24867> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24867> "monoatomic ion")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24867> <http://purl.obolibrary.org/obo/CHEBI_24870>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24867> <http://purl.obolibrary.org/obo/CHEBI_33238>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_24870> (ion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_24870> "A molecular entity having a net electric charge.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_24870> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_24870> "ion")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_24870> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_25212> (metabolite)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_25212> "Any intermediate or product resulting from metabolism. The term 'metabolite' subsumes the classes commonly known as primary and secondary metabolites.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_25212> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_25212> "metabolite")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25212> <http://purl.obolibrary.org/obo/CHEBI_24432>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_25367> (molecule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_25367> "Any polyatomic entity that is an electrically neutral entity consisting of more than one atom.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_25367> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_25367> "molecule")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25367> <http://purl.obolibrary.org/obo/CHEBI_36357>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_25442> (mycotoxin)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_25442> "Poisonous substance produced by fungi.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_25442> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_25442> "mycotoxin")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25442> <http://purl.obolibrary.org/obo/CHEBI_25212>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25442> <http://purl.obolibrary.org/obo/CHEBI_27026>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_25608> (nucleoside phosphate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_25608> "A nucleobase-containing molecular entity that is a nucleoside in which one or more of the sugar hydroxy groups has been converted into a mono- or poly-phosphate. The term includes both nucleotides and non-nucleotide nucleoside phosphates.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_25608> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_25608> "nucleoside phosphate")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25608> <http://purl.obolibrary.org/obo/CHEBI_25703>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25608> <http://purl.obolibrary.org/obo/CHEBI_37734>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25608> <http://purl.obolibrary.org/obo/CHEBI_61120>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_25703> (organic phosphate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_25703> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_25703> "organic phosphate")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25703> <http://purl.obolibrary.org/obo/CHEBI_25710>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25703> <http://purl.obolibrary.org/obo/CHEBI_26079>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_25710> (organophosphorus compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_25710> "An organophosphorus compound is formally a compound containing at least one carbon-phosphorus bond, but the term is often extended to include esters and thioesters.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_25710> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_25710> "organophosphorus compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25710> <http://purl.obolibrary.org/obo/CHEBI_26082>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_25710> <http://purl.obolibrary.org/obo/CHEBI_33285>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_26079> (phosphoric acid derivative)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_26079> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_26079> "phosphoric acid derivative")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_26079> <http://purl.obolibrary.org/obo/CHEBI_36359>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_26082> (phosphorus molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_26082> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_26082> "phosphorus molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_26082> <http://purl.obolibrary.org/obo/CHEBI_33302>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_27026> (toxin)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_27026> "Poisonous substance produced by a biological organism such as a microbe, animal or plant.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_27026> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_27026> "toxin")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_27026> <http://purl.obolibrary.org/obo/CHEBI_24432>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_27026> <http://purl.obolibrary.org/obo/CHEBI_25212>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33232> (application)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33232> "Intended use of the molecular entity or part thereof by humans.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33232> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33232> "application")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33232> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33238> (monoatomic entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33238> "A monoatomic entity is a molecular entity consisting of a single atom.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33238> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33238> "monoatomic entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33238> <http://purl.obolibrary.org/obo/CHEBI_33259>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33251> (monoatomic hydrogen)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33251> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33251> "monoatomic hydrogen")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33251> <http://purl.obolibrary.org/obo/CHEBI_33238>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33251> <http://purl.obolibrary.org/obo/CHEBI_33260>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33253> (nucleon)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33253> "Heavy nuclear particle: proton or neutron.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33253> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33253> "nucleon")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33253> <http://purl.obolibrary.org/obo/CHEBI_36342>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33253> <http://purl.obolibrary.org/obo/CHEBI_36347>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33259> (elemental molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33259> "A molecular entity all atoms of which have the same atomic number.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33259> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33259> "elemental molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33259> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33260> (elemental hydrogen)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33260> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33260> "elemental hydrogen")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33260> <http://purl.obolibrary.org/obo/CHEBI_24835>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33260> <http://purl.obolibrary.org/obo/CHEBI_33259>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33260> <http://purl.obolibrary.org/obo/CHEBI_33579>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33281> (antimicrobial agent)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33281> "A substance that kills or slows the growth of microorganisms, including bacteria, viruses, fungi and protozoans.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33281> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33281> "antimicrobial agent")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33281> <http://purl.obolibrary.org/obo/CHEBI_24432>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33284> (nutrient)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33284> "A nutrient is a food component that an organism uses to survive and grow.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33284> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33284> "nutrient")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33284> <http://purl.obolibrary.org/obo/CHEBI_52211>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33285> (heteroorganic entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33285> "A heteroorganic entity is an organic molecular entity in which carbon atoms or organic groups are bonded directly to one or more heteroatoms.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33285> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33285> "heteroorganic entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33285> <http://purl.obolibrary.org/obo/CHEBI_50860>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33290> (food)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33290> "A physiological role played by any substance of either plant, animal or artificial origin which contains essential body nutrients that can be ingested by an organism to provide energy, promote growth, and maintain the processes of life.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33290> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33290> "food")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33290> <http://purl.obolibrary.org/obo/CHEBI_52211>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33302> (pnictogen molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33302> "A p-block molecular entity containing any pnictogen.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33302> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33302> "pnictogen molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33302> <http://purl.obolibrary.org/obo/CHEBI_33675>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33304> (chalcogen molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33304> "Any p-block molecular entity containing a chalcogen.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33304> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33304> "chalcogen molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33304> <http://purl.obolibrary.org/obo/CHEBI_33675>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33579> (main group molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33579> "A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33579> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33579> "main group molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33579> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33595> (cyclic compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33595> "Any molecule that consists of a series of atoms joined together to form a ring.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33595> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33595> "cyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33595> <http://purl.obolibrary.org/obo/CHEBI_25367>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33659> (organic aromatic compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33659> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33659> "organic aromatic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33659> <http://purl.obolibrary.org/obo/CHEBI_33595>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33659> <http://purl.obolibrary.org/obo/CHEBI_33832>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33675> (p-block molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33675> "A main group molecular entity that contains one or more atoms of a p-block element.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33675> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33675> "p-block molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33675> <http://purl.obolibrary.org/obo/CHEBI_33579>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33694> (biomacromolecule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33694> "A macromolecule formed by a living organism.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33694> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33694> "biomacromolecule")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33694> <http://purl.obolibrary.org/obo/CHEBI_36357>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33694> <http://purl.obolibrary.org/obo/CHEBI_50860>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33695> (information biomacromolecule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33695> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33695> "information biomacromolecule")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33695> <http://purl.obolibrary.org/obo/CHEBI_33694>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33696> (nucleic acid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33696> "A macromolecule made up of nucleotide units and hydrolysable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33696> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33696> "nucleic acid")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33696> <http://purl.obolibrary.org/obo/CHEBI_15986>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33697> (ribonucleic acid)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33697> "High molecular weight, linear polymers, composed of nucleotides containing ribose and linked by phosphodiester bonds; RNA is central to the synthesis of proteins.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33697> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33697> "ribonucleic acid")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33697> <http://purl.obolibrary.org/obo/CHEBI_33696>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33708> (amino-acid residue)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33708> "When two or more amino acids combine to form a peptide, the elements of water are removed, and what remains of each amino acid is called an amino-acid residue.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33708> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33708> "amino-acid residue")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33708> <http://purl.obolibrary.org/obo/CHEBI_24431>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33711> (C-terminal amino-acid residue)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33711> "The residue in a peptide that has a free carboxyl group, or at least does not acylate another amino-acid residue, is called C-terminal.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33711> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33711> "C-terminal amino-acid residue")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33711> <http://purl.obolibrary.org/obo/CHEBI_33708>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33712> (N-terminal amino-acid residue)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33712> "The residue in a peptide that has an amino group that is free, or at least not acylated by another amino-acid residue, is called N-terminal.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33712> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33712> "N-terminal amino-acid residue")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33712> <http://purl.obolibrary.org/obo/CHEBI_33708>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33832> (organic cyclic compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33832> "Any organic molecule that consists of atoms connected in the form of a ring.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33832> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33832> "organic cyclic compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33832> <http://purl.obolibrary.org/obo/CHEBI_33595>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33832> <http://purl.obolibrary.org/obo/CHEBI_72695>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33833> (heteroarene)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33833> "A heterocyclic compound formally derived from an arene by replacement of one or more methine (-C=) and/or vinylene (-CH=CH-) groups by trivalent or divalent heteroatoms, respectively, in such a way as to maintain the continuous pi-electron system characteristic of aromatic systems and a number of out-of-plane pi-electrons corresponding to the Hueckel rule (4n+2).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33833> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33833> "heteroarene")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33833> <http://purl.obolibrary.org/obo/CHEBI_24532>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33833> <http://purl.obolibrary.org/obo/CHEBI_33659>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_33893> (reagent)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_33893> "A substance used in a chemical reaction to detect, measure, examine, or produce other substances.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_33893> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_33893> "reagent")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_33893> <http://purl.obolibrary.org/obo/CHEBI_33232>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_35352> (organonitrogen compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_35352> "Any heteroorganic entity containing at least one carbon-nitrogen bond.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_35352> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_35352> "organonitrogen compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35352> <http://purl.obolibrary.org/obo/CHEBI_33285>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_35352> <http://purl.obolibrary.org/obo/CHEBI_51143>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36342> (subatomic particle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_36342> "A particle smaller than an atom.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_36342> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36342> "subatomic particle")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36342> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36347> (nuclear particle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_36347> "A nucleus or any of its constituents in any of their energy states.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_36347> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36347> "nuclear particle")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36347> <http://purl.obolibrary.org/obo/CHEBI_36342>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36357> (polyatomic entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_36357> "Any molecular entity consisting of more than one atom.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_36357> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36357> "polyatomic entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36357> <http://purl.obolibrary.org/obo/CHEBI_23367>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36359> (phosphorus oxoacid derivative)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_36359> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36359> "phosphorus oxoacid derivative")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36359> <http://purl.obolibrary.org/obo/CHEBI_26082>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36359> <http://purl.obolibrary.org/obo/CHEBI_36357>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36914> (inorganic ion)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_36914> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36914> "inorganic ion")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36914> <http://purl.obolibrary.org/obo/CHEBI_24835>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36914> <http://purl.obolibrary.org/obo/CHEBI_24870>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36915> (inorganic cation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_36915> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36915> "inorganic cation")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36915> <http://purl.obolibrary.org/obo/CHEBI_36914>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36915> <http://purl.obolibrary.org/obo/CHEBI_36916>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36916> (cation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_36916> "A monoatomic or polyatomic species having one or more elementary charges of the proton.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_36916> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36916> "cation")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36916> <http://purl.obolibrary.org/obo/CHEBI_24870>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36962> (organochalcogen compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_36962> "An organochalcogen compound is a compound containing at least one carbon-chalcogen bond.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_36962> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36962> "organochalcogen compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36962> <http://purl.obolibrary.org/obo/CHEBI_33285>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36962> <http://purl.obolibrary.org/obo/CHEBI_33304>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36963> (organooxygen compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_36963> "An organochalcogen compound containing at least one carbon-oxygen bond.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_36963> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36963> "organooxygen compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36963> <http://purl.obolibrary.org/obo/CHEBI_33304>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36963> <http://purl.obolibrary.org/obo/CHEBI_36962>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_36976> (nucleotide)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_36976> "A nucleotide is a nucleoside phosphate resulting from the condensation of the 3 or 5 hydroxy group of a nucleoside with phosphoric acid.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_36976> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_36976> "nucleotide")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_36976> <http://purl.obolibrary.org/obo/CHEBI_25608>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_37622> (carboxamide)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_37622> "An amide of a carboxylic acid, having the structure RC(=O)NR2. The term is used as a suffix in systematic name formation to denote the -C(=O)NH2 group including its carbon atom.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_37622> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_37622> "carboxamide")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37622> <http://purl.obolibrary.org/obo/CHEBI_35352>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37622> <http://purl.obolibrary.org/obo/CHEBI_36963>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37622> <http://purl.obolibrary.org/obo/CHEBI_51143>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_37734> (phosphoric ester)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_37734> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_37734> "phosphoric ester")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37734> <http://purl.obolibrary.org/obo/CHEBI_26079>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_37734> <http://purl.obolibrary.org/obo/CHEBI_36963>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50047> (organic amino compound)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_50047> "A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_50047> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50047> "organic amino compound")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50047> <http://purl.obolibrary.org/obo/CHEBI_35352>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50047> <http://purl.obolibrary.org/obo/CHEBI_50860>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50406> (probe)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_50406> "A role played by a molecular entity used to study the microscopic environment.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_50406> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50406> "probe")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50406> <http://purl.obolibrary.org/obo/CHEBI_33232>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50803> (nanoparticle)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_50803> "A nanosized spherical or capsule-shaped structure.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_50803> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50803> "nanoparticle")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50803> <http://purl.obolibrary.org/obo/CHEBI_36357>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_50860> (organic molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_50860> "Any molecular entity that contains carbon.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_50860> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_50860> "organic molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_50860> <http://purl.obolibrary.org/obo/CHEBI_33675>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_51086> (chemical role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_51086> "A role played by the molecular entity or part thereof within a chemical context.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_51086> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_51086> "chemical role")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_51086> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_51087> (protecting group)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_51087> "A group that is introduced into a molecule by chemical modification of a functional group in order to obtain chemoselectivity in a subsequent chemical reaction.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_51087> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_51087> "protecting group")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_51087> <http://purl.obolibrary.org/obo/CHEBI_33232>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_51143> (nitrogen molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_51143> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_51143> "nitrogen molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_51143> <http://purl.obolibrary.org/obo/CHEBI_33302>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_52211> (physiological role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_52211> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_52211> "physiological role")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_52211> <http://purl.obolibrary.org/obo/CHEBI_24432>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_52214> (ligand)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_52214> "Any molecule or ion capable of binding to a central metal atom to form coordination complexes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_52214> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_52214> "ligand")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_52214> <http://purl.obolibrary.org/obo/CHEBI_51086>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_59132> (antigen)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_59132> "Any substance that stimulates an immune response in the body, such as through antibody production or by presentation to a T-cell receptor after binding to a major histocompability complex (MHC).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_59132> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_59132> "antigen")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_59132> <http://purl.obolibrary.org/obo/CHEBI_24432>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_59163> (biomarker)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_59163> "A substance used as an indicator  of a biological state.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_59163> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_59163> "biomarker")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_59163> <http://purl.obolibrary.org/obo/CHEBI_33232>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_61120> (nucleobase-containing molecular entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_61120> "Any compound that has a nucleobase as a part.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_61120> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_61120> "nucleobase-containing molecular entity")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_61120> <http://purl.obolibrary.org/obo/CHEBI_33833>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_61120> <http://purl.obolibrary.org/obo/CHEBI_51143>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_72695> (organic molecule)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_72695> "Any molecule that consists of at least one carbon atom as part of the electrically neutral entity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_72695> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_72695> "organic molecule")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_72695> <http://purl.obolibrary.org/obo/CHEBI_25367>)
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_72695> <http://purl.obolibrary.org/obo/CHEBI_50860>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_78298> (environmental contaminant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_78298> "Any minor or unwanted substance introduced into the environment that can have undesired effects.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_78298> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_78298> "environmental contaminant")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_78298> <http://purl.obolibrary.org/obo/CHEBI_51086>)
+
+# Class: <http://purl.obolibrary.org/obo/CHEBI_78616> (carbohydrates and carbohydrate derivatives)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHEBI_78616> "Any organooxygen compound that is a polyhydroxy-aldehyde or -ketone, or a compound derived from one. Carbohydrates contain only carbon, hydrogen and oxygen and usually have an empirical formula Cm(H2O)n; carbohydrate derivatives may contain other elements by substitution or condensation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHEBI_78616> <http://purl.obolibrary.org/obo/chebi.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHEBI_78616> "carbohydrates and carbohydrate derivatives")
+SubClassOf(<http://purl.obolibrary.org/obo/CHEBI_78616> <http://purl.obolibrary.org/obo/CHEBI_36963>)
+
+
+)

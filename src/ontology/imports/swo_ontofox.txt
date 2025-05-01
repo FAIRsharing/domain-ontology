@@ -1,0 +1,35 @@
+#### NOTES ON SWO IMPORT ####
+##
+## Uses BFO but doesn't contain the full ULO, so
+## we need to map to ensure they go to the right place.
+##
+## There is currently a bug in SWO which incorrectly associates
+## BFO 'process' (BFO_0000015) with the wrong URI (BFO_0000007).
+## Until I get this fixed in SWO, we are directly placing data
+## storage as a child of the correct URI
+##
+
+[Source ontology]
+SWO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/swo/data/SWO_3000053 # Knowledge representation
+http://www.ebi.ac.uk/swo/interface/SWO_9000051 # Web service
+http://www.ebi.ac.uk/swo/SWO_0000001 # Software
+http://www.ebi.ac.uk/swo/SWO_0000143 # Data storage
+
+[Top level source term URIs and target direct superclass URIs]
+http://www.ebi.ac.uk/swo/data/SWO_3000053 # Knowledge representation
+subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # role
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+subClassOf http://purl.obolibrary.org/obo/BFO_0000031 # generically dependent continuant
+http://www.ebi.ac.uk/swo/SWO_0000143 # Data storage
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 # process
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118

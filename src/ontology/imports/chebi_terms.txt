@@ -1,0 +1,32 @@
+http://purl.obolibrary.org/obo/CHEBI_15339 # Acceptor
+http://purl.obolibrary.org/obo/CHEBI_15358 # Histone
+http://purl.obolibrary.org/obo/CHEBI_16646 # Carbohydrate
+http://purl.obolibrary.org/obo/CHEBI_16670 # Peptide
+http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid
+http://purl.obolibrary.org/obo/CHEBI_17234 # Glucose
+http://purl.obolibrary.org/obo/CHEBI_17891 # Donor
+http://purl.obolibrary.org/obo/CHEBI_18059 # Lipid
+http://purl.obolibrary.org/obo/CHEBI_18111 # Ribosomal RNA
+http://purl.obolibrary.org/obo/CHEBI_18154 # Polysaccharide
+http://purl.obolibrary.org/obo/CHEBI_23367 # Molecular entity
+http://purl.obolibrary.org/obo/CHEBI_23888 # Drug
+http://purl.obolibrary.org/obo/CHEBI_24431 # Chemical entity
+http://purl.obolibrary.org/obo/CHEBI_24636 # Proton
+http://purl.obolibrary.org/obo/CHEBI_25212 # Metabolite
+http://purl.obolibrary.org/obo/CHEBI_25442 # Mycotoxin
+http://purl.obolibrary.org/obo/CHEBI_33281 # Antimicrobial
+http://purl.obolibrary.org/obo/CHEBI_33284 # Nutrient
+http://purl.obolibrary.org/obo/CHEBI_33290 # Food
+http://purl.obolibrary.org/obo/CHEBI_33696 # Nucleic acid
+http://purl.obolibrary.org/obo/CHEBI_33697 # Ribonucleic acid
+http://purl.obolibrary.org/obo/CHEBI_33711 # C-terminal amino acid residue
+http://purl.obolibrary.org/obo/CHEBI_33712 # N-terminal amino acid residue
+http://purl.obolibrary.org/obo/CHEBI_33893 # Reagent
+http://purl.obolibrary.org/obo/CHEBI_36976 # Nucleotide
+http://purl.obolibrary.org/obo/CHEBI_50406 # Probe
+http://purl.obolibrary.org/obo/CHEBI_50803 # Nanoparticle
+http://purl.obolibrary.org/obo/CHEBI_51087 # Protecting group
+http://purl.obolibrary.org/obo/CHEBI_52214 # Ligand
+http://purl.obolibrary.org/obo/CHEBI_59132 # Antigen
+http://purl.obolibrary.org/obo/CHEBI_59163 # Biomarker
+http://purl.obolibrary.org/obo/CHEBI_78298 # Environmental contaminant

@@ -1,0 +1,1296 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/u7axuhaq.owl#"
+     xml:base="http://ontofox.hegroup.org/u7axuhaq.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/u7axuhaq.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16991"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000001">
+        <rdfs:label>region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+        <obo:IAO_0000118>sequence</obo:IAO_0000118>
+        <obo:IAO_0000115>A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000101">
+        <rdfs:label>transposable_element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001039"/>
+        <obo:IAO_0000118>transposon</obo:IAO_0000118>
+        <obo:IAO_0000118>transposable element</obo:IAO_0000118>
+        <obo:IAO_0000115>A transposon or insertion sequence. An element that can insert in a variety of DNA sequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+        <rdfs:label>sequence_feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000118>INSDC_note:sequence_feature</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_feature:misc_feature</obo:IAO_0000118>
+        <obo:IAO_0000115>Any extent of continuous biological sequence.</obo:IAO_0000115>
+        <obo:IAO_0000118>sequence feature</obo:IAO_0000118>
+        <obo:IAO_0000118>located_sequence_feature</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_note:other</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000112">
+        <rdfs:label>primer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000696"/>
+        <obo:IAO_0000118>primer polynucleotide</obo:IAO_0000118>
+        <obo:IAO_0000118>primer sequence</obo:IAO_0000118>
+        <obo:IAO_0000118>primer oligonucleotide</obo:IAO_0000118>
+        <obo:IAO_0000118>DNA primer</obo:IAO_0000118>
+        <obo:IAO_0000115>An oligo to which new deoxyribonucleotides can be added by DNA polymerase.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000143">
+        <rdfs:label>assembly_component</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001410"/>
+        <obo:IAO_0000115>A region of known length which may be used to manufacture a longer region.</obo:IAO_0000115>
+        <obo:IAO_0000118>assembly component</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000147">
+        <rdfs:label>exon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000833"/>
+        <obo:IAO_0000115>A region of the transcript sequence within a gene which is not removed from the primary RNA transcript by RNA splicing.</obo:IAO_0000115>
+        <obo:IAO_0000118>INSDC_feature:exon</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000149">
+        <rdfs:label>contig</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000143"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001410"/>
+        <obo:IAO_0000115>A contiguous sequence derived from sequence assembly. Has no gaps, but may contain N&#39;s from unavailable bases.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000150">
+        <rdfs:label>read</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000143"/>
+        <obo:IAO_0000115>A sequence obtained from a single sequencing experiment. Typically a read is produced when a base calling program interprets information from a chromatogram trace file produced from a sequencing machine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000162">
+        <rdfs:label>splice_site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000835"/>
+        <obo:IAO_0000118>splice site</obo:IAO_0000118>
+        <obo:IAO_0000115>Consensus region of primary transcript bordering junction of splicing. A region that overlaps exactly 2 base and adjacent_to splice_junction.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000167">
+        <rdfs:label>promoter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005836"/>
+        <obo:IAO_0000118>promoter sequence</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_qualifier:promoter</obo:IAO_0000118>
+        <obo:IAO_0000115>A regulatory_region composed of the TSS(s) and binding sites for TF_complexes of the core transcription machinery. A region (DNA) to which RNA polymerase binds, to begin transcription.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000178">
+        <rdfs:label>operon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <obo:IAO_0000118>INSDC_feature:operon</obo:IAO_0000118>
+        <obo:IAO_0000115>The DNA region of a group of adjacent genes whose transcription is coordinated on one or several mutually overlapping transcription units transcribed in the same direction and sharing at least one gene.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000180">
+        <rdfs:label>retrotransposon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000101"/>
+        <obo:IAO_0000118>class I transposon</obo:IAO_0000118>
+        <obo:IAO_0000118>retrotransposon element</obo:IAO_0000118>
+        <obo:IAO_0000115>A transposable element that is incorporated into a chromosome by a mechanism that requires reverse transcriptase.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000182">
+        <rdfs:label>DNA_transposon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000101"/>
+        <obo:IAO_0000115>A transposon where the mechanism of transposition is via a DNA intermediate.</obo:IAO_0000115>
+        <obo:IAO_0000118>class II transposon</obo:IAO_0000118>
+        <obo:IAO_0000118>DNA transposon</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000188">
+        <rdfs:label>intron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000835"/>
+        <obo:IAO_0000115>A region of a primary transcript that is transcribed, but removed from within the transcript by splicing together the sequences (exons) on either side of it.</obo:IAO_0000115>
+        <obo:IAO_0000118>INSDC_feature:intron</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000203">
+        <rdfs:label>UTR</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000836"/>
+        <obo:IAO_0000115>Messenger RNA sequences that are untranslated and lie five prime or three prime to sequences which are translated.</obo:IAO_0000115>
+        <obo:IAO_0000118>untranslated region</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000233">
+        <rdfs:label>mature_transcript</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000673"/>
+        <obo:IAO_0000118>mature transcript</obo:IAO_0000118>
+        <obo:IAO_0000115>A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5&#39; and/or the 3&#39; ends, other than addition of bases. In bacteria functional mRNAs are usually not modified.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000234">
+        <rdfs:label>mRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000233"/>
+        <obo:IAO_0000118>messenger RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>protein_coding_transcript</obo:IAO_0000118>
+        <obo:IAO_0000115>Messenger RNA is the intermediate molecule between DNA and protein. It includes UTR and coding sequences. It does not contain introns.</obo:IAO_0000115>
+        <obo:IAO_0000118>INSDC_feature:mRNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000239">
+        <rdfs:label>flanking_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000115>The sequences extending on either side of a specific region.</obo:IAO_0000115>
+        <obo:IAO_0000118>flanking region</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000243">
+        <rdfs:label>internal_ribosome_entry_site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000836"/>
+        <obo:IAO_0000118>IRES</obo:IAO_0000118>
+        <obo:IAO_0000118>internal ribosomal entry sequence</obo:IAO_0000118>
+        <obo:IAO_0000115>Sequence element that recruits a ribosomal subunit to internal mRNA for translation initiation.</obo:IAO_0000115>
+        <obo:IAO_0000118>internal ribosome entry site</obo:IAO_0000118>
+        <obo:IAO_0000118>internal ribosomal entry site</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000253">
+        <rdfs:label>tRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
+        <obo:IAO_0000118>INSDC_feature:tRNA</obo:IAO_0000118>
+        <obo:IAO_0000115>Transfer RNA (tRNA) molecules are approximately 80 nucleotides in length. Their secondary structure includes four short double-helical elements and three loops (D, anti-codon, and T loops). Further hydrogen bonds mediate the characteristic L-shaped molecular structure. Transfer RNAs have two regions of fundamental functional importance: the anti-codon, which is responsible for specific mRNA codon recognition, and the 3&#39; end, to which the tRNA&#39;s corresponding amino acid is attached (by aminoacyl-tRNA synthetases). Transfer RNAs cope with the degeneracy of the genetic code in two manners: having more than one tRNA (with a specific anti-codon) for a particular amino acid; and &#39;wobble&#39; base-pairing, i.e. permitting non-standard base-pairing at the 3rd anti-codon position.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000276">
+        <rdfs:label>miRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000370"/>
+        <obo:IAO_0000118>microRNA</obo:IAO_0000118>
+        <obo:IAO_0000118>small temporal RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>micro RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_qualifier:miRNA</obo:IAO_0000118>
+        <obo:IAO_0000118>stRNA</obo:IAO_0000118>
+        <obo:IAO_0000115>Small, ~22-nt, RNA molecule that is the endogenous transcript of a miRNA gene (or the product of other non coding RNA genes). Micro RNAs are produced from precursor molecules (SO:0001244) that can form local hairpin structures, which ordinarily are processed (usually via the Dicer pathway) such that a single miRNA molecule accumulates from one arm of a hairpin precursor molecule. Micro RNAs may trigger the cleavage of their target molecules or act as translational repressors.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000289">
+        <rdfs:label>microsatellite</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000705"/>
+        <obo:IAO_0000118>microsatellite locus</obo:IAO_0000118>
+        <obo:IAO_0000118>STR</obo:IAO_0000118>
+        <obo:IAO_0000118>short tandem repeat</obo:IAO_0000118>
+        <obo:IAO_0000118>microsatellite marker</obo:IAO_0000118>
+        <obo:IAO_0000115>A repeat_region containing repeat_units of 2 to 10 bp repeated in tandem.</obo:IAO_0000115>
+        <obo:IAO_0000118>INSDC_qualifier:microsatellite</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000312">
+        <rdfs:label>experimentally_determined</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000733"/>
+        <obo:IAO_0000118>experimentally determined</obo:IAO_0000118>
+        <obo:IAO_0000115>Attribute to describe a feature that has been experimentally verified.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000316">
+        <rdfs:label>CDS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000836"/>
+        <obo:IAO_0000118>coding sequence</obo:IAO_0000118>
+        <obo:IAO_0000115>A contiguous sequence which begins with, and includes, a start codon and ends with, and includes, a stop codon.</obo:IAO_0000115>
+        <obo:IAO_0000118>INSDC_feature:CDS</obo:IAO_0000118>
+        <obo:IAO_0000118>coding_sequence</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000324">
+        <rdfs:label>tag</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000696"/>
+        <obo:IAO_0000115>A nucleotide sequence that may be used to identify a larger sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000330">
+        <rdfs:label>conserved_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001410"/>
+        <obo:IAO_0000118>conserved region</obo:IAO_0000118>
+        <obo:IAO_0000115>Region of sequence similarity by descent from a common ancestor.</obo:IAO_0000115>
+        <obo:IAO_0000118>INSDC_note:conserved_region</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000336">
+        <rdfs:label>pseudogene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their &quot;normal&quot; paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its &quot;normal&quot; paralog).</obo:IAO_0000115>
+        <obo:IAO_0000118>INSDC_qualifier:unknown</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_qualifier:pseudo</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000370">
+        <rdfs:label>small_regulatory_ncRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002247"/>
+        <obo:IAO_0000118>small regulatory ncRNA</obo:IAO_0000118>
+        <obo:IAO_0000115>A non-coding RNA less than 200 nucleotides long, usually with a specific secondary structure, that acts to regulate gene expression. These include short ncRNAs such as piRNA, miRNA and siRNAs (among others).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000371">
+        <rdfs:label>conjugative_transposon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000182"/>
+        <obo:IAO_0000118>conjugative transposon</obo:IAO_0000118>
+        <obo:IAO_0000115>A transposon that encodes function required for conjugation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000400">
+        <rdfs:label>sequence_attribute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000118>sequence attribute</obo:IAO_0000118>
+        <obo:IAO_0000115>An attribute describes a quality of sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000409">
+        <rdfs:label>binding_site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000118>INSDC_feature:misc_binding</obo:IAO_0000118>
+        <obo:IAO_0000118>binding site</obo:IAO_0000118>
+        <obo:IAO_0000115>A biological_region of sequence that, in the molecule, interacts selectively and non-covalently with other molecules. A region on the surface of a molecule that may interact with another molecule. When applied to polypeptides: Amino acids involved in binding or interactions. It can also apply to an amino acid bond which is represented by the positions of the two flanking amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000118>binding_or_interaction_site</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000418">
+        <rdfs:label>signal_peptide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000839"/>
+        <obo:IAO_0000118>INSDC_feature:sig_peptide</obo:IAO_0000118>
+        <obo:IAO_0000115>The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components.</obo:IAO_0000115>
+        <obo:IAO_0000118>signal peptide coding sequence</obo:IAO_0000118>
+        <obo:IAO_0000118>signal peptide</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000436">
+        <rdfs:label>ARS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A sequence that can autonomously replicate, as a plasmid, when transformed into a bacterial host.</obo:IAO_0000115>
+        <obo:IAO_0000118>autonomously replicating sequence</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000591">
+        <rdfs:label>pseudoknot</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A tertiary structure in RNA where nucleotides in a loop form base pairs with a region of RNA downstream of the loop.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000603">
+        <rdfs:label>group_II_intron</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000188"/>
+        <obo:IAO_0000118>group II intron</obo:IAO_0000118>
+        <obo:IAO_0000115>Group II introns are found in rRNA, tRNA and mRNA of organelles in fungi, plants and protists, and also in mRNA in bacteria. They are large self-splicing ribozymes and have 6 structural domains (usually designated dI to dVI). A subset of group II introns also encode essential splicing proteins in intronic ORFs. The length of these introns can therefore be up to 3kb. Splicing occurs in almost identical fashion to nuclear pre-mRNA splicing with two transesterification steps. The 2&#39; hydroxyl of a bulged adenosine in domain VI attacks the 5&#39; splice site, followed by nucleophilic attack on the 3&#39; splice site by the 3&#39; OH of the upstream exon. Protein machinery is required for splicing in vivo, and long range intron to intron and intron-exon interactions are important for splice site positioning. Group II introns are further sub-classified into groups IIA and IIB which differ in splice site consensus, distance of bulged A from 3&#39; splice site, some tertiary interactions, and intronic ORF phylogeny.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000646 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000646">
+        <rdfs:label>siRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000370"/>
+        <obo:IAO_0000115>A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. siRNAs trigger the cleavage of their target molecules.</obo:IAO_0000115>
+        <obo:IAO_0000118>INSDC_qualifier:siRNA</obo:IAO_0000118>
+        <obo:IAO_0000118>small interfering RNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000655">
+        <rdfs:label>ncRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000233"/>
+        <obo:IAO_0000118>noncoding RNA</obo:IAO_0000118>
+        <obo:IAO_0000115>An RNA transcript that does not encode for a protein rather the RNA molecule is the gene product.</obo:IAO_0000115>
+        <obo:IAO_0000118>known_ncrna</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000657">
+        <rdfs:label>repeat_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A region of sequence containing one or more repeat units.</obo:IAO_0000115>
+        <obo:IAO_0000118>repeat region</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_qualifier:other</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000667">
+        <rdfs:label>insertion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001059"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000118>nucleotide_insertion</obo:IAO_0000118>
+        <obo:IAO_0000118>insertion</obo:IAO_0000118>
+        <obo:IAO_0000115>The sequence of one or more nucleotides added between two adjacent nucleotides in the sequence.</obo:IAO_0000115>
+        <obo:IAO_0000118>nucleotide insertion</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000673">
+        <rdfs:label>transcript</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000831"/>
+        <obo:IAO_0000115>An RNA synthesized on a DNA or RNA template by an RNA polymerase.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000694">
+        <rdfs:label>SNP</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001483"/>
+        <obo:IAO_0000115>SNPs are single base pair positions in genomic DNA at which different sequence alternatives exist in normal individuals in some population(s), wherein the least frequent variant has an abundance of 1% or greater.</obo:IAO_0000115>
+        <obo:IAO_0000118>single nucleotide polymorphism</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000696 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000696">
+        <rdfs:label>oligo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000118>oligonucleotide</obo:IAO_0000118>
+        <obo:IAO_0000115>A short oligonucleotide sequence, of length on the order of 10&#39;s of bases; either single or double stranded.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704">
+        <rdfs:label>gene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</obo:IAO_0000115>
+        <obo:IAO_0000118>INSDC_feature:gene</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000705">
+        <rdfs:label>tandem_repeat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000657"/>
+        <obo:IAO_0000115>Two or more adjacent copies of a region (of length greater than 1).</obo:IAO_0000115>
+        <obo:IAO_0000118>tandem repeat</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_qualifier:tandem</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000733 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000733">
+        <rdfs:label>feature_attribute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
+        <obo:IAO_0000118>feature attribute</obo:IAO_0000118>
+        <obo:IAO_0000115>An attribute describing a located_sequence_feature.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000736">
+        <rdfs:label>organelle_sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000400"/>
+        <obo:IAO_0000118>organelle sequence</obo:IAO_0000118>
+        <obo:IAO_0000115>A sequence of DNA that originates from a an organelle.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000737">
+        <rdfs:label>mitochondrial_sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000736"/>
+        <obo:IAO_0000115>DNA belonging to the genome of a mitochondria.</obo:IAO_0000115>
+        <obo:IAO_0000118>mitochondrial sequence</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000740">
+        <rdfs:label>plastid_sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000736"/>
+        <obo:IAO_0000118>plastid sequence</obo:IAO_0000118>
+        <obo:IAO_0000115>DNA belonging to the genome of a plastid such as a chloroplast.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000745">
+        <rdfs:label>chloroplast_sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000740"/>
+        <obo:IAO_0000115>DNA belonging to the genome of a chloroplast, a green plastid for photosynthesis.</obo:IAO_0000115>
+        <obo:IAO_0000118>chloroplast sequence</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000756 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000756">
+        <rdfs:label>cDNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16991"/>
+        <obo:IAO_0000115>DNA synthesized by reverse transcriptase using RNA as a template.</obo:IAO_0000115>
+        <obo:IAO_0000118>complementary DNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000771">
+        <rdfs:label>QTL</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A quantitative trait locus (QTL) is a polymorphic locus which contains alleles that differentially affect the expression of a continuously distributed phenotypic trait. Usually it is a marker described by statistical association to quantitative variation in the particular phenotypic trait that is thought to be controlled by the cumulative action of alleles at multiple loci.</obo:IAO_0000115>
+        <obo:IAO_0000118>quantitative trait locus</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000772">
+        <rdfs:label>genomic_island</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001039"/>
+        <obo:IAO_0000115>A genomic island is an integrated mobile genetic element, characterized by size (over 10 Kb). It that has features that suggest a foreign origin. These can include nucleotide distribution (oligonucleotides signature, CG content etc.) that differs from the bulk of the chromosome and/or genes suggesting DNA mobility.</obo:IAO_0000115>
+        <obo:IAO_0000118>genomic island</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000831">
+        <rdfs:label>gene_member_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A region of a gene.</obo:IAO_0000115>
+        <obo:IAO_0000118>gene member region</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000833">
+        <rdfs:label>transcript_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000118>transcript region</obo:IAO_0000118>
+        <obo:IAO_0000115>A region of a transcript.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000835">
+        <rdfs:label>primary_transcript_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000833"/>
+        <obo:IAO_0000118>primary transcript region</obo:IAO_0000118>
+        <obo:IAO_0000115>A part of a primary transcript.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000836">
+        <rdfs:label>mRNA_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000833"/>
+        <obo:IAO_0000115>A region of an mRNA.</obo:IAO_0000115>
+        <obo:IAO_0000118>mRNA region</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000839 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000839">
+        <rdfs:label>polypeptide_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000118>region</obo:IAO_0000118>
+        <obo:IAO_0000118>site</obo:IAO_0000118>
+        <obo:IAO_0000115>Biological sequence region that can be assigned to a specific subsequence of a polypeptide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000857 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000857">
+        <rdfs:label>homologous</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000733"/>
+        <obo:IAO_0000115>Similarity due to common ancestry.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000858 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000858">
+        <rdfs:label>orthologous</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000857"/>
+        <obo:IAO_0000115>An attribute describing a kind of homology where divergence occurred after a speciation event.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000859 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000859">
+        <rdfs:label>paralogous</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000857"/>
+        <obo:IAO_0000115>An attribute describing a kind of homology where divergence occurred after a duplication event.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000870 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000870">
+        <rdfs:label>trans_spliced</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000733"/>
+        <obo:IAO_0000115>An attribute describing transcript sequence that is created by splicing exons from diferent genes.</obo:IAO_0000115>
+        <obo:IAO_0000118>trans-spliced</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000934 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000934">
+        <rdfs:label>miRNA_target_site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000409"/>
+        <obo:IAO_0000118>miRNA target site</obo:IAO_0000118>
+        <obo:IAO_0000115>A miRNA target site is a binding site where the molecule is a micro RNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000973">
+        <rdfs:label>insertion_sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000182"/>
+        <obo:IAO_0000118>insertion sequence</obo:IAO_0000118>
+        <obo:IAO_0000115>A terminal_inverted_repeat_element that is bacterial and only encodes the functions required for its transposition between these inverted repeats.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001000">
+        <rdfs:label>cytosolic_16S_rRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <obo:IAO_0000115>Cytosolic 16S rRNA is an RNA component of the small subunit of cytosolic ribosomes in prokaryotes.</obo:IAO_0000115>
+        <obo:IAO_0000118>cytosolic rRNA 16S</obo:IAO_0000118>
+        <obo:IAO_0000118>cytosolic 16S SSU RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>cytosolic 16S ribosomal RNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001006">
+        <rdfs:label>prophage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001039"/>
+        <obo:IAO_0000115>A phage genome after it has established in the host genome in a latent/immune state either as a plasmid or as an integrated &quot;island&quot;.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001007">
+        <rdfs:label>cryptic_prophage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000772"/>
+        <obo:IAO_0000118>cryptic prophage</obo:IAO_0000118>
+        <obo:IAO_0000115>A remnant of an integrated prophage in the host genome or an &quot;island&quot; in the host genome that includes phage like-genes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001021">
+        <rdfs:label>chromosome_breakpoint</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+        <obo:IAO_0000118>aberration_junction</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_qualifier:chromosome_breakpoint</obo:IAO_0000118>
+        <obo:IAO_0000118>aberration breakpoint</obo:IAO_0000118>
+        <obo:IAO_0000115>A chromosomal region that may sustain a double-strand break, resulting in a recombination event.</obo:IAO_0000115>
+        <obo:IAO_0000118>chromosome breakpoint</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001023">
+        <rdfs:label>allele</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <obo:IAO_0000118>allelomorph</obo:IAO_0000118>
+        <obo:IAO_0000115>An allele is one of a set of coexisting sequence variants of a gene.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001026">
+        <rdfs:label>genome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001260"/>
+        <obo:IAO_0000115>A genome is the sum of genetic material within a cell or virion.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001037">
+        <rdfs:label>mobile_genetic_element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A nucleotide region with either intra-genome or intracellular mobility, of varying length, which often carry the information necessary for transfer and recombination with the host genome.</obo:IAO_0000115>
+        <obo:IAO_0000118>MGE</obo:IAO_0000118>
+        <obo:IAO_0000118>mobile genetic element</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_feature:mobile_element</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001039">
+        <rdfs:label>integrated_mobile_genetic_element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001037"/>
+        <obo:IAO_0000118>integrated mobile genetic element</obo:IAO_0000118>
+        <obo:IAO_0000115>An MGE that is integrated into the host chromosome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001041">
+        <rdfs:label>viral_sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>The region of nucleotide sequence of a virus, a submicroscopic particle that replicates by infecting a host cell.</obo:IAO_0000115>
+        <obo:IAO_0000118>viral sequence</obo:IAO_0000118>
+        <obo:IAO_0000118>virus sequence</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001059">
+        <rdfs:label>sequence_alteration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+        <obo:IAO_0000118>partially characterised change in DNA sequence</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_note:sequence_alteration</obo:IAO_0000118>
+        <obo:IAO_0000115>A sequence_alteration is a sequence_feature whose extent is the deviation from another sequence.</obo:IAO_0000115>
+        <obo:IAO_0000118>sequence alteration</obo:IAO_0000118>
+        <obo:IAO_0000118>partially_characterised_change_in_DNA_sequence</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_feature:variation</obo:IAO_0000118>
+        <obo:IAO_0000118>uncharacterised_change_in_nucleotide_sequence</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001060">
+        <rdfs:label>sequence_variant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+        <obo:IAO_0000118>sequence variant</obo:IAO_0000118>
+        <obo:IAO_0000118>VAAST:sequence_variant</obo:IAO_0000118>
+        <obo:IAO_0000115>A sequence_variant is a non exact copy of a sequence_feature or genome exhibiting one or more sequence_alteration.</obo:IAO_0000115>
+        <obo:IAO_0000118>Jannovar:sequence_variant</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001067">
+        <rdfs:label>polypeptide_motif</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000839"/>
+        <obo:IAO_0000118>polypeptide motif</obo:IAO_0000118>
+        <obo:IAO_0000115>A sequence motif is a short (up to 20 amino acids) region of biological interest. Such motifs, although they are too short to constitute functional domains, share sequence similarities and are conserved in different proteins. They display a common function (protein-binding, subcellular location etc.).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001244">
+        <rdfs:label>pre_miRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000835"/>
+        <obo:IAO_0000118>pre-miRNA</obo:IAO_0000118>
+        <obo:IAO_0000115>The 60-70 nucleotide region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001260">
+        <rdfs:label>sequence_collection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>A collection of discontinuous sequences.</obo:IAO_0000115>
+        <obo:IAO_0000118>sequence collection</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001410">
+        <rdfs:label>experimental_feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000118>experimental output artefact</obo:IAO_0000118>
+        <obo:IAO_0000118>experimental_output_artefact</obo:IAO_0000118>
+        <obo:IAO_0000115>A region which is the result of some arbitrary experimental procedure. The procedure may be carried out with biological material or inside a computer.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001411">
+        <rdfs:label>biological_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000118>INSDC_note:biological_region</obo:IAO_0000118>
+        <obo:IAO_0000118>biological region</obo:IAO_0000118>
+        <obo:IAO_0000115>A region defined by its disposition to be involved in a biological process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001459">
+        <rdfs:label>CRISPR</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000657"/>
+        <obo:IAO_0000118>CRISPR element</obo:IAO_0000118>
+        <obo:IAO_0000118>Clustered_Regularly_Interspaced_Short_Palindromic_Repeat</obo:IAO_0000118>
+        <obo:IAO_0000115>Clustered Palindromic Repeats interspersed with bacteriophage derived spacer sequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001483">
+        <rdfs:label>SNV</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_1000002"/>
+        <obo:IAO_0000118>single nucleotide variant</obo:IAO_0000118>
+        <obo:IAO_0000115>SNVs are single nucleotide positions in genomic DNA at which different sequence alternatives exist.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001505">
+        <rdfs:label>reference_genome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001026"/>
+        <obo:IAO_0000115>A collection of sequences (often chromosomes) taken as the standard for a given organism and genome assembly.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001683">
+        <rdfs:label>sequence_motif</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A sequence motif is a nucleotide or amino-acid sequence pattern that may have biological significance.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001877">
+        <rdfs:label>lncRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <obo:IAO_0000118>long non-coding RNA</obo:IAO_0000118>
+        <obo:IAO_0000118>lncRNA_transcript</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_qualifier:lncRNA</obo:IAO_0000118>
+        <obo:IAO_0000115>A non-coding RNA generally longer than 200 nucleotides that cannot be classified as any other ncRNA subtype. Similar to mRNAs, lncRNAs are mainly transcribed by RNA polymerase II, are often capped by 7-methyl guanosine at their 5&#39; ends, polyadenylated at their 3&#39; ends and may be spliced.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001956">
+        <rdfs:label>protease_site</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000839"/>
+        <obo:IAO_0000115>A polypeptide_region that codes for a protease cleavage site.</obo:IAO_0000115>
+        <obo:IAO_0000118>protease site</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002031">
+        <rdfs:label>shRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <obo:IAO_0000118>small hairpin RNA</obo:IAO_0000118>
+        <obo:IAO_0000115>A short hairpin RNA (shRNA) is an RNA transcript that makes a tight hairpin turn that can be used to silence target gene expression via RNA interference.</obo:IAO_0000115>
+        <obo:IAO_0000118>short hairpin RNA</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002096">
+        <rdfs:label>short_tandem_repeat_variation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001059"/>
+        <obo:IAO_0000118>short tandem repeat variation</obo:IAO_0000118>
+        <obo:IAO_0000115>A variation that expands or contracts a tandem repeat with regard to a reference.</obo:IAO_0000115>
+        <obo:IAO_0000118>str variation</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002247">
+        <rdfs:label>sncRNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000655"/>
+        <obo:IAO_0000118>Small noncoding RNA</obo:IAO_0000118>
+        <obo:IAO_0000115>A non-coding RNA less than 200 nucleotides in length.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0005836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0005836">
+        <rdfs:label>regulatory_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000831"/>
+        <obo:IAO_0000118>regulatory region</obo:IAO_0000118>
+        <obo:IAO_0000118>INSDC_qualifier:other</obo:IAO_0000118>
+        <obo:IAO_0000115>A region of sequence that is involved in the control of a biological process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0005851 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0005851">
+        <rdfs:label>gene_array</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <obo:IAO_0000115>An array includes two or more genes, or two or more gene subarrays, contiguously arranged where the individual genes, or subarrays, are either identical in sequence, or essentially so.</obo:IAO_0000115>
+        <obo:IAO_0000118>gene array</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0005855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0005855">
+        <rdfs:label>gene_group</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A collection of related genes.</obo:IAO_0000115>
+        <obo:IAO_0000118>gene group</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_1000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_1000002">
+        <rdfs:label>substitution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001059"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115>A sequence alteration where the length of the change in the variant is the same as that of the reference.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_1000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_1000008">
+        <rdfs:label>point_mutation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001483"/>
+        <obo:IAO_0000115>A single nucleotide change which has occurred at the same position of a corresponding nucleotide in a reference sequence.</obo:IAO_0000115>
+        <obo:IAO_0000118>point mutation</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_1000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_1000032">
+        <rdfs:label>delins</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001059"/>
+        <obo:IAO_0000118>deletion-insertion</obo:IAO_0000118>
+        <obo:IAO_0000115>A sequence alteration which included an insertion and a deletion, affecting 2 or more bases.</obo:IAO_0000115>
+        <obo:IAO_0000118>indel</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_1000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_1000035">
+        <rdfs:label>duplication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000667"/>
+        <obo:IAO_0000118>nucleotide duplication</obo:IAO_0000118>
+        <obo:IAO_0000115>An insertion which derives from, or is identical in sequence to, nucleotides present at a known location in the genome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_1000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_1000183">
+        <rdfs:label>chromosome_structure_variation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17004"/>
+        <obo:IAO_0000118>snpEff:CHROMOSOME_LARGE_DELETION</obo:IAO_0000118>
+        <obo:IAO_0000118>chromosome structure variation</obo:IAO_0000118>
+        <obo:IAO_0000115>An alteration of the genome that leads to a change in the structure or number of one or more chromosomes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
+<!--
+Notice: All the OBO ontologies have changed the term URI format from http://purl.org/obo/owl/ontology#ontology_nnnnnnn to http://purl.obolibrary.org/obo/ontology_nnnnnnn. Please make sure your input files are updated.
+The following terms do not have any related axioms in the source ontology:
+http://purl.obolibrary.org/obo/BFO_0000019
+http://purl.obolibrary.org/obo/IAO_0000030
+http://purl.obolibrary.org/obo/CHEBI_16991
+http://purl.obolibrary.org/obo/NCIT_C17004
+-->

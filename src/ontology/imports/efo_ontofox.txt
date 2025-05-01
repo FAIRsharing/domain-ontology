@@ -1,0 +1,125 @@
+#### NOTES ON EFO IMPORT ####
+##
+## EFO has a top-level class 'environmental factor' which is (deliberately)
+## not from any standard ULO. As such we are not importing
+## 'environmental factor', as it results in a duplicated hierarchy of
+## its child classes, which are all either BFO or IAO terms. Instead,
+## we list as the top-level source terms the classes that are
+## one or more levels below, as appropriate. Because of this more
+## specific mapping, if new terms are pulled into the AO from this
+## ontology which come from other places in the EFO hierarchy,
+## the mapping will need to be closely checked.
+##
+## Orphanet isn't included in Ontobee, but EFO imports the appropriate
+## terms. Therefore you will see an Orphanet IRI in the list for
+## EFO below.
+##
+## We use OGMS Disease rather than EFO_0000408 (Disease) and so this
+## needs to be explicitly mapped for the correct hierarchy to be retained.
+##
+
+[Source ontology]
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0000269 # Array design
+http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
+http://www.ebi.ac.uk/efo/EFO_0000336 # Chromosomal aberration
+http://www.ebi.ac.uk/efo/EFO_0000400 # Diabetes mellitus
+http://www.ebi.ac.uk/efo/EFO_0000487 # Exposure
+http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
+http://www.ebi.ac.uk/efo/EFO_0000513 # Genotype
+http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
+http://www.ebi.ac.uk/efo/EFO_0000727 # Treatment
+http://www.ebi.ac.uk/efo/EFO_0000749 # Comparative genomic hybridization
+http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
+http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
+http://www.ebi.ac.uk/efo/EFO_0003843 # Pain
+http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
+http://www.ebi.ac.uk/efo/EFO_0003935 # Mental health
+http://www.ebi.ac.uk/efo/EFO_0004014 # Deletions
+http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
+http://www.ebi.ac.uk/efo/EFO_0004327 # Electrocardiography
+http://www.ebi.ac.uk/efo/EFO_0004346 # Brain imaging
+http://www.ebi.ac.uk/efo/EFO_0004346 # Neuroimaging
+http://www.ebi.ac.uk/efo/EFO_0004426 # Karyotype
+http://www.ebi.ac.uk/efo/EFO_0004798 # Copy number variation
+http://www.ebi.ac.uk/efo/EFO_0004982 # Microbiome
+http://www.ebi.ac.uk/efo/EFO_0005135 # Genetic strain
+http://www.ebi.ac.uk/efo/EFO_0005741 # Infectious disease
+http://www.ebi.ac.uk/efo/EFO_0007059 # Germplasm
+http://www.ebi.ac.uk/efo/EFO_0007550 # High-content screen
+http://www.ebi.ac.uk/efo/EFO_0009878 # Drug interaction
+http://www.ebi.ac.uk/efo/EFO_0022597 # Aging
+http://www.ebi.ac.uk/efo/EFO_0022599 # DNA Methylation
+http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/BFO_0000015 # process
+
+## Planned process in EFO is *not* the OBI planned process that we use.
+## Therefore all children must be reassigned.
+http://www.ebi.ac.uk/efo/EFO_0002694 # Experimental process
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # Planned process
+http://www.ebi.ac.uk/efo/EFO_0000727 # Treatment
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # Planned process
+http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
+subClassOf http://purl.obolibrary.org/obo/OBI_0000011 # Planned process
+
+## Overriding EFO placement of measurement to be a child of IAO Data item
+## rather than ICE
+http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
+subClassOf http://purl.obolibrary.org/obo/IAO_0000027 # Data item
+
+http://purl.obolibrary.org/obo/OBI_0000181 # population
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
+
+http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
+http://www.ebi.ac.uk/efo/EFO_0003935 # Mental health
+subClassOf http://purl.obolibrary.org/obo/BFO_0000016 # disposition
+
+http://www.ebi.ac.uk/efo/EFO_0003843 # Pain
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://www.ebi.ac.uk/efo/EFO_0004426 # Karyotype
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+
+http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
+subClassOf http://purl.obolibrary.org/obo/UBERON_0000105 # Life cycle stage
+
+## Replacing EFO Disease with OGMS Disease
+http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0000400 # Diabetes mellitus
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.ebi.ac.uk/efo/EFO_0005741 # Infectious disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease
+subClassOf http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+
+## Replacing EFO placement of DNA methylation to GO's hierarchy
+http://www.ebi.ac.uk/efo/EFO_0022599 # DNA Methylation
+subClassOf http://purl.obolibrary.org/obo/GO_0032259 # Methylation
+
+http://www.ebi.ac.uk/efo/EFO_0022597 # Aging
+subClassOf http://purl.obolibrary.org/obo/GO_0032502 # developmental process
+
+http://www.ebi.ac.uk/efo/EFO_0009878 # Drug interaction
+subClassOf http://purl.obolibrary.org/obo/MI_0000 # Molecular interaction
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.ebi.ac.uk/efo/definition
+mapTo http://purl.obolibrary.org/obo/IAO_0000115

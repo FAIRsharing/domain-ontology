@@ -1,0 +1,31 @@
+http://www.ebi.ac.uk/efo/EFO_0000269 # Array design
+http://www.ebi.ac.uk/efo/EFO_0000319 # Cardiovascular disease
+http://www.ebi.ac.uk/efo/EFO_0000336 # Chromosomal aberration
+http://www.ebi.ac.uk/efo/EFO_0000400 # Diabetes mellitus
+http://www.ebi.ac.uk/efo/EFO_0000487 # Exposure
+http://www.ebi.ac.uk/efo/EFO_0000508 # Genetic disorder
+http://www.ebi.ac.uk/efo/EFO_0000513 # Genotype
+http://www.ebi.ac.uk/efo/EFO_0000546 # Injury
+http://www.ebi.ac.uk/efo/EFO_0000727 # Treatment
+http://www.ebi.ac.uk/efo/EFO_0000749 # Comparative genomic hybridization
+http://www.ebi.ac.uk/efo/EFO_0001355 # Infant
+http://www.ebi.ac.uk/efo/EFO_0001444 # Measurement
+http://www.ebi.ac.uk/efo/EFO_0003843 # Pain
+http://www.ebi.ac.uk/efo/EFO_0003890 # Drug dependence
+http://www.ebi.ac.uk/efo/EFO_0003935 # Mental health
+http://www.ebi.ac.uk/efo/EFO_0004014 # Deletions
+http://www.ebi.ac.uk/efo/EFO_0004292 # Vaccination
+http://www.ebi.ac.uk/efo/EFO_0004327 # Electrocardiography
+http://www.ebi.ac.uk/efo/EFO_0004346 # Brain imaging
+http://www.ebi.ac.uk/efo/EFO_0004346 # Neuroimaging
+http://www.ebi.ac.uk/efo/EFO_0004426 # Karyotype
+http://www.ebi.ac.uk/efo/EFO_0004798 # Copy number variation
+http://www.ebi.ac.uk/efo/EFO_0004982 # Microbiome
+http://www.ebi.ac.uk/efo/EFO_0005135 # Genetic strain
+http://www.ebi.ac.uk/efo/EFO_0005741 # Infectious disease
+http://www.ebi.ac.uk/efo/EFO_0007059 # Germplasm
+http://www.ebi.ac.uk/efo/EFO_0007550 # High-content screen
+http://www.ebi.ac.uk/efo/EFO_0009878 # Drug interaction
+http://www.ebi.ac.uk/efo/EFO_0022597 # Aging
+http://www.ebi.ac.uk/efo/EFO_0022599 # DNA Methylation
+http://www.orpha.net/ORDO/Orphanet_68380 # Mitochondrial disease

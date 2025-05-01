@@ -1,0 +1,46 @@
+format-version: 1.2
+data-version: http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/DRAO-base.owl
+idspace: biomodels http://biomodels.net/SBO/ 
+idspace: dce http://purl.org/dc/elements/1.1/ 
+idspace: dcterms http://purl.org/dc/terms/ 
+idspace: drao http://www.fairsharing.org/ontology/domain/ 
+idspace: edam http://edamontology.org/ 
+idspace: efo http://www.ebi.ac.uk/efo/ 
+idspace: mamo http://identifiers.org/mamo/ 
+idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: orpha http://www.orpha.net/ORDO/ 
+idspace: semsci http://semanticscience.org/resource/ 
+idspace: swo http://www.ebi.ac.uk/swo/ 
+idspace: swodata http://www.ebi.ac.uk/swo/data/ 
+idspace: swointerface http://www.ebi.ac.uk/swo/interface/ 
+ontology: http://www.fairsharing.org/ontology/domain/DRAO/DRAO-base.owl
+property_value: dce:type IAO:8000001
+property_value: dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 50 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.\n\nThese ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md\n\nAgroVoc and PRIDE classes were manually added as required.\n\nOriginally developed for use within FAIRsharing.org\n\nLicensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/" xsd:string
+property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
+property_value: dcterms:title "Domain Resource Application Ontology" xsd:string
+property_value: owl:versionInfo "2025-05-01" xsd:string
+
+[Term]
+id: drao:DRAO_0000281
+name: FAIR
+def: "A resource is FAIR if it is compliant with the FAIR principles, a set of guidelines to make data Findable, Accessible, Interoperable, and Re-usable. These guidelines are useful for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals." []
+comment: AL 16.03.18: Definition modified from https://fairsharing.org/bsg-s001147.
+subset: https://www.fairsharing.org
+is_a: BFO:0000019
+
+[Term]
+id: drao:DRAO_0000289
+name: Biocuration
+def: "Biocuration is the extraction of knowledge from unstructured biological and biomedical data into a standard, structured, computable form." []
+comment: Adapted by PMQ 2018.09.10 and International Society for Biocuration. DOI: 10.1371/journal.pbio.2002846
+subset: https://www.fairsharing.org
+is_a: OBI:0302914
+
+[Term]
+id: drao:DRAO_0000322
+name: Approved drug
+def: "An approved drug is a preparation that has been validated for a therapeutic use by a ruling authority of a government." []
+comment: Wikipedia https://en.wikipedia.org/wiki/Approved_drug, accessed 20.5.20
+subset: https://www.fairsharing.org
+is_a: DRON:00000001
+

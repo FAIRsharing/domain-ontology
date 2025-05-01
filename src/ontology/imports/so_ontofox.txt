@@ -1,0 +1,131 @@
+#### NOTES ON SO IMPORT ####
+##
+## The naming convention used within SO does not match that used
+## within FAIRsharing. As such, the matching *FAIRsharing* label
+## is shown in the 'Low Level source term URIs'
+## section below. These labels are applied separately to the FAIRsharing AO via
+## Ontodog, and will not be visible in the Ontofox output produced from this
+## configuration file.
+##
+## Further, the positioning of the SO top-level terms within the BFO
+## hierarchy follows the 2011 paper by Mungall et al. available at
+## https://doi.org/10.1016/j.jbi.2010.03.002
+## This publication states that all top-level SO terms
+## (other than sequence attribute)
+## are GDCs. To further place this at an appropriate level relative to
+## other ontologies used within the AO, we place them into the child of GDC,
+## information content entity.
+##
+## Some low-level terms, e.g. the children of nucleic_acid, have been adjusted
+## so they are placed within the CHEBI hierarchy. Otherwise if we use
+## the hierarchies in their default configuration, we get
+## multiple classes describing Nucleic Acid (CHEBI, SO, and EDAM).
+##
+
+[Source ontology]
+SO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/SO_0000001 # Sequence (SO name is 'region')
+http://purl.obolibrary.org/obo/SO_0000101 # Transposable element
+http://purl.obolibrary.org/obo/SO_0000110 # Sequence feature
+http://purl.obolibrary.org/obo/SO_0000112 # Primer
+http://purl.obolibrary.org/obo/SO_0000147 # Exon
+http://purl.obolibrary.org/obo/SO_0000149 # Contig
+http://purl.obolibrary.org/obo/SO_0000150 # Sequencing read
+http://purl.obolibrary.org/obo/SO_0000162 # Splice site
+http://purl.obolibrary.org/obo/SO_0000167 # Promoter
+http://purl.obolibrary.org/obo/SO_0000178 # Operon
+http://purl.obolibrary.org/obo/SO_0000180 # Retrotransposon
+http://purl.obolibrary.org/obo/SO_0000188 # Intron
+http://purl.obolibrary.org/obo/SO_0000203 # Untranslated region
+http://purl.obolibrary.org/obo/SO_0000234 # Messenger RNA
+http://purl.obolibrary.org/obo/SO_0000239 # Flanking region
+http://purl.obolibrary.org/obo/SO_0000243 # Internal ribosome entry site
+http://purl.obolibrary.org/obo/SO_0000253 # Transfer RNA
+http://purl.obolibrary.org/obo/SO_0000276 # Micro RNA
+http://purl.obolibrary.org/obo/SO_0000289 # Microsatellite
+http://purl.obolibrary.org/obo/SO_0000312 # Experimentally determined
+http://purl.obolibrary.org/obo/SO_0000316 # Coding sequence
+http://purl.obolibrary.org/obo/SO_0000324 # Sequence tag
+http://purl.obolibrary.org/obo/SO_0000330 # Conserved region
+http://purl.obolibrary.org/obo/SO_0000336 # Pseudogene
+http://purl.obolibrary.org/obo/SO_0000371 # Conjugative transposon
+http://purl.obolibrary.org/obo/SO_0000409 # Binding site
+http://purl.obolibrary.org/obo/SO_0000418 # Signal peptide
+http://purl.obolibrary.org/obo/SO_0000436 # Autonomously replicating sequence
+http://purl.obolibrary.org/obo/SO_0000591 # Pseudoknot
+http://purl.obolibrary.org/obo/SO_0000603 # Group II intron
+http://purl.obolibrary.org/obo/SO_0000646 # Small interfering RNA
+http://purl.obolibrary.org/obo/SO_0000655 # Non-coding RNA
+http://purl.obolibrary.org/obo/SO_0000667 # Insertion
+http://purl.obolibrary.org/obo/SO_0000673 # Transcript
+http://purl.obolibrary.org/obo/SO_0000694 # Single nucleotide polymorphism
+http://purl.obolibrary.org/obo/SO_0000704 # Gene
+http://purl.obolibrary.org/obo/SO_0000705 # Tandem repeat
+http://purl.obolibrary.org/obo/SO_0000737 # Mitochondrial sequence
+http://purl.obolibrary.org/obo/SO_0000740 # Plastid sequence
+http://purl.obolibrary.org/obo/SO_0000745 # Chloroplast sequence
+http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA
+http://purl.obolibrary.org/obo/SO_0000771 # Quantitative trait loci
+http://purl.obolibrary.org/obo/SO_0000772 # Genomic island
+http://purl.obolibrary.org/obo/SO_0000857 # Homologous
+http://purl.obolibrary.org/obo/SO_0000858 # Orthologous
+http://purl.obolibrary.org/obo/SO_0000859 # Paralogous
+http://purl.obolibrary.org/obo/SO_0000870 # Trans spliced
+http://purl.obolibrary.org/obo/SO_0000934 # Micro RNA (miRNA) target site
+http://purl.obolibrary.org/obo/SO_0000973 # Insertion sequence
+http://purl.obolibrary.org/obo/SO_0001000 # 16S rRNA
+http://purl.obolibrary.org/obo/SO_0001006 # Prophage
+http://purl.obolibrary.org/obo/SO_0001007 # Cryptic prophage
+http://purl.obolibrary.org/obo/SO_0001021 # Chromosome breakpoint
+http://purl.obolibrary.org/obo/SO_0001023 # Allele
+http://purl.obolibrary.org/obo/SO_0001026 # Genome
+http://purl.obolibrary.org/obo/SO_0001037 # Mobile genetic element
+http://purl.obolibrary.org/obo/SO_0001041 # Viral sequence
+http://purl.obolibrary.org/obo/SO_0001059 # Sequence alteration
+http://purl.obolibrary.org/obo/SO_0001060 # Sequence variant
+http://purl.obolibrary.org/obo/SO_0001067 # Polypeptide motif
+http://purl.obolibrary.org/obo/SO_0001244 # Pre-miRNA (pre-microRNA)
+http://purl.obolibrary.org/obo/SO_0001260 # Sequence collection **Required for OMIT, VariO and FBCV**
+http://purl.obolibrary.org/obo/SO_0001459 # CRISPR
+http://purl.obolibrary.org/obo/SO_0001505 # Reference genome
+http://purl.obolibrary.org/obo/SO_0001683 # Sequence motif
+http://purl.obolibrary.org/obo/SO_0001877 # Long non-coding RNA
+http://purl.obolibrary.org/obo/SO_0001956 # Protease site
+http://purl.obolibrary.org/obo/SO_0002031 # Short Hairpin RNA
+http://purl.obolibrary.org/obo/SO_0002096 # Short tandem repeat variation
+http://purl.obolibrary.org/obo/SO_0005836 # Regulatory region
+http://purl.obolibrary.org/obo/SO_0005851 # Gene array
+http://purl.obolibrary.org/obo/SO_1000008 # Point mutation
+http://purl.obolibrary.org/obo/SO_1000032 # Indel
+http://purl.obolibrary.org/obo/SO_1000035 # Nucleotide duplication
+http://purl.obolibrary.org/obo/SO_1000183 # Chromosome structure variation
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/SO_0000400 # sequence_attribute
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://purl.obolibrary.org/obo/SO_0001260 # sequence_collection
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/SO_0000110 # sequence_feature
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+
+http://purl.obolibrary.org/obo/SO_0001060 # sequence_variant **Not its native location in SO**
+subClassOf http://purl.obolibrary.org/obo/SO_0000110 # sequence_feature
+
+http://purl.obolibrary.org/obo/SO_0000756 # Complementary DNA
+subClassOf http://purl.obolibrary.org/obo/CHEBI_16991 # Deoxyribonucleic acid
+
+http://purl.obolibrary.org/obo/SO_1000183 # Chromosome structure variation
+subClassOf http://purl.obolibrary.org/obo/NCIT_C17004 # Genetic polymorphism
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/IAO_0000115

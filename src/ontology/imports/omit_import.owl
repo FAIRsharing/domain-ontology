@@ -1,0 +1,169 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/omit_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/omit_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/omit_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://edamontology.org/operation_2945>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008152>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032991>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C41332>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0200000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0001480>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0003072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0004280>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0008490>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0009360>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0010354>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0012761>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0014521>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0018868>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0019234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0019939>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0020804>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0025752>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0025926>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0026082>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0028181>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0028415>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMIT_0028630>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PR_000000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/SO_0001260>))
+Declaration(Class(<http://www.ebi.ac.uk/efo/EFO_0002694>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0001480> (Machine Learning)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0001480> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0001480> "Machine Learning")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0001480> <http://purl.obolibrary.org/obo/IAO_0000064>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0003072> (Biotransformation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0003072> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0003072> "Biotransformation")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0003072> <http://purl.obolibrary.org/obo/GO_0008152>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0004280> (Classification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0004280> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0004280> "Classification")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0004280> <http://purl.obolibrary.org/obo/OBI_0200000>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0008490> (Interferons)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0008490> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0008490> "Interferons")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0008490> <http://purl.obolibrary.org/obo/PR_000000001>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0009360> (Major Histocompatibility Complex)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0009360> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0009360> "Major Histocompatibility Complex")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0009360> <http://purl.obolibrary.org/obo/GO_0032991>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0010354> (Natural Language Processing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0010354> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0010354> "Natural Language Processing")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0010354> <http://purl.obolibrary.org/obo/IAO_0000064>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0012761> (Radiation Effects)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0012761> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0012761> "Radiation Effects")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0012761> <http://purl.obolibrary.org/obo/NCIT_C41332>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0014521> (Teaching Materials)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0014521> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0014521> "Teaching Materials")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0014521> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0018868> (Founder Effect)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0018868> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0018868> "Founder Effect")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0018868> <http://purl.obolibrary.org/obo/SO_0001059>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0019234> (Peptide Library)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0019234> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0019234> "Peptide Library")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0019234> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0019939> (Benchmarking)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0019939> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0019939> "Benchmarking")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0019939> <http://edamontology.org/operation_2945>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0020804> (Quantitative Structure-Activity Relationship)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0020804> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0020804> "Quantitative Structure-Activity Relationship")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0020804> <http://edamontology.org/operation_2945>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0025752> (Receptors, KIR)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0025752> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0025752> "Receptors, KIR")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0025752> <http://purl.obolibrary.org/obo/PR_000000001>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0025926> (Genome, Mitochondrial)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0025926> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0025926> "Genome, Mitochondrial")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0025926> <http://purl.obolibrary.org/obo/SO_0001026>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0026082> (Metagenome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0026082> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0026082> "Metagenome")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0026082> <http://purl.obolibrary.org/obo/SO_0001260>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0028181> (Crowdsourcing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0028181> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0028181> "Crowdsourcing")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0028181> <http://www.ebi.ac.uk/efo/EFO_0002694>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0028415> (Intrinsically Disordered Proteins)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0028415> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0028415> "Intrinsically Disordered Proteins")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0028415> <http://purl.obolibrary.org/obo/PR_000000001>)
+
+# Class: <http://purl.obolibrary.org/obo/OMIT_0028630> (Non-Randomized Controlled Trials as Topic)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMIT_0028630> <http://purl.obolibrary.org/obo/omit.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMIT_0028630> "Non-Randomized Controlled Trials as Topic")
+SubClassOf(<http://purl.obolibrary.org/obo/OMIT_0028630> <http://purl.obolibrary.org/obo/OBI_0000066>)
+
+
+)

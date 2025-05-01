@@ -1,0 +1,305 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/chmo_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/chmo_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/chmo_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000104>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000140>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000141>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000156>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000228>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000591>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000656>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000793>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000800>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0000999>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001112>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001215>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0001806>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CHMO_0002414>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000185>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000002> "continuant")
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000015> (process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000015> "process")
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000031> (generically dependent continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000031> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000031> "generically dependent continuant")
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000031> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000067> (microscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000067> "Any technique where a microscope is used to view a small object (or specimen) by producing a magnified image.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000067> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000067> "microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000067> <http://purl.obolibrary.org/obo/OBI_0000185>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000068> (electron microscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000068> "Microscopy where the specimen is bombarded with a finely focused (<10 nm diameter) electron beam with an acceleration voltage 50-150 kV under vacuum. The interaction of the electrons with the specimen produces transmitted, secondary, backscattered and diffracted electrons and characteristic X-rays which are detected.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000068> "EM")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000068> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000068> "electron microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000068> <http://purl.obolibrary.org/obo/CHMO_0000067>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000102> (optical microscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000102> "Microscopy where the specimen is illuminated with visible light and a system of lenses is used to produce an image.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000102> "OM")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000102> "light microscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000102> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000102> "optical microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000102> <http://purl.obolibrary.org/obo/CHMO_0000067>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000104> (bright-field microscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000104> "Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000104> "bright field microscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000104> "bright-field optical microscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000104> "transmitted light microscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000104> "transmitted-light microscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000104> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000104> "bright-field microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000104> <http://purl.obolibrary.org/obo/CHMO_0000102>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000140> (reciprocal-space method)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000140> "Any detection or measurement method for a set of points in reciprocal space.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000140> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000140> "reciprocal-space method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000140> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000141> (diffraction method)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000141> "Any detection or measurement method where the structure of a crystal or molecule can be determined by directing a beam of particles or radiation at a sample and recording the resulting diffraction pattern.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000141> "crystallography")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000141> "diffraction analysis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000141> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000141> "diffraction method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000141> <http://purl.obolibrary.org/obo/CHMO_0000140>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000156> (X-ray diffraction)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000156> "A method for determining structure by directing a beam of X-rays at the sample and detecting the positions and intensities of the diffracted X-rays as a pattern of spots on a photographic plate.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000156> "X-Ray crystallographic analysis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000156> "X-ray analysis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000156> "X-ray crystallography")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000156> "X-ray diffraction analysis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000156> "X-ray diffractometry")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000156> "X-ray structure determination")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000156> "XRD")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000156> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000156> "X-ray diffraction")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000156> <http://purl.obolibrary.org/obo/CHMO_0000141>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000228> (spectroscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000228> "The study of the interaction of a sample with radiation or particles for measurement or detection.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000228> "spectrometry")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000228> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000228> "spectroscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000228> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000591> (nuclear magnetic resonance spectroscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000591> "Spectroscopy where the energy states of spin-active nuclei placed in a static magnetic field are interrogated by inducing transitions between the states via radio frequency irradiation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000591> "NMR")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000591> "NMR spectrometry")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000591> "NMR spectroscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000591> "nuclear magnetic resonance (NMR) spectroscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000591> "nuclear magnetic resonance spectrometry")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000591> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000591> "nuclear magnetic resonance spectroscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000591> <http://purl.obolibrary.org/obo/CHMO_0001806>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000656> (Raman spectroscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000656> "Spectroscopy where the Raman scattering of monochromatic light, usually from a laser in the visible, near infrared, or near ultraviolet range by a sample is detected.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000656> "Raman scattering spectrometry")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000656> "Raman scattering spectroscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000656> "Raman spectrometry")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000656> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000656> "Raman spectroscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000656> <http://purl.obolibrary.org/obo/CHMO_0002414>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000793> (assay output)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000793> "An information content entity that is output by an assay.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000793> "experimental data")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000793> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000793> "assay output")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000793> <http://purl.obolibrary.org/obo/IAO_0000027>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000800> (spectrum)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000800> "A plot of a measured quantity against some experimental parameter.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000800> "spectra")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000800> "spectrum plot")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000800> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000800> "spectrum")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000800> <http://purl.obolibrary.org/obo/CHMO_0000793>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0000999> (separation method)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0000999> "A method that results in the separation of two or more components according to some property.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0000999> "partition")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0000999> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0000999> "separation method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0000999> <http://purl.obolibrary.org/obo/OBI_0000094>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001000> (chromatography)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001000> "A separation method where the components are distributed between two phases, one of which is stationary, while the other moves in a definite direction.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0001000> "analytical chromatography")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0001000> "chromatographic analysis")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0001000> "preparative chromatography")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0001000> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001000> "chromatography")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001000> <http://purl.obolibrary.org/obo/CHMO_0000999>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001001> (column chromatography)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001001> "A chromatography method where the stationary bed is within a tube (of standard length 25 cm). The particles of the solid stationary phase or support coated with a liquid stationary phase may fill the whole inside volume of the tube (packed column) or be concentrated on or along the inside tube wall leaving an open, unrestricted path for the mobile phase in the middle part of the tube (open-tubular column).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0001001> "preparative column chromatography")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0001001> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001001> "column chromatography")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001001> <http://purl.obolibrary.org/obo/CHMO_0001000>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001002> (gas chromatography)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001002> "Column chromatography where the mobile phase is a gas.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0001002> "GC")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0001002> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001002> "gas chromatography")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001002> <http://purl.obolibrary.org/obo/CHMO_0001001>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001112> (super-resolution bright-field microscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001112> "Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective, and image resolution (which is normally limited by diffraction) is enhanced by processing the images with image restoration algorithms.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0001112> "super resolution bright field microscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0001112> "super resolution bright field optical microscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CHMO_0001112> "super-resolution bright-field optical microscopy")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0001112> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001112> "super-resolution bright-field microscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001112> <http://purl.obolibrary.org/obo/CHMO_0000104>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001215> (magnetic resonance method)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001215> "Any technique which detects the response of spins to a perturbing magnetic field.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0001215> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001215> "magnetic resonance method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001215> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0001806> (nuclear magnetic resonance method)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0001806> "A technique or procedure applied in nuclear magnetic resonance experiments.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0001806> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0001806> "nuclear magnetic resonance method")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0001806> <http://purl.obolibrary.org/obo/CHMO_0001215>)
+
+# Class: <http://purl.obolibrary.org/obo/CHMO_0002414> (scattering spectroscopy)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CHMO_0002414> "Any method that measures the amount of light that a substance scatters at certain wavelengths, incident angles, and polarization angles.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CHMO_0002414> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CHMO_0002414> "scattering spectroscopy")
+SubClassOf(<http://purl.obolibrary.org/obo/CHMO_0002414> <http://purl.obolibrary.org/obo/CHMO_0000228>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000027> (data item)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/IAO_0000027> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000027> "data item")
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000027> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/IAO_0000030> (information content entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "information content entity")
+SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> <http://purl.obolibrary.org/obo/BFO_0000031>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000011> "planned process")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000070> (assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000070> "A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000070> "measurement method")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000070> "assay")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000094> (material processing)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000094> "A planned process which results in physical changes in a specified input material.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000094> "material transformations")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000094> "preparative method")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000094> "sample preparation")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000094> "sample preparation step")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000094> "sample preparative method")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000094> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000094> "material processing")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000094> <http://purl.obolibrary.org/obo/OBI_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000185> (imaging assay)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000185> "An imaging assay is an assay to produce a picture of an entity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000185> "imaging assay")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000185> <http://purl.obolibrary.org/obo/chmo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000185> "imaging assay")
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000185> <http://purl.obolibrary.org/obo/OBI_0000070>)
+
+
+)

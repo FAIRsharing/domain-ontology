@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/zhfu0hci.owl#"
+     xml:base="http://ontofox.hegroup.org/zhfu0hci.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/zhfu0hci.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:label>continuant</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+        <rdfs:label>process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <rdfs:label>generically dependent continuant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:label>material entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000067">
+        <rdfs:label>microscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000185"/>
+        <obo:IAO_0000115>Any technique where a microscope is used to view a small object (or specimen) by producing a magnified image.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000068">
+        <rdfs:label>electron microscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000067"/>
+        <obo:IAO_0000118>EM</obo:IAO_0000118>
+        <obo:IAO_0000115>Microscopy where the specimen is bombarded with a finely focused (&lt;10 nm diameter) electron beam with an acceleration voltage 50-150 kV under vacuum. The interaction of the electrons with the specimen produces transmitted, secondary, backscattered and diffracted electrons and characteristic X-rays which are detected.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000102">
+        <rdfs:label>optical microscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000067"/>
+        <obo:IAO_0000118>OM</obo:IAO_0000118>
+        <obo:IAO_0000115>Microscopy where the specimen is illuminated with visible light and a system of lenses is used to produce an image.</obo:IAO_0000115>
+        <obo:IAO_0000118>light microscopy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000104">
+        <rdfs:label>bright-field microscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000102"/>
+        <obo:IAO_0000118>transmitted-light microscopy</obo:IAO_0000118>
+        <obo:IAO_0000118>transmitted light microscopy</obo:IAO_0000118>
+        <obo:IAO_0000118>bright-field optical microscopy</obo:IAO_0000118>
+        <obo:IAO_0000115>Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective.</obo:IAO_0000115>
+        <obo:IAO_0000118>bright field microscopy</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000140">
+        <rdfs:label>reciprocal-space method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115>Any detection or measurement method for a set of points in reciprocal space.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000141">
+        <rdfs:label>diffraction method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000140"/>
+        <obo:IAO_0000118>diffraction analysis</obo:IAO_0000118>
+        <obo:IAO_0000115>Any detection or measurement method where the structure of a crystal or molecule can be determined by directing a beam of particles or radiation at a sample and recording the resulting diffraction pattern.</obo:IAO_0000115>
+        <obo:IAO_0000118>crystallography</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000156">
+        <rdfs:label>X-ray diffraction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000141"/>
+        <obo:IAO_0000118>XRD</obo:IAO_0000118>
+        <obo:IAO_0000118>X-ray diffraction analysis</obo:IAO_0000118>
+        <obo:IAO_0000115>A method for determining structure by directing a beam of X-rays at the sample and detecting the positions and intensities of the diffracted X-rays as a pattern of spots on a photographic plate.</obo:IAO_0000115>
+        <obo:IAO_0000118>X-ray diffractometry</obo:IAO_0000118>
+        <obo:IAO_0000118>X-ray structure determination</obo:IAO_0000118>
+        <obo:IAO_0000118>X-ray crystallography</obo:IAO_0000118>
+        <obo:IAO_0000118>X-ray analysis</obo:IAO_0000118>
+        <obo:IAO_0000118>X-Ray crystallographic analysis</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000228">
+        <rdfs:label>spectroscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000118>spectrometry</obo:IAO_0000118>
+        <obo:IAO_0000115>The study of the interaction of a sample with radiation or particles for measurement or detection.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000591">
+        <rdfs:label>nuclear magnetic resonance spectroscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001806"/>
+        <obo:IAO_0000118>NMR</obo:IAO_0000118>
+        <obo:IAO_0000118>NMR spectroscopy</obo:IAO_0000118>
+        <obo:IAO_0000115>Spectroscopy where the energy states of spin-active nuclei placed in a static magnetic field are interrogated by inducing transitions between the states via radio frequency irradiation.</obo:IAO_0000115>
+        <obo:IAO_0000118>nuclear magnetic resonance (NMR) spectroscopy</obo:IAO_0000118>
+        <obo:IAO_0000118>NMR spectrometry</obo:IAO_0000118>
+        <obo:IAO_0000118>nuclear magnetic resonance spectrometry</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000656">
+        <rdfs:label>Raman spectroscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0002414"/>
+        <obo:IAO_0000118>Raman scattering spectrometry</obo:IAO_0000118>
+        <obo:IAO_0000118>Raman spectrometry</obo:IAO_0000118>
+        <obo:IAO_0000118>Raman scattering spectroscopy</obo:IAO_0000118>
+        <obo:IAO_0000115>Spectroscopy where the Raman scattering of monochromatic light, usually from a laser in the visible, near infrared, or near ultraviolet range by a sample is detected.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000793">
+        <rdfs:label>assay output</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115>An information content entity that is output by an assay.</obo:IAO_0000115>
+        <obo:IAO_0000118>experimental data</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000800">
+        <rdfs:label>spectrum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000793"/>
+        <obo:IAO_0000118>spectrum plot</obo:IAO_0000118>
+        <obo:IAO_0000118>spectra</obo:IAO_0000118>
+        <obo:IAO_0000115>A plot of a measured quantity against some experimental parameter.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000999">
+        <rdfs:label>separation method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
+        <obo:IAO_0000118>partition</obo:IAO_0000118>
+        <obo:IAO_0000115>A method that results in the separation of two or more components according to some property.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001000">
+        <rdfs:label>chromatography</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000999"/>
+        <obo:IAO_0000118>chromatographic analysis</obo:IAO_0000118>
+        <obo:IAO_0000115>A separation method where the components are distributed between two phases, one of which is stationary, while the other moves in a definite direction.</obo:IAO_0000115>
+        <obo:IAO_0000118>preparative chromatography</obo:IAO_0000118>
+        <obo:IAO_0000118>analytical chromatography</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001001">
+        <rdfs:label>column chromatography</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001000"/>
+        <obo:IAO_0000118>preparative column chromatography</obo:IAO_0000118>
+        <obo:IAO_0000115>A chromatography method where the stationary bed is within a tube (of standard length 25 cm). The particles of the solid stationary phase or support coated with a liquid stationary phase may fill the whole inside volume of the tube (packed column) or be concentrated on or along the inside tube wall leaving an open, unrestricted path for the mobile phase in the middle part of the tube (open-tubular column).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001002">
+        <rdfs:label>gas chromatography</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001001"/>
+        <obo:IAO_0000115>Column chromatography where the mobile phase is a gas.</obo:IAO_0000115>
+        <obo:IAO_0000118>GC</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001112">
+        <rdfs:label>super-resolution bright-field microscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000104"/>
+        <obo:IAO_0000118>super resolution bright field microscopy</obo:IAO_0000118>
+        <obo:IAO_0000118>super resolution bright field optical microscopy</obo:IAO_0000118>
+        <obo:IAO_0000118>super-resolution bright-field optical microscopy</obo:IAO_0000118>
+        <obo:IAO_0000115>Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective, and image resolution (which is normally limited by diffraction) is enhanced by processing the images with image restoration algorithms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001215">
+        <rdfs:label>magnetic resonance method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115>Any technique which detects the response of spins to a perturbing magnetic field.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0001806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0001806">
+        <rdfs:label>nuclear magnetic resonance method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0001215"/>
+        <obo:IAO_0000115>A technique or procedure applied in nuclear magnetic resonance experiments.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002414">
+        <rdfs:label>scattering spectroscopy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000228"/>
+        <obo:IAO_0000115>Any method that measures the amount of light that a substance scatters at certain wavelengths, incident angles, and polarization angles.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+        <rdfs:label>data item</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:label>information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
+        <rdfs:label>planned process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070">
+        <rdfs:label>assay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000118>measurement method</obo:IAO_0000118>
+        <obo:IAO_0000115>A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000094">
+        <rdfs:label>material processing</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000118>preparative method</obo:IAO_0000118>
+        <obo:IAO_0000118>sample preparation</obo:IAO_0000118>
+        <obo:IAO_0000115>A planned process which results in physical changes in a specified input material.</obo:IAO_0000115>
+        <obo:IAO_0000118>sample preparation step</obo:IAO_0000118>
+        <obo:IAO_0000118>material transformations</obo:IAO_0000118>
+        <obo:IAO_0000118>sample preparative method</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000185">
+        <rdfs:label>imaging assay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000118>imaging assay</obo:IAO_0000118>
+        <obo:IAO_0000115>An imaging assay is an assay to produce a picture of an entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
+<!--
+Notice: All the OBO ontologies have changed the term URI format from http://purl.org/obo/owl/ontology#ontology_nnnnnnn to http://purl.obolibrary.org/obo/ontology_nnnnnnn. Please make sure your input files are updated.
+The following terms do not have any related axioms in the source ontology:
+http://purl.obolibrary.org/obo/BFO_0000003
+-->

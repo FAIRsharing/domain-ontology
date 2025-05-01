@@ -1,0 +1,2 @@
+http://purl.obolibrary.org/obo/IDOMAL_0000786 # Glycosylphosphatidylinositol anchor
+http://purl.obolibrary.org/obo/IDOMAL_0000349 # Insecticide resistance

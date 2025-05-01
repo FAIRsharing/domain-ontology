@@ -1,0 +1,59 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/po_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/po_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/po_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0007033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000105>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/PO_0007033> (whole plant development stage)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0007033> "A plant structure development stage (PO:0009012) that has as primary participant a whole plant (PO:0000003).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/PO_0007033> <http://purl.obolibrary.org/obo/po.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0007033> "whole plant development stage")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0007033> <http://purl.obolibrary.org/obo/UBERON_0000105>)
+
+# Class: <http://purl.obolibrary.org/obo/PO_0009005> (root)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PO_0009005> "A plant axis (PO:0025004) that lacks shoot axis nodes (PO:0005004) and usually grows indeterminately.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PO_0009005> "aerial root (narrow)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PO_0009005> "climbing root (narrow)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PO_0009005> "ra&#237z (Spanish, exact)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PO_0009005> "radices (exact, plural)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PO_0009005> "radix (exact)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PO_0009005> "根 (Japanese, exact)")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/PO_0009005> <http://purl.obolibrary.org/obo/po.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PO_0009005> "root")
+SubClassOf(<http://purl.obolibrary.org/obo/PO_0009005> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+
+
+)

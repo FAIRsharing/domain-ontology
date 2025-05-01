@@ -1,0 +1,56 @@
+#### NOTES ON FBCV IMPORT ####
+##
+## DRAO does not have an 'Omics' hierarchy right now,
+## instead various '-omes' are collected according to their
+## type (e.g Genome is a 'sequence collection'). This makes things
+## slightly awkward as not all -omes are grouped together. For
+## instance, Interactome is currently placed directly under ICE
+## as it is a collection of interactions, and therefore cannot go
+## as a sibling of Genome (it is not a collection of sequences!).
+##
+## We may chose to have an additional parent class minted within
+## DRAO, named (e.g.) "biological collection" as a child of ICE.
+## This could have various types of biological collections within it
+## such as sequence_collection and Interactome, microbiome etc.
+##
+
+[Source ontology]
+FBcv
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FBcv_0000155 # Single balancer
+http://purl.obolibrary.org/obo/FBcv_0000623 # Enhancer
+http://purl.obolibrary.org/obo/FBcv_0003035 # Proteome
+http://purl.obolibrary.org/obo/FBcv_0003036 # Interactome
+http://purl.obolibrary.org/obo/FBcv_0003039 # Chemical screen
+http://purl.obolibrary.org/obo/FBcv_0003040 # Gene model annotation
+http://purl.obolibrary.org/obo/FBcv_0003077 # RNAi screen
+http://purl.obolibrary.org/obo/FBcv_0003195 # Cap Analysis Gene Expression
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FBcv_0000155 # Single balancer
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24432 # biological role
+http://purl.obolibrary.org/obo/FBcv_0000623 # Enhancer
+subClassOf http://purl.obolibrary.org/obo/CHEBI_24432 # biological role
+http://purl.obolibrary.org/obo/FBcv_0003035 # Proteome
+subClassOf http://purl.obolibrary.org/obo/SO_0001260 # sequence collection
+http://purl.obolibrary.org/obo/FBcv_0003036 # Interactome
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/FBcv_0003039 # Chemical screen
+subClassOf http://www.ebi.ac.uk/efo/EFO_0007550 # Assay
+http://purl.obolibrary.org/obo/FBcv_0003040 # Gene model annotation
+subClassOf http://purl.obolibrary.org/obo/OBI_0200000 # Data transformation
+http://purl.obolibrary.org/obo/FBcv_0003195 # Cap Analysis Gene Expression (CAGE)
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # assay
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

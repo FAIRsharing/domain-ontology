@@ -1,0 +1,2 @@
+http://purl.obolibrary.org/obo/PO_0007033 # Plant development stage
+http://purl.obolibrary.org/obo/PO_0009005 # Root

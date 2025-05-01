@@ -1,0 +1,11 @@
+http://purl.obolibrary.org/obo/CHMO_0000067 # Microscopy
+http://purl.obolibrary.org/obo/CHMO_0000068 # Electron microscopy
+http://purl.obolibrary.org/obo/CHMO_0000102 # Optical microscopy
+http://purl.obolibrary.org/obo/CHMO_0000156 # X-ray diffraction
+http://purl.obolibrary.org/obo/CHMO_0000228 # Spectroscopy
+http://purl.obolibrary.org/obo/CHMO_0000591 # Nuclear Magnetic Resonance spectroscopy
+http://purl.obolibrary.org/obo/CHMO_0000656 # Raman spectroscopy
+http://purl.obolibrary.org/obo/CHMO_0000800 # Spectrum
+http://purl.obolibrary.org/obo/CHMO_0001000 # Chromatography
+http://purl.obolibrary.org/obo/CHMO_0001002 # Gas chromatography
+http://purl.obolibrary.org/obo/CHMO_0001112 # Super-resolution bright-field microscopy

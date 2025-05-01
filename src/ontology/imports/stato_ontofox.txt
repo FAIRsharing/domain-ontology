@@ -1,0 +1,46 @@
+#### NOTES ON STATO IMPORT ####
+##
+## includeAllIntermediates has been enabled
+## because it uses BFO, and if we just includeComputedIntermediates,
+## then whole sections of the BFO hierarchy are skipped.
+##
+## STATO is using a class no longer available within BFO:
+## http://purl.obolibrary.org/obo/BFO_0000005 (dependent continuant)
+## Therefore the hierarchy has been re-mapped to not include
+## BFO_0000005.
+##
+## STATO also, weirdly, has process down as BFO_0000007 when it is
+## BFO_0000015, so this also needs to be re-mapped. This happened
+## with SWO as well, so perhaps it's a legacy issue.
+##
+
+[Source ontology]
+STATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/STATO_0000254 # Allele frequency
+http://purl.obolibrary.org/obo/STATO_0000091 # Genome-wide association study
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000031 # generically dependent continuant
+subClassOf http://purl.obolibrary.org/obo/BFO_0000002 # continuant
+http://purl.obolibrary.org/obo/OBI_0000011 # planned process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015 # process (the correct URI)
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/OBI_9991118
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/OBI_0001847
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/STATO_0000032
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

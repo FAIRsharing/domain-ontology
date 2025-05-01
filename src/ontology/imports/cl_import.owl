@@ -1,0 +1,288 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/cl_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/cl_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/cl_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000084>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000113>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000145>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000211>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000219>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000226>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000255>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000325>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000393>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000404>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000451>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000518>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000540>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000542>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000723>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000738>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000842>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000988>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002242>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002248>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002319>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002321>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0002322>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CL_0011115>))
+Declaration(Class(<http://purl.obolibrary.org/obo/UBERON_0000061>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (<http://purl.obolibrary.org/obo/BFO_0000002>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/cl.owl>)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000000> (cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000000> "A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000000> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000000> "cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000000> <http://purl.obolibrary.org/obo/UBERON_0000061>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000034> (stem cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000034> "A relatively undifferentiated cell that retains the ability to divide and proliferate throughout life to provide progenitor cells that can differentiate into specialized cells.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000034> "animal stem cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000034> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000034> "stem cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000034> <http://purl.obolibrary.org/obo/CL_0000255>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000034> <http://purl.obolibrary.org/obo/CL_0011115>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000084> (T cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000084> "A type of lymphocyte whose defining characteristic is the expression of a T cell receptor complex.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000084> "T lymphocyte")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000084> "T-cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000084> "T-lymphocyte")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000084> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000084> "T cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000084> <http://purl.obolibrary.org/obo/CL_0000542>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000113> (mononuclear phagocyte)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000113> "A vertebrate phagocyte with a single nucleus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000113> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000113> "mononuclear phagocyte")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000113> <http://purl.obolibrary.org/obo/CL_0000518>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000113> <http://purl.obolibrary.org/obo/CL_0000842>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000145> (professional antigen presenting cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000145> "A cell capable of processing and presenting lipid and protein antigens to T cells in order to initiate an immune response.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000145> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000145> "professional antigen presenting cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000145> <http://purl.obolibrary.org/obo/CL_0000738>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000211> (electrically active cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000211> "A cell whose function is determined by the generation or the reception of an electric signal.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000211> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000211> "electrically active cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000211> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000219> (motile cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000219> "A cell that moves by its own activities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000219> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000219> "motile cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000219> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000226> (single nucleate cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000226> "A cell with a single nucleus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000226> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000226> "single nucleate cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000226> <http://purl.obolibrary.org/obo/CL_0000255>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000226> <http://purl.obolibrary.org/obo/CL_0002242>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000234> (phagocyte)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000234> "Any cell capable of ingesting particulate matter via phagocytosis.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000234> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000234> "phagocyte")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000234> <http://purl.obolibrary.org/obo/CL_0000219>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000234> <http://purl.obolibrary.org/obo/CL_0000325>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000255> (eukaryotic cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000255> "Any cell that in taxon some Eukaryota.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000255> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000255> "eukaryotic cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000255> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000325> (stuff accumulating cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000325> "A cell that is specialised to accumulate a particular substance(s).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000325> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000325> "stuff accumulating cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000325> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000393> (electrically responsive cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000393> "A cell whose function is determined by its response to an electric signal.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000393> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000393> "electrically responsive cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000393> <http://purl.obolibrary.org/obo/CL_0000211>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000404> (electrically signaling cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000404> "A cell that initiates an electrical signal and passes that signal to another cell.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000404> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000404> "electrically signaling cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000404> <http://purl.obolibrary.org/obo/CL_0000211>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000451> (dendritic cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000451> "A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation. These cells are lineage negative (CD3-negative, CD19-negative, CD34-negative, and CD56-negative).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000451> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000451> "dendritic cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000451> <http://purl.obolibrary.org/obo/CL_0000113>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000451> <http://purl.obolibrary.org/obo/CL_0000145>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000518> (phagocyte (sensu Vertebrata))
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000518> "A phagocyte in vertebrates that is able to phagocytosis.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000518> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000518> "phagocyte (sensu Vertebrata)")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000518> <http://purl.obolibrary.org/obo/CL_0000234>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000518> <http://purl.obolibrary.org/obo/CL_0000255>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000540> (neuron)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000540> "The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000540> "nerve cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000540> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000540> "neuron")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000540> <http://purl.obolibrary.org/obo/CL_0000393>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000540> <http://purl.obolibrary.org/obo/CL_0000404>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000540> <http://purl.obolibrary.org/obo/CL_0002319>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000542> (lymphocyte)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000542> "A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000542> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000542> "lymphocyte")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000542> <http://purl.obolibrary.org/obo/CL_0000842>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000723> (somatic stem cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000723> "A stem cell that can give rise to cell types of the body other than those of the germ-line.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000723> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000723> "somatic stem cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000723> <http://purl.obolibrary.org/obo/CL_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000738> (leukocyte)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000738> "An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000738> "leucocyte")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000738> "white blood cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000738> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000738> "leukocyte")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000738> <http://purl.obolibrary.org/obo/BFO_0000002>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000738> <http://purl.obolibrary.org/obo/CL_0000219>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000738> <http://purl.obolibrary.org/obo/CL_0000255>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000738> <http://purl.obolibrary.org/obo/CL_0000988>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000738> <http://purl.obolibrary.org/obo/CL_0002242>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000842> (mononuclear leukocyte)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000842> "A leukocyte with a single non-segmented nucleus in the mature form.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000842> "mononuclear cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000842> "peripheral blood mononuclear cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000842> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000842> "mononuclear leukocyte")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000842> <http://purl.obolibrary.org/obo/CL_0000226>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000842> <http://purl.obolibrary.org/obo/CL_0000738>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0000988> (hematopoietic cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0000988> "A cell of a hematopoietic lineage.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000988> "haematopoietic cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000988> "haemopoietic cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0000988> "hemopoietic cell")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0000988> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0000988> "hematopoietic cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0000988> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002242> (nucleate cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002242> "A cell containing at least one nucleus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0002242> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002242> "nucleate cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002242> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002248> (pluripotent stem cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002248> "A pluripotent stem cell has the ability to form cells from all three germ layers (ectoderm, mesoderm, and endoderm). However, unlike totipotent stem cells, they cell can not generate all the cells of the whole organism such as placenta.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0002248> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002248> "pluripotent stem cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002248> <http://purl.obolibrary.org/obo/CL_0000723>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002319> (neural cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002319> "A cell that is part of the nervous system.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0002319> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002319> "neural cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002319> <http://purl.obolibrary.org/obo/CL_0000255>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002321> (embryonic cell (metazoa))
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002321> "A cell of the embryo.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0002321> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002321> "embryonic cell (metazoa)")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002321> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0002322> (embryonic stem cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0002322> "A stem cell of embryonic origin.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CL_0002322> "ESC")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0002322> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0002322> "embryonic stem cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002322> <http://purl.obolibrary.org/obo/CL_0000034>)
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0002322> <http://purl.obolibrary.org/obo/CL_0002321>)
+
+# Class: <http://purl.obolibrary.org/obo/CL_0011115> (precursor cell)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CL_0011115> "A cell that, by division or terminal differentiation, can give rise to other cell types.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/CL_0011115> <http://purl.obolibrary.org/obo/cl.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CL_0011115> "precursor cell")
+SubClassOf(<http://purl.obolibrary.org/obo/CL_0011115> <http://purl.obolibrary.org/obo/CL_0000000>)
+
+
+)

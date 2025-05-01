@@ -1,0 +1,44 @@
+#### NOTES ON MOD IMPORT ####
+##
+## MOD does not make use of any upper-level ontologies
+##
+
+[Source ontology]
+MOD
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MOD_00693 # Glycosylated residue
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/MOD_00693 # Glycosylated residue
+subClassOf http://purl.obolibrary.org/obo/GO_0036211 # Protein modification
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/mod#PSI-MS-label
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/mod#PSI-MOD-alternate
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/mod#RESID-alternate
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/mod#UniMod-alternate
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/mod#UniMod-description
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/mod#DeltaMass-label
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/mod#RESID-name
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/mod#PSI-MOD-label
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/mod#OMSSA-label
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://purl.obolibrary.org/obo/mod#RESID-systematic
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+

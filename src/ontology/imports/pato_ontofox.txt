@@ -1,0 +1,43 @@
+#### NOTES ON PATO IMPORT ####
+##
+## Please note that PATO uses its own 'quality' class rather
+## than BFO. DRAO has overridden this to use BFO to prevent
+## two 'quality' classes in the hierarchy.
+##
+
+[Source ontology]
+PATO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/PATO_0000018 # Fluorescence
+http://purl.obolibrary.org/obo/PATO_0000043 # Flavor
+http://purl.obolibrary.org/obo/PATO_0000049 # Intensity
+http://purl.obolibrary.org/obo/PATO_0000051 # Morphology
+http://purl.obolibrary.org/obo/PATO_0000052 # Shape
+http://purl.obolibrary.org/obo/PATO_0000058 # Odor
+http://purl.obolibrary.org/obo/PATO_0000141 # Structure
+http://purl.obolibrary.org/obo/PATO_0001018 # physical quality ** Required for SIO and AgroVoc in DRAO-manual.owl**
+http://purl.obolibrary.org/obo/PATO_0001021 # energy **required for AgroVoc in DRAO-manual.owl**
+http://purl.obolibrary.org/obo/PATO_0001415 # Morbidity
+http://purl.obolibrary.org/obo/PATO_0001884 # Hydrophobicity
+http://purl.obolibrary.org/obo/PATO_0001886 # Hydrophilicity
+http://purl.obolibrary.org/obo/PATO_0001993 # Multicellular
+http://purl.obolibrary.org/obo/PATO_0002070 # Affinity
+http://purl.obolibrary.org/obo/PATO_0002146 # Virulence
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/PATO_0001241 # physical object quality
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+http://purl.obolibrary.org/obo/PATO_0000068 # qualitative
+subClassOf http://purl.obolibrary.org/obo/BFO_0000019 # quality
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115
+http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118
+http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
+mapTo http://purl.obolibrary.org/obo/IAO_0000118

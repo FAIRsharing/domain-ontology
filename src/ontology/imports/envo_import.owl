@@ -1,0 +1,382 @@
+Prefix(:=<http://www.fairsharing.org/ontology/domain/DRAO/imports/envo_import.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/envo_import.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/envo_import.owl>
+Annotation(owl:versionInfo "2025-05-01")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000428>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00000447>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00002034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_00010483>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000203>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000204>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000254>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000320>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000452>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000549>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000813>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000839>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01000840>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001082>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001110>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001654>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001686>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001691>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001787>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001788>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_01001852>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_02500000>))
+Declaration(Class(<http://purl.obolibrary.org/obo/ENVO_03000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/PATO_0001241>))
+Declaration(Class(<http://purl.obolibrary.org/obo/RO_0002577>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000115> (definition)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative term)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000118> "alternative term")
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000412> (imported from)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imported from"@en)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000001> (entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000001> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000001> "entity"@en)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000002> (continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000002> "An entity that exists in full at any time in which it exists at all, persists through time while maintaining its identity and has no temporal parts."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000002> "continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000003> (occurrent)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000003> "An entity that has temporal parts and that happens, unfolds or develops through time."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000003> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000003> "occurrent"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000003> <http://purl.obolibrary.org/obo/BFO_0000001>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000004> (independent continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000004> "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000004> "independent continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000004> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000015> (process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000015> "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000015> "process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000015> <http://purl.obolibrary.org/obo/BFO_0000003>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000016> (disposition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000016> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000016> "disposition"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> <http://purl.obolibrary.org/obo/BFO_0000017>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000017> (realizable entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000017> "A specifically dependent continuant  that inheres in continuant  entities and are not exhibited in full at every time in which it inheres in an entity or group of entities. The exhibition or actualization of a realizable entity is a particular manifestation, functioning or process that occurs under certain circumstances."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000017> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000017> "realizable entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000017> <http://purl.obolibrary.org/obo/BFO_0000020>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000020> (specifically dependent continuant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000020> "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000020> "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000020> "specifically dependent continuant"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000020> <http://purl.obolibrary.org/obo/BFO_0000002>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000030> (object)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000030> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000030> "object"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000030> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/BFO_0000040> (material entity)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/BFO_0000040> "An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BFO_0000040> "material entity"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000040> <http://purl.obolibrary.org/obo/BFO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000428> (biome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_00000428> "A biome is an ecosystem which is undergoing climactic ecological succession."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/ENVO_00000428> "major habitat type")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_00000428> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000428> "biome")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000428> <http://purl.obolibrary.org/obo/ENVO_01000813>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000428> <http://purl.obolibrary.org/obo/ENVO_01001110>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00000447> (marine biome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_00000447> "A marine ecosystem which is in its climactic successional state.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_00000447> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00000447> "marine biome")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000447> <http://purl.obolibrary.org/obo/ENVO_00002030>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00000447> <http://purl.obolibrary.org/obo/ENVO_01001788>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002030> (aquatic biome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_00002030> "A biome which is determined by a water body and which has ecological climax communities adapted to life in or on water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_00002030> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00002030> "aquatic biome")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002030> <http://purl.obolibrary.org/obo/ENVO_00000428>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002030> <http://purl.obolibrary.org/obo/ENVO_01001787>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00002034> (biofilm)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_00002034> "A complex aggregation of microorganisms marked by the excretion of a protective and adhesive matrix; usually adhering to a substratum.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_00002034> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00002034> "biofilm")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00002034> <http://purl.obolibrary.org/obo/ENVO_01000549>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_00010483> (environmental material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_00010483> "A material entity which other material entities in an environmental system are primarily or partially composed of."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/ENVO_00010483> "portion of environmental material")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_00010483> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_00010483> "environmental material")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_00010483> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000024> (marine benthic biome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000024> "The marine benthic biome (benthic meaning 'bottom') encompasses the seafloor and includes such areas as shores, littoral or intertidal areas, marine coral reefs, and the deep seabed.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000024> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000024> "marine benthic biome")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000024> <http://purl.obolibrary.org/obo/ENVO_00000447>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000029> (marine reef biome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000029> "A biome expressed by strips or ridges of rocks, sand, or coral that rises to or near the surface of a body of marine water.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000029> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000029> "marine reef biome")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000029> <http://purl.obolibrary.org/obo/ENVO_01000024>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000049> (marine coral reef biome)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000049> "The marine coral reef biome comprises constructional wave-resistant entities which are primarily built by corals and are often cemented together. The growth of these structures is aided by zooxanthellae, algae that are symbiotic with the reef-building corals.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000049> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000049> "marine coral reef biome")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000049> <http://purl.obolibrary.org/obo/ENVO_01000029>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000203> (environmental condition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000203> "An environmental condition is a range of a determinate quality or combination of qualities that are present in an environmental system.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000203> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000203> "environmental condition")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000203> <http://purl.obolibrary.org/obo/PATO_0001018>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000204> (tropical)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000204> "A tropical condition is an environmental condition in which an environmental system receives high yearly solar irradiance per unit area and, on Earth, the Sun reaches a subsolar point at least once during the solar year. This results in a hot and moist year-round climate at low elevations, which have a monthly average temperature above 18 degrees Celsius.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000204> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000204> "tropical")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000204> <http://purl.obolibrary.org/obo/ENVO_01000203>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000254> (environmental system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000254> "A system which has the disposition to environ one or more material entities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/ENVO_01000254> "environment")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000254> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000254> "environmental system")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000254> <http://purl.obolibrary.org/obo/RO_0002577>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000320> (marine environment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000320> "An enviroment system which is determined by an ocean or sea.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000320> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000320> "marine environment")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000320> <http://purl.obolibrary.org/obo/ENVO_01000254>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000452> (environmental disposition)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000452> "A disposition which is realised by an environmental system or system parts thereof.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000452> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000452> "environmental disposition")
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000452> <http://purl.obolibrary.org/obo/BFO_0000016>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000549> (mass of biological material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000549> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000549> "mass of biological material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000549> <http://purl.obolibrary.org/obo/ENVO_01001691>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000813> (astronomical body part)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000813> "A material part of an astronomical body.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000813> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000813> "astronomical body part"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000813> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000839> (combustion process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000839> "Combustion or burning is a high-temperature exothermic redox chemical reaction between a fuel and an oxidant that produces oxidized, often gaseous products, in a mixture termed as smoke.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000839> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000839> "combustion process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000839> <http://purl.obolibrary.org/obo/ENVO_01000840>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000839> <http://purl.obolibrary.org/obo/ENVO_01001654>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01000840> (thermolysis)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01000840> "A chemical decomposition (the separation of a single chemical compound into its two or more elemental parts or to simpler compounds) caused by heat.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/ENVO_01000840> "thermal decomposition")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01000840> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01000840> "thermolysis"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01000840> <http://purl.obolibrary.org/obo/ENVO_03000043>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001023> (radiation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01001023> "A process during which energy is emitted or transmitted in the form of waves or particles through space or a material medium.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01001023> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001023> "radiation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001023> <http://purl.obolibrary.org/obo/ENVO_01001852>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001082> (climate)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01001082> "The disposition of an environmental system, particularly those influencing atmospheres, to manifest a cyclic pattern of weather over time.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01001082> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001082> "climate"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001082> <http://purl.obolibrary.org/obo/ENVO_01000452>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001110> (ecosystem)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01001110> "An environmental system which includes both living and non-living components.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01001110> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001110> "ecosystem"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001110> <http://purl.obolibrary.org/obo/ENVO_01000254>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001654> (aerosol formation process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01001654> "A material transformation process during which solid or liquid particles form and are suspended in a mass of air, thus creating an aerosol.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01001654> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001654> "aerosol formation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001654> <http://purl.obolibrary.org/obo/ENVO_03000043>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001686> (mass of environmental material)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01001686> "An object which is composed primarily of an environmental material"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01001686> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001686> "mass of environmental material"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001686> <http://purl.obolibrary.org/obo/BFO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001691> (mass of compounded environmental materials)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01001691> "An mass of environmental materials which has appreciable quantities of several individual materials, such that the removal of one would convert the mass into a different entity."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01001691> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001691> "mass of compounded environmental materials"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001691> <http://purl.obolibrary.org/obo/ENVO_01001686>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001787> (aquatic ecosystem)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01001787> "An ecosystem which has its functions and composition determined by a water body.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01001787> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001787> "aquatic ecosystem"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001787> <http://purl.obolibrary.org/obo/ENVO_01000813>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001787> <http://purl.obolibrary.org/obo/ENVO_01001110>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001788> (marine ecosystem)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01001788> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001788> "marine ecosystem"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001788> <http://purl.obolibrary.org/obo/ENVO_01000320>)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001788> <http://purl.obolibrary.org/obo/ENVO_01001787>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_01001852> (energy transfer process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_01001852> "A process during which one entity loses energy to another entity.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_01001852> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_01001852> "energy transfer process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_01001852> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_02500000> (environmental system process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_02500000> "A process in which includes the components of an environmental system as participants.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_02500000> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_02500000> "environmental system process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_02500000> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/ENVO_03000043> (material transformation process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/ENVO_03000043> "A process during which a portion of some environmental material is converted into a different material or a collection of materials.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/ENVO_03000043> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/ENVO_03000043> "material transformation process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/ENVO_03000043> <http://purl.obolibrary.org/obo/ENVO_02500000>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001018> (physical quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0001018> "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PATO_0001018> "relational physical quality")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/PATO_0001018> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0001018> "physical quality")
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001018> <http://purl.obolibrary.org/obo/PATO_0001241>)
+
+# Class: <http://purl.obolibrary.org/obo/PATO_0001241> (physical object quality)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/PATO_0001241> "A quality which inheres in a continuant.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PATO_0001241> "monadic quality of a continuant")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PATO_0001241> "monadic quality of an object")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PATO_0001241> "monadic quality of continuant")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PATO_0001241> "multiply inhering quality of a physical entity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PATO_0001241> "quality of a continuant")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PATO_0001241> "quality of a single physical entity")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PATO_0001241> "quality of an object")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/PATO_0001241> "quality of continuant")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/PATO_0001241> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/PATO_0001241> "physical object quality")
+SubClassOf(<http://purl.obolibrary.org/obo/PATO_0001241> <http://purl.obolibrary.org/obo/BFO_0000019>)
+
+# Class: <http://purl.obolibrary.org/obo/RO_0002577> (system)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/RO_0002577> "A material entity consisting of multiple components that are causally integrated.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/RO_0002577> <http://purl.obolibrary.org/obo/envo.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/RO_0002577> "system")
+SubClassOf(<http://purl.obolibrary.org/obo/RO_0002577> <http://purl.obolibrary.org/obo/BFO_0000040>)
+
+
+)

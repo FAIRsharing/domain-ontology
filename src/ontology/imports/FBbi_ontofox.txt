@@ -1,0 +1,23 @@
+#### NOTES ON FBBI IMPORT ####
+##
+##
+
+[Source ontology]
+FBbi
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/FBbi_00000267 # Animation
+http://purl.obolibrary.org/obo/FBbi_00000364 # Light-sheet illumination
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/FBbi_00000267 # Animation
+subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
+http://purl.obolibrary.org/obo/FBbi_00000364 # Light-sheet illumination
+subClassOf http://purl.obolibrary.org/obo/ERO_0000201 # microscopy
+
+[Source term retrieval setting]
+includeComputedIntermediates
+
+[Source annotation URIs]
+http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/IAO_0000115

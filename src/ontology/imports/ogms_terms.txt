@@ -1,0 +1,7 @@
+http://purl.obolibrary.org/obo/OGMS_0000023 # Phenotype
+http://purl.obolibrary.org/obo/OGMS_0000028 # Disease phenotype
+http://purl.obolibrary.org/obo/OGMS_0000031 # Disease
+http://purl.obolibrary.org/obo/OGMS_0000045 # Disorder
+http://purl.obolibrary.org/obo/OGMS_0000063 # Disease course
+http://purl.obolibrary.org/obo/OGMS_0000073 # Diagnosis
+http://purl.obolibrary.org/obo/OGMS_0000093 # Prognosis
