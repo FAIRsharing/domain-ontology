@@ -28,6 +28,8 @@ Virtually all classes within DRAO come from >40 publicly-available terminologies
 
 Domains are the largest set of tags available when curating FAIRsharing records. The classes used within DRAO are imported from external ontologies using Ontofox, and then appropriate annotation is added to those classes using ROBOT and the ODK. DRAO is written in OWL and serialized as OWL Functional Syntax. Release files are created using [ROBOT](http://robot.obolibrary.org/) via the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit) and via a set of controlling Makefiles.
 
+For more information, please see our [Editor's documentation](src/ontology/README-editors.md).
+
 # Usage and licence
 
 Within FAIRsharing, DRAO and its associated user tags are used by both curators and our user community to annotation FAIRsharing records. DRAO itself is also available for general use from this repository under a [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) licence.
