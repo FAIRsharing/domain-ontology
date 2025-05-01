@@ -48,7 +48,6 @@
 <http://biomodels.net/SBO/SBO_0000027>	"Synonym: Michaelis-Menten constant "	
 <http://purl.obolibrary.org/obo/OBI_0000893>	"An assay, based on the PCR, that amplifies and simultaneously quantifies a specific DNA molecule based on the use of complementary probes/primers. It enables both detection and quantification (as absolute number of copies or relative amount when normalized to DNA input or additional normalizing genes) of one or more specific sequences in a DNA sample."@en	
 <http://purl.obolibrary.org/obo/OBI_0001985>	"An analyte assay where binding of the analyte to immobilized matrix is measured."@en	
-<http://purl.obolibrary.org/obo/FBcv_0000000>	"FlyBase miscellaneous controlled vocabulary term."	
 <http://purl.obolibrary.org/obo/NCBITaxon_408172>		
 <http://purl.obolibrary.org/obo/SO_0000756>	"DNA synthesized by reverse transcriptase using RNA as a template."	
 <http://purl.obolibrary.org/obo/OBI_1110108>	"A material entity that is added to another material entity in an “adding a material entity into a target” process."@en	
@@ -844,7 +843,6 @@
 <http://purl.obolibrary.org/obo/GO_0005996>	"The chemical reactions and pathways involving monosaccharides, the simplest carbohydrates. They are polyhydric alcohols containing either an aldehyde or a keto group and between three to ten or more carbon atoms. They form the constitutional repeating units of oligo- and polysaccharides."	
 <http://purl.obolibrary.org/obo/GO_0006413>	"The process preceding formation of the peptide bond between the first two amino acids of a protein. This includes the formation of a complex of the ribosome, mRNA or circRNA, and an initiation complex that contains the first aminoacyl-tRNA."	
 <http://purl.obolibrary.org/obo/OBI_0001686>	"An assay that localizes a specific DNA or RNA sequence within a portion or section of tissue using artificially induced nucleic hybridization."@en	
-<http://purl.obolibrary.org/obo/ERO_0000201>		
 <http://purl.obolibrary.org/obo/NCIT_C17671>	"Proteins that regulate transcription via interaction with chromatin and basal transcription machinery at the promoter regions of genes. Nuclear receptors are ligand-dependent transcription factors including steroids, retinoids, vitamin D, unliganded thyroid hormone, and orphan receptors (unknown ligands). Coregulators (coactivators or corepressors) are important in mediating these interactions and thereby modulate positive or negative receptor activity."	
 <http://purl.obolibrary.org/obo/OBI_0001528>	"A service which has a material entity as specified input and/or specified output."@en	
 <http://purl.obolibrary.org/obo/OBI_0200187>	"A sequence analysis data transformation is a data transformation that has objective sequence analysis and has the aim of analysing ordered biological data for sequential patterns."@en	

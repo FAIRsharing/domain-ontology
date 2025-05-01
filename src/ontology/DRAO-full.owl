@@ -22,7 +22,7 @@
      xmlns:swointerface="http://www.ebi.ac.uk/swo/interface/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/DRAO/DRAO-full.owl">
         <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/DRAO-full.owl"/>
-        <dcterms:description xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from over 50 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
+        <dcterms:description xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
 
 These ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md
 
@@ -4593,12 +4593,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ERO_0000201 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000201"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/FBbi_00000267 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000267">
@@ -4614,21 +4608,11 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://purl.obolibrary.org/obo/FBbi_00000364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000364">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000201"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000067"/>
         <obo:IAO_0000115>illumination in the form of a thin sheet of light directed perpendicular to the optic axis</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fbbi.owl"/>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>light-sheet illumination</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FBcv_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000000">
-        <obo:IAO_0000115>FlyBase miscellaneous controlled vocabulary term.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dpo.owl"/>
-        <rdfs:label>FlyBase CV</rdfs:label>
     </owl:Class>
     
 
@@ -4708,7 +4692,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     <!-- http://purl.obolibrary.org/obo/FBcv_0003077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0003077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115>An assay that uses a panel of RNA interference (RNAi) reagents to systematically knockdown a large set of genes, one at a time, to identify those that are involved in some biological process.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dpo.owl"/>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>

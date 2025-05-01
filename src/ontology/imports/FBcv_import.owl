@@ -11,7 +11,6 @@ Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/FBcv_import.ow
 Annotation(owl:versionInfo "2025-05-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CHEBI_24432>))
-Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0000155>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0000623>))
 Declaration(Class(<http://purl.obolibrary.org/obo/FBcv_0003035>))
@@ -45,12 +44,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imp
 ############################
 #   Classes
 ############################
-
-# Class: <http://purl.obolibrary.org/obo/FBcv_0000000> (FlyBase CV)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0000000> "FlyBase miscellaneous controlled vocabulary term.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0000000> <http://purl.obolibrary.org/obo/dpo.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0000000> "FlyBase CV")
 
 # Class: <http://purl.obolibrary.org/obo/FBcv_0000155> (single balancer)
 
@@ -99,7 +92,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0003040> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/FBcv_0003077> "An assay that uses a panel of RNA interference (RNAi) reagents to systematically knockdown a large set of genes, one at a time, to identify those that are involved in some biological process.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/FBcv_0003077> <http://purl.obolibrary.org/obo/dpo.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/FBcv_0003077> "RNAi screen")
-SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0003077> <http://purl.obolibrary.org/obo/FBcv_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/FBcv_0003077> <http://purl.obolibrary.org/obo/OBI_0000070>)
 
 # Class: <http://purl.obolibrary.org/obo/FBcv_0003195> (CAGE)
 

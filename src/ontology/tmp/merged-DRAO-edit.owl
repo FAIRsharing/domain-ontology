@@ -21,7 +21,7 @@
      xmlns:biomodels="http://biomodels.net/SBO/"
      xmlns:swointerface="http://www.ebi.ac.uk/swo/interface/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/DRAO.owl">
-        <dcterms:description xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from over 50 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
+        <dcterms:description xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
 
 These ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md
 

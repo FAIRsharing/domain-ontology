@@ -899,7 +899,6 @@
 <http://purl.obolibrary.org/obo/FMA_84795>	<http://www.w3.org/2000/01/rdf-schema#label>	"Human leukocyte antigen complex"	
 <http://purl.obolibrary.org/obo/FMA_70631>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cell morphology"	
 <http://purl.obolibrary.org/obo/FBcv_0003039>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical screen"	
-<http://purl.obolibrary.org/obo/FBcv_0000000>	<http://www.w3.org/2000/01/rdf-schema#label>	"FlyBase CV"	
 <http://purl.obolibrary.org/obo/FBcv_0000155>	<http://www.w3.org/2000/01/rdf-schema#label>	"single balancer"	
 <http://purl.obolibrary.org/obo/FBcv_0003077>	<http://www.w3.org/2000/01/rdf-schema#label>	"RNAi screen"	
 <http://purl.obolibrary.org/obo/FBcv_0003040>	<http://www.w3.org/2000/01/rdf-schema#label>	"gene model annotation"	

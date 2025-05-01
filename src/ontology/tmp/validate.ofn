@@ -22,7 +22,7 @@ Prefix(swointerface:=<http://www.ebi.ac.uk/swo/interface/>)
 
 Ontology(<http://www.fairsharing.org/ontology/domain/DRAO.owl>
 <http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/DRAO.owl>
-Annotation(dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 50 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
+Annotation(dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
 
 These ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md
 
@@ -380,10 +380,8 @@ Declaration(Class(obo:ENVO_01001788))
 Declaration(Class(obo:ENVO_01001852))
 Declaration(Class(obo:ENVO_02500000))
 Declaration(Class(obo:ENVO_03000043))
-Declaration(Class(obo:ERO_0000201))
 Declaration(Class(obo:FBbi_00000267))
 Declaration(Class(obo:FBbi_00000364))
-Declaration(Class(obo:FBcv_0000000))
 Declaration(Class(obo:FBcv_0000155))
 Declaration(Class(obo:FBcv_0000623))
 Declaration(Class(obo:FBcv_0003035))
@@ -4096,13 +4094,7 @@ AnnotationAssertion(obo:IAO_0000115 obo:FBbi_00000364 "illumination in the form 
 AnnotationAssertion(obo:IAO_0000412 obo:FBbi_00000364 obo:fbbi.owl)
 AnnotationAssertion(oboInOwl:inSubset obo:FBbi_00000364 <https://www.fairsharing.org>)
 AnnotationAssertion(rdfs:label obo:FBbi_00000364 "light-sheet illumination")
-SubClassOf(obo:FBbi_00000364 obo:ERO_0000201)
-
-# Class: obo:FBcv_0000000 (FlyBase CV)
-
-AnnotationAssertion(obo:IAO_0000115 obo:FBcv_0000000 "FlyBase miscellaneous controlled vocabulary term.")
-AnnotationAssertion(obo:IAO_0000412 obo:FBcv_0000000 obo:dpo.owl)
-AnnotationAssertion(rdfs:label obo:FBcv_0000000 "FlyBase CV")
+SubClassOf(obo:FBbi_00000364 obo:CHMO_0000067)
 
 # Class: obo:FBcv_0000155 (single balancer)
 
@@ -4158,7 +4150,7 @@ AnnotationAssertion(obo:IAO_0000115 obo:FBcv_0003077 "An assay that uses a panel
 AnnotationAssertion(obo:IAO_0000412 obo:FBcv_0003077 obo:dpo.owl)
 AnnotationAssertion(oboInOwl:inSubset obo:FBcv_0003077 <https://www.fairsharing.org>)
 AnnotationAssertion(rdfs:label obo:FBcv_0003077 "RNAi screen")
-SubClassOf(obo:FBcv_0003077 obo:FBcv_0000000)
+SubClassOf(obo:FBcv_0003077 obo:OBI_0000070)
 
 # Class: obo:FBcv_0003195 (CAGE)
 

@@ -14,7 +14,7 @@ idspace: swo http://www.ebi.ac.uk/swo/
 idspace: swodata http://www.ebi.ac.uk/swo/data/ 
 idspace: swointerface http://www.ebi.ac.uk/swo/interface/ 
 ontology: http://www.fairsharing.org/ontology/domain/DRAO.owl
-property_value: dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 50 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.\n\nThese ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md\n\nAgroVoc and PRIDE classes were manually added as required.\n\nOriginally developed for use within FAIRsharing.org\n\nLicensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/" xsd:string
+property_value: dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.\n\nThese ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md\n\nAgroVoc and PRIDE classes were manually added as required.\n\nOriginally developed for use within FAIRsharing.org\n\nLicensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Domain Resource Application Ontology" xsd:string
 property_value: owl:versionInfo "2025-05-01" xsd:string
@@ -1708,14 +1708,8 @@ id: FBbi:00000364
 name: light-sheet illumination
 def: "illumination in the form of a thin sheet of light directed perpendicular to the optic axis" []
 subset: https://www.fairsharing.org
-is_a: ERO:0000201
+is_a: CHMO:0000067 ! microscopy
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/fbbi.owl
-
-[Term]
-id: FBcv:0000000
-name: FlyBase CV
-def: "FlyBase miscellaneous controlled vocabulary term." []
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/dpo.owl
 
 [Term]
 id: FBcv:0000155
@@ -1770,7 +1764,7 @@ id: FBcv:0003077
 name: RNAi screen
 def: "An assay that uses a panel of RNA interference (RNAi) reagents to systematically knockdown a large set of genes, one at a time, to identify those that are involved in some biological process." []
 subset: https://www.fairsharing.org
-is_a: FBcv:0000000 ! FlyBase CV
+is_a: OBI:0000070 ! assay
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/dpo.owl
 
 [Term]

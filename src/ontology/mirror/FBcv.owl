@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/x8kpi438.owl#"
-     xml:base="http://ontofox.hegroup.org/x8kpi438.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/ykqrnxe9.owl#"
+     xml:base="http://ontofox.hegroup.org/ykqrnxe9.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:efo="http://www.ebi.ac.uk/efo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/x8kpi438.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/ykqrnxe9.owl"/>
     
 
 
@@ -55,16 +55,6 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_24432 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/FBcv_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0000000">
-        <rdfs:label>FlyBase CV</rdfs:label>
-        <obo:IAO_0000115>FlyBase miscellaneous controlled vocabulary term.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dpo.owl"/>
-    </owl:Class>
     
 
 
@@ -138,7 +128,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBcv_0003077">
         <rdfs:label>RNAi screen</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBcv_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115>An assay that uses a panel of RNA interference (RNAi) reagents to systematically knockdown a large set of genes, one at a time, to identify those that are involved in some biological process.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dpo.owl"/>
     </owl:Class>

@@ -42,6 +42,9 @@ http://purl.obolibrary.org/obo/FBcv_0003040 # Gene model annotation
 subClassOf http://purl.obolibrary.org/obo/OBI_0200000 # Data transformation
 http://purl.obolibrary.org/obo/FBcv_0003195 # Cap Analysis Gene Expression (CAGE)
 subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # assay
+http://purl.obolibrary.org/obo/FBcv_0003077 # RNAi screen
+subClassOf http://purl.obolibrary.org/obo/OBI_0000070 # assay
+
 
 [Source term retrieval setting]
 includeComputedIntermediates

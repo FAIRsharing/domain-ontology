@@ -23,7 +23,7 @@
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/DRAO/DRAO-base.owl">
         <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/DRAO-base.owl"/>
         <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
-        <dcterms:description xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from over 50 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
+        <dcterms:description xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
 
 These ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md
 

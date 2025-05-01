@@ -79,7 +79,7 @@ to make sure you are on master, then
     sh run.sh make all
 
 ### Checking IRIs
-You should check the visible IRIs between the old and the new release before you go any further, to make sure that the only IRIs missing (and the only IRIs added) are those described in [RETIRED.md](./RETIRED.md). In the src/ontology directory (where this README is), run the following commands to get a list of visible IRIs and compare them between the old and new OWL files:
+You should check the visible IRIs between the old and the new release before you go any further, to make sure that the only IRIs missing (and the only IRIs added) are those described in [RETIRED.md](../../RETIRED.md). In the src/ontology directory (where this README is), run the following commands to get a list of visible IRIs and compare them between the old and new OWL files:
 
 	java -jar /your/root/to/robot/robot.jar --catalog catalog-v001.xml query -f csv -i DRAO.owl --query ../../../../development/sparql/visible-IRI-list.sparql DRAO-new-visible.csv
 	java -jar /your/root/to/robot/robot.jar --catalog catalog-v001.xml query -f csv -i ../../DRAO.owl --query ../../../../development/sparql/visible-IRI-list.sparql DRAO-old-visible.csv
@@ -135,5 +135,5 @@ DRAO occasionally needs to retire an IRI (when the community ontology has itself
 If it is to be replaced by a new IRI, do these steps first:
 1. Create the new term according to the instructions above  If it is to be visible in FAIRsharing, you will need to add the inSubset annotation to DRAO-edit.owl.
 2. Remove the old IRI from its ontofox,  files and from DRAO-edit.owl (if present).
-3. Add the old DRAO IRI to [RETIRED.md](./RETIRED.md), with the new IRI that is taking its place (as appropriate), noting any tracker items that might be related.
+3. Add the old DRAO IRI to [RETIRED.md](../../RETIRED.md), with the new IRI that is taking its place (as appropriate), noting any tracker items that might be related.
 
