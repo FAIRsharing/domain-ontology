@@ -26,7 +26,7 @@ Virtually all classes within DRAO come from >40 publicly-available terminologies
 
 # Building DRAO
 
-Domains are the largest set of tags available when curating FAIRsharing records. The classes used within DRAO are imported from external ontologies using Ontofox, and then appropriate annotation is added to those classes using ROBOT and the ODK. DRAO is written in OWL and serialized as OWL Functional Syntax. Release files are created using [ROBOT](http://robot.obolibrary.org/) via the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit) and via a set of controlling Makefiles.
+Domains are the largest set of tags available when curating FAIRsharing records. The classes used within DRAO are imported from external ontologies using Ontofox, and then appropriate annotation is added to those classes using ROBOT and the ODK. DRAO is written in OWL and serialized as OWL Functional Syntax and OBO. Release files are created using [ROBOT](http://robot.obolibrary.org/) via the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit) and via a set of controlling Makefiles.
 
 For more information, please see our [Editor's documentation](src/ontology/README-editors.md).
 
