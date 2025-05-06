@@ -7,11 +7,10 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/omrse_import.owl>
-<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/omrse_import.owl>
-Annotation(owl:versionInfo "2025-05-01")
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-06/imports/omrse_import.owl>
+Annotation(owl:versionInfo "2025-05-06")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000023>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/OMRSE_00000056>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
 ############################
@@ -35,12 +34,11 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imp
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/OMRSE_00000054> (hospital role)
+# Class: <http://purl.obolibrary.org/obo/OMRSE_00000056> (hospital organization)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMRSE_00000054> "A healthcare provider role that inheres in an organization and is realized by providing inpatient care."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMRSE_00000054> <http://purl.obolibrary.org/obo/omrse.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMRSE_00000054> "hospital role"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OMRSE_00000054> <http://purl.obolibrary.org/obo/BFO_0000023>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OMRSE_00000056> "An organization that is the bearer of a hospital role."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OMRSE_00000056> <http://purl.obolibrary.org/obo/omrse.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OMRSE_00000056> "hospital organization"@en)
 
 
 )

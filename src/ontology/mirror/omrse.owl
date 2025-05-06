@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/fyscg2ik.owl#"
-     xml:base="http://ontofox.hegroup.org/fyscg2ik.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/3q37p4a9.owl#"
+     xml:base="http://ontofox.hegroup.org/3q37p4a9.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/fyscg2ik.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/3q37p4a9.owl"/>
     
 
 
@@ -53,18 +53,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000056 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000054 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000054">
-        <rdfs:label xml:lang="en">hospital role</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare provider role that inheres in an organization and is realized by providing inpatient care.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000056">
+        <rdfs:label xml:lang="en">hospital organization</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An organization that is the bearer of a hospital role.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
     </owl:Class>
 </rdf:RDF>

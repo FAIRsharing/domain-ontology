@@ -1,19 +1,12 @@
 #### NOTES ON OMRSE IMPORT ####
 ##
-## Please note that PATO uses its own 'quality' class rather
-## than BFO. DRAO has overridden this to use BFO to prevent
-## two 'quality' classes in the hierarchy.
 ##
 
 [Source ontology]
 OMRSE
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/OMRSE_00000054 # 'hospital role' (as 'Hospital')
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/OMRSE_00000054 # 'hospital role' (as 'Hospital')
-subClassOf http://purl.obolibrary.org/obo/BFO_0000023 # Role (may not be ideal, but matches OMRSE)
+http://purl.obolibrary.org/obo/OMRSE_00000056 # 'hospital organization' (as 'Hospital')
 
 [Source term retrieval setting]
 includeComputedIntermediates
