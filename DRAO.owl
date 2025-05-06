@@ -21,7 +21,7 @@
      xmlns:biomodels="http://biomodels.net/SBO/"
      xmlns:swointerface="http://www.ebi.ac.uk/swo/interface/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/DRAO.owl">
-        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/DRAO.owl"/>
+        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-06/DRAO.owl"/>
         <dcterms:description xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
 
 These ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md
@@ -33,7 +33,7 @@ Originally developed for use within FAIRsharing.org
 Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Domain Resource Application Ontology</dcterms:title>
-        <owl:versionInfo>2025-05-01</owl:versionInfo>
+        <owl:versionInfo>2025-05-06</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -2101,6 +2101,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/t4fs.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
         <rdfs:label xml:lang="en">entity</rdfs:label>
@@ -2123,6 +2124,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
         <rdfs:label>continuant</rdfs:label>
         <rdfs:label xml:lang="en">continuant</rdfs:label>
@@ -2160,6 +2162,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
         <rdfs:label xml:lang="en">independent continuant</rdfs:label>
     </owl:Class>
@@ -2302,6 +2305,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
         <rdfs:label>material entity</rdfs:label>
@@ -4262,6 +4266,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://www.fairsharing.org/ontology/domain/DRAO_0000322"/>
         <obo:IAO_0000115 xml:lang="en">A drug role conferred by the United States Food and Drug Administration that permits the production, marketing, sale, prescribing, and consump- tion of its bearer in the United States.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">FDA approved drug</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label xml:lang="en">FDA approved drug role</rdfs:label>
     </owl:Class>
@@ -8041,6 +8046,17 @@ ab (not=) E</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
+        <rdfs:label xml:lang="en">organization</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
@@ -8221,6 +8237,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">host role is a role played by an organism and realized by providing nourishment, shelter or a means of reproduction to another organism within the organism playing the host role</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">host</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>host role</rdfs:label>
     </owl:Class>
@@ -9408,13 +9425,15 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OMRSE_00000054 -->
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000056 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare provider role that inheres in an organization and is realized by providing inpatient care.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <obo:IAO_0000115 xml:lang="en">An organization that is the bearer of a hospital role.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
-        <rdfs:label xml:lang="en">hospital role</rdfs:label>
+        <drao:DRAO_0000001 xml:lang="en">Hospital</drao:DRAO_0000001>
+        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
+        <rdfs:label xml:lang="en">hospital organization</rdfs:label>
     </owl:Class>
     
 
@@ -12271,9 +12290,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/idomal.owl"/>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>glycosylphosphatidylinositol anchor</rdfs:label>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000056">
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
     </rdf:Description>
 </rdf:RDF>
 

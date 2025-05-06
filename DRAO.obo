@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/DRAO.owl
+data-version: http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-06/DRAO.owl
 idspace: biomodels http://biomodels.net/SBO/ 
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
@@ -17,7 +17,7 @@ ontology: http://www.fairsharing.org/ontology/domain/DRAO.owl
 property_value: dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.\n\nThese ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md\n\nAgroVoc and PRIDE classes were manually added as required.\n\nOriginally developed for use within FAIRsharing.org\n\nLicensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Domain Resource Application Ontology" xsd:string
-property_value: owl:versionInfo "2025-05-01" xsd:string
+property_value: owl:versionInfo "2025-05-06" xsd:string
 
 [Term]
 id: BFO:0000001
@@ -31,6 +31,7 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/oae.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obcs.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/t4fs.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/vo.owl
 
@@ -49,6 +50,7 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obcs.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/vo.owl
 
 [Term]
@@ -77,6 +79,7 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/envo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/vo.owl
 
 [Term]
@@ -177,6 +180,7 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/envo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/vo.owl
 
@@ -1480,6 +1484,7 @@ name: FDA approved drug role
 def: "A drug role conferred by the United States Food and Drug Administration that permits the production, marketing, sale, prescribing, and consump- tion of its bearer in the United States." []
 subset: https://www.fairsharing.org
 is_a: drao:DRAO_0000322 ! Approved drug
+property_value: drao:DRAO_0000001 "FDA approved drug" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/dron.owl
 
 [Term]
@@ -4125,6 +4130,13 @@ is_a: OBI:0000094 ! material processing
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 
 [Term]
+id: OBI:0000245
+name: organization
+def: "An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members." []
+is_a: BFO:0000040 ! material entity
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
+
+[Term]
 id: OBI:0000272
 name: protocol
 def: "A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process." []
@@ -4246,6 +4258,7 @@ name: host role
 def: "host role is a role played by an organism and realized by providing nourishment, shelter or a means of reproduction to another organism within the organism playing the host role" []
 subset: https://www.fairsharing.org
 is_a: BFO:0000023 ! role
+property_value: drao:DRAO_0000001 "host" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 
 [Term]
@@ -5034,10 +5047,12 @@ is_a: OGMS:0000023 ! phenotype
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/omp.owl
 
 [Term]
-id: OMRSE:00000054
-name: hospital role
-def: "A healthcare provider role that inheres in an organization and is realized by providing inpatient care." []
-is_a: BFO:0000023 ! role
+id: OMRSE:00000056
+name: hospital organization
+def: "An organization that is the bearer of a hospital role." []
+subset: https://www.fairsharing.org
+is_a: OBI:0000245 ! organization
+property_value: drao:DRAO_0000001 "Hospital" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
 
 [Term]
