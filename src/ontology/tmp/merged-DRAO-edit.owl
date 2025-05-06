@@ -921,6 +921,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000025">
+        <drao:DRAO_0000001 xml:lang="en">FDA approved drug</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ENVO_00002034">
@@ -1488,6 +1489,7 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000725">
+        <drao:DRAO_0000001 xml:lang="en">host</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000726">

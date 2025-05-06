@@ -104,8 +104,8 @@
 <http://purl.obolibrary.org/obo/NCIT_C18962>	"Analysis of protein components in a sample.  The most basic analysis involves determination of the mass or concentration of protein by any of a number of quantitative assays.  Increased level of detail in the analysis requires resolution of a mixture into its component proteins.  The characterization of a pure protein includes the determination of a number of its properties, among these, the molecular weight, isoelectric point, subunit composition, tryptic map, amino acid composition, amino acid sequence, hydrodynamics (s value, frictional coefficient, shape, aggregation state), thermodynamics (melting, folding, protein-protein interactions), and atomic structure (NMR, diffraction)."	
 <http://purl.obolibrary.org/obo/OBI_0000615>	"An assay that determines protein expression and translation activity using protein extracts collected from a material entity."@en	
 <http://aims.fao.org/aos/agrovoc/c_1971>	"The pattern of crops grown on a given piece of land, or order in which the crops are cultivated over a fixed period."	
-<http://purl.obolibrary.org/obo/IAO_0000104>	"A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."@en	
 <http://purl.obolibrary.org/obo/OMP_0000197>	"A microbial phenotype related to the interactions between a microbe and its host(s)."	
+<http://purl.obolibrary.org/obo/IAO_0000104>	"A directive information entity with action specifications and objective specifications as parts, and that may be concretized as a realizable entity that, if realized, is realized in a process in which the bearer tries to achieve the objectives by taking the actions specified."@en	
 <http://edamontology.org/data_0989>	"Identifier of a protein."	
 <http://purl.obolibrary.org/obo/CHEBI_23906>		
 <http://edamontology.org/data_3720>	"A report about localisation of the isolaton of biological material e.g. country or coordinates."	
@@ -159,6 +159,7 @@
 <http://edamontology.org/topic_0128>	"Protein-protein, protein-DNA/RNA and protein-ligand interactions, including analysis of known interactions and prediction of putative interactions."	
 <http://www.ebi.ac.uk/efo/EFO_0000546>	"Damage inflicted on the body as the direct or indirect result of an external force, with or without disruption of structural continuity."	
 <http://purl.obolibrary.org/obo/MS_1001193>	"Result of quality estimation: confidence score."	
+<http://purl.obolibrary.org/obo/OMRSE_00000056>	"An organization that is the bearer of a hospital role."@en	
 <http://purl.obolibrary.org/obo/GO_0044238>	"The chemical reactions and pathways involving those compounds which are formed as a part of the normal anabolic and catabolic processes. These processes take place in most, if not all, cells of the organism."	
 <http://purl.obolibrary.org/obo/OMIT_0014521>		
 <http://edamontology.org/operation_2423>	"Predict, recognise, detect or identify some properties of a biomolecule."	
@@ -514,6 +515,7 @@
 <http://purl.obolibrary.org/obo/SO_0000203>	"Messenger RNA sequences that are untranslated and lie five prime or three prime to sequences which are translated."	
 <http://purl.obolibrary.org/obo/GO_0010556>	"Any process that modulates the rate, frequency or extent of the chemical reactions and pathways resulting in the formation of a macromolecule, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass."	
 <http://purl.obolibrary.org/obo/UBERON_0000062>	"Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions."	
+<http://purl.obolibrary.org/obo/OBI_0000245>	"An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members."@en	
 <http://purl.obolibrary.org/obo/CLO_0000001>		
 <http://purl.obolibrary.org/obo/GO_0098802>	"Any protein complex that is part of the plasma membrane and which functions as a signaling receptor."	
 <http://purl.obolibrary.org/obo/UBERON_0000178>	"A fluid that is composed of blood plasma and erythrocytes."	
@@ -570,8 +572,8 @@
 <http://purl.obolibrary.org/obo/ENVO_01000204>	"A tropical condition is an environmental condition in which an environmental system receives high yearly solar irradiance per unit area and, on Earth, the Sun reaches a subsolar point at least once during the solar year. This results in a hot and moist year-round climate at low elevations, which have a monthly average temperature above 18 degrees Celsius."	
 <http://edamontology.org/operation_2575>	"Identify or predict catalytic residues, active sites or other ligand-binding sites in protein sequences or structures."	
 <http://www.ebi.ac.uk/efo/EFO_0000749>	"An assay in which changes in DNA sequence copy number are analysed using a microarray. For example the analysis of LOH in tumor cells vs a non diseased sample or the comparison of clinical isolated of disease causing bacteria."	
-<http://purl.obolibrary.org/obo/MI_2030>	"The isoelectric point (pI) is the pH at which a particular molecule or surface carries no net electrical charge. For an amino acid with only one amine and one carboxyl group, the pI can be calculated from the pKas of this molecule."	
 <http://edamontology.org/data_2050>	"General data for a molecule."	
+<http://purl.obolibrary.org/obo/MI_2030>	"The isoelectric point (pI) is the pH at which a particular molecule or surface carries no net electrical charge. For an amino acid with only one amine and one carboxyl group, the pI can be calculated from the pKas of this molecule."	
 <http://purl.obolibrary.org/obo/NCIT_C70699>	"Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products."	
 <http://purl.obolibrary.org/obo/IDOMAL_0000786>	"They are glycolipids with the major function of anchoring proteins to cell membrane surfaces. They are particularly abundant in protozoan parasites, where they serve as the predominant mechanism for integrating glycoproteins and phosphosaccharides into membrane lipid bilayers."	
 <http://purl.obolibrary.org/obo/NCIT_C17253>	"The total complement of hereditary material in a virus, which can be composed of either DNA or RNA."	
@@ -639,7 +641,6 @@
 <http://purl.obolibrary.org/obo/SO_0000149>	"A contiguous sequence derived from sequence assembly. Has no gaps, but may contain N's from unavailable bases."	
 <http://purl.obolibrary.org/obo/CHMO_0002414>	"Any method that measures the amount of light that a substance scatters at certain wavelengths, incident angles, and polarization angles."	
 <http://purl.obolibrary.org/obo/DOID_93>	"A communication disorder that involves the processing of linguistic information."@en	
-<http://purl.obolibrary.org/obo/OMRSE_00000054>	"A healthcare provider role that inheres in an organization and is realized by providing inpatient care."@en	
 <http://purl.obolibrary.org/obo/NCIT_C104154>	"RNA found in blood plasma and other bodily fluids that is not associated with cells."	
 <http://edamontology.org/operation_0488>	"Calculate linkage disequilibrium; the non-random association of alleles or polymorphisms at two or more loci (not necessarily on the same chromosome)."	
 <http://purl.obolibrary.org/obo/ENVO_01001082>	"The disposition of an environmental system, particularly those influencing atmospheres, to manifest a cyclic pattern of weather over time."	

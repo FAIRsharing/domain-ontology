@@ -7,10 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/cl_import.owl>
-<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/cl_import.owl>
-Annotation(owl:versionInfo "2025-05-01")
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-06/imports/cl_import.owl>
+Annotation(owl:versionInfo "2025-05-06")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CL_0000034>))
@@ -66,7 +65,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000412> "imp
 # Class: <http://purl.obolibrary.org/obo/BFO_0000002> (<http://purl.obolibrary.org/obo/BFO_0000002>)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/cl.owl>)
-SubClassOf(<http://purl.obolibrary.org/obo/BFO_0000002> <http://purl.obolibrary.org/obo/BFO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/CL_0000000> (cell)
 

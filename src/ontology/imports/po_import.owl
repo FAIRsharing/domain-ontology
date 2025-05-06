@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/po_import.owl>
-<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-01/imports/po_import.owl>
-Annotation(owl:versionInfo "2025-05-01")
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-06/imports/po_import.owl>
+Annotation(owl:versionInfo "2025-05-06")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0007033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/PO_0009005>))

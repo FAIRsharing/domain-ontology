@@ -10,6 +10,9 @@
 ## DRAO uses UBERON (UBERON_0000465). As such, wherever CARO_0000006
 ## is used within CL, it is overriden by UBERON_0000465.
 ##
+## Note the issue with leukocyte as a child of continuant:
+## https://github.com/obophenotype/cell-ontology/issues/2923
+##
 
 [Source ontology]
 CL
@@ -24,8 +27,6 @@ http://purl.obolibrary.org/obo/CL_0002248 # Pluripotent stem cell
 http://purl.obolibrary.org/obo/CL_0002322 # Embryonic stem cell
 
 [Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/BFO_0000002 # continuant
-subClassOf http://purl.obolibrary.org/obo/BFO_0000001 # entity
 http://purl.obolibrary.org/obo/UBERON_0001062 # anatomical entity
 subClassOf http://purl.obolibrary.org/obo/BFO_0000040 # material entity
 http://purl.obolibrary.org/obo/CL_0000000 # cell (CL)

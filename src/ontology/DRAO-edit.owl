@@ -411,6 +411,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:DOID_409 <https://www.fairsharing.org>
 
 ## DRON
 AnnotationAssertion(oboInOwl:inSubset obo:DRON_00000025 <https://www.fairsharing.org>)
+AnnotationAssertion(drao:DRAO_0000001 obo:DRON_00000025 "FDA approved drug"@en)
 
 ## EDAM
 AnnotationAssertion(oboInOwl:inSubset edam:data_0846 <https://www.fairsharing.org>)
@@ -781,6 +782,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:OBI_0000615 <https://www.fairsharing.o
 AnnotationAssertion(oboInOwl:inSubset obo:OBI_0000626 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset obo:OBI_0000716 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset obo:OBI_0000725 <https://www.fairsharing.org>)
+AnnotationAssertion(drao:DRAO_0000001 obo:OBI_0000725 "host"@en)
 AnnotationAssertion(oboInOwl:inSubset obo:OBI_0000726 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset obo:OBI_0000729 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset obo:OBI_0000750 <https://www.fairsharing.org>)

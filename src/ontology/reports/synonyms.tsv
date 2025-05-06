@@ -6,6 +6,8 @@
 <http://purl.obolibrary.org/obo/IAO_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"information content entity"@en	
 <http://purl.obolibrary.org/obo/IAO_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"information entity"	
 <http://purl.obolibrary.org/obo/IAO_0000030>	<http://www.w3.org/2000/01/rdf-schema#label>	"information content entity"	
+<http://purl.obolibrary.org/obo/OMP_0000197>	<http://www.w3.org/2000/01/rdf-schema#label>	"microbe-host interaction phenotype"	
+<http://purl.obolibrary.org/obo/OGMS_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"phenotype"	
 <http://purl.obolibrary.org/obo/OBI_0000424>	<http://www.w3.org/2000/01/rdf-schema#label>	"transcription profiling assay"	
 <http://purl.obolibrary.org/obo/OBI_0000626>	<http://www.w3.org/2000/01/rdf-schema#label>	"DNA sequencing assay"	
 <http://purl.obolibrary.org/obo/OBI_0400169>	<http://www.w3.org/2000/01/rdf-schema#label>	"microscope"	
@@ -126,8 +128,6 @@
 <http://purl.obolibrary.org/obo/OBI_0600015>	<http://www.w3.org/2000/01/rdf-schema#label>	"group assignment"@en	
 <http://purl.obolibrary.org/obo/OBI_0000832>	<http://www.w3.org/2000/01/rdf-schema#label>	"measurement device"	
 <http://purl.obolibrary.org/obo/CHEBI_33696>	<http://www.w3.org/2000/01/rdf-schema#label>	"nucleic acid"	
-<http://purl.obolibrary.org/obo/OMP_0000197>	<http://www.w3.org/2000/01/rdf-schema#label>	"microbe-host interaction phenotype"	
-<http://purl.obolibrary.org/obo/OGMS_0000023>	<http://www.w3.org/2000/01/rdf-schema#label>	"phenotype"	
 <http://purl.obolibrary.org/obo/OBI_0100060>	<http://www.w3.org/2000/01/rdf-schema#label>	"cultured cell population"	
 <http://purl.obolibrary.org/obo/CLO_0037279>	<http://www.w3.org/2000/01/rdf-schema#label>	"embryonic stem cell line cell"@en	
 <http://purl.obolibrary.org/obo/OBI_0001866>	<http://www.w3.org/2000/01/rdf-schema#label>	"secondary cultured cell"	
@@ -300,10 +300,10 @@
 <http://purl.obolibrary.org/obo/CL_0000842>	<http://www.w3.org/2000/01/rdf-schema#label>	"mononuclear leukocyte"	
 <http://purl.obolibrary.org/obo/CL_0002321>	<http://www.w3.org/2000/01/rdf-schema#label>	"embryonic cell (metazoa)"	
 <http://purl.obolibrary.org/obo/CL_0000404>	<http://www.w3.org/2000/01/rdf-schema#label>	"electrically signaling cell"	
-<http://purl.obolibrary.org/obo/CL_0002322>	<http://www.w3.org/2000/01/rdf-schema#label>	"embryonic stem cell"	
 <http://purl.obolibrary.org/obo/CL_0000542>	<http://www.w3.org/2000/01/rdf-schema#label>	"lymphocyte"	
 <http://purl.obolibrary.org/obo/CL_0000211>	<http://www.w3.org/2000/01/rdf-schema#label>	"electrically active cell"	
 <http://purl.obolibrary.org/obo/CL_0000255>	<http://www.w3.org/2000/01/rdf-schema#label>	"eukaryotic cell"	
+<http://purl.obolibrary.org/obo/CL_0002322>	<http://www.w3.org/2000/01/rdf-schema#label>	"embryonic stem cell"	
 <http://purl.obolibrary.org/obo/CL_0000738>	<http://www.w3.org/2000/01/rdf-schema#label>	"leukocyte"	
 <http://purl.obolibrary.org/obo/CL_0000113>	<http://www.w3.org/2000/01/rdf-schema#label>	"mononuclear phagocyte"	
 <http://purl.obolibrary.org/obo/CL_0002248>	<http://www.w3.org/2000/01/rdf-schema#label>	"pluripotent stem cell"	
@@ -582,7 +582,8 @@
 <http://purl.obolibrary.org/obo/ENVO_01000254>	<http://www.w3.org/2000/01/rdf-schema#label>	"environmental system"	
 <http://purl.obolibrary.org/obo/ENVO_01001082>	<http://www.w3.org/2000/01/rdf-schema#label>	"climate"@en	
 <http://purl.obolibrary.org/obo/ENVO_03000043>	<http://www.w3.org/2000/01/rdf-schema#label>	"material transformation process"@en	
-<http://purl.obolibrary.org/obo/OMRSE_00000054>	<http://www.w3.org/2000/01/rdf-schema#label>	"hospital role"@en	
+<http://purl.obolibrary.org/obo/OMRSE_00000056>	<http://www.w3.org/2000/01/rdf-schema#label>	"hospital organization"@en	
+<http://purl.obolibrary.org/obo/OBI_0000245>	<http://www.w3.org/2000/01/rdf-schema#label>	"organization"@en	
 <http://purl.obolibrary.org/obo/NCIT_C13375>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chromosome Fragile Site"	
 <http://purl.obolibrary.org/obo/NCIT_C15222>	<http://www.w3.org/2000/01/rdf-schema#label>	"Diet"	
 <http://purl.obolibrary.org/obo/NCIT_C13426>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein Binding Domain"	
@@ -651,24 +652,6 @@
 <http://purl.obolibrary.org/obo/OMIT_0028181>	<http://www.w3.org/2000/01/rdf-schema#label>	"Crowdsourcing"	
 <http://purl.obolibrary.org/obo/IDOMAL_0000786>	<http://www.w3.org/2000/01/rdf-schema#label>	"glycosylphosphatidylinositol anchor"	
 <http://purl.obolibrary.org/obo/IDOMAL_0000349>	<http://www.w3.org/2000/01/rdf-schema#label>	"insecticide resistance"	
-<http://purl.obolibrary.org/obo/MI_0064>	<http://www.w3.org/2000/01/rdf-schema#label>	"interologs mapping"	
-<http://edamontology.org/operation_2492>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein interaction prediction"	
-<http://purl.obolibrary.org/obo/MI_2030>	<http://www.w3.org/2000/01/rdf-schema#label>	"isoelectric point"	
-<http://purl.obolibrary.org/obo/MI_2190>	<http://www.w3.org/2000/01/rdf-schema#label>	"long non-coding ribonucleic acid"	
-<http://purl.obolibrary.org/obo/MI_0118>	<http://www.w3.org/2000/01/rdf-schema#label>	"mutation"	
-<http://purl.obolibrary.org/obo/MI_2231>	<http://www.w3.org/2000/01/rdf-schema#label>	"coexpression"	
-<http://purl.obolibrary.org/obo/MI_1100>	<http://www.w3.org/2000/01/rdf-schema#label>	"bioactive entity"	
-<http://purl.obolibrary.org/obo/MI_0093>	<http://www.w3.org/2000/01/rdf-schema#label>	"protein sequence identification"	
-<http://edamontology.org/operation_3767>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein identification"	
-<http://purl.obolibrary.org/obo/MI_0208>	<http://www.w3.org/2000/01/rdf-schema#label>	"genetic interaction (sensu unexpected)"	
-<http://purl.obolibrary.org/obo/MI_2025>	<http://www.w3.org/2000/01/rdf-schema#label>	"molecular weight"	
-<http://purl.obolibrary.org/obo/MI_0074>	<http://www.w3.org/2000/01/rdf-schema#label>	"mutation analysis"	
-<http://purl.obolibrary.org/obo/MI_0414>	<http://www.w3.org/2000/01/rdf-schema#label>	"enzymatic reaction"	
-<http://purl.obolibrary.org/obo/MI_0966>	<http://www.w3.org/2000/01/rdf-schema#label>	"ultraviolet-visible spectroscopy"	
-<http://purl.obolibrary.org/obo/MI_0914>	<http://www.w3.org/2000/01/rdf-schema#label>	"association"	
-<http://edamontology.org/data_2087>	<http://www.w3.org/2000/01/rdf-schema#label>	"Molecular property"	
-<http://purl.obolibrary.org/obo/MI_0328>	<http://www.w3.org/2000/01/rdf-schema#label>	"small molecule"	
-<http://purl.obolibrary.org/obo/MI_0964>	<http://www.w3.org/2000/01/rdf-schema#label>	"infrared spectroscopy"	
 <http://edamontology.org/topic_0157>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sequence composition, complexity and repeats"	
 <http://edamontology.org/operation_2454>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gene prediction"	
 <http://edamontology.org/data_2337>	<http://www.w3.org/2000/01/rdf-schema#label>	"Resource metadata"	
@@ -681,6 +664,7 @@
 <http://edamontology.org/data_2042>	<http://www.w3.org/2000/01/rdf-schema#label>	"Evidence"	
 <http://edamontology.org/data_2717>	<http://www.w3.org/2000/01/rdf-schema#label>	"Oligonucleotide probe annotation"	
 <http://edamontology.org/data_1283>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cytogenetic map"	
+<http://edamontology.org/operation_2492>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein interaction prediction"	
 <http://edamontology.org/data_0993>	<http://www.w3.org/2000/01/rdf-schema#label>	"Drug identifier"	
 <http://edamontology.org/topic_3341>	<http://www.w3.org/2000/01/rdf-schema#label>	"Clone library"	
 <http://edamontology.org/data_3241>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kinetic model"	
@@ -702,6 +686,7 @@
 <http://edamontology.org/data_1238>	<http://www.w3.org/2000/01/rdf-schema#label>	"Proteolytic digest"	
 <http://edamontology.org/data_2849>	<http://www.w3.org/2000/01/rdf-schema#label>	"Abstract"	
 <http://edamontology.org/topic_3383>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bioimaging"	
+<http://edamontology.org/operation_3767>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein identification"	
 <http://edamontology.org/operation_2423>	<http://www.w3.org/2000/01/rdf-schema#label>	"Prediction and recognition"	
 <http://edamontology.org/data_3113>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sample annotation"	
 <http://edamontology.org/operation_2479>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein sequence analysis"	
@@ -747,6 +732,7 @@
 <http://edamontology.org/data_0942>	<http://www.w3.org/2000/01/rdf-schema#label>	"2D PAGE image"	
 <http://edamontology.org/data_1086>	<http://www.w3.org/2000/01/rdf-schema#label>	"Compound identifier"	
 <http://edamontology.org/data_2978>	<http://www.w3.org/2000/01/rdf-schema#label>	"Reaction data"	
+<http://edamontology.org/data_2087>	<http://www.w3.org/2000/01/rdf-schema#label>	"Molecular property"	
 <http://edamontology.org/data_3153>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein image"	
 <http://edamontology.org/operation_0492>	<http://www.w3.org/2000/01/rdf-schema#label>	"Multiple sequence alignment"	
 <http://edamontology.org/data_1249>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sequence length"	
@@ -788,14 +774,21 @@
 <http://edamontology.org/data_0976>	<http://www.w3.org/2000/01/rdf-schema#label>	"Identifier (by type of entity)"	
 <http://edamontology.org/data_3494>	<http://www.w3.org/2000/01/rdf-schema#label>	"DNA sequence"	
 <http://edamontology.org/operation_3799>	<http://www.w3.org/2000/01/rdf-schema#label>	"Quantification"	
-<http://semanticscience.org/resource/SIO_000398>	<http://www.w3.org/2000/01/rdf-schema#label>	"nurse"@en	
-<http://semanticscience.org/resource/SIO_010423>	<http://www.w3.org/2000/01/rdf-schema#label>	"target"@en	
-<http://semanticscience.org/resource/SIO_001257>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical-gene association"@en	
-<http://semanticscience.org/resource/SIO_000983>	<http://www.w3.org/2000/01/rdf-schema#label>	"gene-disease association"@en	
-<http://semanticscience.org/resource/SIO_001008>	<http://www.w3.org/2000/01/rdf-schema#label>	"toxicity"@en	
-<http://semanticscience.org/resource/SIO_000998>	<http://www.w3.org/2000/01/rdf-schema#label>	"literature curation"@en	
-<http://semanticscience.org/resource/SIO_000993>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical-disease association"@en	
-<http://semanticscience.org/resource/SIO_000716>	<http://www.w3.org/2000/01/rdf-schema#label>	"medical practitioner"@en	
+<http://purl.obolibrary.org/obo/MI_0064>	<http://www.w3.org/2000/01/rdf-schema#label>	"interologs mapping"	
+<http://purl.obolibrary.org/obo/MI_2030>	<http://www.w3.org/2000/01/rdf-schema#label>	"isoelectric point"	
+<http://purl.obolibrary.org/obo/MI_2190>	<http://www.w3.org/2000/01/rdf-schema#label>	"long non-coding ribonucleic acid"	
+<http://purl.obolibrary.org/obo/MI_0118>	<http://www.w3.org/2000/01/rdf-schema#label>	"mutation"	
+<http://purl.obolibrary.org/obo/MI_2231>	<http://www.w3.org/2000/01/rdf-schema#label>	"coexpression"	
+<http://purl.obolibrary.org/obo/MI_1100>	<http://www.w3.org/2000/01/rdf-schema#label>	"bioactive entity"	
+<http://purl.obolibrary.org/obo/MI_0093>	<http://www.w3.org/2000/01/rdf-schema#label>	"protein sequence identification"	
+<http://purl.obolibrary.org/obo/MI_0208>	<http://www.w3.org/2000/01/rdf-schema#label>	"genetic interaction (sensu unexpected)"	
+<http://purl.obolibrary.org/obo/MI_2025>	<http://www.w3.org/2000/01/rdf-schema#label>	"molecular weight"	
+<http://purl.obolibrary.org/obo/MI_0074>	<http://www.w3.org/2000/01/rdf-schema#label>	"mutation analysis"	
+<http://purl.obolibrary.org/obo/MI_0414>	<http://www.w3.org/2000/01/rdf-schema#label>	"enzymatic reaction"	
+<http://purl.obolibrary.org/obo/MI_0966>	<http://www.w3.org/2000/01/rdf-schema#label>	"ultraviolet-visible spectroscopy"	
+<http://purl.obolibrary.org/obo/MI_0914>	<http://www.w3.org/2000/01/rdf-schema#label>	"association"	
+<http://purl.obolibrary.org/obo/MI_0328>	<http://www.w3.org/2000/01/rdf-schema#label>	"small molecule"	
+<http://purl.obolibrary.org/obo/MI_0964>	<http://www.w3.org/2000/01/rdf-schema#label>	"infrared spectroscopy"	
 <http://purl.obolibrary.org/obo/SO_0000180>	<http://www.w3.org/2000/01/rdf-schema#label>	"retrotransposon"	
 <http://purl.obolibrary.org/obo/SO_0000771>	<http://www.w3.org/2000/01/rdf-schema#label>	"QTL"	
 <http://purl.obolibrary.org/obo/SO_0001021>	<http://www.w3.org/2000/01/rdf-schema#label>	"chromosome_breakpoint"	
@@ -884,20 +877,28 @@
 <http://purl.obolibrary.org/obo/SO_0000203>	<http://www.w3.org/2000/01/rdf-schema#label>	"UTR"	
 <http://purl.obolibrary.org/obo/SO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"region"	
 <http://purl.obolibrary.org/obo/SO_0005851>	<http://www.w3.org/2000/01/rdf-schema#label>	"gene_array"	
+<http://semanticscience.org/resource/SIO_000398>	<http://www.w3.org/2000/01/rdf-schema#label>	"nurse"@en	
+<http://semanticscience.org/resource/SIO_010423>	<http://www.w3.org/2000/01/rdf-schema#label>	"target"@en	
+<http://semanticscience.org/resource/SIO_001257>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical-gene association"@en	
+<http://semanticscience.org/resource/SIO_000983>	<http://www.w3.org/2000/01/rdf-schema#label>	"gene-disease association"@en	
+<http://semanticscience.org/resource/SIO_001008>	<http://www.w3.org/2000/01/rdf-schema#label>	"toxicity"@en	
+<http://semanticscience.org/resource/SIO_000998>	<http://www.w3.org/2000/01/rdf-schema#label>	"literature curation"@en	
+<http://semanticscience.org/resource/SIO_000993>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical-disease association"@en	
+<http://semanticscience.org/resource/SIO_000716>	<http://www.w3.org/2000/01/rdf-schema#label>	"medical practitioner"@en	
 <http://purl.obolibrary.org/obo/MOD_00693>	<http://www.w3.org/2000/01/rdf-schema#label>	"glycosylated residue"	
-<http://purl.obolibrary.org/obo/MP_0005382>	<http://www.w3.org/2000/01/rdf-schema#label>	"craniofacial phenotype"	
-<http://purl.obolibrary.org/obo/MP_0003935>	<http://www.w3.org/2000/01/rdf-schema#label>	"abnormal craniofacial development"	
-<http://purl.obolibrary.org/obo/MP_0002555>	<http://www.w3.org/2000/01/rdf-schema#label>	"addiction"	
-<http://purl.obolibrary.org/obo/MP_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"mammalian phenotype"	
 <http://purl.obolibrary.org/obo/OGMS_0000045>	<http://www.w3.org/2000/01/rdf-schema#label>	"disorder"	
 <http://purl.obolibrary.org/obo/OGMS_0000073>	<http://www.w3.org/2000/01/rdf-schema#label>	"diagnosis"	
 <http://purl.obolibrary.org/obo/OGMS_0000093>	<http://www.w3.org/2000/01/rdf-schema#label>	"prognosis"	
 <http://purl.obolibrary.org/obo/OGMS_0000028>	<http://www.w3.org/2000/01/rdf-schema#label>	"disease phenotype"	
 <http://purl.obolibrary.org/obo/OGMS_0000063>	<http://www.w3.org/2000/01/rdf-schema#label>	"disease course"	
-<http://purl.obolibrary.org/obo/FBbi_00000364>	<http://www.w3.org/2000/01/rdf-schema#label>	"light-sheet illumination"	
-<http://purl.obolibrary.org/obo/FBbi_00000267>	<http://www.w3.org/2000/01/rdf-schema#label>	"animation"	
 <http://purl.obolibrary.org/obo/FMA_84795>	<http://www.w3.org/2000/01/rdf-schema#label>	"Human leukocyte antigen complex"	
 <http://purl.obolibrary.org/obo/FMA_70631>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cell morphology"	
+<http://purl.obolibrary.org/obo/MP_0005382>	<http://www.w3.org/2000/01/rdf-schema#label>	"craniofacial phenotype"	
+<http://purl.obolibrary.org/obo/MP_0003935>	<http://www.w3.org/2000/01/rdf-schema#label>	"abnormal craniofacial development"	
+<http://purl.obolibrary.org/obo/MP_0002555>	<http://www.w3.org/2000/01/rdf-schema#label>	"addiction"	
+<http://purl.obolibrary.org/obo/MP_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"mammalian phenotype"	
+<http://purl.obolibrary.org/obo/FBbi_00000364>	<http://www.w3.org/2000/01/rdf-schema#label>	"light-sheet illumination"	
+<http://purl.obolibrary.org/obo/FBbi_00000267>	<http://www.w3.org/2000/01/rdf-schema#label>	"animation"	
 <http://purl.obolibrary.org/obo/FBcv_0003039>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical screen"	
 <http://purl.obolibrary.org/obo/FBcv_0000155>	<http://www.w3.org/2000/01/rdf-schema#label>	"single balancer"	
 <http://purl.obolibrary.org/obo/FBcv_0003077>	<http://www.w3.org/2000/01/rdf-schema#label>	"RNAi screen"	
@@ -909,9 +910,9 @@
 <http://purl.obolibrary.org/obo/PO_0009005>	<http://www.w3.org/2000/01/rdf-schema#label>	"root"	
 <http://purl.obolibrary.org/obo/PO_0007033>	<http://www.w3.org/2000/01/rdf-schema#label>	"whole plant development stage"	
 <http://purl.obolibrary.org/obo/DRON_00000025>	<http://www.w3.org/2000/01/rdf-schema#label>	"FDA approved drug role"@en	
-<http://purl.obolibrary.org/obo/PR_000037070>	<http://www.w3.org/2000/01/rdf-schema#label>	"phosphoprotein"	
 <http://purl.obolibrary.org/obo/MF_0000020>	<http://www.w3.org/2000/01/rdf-schema#label>	"mental process"	
 <http://purl.obolibrary.org/obo/MFOEM_000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"emotion process"	
+<http://purl.obolibrary.org/obo/PR_000037070>	<http://www.w3.org/2000/01/rdf-schema#label>	"phosphoprotein"	
 <http://purl.obolibrary.org/obo/STATO_0000184>	<http://www.w3.org/2000/01/rdf-schema#label>	"ratio"	
 <http://purl.obolibrary.org/obo/STATO_0000091>	<http://www.w3.org/2000/01/rdf-schema#label>	"genome-wide association study"@en	
 <http://purl.obolibrary.org/obo/STATO_0000039>	<http://www.w3.org/2000/01/rdf-schema#label>	"statistic"@en	
