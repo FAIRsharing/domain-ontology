@@ -108,6 +108,7 @@ http://edamontology.org/topic_3175
 http://edamontology.org/topic_3337
 http://edamontology.org/topic_3341
 http://edamontology.org/topic_3345
+http://edamontology.org/topic_3382
 http://edamontology.org/topic_3383
 http://edamontology.org/topic_3384
 http://edamontology.org/topic_3386
@@ -208,6 +209,7 @@ http://purl.obolibrary.org/obo/GO_0003682
 http://purl.obolibrary.org/obo/GO_0003824
 http://purl.obolibrary.org/obo/GO_0005216
 http://purl.obolibrary.org/obo/GO_0005488
+http://purl.obolibrary.org/obo/GO_0005515
 http://purl.obolibrary.org/obo/GO_0005575
 http://purl.obolibrary.org/obo/GO_0005634
 http://purl.obolibrary.org/obo/GO_0005694
@@ -434,6 +436,7 @@ http://purl.obolibrary.org/obo/OMIT_0010354
 http://purl.obolibrary.org/obo/OMIT_0012761
 http://purl.obolibrary.org/obo/OMIT_0014521
 http://purl.obolibrary.org/obo/OMIT_0018868
+http://purl.obolibrary.org/obo/OMIT_0019234
 http://purl.obolibrary.org/obo/OMIT_0019939
 http://purl.obolibrary.org/obo/OMIT_0020804
 http://purl.obolibrary.org/obo/OMIT_0025752

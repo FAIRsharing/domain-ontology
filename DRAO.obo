@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-06/DRAO.owl
+data-version: http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-08/DRAO.owl
 idspace: biomodels http://biomodels.net/SBO/ 
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
@@ -17,7 +17,7 @@ ontology: http://www.fairsharing.org/ontology/domain/DRAO.owl
 property_value: dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.\n\nThese ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md\n\nAgroVoc and PRIDE classes were manually added as required.\n\nOriginally developed for use within FAIRsharing.org\n\nLicensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Domain Resource Application Ontology" xsd:string
-property_value: owl:versionInfo "2025-05-06" xsd:string
+property_value: owl:versionInfo "2025-05-08" xsd:string
 
 [Term]
 id: BFO:0000001
@@ -1875,6 +1875,7 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/go.owl
 id: GO:0005515
 name: protein binding
 def: "Binding to a protein." []
+subset: https://www.fairsharing.org
 is_a: GO:0005488 ! binding
 property_value: IAO:0000118 "glycoprotein binding" xsd:string
 property_value: IAO:0000118 "protein amino acid binding" xsd:string
@@ -4978,6 +4979,7 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/omit.owl
 [Term]
 id: OMIT:0019234
 name: Peptide Library
+subset: https://www.fairsharing.org
 is_a: BFO:0000040 ! material entity
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/omit.owl
 
@@ -7860,6 +7862,7 @@ property_value: IAO:0000412 edam:EDAM.owl
 id: edam:topic_3382
 name: Imaging
 def: "The visual representation of an object." []
+subset: https://www.fairsharing.org
 is_a: edam:topic_3077 ! Data acquisition
 property_value: IAO:0000118 "Diffraction experiment" xsd:string
 property_value: IAO:0000118 "Microscopy" xsd:string

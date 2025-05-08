@@ -21,7 +21,7 @@ Prefix(swointerface:=<http://www.ebi.ac.uk/swo/interface/>)
 
 
 Ontology(<http://www.fairsharing.org/ontology/domain/DRAO.owl>
-<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-06/DRAO.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-08/DRAO.owl>
 Annotation(dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
 
 These ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md
@@ -33,7 +33,7 @@ Originally developed for use within FAIRsharing.org
 Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/"@en)
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Domain Resource Application Ontology")
-Annotation(owl:versionInfo "2025-05-06")
+Annotation(owl:versionInfo "2025-05-08")
 
 Declaration(Class(<http://aims.fao.org/aos/agrovoc/c_16526>))
 Declaration(Class(<http://aims.fao.org/aos/agrovoc/c_1971>))
@@ -2366,6 +2366,7 @@ AnnotationAssertion(obo:IAO_0000118 edam:topic_3382 "Optical super resolution mi
 AnnotationAssertion(obo:IAO_0000118 edam:topic_3382 "Photonic force microscopy")
 AnnotationAssertion(obo:IAO_0000118 edam:topic_3382 "Photonic microscopy")
 AnnotationAssertion(obo:IAO_0000412 edam:topic_3382 edam:EDAM.owl)
+AnnotationAssertion(oboInOwl:inSubset edam:topic_3382 <https://www.fairsharing.org>)
 AnnotationAssertion(rdfs:label edam:topic_3382 "Imaging")
 SubClassOf(edam:topic_3382 edam:topic_3077)
 
@@ -4263,6 +4264,7 @@ AnnotationAssertion(obo:IAO_0000115 obo:GO_0005515 "Binding to a protein.")
 AnnotationAssertion(obo:IAO_0000118 obo:GO_0005515 "glycoprotein binding")
 AnnotationAssertion(obo:IAO_0000118 obo:GO_0005515 "protein amino acid binding")
 AnnotationAssertion(obo:IAO_0000412 obo:GO_0005515 obo:go.owl)
+AnnotationAssertion(oboInOwl:inSubset obo:GO_0005515 <https://www.fairsharing.org>)
 AnnotationAssertion(rdfs:label obo:GO_0005515 "protein binding")
 SubClassOf(obo:GO_0005515 obo:GO_0005488)
 
@@ -7375,6 +7377,7 @@ SubClassOf(obo:OMIT_0018868 obo:SO_0001059)
 # Class: obo:OMIT_0019234 (Peptide Library)
 
 AnnotationAssertion(obo:IAO_0000412 obo:OMIT_0019234 obo:omit.owl)
+AnnotationAssertion(oboInOwl:inSubset obo:OMIT_0019234 <https://www.fairsharing.org>)
 AnnotationAssertion(rdfs:label obo:OMIT_0019234 "Peptide Library")
 SubClassOf(obo:OMIT_0019234 obo:BFO_0000040)
 
