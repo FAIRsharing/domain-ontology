@@ -5,4 +5,5 @@ http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
 http://semanticscience.org/resource/SIO_000998 # Literature curation
 http://semanticscience.org/resource/SIO_001008 # Toxicity
 http://semanticscience.org/resource/SIO_001257 # Chemical-gene association
+http://semanticscience.org/resource/SIO_010414 # Pathogen
 http://semanticscience.org/resource/SIO_010423 # Target

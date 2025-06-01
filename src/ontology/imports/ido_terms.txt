@@ -1,4 +1,0 @@
-http://purl.obolibrary.org/obo/IDO_0000526 # Parasite
-http://purl.obolibrary.org/obo/IDO_0000528 # Pathogen
-http://purl.obolibrary.org/obo/IDO_0000550 # Exotoxin
-http://purl.obolibrary.org/obo/IDO_0000630 # Nosocomial infection

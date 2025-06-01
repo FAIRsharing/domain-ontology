@@ -6,7 +6,7 @@
 ONTOFOX_CONFIG=			ontofox
 
 ## to check: pride = see the original DRAO-manual file.
-OVERRIDE_WITH_MACRO = 	bfo iao chebi chmo cl clo cmo doid dron edam efo envo FBbi FBcv fma go hp ido idomal mfoem mi mod mp ms ncbitaxon ncit oae obcs obi ogms omit omp omrse pato po pr pw sbo sio so stato swo t4fs uberon uo vo
+OVERRIDE_WITH_MACRO = 	bfo iao chebi chmo cl clo cmo doid dron edam efo envo FBbi FBcv fma go hp mfoem mi mod mp ms ncbitaxon ncit oae obcs obi ogms omit omp omrse pato po pr pw sbo sio so stato swo t4fs uberon uo vo
 
 ## This macro is used to create custom mirror rules for all $(OVERRIDE_WITH_MACRO) values,
 ## allowing us to use ontofox to bring in smaller subsets of the community ontologies, pre-filtered

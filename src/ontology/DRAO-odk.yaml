@@ -66,10 +66,6 @@ import_group:
       mirror_type: custom
     - id: hp
       mirror_type: custom
-    - id: ido
-      mirror_type: custom
-    - id: idomal
-      mirror_type: custom
     - id: mfoem
       mirror_type: custom
     - id: mi
