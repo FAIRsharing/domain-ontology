@@ -8,7 +8,7 @@
 T4FS
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/T4FS_0000141
+http://purl.obolibrary.org/obo/T4FS_0000141 # data management
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/BFO_0000001 # entity
