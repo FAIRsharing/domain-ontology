@@ -22,30 +22,30 @@ Count | External Ontology|Publication and/or Homepage|License|FAIRsharing URL
 18 | IAO|https://github.com/information-artifact-ontology/IAO/|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.gq1xtx
 19 | IDO|Cowell L.G., Smith B. (2010) Infectious Disease Ontology. In: Sintchenko V. (eds) Infectious Disease Informatics. Springer, New York, NY, http://infectiousdiseaseontology.org/|https://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.aae3v6
 20 | IDOMAL|https://doi.org/10.1186/2041-1480-4-16|https://creativecommons.org/publicdomain/zero/1.0/|https://doi.org/10.25504/FAIRsharing.2q8c28
-21 | MAMO|https://sourceforge.net/p/mamo-ontology/wiki/Home/|http://opensource.org/licenses/Artistic-2.0|https://doi.org/10.25504/FAIRsharing.kbz5jh
-22 | MFOEM|https://github.com/jannahastings/emotion-ontology|https://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.dx30m8
-23 | MI|http://www.psidev.info/groups/molecular-interactions|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.8qzmtr
-24 | MOD|https://doi.org/10.1038/nbt0808-864|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.2m4ms9
-25 | MP|http://dx.doi.org/10.1007/s00335-012-9421-3|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.kg1x4z
-26 | MS|http://dx.doi.org/10.1093/database/bat009|https://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.sxh2dp
-27 | NCBITaxon|https://doi.org/10.1093/nar/gkr1178|https://creativecommons.org/publicdomain/zero/1.0/|https://doi.org/10.25504/FAIRsharing.fj07xj
-28 | NCIT|http://dx.doi.org/10.3233/978-1-60750-949-3-33|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.4cvwxa
-29 | OAE|https://doi.org/10.1186/2041-1480-5-29|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.tw4q8x
-30 | OBCS|https://doi.org/10.1186/s13326-016-0100-2|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.5p12xh
-31 | OBI|https://doi.org/10.1371/journal.pone.0154556|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.284e1z
-32 | OGMS|https://github.com/OGMS/ogms|http://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.rvz0m9
-33 | OMIT|https://doi.org/10.1371/journal.pone.0100855 and https://doi.org/10.1186/s13326-016-0064-2|https://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.mf91p5
-34 | OMP|https://doi.org/10.1186/s12866-014-0294-3|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.cc3f2x
-35 | PATO|https://github.com/pato-ontology/pato/|https://opensource.org/licenses/BSD-3-Clause and http://creativecommons.org/licenses/by/3.0/ |https://doi.org/10.25504/FAIRsharing.ezwdhz
-36 | PO|http://www.plantontology.org/|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.3ngg40
-37 | PR|http://dx.doi.org/10.1093/nar/gkw1075|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.4ndncv
-38 | PRIDE (manually added) |https://github.com/PRIDE-Utilities/pride-ontology|https://www.apache.org/licenses/LICENSE-2.0.html|
-39 | PW|http://dx.doi.org/10.1186/2041-1480-5-7|http://creativecommons.org/licenses/by/3.0/ and https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.f73xhd
-40 | SBO|http://dx.doi.org/10.1038/msb.2011.77|http://opensource.org/licenses/Artistic-2.0|https://doi.org/10.25504/FAIRsharing.s19src
-41 | SIO|http://dx.doi.org/10.1186/2041-1480-5-14|CC-BY of some form, e.g. https://creativecommons.org/licenses/by/4.0/ though the exact one is unclear |https://doi.org/10.25504/FAIRsharing.dpkb5f
-42 | SO|https://doi.org/10.1186/gb-2005-6-5-r44|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.6bc7h9
-43 | STATO|http://stato-ontology.org/|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.na5xp
-44 | SWO|http://dx.doi.org/10.1186/2041-1480-5-25|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.sp3szt
+21 | MFOEM|https://github.com/jannahastings/emotion-ontology|https://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.dx30m8
+22 | MI|http://www.psidev.info/groups/molecular-interactions|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.8qzmtr
+23 | MOD|https://doi.org/10.1038/nbt0808-864|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.2m4ms9
+24 | MP|http://dx.doi.org/10.1007/s00335-012-9421-3|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.kg1x4z
+25 | MS|http://dx.doi.org/10.1093/database/bat009|https://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.sxh2dp
+26 | NCBITaxon|https://doi.org/10.1093/nar/gkr1178|https://creativecommons.org/publicdomain/zero/1.0/|https://doi.org/10.25504/FAIRsharing.fj07xj
+27 | NCIT|http://dx.doi.org/10.3233/978-1-60750-949-3-33|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.4cvwxa
+28 | OAE|https://doi.org/10.1186/2041-1480-5-29|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.tw4q8x
+29 | OBCS|https://doi.org/10.1186/s13326-016-0100-2|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.5p12xh
+30 | OBI|https://doi.org/10.1371/journal.pone.0154556|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.284e1z
+31 | OGMS|https://github.com/OGMS/ogms|http://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.rvz0m9
+32 | OMIT|https://doi.org/10.1371/journal.pone.0100855 and https://doi.org/10.1186/s13326-016-0064-2|https://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.mf91p5
+33 | OMP|https://doi.org/10.1186/s12866-014-0294-3|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.cc3f2x
+34 | PATO|https://github.com/pato-ontology/pato/|https://opensource.org/licenses/BSD-3-Clause and http://creativecommons.org/licenses/by/3.0/ |https://doi.org/10.25504/FAIRsharing.ezwdhz
+35 | PO|http://www.plantontology.org/|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.3ngg40
+36 | PR|http://dx.doi.org/10.1093/nar/gkw1075|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.4ndncv
+37 | PRIDE (manually added) |https://github.com/PRIDE-Utilities/pride-ontology|https://www.apache.org/licenses/LICENSE-2.0.html|
+38 | PW|http://dx.doi.org/10.1186/2041-1480-5-7|http://creativecommons.org/licenses/by/3.0/ and https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.f73xhd
+39 | SBO|http://dx.doi.org/10.1038/msb.2011.77|http://opensource.org/licenses/Artistic-2.0|https://doi.org/10.25504/FAIRsharing.s19src
+40 | SIO|http://dx.doi.org/10.1186/2041-1480-5-14|CC-BY of some form, e.g. https://creativecommons.org/licenses/by/4.0/ though the exact one is unclear |https://doi.org/10.25504/FAIRsharing.dpkb5f
+41 | SO|https://doi.org/10.1186/gb-2005-6-5-r44|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.6bc7h9
+42 | STATO|http://stato-ontology.org/|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.na5xp
+43 | SWO|http://dx.doi.org/10.1186/2041-1480-5-25|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.sp3szt
+44 | t4fs|https://doi.org/10.25504/FAIRsharing.fb99fa|https://creativecommons.org/licenses/by/4.0/|https://doi.org/10.25504/FAIRsharing.fb99fa
 45 | UBERON|https://doi.org/10.1186/gb-2012-13-1-r5|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.4c0b6b
 46 | UO|http://dx.doi.org/10.1093/database/bas033|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.mjnypw
 47 | VO|http://www.violinet.org/vaccineontology|http://creativecommons.org/licenses/by/3.0/|https://doi.org/10.25504/FAIRsharing.zwtww5
@@ -53,6 +53,7 @@ Count | External Ontology|Publication and/or Homepage|License|FAIRsharing URL
 Ontologies used in the past but no longer part of DRAO:
 * [CHEMINF](https://doi.org/10.1371/journal.pone.0025513) - https://doi.org/10.25504/FAIRsharing.sjhvyy (May 2025)
 * [ERO](https://open.med.harvard.edu/wiki/display/eaglei/Ontology) - https://doi.org/10.25504/FAIRsharing.nwgynk (May 2025)
+* [MAMO](https://sourceforge.net/p/mamo-ontology/wiki/Home/) - https://doi.org/10.25504/FAIRsharing.kbz5jh (May 2025)
 * [OGI](https://code.google.com/archive/p/ontology-for-genetic-interval/) - https://doi.org/10.25504/FAIRsharing.vh9jbb (May 2025)
 * [PECO](https://doi.org/10.1093/nar/gkx1152) - https://github.com/Planteome/plant-experimental-conditions-ontology - https://doi.org/10.25504/FAIRsharing.6yNXYK (May 2025)
 * [VARIO](http://dx.doi.org/10.1101/gr.157495.113) - https://doi.org/10.25504/FAIRsharing.65xkbs (May 2025)

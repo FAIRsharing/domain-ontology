@@ -5,7 +5,6 @@ http://purl.obolibrary.org/obo/NCIT_C13375 # Chromosome fragile site
 http://purl.obolibrary.org/obo/NCIT_C13426 # Binding motif
 http://purl.obolibrary.org/obo/NCIT_C13445 # Gene feature
 http://purl.obolibrary.org/obo/NCIT_C41332 # Adverse Reaction
-http://purl.obolibrary.org/obo/NCIT_C15222 # Diet
 http://purl.obolibrary.org/obo/NCIT_C15239 # Patient care
 http://purl.obolibrary.org/obo/NCIT_C15311 # Quality control
 http://purl.obolibrary.org/obo/NCIT_C15318 # Reproducibility
@@ -21,7 +20,6 @@ http://purl.obolibrary.org/obo/NCIT_C17207 # Transcription factor
 http://purl.obolibrary.org/obo/NCIT_C17253 # Viral Genome
 http://purl.obolibrary.org/obo/NCIT_C17671 # Nuclear receptor
 http://purl.obolibrary.org/obo/NCIT_C17958 # Functional magnetic resonance imaging
-http://purl.obolibrary.org/obo/NCIT_C17962 # Multimedia
 http://purl.obolibrary.org/obo/NCIT_C18106 # Receptor
 http://purl.obolibrary.org/obo/NCIT_C18143 # Gene knockout
 http://purl.obolibrary.org/obo/NCIT_C18469 # Protein-protein interaction
@@ -29,7 +27,6 @@ http://purl.obolibrary.org/obo/NCIT_C18472 # High-throughput screening
 http://purl.obolibrary.org/obo/NCIT_C18962 # Protein Analysis
 http://purl.obolibrary.org/obo/NCIT_C18966 # Protein expression ** We may wish to merge this with Translation?
 http://purl.obolibrary.org/obo/NCIT_C26549 # Untranslated RNA
-http://purl.obolibrary.org/obo/NCIT_C42753 # Workflow
 http://purl.obolibrary.org/obo/NCIT_C45275 # Animal tracking
 http://purl.obolibrary.org/obo/NCIT_C49667 # Safety study
 http://purl.obolibrary.org/obo/NCIT_C70699 # Biological sample

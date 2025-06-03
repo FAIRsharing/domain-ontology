@@ -16,6 +16,24 @@ Mathematical model | http://edamontology.org/data_0950 | http://semanticscience.
 Network model| http://identifiers.org/mamo/MAMO_0000035 | http://semanticscience.org/resource/SIO_000510 | 2025-05-01 | Now 'Model', and integrating both the idea of Modeling and the concept of a Model as it's splitting annotation. Mamo is orphaned, so removing it completely.
 Structural variation | http://edamontology.org/topic_3175 | http://purl.obolibrary.org/obo/SO_1000183| 2025-05-01 |  Now 'Chromosome structure variation', and merged with the SO term described.  (definition did not match label)
 
+#### Deprecation of IDO
+As stated within [FAIRsharing](https://doi.org/10.25504/FAIRsharing.aae3v6), while the ontology remains available at https://github.com/infectious-disease-ontology/infectious-disease-ontology, it has not been updated since 2017 and should be used with care. Further, the original homepages provided by the resource developers (http://infectiousdiseaseontology.org/ and https://www.bioontology.org//wiki/Index.php/Infectious_Disease_Ontology) are either unavailable or empty. As FAIRsharing considers the ontology deprecated, this means all terms utilised by DRAO needed to be refactored. Here is a separate table for these terms.
+
+Name | Old IRI | New IRI | Release | Note
+----- | ------- | ------------- | ------------- | -------------
+Parasite | http://purl.obolibrary.org/obo/IDO_0000526 | Removed (also added to 'List of removed DRAO terms'). | 2025-06-?? | No longer used within FAIRsharing.
+Pathogen | http://purl.obolibrary.org/obo/IDO_0000528 | http://semanticscience.org/resource/SIO_010414 | 2025-06-?? | Switched to SIO as IDO is considered deprecated within FAIRsharing.
+Exotoxin | http://purl.obolibrary.org/obo/IDO_0000550 | Removed (also added to 'List of removed DRAO terms'). | 2025-06-?? | No longer used within FAIRsharing.
+Nosocomial infection | http://purl.obolibrary.org/obo/IDO_0000630 | Removed (also added to 'List of removed DRAO terms'). | 2025-06-?? | No longer used within FAIRsharing.
+
+#### Deprecation of IDOMAL
+As stated within the [OBO Foundry](https://obofoundry.org/ontology/idomal.html) and [FAIRsharing](https://doi.org/10.25504/FAIRsharing.2q8c28), IDOMAL is listed as inactive within the OBO Foundry and therefore has been deprecated in FAIRsharing. This means all terms utilised by DRAO needed to be refactored. Here is a separate table for these terms.
+
+Name | Old IRI | New IRI | Release | Note
+----- | ------- | ------------- | ------------- | -------------
+Glycosylphosphatidylinositol anchor | http://purl.obolibrary.org/obo/IDOMAL_0000786 | Removed (also added to 'List of removed DRAO terms'). | 2025-06-?? | No longer used within FAIRsharing.
+Insecticide resistance | http://purl.obolibrary.org/obo/IDOMAL_0000349 | Removed (also added to 'List of removed DRAO terms'). | 2025-06-?? | No longer used within FAIRsharing.
+
 #### Deprecation of OGI
 As stated within the [OBO Foundry](https://obofoundry.org/ontology/ogi.html) and [FAIRsharing](https://doi.org/10.25504/FAIRsharing.vh9jbb), OGI has been deprecated. Therefore all terms needed to be refactored. Here is a separate table for these terms.
 
@@ -65,10 +83,16 @@ Disease process modeling | http://purl.obolibrary.org/obo/ERO_0100148 | http://p
 Omics data analysis | http://purl.obolibrary.org/obo/ERO_0100150 | http://edamontology.org/operation_2945 | 2025-05-01 | Now 'Data analysis' or 'Analysis'. This new IRI was already in DRAO, it is a merge rather than a new term.
 
 ### List of removed DRAO terms
-This happens when the owning ontology obsoletes a term and it isn't used anymore in FAIRsharing.
+This happens when the owning ontology obsoletes a term and it isn't used anymore in FAIRsharing. Sometimes the removed term is only within this table, other times it might also be in another table, for instance when an entire ontology is deprecated.
 
 Name |Old IRI | New IRI | Release | Note
 ------ | ------ | ------------- | ------------- | -------------
+Glycosylphosphatidylinositol anchor | http://purl.obolibrary.org/obo/IDOMAL_0000786 | Removed | 2025-06-?? | Ontology no longer used within FAIRsharing.
+Insecticide resistance | http://purl.obolibrary.org/obo/IDOMAL_0000349 | Removed | 2025-06-?? | Ontology no longer used within FAIRsharing.
+Parasite | http://purl.obolibrary.org/obo/IDO_0000526 | Removed | 2025-06-?? | Ontology no longer used within FAIRsharing.
+Exotoxin | http://purl.obolibrary.org/obo/IDO_0000550 | Removed | 2025-06-?? | Ontology no longer used within FAIRsharing. 
+Diet | http://purl.obolibrary.org/obo/NCIT_C15222 | Removed | 2025-06-?? | No longer used within FAIRsharing.
+Nosocomial infection | http://purl.obolibrary.org/obo/IDO_0000630 | Removed | 2025-06-?? | Ontology no longer used within FAIRsharing.
 RNA polyadenylation | http://purl.obolibrary.org/obo/GO_0043631 | removed | 2025-05-01 | not used in FAIRsharing, now obsolete in GO. 
 transposon integration | http://purl.obolibrary.org/obo/GO_0070893 | removed | 2025-05-01| not used in FAIRsharing, now obsolete in GO. 
 Electron density map | http://purl.obolibrary.org/obo/ERO_0000086 | removed | 2025-05-01| deprecation of ERO 
@@ -80,22 +104,34 @@ Systematic name | http://semanticscience.org/resource/CHEMINF_000106 | removed |
 Chemical descriptor | http://semanticscience.org/resource/CHEMINF_000123 | removed | 2025-05-01 | Used by 7 records (1477, 1644, 1692, 1700, 2003, 2707, 2782), not needed anymore as we remove CHEMINF from our imported ontologies.
 logP | http://semanticscience.org/resource/CHEMINF_000251 | removed | 2025-05-01 | Used by 1 records (1692), not needed anymore as we remove CHEMINF from our imported ontologies.
 
+### List of IRIs that have moved from DRAO
+Terms may be moved from DRAO to either SRAO or our object tags. This list includes those terms. There are spaces for three IRIs, but you may only need one or two of them. In the note, please explain what type of mapping/refactoring has been performed. Every time you modify this list. If the term moves to SRAO, ensure that this same information is represented in the SRAO documentation as well.
+
+Name | DRAO IRI | New tag location | New IRI (if applicable) | Release | Note
+----|--------|-------------|-------------|-------------|---
+Publication | http://purl.obolibrary.org/obo/IAO_0000311 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/ScholarlyArticle | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87)
+Journal article | http://purl.obolibrary.org/obo/IAO_0000013 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/ScholarlyArticle | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87)
+Report | http://purl.obolibrary.org/obo/IAO_0000088 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/ScholarlyArticle | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87); note that this term will remain in DRAO but move from a 'visible' to 'hidden' term, meaning it still contributes to the search hierarchy, but is not available for curation by the FAIRsharing community.
+Questionnaire | http://purl.obolibrary.org/obo/OBI_0001000 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | http://purl.org/coar/resource_type/NHD0-W6SY | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87)
+Multimedia | http://purl.obolibrary.org/obo/NCIT_C17962 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/MediaObject | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87)
+Image | http://purl.obolibrary.org/obo/IAO_0000101 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/ImageObject | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87); Note that this term will remain in DRAO but move from a 'visible' to 'hidden' term, meaning it still contributes to the search hierarchy, but is not available for curation by the FAIRsharing community.
+Abstract | http://edamontology.org/data_2849 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/ScholarlyArticle | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87)
+Bibliography | http://edamontology.org/data_3505 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/ScholarlyArticle | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87)
+Citation | http://edamontology.org/data_0970 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/ScholarlyArticle | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87)
+Text | http://edamontology.org/data_3671 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/DigitalDocument | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87)
+Software | http://www.ebi.ac.uk/swo/SWO_0000001 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | https://schema.org/SoftwareSourceCode and https://schema.org/SoftwareApplication | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87). Note that this will be split into two related terms, software source code and software application.
+Model | http://semanticscience.org/resource/SIO_000510 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87). Note that this term will retain its IRI and simply move to the object tags.
+Hidden markov model | http://edamontology.org/data_1364 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | http://semanticscience.org/resource/SIO_000510 | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87). Note that this will be merged with its parent term, as there were only a few with this tag and the tag was inconsistently applied.
+Kinetic model | http://edamontology.org/data_3241 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | http://semanticscience.org/resource/SIO_000510 | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87). Note that this will be merged with its parent term, as there were only a few with this tag and the tag was inconsistently applied.
+Protocol | http://purl.obolibrary.org/obo/OBI_0000272 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | http://purl.obolibrary.org/obo/NCIT_C42753 | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87). Note that this will be merged with NCIT Workflow to create the 'protocol or workflow' object type.
+Workflow | http://purl.obolibrary.org/obo/NCIT_C42753 | [OSTrails Object Tags](https://github.com/OSTrails/digital-object-commons) | http://purl.obolibrary.org/obo/NCIT_C42753 | 2025-06-?? | [Integration of object tags within FAIRsharing](https://github.com/FAIRsharing/domain-ontology/issues/87). Note that this will be merged with OBI Protocol to create the 'protocol or workflow' object type. The IRI remains the same, but will move to the object tags.
+
 ### List of promotions from user-defined tags to DRAO
 Old IRI | New IRI | Release | Note
 ------------ | ------------- | ------------- | -------------
  | | |
 
-### List of IRIs that have moved from DRAO to SRAO in the current milestone
- There are spaces for three IRIs, but you may only need one or two of them. In the note, please explain what type of mapping/refactoring has been performed. Every time you modify this list, copy the changes to refactored-IRIs-current.txt within the SRAO project so that the full history of the changes will ultimately be present in both AO release directories.
-
-#### Examples (from release 0.2.0)
-first_iri|second_iri|third_iri|note
------------- | ------------- | -------------| -------------
- http://purl.obolibrary.org/obo/OMIT_0022673|http://purl.obolibrary.org/obo/NCIT_C18478||Note: This means that relations from DRAO first_iri are transferred to SRAO second_iri and first_iri is deprecated.
- http://purl.obolibrary.org/obo/OMIT_0012123|||Note: This means that first_iri is moved from DRAO->SRAO with IRI preserved.
- http://purl.obolibrary.org/obo/OMIT_0023533|http://edamontology.org/topic_3395|http://purl.obolibrary.org/obo/NCIT_C93254|Note: first_iri and second_iri are deprecated and their relations transferred to third_iri.
-
-### List of IRIs that have moved from SRAO to DRAO in the current milestone
+### List of IRIs that have moved from SRAO to DRAO
 There are spaces for three IRIs, but you may only need one or two of them. In the note, please explain what type of mapping/refactoring has been performed.
 
 Every time you modify this list, copy the changes to refactored-IRIs-current.txt within the SRAO project so that the full history of the changes will ultimately be present in both AO release directories.

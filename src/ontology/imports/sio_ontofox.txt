@@ -12,7 +12,6 @@ SIO
 
 [Low level source term URIs]
 http://semanticscience.org/resource/SIO_000398 # Nurse
-http://semanticscience.org/resource/SIO_000510 # Model
 http://semanticscience.org/resource/SIO_000983 # Gene-disease association
 http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
 http://semanticscience.org/resource/SIO_000998 # Literature curation
@@ -36,8 +35,6 @@ http://semanticscience.org/resource/SIO_000993 # Chemical-disease association
 subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
 http://semanticscience.org/resource/SIO_001257 # Chemical-gene association
 subClassOf http://purl.obolibrary.org/obo/MI_0914 # Association
-http://semanticscience.org/resource/SIO_000510 # Model
-subClassOf http://purl.obolibrary.org/obo/IAO_0000030 # information content entity
 http://semanticscience.org/resource/SIO_010414 # Pathogen
 subClassOf http://purl.obolibrary.org/obo/OBI_0100026 # organism
 

@@ -21,7 +21,6 @@ http://purl.obolibrary.org/obo/OBI_0000070 # Assay
 http://purl.obolibrary.org/obo/OBI_0000073 # Sample preparation for assay
 http://purl.obolibrary.org/obo/OBI_0000094 # Material processing
 http://purl.obolibrary.org/obo/OBI_0000115 # Intervention design
-http://purl.obolibrary.org/obo/OBI_0000272 # Protocol
 http://purl.obolibrary.org/obo/OBI_0000415 # Polymerase Chain Reaction
 http://purl.obolibrary.org/obo/OBI_0000423 # Extract
 http://purl.obolibrary.org/obo/OBI_0000427 # Enzyme
@@ -39,7 +38,6 @@ http://purl.obolibrary.org/obo/OBI_0000893 # Real time polymerase chain reaction
 http://purl.obolibrary.org/obo/OBI_0000912 # X-ray crystallography assay
 http://purl.obolibrary.org/obo/OBI_0000916 # Flow cytometry assay
 http://purl.obolibrary.org/obo/OBI_0000968 # Device
-http://purl.obolibrary.org/obo/OBI_0001000 # Questionnaire
 http://purl.obolibrary.org/obo/OBI_0001065 # Stereo microscope
 http://purl.obolibrary.org/obo/OBI_0001199 # In vivo design
 http://purl.obolibrary.org/obo/OBI_0001248 # Chromatin immunoprecipitation - DNA microarray
