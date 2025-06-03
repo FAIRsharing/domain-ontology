@@ -1,15 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/kve35mco.owl#"
-     xml:base="http://ontofox.hegroup.org/kve35mco.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/hp53rk7p.owl#"
+     xml:base="http://ontofox.hegroup.org/hp53rk7p.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:resource="http://semanticscience.org/resource/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:edamontology="http://edamontology.org/"
      xmlns:efo="http://www.ebi.ac.uk/efo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/kve35mco.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/hp53rk7p.owl"/>
     
 
 
@@ -409,18 +408,6 @@
     
 
 
-    <!-- http://edamontology.org/data_1364 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_1364">
-        <rdfs:label>Hidden Markov model</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000510"/>
-        <obo:IAO_0000115>A statistical Markov model of a system which is assumed to be a Markov process with unobserved (hidden) states. For example, a hidden Markov model representation of a set or alignment of sequences.</obo:IAO_0000115>
-        <obo:IAO_0000118>HMM</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_1383 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1383">
@@ -691,17 +678,6 @@
     
 
 
-    <!-- http://edamontology.org/data_2849 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_2849">
-        <rdfs:label>Abstract</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
-        <obo:IAO_0000115>An abstract of a scientific article.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_2851 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_2851">
@@ -849,17 +825,6 @@
         <rdfs:label>Protein image</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000101"/>
         <obo:IAO_0000115>An image of a protein.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/data_3241 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_3241">
-        <rdfs:label>Kinetic model</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000510"/>
-        <obo:IAO_0000115>Mathematical model of a network, that contains biochemical kinetics.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
     </owl:Class>
     
@@ -1854,12 +1819,6 @@
     
 
 
-    <!-- http://semanticscience.org/resource/SIO_000510 -->
-
-    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000510"/>
-    
-
-
     <!-- http://www.ebi.ac.uk/efo/EFO_0001444 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001444"/>
@@ -1876,7 +1835,6 @@ http://purl.obolibrary.org/obo/OBI_0200000
 http://purl.obolibrary.org/obo/PATO_0000141
 http://purl.obolibrary.org/obo/IAO_0000101
 http://purl.obolibrary.org/obo/SO_0001411
-http://semanticscience.org/resource/SIO_000510
 http://purl.obolibrary.org/obo/IAO_0000088
 http://purl.obolibrary.org/obo/IAO_0020000
 http://purl.obolibrary.org/obo/OBI_0002567

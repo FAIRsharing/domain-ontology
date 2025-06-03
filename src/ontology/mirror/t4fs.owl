@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/i7ncfr9m.owl#"
-     xml:base="http://ontofox.hegroup.org/i7ncfr9m.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/icdd5eki.owl#"
+     xml:base="http://ontofox.hegroup.org/icdd5eki.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/i7ncfr9m.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/icdd5eki.owl"/>
     
 
 

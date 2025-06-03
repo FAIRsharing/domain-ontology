@@ -1,0 +1,40 @@
+21d20
+< http://edamontology.org/data_0970 - ok
+33d31
+< http://edamontology.org/data_1364 - ok
+50d47
+< http://edamontology.org/data_2849 - ok
+61d57
+< http://edamontology.org/data_3241 - ok
+64,65d59
+< http://edamontology.org/data_3505 - ok
+< http://edamontology.org/data_3671 - ok
+271d264
+< http://purl.obolibrary.org/obo/IAO_0000013 - ok
+274,275d266
+< http://purl.obolibrary.org/obo/IAO_0000088 - ok
+< http://purl.obolibrary.org/obo/IAO_0000101 - ok
+277d267
+< http://purl.obolibrary.org/obo/IAO_0000311 - ok
+280,286d269
+< http://purl.obolibrary.org/obo/IAO_0000578 - ok
+< http://purl.obolibrary.org/obo/IDOMAL_0000349 - ok
+< http://purl.obolibrary.org/obo/IDOMAL_0000786 - ok
+< http://purl.obolibrary.org/obo/IDO_0000526 - ok
+< http://purl.obolibrary.org/obo/IDO_0000528 - ok
+< http://purl.obolibrary.org/obo/IDO_0000550 - ok
+< http://purl.obolibrary.org/obo/IDO_0000630 - ok
+318d300
+< http://purl.obolibrary.org/obo/NCIT_C15222 - ok
+334d315
+< http://purl.obolibrary.org/obo/NCIT_C17962 - ok
+343d323
+< http://purl.obolibrary.org/obo/NCIT_C42753 - ok
+359d338
+< http://purl.obolibrary.org/obo/OBI_0000272 - ok
+377d355
+< http://purl.obolibrary.org/obo/OBI_0001000 - ok
+551d528
+< http://semanticscience.org/resource/SIO_000510 - ok
+587d563
+< http://www.ebi.ac.uk/swo/SWO_0000001 - ok

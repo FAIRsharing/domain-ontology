@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/af3om97k.owl#"
-     xml:base="http://ontofox.hegroup.org/af3om97k.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/qqy7hpm8.owl#"
+     xml:base="http://ontofox.hegroup.org/qqy7hpm8.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/af3om97k.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/qqy7hpm8.owl"/>
     
 
 
@@ -61,12 +61,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000572 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000572"/>
@@ -76,6 +70,12 @@
     <!-- http://purl.obolibrary.org/obo/MI_0914 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MI_0914"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
     
 
 
@@ -90,16 +90,6 @@
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000398">
         <rdfs:label xml:lang="en">nurse</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000716"/>
-        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://semanticscience.org/resource/SIO_000510 -->
-
-    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000510">
-        <rdfs:label xml:lang="en">model</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
     </owl:Class>
     
@@ -165,6 +155,16 @@
     
 
 
+    <!-- http://semanticscience.org/resource/SIO_010414 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_010414">
+        <rdfs:label xml:lang="en">pathogen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_010423 -->
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_010423">
@@ -186,5 +186,5 @@ http://purl.obolibrary.org/obo/IAO_0000572
 http://purl.obolibrary.org/obo/PATO_0001018
 http://purl.obolibrary.org/obo/CHEBI_23367
 http://purl.obolibrary.org/obo/MI_0914
-http://purl.obolibrary.org/obo/IAO_0000030
+http://purl.obolibrary.org/obo/OBI_0100026
 -->

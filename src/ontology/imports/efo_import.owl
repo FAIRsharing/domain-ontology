@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/efo_import.owl>
-<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-08/imports/efo_import.owl>
-Annotation(owl:versionInfo "2025-05-08")
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-03/imports/efo_import.owl>
+Annotation(owl:versionInfo "2025-06-03")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))
@@ -92,11 +92,11 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000030> "inf
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000181> (population)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000181> "a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000181> "A population is a group of material entities consisting of individuals which share a particular characteristic such as inhabiting a particular region or area or ability to interbreed.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000181> "a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000181> <http://www.ebi.ac.uk/efo/efo.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000181> "population"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000181> "population")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000181> "population"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000181> <http://purl.obolibrary.org/obo/BFO_0000040>)
 
 # Class: <http://www.ebi.ac.uk/efo/EFO_0000269> (array design)

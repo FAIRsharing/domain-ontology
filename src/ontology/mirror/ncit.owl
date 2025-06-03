@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/dozu9irr.owl#"
-     xml:base="http://ontofox.hegroup.org/dozu9irr.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/yev5mjwz.owl#"
+     xml:base="http://ontofox.hegroup.org/yev5mjwz.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:edamontology="http://edamontology.org/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/dozu9irr.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/yev5mjwz.owl"/>
     
 
 
@@ -266,20 +266,6 @@
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EHR (electronic health record)</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electronic Health Record</obo:IAO_0000118>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">From Electronic Health Record</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C15222 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15222">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diet</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diet</obo:IAO_0000118>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dietary</obo:IAO_0000118>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The customary allowance of food and drink taken by a person or an animal from day to day, particularly one especially planned to meet specific requirements of the individual, including or excluding certain items of food; a prescribed course of eating and drinking in which the amount and kind of food, as well as the times at which it is to be taken, are regulated for therapeutic purposes or selected with reference to a particular state of health.</obo:IAO_0000115>
-        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diet</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     
@@ -804,12 +790,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0100051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100051"/>
@@ -901,7 +881,6 @@ http://purl.obolibrary.org/obo/IAO_0000104
 http://purl.obolibrary.org/obo/OBI_0100051
 http://purl.obolibrary.org/obo/OBI_0000094
 http://purl.obolibrary.org/obo/OBI_0000066
-http://purl.obolibrary.org/obo/OBI_0000272
 http://purl.obolibrary.org/obo/OBI_1110122
 http://purl.obolibrary.org/obo/BFO_0000040
 http://purl.obolibrary.org/obo/GO_0098687

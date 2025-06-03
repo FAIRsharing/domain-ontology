@@ -22,14 +22,12 @@
 "CL"	30
 "NCBITaxon"	1
 "CHEBI"	87
-"IDOMAL"	2
-"OBI"	98
-"IDO"	5
-"IAO"	19
+"OBI"	96
+"IAO"	17
 "T4FS"	3
 "CHMO"	20
 "BFO"	14
-"NCIT"	43
+"NCIT"	40
 "OAE"	3
 "OMRSE"	1
 "FBcv"	8
@@ -37,7 +35,7 @@
 "MF"	1
 "STATO"	5
 "UBERON"	24
-""	189
+""	182
 "MS"	1
 "GO"	128
 "PW"	1

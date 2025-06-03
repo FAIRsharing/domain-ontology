@@ -21,7 +21,7 @@
      xmlns:biomodels="http://biomodels.net/SBO/"
      xmlns:swointerface="http://www.ebi.ac.uk/swo/interface/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/DRAO.owl">
-        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-08/DRAO.owl"/>
+        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-03/DRAO.owl"/>
         <dcterms:description xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
 
 These ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md
@@ -33,7 +33,7 @@ Originally developed for use within FAIRsharing.org
 Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Domain Resource Application Ontology</dcterms:title>
-        <owl:versionInfo>2025-05-08</owl:versionInfo>
+        <owl:versionInfo>2025-06-03</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -82,18 +82,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:label>imported from</rdfs:label>
         <rdfs:label xml:lang="en">imported from</rdfs:label>
     </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118"/>
     
 
 
@@ -439,20 +427,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://edamontology.org/data_0970 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_0970">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
-        <obo:IAO_0000115>Bibliographic data that uniquely identifies a scientific article, book or other published material.</obo:IAO_0000115>
-        <obo:IAO_0000118>Bibliographic reference</obo:IAO_0000118>
-        <obo:IAO_0000118>Reference</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>Citation</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_0976 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_0976">
@@ -687,19 +661,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>Genome map</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/data_1364 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_1364">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000510"/>
-        <obo:IAO_0000115>A statistical Markov model of a system which is assumed to be a Markov process with unobserved (hidden) states. For example, a hidden Markov model representation of a set or alignment of sequences.</obo:IAO_0000115>
-        <obo:IAO_0000118>HMM</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>Hidden Markov model</rdfs:label>
     </owl:Class>
     
 
@@ -989,18 +950,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://edamontology.org/data_2849 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_2849">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
-        <obo:IAO_0000115>An abstract of a scientific article.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>Abstract</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_2851 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_2851">
@@ -1162,18 +1111,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://edamontology.org/data_3241 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_3241">
-        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000510"/>
-        <obo:IAO_0000115>Mathematical model of a network, that contains biochemical kinetics.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>Kinetic model</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://edamontology.org/data_3494 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_3494">
@@ -1196,33 +1133,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>RNA sequence</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/data_3505 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_3505">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
-        <obo:IAO_0000115>A list of publications such as scientic papers or books.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>Bibliography</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/data_3671 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_3671">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
-        <obo:IAO_0000115>Any free or plain text, typically for human consumption and in English. Can instantiate also as a textual search query.</obo:IAO_0000115>
-        <obo:IAO_0000118>Free text</obo:IAO_0000118>
-        <obo:IAO_0000118>Plain text</obo:IAO_0000118>
-        <obo:IAO_0000118>Textual search query</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://edamontology.org/EDAM.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>Text</rdfs:label>
     </owl:Class>
     
 
@@ -2097,7 +2007,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/oae.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
@@ -2121,7 +2030,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obcs.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
@@ -2155,12 +2063,10 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
-        <obo:IAO_0000115 xml:lang="en">A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
@@ -2303,7 +2209,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
@@ -6517,19 +6422,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000088"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000311"/>
-        <obo:IAO_0000115 xml:lang="en">A report that is published in a journal.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label xml:lang="en">journal article</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
@@ -6613,7 +6505,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
         <obo:IAO_0000115 xml:lang="en">A document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label xml:lang="en">report</rdfs:label>
     </owl:Class>
     
@@ -6625,7 +6516,6 @@ Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), h
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000308"/>
         <obo:IAO_0000115 xml:lang="en">An image is an affine projection to a two dimensional surface, of measurements of some quality of an entity or entities repeated at regular intervals across a spatial range, where the measurements are represented as color and luminosity on the projected on surface.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label xml:lang="en">image</rdfs:label>
     </owl:Class>
     
@@ -6685,20 +6575,7 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">A collection of information content entities intended to be understood together as a whole</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">document</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000311 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000311">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
-        <obo:IAO_0000115 xml:lang="en">A document that is the output of a publishing process.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label xml:lang="en">publication</rdfs:label>
     </owl:Class>
     
 
@@ -6744,7 +6621,6 @@ clustering algorithm.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label xml:lang="en">centrally registered identifier</rdfs:label>
     </owl:Class>
     
@@ -6757,86 +6633,6 @@ clustering algorithm.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:label xml:lang="en">identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDOMAL_0000349 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000349">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-        <obo:IAO_0000115>A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/idomal.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>insecticide resistance</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDOMAL_0000786 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000786">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDO_0000522 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000522">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <obo:IAO_0000115 xml:lang="en">An organism bearing a symbiont role.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-        <rdfs:label xml:lang="en">symbiont</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDO_0000526 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000526">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000522"/>
-        <obo:IAO_0000115 xml:lang="en">A organism bearing a parasite role.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label xml:lang="en">parasite</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDO_0000528 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000528">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 xml:lang="en">A material entity with a pathogenic disposition.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label xml:lang="en">pathogen</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDO_0000550 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000550">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27026"/>
-        <obo:IAO_0000115 xml:lang="en">A molecular entity bearing an exotoxin disposition.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label xml:lang="en">exotoxin</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDO_0000630 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000630">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110021"/>
-        <obo:IAO_0000115 xml:lang="en">An infection resulting from a transmission process that unfolds in a hospital.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">nosocomial infection</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label xml:lang="en">hospital-acquired infection</rdfs:label>
     </owl:Class>
     
 
@@ -7285,21 +7081,6 @@ ab (not=) E</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C15222 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15222">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
-        <obo:IAO_0000115>The customary allowance of food and drink taken by a person or an animal from day to day, particularly one especially planned to meet specific requirements of the individual, including or excluding certain items of food; a prescribed course of eating and drinking in which the amount and kind of food, as well as the times at which it is to be taken, are regulated for therapeutic purposes or selected with reference to a particular state of health.</obo:IAO_0000115>
-        <obo:IAO_0000118>Diet</obo:IAO_0000118>
-        <obo:IAO_0000118>Dietary</obo:IAO_0000118>
-        <obo:IAO_0000118>diet</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>Diet</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C15239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15239">
@@ -7538,19 +7319,6 @@ ab (not=) E</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C17962 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17962">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>A computer-controlled presentation of some combination of audio, video, animation, graphics, still photo, and/or text where users can control the presentation and often interact with it.</obo:IAO_0000115>
-        <obo:IAO_0000118>Multimedia</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>Multimedia</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C18106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18106">
@@ -7666,19 +7434,6 @@ ab (not=) E</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>Adverse Reaction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C42753 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C42753">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115>The operational aspect of a work procedure: how tasks are structured, who performs them, what their relative order is, how they are synchronized, how information flows to support the tasks and how tasks are being tracked.</obo:IAO_0000115>
-        <obo:IAO_0000118>Workflow</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>Workflow</rdfs:label>
     </owl:Class>
     
 
@@ -7957,8 +7712,6 @@ ab (not=) E</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">scientific observation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chmo.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:OBI_0001847>study assay</obo:OBI_0001847>
-        <obo:OBI_9991118>any method</obo:OBI_9991118>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>assay</rdfs:label>
         <rdfs:label xml:lang="en">assay</rdfs:label>
@@ -8055,19 +7808,6 @@ ab (not=) E</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <rdfs:label xml:lang="en">organization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000272">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115 xml:lang="en">A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:OBI_0001847>study protocol</obo:OBI_0001847>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label xml:lang="en">protocol</rdfs:label>
     </owl:Class>
     
 
@@ -8292,7 +8032,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>experimental factor</obo:IAO_0000118>
         <obo:IAO_0000118>independent variable</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:OBI_0001847>study factor</obo:OBI_0001847>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label xml:lang="en">study design independent variable</rdfs:label>
     </owl:Class>
@@ -8395,18 +8134,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>device</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0001000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
-        <obo:IAO_0000115 xml:lang="en">A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>questionnaire</rdfs:label>
     </owl:Class>
     
 
@@ -8773,7 +8500,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115 xml:lang="en">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <rdfs:label xml:lang="en">organism</rdfs:label>
     </owl:Class>
@@ -8868,7 +8594,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000094"/>
         <obo:IAO_0000115 xml:lang="en">a planned process by which totally or partially complementary, single-stranded nucleic acids are  combined into a single molecule called heteroduplex or homoduplex to an extent depending on the amount of complementarity.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
-        <obo:OBI_0001847>hybridization assay</obo:OBI_0001847>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label xml:lang="en">nucleic acid hybridization</rdfs:label>
     </owl:Class>
@@ -9780,6 +9505,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>transposable element</obo:IAO_0000118>
         <obo:IAO_0000118>transposon</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">transposable element</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>transposable_element</rdfs:label>
     </owl:Class>
@@ -9797,6 +9523,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>located_sequence_feature</obo:IAO_0000118>
         <obo:IAO_0000118>sequence feature</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">sequence feature</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>sequence_feature</rdfs:label>
     </owl:Class>
@@ -9875,6 +9602,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>Consensus region of primary transcript bordering junction of splicing. A region that overlaps exactly 2 base and adjacent_to splice_junction.</obo:IAO_0000115>
         <obo:IAO_0000118>splice site</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">splice site</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>splice_site</rdfs:label>
     </owl:Class>
@@ -9995,6 +9723,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>The sequences extending on either side of a specific region.</obo:IAO_0000115>
         <obo:IAO_0000118>flanking region</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">flanking region</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>flanking_region</rdfs:label>
     </owl:Class>
@@ -10011,6 +9740,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>internal ribosomal entry site</obo:IAO_0000118>
         <obo:IAO_0000118>internal ribosome entry site</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">internal ribosome entry site</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>internal_ribosome_entry_site</rdfs:label>
     </owl:Class>
@@ -10071,6 +9801,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>Attribute to describe a feature that has been experimentally verified.</obo:IAO_0000115>
         <obo:IAO_0000118>experimentally determined</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">experimentally determined</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>experimentally_determined</rdfs:label>
     </owl:Class>
@@ -10112,6 +9843,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>INSDC_note:conserved_region</obo:IAO_0000118>
         <obo:IAO_0000118>conserved region</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">conserved region</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>conserved_region</rdfs:label>
     </owl:Class>
@@ -10151,6 +9883,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>A transposon that encodes function required for conjugation.</obo:IAO_0000115>
         <obo:IAO_0000118>conjugative transposon</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">conjugative transposon</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>conjugative_transposon</rdfs:label>
     </owl:Class>
@@ -10178,6 +9911,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>binding site</obo:IAO_0000118>
         <obo:IAO_0000118>binding_or_interaction_site</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">binding site</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>binding_site</rdfs:label>
     </owl:Class>
@@ -10193,6 +9927,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>signal peptide</obo:IAO_0000118>
         <obo:IAO_0000118>signal peptide coding sequence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">signal peptide</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>signal_peptide</rdfs:label>
     </owl:Class>
@@ -10231,6 +9966,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>Group II introns are found in rRNA, tRNA and mRNA of organelles in fungi, plants and protists, and also in mRNA in bacteria. They are large self-splicing ribozymes and have 6 structural domains (usually designated dI to dVI). A subset of group II introns also encode essential splicing proteins in intronic ORFs. The length of these introns can therefore be up to 3kb. Splicing occurs in almost identical fashion to nuclear pre-mRNA splicing with two transesterification steps. The 2&apos; hydroxyl of a bulged adenosine in domain VI attacks the 5&apos; splice site, followed by nucleophilic attack on the 3&apos; splice site by the 3&apos; OH of the upstream exon. Protein machinery is required for splicing in vivo, and long range intron to intron and intron-exon interactions are important for splice site positioning. Group II introns are further sub-classified into groups IIA and IIB which differ in splice site consensus, distance of bulged A from 3&apos; splice site, some tertiary interactions, and intronic ORF phylogeny.</obo:IAO_0000115>
         <obo:IAO_0000118>group II intron</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">group II intron</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>group_II_intron</rdfs:label>
     </owl:Class>
@@ -10352,6 +10088,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>INSDC_qualifier:tandem</obo:IAO_0000118>
         <obo:IAO_0000118>tandem repeat</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">tandem repeat</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>tandem_repeat</rdfs:label>
     </owl:Class>
@@ -10389,6 +10126,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>DNA belonging to the genome of a mitochondria.</obo:IAO_0000115>
         <obo:IAO_0000118>mitochondrial sequence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">mitochondrial sequence</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>mitochondrial_sequence</rdfs:label>
     </owl:Class>
@@ -10402,6 +10140,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>DNA belonging to the genome of a plastid such as a chloroplast.</obo:IAO_0000115>
         <obo:IAO_0000118>plastid sequence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">plastid sequence</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>plastid_sequence</rdfs:label>
     </owl:Class>
@@ -10415,6 +10154,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>DNA belonging to the genome of a chloroplast, a green plastid for photosynthesis.</obo:IAO_0000115>
         <obo:IAO_0000118>chloroplast sequence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">chloroplast sequence</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>chloroplast_sequence</rdfs:label>
     </owl:Class>
@@ -10454,6 +10194,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>A genomic island is an integrated mobile genetic element, characterized by size (over 10 Kb). It that has features that suggest a foreign origin. These can include nucleotide distribution (oligonucleotides signature, CG content etc.) that differs from the bulk of the chromosome and/or genes suggesting DNA mobility.</obo:IAO_0000115>
         <obo:IAO_0000118>genomic island</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">genomic island</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>genomic_island</rdfs:label>
     </owl:Class>
@@ -10517,6 +10258,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>region</obo:IAO_0000118>
         <obo:IAO_0000118>site</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">polypeptide region</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>polypeptide_region</rdfs:label>
     </owl:Class>
@@ -10566,6 +10308,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>An attribute describing transcript sequence that is created by splicing exons from diferent genes.</obo:IAO_0000115>
         <obo:IAO_0000118>trans-spliced</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">trans spliced</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>trans_spliced</rdfs:label>
     </owl:Class>
@@ -10579,6 +10322,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>A miRNA target site is a binding site where the molecule is a micro RNA.</obo:IAO_0000115>
         <obo:IAO_0000118>miRNA target site</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">miRNA target site</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>miRNA_target_site</rdfs:label>
     </owl:Class>
@@ -10592,6 +10336,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>A terminal_inverted_repeat_element that is bacterial and only encodes the functions required for its transposition between these inverted repeats.</obo:IAO_0000115>
         <obo:IAO_0000118>insertion sequence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">insertion sequence</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>insertion_sequence</rdfs:label>
     </owl:Class>
@@ -10607,6 +10352,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>cytosolic 16S ribosomal RNA</obo:IAO_0000118>
         <obo:IAO_0000118>cytosolic rRNA 16S</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">cystolic 16S rRNA</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>cytosolic_16S_rRNA</rdfs:label>
     </owl:Class>
@@ -10632,6 +10378,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>A remnant of an integrated prophage in the host genome or an &quot;island&quot; in the host genome that includes phage like-genes.</obo:IAO_0000115>
         <obo:IAO_0000118>cryptic prophage</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">cryptic prophage</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>cryptic_prophage</rdfs:label>
     </owl:Class>
@@ -10648,6 +10395,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>aberration_junction</obo:IAO_0000118>
         <obo:IAO_0000118>chromosome breakpoint</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">chromosome breakpoint</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>chromosome_breakpoint</rdfs:label>
     </owl:Class>
@@ -10688,6 +10436,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>MGE</obo:IAO_0000118>
         <obo:IAO_0000118>mobile genetic element</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">mobile genetic element</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>mobile_genetic_element</rdfs:label>
     </owl:Class>
@@ -10714,6 +10463,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>viral sequence</obo:IAO_0000118>
         <obo:IAO_0000118>virus sequence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">viral sequence</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>viral_sequence</rdfs:label>
     </owl:Class>
@@ -10732,6 +10482,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>sequence alteration</obo:IAO_0000118>
         <obo:IAO_0000118>uncharacterised_change_in_nucleotide_sequence</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">sequence alteration</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>sequence_alteration</rdfs:label>
     </owl:Class>
@@ -10747,6 +10498,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>VAAST:sequence_variant</obo:IAO_0000118>
         <obo:IAO_0000118>sequence variant</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">sequence variant</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>sequence_variant</rdfs:label>
     </owl:Class>
@@ -10760,6 +10512,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>A sequence motif is a short (up to 20 amino acids) region of biological interest. Such motifs, although they are too short to constitute functional domains, share sequence similarities and are conserved in different proteins. They display a common function (protein-binding, subcellular location etc.).</obo:IAO_0000115>
         <obo:IAO_0000118>polypeptide motif</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">polypeptide motif</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>polypeptide_motif</rdfs:label>
     </owl:Class>
@@ -10773,6 +10526,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>The 60-70 nucleotide region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure.</obo:IAO_0000115>
         <obo:IAO_0000118>pre-miRNA</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">pre miRNA</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>pre_miRNA</rdfs:label>
     </owl:Class>
@@ -10849,6 +10603,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001026"/>
         <obo:IAO_0000115>A collection of sequences (often chromosomes) taken as the standard for a given organism and genome assembly.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">reference genome</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>reference_genome</rdfs:label>
     </owl:Class>
@@ -10861,6 +10616,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
         <obo:IAO_0000115>A sequence motif is a nucleotide or amino-acid sequence pattern that may have biological significance.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">sequence motif</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>sequence_motif</rdfs:label>
     </owl:Class>
@@ -10890,6 +10646,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>A polypeptide_region that codes for a protease cleavage site.</obo:IAO_0000115>
         <obo:IAO_0000118>protease site</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">protease site</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>protease_site</rdfs:label>
     </owl:Class>
@@ -10918,6 +10675,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>short tandem repeat variation</obo:IAO_0000118>
         <obo:IAO_0000118>str variation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">short tandem repeat variation</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>short_tandem_repeat_variation</rdfs:label>
     </owl:Class>
@@ -10944,6 +10702,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>INSDC_qualifier:other</obo:IAO_0000118>
         <obo:IAO_0000118>regulatory region</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">regulatory region</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>regulatory_region</rdfs:label>
     </owl:Class>
@@ -10957,6 +10716,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>An array includes two or more genes, or two or more gene subarrays, contiguously arranged where the individual genes, or subarrays, are either identical in sequence, or essentially so.</obo:IAO_0000115>
         <obo:IAO_0000118>gene array</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">gene array</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>gene_array</rdfs:label>
     </owl:Class>
@@ -10994,6 +10754,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000115>A single nucleotide change which has occurred at the same position of a corresponding nucleotide in a reference sequence.</obo:IAO_0000115>
         <obo:IAO_0000118>point mutation</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">point mutation</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>point_mutation</rdfs:label>
     </owl:Class>
@@ -11035,6 +10796,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000118>chromosome structure variation</obo:IAO_0000118>
         <obo:IAO_0000118>snpEff:CHROMOSOME_LARGE_DELETION</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <drao:DRAO_0000001 xml:lang="en">chromosome structure variation</drao:DRAO_0000001>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label>chromosome_structure_variation</rdfs:label>
     </owl:Class>
@@ -11500,17 +11262,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
-    <!-- http://semanticscience.org/resource/SIO_000510 -->
-
-    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000510">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label xml:lang="en">model</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://semanticscience.org/resource/SIO_000716 -->
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000716">
@@ -11572,6 +11323,16 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label xml:lang="en">chemical-gene association</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://semanticscience.org/resource/SIO_010414 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_010414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <rdfs:label xml:lang="en">pathogen</rdfs:label>
     </owl:Class>
     
 
@@ -12147,18 +11908,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
-    <!-- http://www.ebi.ac.uk/swo/SWO_0000001 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/swo/SWO_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>Computer software, or generally just software, is any set of machine-readable instructions (most often in the form of a computer program) that conform to a given syntax (sometimes referred to as a language) that is interpretable by a given processor and that directs a computer&apos;s processor to perform specific operations.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
-        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>software</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.ebi.ac.uk/swo/SWO_0000143 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/swo/SWO_0000143">
@@ -12246,23 +11995,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Individuals
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDOMAL_0000786 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000786"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Annotations
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -12286,13 +12018,29 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0043631">
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000786">
-        <obo:IAO_0000115>They are glycolipids with the major function of anchoring proteins to cell membrane surfaces. They are particularly abundant in protozoan parasites, where they serve as the predominant mechanism for integrating glycoproteins and phosphosaccharides into membrane lipid bilayers.</obo:IAO_0000115>
-        <obo:IAO_0000118>GPI anchor</obo:IAO_0000118>
-        <obo:IAO_0000118>GPI-anchor</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/idomal.owl"/>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000349">
         <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
-        <rdfs:label>glycosylphosphatidylinositol anchor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000786">
+        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000526">
+        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000528">
+        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000550">
+        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000630">
+        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C15222">
+        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://semanticscience.org/resource/SIO_000510">
+        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
     </rdf:Description>
 </rdf:RDF>
 

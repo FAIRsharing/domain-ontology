@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-08/DRAO.owl
+data-version: http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-03/DRAO.owl
 idspace: biomodels http://biomodels.net/SBO/ 
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
@@ -17,7 +17,7 @@ ontology: http://www.fairsharing.org/ontology/domain/DRAO.owl
 property_value: dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.\n\nThese ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md\n\nAgroVoc and PRIDE classes were manually added as required.\n\nOriginally developed for use within FAIRsharing.org\n\nLicensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Domain Resource Application Ontology" xsd:string
-property_value: owl:versionInfo "2025-05-08" xsd:string
+property_value: owl:versionInfo "2025-06-03" xsd:string
 
 [Term]
 id: BFO:0000001
@@ -26,7 +26,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/bfo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/envo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/oae.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obcs.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
@@ -46,7 +45,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/envo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obcs.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
@@ -56,7 +54,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/vo.owl
 [Term]
 id: BFO:0000003
 name: occurent
-name: occurrent
 def: "An entity that has temporal parts and that happens, unfolds or develops through time." []
 is_a: BFO:0000001 ! entity
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/bfo.owl
@@ -70,13 +67,11 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/t4fs.owl
 [Term]
 id: BFO:0000004
 name: independent continuant
-def: "A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything." []
 def: "b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])" []
 is_a: BFO:0000002 ! continuant
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/bfo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/envo.owl
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
@@ -86,8 +81,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/vo.owl
 id: BFO:0000015
 name: process
 def: "A process is an entity that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity during the time it occurs." []
-def: "An occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t." []
-def: "p is a process = Def. p is an occurrent that has temporal proper parts and for some time t, p s-depends_on some material entity at t. (axiom label in BFO2 Reference: [083-003])" []
 is_a: BFO:0000003 ! occurent
 property_value: IAO:0000412 efo:efo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/bfo.owl
@@ -128,7 +121,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
 id: BFO:0000020
 name: specifically dependent continuant
 def: "b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])" []
-def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" []
 is_a: BFO:0000002 ! continuant
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/bfo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/envo.owl
@@ -153,7 +145,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/envo.owl
 id: BFO:0000031
 name: generically dependent continuant
 def: "A continuant that is dependent on one or other independent continuant bearers. For every instance of A requires some instance of (an independent continuant type) B but which instance of B serves can change from time to time." []
-def: "b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])" []
 is_a: BFO:0000002 ! continuant
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/bfo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chmo.owl
@@ -177,7 +168,6 @@ is_a: BFO:0000004 ! independent continuant
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/bfo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/envo.owl
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ogms.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
@@ -3047,18 +3037,8 @@ is_a: BFO:0000016 ! disposition
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/hp.owl
 
 [Term]
-id: IAO:0000013
-name: journal article
-def: "A report that is published in a journal." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000088 ! report
-is_a: IAO:0000311 ! publication
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
-
-[Term]
 id: IAO:0000027
 name: data item
-def: "a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements." []
 def: "An information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements." []
 is_a: IAO:0000030 ! information content entity
 property_value: IAO:0000118 "data" xsd:string
@@ -3071,10 +3051,7 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/stato.owl
 [Term]
 id: IAO:0000030
 name: information content entity
-name: information entity
 def: "A generically dependent continuant that is about some thing." []
-def: "An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity." []
-def: "An information entity is an entity that represents information about some other entity.  For example, a measurement, a clustered data set." []
 is_a: BFO:0000031 ! generically dependent continuant
 property_value: IAO:0000118 "information content entity" xsd:string
 property_value: IAO:0000412 efo:efo.owl
@@ -3114,7 +3091,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
 id: IAO:0000088
 name: report
 def: "A document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record)." []
-subset: https://www.fairsharing.org
 is_a: IAO:0000310 ! document
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
 
@@ -3122,7 +3098,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
 id: IAO:0000101
 name: image
 def: "An image is an affine projection to a two dimensional surface, of measurements of some quality of an entity or entities repeated at regular intervals across a spatial range, where the measurements are represented as color and luminosity on the projected on surface." []
-subset: https://www.fairsharing.org
 is_a: IAO:0000308 ! figure
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
 
@@ -3162,15 +3137,6 @@ name: document
 def: "A collection of information content entities intended to be understood together as a whole" []
 is_a: IAO:0000030 ! information content entity
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
-
-[Term]
-id: IAO:0000311
-name: publication
-def: "A document that is the output of a publishing process." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000310 ! document
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
 
 [Term]
 id: IAO:0000313
@@ -3199,7 +3165,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
 id: IAO:0000578
 name: centrally registered identifier
 def: "An information content entity that consists of a CRID symbol and additional information about the CRID registry to which it belongs." []
-subset: https://www.fairsharing.org
 is_a: IAO:0020000 ! identifier
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
 
@@ -3209,64 +3174,6 @@ name: identifier
 def: "An information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity." []
 is_a: IAO:0000030 ! information content entity
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
-
-[Term]
-id: IDO:0000522
-name: symbiont
-def: "An organism bearing a symbiont role." []
-is_a: OBI:0100026 ! organism
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
-
-[Term]
-id: IDO:0000526
-name: parasite
-def: "A organism bearing a parasite role." []
-subset: https://www.fairsharing.org
-is_a: IDO:0000522 ! symbiont
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
-
-[Term]
-id: IDO:0000528
-name: pathogen
-def: "A material entity with a pathogenic disposition." []
-subset: https://www.fairsharing.org
-is_a: BFO:0000040 ! material entity
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
-
-[Term]
-id: IDO:0000550
-name: exotoxin
-def: "A molecular entity bearing an exotoxin disposition." []
-subset: https://www.fairsharing.org
-is_a: CHEBI:27026 ! toxin
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
-
-[Term]
-id: IDO:0000630
-name: hospital-acquired infection
-def: "An infection resulting from a transmission process that unfolds in a hospital." []
-subset: https://www.fairsharing.org
-is_a: OBI:1110021 ! infection process
-property_value: IAO:0000118 "nosocomial infection" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
-
-[Term]
-id: IDOMAL:0000349
-name: insecticide resistance
-def: "A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species." []
-subset: https://www.fairsharing.org
-is_a: BFO:0000016 ! disposition
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/idomal.owl
-
-[Term]
-id: IDOMAL:0000786
-name: glycosylphosphatidylinositol anchor
-def: "They are glycolipids with the major function of anchoring proteins to cell membrane surfaces. They are particularly abundant in protozoan parasites, where they serve as the predominant mechanism for integrating glycoproteins and phosphosaccharides into membrane lipid bilayers." []
-subset: https://www.fairsharing.org
-is_a: PR:000000001 ! protein
-property_value: IAO:0000118 "GPI anchor" xsd:string
-property_value: IAO:0000118 "GPI-anchor" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/idomal.owl
 
 [Term]
 id: MF:0000020
@@ -3580,17 +3487,6 @@ property_value: IAO:0000118 "From Electronic Health Record" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncit.owl
 
 [Term]
-id: NCIT:C15222
-name: Diet
-def: "The customary allowance of food and drink taken by a person or an animal from day to day, particularly one especially planned to meet specific requirements of the individual, including or excluding certain items of food; a prescribed course of eating and drinking in which the amount and kind of food, as well as the times at which it is to be taken, are regulated for therapeutic purposes or selected with reference to a particular state of health." []
-subset: https://www.fairsharing.org
-is_a: OBI:0000272 ! protocol
-property_value: IAO:0000118 "Diet" xsd:string
-property_value: IAO:0000118 "diet" xsd:string
-property_value: IAO:0000118 "Dietary" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncit.owl
-
-[Term]
 id: NCIT:C15239
 name: Patient Care
 def: "Any of the services rendered for the benefit of a patient." []
@@ -3769,15 +3665,6 @@ property_value: IAO:0000118 "Functional MRI" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncit.owl
 
 [Term]
-id: NCIT:C17962
-name: Multimedia
-def: "A computer-controlled presentation of some combination of audio, video, animation, graphics, still photo, and/or text where users can control the presentation and often interact with it." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000030 ! information content entity
-property_value: IAO:0000118 "Multimedia" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncit.owl
-
-[Term]
 id: NCIT:C18106
 name: Receptor
 def: "A protein located on the cell surface, or in the cytoplasm, that binds to a specific signaling factor, such as a hormone, antigen, or neurotransmitter, causing a conformational and functional change in the receptor molecule.  The ligand-bound receptor then alters its interaction with target molecules, which leads to changes in cellular physiology through modification of the activity of one or more signal transduction pathways." []
@@ -3862,15 +3749,6 @@ property_value: IAO:0000118 "ADVERSE REACTION" xsd:string
 property_value: IAO:0000118 "Adverse Reaction" xsd:string
 property_value: IAO:0000118 "adverse reaction" xsd:string
 property_value: IAO:0000118 "AR" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncit.owl
-
-[Term]
-id: NCIT:C42753
-name: Workflow
-def: "The operational aspect of a work procedure: how tasks are structured, who performs them, what their relative order is, how they are synchronized, how information flows to support the tasks and how tasks are being tracked." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000104 ! plan specification
-property_value: IAO:0000118 "Workflow" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/ncit.owl
 
 [Term]
@@ -4034,7 +3912,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/obcs.owl
 id: OBI:0000011
 name: planned process
 def: "A process that realizes a plan which is the concretization of a plan specification." []
-def: "A processual entity that realizes a plan which is the concretization of a plan specification." []
 is_a: BFO:0000015 ! process
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chmo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/iao.owl
@@ -4062,7 +3939,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/stato.owl
 [Term]
 id: OBI:0000070
 name: assay
-def: "A planned process that has the objective to produce information about a material entity (the evaluant) by examining it." []
 def: "A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies." []
 subset: https://www.fairsharing.org
 is_a: OBI:0000011 ! planned process
@@ -4071,8 +3947,6 @@ property_value: IAO:0000118 "measuring" xsd:string
 property_value: IAO:0000118 "scientific observation" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/chmo.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
-property_value: OBI:0001847 "study assay" xsd:string
-property_value: OBI:9991118 "any method" xsd:string
 
 [Term]
 id: OBI:0000073
@@ -4086,7 +3960,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 [Term]
 id: OBI:0000094
 name: material processing
-def: "A planned process which results in physical changes in a specified input material" []
 def: "A planned process which results in physical changes in a specified input material." []
 subset: https://www.fairsharing.org
 is_a: OBI:0000011 ! planned process
@@ -4110,7 +3983,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 [Term]
 id: OBI:0000181
 name: population
-def: "a population is a collection of individuals from the same taxonomic class living, counted or sampled at a particular site or in a particular area" []
 def: "A population is a group of material entities consisting of individuals which share a particular characteristic such as inhabiting a particular region or area or ability to interbreed." []
 is_a: BFO:0000040 ! material entity
 property_value: IAO:0000412 efo:efo.owl
@@ -4136,15 +4008,6 @@ name: organization
 def: "An entity that can bear roles, has members, and has a set of organization rules. Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members." []
 is_a: BFO:0000040 ! material entity
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/omrse.owl
-
-[Term]
-id: OBI:0000272
-name: protocol
-def: "A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000104 ! plan specification
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
-property_value: OBI:0001847 "study protocol" xsd:string
 
 [Term]
 id: OBI:0000398
@@ -4297,7 +4160,6 @@ is_a: IAO:0000033 ! directive information entity
 property_value: IAO:0000118 "experimental factor" xsd:string
 property_value: IAO:0000118 "independent variable" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
-property_value: OBI:0001847 "study factor" xsd:string
 
 [Term]
 id: OBI:0000800
@@ -4365,14 +4227,6 @@ def: "A material entity that is designed to perform a function in a scientific i
 subset: https://www.fairsharing.org
 is_a: OBI:0000047 ! processed material
 property_value: IAO:0000118 "instrument" xsd:string
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
-
-[Term]
-id: OBI:0001000
-name: questionnaire
-def: "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000310 ! document
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 
 [Term]
@@ -4617,7 +4471,6 @@ id: OBI:0100026
 name: organism
 def: "A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs." []
 is_a: BFO:0000040 ! material entity
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/ido.owl
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 
 [Term]
@@ -4681,7 +4534,6 @@ def: "a planned process by which totally or partially complementary, single-stra
 subset: https://www.fairsharing.org
 is_a: OBI:0000094 ! material processing
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
-property_value: OBI:0001847 "hybridization assay" xsd:string
 
 [Term]
 id: OBI:0302914
@@ -5290,6 +5142,7 @@ name: transposable_element
 def: "A transposon or insertion sequence. An element that can insert in a variety of DNA sequences." []
 subset: https://www.fairsharing.org
 is_a: SO:0001039 ! integrated_mobile_genetic_element
+property_value: drao:DRAO_0000001 "transposable element" xsd:string
 property_value: IAO:0000118 "transposable element" xsd:string
 property_value: IAO:0000118 "transposon" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
@@ -5300,6 +5153,7 @@ name: sequence_feature
 def: "Any extent of continuous biological sequence." []
 subset: https://www.fairsharing.org
 is_a: IAO:0000030 ! information content entity
+property_value: drao:DRAO_0000001 "sequence feature" xsd:string
 property_value: IAO:0000118 "INSDC_feature:misc_feature" xsd:string
 property_value: IAO:0000118 "INSDC_note:other" xsd:string
 property_value: IAO:0000118 "INSDC_note:sequence_feature" xsd:string
@@ -5358,6 +5212,7 @@ name: splice_site
 def: "Consensus region of primary transcript bordering junction of splicing. A region that overlaps exactly 2 base and adjacent_to splice_junction." []
 subset: https://www.fairsharing.org
 is_a: SO:0000835 ! primary_transcript_region
+property_value: drao:DRAO_0000001 "splice site" xsd:string
 property_value: IAO:0000118 "splice site" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5442,6 +5297,7 @@ name: flanking_region
 def: "The sequences extending on either side of a specific region." []
 subset: https://www.fairsharing.org
 is_a: SO:0000001 ! region
+property_value: drao:DRAO_0000001 "flanking region" xsd:string
 property_value: IAO:0000118 "flanking region" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5451,6 +5307,7 @@ name: internal_ribosome_entry_site
 def: "Sequence element that recruits a ribosomal subunit to internal mRNA for translation initiation." []
 subset: https://www.fairsharing.org
 is_a: SO:0000836 ! mRNA_region
+property_value: drao:DRAO_0000001 "internal ribosome entry site" xsd:string
 property_value: IAO:0000118 "internal ribosomal entry sequence" xsd:string
 property_value: IAO:0000118 "internal ribosomal entry site" xsd:string
 property_value: IAO:0000118 "internal ribosome entry site" xsd:string
@@ -5498,6 +5355,7 @@ name: experimentally_determined
 def: "Attribute to describe a feature that has been experimentally verified." []
 subset: https://www.fairsharing.org
 is_a: SO:0000733 ! feature_attribute
+property_value: drao:DRAO_0000001 "experimentally determined" xsd:string
 property_value: IAO:0000118 "experimentally determined" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5526,6 +5384,7 @@ name: conserved_region
 def: "Region of sequence similarity by descent from a common ancestor." []
 subset: https://www.fairsharing.org
 is_a: SO:0001410 ! experimental_feature
+property_value: drao:DRAO_0000001 "conserved region" xsd:string
 property_value: IAO:0000118 "conserved region" xsd:string
 property_value: IAO:0000118 "INSDC_note:conserved_region" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
@@ -5554,6 +5413,7 @@ name: conjugative_transposon
 def: "A transposon that encodes function required for conjugation." []
 subset: https://www.fairsharing.org
 is_a: SO:0000182 ! DNA_transposon
+property_value: drao:DRAO_0000001 "conjugative transposon" xsd:string
 property_value: IAO:0000118 "conjugative transposon" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5571,6 +5431,7 @@ name: binding_site
 def: "A biological_region of sequence that, in the molecule, interacts selectively and non-covalently with other molecules. A region on the surface of a molecule that may interact with another molecule. When applied to polypeptides: Amino acids involved in binding or interactions. It can also apply to an amino acid bond which is represented by the positions of the two flanking amino acids." []
 subset: https://www.fairsharing.org
 is_a: SO:0001411 ! biological_region
+property_value: drao:DRAO_0000001 "binding site" xsd:string
 property_value: IAO:0000118 "binding site" xsd:string
 property_value: IAO:0000118 "binding_or_interaction_site" xsd:string
 property_value: IAO:0000118 "INSDC_feature:misc_binding" xsd:string
@@ -5582,6 +5443,7 @@ name: signal_peptide
 def: "The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components." []
 subset: https://www.fairsharing.org
 is_a: SO:0000839 ! polypeptide_region
+property_value: drao:DRAO_0000001 "signal peptide" xsd:string
 property_value: IAO:0000118 "INSDC_feature:sig_peptide" xsd:string
 property_value: IAO:0000118 "signal peptide" xsd:string
 property_value: IAO:0000118 "signal peptide coding sequence" xsd:string
@@ -5610,6 +5472,7 @@ name: group_II_intron
 def: "Group II introns are found in rRNA, tRNA and mRNA of organelles in fungi, plants and protists, and also in mRNA in bacteria. They are large self-splicing ribozymes and have 6 structural domains (usually designated dI to dVI). A subset of group II introns also encode essential splicing proteins in intronic ORFs. The length of these introns can therefore be up to 3kb. Splicing occurs in almost identical fashion to nuclear pre-mRNA splicing with two transesterification steps. The 2' hydroxyl of a bulged adenosine in domain VI attacks the 5' splice site, followed by nucleophilic attack on the 3' splice site by the 3' OH of the upstream exon. Protein machinery is required for splicing in vivo, and long range intron to intron and intron-exon interactions are important for splice site positioning. Group II introns are further sub-classified into groups IIA and IIB which differ in splice site consensus, distance of bulged A from 3' splice site, some tertiary interactions, and intronic ORF phylogeny." []
 subset: https://www.fairsharing.org
 is_a: SO:0000188 ! intron
+property_value: drao:DRAO_0000001 "group II intron" xsd:string
 property_value: IAO:0000118 "group II intron" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5694,6 +5557,7 @@ name: tandem_repeat
 def: "Two or more adjacent copies of a region (of length greater than 1)." []
 subset: https://www.fairsharing.org
 is_a: SO:0000657 ! repeat_region
+property_value: drao:DRAO_0000001 "tandem repeat" xsd:string
 property_value: IAO:0000118 "INSDC_qualifier:tandem" xsd:string
 property_value: IAO:0000118 "tandem repeat" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
@@ -5720,6 +5584,7 @@ name: mitochondrial_sequence
 def: "DNA belonging to the genome of a mitochondria." []
 subset: https://www.fairsharing.org
 is_a: SO:0000736 ! organelle_sequence
+property_value: drao:DRAO_0000001 "mitochondrial sequence" xsd:string
 property_value: IAO:0000118 "mitochondrial sequence" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5729,6 +5594,7 @@ name: plastid_sequence
 def: "DNA belonging to the genome of a plastid such as a chloroplast." []
 subset: https://www.fairsharing.org
 is_a: SO:0000736 ! organelle_sequence
+property_value: drao:DRAO_0000001 "plastid sequence" xsd:string
 property_value: IAO:0000118 "plastid sequence" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5738,6 +5604,7 @@ name: chloroplast_sequence
 def: "DNA belonging to the genome of a chloroplast, a green plastid for photosynthesis." []
 subset: https://www.fairsharing.org
 is_a: SO:0000740 ! plastid_sequence
+property_value: drao:DRAO_0000001 "chloroplast sequence" xsd:string
 property_value: IAO:0000118 "chloroplast sequence" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5765,6 +5632,7 @@ name: genomic_island
 def: "A genomic island is an integrated mobile genetic element, characterized by size (over 10 Kb). It that has features that suggest a foreign origin. These can include nucleotide distribution (oligonucleotides signature, CG content etc.) that differs from the bulk of the chromosome and/or genes suggesting DNA mobility." []
 subset: https://www.fairsharing.org
 is_a: SO:0001039 ! integrated_mobile_genetic_element
+property_value: drao:DRAO_0000001 "genomic island" xsd:string
 property_value: IAO:0000118 "genomic island" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5806,6 +5674,7 @@ name: polypeptide_region
 def: "Biological sequence region that can be assigned to a specific subsequence of a polypeptide." []
 subset: https://www.fairsharing.org
 is_a: SO:0001411 ! biological_region
+property_value: drao:DRAO_0000001 "polypeptide region" xsd:string
 property_value: IAO:0000118 "Protein sequence" xsd:string
 property_value: IAO:0000118 "region" xsd:string
 property_value: IAO:0000118 "site" xsd:string
@@ -5841,6 +5710,7 @@ name: trans_spliced
 def: "An attribute describing transcript sequence that is created by splicing exons from diferent genes." []
 subset: https://www.fairsharing.org
 is_a: SO:0000733 ! feature_attribute
+property_value: drao:DRAO_0000001 "trans spliced" xsd:string
 property_value: IAO:0000118 "trans-spliced" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5850,6 +5720,7 @@ name: miRNA_target_site
 def: "A miRNA target site is a binding site where the molecule is a micro RNA." []
 subset: https://www.fairsharing.org
 is_a: SO:0000409 ! binding_site
+property_value: drao:DRAO_0000001 "miRNA target site" xsd:string
 property_value: IAO:0000118 "miRNA target site" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5859,6 +5730,7 @@ name: insertion_sequence
 def: "A terminal_inverted_repeat_element that is bacterial and only encodes the functions required for its transposition between these inverted repeats." []
 subset: https://www.fairsharing.org
 is_a: SO:0000182 ! DNA_transposon
+property_value: drao:DRAO_0000001 "insertion sequence" xsd:string
 property_value: IAO:0000118 "insertion sequence" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5868,6 +5740,7 @@ name: cytosolic_16S_rRNA
 def: "Cytosolic 16S rRNA is an RNA component of the small subunit of cytosolic ribosomes in prokaryotes." []
 subset: https://www.fairsharing.org
 is_a: SO:0000655 ! ncRNA
+property_value: drao:DRAO_0000001 "cystolic 16S rRNA" xsd:string
 property_value: IAO:0000118 "cytosolic 16S ribosomal RNA" xsd:string
 property_value: IAO:0000118 "cytosolic 16S SSU RNA" xsd:string
 property_value: IAO:0000118 "cytosolic rRNA 16S" xsd:string
@@ -5887,6 +5760,7 @@ name: cryptic_prophage
 def: "A remnant of an integrated prophage in the host genome or an \"island\" in the host genome that includes phage like-genes." []
 subset: https://www.fairsharing.org
 is_a: SO:0000772 ! genomic_island
+property_value: drao:DRAO_0000001 "cryptic prophage" xsd:string
 property_value: IAO:0000118 "cryptic prophage" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5896,6 +5770,7 @@ name: chromosome_breakpoint
 def: "A chromosomal region that may sustain a double-strand break, resulting in a recombination event." []
 subset: https://www.fairsharing.org
 is_a: SO:0000110 ! sequence_feature
+property_value: drao:DRAO_0000001 "chromosome breakpoint" xsd:string
 property_value: IAO:0000118 "aberration breakpoint" xsd:string
 property_value: IAO:0000118 "aberration_junction" xsd:string
 property_value: IAO:0000118 "chromosome breakpoint" xsd:string
@@ -5925,6 +5800,7 @@ name: mobile_genetic_element
 def: "A nucleotide region with either intra-genome or intracellular mobility, of varying length, which often carry the information necessary for transfer and recombination with the host genome." []
 subset: https://www.fairsharing.org
 is_a: SO:0001411 ! biological_region
+property_value: drao:DRAO_0000001 "mobile genetic element" xsd:string
 property_value: IAO:0000118 "INSDC_feature:mobile_element" xsd:string
 property_value: IAO:0000118 "MGE" xsd:string
 property_value: IAO:0000118 "mobile genetic element" xsd:string
@@ -5944,6 +5820,7 @@ name: viral_sequence
 def: "The region of nucleotide sequence of a virus, a submicroscopic particle that replicates by infecting a host cell." []
 subset: https://www.fairsharing.org
 is_a: SO:0001037 ! mobile_genetic_element
+property_value: drao:DRAO_0000001 "viral sequence" xsd:string
 property_value: IAO:0000118 "viral sequence" xsd:string
 property_value: IAO:0000118 "virus sequence" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
@@ -5954,6 +5831,7 @@ name: sequence_alteration
 def: "A sequence_alteration is a sequence_feature whose extent is the deviation from another sequence." []
 subset: https://www.fairsharing.org
 is_a: SO:0000110 ! sequence_feature
+property_value: drao:DRAO_0000001 "sequence alteration" xsd:string
 property_value: IAO:0000118 "INSDC_feature:variation" xsd:string
 property_value: IAO:0000118 "INSDC_note:sequence_alteration" xsd:string
 property_value: IAO:0000118 "partially characterised change in DNA sequence" xsd:string
@@ -5968,6 +5846,7 @@ name: sequence_variant
 def: "A sequence_variant is a non exact copy of a sequence_feature or genome exhibiting one or more sequence_alteration." []
 subset: https://www.fairsharing.org
 is_a: SO:0000110 ! sequence_feature
+property_value: drao:DRAO_0000001 "sequence variant" xsd:string
 property_value: IAO:0000118 "Jannovar:sequence_variant" xsd:string
 property_value: IAO:0000118 "sequence variant" xsd:string
 property_value: IAO:0000118 "VAAST:sequence_variant" xsd:string
@@ -5979,6 +5858,7 @@ name: polypeptide_motif
 def: "A sequence motif is a short (up to 20 amino acids) region of biological interest. Such motifs, although they are too short to constitute functional domains, share sequence similarities and are conserved in different proteins. They display a common function (protein-binding, subcellular location etc.)." []
 subset: https://www.fairsharing.org
 is_a: SO:0000839 ! polypeptide_region
+property_value: drao:DRAO_0000001 "polypeptide motif" xsd:string
 property_value: IAO:0000118 "polypeptide motif" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -5988,6 +5868,7 @@ name: pre_miRNA
 def: "The 60-70 nucleotide region remain after Drosha processing of the primary transcript, that folds back upon itself to form a hairpin structure." []
 subset: https://www.fairsharing.org
 is_a: SO:0000835 ! primary_transcript_region
+property_value: drao:DRAO_0000001 "pre miRNA" xsd:string
 property_value: IAO:0000118 "pre-miRNA" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -6041,6 +5922,7 @@ name: reference_genome
 def: "A collection of sequences (often chromosomes) taken as the standard for a given organism and genome assembly." []
 subset: https://www.fairsharing.org
 is_a: SO:0001026 ! genome
+property_value: drao:DRAO_0000001 "reference genome" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
 [Term]
@@ -6049,6 +5931,7 @@ name: sequence_motif
 def: "A sequence motif is a nucleotide or amino-acid sequence pattern that may have biological significance." []
 subset: https://www.fairsharing.org
 is_a: SO:0001411 ! biological_region
+property_value: drao:DRAO_0000001 "sequence motif" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
 [Term]
@@ -6069,6 +5952,7 @@ name: protease_site
 def: "A polypeptide_region that codes for a protease cleavage site." []
 subset: https://www.fairsharing.org
 is_a: SO:0000839 ! polypeptide_region
+property_value: drao:DRAO_0000001 "protease site" xsd:string
 property_value: IAO:0000118 "protease site" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -6088,6 +5972,7 @@ name: short_tandem_repeat_variation
 def: "A variation that expands or contracts a tandem repeat with regard to a reference." []
 subset: https://www.fairsharing.org
 is_a: SO:0001059 ! sequence_alteration
+property_value: drao:DRAO_0000001 "short tandem repeat variation" xsd:string
 property_value: IAO:0000118 "short tandem repeat variation" xsd:string
 property_value: IAO:0000118 "str variation" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
@@ -6106,6 +5991,7 @@ name: regulatory_region
 def: "A region of sequence that is involved in the control of a biological process." []
 subset: https://www.fairsharing.org
 is_a: SO:0000831 ! gene_member_region
+property_value: drao:DRAO_0000001 "regulatory region" xsd:string
 property_value: IAO:0000118 "INSDC_qualifier:other" xsd:string
 property_value: IAO:0000118 "regulatory region" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
@@ -6116,6 +6002,7 @@ name: gene_array
 def: "An array includes two or more genes, or two or more gene subarrays, contiguously arranged where the individual genes, or subarrays, are either identical in sequence, or essentially so." []
 subset: https://www.fairsharing.org
 is_a: SO:0005855 ! gene_group
+property_value: drao:DRAO_0000001 "gene array" xsd:string
 property_value: IAO:0000118 "gene array" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -6141,6 +6028,7 @@ name: point_mutation
 def: "A single nucleotide change which has occurred at the same position of a corresponding nucleotide in a reference sequence." []
 subset: https://www.fairsharing.org
 is_a: SO:0001483 ! SNV
+property_value: drao:DRAO_0000001 "point mutation" xsd:string
 property_value: IAO:0000118 "point mutation" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
 
@@ -6169,6 +6057,7 @@ name: chromosome_structure_variation
 def: "An alteration of the genome that leads to a change in the structure or number of one or more chromosomes." []
 subset: https://www.fairsharing.org
 is_a: NCIT:C17004 ! Genetic Polymorphism
+property_value: drao:DRAO_0000001 "chromosome structure variation" xsd:string
 property_value: IAO:0000118 "chromosome structure variation" xsd:string
 property_value: IAO:0000118 "snpEff:CHROMOSOME_LARGE_DELETION" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/so.owl
@@ -6257,7 +6146,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
 id: UBERON:0000062
 name: organ
 def: "Anatomical structure that performs a specific function or group of functions [WP]." []
-def: "Organs are commonly observed as visibly distinct structures, but may also exist as loosely associated clusters of cells that work together to perform a specific function or functions." []
 subset: https://www.fairsharing.org
 is_a: UBERON:0010000 ! multicellular anatomical structure
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
@@ -6288,8 +6176,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
 id: UBERON:0000178
 name: blood
 def: "A complex mixture of cells suspended in a liquid matrix that delivers nutrients to cells and removes wastes. (Source: BioGlossary, www.Biology-Text.com)[TAO]" []
-def: "A fluid that is composed of blood plasma and erythrocytes." []
-def: "Highly specialized circulating tissue consisting of several types of cells suspended in a fluid medium known as plasma.[AAO]" []
 subset: https://www.fairsharing.org
 is_a: UBERON:0000465 ! material anatomical entity
 property_value: IAO:0000118 "portion of blood" xsd:string
@@ -6318,8 +6204,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
 id: UBERON:0000948
 name: heart
 def: "A myogenic muscular circulatory organ found in the vertebrate cardiovascular system composed of chambers of cardiac muscle. It is the primary circulatory organ." []
-def: "Blood pumping organ composed of four chambers: sinus venosus, atrium, cardiac ventricle and bulbus arteriosus.[TAO]" []
-def: "Part of the circulatory system responsible for pumping blood; composed of three chambers--two atria and one ventricle.[AAO]" []
 subset: https://www.fairsharing.org
 is_a: UBERON:0005177 ! trunk region element
 property_value: IAO:0000118 "branchial heart" xsd:string
@@ -6331,9 +6215,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
 id: UBERON:0000955
 name: brain
 def: "Cavitated compound organ which is comprised of gray and white matter and surrounds the cerebral ventricular system.[TAO]" []
-def: "Part of the central nervous system situated within the cranium and composed of both nerve cell bodies and nerve fibers.[AAO]" []
-def: "The brain is the center of the nervous system in all vertebrate, and most invertebrate, animals. Some primitive animals such as jellyfish and starfish have a decentralized nervous system without a brain, while sponges lack any nervous system at all. In vertebrates, the brain is located in the head, protected by the skull and close to the primary sensory apparatus of vision, hearing, balance, taste, and smell[WP]." []
-def: "The part of the central nervous system contained within the cranium, comprising the forebrain, midbrain, hindbrain, and metencephalon. It is derived from the anterior part of the embryonic neural tube (or the encephalon). Does not include retina. (CUMBO)" []
 subset: https://www.fairsharing.org
 is_a: UBERON:0000062 ! organ
 is_a: UBERON:0004121 ! ectoderm-derived structure
@@ -6343,8 +6224,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
 id: UBERON:0001033
 name: gustatory system
 def: "The sensory system for the sense of taste." []
-def: "The sensory system for the sense of taste[NLXANAT:090803]." []
-def: "The sensory system used for the sense of taste.[AAO]" []
 subset: https://www.fairsharing.org
 is_a: UBERON:0000061 ! anatomical structure
 property_value: IAO:0000118 "gustatory organ system" xsd:string
@@ -6362,9 +6241,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
 id: UBERON:0001474
 name: bone element
 def: "Also called osseous tissue, (Latin: os). Is a type of hard endoskeletal connective tissue found in many vertebrate animals. Bone is the main tissue of body organs that support body structures, protect internal organs, (in conjunction with muscles) facilitate movement; and are involved with cell formation, calcium metabolism, and mineral storage.[AAO]" []
-def: "Portion of tissue which is calcified connective tissue making up the structural elements of the skeletal system.[TAO]" []
-def: "Skeletal element that is composed of bone tissue." []
-def: "Skeletal element that is composed of bone tissue.[VSAO]" []
 subset: https://www.fairsharing.org
 is_a: UBERON:0000062 ! organ
 property_value: IAO:0000118 "bone organ" xsd:string
@@ -6374,7 +6250,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
 id: UBERON:0001911
 name: mammary gland
 def: "A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males." []
-def: "Any of the milk-producing apocrine glands typically occurring in pairs in female mammals and consisting of lobes containing clusters of alveoli with a system of ducts to convey the milk to an external nipple or teat. [TFD][VHOG]" []
 subset: https://www.fairsharing.org
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0019319 ! exocrine gland of integumental system
@@ -6388,7 +6263,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/uberon.owl
 id: UBERON:0002107
 name: liver
 def: "An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes[GO]." []
-def: "Organ which secretes bile and participates in formation of certain blood proteins.[AAO]" []
 subset: https://www.fairsharing.org
 is_a: UBERON:0002365 ! exocrine gland
 is_a: UBERON:0005177 ! trunk region element
@@ -6718,16 +6592,6 @@ property_value: IAO:0000118 "Peptide spectrum match" xsd:string
 property_value: IAO:0000412 edam:EDAM.owl
 
 [Term]
-id: edam:data_0970
-name: Citation
-def: "Bibliographic data that uniquely identifies a scientific article, book or other published material." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000314 ! document part
-property_value: IAO:0000118 "Bibliographic reference" xsd:string
-property_value: IAO:0000118 "Reference" xsd:string
-property_value: IAO:0000412 edam:EDAM.owl
-
-[Term]
 id: edam:data_0976
 name: Identifier (by type of entity)
 def: "An identifier that identifies a particular type of data." []
@@ -6887,15 +6751,6 @@ name: Genome map
 def: "Sequence map of a whole genome." []
 subset: https://www.fairsharing.org
 is_a: edam:data_1280 ! Physical map
-property_value: IAO:0000412 edam:EDAM.owl
-
-[Term]
-id: edam:data_1364
-name: Hidden Markov model
-def: "A statistical Markov model of a system which is assumed to be a Markov process with unobserved (hidden) states. For example, a hidden Markov model representation of a set or alignment of sequences." []
-subset: https://www.fairsharing.org
-is_a: semsci:SIO_000510 ! model
-property_value: IAO:0000118 "HMM" xsd:string
 property_value: IAO:0000412 edam:EDAM.owl
 
 [Term]
@@ -7100,14 +6955,6 @@ property_value: IAO:0000118 "Oligonucleotide probe sets annotation" xsd:string
 property_value: IAO:0000412 edam:EDAM.owl
 
 [Term]
-id: edam:data_2849
-name: Abstract
-def: "An abstract of a scientific article." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000314 ! document part
-property_value: IAO:0000412 edam:EDAM.owl
-
-[Term]
 id: edam:data_2851
 name: Drug structure
 def: "3D coordinate and associated data for the (3D) structure of a drug." []
@@ -7221,14 +7068,6 @@ is_a: IAO:0000101 ! image
 property_value: IAO:0000412 edam:EDAM.owl
 
 [Term]
-id: edam:data_3241
-name: Kinetic model
-def: "Mathematical model of a network, that contains biochemical kinetics." []
-subset: https://www.fairsharing.org
-is_a: semsci:SIO_000510 ! model
-property_value: IAO:0000412 edam:EDAM.owl
-
-[Term]
 id: edam:data_3494
 name: DNA sequence
 def: "A DNA sequence." []
@@ -7244,25 +7083,6 @@ def: "An RNA sequence." []
 subset: https://www.fairsharing.org
 is_a: edam:data_2977 ! Nucleic acid sequence
 property_value: IAO:0000118 "RNA sequences" xsd:string
-property_value: IAO:0000412 edam:EDAM.owl
-
-[Term]
-id: edam:data_3505
-name: Bibliography
-def: "A list of publications such as scientic papers or books." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000314 ! document part
-property_value: IAO:0000412 edam:EDAM.owl
-
-[Term]
-id: edam:data_3671
-name: Text
-def: "Any free or plain text, typically for human consumption and in English. Can instantiate also as a textual search query." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000314 ! document part
-property_value: IAO:0000118 "Free text" xsd:string
-property_value: IAO:0000118 "Plain text" xsd:string
-property_value: IAO:0000118 "Textual search query" xsd:string
 property_value: IAO:0000412 edam:EDAM.owl
 
 [Term]
@@ -7916,10 +7736,6 @@ property_value: IAO:0000412 efo:efo.owl
 id: efo:EFO_0000319
 name: cardiovascular disease
 def: "A body system disease which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis." []
-def: "A disease involving the cardiovascular system." []
-def: "A non-neoplastic or neoplastic disorder affecting the heart or the vessels (arteries, veins and lymph vessels).  Representative examples of non-neoplastic cardiovascular disorders are endocarditis and hypertension.  Representative examples of neoplastic cardiovascular disorders are endocardial myxoma and angiosarcoma. -- 2003" []
-def: "A non-neoplastic or neoplastic disorder affecting the heart or the vessels (arteries, veins and lymph vessels). Representative examples of non-neoplastic cardiovascular disorders are endocarditis and hypertension. Representative examples of neoplastic cardiovascular disorders are endocardial myxoma and angiosarcoma." []
-def: "Pathological conditions involving the CARDIOVASCULAR SYSTEM including the HEART; the BLOOD VESSELS; or the PERICARDIUM." []
 subset: https://www.fairsharing.org
 is_a: OGMS:0000031 ! disease
 property_value: IAO:0000118 "[X]Cardiovascular disease, unspecified" xsd:string
@@ -8039,8 +7855,6 @@ property_value: IAO:0000412 efo:efo.owl
 id: efo:EFO_0000508
 name: genetic disorder
 def: "A disease that is caused by genetic modifications where those modifications are inherited from a parent's genome." []
-def: "A genetic disorder is a disorder in which an abnormality, i.e. mutation, of a gene or gene has occurred resulting in a diseased state. Note, this not imply that the disorder is hereditary since genetic mutations can occur during life time and are not always directly inherited or presented in parents (although they can be)." []
-def: "Genetic diseases are diseases in which inherited genes predispose to increased risk. The genetic disorders associated with cancer often result from an alteration or mutation in a single gene. The diseases range from rare dominant cancer family syndrome to familial tendencies in which low-penetrance genes may interact with other genes or environmental factors to induce cancer. Research may involve clinical, epidemiologic, and laboratory studies of persons, families, and populations at high risk of these disorders." []
 subset: https://www.fairsharing.org
 is_a: OGMS:0000031 ! disease
 property_value: IAO:0000118 "genetic disease" xsd:string
@@ -8160,7 +7974,6 @@ property_value: IAO:0000412 efo:efo.owl
 id: efo:EFO_0003890
 name: drug dependence
 def: "Disorders related to drug abuse, the side effects of a medication, or toxin exposure." []
-def: "Drug dependence - replaced the term \"drug addiction\" and is defined as a state, psychic and sometimes also physical, resulting from the interaction between a living organism and a drug, characterized by behavioral and other responses that always include a compulsion to take the drug on a continuous or periodic basis in order to experience its psychic effects, and sometimes to avoid the discomfort of its absence. Tolerance may or may not be present. A person may be dependent on more than one drug." []
 subset: https://www.fairsharing.org
 is_a: OGMS:0000031 ! disease
 property_value: IAO:0000118 "Abuse, Drug" xsd:string
@@ -8270,7 +8083,6 @@ property_value: IAO:0000412 efo:efo.owl
 id: efo:EFO_0005741
 name: infectious disease
 def: "A disease whose physical basis is an infectious agent" []
-def: "A disorder directly resulting from the presence and activity of a microbial, viral, or parasitic agent in humans. It can be transmitted by direct or indirect contact." []
 subset: https://www.fairsharing.org
 is_a: OGMS:0000031 ! disease
 property_value: IAO:0000118 "communicable disease" xsd:string
@@ -8341,13 +8153,6 @@ is_a: semsci:SIO_000716 ! medical practitioner
 property_value: IAO:0000412 http://semanticscience.org/ontology/sio.owl
 
 [Term]
-id: semsci:SIO_000510
-name: model
-subset: https://www.fairsharing.org
-is_a: IAO:0000030 ! information content entity
-property_value: IAO:0000412 http://semanticscience.org/ontology/sio.owl
-
-[Term]
 id: semsci:SIO_000716
 name: medical practitioner
 is_a: BFO:0000023 ! role
@@ -8389,19 +8194,17 @@ is_a: MI:0914 ! association
 property_value: IAO:0000412 http://semanticscience.org/ontology/sio.owl
 
 [Term]
+id: semsci:SIO_010414
+name: pathogen
+is_a: OBI:0100026 ! organism
+property_value: IAO:0000412 http://semanticscience.org/ontology/sio.owl
+
+[Term]
 id: semsci:SIO_010423
 name: target
 subset: https://www.fairsharing.org
 is_a: CHEBI:23367 ! molecular entity
 property_value: IAO:0000412 http://semanticscience.org/ontology/sio.owl
-
-[Term]
-id: swo:SWO_0000001
-name: software
-def: "Computer software, or generally just software, is any set of machine-readable instructions (most often in the form of a computer program) that conform to a given syntax (sometimes referred to as a language) that is interpretable by a given processor and that directs a computer's processor to perform specific operations." []
-subset: https://www.fairsharing.org
-is_a: IAO:0000030 ! information content entity
-property_value: IAO:0000412 http://purl.obolibrary.org/obo/swo.owl
 
 [Term]
 id: swo:SWO_0000143

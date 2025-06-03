@@ -27,13 +27,10 @@
 <http://purl.obolibrary.org/obo/CHEBI_23888>	"Any substance which when absorbed into a living organism may modify one or more of its functions. The term is generally accepted for a substance taken for a therapeutic purpose, but is also commonly used for abused substances."	
 <http://purl.obolibrary.org/obo/IAO_0000313>	"A document that has been accepted by a patent authority"@en	
 <http://purl.obolibrary.org/obo/CHMO_0001002>	"Column chromatography where the mobile phase is a gas."	
-<http://www.ebi.ac.uk/swo/SWO_0000001>	"Computer software, or generally just software, is any set of machine-readable instructions (most often in the form of a computer program) that conform to a given syntax (sometimes referred to as a language) that is interpretable by a given processor and that directs a computer's processor to perform specific operations."	
 <http://purl.obolibrary.org/obo/CLO_0037279>		
 <http://purl.obolibrary.org/obo/GO_0000775>	"The region of a chromosome that includes the centromeric DNA and associated proteins. In monocentric chromosomes, this region corresponds to a single area of the chromosome, whereas in holocentric chromosomes, it is evenly distributed along the chromosome."	
 <http://purl.obolibrary.org/obo/OBI_0100051>	"A material entity that is collected for potential use as an input upon which measurements or observations are performed."@en	
 <http://purl.obolibrary.org/obo/CHEBI_23367>	"Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity."	
-<http://edamontology.org/data_3241>	"Mathematical model of a network, that contains biochemical kinetics."	
-<http://purl.obolibrary.org/obo/NCIT_C42753>	"The operational aspect of a work procedure: how tasks are structured, who performs them, what their relative order is, how they are synchronized, how information flows to support the tasks and how tasks are being tracked."	
 <http://purl.obolibrary.org/obo/GO_0043687>	"The process of covalently altering one or more amino acids in a protein after the protein has been completely translated and released from the ribosome."	
 <http://purl.obolibrary.org/obo/CHEBI_33304>	"Any p-block molecular entity containing a chalcogen."	
 <http://purl.obolibrary.org/obo/MI_0208>	"An effect in which two genetic perturbations, when combined, result in a phenotype that does not appear to be merely explained by the superimposition or addition of effects of the original perturbations.\nab (not=) E"	
@@ -51,7 +48,6 @@
 <http://purl.obolibrary.org/obo/NCBITaxon_408172>		
 <http://purl.obolibrary.org/obo/SO_0000756>	"DNA synthesized by reverse transcriptase using RNA as a template."	
 <http://purl.obolibrary.org/obo/OBI_1110108>	"A material entity that is added to another material entity in an “adding a material entity into a target” process."@en	
-<http://edamontology.org/data_3671>	"Any free or plain text, typically for human consumption and in English. Can instantiate also as a textual search query."	
 <http://purl.obolibrary.org/obo/BFO_0000019>		
 <http://purl.obolibrary.org/obo/SO_0002096>	"A variation that expands or contracts a tandem repeat with regard to a reference."	
 <http://edamontology.org/operation_3196>	"Analyse DNA sequence data to identify differences between the genetic composition (genotype) of an individual compared to other individual's or a reference sequence."	
@@ -126,7 +122,6 @@
 <http://purl.obolibrary.org/obo/CHEBI_27026>	"Poisonous substance produced by a biological organism such as a microbe, animal or plant."	
 <http://purl.obolibrary.org/obo/ENVO_01000024>	"The marine benthic biome (benthic meaning 'bottom') encompasses the seafloor and includes such areas as shores, littoral or intertidal areas, marine coral reefs, and the deep seabed."	
 <http://purl.obolibrary.org/obo/DOID_150>	"A disease that involves a psychological or behavioral pattern generally associated with subjective distress or disability that occurs in an individual, and which are not a part of normal development or culture."@en	
-<http://purl.obolibrary.org/obo/OBI_0000272>	"A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process."@en	
 <http://purl.obolibrary.org/obo/UBERON_0000955>	"Part of the central nervous system situated within the cranium and composed of both nerve cell bodies and nerve fibers.[AAO]"	
 <http://purl.obolibrary.org/obo/ENVO_01001691>	"An mass of environmental materials which has appreciable quantities of several individual materials, such that the removal of one would convert the mass into a different entity."@en	
 <http://purl.obolibrary.org/obo/NCIT_C26549>	"The product of so-called RNA genes; a functional RNA represents the final product of a gene rather than a transient molecule that will be translated into protein."	
@@ -177,7 +172,6 @@
 <http://purl.obolibrary.org/obo/SO_0000591>	"A tertiary structure in RNA where nucleotides in a loop form base pairs with a region of RNA downstream of the loop."	
 <http://purl.obolibrary.org/obo/OMIT_0025926>		
 <http://edamontology.org/data_2899>	"Common name of a drug."	
-<http://purl.obolibrary.org/obo/NCIT_C15222>	"The customary allowance of food and drink taken by a person or an animal from day to day, particularly one especially planned to meet specific requirements of the individual, including or excluding certain items of food; a prescribed course of eating and drinking in which the amount and kind of food, as well as the times at which it is to be taken, are regulated for therapeutic purposes or selected with reference to a particular state of health."	
 <http://purl.obolibrary.org/obo/CHEBI_36963>	"An organochalcogen compound containing at least one carbon-oxygen bond."	
 <http://purl.obolibrary.org/obo/GO_0065010>	"Organized structure of distinctive morphology and function, bounded by a lipid bilayer membrane and occurring outside the cell."	
 <http://purl.obolibrary.org/obo/OBI_0001905>		
@@ -189,8 +183,8 @@
 <http://purl.obolibrary.org/obo/CLO_0000031>		
 <http://purl.obolibrary.org/obo/NCIT_C16507>	"Drug-, radiation-induced, or spontaneous injuries to DNA that introduce deviations from its normal double-helical conformation. These changes include structural distortions that interfere with replication and transcription, as well as point mutations that disrupt base pairs and exert damaging effects on future generations through changes in DNA sequence. If the damage is minor, it can often be repaired (DNA repair); extensive damage can induce apoptosis."	
 <http://purl.obolibrary.org/obo/DOID_0080001>	"A connective tissue disease that affects the structure or development of bone or causes an impairment of normal bone function."@en	
-<http://purl.obolibrary.org/obo/CHEBI_24835>	"A molecular entity that contains no carbon."	
 <http://www.ebi.ac.uk/efo/EFO_0003890>	"Drug dependence - replaced the term \"drug addiction\" and is defined as a state, psychic and sometimes also physical, resulting from the interaction between a living organism and a drug, characterized by behavioral and other responses that always include a compulsion to take the drug on a continuous or periodic basis in order to experience its psychic effects, and sometimes to avoid the discomfort of its absence. Tolerance may or may not be present. A person may be dependent on more than one drug."	
+<http://purl.obolibrary.org/obo/CHEBI_24835>	"A molecular entity that contains no carbon."	
 <http://purl.obolibrary.org/obo/PATO_0002070>	"A molecular quality that arises from the molecular attraction exerted between two atoms or compounds."	
 <http://edamontology.org/operation_3799>	"Counting and measuring experimentally determined observations into quantities."	
 <http://purl.obolibrary.org/obo/ENVO_01001787>	"An ecosystem which has its functions and composition determined by a water body."	
@@ -212,7 +206,6 @@
 <http://purl.obolibrary.org/obo/GO_0051301>	"The process resulting in division and partitioning of components of a cell to form more cells; may or may not be accompanied by the physical separation of a cell into distinct, individually membrane-bounded daughter cells."	
 <http://purl.obolibrary.org/obo/OBI_0000066>	"a planned process that consists of parts: planning, study design execution, documentation and which produce conclusion(s)."@en	
 <http://purl.obolibrary.org/obo/CL_0000084>	"A type of lymphocyte whose defining characteristic is the expression of a T cell receptor complex."	
-<http://purl.obolibrary.org/obo/IAO_0000311>	"A document that is the output of a publishing process."@en	
 <http://edamontology.org/data_2851>	"3D coordinate and associated data for the (3D) structure of a drug."	
 <http://purl.obolibrary.org/obo/CHEBI_33284>	"A nutrient is a food component that an organism uses to survive and grow."	
 <http://purl.obolibrary.org/obo/UBERON_0004907>	"The region of the digestive tract extending from the beginning of the intestines to the anus[GO - gut definition]."	
@@ -269,7 +262,6 @@
 <http://www.ebi.ac.uk/efo/EFO_0004327>	"Recording of the moment-to-moment electromotive forces of theÂ HEARTÂ as projected onto various sites on the body's surface, delineated as a scalar function of time. The recording is monitored by a tracing on slow moving chart paper or by observing it on a cardioscope, which is aÂ CATHODE RAY TUBE DISPLAY."	
 <http://purl.obolibrary.org/obo/IAO_0000309>	"A figure that expresses one or more propositions"@en	
 <http://purl.obolibrary.org/obo/CHEBI_51086>	"A role played by the molecular entity or part thereof within a chemical context."	
-<http://edamontology.org/data_1364>	"A statistical Markov model of a system which is assumed to be a Markov process with unobserved (hidden) states. For example, a hidden Markov model representation of a set or alignment of sequences."	
 <http://purl.obolibrary.org/obo/DOID_12849>	"An autism spectrum disorder that is characterized by symptoms across all three symptom domains (communication, social, restricted repetitive interests and behaviors), delayed language development, and symptom onset prior to age 3 years."@en	
 <http://purl.obolibrary.org/obo/SO_1000183>	"An alteration of the genome that leads to a change in the structure or number of one or more chromosomes."	
 <http://purl.obolibrary.org/obo/CL_0000540>	"The basic cellular unit of nervous tissue. Each neuron consists of a body, an axon, and dendrites. Their purpose is to receive, conduct, and transmit impulses in the nervous system."	
@@ -310,7 +302,6 @@
 <http://purl.obolibrary.org/obo/MI_0328>	"Molecule not part of or directly encoded by the genome, encompasses any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer, etc., identifiable as a separately distinguishable entity."	
 <http://purl.obolibrary.org/obo/UBERON_0000062>	"Anatomical structure that performs a specific function or group of functions [WP]."	
 <http://purl.obolibrary.org/obo/CHMO_0000999>	"A method that results in the separation of two or more components according to some property."	
-<http://purl.obolibrary.org/obo/IDO_0000522>	"An organism bearing a symbiont role."@en	
 <http://purl.obolibrary.org/obo/HP_0002664>	"An organ or organ-system abnormality that consists of uncontrolled autonomous cell-proliferation which can occur in any part of the body as a benign or malignant neoplasm (tumor)."	
 <http://edamontology.org/topic_3337>	"Repositories of biological samples, typically human, for basic biological and clinical research."	
 <http://edamontology.org/operation_0269>	"Predict and/or classify transmembrane proteins or transmembrane (helical) domains or regions in protein sequences."	
@@ -357,7 +348,6 @@
 <http://aims.fao.org/aos/agrovoc/c_16526>	"Bioenergy is renewable energy made available from materials derived from biological sources. [AL 6.3.18, source Wikipedia https://en.wikipedia.org/wiki/Bioenergy]."	
 <http://purl.obolibrary.org/obo/STATO_0000254>	"The allele frequency is a data item which denotes the incidence of a gene variant in a population. It is calculated as a ratio, by dividing the number of copies of a particular allele by the number of copies of all alleles at the genetic place (locus) in a population."@en	
 <http://purl.obolibrary.org/obo/CHEBI_15986>	"A nucleobase-containing molecular entity with a polymeric structure comprised of a linear sequence of 13 or more nucleotide residues."	
-<http://edamontology.org/data_0970>	"Bibliographic data that uniquely identifies a scientific article, book or other published material."	
 <http://purl.obolibrary.org/obo/FBcv_0003040>	"A project that constructs models describing the set of transcripts and polypeptides encoded by some group of genes."	
 <http://purl.obolibrary.org/obo/SO_0000858>	"An attribute describing a kind of homology where divergence occurred after a speciation event."	
 <http://purl.obolibrary.org/obo/CHEBI_50047>	"A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups."	
@@ -404,7 +394,6 @@
 <http://purl.obolibrary.org/obo/PATO_0002146>	"A quality inhering in a bearer by virtue of the severity of infectious disease caused by the bearer in a target organism."	
 <http://edamontology.org/data_0883>	"3D coordinate and associated data for a macromolecular tertiary (3D) structure or part of a structure."	
 <http://purl.obolibrary.org/obo/CHEBI_16670>	"Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from alpha-amino acids, but it includes those derived from any amino carboxylic acid. X = OH, OR, NH2, NHR, etc."	
-<http://purl.obolibrary.org/obo/OBI_0001000>	"A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study."@en	
 <http://biomodels.net/SBO/SBO_0000261>	"Synonym: Ki "	
 <http://www.ebi.ac.uk/efo/EFO_0000336>	"An irregularity in the number or structure of chromosomes, usually in the form of a gain (duplication), loss (deletion), exchange (translocation), or alteration in sequence (inversion) of genetic material."	
 <http://purl.obolibrary.org/obo/PATO_0001415>	"A quality inhering in a population by virtue of the proportion of its members that are ill at a given time."	
@@ -455,7 +444,6 @@
 <http://purl.obolibrary.org/obo/SO_0000110>	"Any extent of continuous biological sequence."	
 <http://edamontology.org/data_0976>	"An identifier that identifies a particular type of data."	
 <http://purl.obolibrary.org/obo/SO_0000646>	"A small RNA molecule that is the product of a longer exogenous or endogenous dsRNA, which is either a bimolecular duplex or very long hairpin, processed (via the Dicer pathway) such that numerous siRNAs accumulate from both strands of the dsRNA. siRNAs trigger the cleavage of their target molecules."	
-<http://semanticscience.org/resource/SIO_000510>		
 <http://purl.obolibrary.org/obo/SO_0001060>	"A sequence_variant is a non exact copy of a sequence_feature or genome exhibiting one or more sequence_alteration."	
 <http://purl.obolibrary.org/obo/NCIT_C17207>	"Transcription factors are a diverse group of proteins that bind to DNA at specific promoter or enhancer regions. They also bind to DNA-associated proteins to initiate, stimulate, inhibit or terminate transcription. The proteins are often physically associated in a preinitiation complex and contain structural motifs."	
 <http://www.ebi.ac.uk/efo/EFO_0000510>	"A genetic modification of the genome of  an organism which may occur naturally by spontaneous mutation, or be introduced by some experimental means. Examples of genetic modification include specification of a transgene or the gene knocked-out or details of transient transfection."	
@@ -532,6 +520,7 @@
 <http://purl.obolibrary.org/obo/GO_0070727>	"Any process in which a macromolecule is transported to, and/or maintained in, a specific location at the level of a cell. Localization at the cellular level encompasses movement within the cell, from within the cell to the cell surface, or from one location to another at the surface of a cell."	
 <http://purl.obolibrary.org/obo/OBI_0002438>	"An assay that detects the proximity of chromosomal DNA through the use of a ligation reaction in isolated nuclei."@en	
 <http://purl.obolibrary.org/obo/GO_0043227>	"Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane."	
+<http://semanticscience.org/resource/SIO_010414>		
 <http://purl.obolibrary.org/obo/OBI_0600053>	"a protocol application that uses an electrical potential to move material through a defined matrix in order to separate it by its resistance to movement and its charge"@en	
 <http://purl.obolibrary.org/obo/ENVO_01001654>	"A material transformation process during which solid or liquid particles form and are suspended in a mass of air, thus creating an aerosol."	
 <http://edamontology.org/data_2977>	"One or more nucleic acid sequences, possibly with associated annotation."	
@@ -575,7 +564,6 @@
 <http://edamontology.org/data_2050>	"General data for a molecule."	
 <http://purl.obolibrary.org/obo/MI_2030>	"The isoelectric point (pI) is the pH at which a particular molecule or surface carries no net electrical charge. For an amino acid with only one amine and one carboxyl group, the pI can be calculated from the pKas of this molecule."	
 <http://purl.obolibrary.org/obo/NCIT_C70699>	"Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products."	
-<http://purl.obolibrary.org/obo/IDOMAL_0000786>	"They are glycolipids with the major function of anchoring proteins to cell membrane surfaces. They are particularly abundant in protozoan parasites, where they serve as the predominant mechanism for integrating glycoproteins and phosphosaccharides into membrane lipid bilayers."	
 <http://purl.obolibrary.org/obo/NCIT_C17253>	"The total complement of hereditary material in a virus, which can be composed of either DNA or RNA."	
 <http://purl.obolibrary.org/obo/OBI_0000430>	"plasmid = DNA and has_quality circular and has_function\n(is_realized_as some gene expression) GO:0010467"@en	
 <http://purl.obolibrary.org/obo/CHMO_0000141>	"Any detection or measurement method where the structure of a crystal or molecule can be determined by directing a beam of particles or radiation at a sample and recording the resulting diffraction pattern."	
@@ -601,7 +589,6 @@
 <http://purl.obolibrary.org/obo/GO_0032991>	"A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which at least one component is a protein and the constituent parts function together."	
 <http://purl.obolibrary.org/obo/SO_0001006>	"A phage genome after it has established in the host genome in a latent/immune state either as a plasmid or as an integrated \"island\"."	
 <http://purl.obolibrary.org/obo/SO_0000418>	"The signal_peptide is a short region of the peptide located at the N-terminus that directs the protein to be secreted or part of membrane components."	
-<http://purl.obolibrary.org/obo/IDO_0000550>	"A molecular entity bearing an exotoxin disposition."@en	
 <http://purl.obolibrary.org/obo/GO_0006396>	"Any process involved in the conversion of one or more primary RNA transcripts into one or more mature RNA molecules."	
 <http://purl.obolibrary.org/obo/GO_0060255>	"Any process that modulates the frequency, rate or extent of the chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass."	
 <http://purl.obolibrary.org/obo/SO_0000839>	"Biological sequence region that can be assigned to a specific subsequence of a polypeptide."	
@@ -629,7 +616,6 @@
 <http://purl.obolibrary.org/obo/CHEBI_37622>	"An amide of a carboxylic acid, having the structure RC(=O)NR2. The term is used as a suffix in systematic name formation to denote the -C(=O)NH2 group including its carbon atom."	
 <http://purl.obolibrary.org/obo/OBI_0000181>	"A population is a group of material entities consisting of individuals which share a particular characteristic such as inhabiting a particular region or area or ability to interbreed."	
 <http://purl.obolibrary.org/obo/CHEBI_33697>	"High molecular weight, linear polymers, composed of nucleotides containing ribose and linked by phosphodiester bonds; RNA is central to the synthesis of proteins."	
-<http://edamontology.org/data_2849>	"An abstract of a scientific article."	
 <http://edamontology.org/topic_0621>	"A specific organism, or group of organisms, used to study a particular aspect of biology."	
 <http://purl.obolibrary.org/obo/SO_0000233>	"A transcript which has undergone the necessary modifications, if any, for its function. In eukaryotes this includes, for example, processing of introns, cleavage, base modification, and modifications to the 5' and/or the 3' ends, other than addition of bases. In bacteria functional mRNAs are usually not modified."	
 <http://purl.obolibrary.org/obo/CHEBI_36962>	"An organochalcogen compound is a compound containing at least one carbon-chalcogen bond."	
@@ -665,7 +651,6 @@
 <http://edamontology.org/data_1086>	"Identifier of an entry from a database of chemicals."	
 <http://edamontology.org/topic_3383>	"The use of imaging techniques to understand biology."	
 <http://purl.obolibrary.org/obo/OBI_0001199>	"A study design that is conducted entirely in a living organism, e.g. a compound treatment in a mouse model."@en	
-<http://edamontology.org/data_3505>	"A list of publications such as scientic papers or books."	
 <http://purl.obolibrary.org/obo/GO_0042571>	"An immunoglobulin complex that is secreted into extracellular space and found in mucosal areas or other tissues or circulating in the blood or lymph. In its canonical form, a circulating immunoglobulin complex is composed of two identical heavy chains and two identical light chains, held together by disulfide bonds. Some forms of are polymers of the basic structure and contain additional components such as J-chain and the secretory component."	
 <http://purl.obolibrary.org/obo/CHEBI_59163>	"A substance used as an indicator  of a biological state."	
 <http://edamontology.org/data_3103>	"Unique identifier of a drug conforming to the Anatomical Therapeutic Chemical (ATC) Classification System, a drug classification system controlled by the WHO Collaborating Centre for Drug Statistics Methodology (WHOCC)."	
@@ -728,7 +713,6 @@
 <http://purl.obolibrary.org/obo/ENVO_01000840>	"A chemical decomposition (the separation of a single chemical compound into its two or more elemental parts or to simpler compounds) caused by heat."	
 <http://purl.obolibrary.org/obo/OBI_0001848>	"An assay that incorporates chromatin immunoprecipitation (ChIP)-based enrichment, chromatin proximity ligation, Paired-End Tags, and high-throughput sequencing to determine de novo long-range chromatin interactions genome-wide."@en	
 <http://purl.obolibrary.org/obo/CL_0000451>	"A cell of hematopoietic origin, typically resident in particular tissues, specialized in the uptake, processing, and transport of antigens to lymph nodes for the purpose of stimulating an immune response via T cell activation. These cells are lineage negative (CD3-negative, CD19-negative, CD34-negative, and CD56-negative)."	
-<http://purl.obolibrary.org/obo/IDO_0000526>	"A organism bearing a parasite role."@en	
 <http://purl.obolibrary.org/obo/CHEBI_33839>	"A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass."	
 <http://purl.obolibrary.org/obo/OBI_0000231>	"a material processing that digests the fraction of input material that is susceptible to that enzyme"@en	
 <http://purl.obolibrary.org/obo/OMIT_0012761>		
@@ -760,7 +744,6 @@
 <http://purl.obolibrary.org/obo/CHEBI_51143>		
 <http://purl.obolibrary.org/obo/OBI_0000094>	"A planned process which results in physical changes in a specified input material"@en	
 <http://purl.obolibrary.org/obo/SO_0001059>	"A sequence_alteration is a sequence_feature whose extent is the deviation from another sequence."	
-<http://purl.obolibrary.org/obo/BFO_0000004>	"A continuant that is a bearer of quality and realizable entity entities, in which other entities inhere and which itself cannot inhere in anything."@en	
 <http://purl.obolibrary.org/obo/OMIT_0028415>		
 <http://purl.obolibrary.org/obo/MFOEM_000001>	"An affective process that is a synchronized aggregate of constituent mental processes including an appraisal process, which is valenced, has an object, and gives rise to an action tendency."	
 <http://purl.obolibrary.org/obo/GO_0016043>	"A process that results in the assembly, arrangement of constituent parts, or disassembly of a cellular component."	
@@ -780,7 +763,6 @@
 <http://edamontology.org/topic_1775>	"The study of gene and protein function including the prediction of functional properties of a protein."	
 <http://purl.obolibrary.org/obo/SO_0000336>	"A sequence that closely resembles a known functional gene, at another locus within a genome, that is non-functional as a consequence of (usually several) mutations that prevent either its transcription or translation (or both). In general, pseudogenes result from either reverse transcription of a transcript of their \"normal\" paralog (SO:0000043) (in which case the pseudogene typically lacks introns and includes a poly(A) tail) or from recombination (SO:0000044) (in which case the pseudogene is typically a tandem duplication of its \"normal\" paralog)."	
 <http://purl.obolibrary.org/obo/OBI_0302903>	"a planned process by which totally or partially complementary, single-stranded nucleic acids are  combined into a single molecule called heteroduplex or homoduplex to an extent depending on the amount of complementarity."@en	
-<http://purl.obolibrary.org/obo/NCIT_C17962>	"A computer-controlled presentation of some combination of audio, video, animation, graphics, still photo, and/or text where users can control the presentation and often interact with it."	
 <http://purl.obolibrary.org/obo/GO_0009892>	"Any process that stops, prevents, or reduces the frequency, rate or extent of the chemical reactions and pathways within a cell or an organism."	
 <http://purl.obolibrary.org/obo/OBI_0600020>	"An assay that uses visual examination of cells or tissue (or images of them) to make an assessment regarding a quality of the cells or tissue. This assay can include steps of staining, imaging, and judgement."@en	
 <http://edamontology.org/data_1872>	"The full name for a group of organisms, reflecting their biological classification and (usually) conforming to a standard nomenclature."	
@@ -790,8 +772,8 @@
 <http://edamontology.org/operation_0450>	"Detects chimeric sequences (chimeras) from a sequence alignment."	
 <http://edamontology.org/data_1011>	"An Enzyme Commission (EC) number of an enzyme."	
 <http://purl.obolibrary.org/obo/GO_0003682>	"Binding to chromatin, the network of fibers of DNA, protein, and sometimes RNA, that make up the chromosomes of the eukaryotic nucleus during interphase."	
-<http://purl.obolibrary.org/obo/CHEBI_24870>	"A molecular entity having a net electric charge."	
 <http://purl.obolibrary.org/obo/GO_0032259>	"The process in which a methyl group is covalently attached to a molecule."	
+<http://purl.obolibrary.org/obo/CHEBI_24870>	"A molecular entity having a net electric charge."	
 <http://purl.obolibrary.org/obo/CHEBI_18154>	"A biomacromolecule consisting of large numbers of monosaccharide residues linked glycosidically. This term is commonly used only for those containing more than ten monosaccharide residues."	
 <http://purl.obolibrary.org/obo/GO_0035195>	"A post-transcriptional gene silencing pathway in which regulatory microRNAs (miRNAs) elicit silencing of specific target genes. miRNAs are endogenous 21-24 nucleotide small RNAs processed from stem-loop RNA precursors (pre-miRNAs). Once incorporated into a RNA-induced silencing complex (RISC), miRNAs can downregulate protein production by either of two posttranscriptional mechanisms: endonucleolytic cleavage of the RNA (often mRNA) or mRNA translational repression, usually accompanied by poly-A tail shortening and subsequent degradation of the mRNA. miRNAs are present in all the animals and in plants, whereas siRNAs are present in lower animals and in plants."	
 <http://purl.obolibrary.org/obo/CHEBI_18059>	"'Lipids' is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids."	
@@ -812,7 +794,6 @@
 <http://purl.obolibrary.org/obo/ENVO_01000203>	"An environmental condition is a range of a determinate quality or combination of qualities that are present in an environmental system."	
 <http://purl.obolibrary.org/obo/CHEBI_33260>		
 <http://purl.obolibrary.org/obo/FBcv_0003036>	"A project that characterizes the set of inter-molecular interactions in an organism."	
-<http://purl.obolibrary.org/obo/IAO_0000013>	"A report that is published in a journal."@en	
 <http://purl.obolibrary.org/obo/GO_0008150>	"A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence."	
 <http://purl.obolibrary.org/obo/OBI_0600015>	"group assignment is a process which has an organism as specified input and during which a role is assigned"@en	
 <http://purl.obolibrary.org/obo/GO_0036094>	"Binding to a small molecule, any low molecular weight, monomeric, non-encoded molecule."	
@@ -840,7 +821,6 @@
 <http://www.fairsharing.org/ontology/domain/DRAO_0000289>	"Biocuration is the extraction of knowledge from unstructured biological and biomedical data into a standard, structured, computable form."	
 <http://purl.obolibrary.org/obo/STATO_0000184>	"A ratio is a data item which is formed with two numbers r and s is written r/s, where r is the numerator and s is the denominator. The ratio of r to s is equivalent to the quotient r/s."@en	
 <http://purl.obolibrary.org/obo/CHEBI_16991>	"High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms."	
-<http://purl.obolibrary.org/obo/IDOMAL_0000349>	"A heritable change in the sensitivity of a pest population that is reflected in the repeated failure of a product to achieve the expected level of control when used according to the label recommendation for that pest species."	
 <http://purl.obolibrary.org/obo/GO_0005996>	"The chemical reactions and pathways involving monosaccharides, the simplest carbohydrates. They are polyhydric alcohols containing either an aldehyde or a keto group and between three to ten or more carbon atoms. They form the constitutional repeating units of oligo- and polysaccharides."	
 <http://purl.obolibrary.org/obo/GO_0006413>	"The process preceding formation of the peptide bond between the first two amino acids of a protein. This includes the formation of a complex of the ribosome, mRNA or circRNA, and an initiation complex that contains the first aminoacyl-tRNA."	
 <http://purl.obolibrary.org/obo/OBI_0001686>	"An assay that localizes a specific DNA or RNA sequence within a portion or section of tissue using artificially induced nucleic hybridization."@en	
@@ -917,14 +897,13 @@
 <http://purl.obolibrary.org/obo/GO_0005634>	"A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent."	
 <http://purl.obolibrary.org/obo/SO_0000859>	"An attribute describing a kind of homology where divergence occurred after a duplication event."	
 <http://purl.obolibrary.org/obo/SO_0000870>	"An attribute describing transcript sequence that is created by splicing exons from diferent genes."	
-<http://purl.obolibrary.org/obo/IAO_0000310>	"A collection of information content entities intended to be understood together as a whole"@en	
 <http://purl.obolibrary.org/obo/DOID_863>	"A disease of anatomical entity that is located_in the central nervous system or located_in the peripheral nervous system."@en	
+<http://purl.obolibrary.org/obo/IAO_0000310>	"A collection of information content entities intended to be understood together as a whole"@en	
 <http://purl.obolibrary.org/obo/CHEBI_36357>	"Any molecular entity consisting of more than one atom."	
 <http://purl.obolibrary.org/obo/STATO_0000235>	"A genetic association study is a kind of study whose objective is to detect associations between phenotypes, between a phenotype and a genetic polymorphism or between two genetic polymorphisms."@en	
 <http://semanticscience.org/resource/SIO_000983>		
 <http://purl.obolibrary.org/obo/NCIT_C68821>	"A rule or order issued by an authority stating what may or may not be done or how something must be done."	
 <http://purl.obolibrary.org/obo/BFO_0000016>		
-<http://purl.obolibrary.org/obo/IDO_0000528>	"A material entity with a pathogenic disposition."@en	
 <http://purl.obolibrary.org/obo/PATO_0000049>	"A quality inhering in a bearer by virtue of the bearer's possessing or displaying a distinctive feature in type or degree or effect or force."	
 <http://purl.obolibrary.org/obo/OMIT_0026082>		
 <http://purl.obolibrary.org/obo/GO_0007608>	"The series of events required for an organism to receive an olfactory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Olfaction involves the detection of chemical composition of an organism's ambient medium by chemoreceptors. This is a neurological process."	
@@ -951,6 +930,5 @@
 <http://purl.obolibrary.org/obo/CHEBI_59132>	"Any substance that stimulates an immune response in the body, such as through antibody production or by presentation to a T-cell receptor after binding to a major histocompability complex (MHC)."	
 <http://purl.obolibrary.org/obo/OMIT_0009360>		
 <http://purl.obolibrary.org/obo/OBI_1110021>	"the detrimental process in which an infectious agent colonizes or replicates in a host environment"@en	
-<http://purl.obolibrary.org/obo/IDO_0000630>	"An infection resulting from a transmission process that unfolds in a hospital."@en	
 <http://purl.obolibrary.org/obo/CHEBI_25442>	"Poisonous substance produced by fungi."	
 <http://purl.obolibrary.org/obo/CHMO_0000591>	"Spectroscopy where the energy states of spin-active nuclei placed in a static magnetic field are interrogated by inducing transitions between the states via radio frequency irradiation."	

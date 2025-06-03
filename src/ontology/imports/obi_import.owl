@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/obi_import.owl>
-<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-08/imports/obi_import.owl>
-Annotation(owl:versionInfo "2025-05-08")
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-03/imports/obi_import.owl>
+Annotation(owl:versionInfo "2025-06-03")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -29,7 +29,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000310>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C70699>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000047>))
@@ -38,7 +37,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000073>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000115>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000231>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000272>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000398>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000415>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000423>))
@@ -65,7 +63,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000916>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000940>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000953>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000968>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001173>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0001177>))
@@ -126,8 +123,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/T4FS_0000141>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000115>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000118>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_0001847>))
-Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_9991118>))
 ############################
 #   Annotation Properties
 ############################
@@ -136,8 +131,8 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/OBI_9991118>))
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official OBI definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000115> "The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions."@en)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "definition"@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000115> "textual definition")
 
 # Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000118> (alternative label)
@@ -288,13 +283,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000104> "plan specification"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000104> <http://purl.obolibrary.org/obo/IAO_0000033>)
 
-# Class: <http://purl.obolibrary.org/obo/IAO_0000310> (document)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IAO_0000310> "A collection of information content entities intended to be understood together as a whole"@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/IAO_0000310> <http://purl.obolibrary.org/obo/obi.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000310> "document"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/IAO_0000310> <http://purl.obolibrary.org/obo/IAO_0000030>)
-
 # Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000011> "A process that realizes a plan which is the concretization of a plan specification."@en)
@@ -315,8 +303,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000070> "measuring"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000070> "scientific observation"@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/obi.owl>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OBI_0001847> <http://purl.obolibrary.org/obo/OBI_0000070> "study assay")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OBI_9991118> <http://purl.obolibrary.org/obo/OBI_0000070> "any method")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000070> "assay"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000070> <http://purl.obolibrary.org/obo/OBI_0000011>)
 
@@ -349,14 +335,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000231> <http://purl.obolibrary.org/obo/obi.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000231> "enzymatic cleavage"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000231> <http://purl.obolibrary.org/obo/OBI_0000094>)
-
-# Class: <http://purl.obolibrary.org/obo/OBI_0000272> (protocol)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0000272> "A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000272> <http://purl.obolibrary.org/obo/obi.owl>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OBI_0001847> <http://purl.obolibrary.org/obo/OBI_0000272> "study protocol")
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000272> "protocol"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000272> <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0000398> (image creation device)
 
@@ -496,7 +474,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000750> "experimental factor")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/OBI_0000750> "independent variable")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000750> <http://purl.obolibrary.org/obo/obi.owl>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OBI_0001847> <http://purl.obolibrary.org/obo/OBI_0000750> "study factor")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000750> "study design independent variable"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000750> <http://purl.obolibrary.org/obo/IAO_0000033>)
 
@@ -562,13 +539,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0000968> <http://purl.obolibrary.org/obo/obi.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000968> "device")
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000968> <http://purl.obolibrary.org/obo/OBI_0000047>)
-
-# Class: <http://purl.obolibrary.org/obo/OBI_0001000> (questionnaire)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0001000> "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study."@en)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0001000> <http://purl.obolibrary.org/obo/obi.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0001000> "questionnaire")
-SubClassOf(<http://purl.obolibrary.org/obo/OBI_0001000> <http://purl.obolibrary.org/obo/IAO_0000310>)
 
 # Class: <http://purl.obolibrary.org/obo/OBI_0001065> (stereo microscope)
 
@@ -834,7 +804,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302900> <http://purl.obolibrary.
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/OBI_0302903> "a planned process by which totally or partially complementary, single-stranded nucleic acids are  combined into a single molecule called heteroduplex or homoduplex to an extent depending on the amount of complementarity."@en)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/OBI_0302903> <http://purl.obolibrary.org/obo/obi.owl>)
-AnnotationAssertion(<http://purl.obolibrary.org/obo/OBI_0001847> <http://purl.obolibrary.org/obo/OBI_0302903> "hybridization assay")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0302903> "nucleic acid hybridization"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/OBI_0302903> <http://purl.obolibrary.org/obo/OBI_0000094>)
 

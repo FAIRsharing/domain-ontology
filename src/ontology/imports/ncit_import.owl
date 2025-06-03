@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://www.fairsharing.org/ontology/domain/DRAO/imports/ncit_import.owl>
-<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-05-08/imports/ncit_import.owl>
-Annotation(owl:versionInfo "2025-05-08")
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-03/imports/ncit_import.owl>
+Annotation(owl:versionInfo "2025-06-03")
 
 Declaration(Class(<http://edamontology.org/data_1460>))
 Declaration(Class(<http://edamontology.org/operation_2945>))
@@ -23,8 +23,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0008150>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0032501>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0043043>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0098687>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))
-Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IAO_0000310>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C101293>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C104154>))
@@ -34,7 +32,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C13375>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C13426>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C13445>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C142529>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C15222>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C15239>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C15311>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C15318>))
@@ -50,7 +47,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C17207>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C17253>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C17671>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C17958>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C17962>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C18106>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C18143>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C18469>))
@@ -59,7 +55,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C18962>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C18966>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C26549>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C41332>))
-Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C42753>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C45275>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C453>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C4873>))
@@ -74,7 +69,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000011>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000066>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000094>))
-Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0000272>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0100051>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_0600047>))
 Declaration(Class(<http://purl.obolibrary.org/obo/OBI_1110122>))
@@ -196,16 +190,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/NCIT_C142529> <http://purl.obolibrary.org/obo/ncit.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C142529> "Electronic Health Record")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C142529> <http://purl.obolibrary.org/obo/OGMS_0000123>)
-
-# Class: <http://purl.obolibrary.org/obo/NCIT_C15222> (Diet)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NCIT_C15222> "The customary allowance of food and drink taken by a person or an animal from day to day, particularly one especially planned to meet specific requirements of the individual, including or excluding certain items of food; a prescribed course of eating and drinking in which the amount and kind of food, as well as the times at which it is to be taken, are regulated for therapeutic purposes or selected with reference to a particular state of health.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NCIT_C15222> "Diet")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NCIT_C15222> "Dietary")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NCIT_C15222> "diet")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/NCIT_C15222> <http://purl.obolibrary.org/obo/ncit.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C15222> "Diet")
-SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C15222> <http://purl.obolibrary.org/obo/OBI_0000272>)
 
 # Class: <http://purl.obolibrary.org/obo/NCIT_C15239> (Patient Care)
 
@@ -370,14 +354,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.ob
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C17958> "Functional Magnetic Resonance Imaging")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C17958> <http://purl.obolibrary.org/obo/NCIT_C16809>)
 
-# Class: <http://purl.obolibrary.org/obo/NCIT_C17962> (Multimedia)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NCIT_C17962> "A computer-controlled presentation of some combination of audio, video, animation, graphics, still photo, and/or text where users can control the presentation and often interact with it.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NCIT_C17962> "Multimedia")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/NCIT_C17962> <http://purl.obolibrary.org/obo/ncit.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C17962> "Multimedia")
-SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C17962> <http://purl.obolibrary.org/obo/IAO_0000030>)
-
 # Class: <http://purl.obolibrary.org/obo/NCIT_C18106> (Receptor)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NCIT_C18106> "A protein located on the cell surface, or in the cytoplasm, that binds to a specific signaling factor, such as a hormone, antigen, or neurotransmitter, causing a conformational and functional change in the receptor molecule.  The ligand-bound receptor then alters its interaction with target molecules, which leads to changes in cellular physiology through modification of the activity of one or more signal transduction pathways.")
@@ -456,14 +432,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/NCIT_C41332> <http://purl.obolibrary.org/obo/ncit.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C41332> "Adverse Reaction")
 SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C41332> <http://purl.obolibrary.org/obo/GO_0008150>)
-
-# Class: <http://purl.obolibrary.org/obo/NCIT_C42753> (Workflow)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NCIT_C42753> "The operational aspect of a work procedure: how tasks are structured, who performs them, what their relative order is, how they are synchronized, how information flows to support the tasks and how tasks are being tracked.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/NCIT_C42753> "Workflow")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> <http://purl.obolibrary.org/obo/NCIT_C42753> <http://purl.obolibrary.org/obo/ncit.owl>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NCIT_C42753> "Workflow")
-SubClassOf(<http://purl.obolibrary.org/obo/NCIT_C42753> <http://purl.obolibrary.org/obo/IAO_0000104>)
 
 # Class: <http://purl.obolibrary.org/obo/NCIT_C45275> (Tracking)
 

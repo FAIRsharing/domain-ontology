@@ -17,7 +17,6 @@
 <http://purl.obolibrary.org/obo/OBI_0400148>	<http://www.w3.org/2000/01/rdf-schema#label>	"DNA microarray"	
 <http://purl.obolibrary.org/obo/OBI_0600014>	<http://www.w3.org/2000/01/rdf-schema#label>	"material component separation"@en	
 <http://purl.obolibrary.org/obo/OBI_0100014>	<http://www.w3.org/2000/01/rdf-schema#label>	"chimera"@en	
-<http://purl.obolibrary.org/obo/IAO_0000310>	<http://www.w3.org/2000/01/rdf-schema#label>	"document"@en	
 <http://purl.obolibrary.org/obo/OBI_0001876>	<http://www.w3.org/2000/01/rdf-schema#label>	"cell culture"	
 <http://purl.obolibrary.org/obo/OBI_0001850>	<http://www.w3.org/2000/01/rdf-schema#label>	"transcript analysis by paired-end tag sequencing assay"	
 <http://purl.obolibrary.org/obo/BFO_0000015>	<http://www.w3.org/2000/01/rdf-schema#label>	"process"@en	
@@ -37,7 +36,6 @@
 <http://purl.obolibrary.org/obo/BFO_0000040>	<http://www.w3.org/2000/01/rdf-schema#label>	"material entity"	
 <http://purl.obolibrary.org/obo/T4FS_0000141>	<http://www.w3.org/2000/01/rdf-schema#label>	"data management"@en	
 <http://purl.obolibrary.org/obo/OBI_0003117>	<http://www.w3.org/2000/01/rdf-schema#label>	"3D molecular structure determination assay"	
-<http://purl.obolibrary.org/obo/OBI_0000272>	<http://www.w3.org/2000/01/rdf-schema#label>	"protocol"@en	
 <http://purl.obolibrary.org/obo/OBI_0001848>	<http://www.w3.org/2000/01/rdf-schema#label>	"chromatin interaction analysis by paired-end tag sequencing assay"	
 <http://purl.obolibrary.org/obo/OBI_0000729>	<http://www.w3.org/2000/01/rdf-schema#label>	"cloning plasmid"	
 <http://purl.obolibrary.org/obo/OBI_0000916>	<http://www.w3.org/2000/01/rdf-schema#label>	"flow cytometry assay"	
@@ -63,7 +61,6 @@
 <http://purl.obolibrary.org/obo/OBI_0500000>	<http://www.w3.org/2000/01/rdf-schema#label>	"study design"@en	
 <http://purl.obolibrary.org/obo/OBI_0000398>	<http://www.w3.org/2000/01/rdf-schema#label>	"image creation device"	
 <http://purl.obolibrary.org/obo/OBI_0001177>	<http://www.w3.org/2000/01/rdf-schema#label>	"RNA sequencing assay"	
-<http://purl.obolibrary.org/obo/OBI_0001000>	<http://www.w3.org/2000/01/rdf-schema#label>	"questionnaire"	
 <http://purl.obolibrary.org/obo/OBI_0002186>	<http://www.w3.org/2000/01/rdf-schema#label>	"electroencephalography"	
 <http://purl.obolibrary.org/obo/IAO_0000104>	<http://www.w3.org/2000/01/rdf-schema#label>	"plan specification"@en	
 <http://purl.obolibrary.org/obo/OBI_0400147>	<http://www.w3.org/2000/01/rdf-schema#label>	"microarray"	
@@ -164,6 +161,47 @@
 <http://purl.obolibrary.org/obo/HP_0002664>	<http://www.w3.org/2000/01/rdf-schema#label>	"Neoplasm"	
 <http://purl.obolibrary.org/obo/HP_0001428>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete Somatic mutation"	
 <http://purl.obolibrary.org/obo/BFO_0000016>	<http://www.w3.org/2000/01/rdf-schema#label>	"disposition"@en	
+<http://www.ebi.ac.uk/efo/EFO_0000336>	<http://www.w3.org/2000/01/rdf-schema#label>	"chromosomal aberration"	
+<http://purl.obolibrary.org/obo/MI_0000>	<http://www.w3.org/2000/01/rdf-schema#label>	"molecular interaction"	
+<http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"@en	
+<http://purl.obolibrary.org/obo/UBERON_0000105>	<http://www.w3.org/2000/01/rdf-schema#label>	"life cycle stage"	
+<http://www.ebi.ac.uk/efo/EFO_0000749>	<http://www.w3.org/2000/01/rdf-schema#label>	"comparative genomic hybridization by array"	
+<http://www.ebi.ac.uk/efo/EFO_0000487>	<http://www.w3.org/2000/01/rdf-schema#label>	"exposure"	
+<http://www.ebi.ac.uk/efo/EFO_0000546>	<http://www.w3.org/2000/01/rdf-schema#label>	"injury"	
+<http://www.ebi.ac.uk/efo/EFO_0003890>	<http://www.w3.org/2000/01/rdf-schema#label>	"drug dependence"	
+<http://www.orpha.net/ORDO/Orphanet_68380>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete_mitochondrial disease"	
+<http://www.ebi.ac.uk/efo/EFO_0004327>	<http://www.w3.org/2000/01/rdf-schema#label>	"electrocardiography"	
+<http://purl.obolibrary.org/obo/OBI_0000181>	<http://www.w3.org/2000/01/rdf-schema#label>	"population"@en	
+<http://purl.obolibrary.org/obo/OBI_0000181>	<http://www.w3.org/2000/01/rdf-schema#label>	"population"	
+<http://www.ebi.ac.uk/efo/EFO_0000508>	<http://www.w3.org/2000/01/rdf-schema#label>	"genetic disorder"	
+<http://www.ebi.ac.uk/efo/EFO_0004014>	<http://www.w3.org/2000/01/rdf-schema#label>	"deletion"	
+<http://www.ebi.ac.uk/efo/EFO_0000400>	<http://www.w3.org/2000/01/rdf-schema#label>	"diabetes mellitus"	
+<http://www.ebi.ac.uk/efo/EFO_0007059>	<http://www.w3.org/2000/01/rdf-schema#label>	"germplasm"	
+<http://www.ebi.ac.uk/efo/EFO_0000269>	<http://www.w3.org/2000/01/rdf-schema#label>	"array design"	
+<http://www.ebi.ac.uk/efo/EFO_0000319>	<http://www.w3.org/2000/01/rdf-schema#label>	"cardiovascular disease"	
+<http://www.ebi.ac.uk/efo/EFO_0022599>	<http://www.w3.org/2000/01/rdf-schema#label>	"DNA methylation"@en	
+<http://purl.obolibrary.org/obo/IAO_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"data item"@en	
+<http://purl.obolibrary.org/obo/IAO_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"data item"	
+<http://www.ebi.ac.uk/efo/EFO_0000513>	<http://www.w3.org/2000/01/rdf-schema#label>	"genotype"	
+<http://www.ebi.ac.uk/efo/EFO_0022597>	<http://www.w3.org/2000/01/rdf-schema#label>	"aging"@en	
+<http://www.ebi.ac.uk/efo/EFO_0009878>	<http://www.w3.org/2000/01/rdf-schema#label>	"drug interaction"	
+<http://www.ebi.ac.uk/efo/EFO_0007550>	<http://www.w3.org/2000/01/rdf-schema#label>	"high content screen"	
+<http://www.ebi.ac.uk/efo/EFO_0003935>	<http://www.w3.org/2000/01/rdf-schema#label>	"mental health"	
+<http://www.ebi.ac.uk/efo/EFO_0005135>	<http://www.w3.org/2000/01/rdf-schema#label>	"strain"	
+<http://www.ebi.ac.uk/efo/EFO_0000727>	<http://www.w3.org/2000/01/rdf-schema#label>	"treatment"	
+<http://www.ebi.ac.uk/efo/EFO_0004798>	<http://www.w3.org/2000/01/rdf-schema#label>	"copy number variation"	
+<http://www.ebi.ac.uk/efo/EFO_0004554>	<http://www.w3.org/2000/01/rdf-schema#label>	"genomic measurement"	
+<http://www.ebi.ac.uk/efo/EFO_0004346>	<http://www.w3.org/2000/01/rdf-schema#label>	"neuroimaging measurement"	
+<http://www.ebi.ac.uk/efo/EFO_0002694>	<http://www.w3.org/2000/01/rdf-schema#label>	"experimental process"	
+<http://www.ebi.ac.uk/efo/EFO_0001355>	<http://www.w3.org/2000/01/rdf-schema#label>	"infant"	
+<http://www.ebi.ac.uk/efo/EFO_0003843>	<http://www.w3.org/2000/01/rdf-schema#label>	"pain"	
+<http://www.ebi.ac.uk/efo/EFO_0004426>	<http://www.w3.org/2000/01/rdf-schema#label>	"karyotype"	
+<http://www.ebi.ac.uk/efo/EFO_0004982>	<http://www.w3.org/2000/01/rdf-schema#label>	"microbiome"	
+<http://www.ebi.ac.uk/efo/EFO_0005741>	<http://www.w3.org/2000/01/rdf-schema#label>	"infectious disease"	
+<http://purl.obolibrary.org/obo/GO_0032502>	<http://www.w3.org/2000/01/rdf-schema#label>	"developmental process"	
+<http://www.ebi.ac.uk/efo/EFO_0000510>	<http://www.w3.org/2000/01/rdf-schema#label>	"genetic modification"	
+<http://purl.obolibrary.org/obo/GO_0032259>	<http://www.w3.org/2000/01/rdf-schema#label>	"methylation"	
+<http://www.ebi.ac.uk/efo/EFO_0004292>	<http://www.w3.org/2000/01/rdf-schema#label>	"vaccination"	
 <http://purl.obolibrary.org/obo/CHEBI_24431>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical entity"	
 <http://purl.obolibrary.org/obo/CHEBI_51087>	<http://www.w3.org/2000/01/rdf-schema#label>	"protecting group"	
 <http://purl.obolibrary.org/obo/CHEBI_50803>	<http://www.w3.org/2000/01/rdf-schema#label>	"nanoparticle"	
@@ -247,47 +285,6 @@
 <http://purl.obolibrary.org/obo/CHEBI_36916>	<http://www.w3.org/2000/01/rdf-schema#label>	"cation"	
 <http://purl.obolibrary.org/obo/CHEBI_33711>	<http://www.w3.org/2000/01/rdf-schema#label>	"C-terminal amino-acid residue"	
 <http://purl.obolibrary.org/obo/CHEBI_36342>	<http://www.w3.org/2000/01/rdf-schema#label>	"subatomic particle"	
-<http://www.ebi.ac.uk/efo/EFO_0000336>	<http://www.w3.org/2000/01/rdf-schema#label>	"chromosomal aberration"	
-<http://purl.obolibrary.org/obo/MI_0000>	<http://www.w3.org/2000/01/rdf-schema#label>	"molecular interaction"	
-<http://purl.obolibrary.org/obo/BFO_0000019>	<http://www.w3.org/2000/01/rdf-schema#label>	"quality"@en	
-<http://purl.obolibrary.org/obo/UBERON_0000105>	<http://www.w3.org/2000/01/rdf-schema#label>	"life cycle stage"	
-<http://www.ebi.ac.uk/efo/EFO_0000749>	<http://www.w3.org/2000/01/rdf-schema#label>	"comparative genomic hybridization by array"	
-<http://www.ebi.ac.uk/efo/EFO_0000487>	<http://www.w3.org/2000/01/rdf-schema#label>	"exposure"	
-<http://www.ebi.ac.uk/efo/EFO_0000546>	<http://www.w3.org/2000/01/rdf-schema#label>	"injury"	
-<http://www.ebi.ac.uk/efo/EFO_0003890>	<http://www.w3.org/2000/01/rdf-schema#label>	"drug dependence"	
-<http://www.orpha.net/ORDO/Orphanet_68380>	<http://www.w3.org/2000/01/rdf-schema#label>	"obsolete_mitochondrial disease"	
-<http://www.ebi.ac.uk/efo/EFO_0004327>	<http://www.w3.org/2000/01/rdf-schema#label>	"electrocardiography"	
-<http://purl.obolibrary.org/obo/OBI_0000181>	<http://www.w3.org/2000/01/rdf-schema#label>	"population"@en	
-<http://purl.obolibrary.org/obo/OBI_0000181>	<http://www.w3.org/2000/01/rdf-schema#label>	"population"	
-<http://www.ebi.ac.uk/efo/EFO_0000508>	<http://www.w3.org/2000/01/rdf-schema#label>	"genetic disorder"	
-<http://www.ebi.ac.uk/efo/EFO_0004014>	<http://www.w3.org/2000/01/rdf-schema#label>	"deletion"	
-<http://www.ebi.ac.uk/efo/EFO_0000400>	<http://www.w3.org/2000/01/rdf-schema#label>	"diabetes mellitus"	
-<http://www.ebi.ac.uk/efo/EFO_0007059>	<http://www.w3.org/2000/01/rdf-schema#label>	"germplasm"	
-<http://www.ebi.ac.uk/efo/EFO_0000269>	<http://www.w3.org/2000/01/rdf-schema#label>	"array design"	
-<http://www.ebi.ac.uk/efo/EFO_0000319>	<http://www.w3.org/2000/01/rdf-schema#label>	"cardiovascular disease"	
-<http://www.ebi.ac.uk/efo/EFO_0022599>	<http://www.w3.org/2000/01/rdf-schema#label>	"DNA methylation"@en	
-<http://purl.obolibrary.org/obo/IAO_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"data item"@en	
-<http://purl.obolibrary.org/obo/IAO_0000027>	<http://www.w3.org/2000/01/rdf-schema#label>	"data item"	
-<http://www.ebi.ac.uk/efo/EFO_0000513>	<http://www.w3.org/2000/01/rdf-schema#label>	"genotype"	
-<http://www.ebi.ac.uk/efo/EFO_0022597>	<http://www.w3.org/2000/01/rdf-schema#label>	"aging"@en	
-<http://www.ebi.ac.uk/efo/EFO_0009878>	<http://www.w3.org/2000/01/rdf-schema#label>	"drug interaction"	
-<http://www.ebi.ac.uk/efo/EFO_0007550>	<http://www.w3.org/2000/01/rdf-schema#label>	"high content screen"	
-<http://www.ebi.ac.uk/efo/EFO_0003935>	<http://www.w3.org/2000/01/rdf-schema#label>	"mental health"	
-<http://www.ebi.ac.uk/efo/EFO_0005135>	<http://www.w3.org/2000/01/rdf-schema#label>	"strain"	
-<http://www.ebi.ac.uk/efo/EFO_0000727>	<http://www.w3.org/2000/01/rdf-schema#label>	"treatment"	
-<http://www.ebi.ac.uk/efo/EFO_0004798>	<http://www.w3.org/2000/01/rdf-schema#label>	"copy number variation"	
-<http://www.ebi.ac.uk/efo/EFO_0004554>	<http://www.w3.org/2000/01/rdf-schema#label>	"genomic measurement"	
-<http://www.ebi.ac.uk/efo/EFO_0004346>	<http://www.w3.org/2000/01/rdf-schema#label>	"neuroimaging measurement"	
-<http://www.ebi.ac.uk/efo/EFO_0002694>	<http://www.w3.org/2000/01/rdf-schema#label>	"experimental process"	
-<http://www.ebi.ac.uk/efo/EFO_0001355>	<http://www.w3.org/2000/01/rdf-schema#label>	"infant"	
-<http://www.ebi.ac.uk/efo/EFO_0003843>	<http://www.w3.org/2000/01/rdf-schema#label>	"pain"	
-<http://www.ebi.ac.uk/efo/EFO_0004426>	<http://www.w3.org/2000/01/rdf-schema#label>	"karyotype"	
-<http://www.ebi.ac.uk/efo/EFO_0004982>	<http://www.w3.org/2000/01/rdf-schema#label>	"microbiome"	
-<http://www.ebi.ac.uk/efo/EFO_0005741>	<http://www.w3.org/2000/01/rdf-schema#label>	"infectious disease"	
-<http://purl.obolibrary.org/obo/GO_0032502>	<http://www.w3.org/2000/01/rdf-schema#label>	"developmental process"	
-<http://www.ebi.ac.uk/efo/EFO_0000510>	<http://www.w3.org/2000/01/rdf-schema#label>	"genetic modification"	
-<http://purl.obolibrary.org/obo/GO_0032259>	<http://www.w3.org/2000/01/rdf-schema#label>	"methylation"	
-<http://www.ebi.ac.uk/efo/EFO_0004292>	<http://www.w3.org/2000/01/rdf-schema#label>	"vaccination"	
 <http://purl.obolibrary.org/obo/OAE_0000235>	<http://www.w3.org/2000/01/rdf-schema#label>	"radiotherapy"@en	
 <http://purl.obolibrary.org/obo/OAE_0000094>	<http://www.w3.org/2000/01/rdf-schema#label>	"therapeutic intervention"	
 <http://purl.obolibrary.org/obo/OAE_0000002>	<http://www.w3.org/2000/01/rdf-schema#label>	"medical intervention"	
@@ -451,14 +448,13 @@
 <http://purl.obolibrary.org/obo/MS_1001193>	<http://www.w3.org/2000/01/rdf-schema#label>	"confidence score"	
 <http://purl.obolibrary.org/obo/IAO_0000183>	<http://www.w3.org/2000/01/rdf-schema#label>	"dendrogram"@en	
 <http://purl.obolibrary.org/obo/IAO_0000578>	<http://www.w3.org/2000/01/rdf-schema#label>	"centrally registered identifier"@en	
+<http://purl.obolibrary.org/obo/IAO_0000310>	<http://www.w3.org/2000/01/rdf-schema#label>	"document"@en	
 <http://purl.obolibrary.org/obo/IAO_0000088>	<http://www.w3.org/2000/01/rdf-schema#label>	"report"@en	
 <http://purl.obolibrary.org/obo/IAO_0020000>	<http://www.w3.org/2000/01/rdf-schema#label>	"identifier"@en	
 <http://purl.obolibrary.org/obo/IAO_0000314>	<http://www.w3.org/2000/01/rdf-schema#label>	"document part"@en	
-<http://purl.obolibrary.org/obo/IAO_0000311>	<http://www.w3.org/2000/01/rdf-schema#label>	"publication"@en	
 <http://purl.obolibrary.org/obo/IAO_0000038>	<http://www.w3.org/2000/01/rdf-schema#label>	"graph"@en	
 <http://purl.obolibrary.org/obo/IAO_0000309>	<http://www.w3.org/2000/01/rdf-schema#label>	"diagram"@en	
 <http://purl.obolibrary.org/obo/IAO_0000313>	<http://www.w3.org/2000/01/rdf-schema#label>	"patent"@en	
-<http://purl.obolibrary.org/obo/IAO_0000013>	<http://www.w3.org/2000/01/rdf-schema#label>	"journal article"@en	
 <http://purl.obolibrary.org/obo/IAO_0000308>	<http://www.w3.org/2000/01/rdf-schema#label>	"figure"@en	
 <http://purl.obolibrary.org/obo/IAO_0000572>	<http://www.w3.org/2000/01/rdf-schema#label>	"documenting"@en	
 <http://purl.obolibrary.org/obo/IAO_0000064>	<http://www.w3.org/2000/01/rdf-schema#label>	"algorithm"@en	
@@ -487,11 +483,6 @@
 <http://purl.obolibrary.org/obo/PATO_0000018>	<http://www.w3.org/2000/01/rdf-schema#label>	"fluorescence"	
 <http://purl.obolibrary.org/obo/T4FS_0000353>	<http://www.w3.org/2000/01/rdf-schema#label>	"resource management"@en	
 <http://purl.obolibrary.org/obo/T4FS_0000012>	<http://www.w3.org/2000/01/rdf-schema#label>	"data stewardship activity"@en	
-<http://purl.obolibrary.org/obo/IDO_0000630>	<http://www.w3.org/2000/01/rdf-schema#label>	"hospital-acquired infection"@en	
-<http://purl.obolibrary.org/obo/IDO_0000550>	<http://www.w3.org/2000/01/rdf-schema#label>	"exotoxin"@en	
-<http://purl.obolibrary.org/obo/IDO_0000528>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathogen"@en	
-<http://purl.obolibrary.org/obo/IDO_0000522>	<http://www.w3.org/2000/01/rdf-schema#label>	"symbiont"@en	
-<http://purl.obolibrary.org/obo/IDO_0000526>	<http://www.w3.org/2000/01/rdf-schema#label>	"parasite"@en	
 <http://www.fairsharing.org/ontology/domain/DRAO_0000289>	<http://www.w3.org/2000/01/rdf-schema#label>	"Biocuration"@en	
 <http://purl.obolibrary.org/obo/PRIDE_0000427>	<http://www.w3.org/2000/01/rdf-schema#label>	"Top-down proteomics"	
 <http://purl.obolibrary.org/obo/OMIT_0020804>	<http://www.w3.org/2000/01/rdf-schema#label>	"Quantitative Structure-Activity Relationship"	
@@ -585,7 +576,6 @@
 <http://purl.obolibrary.org/obo/OMRSE_00000056>	<http://www.w3.org/2000/01/rdf-schema#label>	"hospital organization"@en	
 <http://purl.obolibrary.org/obo/OBI_0000245>	<http://www.w3.org/2000/01/rdf-schema#label>	"organization"@en	
 <http://purl.obolibrary.org/obo/NCIT_C13375>	<http://www.w3.org/2000/01/rdf-schema#label>	"Chromosome Fragile Site"	
-<http://purl.obolibrary.org/obo/NCIT_C15222>	<http://www.w3.org/2000/01/rdf-schema#label>	"Diet"	
 <http://purl.obolibrary.org/obo/NCIT_C13426>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein Binding Domain"	
 <http://purl.obolibrary.org/obo/NCIT_C64862>	<http://www.w3.org/2000/01/rdf-schema#label>	"Diffusion Tensor Imaging"	
 <http://purl.obolibrary.org/obo/NCIT_C17007>	<http://www.w3.org/2000/01/rdf-schema#label>	"Positron Emission Tomography"	
@@ -612,7 +602,6 @@
 <http://purl.obolibrary.org/obo/SO_0000409>	<http://www.w3.org/2000/01/rdf-schema#label>	"binding_site"	
 <http://purl.obolibrary.org/obo/NCIT_C26549>	<http://www.w3.org/2000/01/rdf-schema#label>	"Untranslated RNA"	
 <http://purl.obolibrary.org/obo/NCIT_C142529>	<http://www.w3.org/2000/01/rdf-schema#label>	"Electronic Health Record"	
-<http://purl.obolibrary.org/obo/NCIT_C42753>	<http://www.w3.org/2000/01/rdf-schema#label>	"Workflow"	
 <http://edamontology.org/topic_0128>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein interactions"	
 <http://purl.obolibrary.org/obo/NCIT_C15959>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cellular Assay"	
 <http://purl.obolibrary.org/obo/NCIT_C17671>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nuclear Receptor"	
@@ -633,7 +622,6 @@
 <http://purl.obolibrary.org/obo/NCIT_C15318>	<http://www.w3.org/2000/01/rdf-schema#label>	"Reproducibility"	
 <http://purl.obolibrary.org/obo/NCIT_C16507>	<http://www.w3.org/2000/01/rdf-schema#label>	"DNA Damage"	
 <http://purl.obolibrary.org/obo/NCIT_C17207>	<http://www.w3.org/2000/01/rdf-schema#label>	"Transcription Factor"	
-<http://purl.obolibrary.org/obo/NCIT_C17962>	<http://www.w3.org/2000/01/rdf-schema#label>	"Multimedia"	
 <http://purl.obolibrary.org/obo/SO_0001026>	<http://www.w3.org/2000/01/rdf-schema#label>	"genome"	
 <http://purl.obolibrary.org/obo/NCIT_C68821>	<http://www.w3.org/2000/01/rdf-schema#label>	"Regulation"	
 <http://purl.obolibrary.org/obo/OMIT_0019234>	<http://www.w3.org/2000/01/rdf-schema#label>	"Peptide Library"	
@@ -650,8 +638,6 @@
 <http://purl.obolibrary.org/obo/OMIT_0028630>	<http://www.w3.org/2000/01/rdf-schema#label>	"Non-Randomized Controlled Trials as Topic"	
 <http://purl.obolibrary.org/obo/OMIT_0003072>	<http://www.w3.org/2000/01/rdf-schema#label>	"Biotransformation"	
 <http://purl.obolibrary.org/obo/OMIT_0028181>	<http://www.w3.org/2000/01/rdf-schema#label>	"Crowdsourcing"	
-<http://purl.obolibrary.org/obo/IDOMAL_0000786>	<http://www.w3.org/2000/01/rdf-schema#label>	"glycosylphosphatidylinositol anchor"	
-<http://purl.obolibrary.org/obo/IDOMAL_0000349>	<http://www.w3.org/2000/01/rdf-schema#label>	"insecticide resistance"	
 <http://edamontology.org/topic_0157>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sequence composition, complexity and repeats"	
 <http://edamontology.org/operation_2454>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gene prediction"	
 <http://edamontology.org/data_2337>	<http://www.w3.org/2000/01/rdf-schema#label>	"Resource metadata"	
@@ -667,7 +653,6 @@
 <http://edamontology.org/operation_2492>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein interaction prediction"	
 <http://edamontology.org/data_0993>	<http://www.w3.org/2000/01/rdf-schema#label>	"Drug identifier"	
 <http://edamontology.org/topic_3341>	<http://www.w3.org/2000/01/rdf-schema#label>	"Clone library"	
-<http://edamontology.org/data_3241>	<http://www.w3.org/2000/01/rdf-schema#label>	"Kinetic model"	
 <http://edamontology.org/data_1016>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sequence position"	
 <http://edamontology.org/topic_3384>	<http://www.w3.org/2000/01/rdf-schema#label>	"Medical imaging"	
 <http://edamontology.org/data_1235>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sequence cluster"	
@@ -684,7 +669,6 @@
 <http://edamontology.org/data_1011>	<http://www.w3.org/2000/01/rdf-schema#label>	"EC number"	
 <http://edamontology.org/data_0912>	<http://www.w3.org/2000/01/rdf-schema#label>	"Nucleic acid property"	
 <http://edamontology.org/data_1238>	<http://www.w3.org/2000/01/rdf-schema#label>	"Proteolytic digest"	
-<http://edamontology.org/data_2849>	<http://www.w3.org/2000/01/rdf-schema#label>	"Abstract"	
 <http://edamontology.org/topic_3383>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bioimaging"	
 <http://edamontology.org/operation_3767>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein identification"	
 <http://edamontology.org/operation_2423>	<http://www.w3.org/2000/01/rdf-schema#label>	"Prediction and recognition"	
@@ -705,8 +689,6 @@
 <http://edamontology.org/operation_0435>	<http://www.w3.org/2000/01/rdf-schema#label>	"Operon prediction"	
 <http://edamontology.org/operation_2428>	<http://www.w3.org/2000/01/rdf-schema#label>	"Validation"	
 <http://edamontology.org/data_1288>	<http://www.w3.org/2000/01/rdf-schema#label>	"Genome map"	
-<http://edamontology.org/data_3505>	<http://www.w3.org/2000/01/rdf-schema#label>	"Bibliography"	
-<http://semanticscience.org/resource/SIO_000510>	<http://www.w3.org/2000/01/rdf-schema#label>	"model"@en	
 <http://edamontology.org/operation_3741>	<http://www.w3.org/2000/01/rdf-schema#label>	"Differential protein expression profiling"	
 <http://edamontology.org/data_2099>	<http://www.w3.org/2000/01/rdf-schema#label>	"Name"	
 <http://edamontology.org/data_0984>	<http://www.w3.org/2000/01/rdf-schema#label>	"Molecule name"	
@@ -721,7 +703,6 @@
 <http://edamontology.org/operation_1777>	<http://www.w3.org/2000/01/rdf-schema#label>	"Protein function prediction"	
 <http://edamontology.org/data_2979>	<http://www.w3.org/2000/01/rdf-schema#label>	"Peptide property"	
 <http://edamontology.org/operation_3223>	<http://www.w3.org/2000/01/rdf-schema#label>	"Differential gene expression profiling"	
-<http://edamontology.org/data_1364>	<http://www.w3.org/2000/01/rdf-schema#label>	"Hidden Markov model"	
 <http://edamontology.org/topic_3345>	<http://www.w3.org/2000/01/rdf-schema#label>	"Data identity and mapping"	
 <http://edamontology.org/data_1696>	<http://www.w3.org/2000/01/rdf-schema#label>	"Drug report"	
 <http://edamontology.org/data_0916>	<http://www.w3.org/2000/01/rdf-schema#label>	"Gene report"	
@@ -737,7 +718,6 @@
 <http://edamontology.org/operation_0492>	<http://www.w3.org/2000/01/rdf-schema#label>	"Multiple sequence alignment"	
 <http://edamontology.org/data_1249>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sequence length"	
 <http://edamontology.org/operation_2422>	<http://www.w3.org/2000/01/rdf-schema#label>	"Data retrieval"	
-<http://edamontology.org/data_3671>	<http://www.w3.org/2000/01/rdf-schema#label>	"Text"	
 <http://edamontology.org/data_1280>	<http://www.w3.org/2000/01/rdf-schema#label>	"Physical map"	
 <http://edamontology.org/operation_3182>	<http://www.w3.org/2000/01/rdf-schema#label>	"Genome alignment"	
 <http://edamontology.org/data_0945>	<http://www.w3.org/2000/01/rdf-schema#label>	"Peptide identification"	
@@ -746,7 +726,6 @@
 <http://edamontology.org/data_1479>	<http://www.w3.org/2000/01/rdf-schema#label>	"Structure alignment (pair)"	
 <http://edamontology.org/data_2050>	<http://www.w3.org/2000/01/rdf-schema#label>	"Molecular property (general)"	
 <http://edamontology.org/data_3108>	<http://www.w3.org/2000/01/rdf-schema#label>	"Experimental measurement"	
-<http://edamontology.org/data_0970>	<http://www.w3.org/2000/01/rdf-schema#label>	"Citation"	
 <http://edamontology.org/operation_0488>	<http://www.w3.org/2000/01/rdf-schema#label>	"Linkage disequilibrium calculation"	
 <http://edamontology.org/operation_0294>	<http://www.w3.org/2000/01/rdf-schema#label>	"Structure-based sequence alignment"	
 <http://edamontology.org/topic_3337>	<http://www.w3.org/2000/01/rdf-schema#label>	"Biobank"	
@@ -789,6 +768,15 @@
 <http://purl.obolibrary.org/obo/MI_0914>	<http://www.w3.org/2000/01/rdf-schema#label>	"association"	
 <http://purl.obolibrary.org/obo/MI_0328>	<http://www.w3.org/2000/01/rdf-schema#label>	"small molecule"	
 <http://purl.obolibrary.org/obo/MI_0964>	<http://www.w3.org/2000/01/rdf-schema#label>	"infrared spectroscopy"	
+<http://semanticscience.org/resource/SIO_000398>	<http://www.w3.org/2000/01/rdf-schema#label>	"nurse"@en	
+<http://semanticscience.org/resource/SIO_010423>	<http://www.w3.org/2000/01/rdf-schema#label>	"target"@en	
+<http://semanticscience.org/resource/SIO_001257>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical-gene association"@en	
+<http://semanticscience.org/resource/SIO_000983>	<http://www.w3.org/2000/01/rdf-schema#label>	"gene-disease association"@en	
+<http://semanticscience.org/resource/SIO_000998>	<http://www.w3.org/2000/01/rdf-schema#label>	"literature curation"@en	
+<http://semanticscience.org/resource/SIO_001008>	<http://www.w3.org/2000/01/rdf-schema#label>	"toxicity"@en	
+<http://semanticscience.org/resource/SIO_010414>	<http://www.w3.org/2000/01/rdf-schema#label>	"pathogen"@en	
+<http://semanticscience.org/resource/SIO_000993>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical-disease association"@en	
+<http://semanticscience.org/resource/SIO_000716>	<http://www.w3.org/2000/01/rdf-schema#label>	"medical practitioner"@en	
 <http://purl.obolibrary.org/obo/SO_0000180>	<http://www.w3.org/2000/01/rdf-schema#label>	"retrotransposon"	
 <http://purl.obolibrary.org/obo/SO_0000771>	<http://www.w3.org/2000/01/rdf-schema#label>	"QTL"	
 <http://purl.obolibrary.org/obo/SO_0001021>	<http://www.w3.org/2000/01/rdf-schema#label>	"chromosome_breakpoint"	
@@ -877,17 +865,11 @@
 <http://purl.obolibrary.org/obo/SO_0000203>	<http://www.w3.org/2000/01/rdf-schema#label>	"UTR"	
 <http://purl.obolibrary.org/obo/SO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"region"	
 <http://purl.obolibrary.org/obo/SO_0005851>	<http://www.w3.org/2000/01/rdf-schema#label>	"gene_array"	
-<http://semanticscience.org/resource/SIO_000398>	<http://www.w3.org/2000/01/rdf-schema#label>	"nurse"@en	
-<http://semanticscience.org/resource/SIO_010423>	<http://www.w3.org/2000/01/rdf-schema#label>	"target"@en	
-<http://semanticscience.org/resource/SIO_001257>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical-gene association"@en	
-<http://semanticscience.org/resource/SIO_000983>	<http://www.w3.org/2000/01/rdf-schema#label>	"gene-disease association"@en	
-<http://semanticscience.org/resource/SIO_001008>	<http://www.w3.org/2000/01/rdf-schema#label>	"toxicity"@en	
-<http://semanticscience.org/resource/SIO_000998>	<http://www.w3.org/2000/01/rdf-schema#label>	"literature curation"@en	
-<http://semanticscience.org/resource/SIO_000993>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical-disease association"@en	
-<http://semanticscience.org/resource/SIO_000716>	<http://www.w3.org/2000/01/rdf-schema#label>	"medical practitioner"@en	
 <http://purl.obolibrary.org/obo/MOD_00693>	<http://www.w3.org/2000/01/rdf-schema#label>	"glycosylated residue"	
-<http://purl.obolibrary.org/obo/FMA_84795>	<http://www.w3.org/2000/01/rdf-schema#label>	"Human leukocyte antigen complex"	
-<http://purl.obolibrary.org/obo/FMA_70631>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cell morphology"	
+<http://purl.obolibrary.org/obo/MP_0005382>	<http://www.w3.org/2000/01/rdf-schema#label>	"craniofacial phenotype"	
+<http://purl.obolibrary.org/obo/MP_0003935>	<http://www.w3.org/2000/01/rdf-schema#label>	"abnormal craniofacial development"	
+<http://purl.obolibrary.org/obo/MP_0002555>	<http://www.w3.org/2000/01/rdf-schema#label>	"addiction"	
+<http://purl.obolibrary.org/obo/MP_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"mammalian phenotype"	
 <http://purl.obolibrary.org/obo/FBbi_00000364>	<http://www.w3.org/2000/01/rdf-schema#label>	"light-sheet illumination"	
 <http://purl.obolibrary.org/obo/FBbi_00000267>	<http://www.w3.org/2000/01/rdf-schema#label>	"animation"	
 <http://purl.obolibrary.org/obo/OGMS_0000045>	<http://www.w3.org/2000/01/rdf-schema#label>	"disorder"	
@@ -895,10 +877,8 @@
 <http://purl.obolibrary.org/obo/OGMS_0000093>	<http://www.w3.org/2000/01/rdf-schema#label>	"prognosis"	
 <http://purl.obolibrary.org/obo/OGMS_0000028>	<http://www.w3.org/2000/01/rdf-schema#label>	"disease phenotype"	
 <http://purl.obolibrary.org/obo/OGMS_0000063>	<http://www.w3.org/2000/01/rdf-schema#label>	"disease course"	
-<http://purl.obolibrary.org/obo/MP_0005382>	<http://www.w3.org/2000/01/rdf-schema#label>	"craniofacial phenotype"	
-<http://purl.obolibrary.org/obo/MP_0003935>	<http://www.w3.org/2000/01/rdf-schema#label>	"abnormal craniofacial development"	
-<http://purl.obolibrary.org/obo/MP_0002555>	<http://www.w3.org/2000/01/rdf-schema#label>	"addiction"	
-<http://purl.obolibrary.org/obo/MP_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"mammalian phenotype"	
+<http://purl.obolibrary.org/obo/FMA_84795>	<http://www.w3.org/2000/01/rdf-schema#label>	"Human leukocyte antigen complex"	
+<http://purl.obolibrary.org/obo/FMA_70631>	<http://www.w3.org/2000/01/rdf-schema#label>	"Cell morphology"	
 <http://purl.obolibrary.org/obo/FBcv_0003039>	<http://www.w3.org/2000/01/rdf-schema#label>	"chemical screen"	
 <http://purl.obolibrary.org/obo/FBcv_0000155>	<http://www.w3.org/2000/01/rdf-schema#label>	"single balancer"	
 <http://purl.obolibrary.org/obo/FBcv_0003077>	<http://www.w3.org/2000/01/rdf-schema#label>	"RNAi screen"	
@@ -930,4 +910,3 @@
 <http://www.ebi.ac.uk/swo/interface/SWO_9000051>	<http://www.w3.org/2000/01/rdf-schema#label>	"web service"	
 <http://www.ebi.ac.uk/swo/data/SWO_3000053>	<http://www.w3.org/2000/01/rdf-schema#label>	"Knowledge representation"@en	
 <http://www.ebi.ac.uk/swo/SWO_0000143>	<http://www.w3.org/2000/01/rdf-schema#label>	"data storage"	
-<http://www.ebi.ac.uk/swo/SWO_0000001>	<http://www.w3.org/2000/01/rdf-schema#label>	"software"	

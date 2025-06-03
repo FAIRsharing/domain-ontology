@@ -56,7 +56,7 @@ All import modules are in the [imports/](imports/) folder.
 
 After doing this, you can run
 
-`./run.sh make all_imports`
+sh run.sh make all_imports
 
 to regenerate imports.
 
@@ -81,8 +81,8 @@ to make sure you are on master, then
 ### Checking IRIs
 You should check the visible IRIs between the old and the new release before you go any further, to make sure that the only IRIs missing (and the only IRIs added) are those described in [RETIRED.md](../../RETIRED.md). In the src/ontology directory (where this README is), run the following commands to get a list of visible IRIs and compare them between the old and new OWL files:
 
-	java -jar /your/root/to/robot/robot.jar --catalog catalog-v001.xml query -f csv -i DRAO.owl --query ../../../../development/sparql/visible-IRI-list.sparql DRAO-new-visible.csv
-	java -jar /your/root/to/robot/robot.jar --catalog catalog-v001.xml query -f csv -i ../../DRAO.owl --query ../../../../development/sparql/visible-IRI-list.sparql DRAO-old-visible.csv
+	java -jar /your/root/to/robot/robot.jar --catalog catalog-v001.xml query -f csv -i DRAO.owl --query ../sparql/visible-IRI-list.sparql DRAO-new-visible.csv
+	java -jar /your/root/to/robot/robot.jar --catalog catalog-v001.xml query -f csv -i ../../DRAO.owl --query ../sparql/visible-IRI-list.sparql DRAO-old-visible.csv
 	diff DRAO-old-visible.csv DRAO-new-visible.csv > DRAO-diff.txt
 
 ### Building the Release

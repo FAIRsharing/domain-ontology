@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/97tndy7v.owl#"
-     xml:base="http://ontofox.hegroup.org/97tndy7v.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/p63s94pd.owl#"
+     xml:base="http://ontofox.hegroup.org/p63s94pd.owl"
      xmlns:data="http://www.ebi.ac.uk/swo/data/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -9,7 +9,7 @@
      xmlns:swo="http://www.ebi.ac.uk/swo/"
      xmlns:interface="http://www.ebi.ac.uk/swo/interface/"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/97tndy7v.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/p63s94pd.owl"/>
     
 
 
@@ -93,17 +93,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
         <obo:IAO_0000115>An information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A generically dependent continuant that is about some thing.</obo:IAO_0000115>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.ebi.ac.uk/swo/SWO_0000001 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/swo/SWO_0000001">
-        <rdfs:label>software</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115>Computer software, or generally just software, is any set of machine-readable instructions (most often in the form of a computer program) that conform to a given syntax (sometimes referred to as a language) that is interpretable by a given processor and that directs a computer&#39;s processor to perform specific operations.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/swo.owl"/>
     </owl:Class>
     
