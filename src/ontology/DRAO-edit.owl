@@ -577,6 +577,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:IAO_0000064 <https://www.fairsharing.o
 AnnotationAssertion(oboInOwl:inSubset obo:IAO_0000183 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset obo:IAO_0000313 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset obo:IAO_0000572 <https://www.fairsharing.org>)
+AnnotationAssertion(oboInOwl:inSubset obo:IAO_0000578 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset obo:IDOMAL_0000349 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset obo:IDOMAL_0000786 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset obo:IDO_0000526 <https://www.fairsharing.org>)

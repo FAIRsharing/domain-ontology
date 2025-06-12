@@ -212,6 +212,7 @@ http://purl.obolibrary.org/obo/NCIT_C453
 http://purl.obolibrary.org/obo/GO_0006338
 http://purl.obolibrary.org/obo/OMIT_0003072
 http://purl.obolibrary.org/obo/NCIT_C45275
+http://purl.obolibrary.org/obo/IAO_0000578
 http://purl.obolibrary.org/obo/PRIDE_0000427
 http://edamontology.org/operation_2454
 http://purl.obolibrary.org/obo/NCIT_C4873
