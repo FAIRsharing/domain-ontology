@@ -42,6 +42,7 @@ http://purl.obolibrary.org/obo/OBI_0000800
 http://purl.obolibrary.org/obo/CHMO_0000591
 http://purl.obolibrary.org/obo/PO_0009005
 http://purl.obolibrary.org/obo/SO_0000756
+http://semanticscience.org/resource/SIO_010414
 http://purl.obolibrary.org/obo/GO_0006457
 http://purl.obolibrary.org/obo/CHEBI_51087
 http://purl.obolibrary.org/obo/IAO_0000118

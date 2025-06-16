@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-12/DRAO-base.owl
+data-version: http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-16/DRAO-base.owl
 idspace: biomodels http://biomodels.net/SBO/ 
 idspace: dce http://purl.org/dc/elements/1.1/ 
 idspace: dcterms http://purl.org/dc/terms/ 
@@ -18,7 +18,7 @@ property_value: dce:type IAO:8000001
 property_value: dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.\n\nThese ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md\n\nAgroVoc and PRIDE classes were manually added as required.\n\nOriginally developed for use within FAIRsharing.org\n\nLicensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/" xsd:string
 property_value: dcterms:license https://creativecommons.org/licenses/by/4.0/
 property_value: dcterms:title "Domain Resource Application Ontology" xsd:string
-property_value: owl:versionInfo "2025-06-12" xsd:string
+property_value: owl:versionInfo "2025-06-16" xsd:string
 
 [Term]
 id: drao:DRAO_0000281

@@ -21,7 +21,7 @@
      xmlns:biomodels="http://biomodels.net/SBO/"
      xmlns:swointerface="http://www.ebi.ac.uk/swo/interface/">
     <owl:Ontology rdf:about="http://www.fairsharing.org/ontology/domain/DRAO.owl">
-        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-12/DRAO.owl"/>
+        <owl:versionIRI rdf:resource="http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-16/DRAO.owl"/>
         <dcterms:description xml:lang="en">The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
 
 These ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md
@@ -33,7 +33,7 @@ Originally developed for use within FAIRsharing.org
 Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <dcterms:title>Domain Resource Application Ontology</dcterms:title>
-        <owl:versionInfo>2025-06-12</owl:versionInfo>
+        <owl:versionInfo>2025-06-16</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -11333,6 +11333,7 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_010414">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000412 rdf:resource="http://semanticscience.org/ontology/sio.owl"/>
+        <oboInOwl:inSubset rdf:resource="https://www.fairsharing.org"/>
         <rdfs:label xml:lang="en">pathogen</rdfs:label>
     </owl:Class>
     

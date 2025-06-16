@@ -878,6 +878,7 @@ AnnotationAssertion(oboInOwl:inSubset semsci:SIO_000993 <https://www.fairsharing
 AnnotationAssertion(oboInOwl:inSubset semsci:SIO_000998 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset semsci:SIO_001008 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset semsci:SIO_001257 <https://www.fairsharing.org>)
+AnnotationAssertion(oboInOwl:inSubset semsci:SIO_010414 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset semsci:SIO_010423 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset efo:EFO_0000269 <https://www.fairsharing.org>)
 AnnotationAssertion(oboInOwl:inSubset efo:EFO_0000319 <https://www.fairsharing.org>)

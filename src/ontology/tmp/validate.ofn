@@ -21,7 +21,7 @@ Prefix(swointerface:=<http://www.ebi.ac.uk/swo/interface/>)
 
 
 Ontology(<http://www.fairsharing.org/ontology/domain/DRAO.owl>
-<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-12/DRAO.owl>
+<http://www.fairsharing.org/ontology/domain/DRAO/releases/2025-06-16/DRAO.owl>
 Annotation(dcterms:description "The Domain Resource Application Ontology (DRAO) contains terms from over 40 community ontologies, as listed at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md.
 
 These ontologies were added to DRAO through semi-automated procedures using the ODK; full details are available at https://github.com/FAIRsharing/domain-ontology. Licensing information can be found at https://github.com/FAIRsharing/domain-ontology/blob/master/LicensingCompliance.md
@@ -33,7 +33,7 @@ Originally developed for use within FAIRsharing.org
 Licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/"@en)
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Domain Resource Application Ontology")
-Annotation(owl:versionInfo "2025-06-12")
+Annotation(owl:versionInfo "2025-06-16")
 
 Declaration(Class(<http://aims.fao.org/aos/agrovoc/c_16526>))
 Declaration(Class(<http://aims.fao.org/aos/agrovoc/c_1971>))
@@ -8759,6 +8759,7 @@ SubClassOf(semsci:SIO_001257 obo:MI_0914)
 # Class: semsci:SIO_010414 (pathogen)
 
 AnnotationAssertion(obo:IAO_0000412 semsci:SIO_010414 <http://semanticscience.org/ontology/sio.owl>)
+AnnotationAssertion(oboInOwl:inSubset semsci:SIO_010414 <https://www.fairsharing.org>)
 AnnotationAssertion(rdfs:label semsci:SIO_010414 "pathogen"@en)
 SubClassOf(semsci:SIO_010414 obo:OBI_0100026)
 

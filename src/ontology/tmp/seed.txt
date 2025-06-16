@@ -561,6 +561,7 @@ http://semanticscience.org/resource/SIO_000993
 http://semanticscience.org/resource/SIO_000998
 http://semanticscience.org/resource/SIO_001008
 http://semanticscience.org/resource/SIO_001257
+http://semanticscience.org/resource/SIO_010414
 http://semanticscience.org/resource/SIO_010423
 http://www.ebi.ac.uk/efo/EFO_0000269
 http://www.ebi.ac.uk/efo/EFO_0000319
